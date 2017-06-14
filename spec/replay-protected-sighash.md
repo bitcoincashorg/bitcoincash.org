@@ -1,5 +1,7 @@
 # BUIP-HF Digest for replay protected signature verification accross hard forks
 
+Version 1.0, 2017-06-14
+
 ## Abstract
 
 This document describes proposed requirements and design for a reusable signing mechanism ensuring replay protection in the event of a hard fork. It provides a way for users to create transactions which are invalid on forks lacking support for the mechanism and a fork-specific ID.
