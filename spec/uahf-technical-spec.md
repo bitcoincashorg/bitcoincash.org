@@ -1,6 +1,6 @@
 # UAHF Technical Specification
 
-Version 1.1, 2017-06-14
+Version 1.2, 2017-06-14
 
 
 ## Introduction
@@ -73,8 +73,8 @@ REQ-DISABLE)
 ### REQ-2 (configurable activation time)
 
 The client shall allow a "activation time" to be configured by the user,
-with a default value of 1501545600 (epoch time corresponding to Tue
-1 Aug 2017 00:00:00 UTC)
+with a default value of 1501590000 (epoch time corresponding to Tue
+1 Aug 2017 12:20:00 UTC)
 
 RATIONALE: Make it configurable to adapt easily to UASF activation
 time changes.
