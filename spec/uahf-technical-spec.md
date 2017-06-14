@@ -1,6 +1,6 @@
 # UAHF Technical Specification
 
-Version 1.0, 2017-06-14
+Version 1.1, 2017-06-14
 
 
 ## Introduction
@@ -38,9 +38,10 @@ is a block up to 1,000,000 bytes in size.
 
 "Core rules" means all blocks <= 1,000,000 bytes (Base block size).
 
-"BU tx/sigops rules" means the existing additional consensus rules (1) and
+"Extended BU tx/sigops rules" means the existing additional consensus rules (1) and
 (2) below, as formalized by BUIP040 [1] and used by the Bitcoin Unlimited
-client's excessive checks for blocks larger than 1MB:
+client's excessive checks for blocks larger than 1MB, extended with rule
+(3) below:
 1. maximum sigops per block is calculated based on the actual size of
 a block using
 max_block_sigops = 20000 * ceil((max(blocksize, 1000000) / 1000000))
@@ -124,7 +125,7 @@ specified by the user (default: 2MB) will take effect.
 
 ### REQ-5 (max tx / max block sigops rules for blocks > 1 MB)
 
-Blocks larger than 1,000,000 shall be subject to "BU tx/sigops rules"
+Blocks larger than 1,000,000 shall be subject to "Extended BU tx/sigops rules"
 as follows:
 
 1. maximum sigops per block shall be calculated based on the actual size of
