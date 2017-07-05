@@ -8,7 +8,7 @@ This document describes proposed requirements and design for a reusable signing 
 
 The proposed digest algorithm is adapted from BIP143[[1]](#bip143) as it minimizes redundant data hashing in verification, covers the input value by the signature and is already implemented in a wide variety of applications[[2]](#bip143Motivation).
 
-The proposed digest algorithm is used when the `SIGHASH_FORKID` bit is set in the signature's sighash type. The verification of signatures which do not set this is bit is not affected.
+The proposed digest algorithm is used when the `SIGHASH_FORKID` bit is set in the signature's sighash type. The verification of signatures which do not set this bit is not affected.
 
 ## Specification
 
