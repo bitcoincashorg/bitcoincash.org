@@ -8,7 +8,7 @@ This document describes proposed requirements and design for a reusable signing 
 
 The proposed digest algorithm is adapted from BIP143[[1]](#bip143) as it minimizes redundant data hashing in verification, covers the input value by the signature and is already implemented in a wide variety of applications[[2]](#bip143Motivation).
 
-The proposed digest algorithm is used when the `SIGHASH_FORKID` bit is set in the signature's sighash type. The verification of signatures which do not set this is bit is not affected.
+The proposed digest algorithm is used when the `SIGHASH_FORKID` bit is set in the signature's sighash type. The verification of signatures which do not set this bit is not affected.
 
 ## Specification
 
@@ -66,7 +66,7 @@ In this section, we call `script` the script being currently executed. This mean
 Notes:
 1. Contrary to the original algorithm, this one does not use `FindAndDelete` to remove the signature from the script.
 2. Because of 1, it is not possible to create a valid signature within `redeemScript` or `scriptPubkey` as the signature would be part of the digest. This enforces that the signature is in `sigScript` .
-3. In case an opcode that requires signature checking is present in `sigScript`, `script` is effectively `sigScript`. However, for reason similar to 2. , it is not possible to provide a valid signature in that case.
+3. In case an opcode that requires signature checking is present in `sigScript`, `script` is effectively `sigScript`. However, for reason similar to 2, it is not possible to provide a valid signature in that case.
 
 #### value
 
