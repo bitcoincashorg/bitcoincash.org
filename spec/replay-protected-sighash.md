@@ -66,7 +66,7 @@ In this section, we call `script` the script being currently executed. This mean
 Notes:
 1. Contrary to the original algorithm, this one does not use `FindAndDelete` to remove the signature from the script.
 2. Because of 1, it is not possible to create a valid signature within `redeemScript` or `scriptPubkey` as the signature would be part of the digest. This enforces that the signature is in `sigScript` .
-3. In case an opcode that requires signature checking is present in `sigScript`, `script` is effectively `sigScript`. However, for reason similar to 2. , it is not possible to provide a valid signature in that case.
+3. In case an opcode that requires signature checking is present in `sigScript`, `script` is effectively `sigScript`. However, for reason similar to 2, it is not possible to provide a valid signature in that case.
 
 #### value
 
