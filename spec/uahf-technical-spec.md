@@ -1,6 +1,6 @@
 # UAHF Technical Specification
 
-Version 1.2, 2017-06-14
+Version 1.3, 2017-06-29
 
 
 ## Introduction
