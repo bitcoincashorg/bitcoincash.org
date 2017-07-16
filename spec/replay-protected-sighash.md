@@ -1,6 +1,6 @@
 # BUIP-HF Digest for replay protected signature verification across hard forks
 
-Version 1.1, 2017-06-14
+Version 1.2, 2017-07-16
 
 ## Abstract
 
@@ -188,6 +188,12 @@ Gating code:
   }
 ````
 
+## Note
+
+In the UAHF, a `fork id` of 0 is used (see [[4]](#uahfspec) REQ-6-2 NOTE 4), i.e.
+the GetForkID() function returns zero.
+In that case the code can be simplified to omit the function.
+
 ## References
 
 <a name="bip143">[1]</a> https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki
@@ -195,3 +201,5 @@ Gating code:
 <a name="bip143Motivation">[2]</a> https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki#Motivation
 
 <a name="OP_CHECKSIG">[3]</a> https://en.bitcoin.it/wiki/OP_CHECKSIG
+
+<a name="uahfspec">[4]</a> https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md

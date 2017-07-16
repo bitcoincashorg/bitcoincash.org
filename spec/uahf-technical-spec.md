@@ -1,6 +1,6 @@
 # UAHF Technical Specification
 
-Version 1.3, 2017-06-29
+Version 1.4, 2017-07-16
 
 
 ## Introduction
@@ -184,6 +184,10 @@ constraint introduced by REQ-6-1.
 
 NOTE 3: If bit 6 is not set, only the unmodified nHashType will be used
 to compute the hash and verify the signature.
+
+NOTE 4: The magic 'fork id' value used by UAHF-compatible clients is zero.
+This means that the change in hash when bit 6 is set is effected only by
+the adapted signing algorithm (see REQ-6-3).
 
 
 ### REQ-6-3 (use adapted BIP143 hash algorithm for protected transactions)
