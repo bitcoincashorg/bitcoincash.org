@@ -149,7 +149,12 @@ firm rules at their own risk.
 ### REQ-6-1 (disallow special OP_RETURN-marked transactions with sunset clause)
 
 Once the fork has activated, transactions containing an OP_RETURN output
-with a specific magic data value shall be considered invalid until
+with a specific magic data value of
+
+    Bitcoin: A Peer-to-Peer Electronic Cash System
+
+(46 characters, including the single spaces separating the words, and
+without any terminating null character) shall be considered invalid until
 block 530,000 inclusive.
 
 RATIONALE: To give users on the legacy chain (or other fork chains)
