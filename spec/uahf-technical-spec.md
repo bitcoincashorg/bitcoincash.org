@@ -199,6 +199,16 @@ digest based on BIP143. Revisions were made to account for non-Segwit
 deployment.
 
 
+### REQ-7 Difficulty adjustement in case of hashrate drop
+
+In case the MTP of the tip of the chain is 12h or more after the MTP 6 block
+before the tip, the proof of work target is increased by a quarter, or 25%,
+which corresponds to a difficulty reduction of 20% .
+
+RATIONALE: The hashrate supporting the chain is dependent on market price and
+hard to predict. In order to make sure the chain remains viable no matter what
+difficulty needs to adjust down in case of abrupt hashrate drop.
+
 ### REQ-DISABLE (disable fork by setting fork time to 0)
 
 If the activation time is configured to 0, the client shall not enforce
