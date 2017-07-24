@@ -1,6 +1,6 @@
 # UAHF Technical Specification
 
-Version 1.4, 2017-07-16
+Version 1.5, 2017-07-22
 
 
 ## Introduction
@@ -228,6 +228,20 @@ constraints at startup.
 RATIONALE: To make it possible to use such a release as a compatible
 client with legacy chain / i.e. to decide to not follow the HF on one's
 node / make a decision at late stage without needing to change client.
+
+
+### OPT-SERVICEBIT (NODE_BITCOIN_CASH service bit)
+
+A UAHF-compatible client should set service bit 5 (value 0x20).
+
+RATIONALE: This service bit allows signaling that the node is a UAHF
+supporting node, which helps DNS seeders distinguish UAHF implementations.
+
+NOTE 1: This is an optional feature which clients do not strictly have to
+implement.
+
+NOTE 2: This bit is currently referred to as NODE_BITCOIN_CASH and displayed
+as "CASH" in user interfaces of some Bitcoin clients (BU, ABC).
 
 
 ## References
