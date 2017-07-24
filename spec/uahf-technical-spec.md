@@ -148,8 +148,7 @@ firm rules at their own risk.
 
 ### REQ-6-1 (disallow special OP_RETURN-marked transactions with sunset clause)
 
-Once the fork has activated, transactions containing an OP_RETURN output
-with a specific magic data value of
+Once the fork has activated, transactions consisting exclusively of a single OP_RETURN output, followed by a single minimally-coded data push with the specific magic data value of
 
     Bitcoin: A Peer-to-Peer Electronic Cash System
 
