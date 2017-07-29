@@ -4,7 +4,7 @@ Version 1.2, 2017-07-16
 
 ## Abstract
 
-This document describes proposed requirements and design for a reusable signing mechanism ensuring replay protection in the event of a hard fork. It provides a way for users to create transactions which are invalid on forks lacking support for the mechanism and a fork-specific ID.
+This document describes proposed requirements and design for a reusable signing mechanism ensuring replay protection in the event of a chain split. It provides a way for users to create transactions which are invalid on forks lacking support for the mechanism and a fork-specific ID.
 
 The proposed digest algorithm is adapted from BIP143[[1]](#bip143) as it minimizes redundant data hashing in verification, covers the input value by the signature and is already implemented in a wide variety of applications[[2]](#bip143Motivation).
 
@@ -26,7 +26,7 @@ The proposed digest algorithm is only used when the `SIGHASH_FORKID` bit in the 
 
 In presence of the `SIGHASH_FORKID` flag in the signature's sighash type, the proposed algorithm is used.
 
-Signatures using `SIGHASH_FORKID` must be rejected before [UAHF](https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md) is activated.
+Signatures using the `SIGHASH_FORKID` digest method must be rejected before [UAHF](https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md) is activated.
 
 In order to ensure proper activation, the reference implementation uses the `SCRIPT_ENABLE_SIGHASH_FORKID` flag when executing `EvalScript` .
 
@@ -70,16 +70,16 @@ Notes:
 
 #### value
 
-The 8-byte value of the amount of bitcoin spent in this input.
+The 8-byte value of the amount of Bitcoin this input contains.
 
 #### hashOutputs
 
-* If the sighash type is neither `SINGLE` nor `NONE`, `hashOutputs` is the double SHA256 of the serialization of all output amount (8-byte little endian) with `scriptPubKey` (serialized as scripts inside CTxOuts);
+* If the sighash type is neither `SINGLE` nor `NONE`, `hashOutputs` is the double SHA256 of the serialization of all output amounts (8-byte little endian) paired up with their `scriptPubKey` (serialized as scripts inside CTxOuts);
 * If sighash type is `SINGLE` and the input index is smaller than the number of outputs, `hashOutputs` is the double SHA256 of the output amount with `scriptPubKey` of the same index as the input;
 * Otherwise, `hashOutputs` is a `uint256` of `0x0000......0000`.
 
 Notes:
-1. In the [original algorithm][3], a `uint256` of `0x0000......0001` is committed if the input index for a `SINGLE` signature is greater than or equal to the number of outputs. In this BIP a `0x0000......0000` is committed, without changing the semantics.
+1. In the original algorithm[[3]](#OP_CHECKSIG), a `uint256` of `0x0000......0001` is committed if the input index for a `SINGLE` signature is greater than or equal to the number of outputs. In this BIP a `0x0000......0000` is committed, without changing the semantics.
 
 #### sighash type
 
