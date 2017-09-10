@@ -2,6 +2,12 @@
 
 This is the repository for [bitcoincash.org](https://bitcoincash.org). As the Bitcoin Cash community expands, we hope that many will participate and improve this project over time.
 
+Build & Run the Docker Image
+----------------------------
+
+1. `docker build .`
+2. `docker run -d -p 8888:80 <IMAGE>`
+
 About Bitcoin Cash
 ------------------
 
