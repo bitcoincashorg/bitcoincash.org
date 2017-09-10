@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: default
+  labels:
+    service: bitcoincash
+  name: bitcoincash
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        service: bitcoincash
+    spec:
+      containers:
+      - image: zquestz/bitcoincash
+        name: bitcoincash
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+      restartPolicy: Always

@@ -1,0 +1,13 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: bitcoincash
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: bitcoincash
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 90
