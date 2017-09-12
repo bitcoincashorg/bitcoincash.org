@@ -1,1 +1,9 @@
 /*! Place your custom styles here */
+.exchanges .row div {
+  min-height: 75px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
