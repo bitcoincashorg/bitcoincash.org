@@ -7,6 +7,10 @@
   min-height: 100px;
 }
 
+.services .row div.col-sm-4 {
+  min-height: 90px;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;
