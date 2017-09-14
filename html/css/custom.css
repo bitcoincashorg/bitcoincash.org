@@ -1,6 +1,10 @@
 /*! Place your custom styles here */
-.exchanges .row div {
+.exchanges .row div.col-sm-4 {
   min-height: 75px;
+}
+
+.wallets .row div.col-sm-6 {
+  min-height: 100px;
 }
 
 .vertical-align {
