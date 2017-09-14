@@ -15,3 +15,8 @@
   display: flex;
   align-items: center;
 }
+
+.site-header {
+  background-image: url(../img/background3.jpg);
+  background-size: 100% 100%;
+}
