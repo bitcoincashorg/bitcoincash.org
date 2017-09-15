@@ -411,7 +411,6 @@ section.height-auto .pos-vertical-center {
 /**! 05. Images **/
 img {
   max-width: 100%;
-  margin-bottom: 1.85714286em;
 }
 /*p+img, img:last-child{
 	margin-bottom: 0;
