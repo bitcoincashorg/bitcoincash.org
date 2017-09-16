@@ -1,6 +1,6 @@
 /*! Place your custom styles here */
 .exchanges .row div.col-sm-4 {
-  min-height: 75px;
+  min-height: 100px;
 }
 
 .wallets .row div.col-sm-6 {
