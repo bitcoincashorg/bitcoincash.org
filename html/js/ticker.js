@@ -2,6 +2,12 @@
 var ticker_currencies = "USD,BTC,ETH,JPY,CNY"
 
 ticker = function(currencies) {
+  var symbols = {
+    USD: "$",
+    CNY: "¥",
+    JPY: "¥"
+  }
+
   $.ajax({
     type: "GET",
     url: "https://min-api.cryptocompare.com/data/price?fsym=BCC&tsyms=" + currencies,
@@ -14,7 +20,11 @@ ticker = function(currencies) {
       var output = [];
 
       $.each(currencyRates, function (currency, price) {
-        output.push(currency + "&nbsp;-&nbsp;" + price);
+        var sym = symbols[currency];
+        if (sym === undefined) {
+          sym = "";
+        }
+        output.push(currency + "&nbsp;-&nbsp;" + sym + price);
       });
 
       $('#ticker_value').html(output.join(" &bull; "));
