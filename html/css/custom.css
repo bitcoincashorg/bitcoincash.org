@@ -74,3 +74,7 @@ section.space--xxs-no-bottom {
 #menu1 a.current {
   opacity: 1;
 }
+
+h2.banner {
+  padding-bottom: .5em;
+}
