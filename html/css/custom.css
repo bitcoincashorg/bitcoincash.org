@@ -16,7 +16,15 @@
 }
 
 .services .row div.col-sm-4 {
-  min-height: 60px;
+  min-height: 100px;
+}
+
+.services .row div.col-sm-4 img {
+  margin-bottom: 40px;
+}
+
+img.nomargin {
+  margin: 0;
 }
 
 .vertical-align {
