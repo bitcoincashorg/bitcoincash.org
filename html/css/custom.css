@@ -23,11 +23,19 @@
   margin-bottom: 40px;
 }
 
-.benefits .row .col-sm-10 {
-  margin-bottom: 20px;
+.benefits .row .col-sm-4 {
+  margin-bottom: 40px;
 }
 
-.benefits .row:last-child .col-sm-10 {
+.benefits .row:last-child .col-sm-4:last-child {
+  margin-bottom: 0;
+}
+
+.benefits .fa-2x {
+  color: #f08b16;
+}
+
+.benefits p {
   margin-bottom: 0;
 }
 
@@ -55,4 +63,13 @@ img.nomargin {
 
 .lead {
   color: white;
+}
+
+section.space--xxs-no-bottom {
+  padding-top: 1.85714286em;
+  padding-bottom: 0;
+}
+
+#menu1 a.current {
+  opacity: 1;
 }
