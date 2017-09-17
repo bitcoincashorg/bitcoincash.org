@@ -41,15 +41,18 @@ img.nomargin {
 }
 
 .site-header {
-  background-image: url(../img/background3.jpg);
-  background-size: 100% 100%;
+  background-image: url(../img/background11.jpg);
 }
 
 #ticker, #ticker_value {
   font-weight: 400;
-  color: #808080;
+  color: white;
 }
 
 .ticker {
   padding-top: 15px;
+}
+
+.lead {
+  color: white;
 }
