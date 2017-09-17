@@ -11,13 +11,13 @@ ticker = function(currencies) {
       $('#ticker').html("N/A")
     },
     success: function (currencyRates) {
-      var output = "";
+      var output = [];
 
       $.each(currencyRates, function (currency, price) {
-        output += currency + " - " + price + " ";
+        output.push(currency + "&nbsp;-&nbsp;" + price);
       });
 
-      $('#ticker_value').html(output)
+      $('#ticker_value').html(output.join(" &bull; "));
     }
   }).done(function () {
     setTimeout(function(){ ticker(ticker_currencies); }, 10000);
