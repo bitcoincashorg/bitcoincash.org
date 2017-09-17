@@ -27,6 +27,10 @@
   margin-bottom: 20px;
 }
 
+.benefits .row:last-child .col-sm-10 {
+  margin-bottom: 0;
+}
+
 img.nomargin {
   margin: 0;
 }
