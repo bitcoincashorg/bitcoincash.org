@@ -23,6 +23,10 @@
   margin-bottom: 40px;
 }
 
+.benefits .row .col-sm-10 {
+  margin-bottom: 20px;
+}
+
 img.nomargin {
   margin: 0;
 }
