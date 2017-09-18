@@ -50,6 +50,7 @@ img.nomargin {
 }
 
 .site-header {
+  background-color: black;
   background-image: url(../img/background11.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
