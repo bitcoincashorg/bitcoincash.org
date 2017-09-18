@@ -78,3 +78,12 @@ section.space--xxs-no-bottom {
 h2.banner {
   padding-bottom: .5em;
 }
+
+p.question {
+  font-size: 1.3em;
+  font-weight: 300;
+  font-variant-ligatures: common-ligatures;
+  color: #252525;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-bottom: 1.04em;  
+}
