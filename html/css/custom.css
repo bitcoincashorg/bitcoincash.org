@@ -51,6 +51,10 @@ img.nomargin {
 
 .site-header {
   background-image: url(../img/background11.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #ticker, #ticker_value {
