@@ -25,7 +25,7 @@ ticker = function(currencies) {
         if (sym === undefined) {
           sym = "";
         }
-        output.push(currency + "&nbsp;-&nbsp;" + sym + price);
+        output.push("BCC/" + currency + "&nbsp;" + sym + price);
       });
 
       $('#ticker_value').html(output.join(" &bull; "));
