@@ -27,16 +27,12 @@
   margin-bottom: 40px;
 }
 
-.benefits .row:last-child .col-sm-4:last-child {
+.benefits p {
   margin-bottom: 0;
 }
 
 .fa-fw {
   color: #f08b16;
-}
-
-.benefits p {
-  margin-bottom: 0;
 }
 
 img.nomargin {
@@ -71,17 +67,17 @@ img.nomargin {
   color: white;
 }
 
-section.space--xxs-no-bottom {
-  padding-top: 1.85714286em;
+section.no-bottom {
   padding-bottom: 0;
 }
 
-#menu1 a.current {
-  opacity: 1;
+section.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-h3.banner {
-  padding-bottom: 1em;
+section.no-top {
+  padding-top: 0;
 }
 
 p.question {
