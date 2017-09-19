@@ -80,8 +80,8 @@ section.space--xxs-no-bottom {
   opacity: 1;
 }
 
-h2.banner {
-  padding-bottom: .5em;
+h3.banner {
+  padding-bottom: 1em;
 }
 
 p.question {
