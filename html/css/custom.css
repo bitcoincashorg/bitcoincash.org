@@ -3,24 +3,12 @@
   min-height: 100px;
 }
 
-.exchanges .row div.col-sm-4 img {
-  margin-bottom: 40px;
-}
-
 .wallets .row div.col-sm-6 {
   min-height: 90px;
 }
 
-.wallets .row div.col-sm-6 img {
-  margin-bottom: 40px;
-}
-
 .services .row div.col-sm-4 {
   min-height: 100px;
-}
-
-.services .row div.col-sm-4 img {
-  margin-bottom: 40px;
 }
 
 .benefits .row .col-sm-4 {
@@ -80,11 +68,40 @@ section.no-top {
   padding-top: 0;
 }
 
+section.gray {
+  background-color: #FAFAFA;
+}
+
 p.question {
   font-size: 1.3em;
   font-weight: 350;
   font-variant-ligatures: common-ligatures;
   color: #f08b16;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-  margin-bottom: 1.04em;  
+  margin-bottom: 1.04em;
+}
+
+.exchanges div a:hover, .exchanges div a:focus, .wallets div a:hover, .wallets div a:focus, .services div a:hover, .service div a:focus {
+  border-bottom: 3px solid #F08B16;
+}
+
+.exchanges div a, .wallets div a, .services div a {
+  padding: 2em;
+  width: 100%;
+  height: 120px;
+  display: block;
+  background: white;
+  border:1px solid #eee;
+  border-width:1px 1px 3px 1px;
+
+  -webkit-transition: border-color 250ms ease;
+  -moz-transition: border-color 250ms ease;
+  -o-transition: border-color 250ms ease;
+  -ms-transition: border-color 250ms ease;
+  transition: border-color 250ms ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
 }
