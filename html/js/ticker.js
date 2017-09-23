@@ -15,7 +15,9 @@ ticker = function(currencies) {
     contentType: "application/json; charset=utf-8",
     timeout: 6000,
     error: function (x, t, m) {
-      $('#ticker_value').html("N/A")
+      if ($('#ticker_value').html() === '') {
+        $('#ticker_value').html("N/A");
+      }
     },
     success: function (currencyRates) {
       var output = [];
@@ -31,6 +33,8 @@ ticker = function(currencies) {
       $('#ticker_value').html(output.join(" &bull; "));
     }
   }).done(function () {
+    setTimeout(function(){ ticker(ticker_currencies); }, 10000);
+  }).fail(function() {
     setTimeout(function(){ ticker(ticker_currencies); }, 10000);
   });
 }
