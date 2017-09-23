@@ -11,7 +11,7 @@ spec:
   - hosts:
     - www.bitcoincash.org
     - bitcoincash.org
-    secretName: wwwbitcoincash-tls
+    secretName: bitcoincash-tls
   backend:
     serviceName: bitcoincash
     servicePort: 89
