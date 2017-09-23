@@ -15,7 +15,7 @@ ticker = function(currencies) {
     contentType: "application/json; charset=utf-8",
     timeout: 6000,
     error: function (x, t, m) {
-      if ($('#ticker_value').html() === '') {
+      if ($('#ticker_value').html() === 'Loading...') {
         $('#ticker_value').html("N/A");
       }
     },
