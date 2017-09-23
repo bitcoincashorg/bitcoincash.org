@@ -43,6 +43,12 @@ img.nomargin {
   background-attachment: fixed;
 }
 
+@media only screen and (max-device-width: 1024px) {
+  .site-header {
+      background-attachment: scroll;
+  }
+}
+
 #ticker, #ticker_value {
   font-weight: 400;
   color: white;
