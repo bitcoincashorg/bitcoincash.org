@@ -88,7 +88,7 @@ p.question {
   margin-bottom: 1.04em;
 }
 
-.exchanges div a:hover, .exchanges div a:focus, .wallets div a:hover, .wallets div a:focus, .services div a:hover, .service div a:focus {
+.exchanges div a:hover, .wallets div a:hover, .services div a:hover {
   border-bottom: 3px solid #F08B16;
 }
 
