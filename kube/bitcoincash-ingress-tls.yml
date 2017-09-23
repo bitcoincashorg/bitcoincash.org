@@ -9,13 +9,21 @@ metadata:
 spec:
   tls:
   - hosts:
+    - www.bitcoincash.org
     - bitcoincash.org
-    secretName: bitcoincash-tls
+    secretName: wwwbitcoincash-tls
   backend:
     serviceName: bitcoincash
     servicePort: 89
   rules:
   - host: bitcoincash.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: bitcoincash
+          servicePort: 89
+  - host: www.bitcoincash.org
     http:
       paths:
       - path: /
