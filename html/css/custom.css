@@ -83,6 +83,10 @@ section.gray {
   background-color: #FAFAFA;
 }
 
+section.border-bottom {
+  border-bottom: 1px solid #EAEAEA;
+}
+
 p.question {
   font-size: 1.3em;
   font-weight: 350;
