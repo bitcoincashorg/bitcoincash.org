@@ -33,6 +33,27 @@
   }
 }
 
+@media (max-width: 767px) {
+  .dropdown .dropdown__content {
+      padding: 0 1.2em .3em;
+  }
+}
+
+.dropdown .dropdown__content {
+  min-width: 200px;
+  border:1px solid #eee;
+  border-radius: 0;
+  border-width:1px 1px 3px 1px;
+  box-shadow: none;
+  --webkit-box-shadow: none;
+}
+
+@media (min-width: 991px)  {
+  .dropdown .dropdown__container:before {
+    height: 0px;
+  }
+}
+
 #ticker, #ticker_value {
   font-weight: 400;
   color: white;
