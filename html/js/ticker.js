@@ -11,7 +11,7 @@ ticker = function(currencies) {
 
   $.ajax({
     type: "GET",
-    url: "https://min-api.cryptocompare.com/data/price?fsym=BCC&tsyms=" + currencies,
+    url: "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=" + currencies,
     contentType: "application/json; charset=utf-8",
     timeout: 6000,
     error: function (x, t, m) {
