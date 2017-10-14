@@ -13,7 +13,8 @@ spec:
         service: bitcoincash
     spec:
       containers:
-      - image: zquestz/bitcoincash
+      - image: zquestz/bitcoincash:latest
+        imagePullPolicy: Always
         name: bitcoincash
         ports:
         - containerPort: 80
