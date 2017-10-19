@@ -96,6 +96,15 @@ The checksum is calculated over the following data:
 2. A zero for the separator (5 zero bits).
 3. The payload by chunks of 5 bits. The payload is padded with zero bits up to the point where it is a multiple of 5 bits.
 
+The following adresses can be used as test vector for checksum computation:
+ - prefix:x64nx6hz
+ - p:gpf8m4h7
+ - bitcoincash:qpzry9x8gf2tvdw0s3jn54khce6mua7lcw20ayyn
+ - xbctest:testnetaddressa4dxsgzr
+ - xbcreg:555555555555555555555555555555555555555555555n5nuyrz8
+
+NB: These addresses do not have valid payload on purpose.
+
 ## Error correction
 
 BCH codes allows for error correction. However, it is strongly advised that error correction is not done in an automatic manner as it may cause funds to be lost irrecoverably if done incorrectly. It may however be used to hint a user at a possible error.
