@@ -81,10 +81,10 @@ uint64_t PolyMod(const data &v) {
         c = ((c & 0x07ffffffff) << 5) ^ d;
         
         if (c & 0x01) c ^= 0x98f2bc8e61;
-        if (c & 0x01) c ^= 0x79b76d99e2;
-        if (c & 0x01) c ^= 0xf33e5fb3c4;
-        if (c & 0x01) c ^= 0xae2eabe2a8;
-        if (c & 0x01) c ^= 0x1e4f43e470;
+        if (c & 0x02) c ^= 0x79b76d99e2;
+        if (c & 0x04) c ^= 0xf33e5fb3c4;
+        if (c & 0x08) c ^= 0xae2eabe2a8;
+        if (c & 0x10) c ^= 0x1e4f43e470;
     }
     
     return c ^ 1;
