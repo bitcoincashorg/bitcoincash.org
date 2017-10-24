@@ -21,7 +21,7 @@ The prefix indicates the network on which this addess is valid. It is set to `bi
 
 The prefix is followed by the separator `:`.
 
-When presented to users, the prefix may be omitted as it is part of the checksum computation. This ensure that addresses on different networks will remain incompatible, even in the absence of an explicit prefix.
+When presented to users, the prefix may be omitted as it is part of the checksum computation. The checksum ensures that addresses on different networks will remain incompatible, even in the absence of an explicit prefix.
 
 ### Payload
 
