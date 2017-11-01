@@ -3,6 +3,22 @@
   margin-bottom: 40px;
 }
 
+p.release {
+  color: white;
+  padding-top: .5em;
+  font-size: 1.2em;
+}
+
+.release a, .release a:visited {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.release a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .benefits p {
   margin-bottom: 0;
 }
