@@ -1,6 +1,6 @@
 # November 13th Bitcoin Cash Hardfork Technical Details
 
-Version 1.0, 2017-11-01
+Version 1.1, 2017-11-03
 
 ## Summary
  
@@ -25,11 +25,42 @@ To calculate the difficulty of a given block (B_n+1), with an MTP-11[1] greater 
 1. Let Target (T) be equal to the (2^256 - PW) / PW.  This is calculated by taking the two’s complement of PW (-PW) and dividing it by PW (-PW / PW).
 1. The target difficulty for block B_n+1 is then equal to the lesser of T and 0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 
+## Test Case
+
+1. Create a genesis block with the following data:
+
+```
+    nHeight = 0;
+    nTime = 1269211443;
+    nBits = 0x1c0fffff;
+```
+
+1. Add 2049 blocks at 600 second intervals with the same nBits.
+1. Add another 10 blocks at 600 second intervals.  nBits should remain constant.
+1. Add a block 6000 seconds in the future with nBits remaining the same.
+1. Add a block -4800 seconds from the previous block.  nBits should remain the constant.
+1. Add 20 blocks at 600 second intervals.  nBits should remain constant.
+1. Add a block at a 550 second interval. nBits should remain constant.
+1. Add 10 blocks at 550 second intervals. The target difficulty should slowly decrease.
+1. nBits should be 0x1c0fe7b1.
+1. Add 20 more blocks at 10 second intervals.  The target difficulty decrease quickly.
+1. nBits should be 0x1c0db19f.
+1. Add 1 block at an interval of 6000 seconds.
+1. nBits should be 0x1c0d9222.
+1. Produce 93 blocks at 6000 second intervals. The target difficulty should increase.
+1. nBits should be 0x1c2f13b9.
+1. Add one block at 6000 seconds.
+1. nBits should be 0x1c2ee9bf.
+1. Add 192 blocks at 6000 second intervals.  The target difficulty should increase.
+1. nBits should be 0x1d00ffff.
+1. Add 5 blocks at 6000 second intervals.  Target should stay constant at the maximum value.
+
 ## References
 
  - [Algorithm](https://github.com/Bitcoin-ABC/bitcoin-abc/commit/be51cf295c239ff6395a0aa67a3e13906aca9cb2)
  - [Activation](https://github.com/Bitcoin-ABC/bitcoin-abc/commit/18dc8bb907091d69f4887560ab2e4cfbc19bae77)
  - [Activation Time](https://github.com/Bitcoin-ABC/bitcoin-abc/commit/8eed7939c72781a812fdf3fb8c36d4e3a428d268)
+ - [Test Case](https://github.com/Bitcoin-ABC/bitcoin-abc/blob/d8eac91f8d16716eed0ad11ccac420122280bb13/src/test/pow_tests.cpp#L193)
 
 FAQ
 ---
