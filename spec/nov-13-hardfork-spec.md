@@ -1,6 +1,6 @@
 # November 13th Bitcoin Cash Hardfork Technical Details
 
-Version 1.1, 2017-11-03
+Version 1.2, 2017-11-04
 
 ## Summary
  
@@ -17,8 +17,8 @@ To calculate the difficulty of a given block (B_n+1), with an MTP-11[1] greater 
 * NOTE: Implementations must use integer arithmetic only
 
 1. Let B_n be the Nth block in a Bitcoin Cash Blockchain.
-1. Let B_last be the middle block[2] of the [B_n, B_n-1, B_n-2] when sorted by timestamp.
-1. Let B_first be the middle block[2] of the [B_n-144, B_n-145, B_n-146] when sorted by timestamp.
+1. Let B_last be chosen[2] from [B_n-2, B_n-1, B_n].
+1. Let B_first be chosen[2] from [B_n-146, B_n-145, B_n-144].
 1. Let the Timespan (TS) be equal to the difference in UNIX timestamps (in seconds) between B_last and B_first within the range [72 * 600, 288 * 600].  Values outside should be treated as their respective limit
 1. Let the Work Performed (W) be equal to the difference in chainwork[3] between B_last  and B_first.
 1. Let the Projected Work (PW) be equal to (W * 600) / TS.
@@ -71,5 +71,11 @@ A: Yes
 Footnotes
 ---------
 1. The MTP-11 of a block is defined as the median timestamp of the last 11 blocks prior to, and including, a specific block
-2. If two timestamps are the same, the one with the greater block height will be used.  See [GetSuitableBlock](https://github.com/Bitcoin-ABC/bitcoin-abc/commit/be51cf295c239ff6395a0aa67a3e13906aca9cb2#diff-ba91592f703a9d0badf94e67144bc0aaR208)
+2. A block is chosen via the following mechanism:
+   Given a list: S = [B_n-2, B_n-1, B_n]
+   a. If timestamp(S[0]) greater than timestamp(S[2]) then swap S[0] and S[2].
+   b. If timestamp(S[0]) greater than timestamp(S[1]) then swap S[0] and S[1].
+   c. If timestamp(S[1]) greater than timestamp(S[2]) then swap S[1] and S[2].
+   d. Return S[1].
+   See [GetSuitableBlock](https://github.com/Bitcoin-ABC/bitcoin-abc/commit/be51cf295c239ff6395a0aa67a3e13906aca9cb2#diff-ba91592f703a9d0badf94e67144bc0aaR208)
 3. Chainwork for a Block (B) is the sum of block proofs from the genesis block to B.  Block proofs is defined in [chain.cpp](https://github.com/Bitcoin-ABC/bitcoin-abc/blob/d8eac91f8d16716eed0ad11ccac420122280bb13/src/chain.cpp#L132)
