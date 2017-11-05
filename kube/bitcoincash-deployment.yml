@@ -6,7 +6,7 @@ metadata:
     service: bitcoincash
   name: bitcoincash
 spec:
-  replicas: 2
+  replicas: 3
   template:
     metadata:
       labels:
