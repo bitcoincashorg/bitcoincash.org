@@ -1,6 +1,6 @@
 # November 13th Bitcoin Cash Hardfork Technical Details
 
-Version 1.2, 2017-11-04
+Version 1.3, 2017-11-07
 
 ## Summary
  
@@ -78,4 +78,4 @@ Footnotes
    c. If timestamp(S[1]) greater than timestamp(S[2]) then swap S[1] and S[2].
    d. Return S[1].
    See [GetSuitableBlock](https://github.com/Bitcoin-ABC/bitcoin-abc/commit/be51cf295c239ff6395a0aa67a3e13906aca9cb2#diff-ba91592f703a9d0badf94e67144bc0aaR208)
-3. Chainwork for a Block (B) is the sum of block proofs from the genesis block to B.  Block proofs is defined in [chain.cpp](https://github.com/Bitcoin-ABC/bitcoin-abc/blob/d8eac91f8d16716eed0ad11ccac420122280bb13/src/chain.cpp#L132)
+3. Chainwork for a Block (B) is the sum of block proofs from the genesis block up to and including block `B`.  `Block proof` is defined in [chain.cpp](https://github.com/Bitcoin-ABC/bitcoin-abc/blob/d8eac91f8d16716eed0ad11ccac420122280bb13/src/chain.cpp#L132)
