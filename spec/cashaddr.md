@@ -17,7 +17,7 @@ The address is composed of
 
 ### Prefix
 
-The prefix indicates the network on which this addess is valid. It is set to `bitcoincash` for Bitcoin Cash main net, `xbctest` for bitcoin cash testnet and `xbcreg` for bitcoin cash regtest.
+The prefix indicates the network on which this addess is valid. It is set to `bitcoincash` for Bitcoin Cash main net, `bchtest` for bitcoin cash testnet and `bchreg` for bitcoin cash regtest.
 
 The prefix is followed by the separator `:`.
 
@@ -100,8 +100,8 @@ The following adresses can be used as test vector for checksum computation:
  - prefix:x64nx6hz
  - p:gpf8m4h7
  - bitcoincash:qpzry9x8gf2tvdw0s3jn54khce6mua7lcw20ayyn
- - xbctest:testnetaddressa4dxsgzr
- - xbcreg:555555555555555555555555555555555555555555555n5nuyrz8
+ - bchtest:testnetaddress4d6njnut
+ - bchreg:555555555555555555555555555555555555555555555udxmlmrz
 
 NB: These addresses do not have valid payload on purpose.
 
