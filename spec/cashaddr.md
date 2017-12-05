@@ -119,6 +119,19 @@ Allowing for uppercase ensure that the address can be encoded efficiently in QR 
 
 In some contexts, such as payment URLs or QR codes, the addresses are currently prefixed with `bitcoincash:`. In these contexts, the address must not be double prefixed.
 
+## Examples of address translation
+
+The following addresses are given in the legacy and new format.
+
+| Legacy                             | CashAddr                                               |
+| :--------------------------------- | :----------------------------------------------------- |
+| 1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu | bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a |
+| 1KXrWXciRDZUpQwQmuM1DbwsKDLYAYsVLR | bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy |
+| 16w1D5WRVKJuZUsSRzdLp9w3YGcgoxDXb  | bitcoincash:qqq3728yw0y47sqn6l2na30mcw6zm78dzqre909m2r |
+| 3CWFddi6m4ndiGyKqzYvsFYagqDLPVMTzC | bitcoincash:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq |
+| 3LDsS579y7sruadqu11beEJoTjdFiFCdX4 | bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e |
+| 31nwvkZwyPdgzjBJZXfDmSWsC4ZLKpYyUw | bitcoincash:pqq3728yw0y47sqn6l2na30mcw6zm78dzq5ucqzc37 |
+
 ## References
 
 <a name="bch">[1]</a> https://en.wikipedia.org/wiki/BCH_code
