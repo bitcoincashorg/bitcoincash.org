@@ -8,6 +8,11 @@ Build & Run the Docker Image
 1. `docker build .`
 2. `docker run -d -p 8888:80 <IMAGE>`
 
+Adding Translations
+-------------------
+
+To add translations to the project, use `translations/en.yml` as a template and create a new file for your locale. Then translate all the content inside of the yaml file and send us a pull request.
+
 About Bitcoin Cash
 ------------------
 
