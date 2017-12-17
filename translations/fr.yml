@@ -7,11 +7,11 @@ fr:
     twitter:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     og:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     misc:
       logo: "logo"
     sections:
@@ -69,7 +69,10 @@ fr:
         - question: "Qu'est ce que Bitcoin Cash ?"
           answer:
             - |
+              Bitcoin Cash est l'argent électronique peer-to-peer pour Internet. Il est entièrement décentralisé, sans banque centrale et ne nécessite aucun tiers de confiance pour fonctionner.
         - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
+          answer:
+            - |
               Bitcoin Cash est une monnaie virtuelle Pair-à-Pair. Elle est complétement décentralisé, sans banque centrale et n'a pas besoin de tiers pour fonctionner.
           answer:
             - |
@@ -90,7 +93,6 @@ fr:
               Le code Bitcoin originel autorise un espace limite des données par blocs de 1MB, ou 3 transactions par seconde. Même si l'augmentation de la limite est simple techniquement, la communauté n'a pas réussi à obtenir un consensus, même après des années de débats.
         - question: "Est-ce que la limite de 1MB par bloc posait problème pour Bitcoin?"
           answer:
-            - |
             - |
               Le prix du Bitcoin a augmenté, mais sa croissance et son utilité comme monnaie ont stagné. Beaucoup d'utilisateurs, commerçants, entreprises et même des investisseurs ont quitté Bitcoin pour des alternatives, résultant dans une perte de dominance de 95% à 40% à son plus bas.
         - question: "Est-ce que Bitcoin Cash règle ces problèmes?"
