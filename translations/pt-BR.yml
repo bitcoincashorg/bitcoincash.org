@@ -1,0 +1,129 @@
+pt-BR:
+  title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+  meta:
+    description: |
+      Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
+    twitter:
+      title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+      description: |
+        Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
+    og:
+      title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+      description: |
+        Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
+    misc:
+      logo: "logo"
+    sections:
+      about: "Sobre"
+      features: "Funcionalidades""
+      nodes: "Nodos"
+      wallets: "Carteiras"
+      community: "Comunidade"
+      services: "Serviços"
+      projects: "Projetos"
+      exchanges: "Corretoras"
+      faq: "FAQ"
+    layout:
+      bitcoin_cash: "Bitcoin Cash"
+      lead: "Moeda eletrônica de pessoa para pessoa"
+      loading: "Carregando..."
+    features:
+      - title: "Rapidez"
+        description: "Transacione em segundos. Obtenha confirmação em minutos."
+      - title: "Confiabilidade"
+        description: "Uma rede que funciona sem congestionamento."
+      - title: "Taxas Baixas"
+        description: "Envie dinheiro mundialmente pagando centavos."
+      - title: "Simples"
+        description: "Fácil de usar, sem complicações."
+      - title: "Estável"
+        description: "Um sistema de pagamento que é provadamente uma reserva de valor."
+      - title: "Seguro"
+        description: "A tecnologia blockchain mais robusta do mundo."
+    headings:
+      about: "O melhor dinheiro do mundo"
+      features: "Novas funcionalidades"
+      nodes: "Nodos"
+      wallets: "Carteiras"
+      community: "Comunidade"
+      services: "Serviços"
+      projects: "Projetos"
+      exchanges: "Corretoras"
+      faq: "Perguntas Frequentes"
+    content:
+      about:
+        - |
+          Bitcoin Cash introduz uma moeda robusta para o mundo, satisfazendo a promessa inicial do Bitcoin como uma "Moeda eletrônica de pessoa para pessoa". Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
+        - |
+          Todos os que possuíam Bitcoin no bloco 478558 possuem também Bitcoin Cash. Todos são bem-vindos à comunidade Bitcoin Cash na criação de uma moeda robusta para o mundo todo.
+      features:
+        - |
+          <strong>Escalabilidade On Chain - Bitcoin Cash segue o roteiro do Satoshi Nakamoto de adoção global com escalabilidade on-chain. Como primeiro passo, o limite do tamanho dos blocos foi feito ajustável, com um aumento de 8MB por default. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Pesquisas estão em andamento para aumentos futuros</a>.
+        - |
+          <strong>Novas Assinaturas das Transações</strong> - Um novo tipo de SigHash provê proteção contra replay, maior segurança de carteiras e eliminação do problema do hashing quadrático.
+        - |
+          <strong>Novo Algoritmo de Ajuste de Dificuldade (DAA)</strong> - Ajustes da dificuldade do Proof-of-Work permitem aos mineradores migrar do Bitcoin para o Bitcoin Cash facilmente, enquanto protege contra flutuações na taxa de hash.
+        - |
+          <strong>Desenvolvimento Descentralizado</strong> - Com múltiplos times de desenvolvedores indepentes implementanto software, o futuro é seguro. O Bitcoin Cash é resistente a ataques políticos e sociais no desenvolvimento do protocolo. Nenhum grupo individual pode controlar o projeto. A <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> é um bom local para fazer propostas de mudanças que requeiram coordenação entre múltiplos times.
+      faq:
+        - pergunta: "O que é Bitcoin Cash?"
+          resposta:
+            - |
+              O Bitcoin Cash é uma moeda eletrônica de pessoa para pessoa na Internet. É totalmente descentralizado, não havendo um banco central, e dispensa intermediários de confiança para operar.
+        - pergunta: "Bitcoin Cash é diferente de 'Bitcoin'?"
+          resposta:
+            - |
+              Sim. O Bitcoin Cash é a continuação do projeto do Bitcoin como moeda digital de pessoa para pessoa. É um fork do blockchain do Bitcoin, com regras de consenso atualizadas que permitem que cresça e escale.
+        - pergunta: "Se eu possuo Bitcoin, tenho Bitcoin Cash automaticamente também?"
+          resposta:
+            - |
+              Qualquer um que possuía Bitcoin quando o Bitcoin Cash foi criado possui Bitcoin Cash. Isso significa que os que possuíam Bitcoin no bloco 478558 (01 de Agosto de 2017, aproximadamente às 13:16 UTC) possuem uma quantidade de Bitcoin Cash igual à de Bitcoin naquele momento. 
+              Se os seus Bitcoins estavam armazenados por um terceiro naquele momento, por exemplo uma corretora, então você deve consultá-los sobre seu Bitcoin Cash.
+            - |
+              Todas as transações de Bitcoins posteriores a 01 de Agosto de 2017 são completamente separadas das de Bitcoin Cash. Isso significa que os Bitcoins adquiridos após aquela data não incluem Bitcoin Cash, e vice-versa.
+        - pergunta: "Como está sendo evitado o replay de transações entre o novo e o antigo blockchain?"
+          resposta:
+            - |
+              As transações com Bitcoin Cash usam um novo algoritmo de hash de assinaturas indicado pela flag SIGHASH_FORKID. Essas assinaturas não são válidas no blockchain antigo. Isso evita que transações com Bitcoin Cash possam ter replay no blockchain do Bitcoin e vice-versa.
+        - pergunta: "Porque foi necessário um fork para criar o Bitcoin Cash?"
+          resposta:
+            - |
+              O código nativo do Bitcoin possuía um limite máximo de 1MB de dados por bloco, or cerca de 3 transações por segundo. Embora seja tecnicamente simples aumentar esse limite, a comunidade não chegou a um consenso após anos de debates.
+        - pergunta: "O limite de 1MB de dados por bloco causava problemas para o Bitcoin?"
+          resposta:
+            - |
+              Sim, em 2017 a capacidade atingiu essa 'parede invisível'. As taxas dispararam e o Bitcoin se tornou não confiável, com alguns usuários tendo transações não confirmadas, muitas vezes por dias a fio.
+            - |
+              O preço de mercado do Bitcoin aumentou, mas o crescimento e a utilidade como moeda estagnou. Muitos usuários, comerciantes, empresas e mesmo investidores deixaram o Bitcoin por outras alternativas, causando uma queda da sua dominância de 90% para algo tão baixo quanto 40%.
+        - pergunta: "O Bitcoin Cash resolve esses problemas?"
+          resposta:
+            - |
+              Sim. Bitcoin Cash imediatamente aumentou o limite do tamanho dos blocos para 8MB como parte de uma abordagem de escalabilidade massiva on-chain. Há ampla capacidade para todos transacionarem.
+            - |
+              Taxas baixas e confirmações rápidas retornaram com Bitcoin Cash. A rede está crescendo novamente. Usuários, comerciantes, empresas e investidores estão construindo o futuro com uma moeda realmente de pessoa para pessoa.
+        - pergunta: "Porque o Bitcoin não aumentou o tamanho do bloco se era tão simples?"
+          resposta:
+            - |
+              Alguns dos desenvolvedores não entenderam e não concordaram com a visão original de uma moeda realmente de pessoa para pessoa que Satoshi Nakamoto criou. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Em vez disso, eles preferiram que o Bitcoin se tornasse uma camada apenas para liquidação de pagamentos feitos numa segunda camada</a>.
+            - |
+              Muitos mineradores e usuários confiaram nesses desenvolvedores, enquanto outros reconheceram que eles estavam conduzindo a comunidade por um caminho diferente do esperado.
+            - |
+              Essas duas visões para o Bitcoin são largamente incompatíveis, o que levou a uma divisão na comunidade.
+        - pergunta: "O SegWit não teria aumentado a capacidade dos blocos? Terá o Bitcoin Cash SegWit algum dia?"
+          resposta:
+            - |
+              Segregated Witness ou "SegWit" é um substituto inaceitável para aumento do tamanho dos blocos por diversas razões.
+            - |
+              Primeiro, mesmo se for utilizado em 100% das transações, o aumento seria apenas ter blocos de 1.7MB. Assim, na melhor das hipóteses é um aumento muito modesto. E ele não suportará um crescimento exponencial ou adoção mundial. Segundo, a implementação do soft fork resulta em assinaturas descartáveis, as quais <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">enfraquecem o modelo de segurança do Bitcoin.</a> Terceiro, ele faz com que futuros aumentos da capacidade dos blocos sejam mais difíceis devido a ineficiências de banda e ataques de hashing quadráticos, os quais SegWit não resolve, já que um atacante não é forçado a usá-lo.
+            - |
+              Por essas (e outras) razões, Bitcoin Cash foi necessário como um fork pré-SegWit. Segwit não será adotado.
+        - pergunta: "Qual a Equipe de Desenvolvimento Encarregada do Bitcoin Cash?"
+          resposta:
+            - |
+              Diferentemente da situação prévia com o Bitcoin, não há uma única equipe de desenvolvedores no Bitcoin Cash. Existem múltiplas equipes de desenvolvedores, independentes.
+            - |
+              Esse modelos de descentralização (e descentralização da implementação de software) é muito necessária e um passo importante avante.
+        - pergunta: "Qual o ticker do Bitcoin Cash?"
+          resposta:
+            - |
+              Bitcoin Cash é representado por uma variedade de diferentes tickers, dependendo da carteira ou do serviço. BCH/BCC são os tickers mais populares, com XBC sendo usado de forma a satisfazer o Padrão Internacional para códigos de moedas (ISO 4217).
