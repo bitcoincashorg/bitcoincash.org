@@ -14,6 +14,8 @@ en:
         Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
   misc:
     logo: "logo"
+    dropdown_md_width: 2
+    dropdown_sm_width: 3
   sections:
     about: "About"
     features: "Features"

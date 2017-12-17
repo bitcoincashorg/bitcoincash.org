@@ -132,3 +132,9 @@ p.question {
   justify-content: center;
   margin-bottom: 1.5em;
 }
+
+@media all and (min-width: 990px) {
+  .menu-vertical li {
+    white-space: normal;
+  }
+}

@@ -14,6 +14,8 @@ ms:
         Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 4
   sections:
     about: "Maklumat"
     features: "Ciri-ciri"
