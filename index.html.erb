@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="<%= I18n.locale.to_s.split('-').first %>">
     <head>
         <meta charset="utf-8">
-        <title>Bitcoin Cash - Peer-to-Peer Electronic Cash</title>
+        <title><%= I18n.t(:title).strip %></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.">
+        <meta name="description" content="<%= I18n.t(:'meta.description').strip %>">
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Bitcoin Cash - Peer-to-Peer Electronic Cash">
-        <meta name="twitter:description" content="Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.">
+        <meta name="twitter:title" content="<%= I18n.t(:'meta.twitter.title').strip %>">
+        <meta name="twitter:description" content="<%= I18n.t(:'meta.twitter.description').strip %>">
         <meta name="twitter:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.png">
-        <meta property="og:title" content="Bitcoin Cash - Peer-to-Peer Electronic Cash">
-        <meta property="og:description" content="Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.">
+        <meta property="og:title" content="<%= I18n.t(:'meta.og.title').strip %>">
+        <meta property="og:description" content="<%= I18n.t(:'meta.og.description').strip %>">
         <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash.png">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
@@ -36,7 +36,7 @@ gtag('config', 'UA-17656782-2');
                     <div class="row">
                         <div class="col-xs-3 col-sm-2">
                             <a href="/">
-                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                                <img class="logo logo-dark" alt="<%= I18n.t(:'misc.logo').strip %>" src="img/logo-dark.png" />
                             </a>
                         </div>
                         <div class="col-xs-9 col-sm-10 text-right">
@@ -53,7 +53,7 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-md-4 col-sm-3 hidden-xs">
                             <div class="bar__module">
                                 <a href="/">
-                                    <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                                    <img class="logo logo-dark" alt="<%= I18n.t(:'misc.logo').strip %>" src="img/logo-dark.png" />
                                 </a>
                             </div>
                         </div>
@@ -62,26 +62,26 @@ gtag('config', 'UA-17656782-2');
                                 <ul class="menu-horizontal text-left">
                                     <li>
                                         <a href="#about" class="inner-link">
-                                            About
+                                            <%= I18n.t(:'sections.about').strip %>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#features" class="inner-link">
-                                            Features
+                                            <%= I18n.t(:'sections.features').strip %>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#nodes" class="inner-link">
-                                            Nodes
+                                            <%= I18n.t(:'sections.nodes').strip %>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#wallets" class="inner-link">
-                                            Wallets
+                                            <%= I18n.t(:'sections.wallets').strip %>
                                         </a>
                                     </li>
                                     <li class="dropdown">
-                                        <span class="dropdown__trigger">Community</span>
+                                        <span class="dropdown__trigger"><%= I18n.t(:'sections.community').strip %></span>
                                         <div class="dropdown__container">
                                             <div class="container">
                                                 <div class="row">
@@ -89,17 +89,17 @@ gtag('config', 'UA-17656782-2');
                                                         <ul class="menu-vertical">
                                                             <li>
                                                                 <a href="#services" class="inner-link">
-                                                                    Services
+                                                                    <%= I18n.t(:'sections.services').strip %>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a href="#projects" class="inner-link">
-                                                                    Projects
+                                                                    <%= I18n.t(:'sections.projects').strip %>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a href="#exchanges" class="inner-link">
-                                                                    Exchanges
+                                                                    <%= I18n.t(:'sections.exchanges').strip %>
                                                                 </a>
                                                             </li>
                                                         </ul>
@@ -110,7 +110,7 @@ gtag('config', 'UA-17656782-2');
                                     </li>
                                     <li>
                                         <a href="#faq" class="inner-link">
-                                            FAQ
+                                            <%= I18n.t(:'sections.faq').strip %>
                                         </a>
                                     </li>
                                 </ul>
@@ -125,15 +125,15 @@ gtag('config', 'UA-17656782-2');
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10 col-md-6">
-                            <img alt="Bitcoin Cash" src="img/bitcoincash-white.png">
+                            <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="img/bitcoincash-white.png">
                             <p class="lead">
-                                Peer-to-Peer Electronic Cash
+                                <%= I18n.t(:'layout.lead').strip %>
                             </p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 ticker">
-                            <span id="ticker_value">Loading...</span>
+                            <span id="ticker_value"><%= I18n.t(:'layout.loading').strip %></span>
                         </div>
                     </div>
                 </div>
@@ -144,35 +144,35 @@ gtag('config', 'UA-17656782-2');
                     <div class="row text-center">
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
-                            <p><strong>Fast</strong></p>
-                            <p>Transact in seconds. Get confirmed in minutes.</p>
+                            <p><strong><%= I18n.t(:'features')[0]['title'].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[0]['description'].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
-                            <p><strong>Reliable</strong></p>
-                            <p>A network that runs without congestion.</p>
+                            <p><strong><%= I18n.t(:'features')[1]['title'].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[1]['description'].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
-                            <p><strong>Low Fees</strong></p>
-                            <p>Send money globally for pennies.</p>
+                            <p><strong><%= I18n.t(:'features')[2]['title'].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[2]['description'].strip %></p>
                         </div>
                     </div>
                     <div class="row text-center">
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-check fa-fw fa-2x"></i></p>
-                            <p><strong>Simple</strong></p>
-                            <p>Easy to use. No hassles.</p>
+                            <p><strong><%= I18n.t(:'features')[3]['title'].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[3]['description'].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
-                            <p><strong>Stable</strong></p>
-                            <p>A payment system that's a proven store of value.</p>
+                            <p><strong><%= I18n.t(:'features')[4]['title'].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[4]['description'].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
-                            <p><strong>Secure</strong></p>
-                            <p>World's most robust blockchain technology.</p>
+                            <p><strong><%= I18n.t(:'features')[5]['title'].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[5]['description'].strip %></p>
                         </div>
                     </div>
                 </div>
@@ -182,13 +182,12 @@ gtag('config', 'UA-17656782-2');
                 <div class="container">
                     <div class="row text-center">
                         <div class='col-sm-12'>
-                            <h3 class="banner">The Best Money in the World</h3>
+                            <h3 class="banner"><%= I18n.t(:'headings.about').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-                            <p>Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.</p>
-                            <p>All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.</p>
+                            <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
                         </div>
                     </div>
                 </div>
@@ -198,15 +197,12 @@ gtag('config', 'UA-17656782-2');
                 <div class="container">
                     <div class="row text-center">
                       <div class='col-sm-12'>
-                        <h3>New Features</h3>
+                        <h3><%= I18n.t(:'headings.features').strip %></h3>
                       </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-                            <p><strong>On Chain Scalability</strong> - Bitcoin Cash follows the Nakamoto roadmap of global adoption with on-chain scaling. As a first step, the blocksize limit has been made adjustable, with an increased default of 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Research is underway to allow massive future increases</a>.</p>
-                            <p><strong>New Transaction Signatures</strong> - A new SigHash type provides replay protection, improved hardware wallet security, and elimination of the quadratic hashing problem.</p>
-                            <p><strong>New Difficulty Adjustment Algorithm (DAA)</strong> - Responsive Proof-of-Work difficulty adjustment allows miners to migrate from the legacy Bitcoin chain as desired, while providing protection against hashrate fluctuations.</p>
-                            <p><strong>Decentralized Development</strong> - With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it. The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams.<br><br></p>
+                            <%= I18n.t(:'content.features').map { |c| "<p>#{c.strip}#{c == I18n.t(:'content.features').last ? '<br><br>' : ''}</p>" }.join("\n#{' ' * 28}") %>
                         </div>
                     </div>
                 </div>
@@ -216,7 +212,7 @@ gtag('config', 'UA-17656782-2');
                 <div class="container nodes">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3>Nodes</h3>
+                            <h3><%= I18n.t(:'headings.nodes').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
@@ -243,7 +239,7 @@ gtag('config', 'UA-17656782-2');
                 <div class="container wallets">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3>Wallets</h3>
+                            <h3><%= I18n.t(:'headings.wallets').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
@@ -312,7 +308,7 @@ gtag('config', 'UA-17656782-2');
                 <div class="container services">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3>Services</h3>
+                            <h3><%= I18n.t(:'headings.services').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
@@ -363,7 +359,7 @@ gtag('config', 'UA-17656782-2');
                 <div class="container services">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3>Projects</h3>
+                            <h3><%= I18n.t(:'headings.projects').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
@@ -399,7 +395,7 @@ gtag('config', 'UA-17656782-2');
                 <div class="container exchanges">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3>Exchanges</h3>
+                            <h3><%= I18n.t(:'headings.exchanges').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
@@ -525,42 +521,14 @@ gtag('config', 'UA-17656782-2');
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-xs-12">
-                            <h3>Frequently Asked Questions</h3>
+                            <h3><%= I18n.t(:'headings.faq').strip %></h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                            <p class="question">What is Bitcoin Cash?</p>
-                            <p>Bitcoin Cash is peer-to-peer electronic cash for the Internet. It is fully decentralized, with no central bank and requires no trusted third parties to operate.</p>
-                            <p class="question">Is Bitcoin Cash different from 'Bitcoin'?</p>
-                            <p>Yes. Bitcoin Cash is the continuation of the Bitcoin project as peer-to-peer digital cash. It is a fork of the Bitcoin blockchain ledger, with upgraded consensus rules that allow it to grow and scale.</p>
-                            <p class="question">If I own Bitcoin, do I automatically own Bitcoin Cash too?</p>
-                            <p>Anyone who held Bitcoin at the time Bitcoin Cash was created became owners of Bitcoin Cash. This means that Bitcoin holders as of block 478558 (August 1st, 2017 about 13:16 UTC) have the same amount of Bitcoin Cash as they had Bitcoin at that time. If your Bitcoins are stored by a third party such as an exchange, then you must inquire with them about your Bitcoin Cash.</p>
-                            <p>Any transactions after the August 1st ledger split are completely separate between Bitcoin and Bitcoin Cash. This means any Bitcoin acquired after the split does not include any Bitcoin Cash, and any Bitcoin Cash does not include any Bitcoin.</p>
-                            <p class="question">How is transaction replay being handled between the new and the old blockchain?</p>
-                            <p>Bitcoin Cash transactions use a new signature hashing algorithm indicated by the flag SIGHASH_FORKID. These signatures are not valid on the Bitcoin Legacy network. This prevents Bitcoin Cash transactions from being replayed on the Bitcoin blockchain and vice versa.</p>
-                            <p class="question">Why was a fork necessary to create Bitcoin Cash?</p>
-                            <p>The legacy Bitcoin code had a maximum limit of 1MB of data per block, or about 3 transactions per second. Although technically simple to raise this limit, the community could not reach a consensus, even after years of debate.</p>
-                            <p class="question">Was the 1 MB block size limit causing problems for Bitcoin?</p>
-                            <p>Yes, in 2017, capacity hit the 'invisible wall'. Fees skyrocketed, and Bitcoin became unreliable, with some users unable to get their transactions confirmed, even after days of waiting.</p>
-                            <p>Bitcoin's market price has increased, but its growth and usefulness as a currency has stagnated. Many users, merchants, businesses and even investors left Bitcoin for alternatives, causing its dominance to fall from 95% to as low as 40%.</p>
-                            <p class="question">Does Bitcoin Cash fix these problems?</p>
-                            <p>Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.</p>
-                            <p>Low fees and fast confirmations have returned with Bitcoin Cash. The network is growing again. Users, merchants, businesses, and investors are building the future with real peer to peer cash.</p>
-                            <p class="question">Why didn't Bitcoin raise the block size if it was easy?</p>
-                            <p>Some of the developers did not understand and agree with the original vision of peer-to-peer electronic cash that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.</p>
-                            <p>Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.</p>
-                            <p>These two very different visions for Bitcoin are largely incompatible, which led to the community divide.</p>
-                            <p class="question">Didn't SegWit increase the block capacity? Will Bitcoin Cash ever have SegWit?</p>
-                            <p>Segregated Witness or "SegWit" is an unacceptable substitute for increasing the blocksize for several reasons.</p>
-                            <p>First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.</p>
-                            <p>For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.</p>
-                            <p class="question">Which Development Team is In Charge of Bitcoin Cash?</p>
-                            <p>Unlike the previous situation in Bitcoin, there is no one single development team for Bitcoin Cash. There are now multiple independent teams of developers.</p>
-                            <p>This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.</p>
-                            <p class="question">What is the ticker symbol for Bitcoin Cash?</p>
-                            <p>Bitcoin Cash is represented by a number of different ticker symbols depending on the service or wallet. BCH/BCC are the most popular tickers, with XBC being used to meet the International Standard for currency codes (ISO 4217).</p>
-
+<% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 28 %><p class="question"><%= qa['question'].strip %></p>
+                            <%= qa['answer'].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 28}") %>
+<% end %>
                         </div>
                     </div>
                 </div>
