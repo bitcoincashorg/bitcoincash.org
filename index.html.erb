@@ -527,8 +527,7 @@ gtag('config', 'UA-17656782-2');
                     <div class="row">
                         <div class="col-xs-12">
 <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 28 %><p class="question"><%= qa['question'].strip %></p>
-                            <%= qa['answer'].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 28}") %>
-<% end %>
+                            <%= qa['answer'].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.faq').last; "\n"; end %><% end %>
                         </div>
                     </div>
                 </div>
