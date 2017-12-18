@@ -14,6 +14,8 @@ ja:
         ビットコインキャッシュは、この世界に信頼できるお金をもたらします。企業もユーザーも、わずかな手数料だけで確実な送金が可能になります。無制限の成長、世界的な採用、規制のないイノベーション.これらによりビットコインキャッシュの未来は光り輝いています。
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 4
   sections:
     about: "ビットコインキャッシュとは"
     features: "特徴"
@@ -23,7 +25,7 @@ ja:
     services: "サービス"
     projects: "プロジェクト"
     exchanges: "取引所"
-    faq: "FAQ"
+    faq: "よくある質問"
   layout:
     bitcoin_cash: "ビットコインキャッシュ"
     lead: "ピアツーピアの電子通貨"
