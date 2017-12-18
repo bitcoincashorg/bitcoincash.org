@@ -55,14 +55,14 @@ nl:
       - |
         Bitcoin Cash brengt betrouwbaar geld naar de wereld en vervult de oorspronkelijke belofte van Bitcoin als "Peer-to-Peer Digitaal Geld". Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
       - |
-        Alle Bitcoin houders vanaf block 478558 zijn ook eigenaar van Bitcoin Cash. Iedereen is welkom bij de Bitcoin Cash community waarin we streven om betrouwbaar geld voor iedereen toegankelijk te maken.
+        Alle Bitcoin-houders vanaf block 478558 zijn ook eigenaar van Bitcoin Cash. Iedereen is welkom bij de Bitcoin Cash-community waarin we streven om betrouwbaar geld voor iedereen toegankelijk te maken.
     features:
       - |
-        <strong>On Chain Scalability</strong> - Bitcoin Cash volgt de Nakamoto roadmap van globale adoptie door on-chain schaalbaarheid. Als eerste stap is de blocksize aangepast naar een verhoogde standaard van 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Onderzoek is gaande om enorme verhogingen in de toekomst mogelijk te maken</a>.
+        <strong>On-Chain Scalability</strong> - Bitcoin Cash volgt de Nakamoto-roadmap van globale adoptie door on-chain schaalbaarheid. Als eerste stap is de blocksize aangepast naar een verhoogde standaard van 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Onderzoek is gaande om enorme verhogingen in de toekomst mogelijk te maken</a>.
       - |
-        <strong>Nieuwe transactie handtekeningen</strong> - Een nieuw SigHash-type biedt replay protection, verbeterde hardware-walletbeveiliging en eliminatie van het kwadratische hash-probleem.
+        <strong>Nieuwe transactie-handtekeningen</strong> - Een nieuw SigHash-type biedt replay protection, verbeterde hardware-walletbeveiliging en eliminatie van het kwadratische hash-probleem.
       - |
-        <strong>Nieuwe Difficulty Adjustment Algorithm (DAA)</strong> - Responsieve Proof-of-Work aanpassingsmoeilijkheid stelt miners in staat te migreren van de legacy Bitcoin-keten, terwijl bescherming wordt geboden tegen hashrate fluctuaties.
+        <strong>Nieuw Difficulty Adjustment Algorithm (DAA)</strong> - Responsieve Proof-of-Work aanpassingsmoeilijkheid stelt miners in staat te migreren van de legacy Bitcoin-keten, terwijl bescherming wordt geboden tegen hashrate-fluctuaties.
       - |
         <strong>Gedecentraliseerde ontwikkeling</strong> - Met meerdere onafhankelijke teams van ontwikkelaars die software-implementaties leveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op de ontwikkeling van protocollen. Geen enkele groep of project kan het besturen. De <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkelteams vereisen.
     faq:
@@ -73,17 +73,17 @@ nl:
       - question: "Verschilt Bitcoin Cash van 'Bitcoin'?"
         answer:
           - |
-            Ja. Bitcoin Cash is de voortzetting van het Bitcoin project als peer-to-peer digitaal geld. Het is een afsplitsing van de Bitcoin blockchain ledger met verbeterde consensusregels die het mogelijk maken om te groeien en te schalen.
+            Ja. Bitcoin Cash is de voortzetting van het Bitcoin-project als peer-to-peer digitaal geld. Het is een afsplitsing van de Bitcoin-blockchain ledger met verbeterde consensusregels die het mogelijk maken om te groeien en te schalen.
       - question: "Als ik Bitcoin heb, ben ik dan ook automatisch eigenaar van Bitcoin Cash?"
         answer:
           - |
-            Iedereen die Bitcoin had toen Bitcoin Cash werd gemaakt, is ook eigenaar van Bitcoin Cash. Dit betekent dat Bitcoin houders vanaf block 478558 (1 augustus 2017, rond 13.16 UTC) hetzelfde aantal Bitcoin Cash hebben dat ze op dat moment in Bitcoin hadden. Als jouw Bitcoins worden bewaard bij een derde partij zoals een exchange, dan zul je bij hen moeten informeren over je Bitcoin Cash. 
+            Iedereen die Bitcoin had toen Bitcoin Cash werd gemaakt, bezit tevens Bitcoin Cash. Dit betekent dat Bitcoin-houders vanaf block 478558 (1 augustus 2017, rond 13.16 UTC) hetzelfde aantal Bitcoin Cash hebben dat ze op dat moment in Bitcoin hadden. Als jouw Bitcoins worden bewaard bij een derde partij zoals een exchange, dan zul je bij hen moeten informeren over je Bitcoin Cash. 
           - |
             Alle transacties na de afsplitsing op 1 augustus tussen Bitcoin en Bitcoin Cash zijn volledig gescheiden. Dit betekent dat elke Bitcoin die is verkregen ná de splitsing geen Bitcoin Cash bevat en Bitcoin Cash geen Bitcoin bevat.
       - question: "Hoe wordt transactie replay afgehandeld tussen de nieuwe en de oude blockchain?"
         answer:
           - |
-            Bitcoin Cash transacties gebruiken een nieuw hash-algoritme voor handtekeningen dat wordt aangegeven met de vlag SIGHASH_FORKID. Deze handtekeningen zijn niet geldig op het Bitcoin Legacy-netwerk. Dit voorkomt dat Bitcoin Cash transacties opnieuw worden afgespeeld op de Bitcoin blockchain en omgekeerd.
+            Bitcoin Cash transacties gebruiken een nieuw hash-algoritme voor handtekeningen dat wordt aangegeven met de vlag SIGHASH_FORKID. Deze handtekeningen zijn niet geldig op het Bitcoin Legacy-netwerk. Dit voorkomt dat Bitcoin Cash-transacties opnieuw worden afgespeeld op de Bitcoin-blockchain en omgekeerd.
       - question: "Waarom was een afsplitsing nodig om Bitcoin Cash te ontwikkelen?"
         answer:
           - |
@@ -91,13 +91,13 @@ nl:
       - question: "Veroorzaakte de blocksize van 1 MB problemen voor Bitcoin?"
         answer:
           - |
-            Ja, in 2017 raakte de capaciteit een 'onzichtbare muur'. De kosten schoten omhoog en Bitcoin werd onbetrouwbaar doordat sommige gebruikers niet in staat waren om hun transacties bevestigd te krijgen, zelfs niet na dagen lang wachten.
+            Ja, in 2017 bereikte de capaciteit een glazen plafond. De kosten schoten omhoog en Bitcoin werd onbetrouwbaar doordat sommige gebruikers niet in staat waren om hun transacties bevestigd te krijgen, zelfs niet na dagen lang wachten.
           - |
             De marktprijs van Bitcoin is gestegen, maar de groei en bruikbaarheid ervan als valuta is gestagneerd. Veel gebruikers, handelaren, bedrijven en zelfs investeerders verlieten Bitcoin voor alternatieven, waardoor de dominantie daalde van 95% naar slechts 40%.
       - question: "Lost Bitcoin Cash deze problemen op?"
         answer:
           - |
-            Ja. Bitcoin Cash vergrootte direct het limiet van de blocksize naar 8 MB als onderdeel van een grootschalig on-chain scaling aanpak. Er is voldoende capaciteit voor ieders transacties.
+            Ja. Bitcoin Cash vergrootte direct het limiet van de blocksize naar 8 MB als onderdeel van een grootschalig on-chain scaling-aanpak. Er is voldoende capaciteit voor ieders transacties.
           - |
             Lage transactiekosten en snelle bevestigingen zijn teruggekeerd met Bitcoin Cash. Het netwerk groeit weer. Gebruikers, handelaren, bedrijven en investeerders bouwen aan de toekomst met echt peer-to-peer digitaal geld.
       - question: "Waarom verhoogde Bitcoin zelf niet de blocksize als dat zo makkelijk was?"
@@ -113,7 +113,7 @@ nl:
           - |
             Segregated Witness of "SegWit" is een onaanvaardbare vervanging voor het vergroten van de blocksize om verschillende redenen.
           - |
-            Ten eerste zou de toename, zelfs bij gebruik in 100% van de transacties, gelijk zijn aan 1,7 MB in blocksize. Het is dus maar een kleine verhoging van de capaciteit. Het zal niet kunnen omgaan met exponentiële groei of wereldwijd gebruik. Ten tweede resulteert de implementatie van deze soft fork in verworpen handtekeningen, wat <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank"het beveiligingsmodel van Bitcoin verzwakt</a>. Ten derde maakt het toekomstige capaciteitsverhogingen moeilijker vanwege inefficiëntie van de bandbreedte en kwadratische hashing-aanvallen die SegWit niet oplost omdat een aanvaller niet gedwongen wordt om het te gebruiken.
+            Ten eerste zou de toename, zelfs bij gebruik in 100% van de transacties, gelijk zijn aan 1,7 MB in blocksize. Het is dus maar een kleine verhoging van de capaciteit. Het zal niet kunnen omgaan met exponentiële groei of wereldwijd gebruik. Ten tweede resulteert de implementatie van deze soft fork in verworpen handtekeningen, wat <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">het beveiligingsmodel van Bitcoin verzwakt</a>. Ten derde maakt het toekomstige capaciteitsverhogingen moeilijker vanwege inefficiëntie van de bandbreedte en kwadratische hashing-aanvallen die SegWit niet oplost omdat een aanvaller niet gedwongen wordt om het te gebruiken.
           - |
             Door deze (en andere) redenen, was het nodig voor Bitcoin Cash om voor de implementatie van SegWit af te splitsen. SegWit zal niet worden geïmplementeerd.
       - question: "Welk team van ontwikkelaars heeft de leiding over Bitcoin Cash?"
