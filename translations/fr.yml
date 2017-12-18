@@ -40,7 +40,7 @@ fr:
     - title: "Stable"
       description: "Un système de paiement prouvé comme valeur refuge."
     - title: "Securisé"
-      description: "La technologie Blockchain la plus robuste."
+      description: "La chaine de blocs la plus robuste."
   headings:
     about: "La meilleure monnaie du Monde"
     features: "Nouvelles fonctionnalités"
@@ -58,7 +58,7 @@ fr:
         Tous les détenteurs de Bitcoins au bloc 478558 sont détenteurs de Bitcoins Cash. Tous sont les bienvenues à se joindre à la communauté Bitcoin Cash pour créer une monnaie saine accessible au monde entier.
     features:
       - |
-        <strong>Evolutivité "On Chain"</strong> - Bitcoin Cash poursuit la vision de Satoshi Nakamoto roadmap d'une adoption globale en enregistrant l'ensemble des transactions dans la blockchain ("On Chain"). Dans un premier temps, la limite de taille des blocs a été rendue ajustable, avec une valeur proposée par défaut de 8 Mo. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Des recherches sont en cours (qui ont d'ores et déjà validé des résultats significatifs) afin de permettre des augmentations massives da la taille de ces blocs</a>.
+        <strong>Evolutivité "On Chain"</strong> - Bitcoin Cash poursuit la vision de Satoshi Nakamoto roadmap d'une adoption globale en enregistrant l'ensemble des transactions dans la chaine de blocs ("On Chain"). Dans un premier temps, la limite de taille des blocs a été rendue ajustable, avec une valeur proposée par défaut de 8 Mo. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Des recherches sont en cours (qui ont d'ores et déjà validé des résultats significatifs) afin de permettre des augmentations massives da la taille de ces blocs</a>.
       - |
         <strong>Nouvel algorithme pour les Signatures</strong> - Un nouvel algorithme de signature permet d'éviter qu'un attaquant puisse intercepter une transaction sur la chaine Bitcoin, et la re-diffuser une seconde fois sur la chaine Bitcoin Cash - et vice versa (replay protection). Cette fonctionnalité vous permet d'utiliser vos applications de manière sécurisée et sans arrière-pensées. Par ailleurs, cet algorithme permet de résoudre un problème lié à un cas adverse entrainant une augmentation quadratique du temps de validation des signatures, connu sous le nom de "Quadratic Hashing".
       - |
