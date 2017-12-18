@@ -55,16 +55,16 @@ nl:
       - |
         Bitcoin Cash brengt betrouwbaar geld naar de wereld en vervult de oorspronkelijke belofte van Bitcoin als "Peer-to-Peer Digitaal Geld". Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
       - |
-        Alle Bitcoin-houders vanaf block 478558 zijn ook eigenaar van Bitcoin Cash. Iedereen is welkom bij de Bitcoin Cash-community waarin we streven om betrouwbaar geld voor iedereen toegankelijk te maken.
+        Alle Bitcoin-houders vanaf block 478558 zijn ook eigenaar van Bitcoin Cash. Iedereen is welkom bij de Bitcoin Cash community waarin we streven om betrouwbaar geld voor iedereen toegankelijk te maken.
     features:
       - |
-        <strong>On-Chain Scalability</strong> - Bitcoin Cash volgt de Nakamoto-roadmap van globale adoptie door on-chain schaalbaarheid. Als eerste stap is de blocksize aangepast naar een verhoogde standaard van 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Onderzoek is gaande om enorme verhogingen in de toekomst mogelijk te maken</a>.
+        <strong>On-Chain Schaalbaarheid</strong> - Bitcoin Cash volgt de Nakamoto-roadmap van globale adoptie door on-chain schaalbaarheid. Als eerste stap is de blocksize aangepast naar een verhoogde standaard van 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Onderzoek is gaande om enorme verhogingen in de toekomst mogelijk te maken</a>.
       - |
-        <strong>Nieuwe transactie-handtekeningen</strong> - Een nieuw SigHash-type biedt replay protection, verbeterde hardware-walletbeveiliging en eliminatie van het kwadratische hash-probleem.
+        <strong>Nieuwe Transactie-Handtekeningen</strong> - Een nieuw SigHash-type biedt replay protection, verbeterde hardware-walletbeveiliging en eliminatie van het kwadratische hash-probleem.
       - |
         <strong>Nieuw Difficulty Adjustment Algorithm (DAA)</strong> - Responsieve Proof-of-Work aanpassingsmoeilijkheid stelt miners in staat te migreren van de legacy Bitcoin-keten, terwijl bescherming wordt geboden tegen hashrate-fluctuaties.
       - |
-        <strong>Gedecentraliseerde ontwikkeling</strong> - Met meerdere onafhankelijke teams van ontwikkelaars die software-implementaties leveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op de ontwikkeling van protocollen. Geen enkele groep of project kan het besturen. De <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkelteams vereisen.
+        <strong>Gedecentraliseerde Ontwikkeling</strong> - Met meerdere onafhankelijke teams van ontwikkelaars die software implementaties leveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op de ontwikkeling van protocollen. Geen enkele groep of project kan het besturen. De <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkelteams vereisen.
     faq:
       - question: "Wat is Bitcoin Cash?"
         answer:
@@ -87,7 +87,7 @@ nl:
       - question: "Waarom was een afsplitsing nodig om Bitcoin Cash te ontwikkelen?"
         answer:
           - |
-            De oude Bitcoin-code had een maximaal limiet van 1 MB aan blocksize, of ongeveer 3 transacties per seconde. Hoewel het technisch eenvoudig is om deze limiet te verhogen, kon de gemeenschap geen consensus bereiken, zelfs niet na jaren van debat.
+            De oude Bitcoin code had een maximaal limiet van 1 MB aan blocksize, of ongeveer 3 transacties per seconde. Hoewel het technisch eenvoudig is om deze limiet te verhogen, kon de gemeenschap geen consensus bereiken, zelfs niet na jaren van debat.
       - question: "Veroorzaakte de blocksize van 1 MB problemen voor Bitcoin?"
         answer:
           - |
