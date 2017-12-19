@@ -64,7 +64,7 @@ fr:
       - |
         <strong>Nouvel algorithme d'ajustement de la difficulté (Difficulty Adjustment Algorithm ou DAA)</strong> - L'algorithme calculant la difficulté pour le minage par preuve de travail a été légèrement modifié afin d'en optimiser la réactivité pour permettre aux mineurs de migrer de l'ancienne chaine Bitcoin selon leur désir, sans que cela implique de variation notable dans le temps moyen entre les blocs.
       - |
-        <strong>Dévellopement Décentralisé</strong> - Avec plusieurs groupes de développeurs qui implémentent autant de logiciels compatibles avec le protocole Bitcoin Cash, le futur est assuré : Le développement du protocole de Bitcoin Cash est résistant aux attaques politiques et sociales. Aucun groupe ou projet ne peut en prendre le contrôle. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est le point d'entrée pour les nouvelles propositions et le centre de coordination entre les différentes équipes de développement.
+        <strong>Développement Décentralisé</strong> - Avec plusieurs groupes de développeurs qui implémentent autant de logiciels compatibles avec le protocole Bitcoin Cash, le futur est assuré : Le développement du protocole de Bitcoin Cash est résistant aux attaques politiques et sociales. Aucun groupe ou projet ne peut en prendre le contrôle. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est le point d'entrée pour les nouvelles propositions et le centre de coordination entre les différentes équipes de développement.
     faq:
       - question: "Qu'est ce que Bitcoin Cash ?"
         answer:
