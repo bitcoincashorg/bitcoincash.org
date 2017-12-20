@@ -32,7 +32,7 @@ es:
     - title: "Rápido"
       description: "Transacciones en segundos, confirmaciones en minutos."
     - title: "Fiable"
-      description: "Una red sin congestión"
+      description: "Una red sin congestión."
     - title: "Comisiones bajas"
       description: "Envía dinero a cualquier parte prácticamente gratis."
     - title: "Simple"
@@ -55,10 +55,10 @@ es:
       - |
         Bitcoin Cash ofrece una moneda fuerte al mundo, cumpliendo con la promesa inicial de Bitcoin como dinero electrónico de usuario a usuario. Usuarios y comerciantes pueden disfrutar de comisiones bajas y confirmaciones fiables. El futuro es prometedor gracias a crecimiento sin restricciones, adopción global, innovación que no necesita permisos y desarrollo descentralizado.
       - |
-        Todo aquel que poseía Bitcoin antes del bloque 478558 también es poseedor de Bitcoin Cash. Todo el mundo es bienvenido en la comunidad de Bitcoin Cash a medida que avanzamos en la creación de dinero sólido al alcance de todas las personas del planeta.
+        Todo aquel que poseía Bitcoin antes del bloque 478558 también es poseedor de Bitcoin Cash. Todo el mundo es bienvenido en la comunidad de Bitcoin Cash a medida que avanzamos en la creación de una moneda fuerte al alcance de todas las personas del planeta.
     features:
       - |
-        <strong>Escalabilidad on-chain o en la cadena</strong> - Bitcoin Cash se mantiene fiel a la hoja de ruta de Nakamoto de conseguir la adopción global al escalar <i>on-chain</i> (en la cadena). Como primer paso se ha implementado un límite del tamaño del bloque ajustable, con una capacidad estándar aumentada a 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Se está estudiando el desarollo que permita aumentos masivos en el futuro</a>.
+        <strong>Escalabilidad on-chain</strong> - Bitcoin Cash se mantiene fiel a la hoja de ruta de Nakamoto de conseguir la adopción global al escalar <i>on-chain</i> (en la cadena). Como primer paso se ha implementado un límite del tamaño del bloque ajustable, con una capacidad estándar aumentada a 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Se está estudiando el desarollo que permita aumentos masivos en el futuro</a>.
       - |
         <strong>Nuevas firmas digitales</strong> - Un nuevo tipo de SigHash proporciona <i>replay protection</i> (protección frente a transacciones repetidas), mayor seguridad en monederos hardware, y la eliminación del problema de hashing cuadrático.
       - |
