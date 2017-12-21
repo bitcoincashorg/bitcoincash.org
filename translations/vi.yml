@@ -1,0 +1,130 @@
+---
+vi:
+  title: "Tiền Bitcoin - Tiền mặt Điện tử Peer-to-Peer"
+  meta:
+    description: |
+      Bitcoin Cash mang lại âm thanh tiền bạc cho thế giới. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không có phép và phát triển phi tập trung.
+    twitter:
+      title: "Tiền Bitcoin - Tiền mặt Điện tử Peer-to-Peer"
+      description: |
+        Bitcoin Cash mang lại âm thanh tiền bạc cho thế giới. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không có phép và phát triển phi tập trung.
+    og:
+      title: "Tiền Bitcoin - Tiền mặt Điện tử Peer-to-Peer"
+      description: |
+        Bitcoin Cash mang lại âm thanh tiền bạc cho thế giới. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không có phép và phát triển phi tập trung.
+  misc:
+    logo: "logo"
+    dropdown_md_width: 2
+    dropdown_sm_width: 3
+  sections:
+    about: "Về"
+    features: "Tính năng"
+    nodes: "Nút"
+    wallets: "ví"
+    community: "cộng đồng"
+    services: "Dịch vụ"
+    projects: "Dự án"
+    exchanges: "Sàn giao dịch"
+    faq: "Câu hỏi thường gặp"
+  layout:
+    bitcoin_cash: "Bitcoin Cash"
+    lead: "Tiền mặt Điện tử Peer-to-Peer"
+    loading: "Đang tải..."
+  features:
+    - title: "Nhanh"
+      description: "Giao dịch trong vài giây. Nhận được xác nhận trong vài phút."
+    - title: "Đáng tin cậy"
+      description: "Một mạng lưới chạy mà không có tắc nghẽn."
+    - title: "Phí thấp"
+      description: "Gửi tiền trên toàn cầu cho đồng xu."
+    - title: "Đơn giản"
+      description: "Dễ sử dụng. Không có vấn đề."
+    - title: "ổn định"
+      description: "Hệ thống thanh toán đó là một cửa hàng có giá trị đã được chứng minh."
+    - title: "Bảo mật"
+      description: "công nghệ blockchain mạnh nhất thế giới."
+  headings:
+    about: "Đồng tiền tốt nhất thế giới"
+    features: "Tính năng Mới"
+    nodes: "Nút"
+    wallets: "ví"
+    services: "Dịch vụ"
+    projects: "Dự án"
+    exchanges: "Sàn giao dịch"
+    faq: "Những câu hỏi thường gặp"
+  content:
+    about:
+      - |
+        Bitcoin Cash mang lại âm thanh tiền bạc cho thế giới, hoàn thành lời hứa ban đầu của Bitcoin là "Tiền mặt Điện tử Peer-to-Peer". Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không có phép và phát triển phi tập trung.
+      - |
+        Tất cả các chủ sở hữu Bitcoin như khối 478558 cũng là chủ sở hữu của Cash Bitcoin. Tất cả đều được chào đón tham gia cộng đồng Tiền mặt Bitcoin khi chúng tôi tiến lên phía trước trong việc tạo ra âm thanh có thể tiếp cận được với cả thế giới.
+    features:
+      - |
+        <strong>Khả năng mở rộng chuỗi</ strong> - Bitcoin Cash theo lộ trình sử dụng toàn cầu của Nakamoto với quy mô mở rộng trên mạng. Như là một bước đầu tiên, giới hạn khối đã được điều chỉnh, với mặc định gia tăng là 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Nghiên cứu đang được tiến hành để cho phép tăng trong tương lai</a>.
+      - |
+        <strong>Chữ ký giao dịch mới</ strong> - Một loại SigHash mới cung cấp bảo vệ phát lại, cải thiện an toàn ví của phần cứng và loại bỏ vấn đề băm quadratic.
+      - |
+        <strong>Thuật toán Điều chỉnh Độ khó Mới (DAA)</ strong> - Điều chỉnh khó khăn về Proof of Work cho phép các thợ mỏ di chuyển từ chuỗi Bitcoin kế thừa theo ý muốn, đồng thời bảo vệ chống lại các biến động Hashrate.
+      - |
+        <strong>Phát triển phi tập trung</ strong> - Với đội ngũ phát triển độc lập nhiều người cung cấp việc triển khai phần mềm, tương lai sẽ an toàn. Bitcoin Cash chống lại các cuộc tấn công chính trị và xã hội về phát triển giao thức. Không một nhóm hoặc dự án nào có thể kiểm soát nó. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank"> danh sách gửi thư bitcoin-ml </a> là một địa điểm lý tưởng để đưa ra các đề xuất thay đổi cần thiết sự phối hợp giữa các nhóm phát triển.
+    faq:
+      - question: "Bitcoin Cash là gì?"
+        answer:
+          - |
+            Bitcoin Cash là tiền mặt điện tử dạng peer-to-peer cho Internet. Nó được phân quyền hoàn toàn, không có ngân hàng trung ương và không yêu cầu bên thứ ba đáng tin cậy nào hoạt động.
+      - question: "Bitcoin Cash khác với 'Bitcoin' không?"
+        answer:
+          - |
+            Vâng. Bitcoin Cash là sự tiếp nối của dự án Bitcoin như là tiền mặt bằng kỹ thuật số ngang hàng. Đây là một Hardfork của sổ cái Blockchain Bitcoin, với các quy tắc thống nhất được nâng cấp cho phép nó phát triển và quy mô.
+      - question: "Nếu tôi sở hữu Bitcoin, tôi cũng tự động sở hữu Bitcoin Cash?"
+        answer:
+          - |
+            Bất cứ ai giữ Bitcoin vào thời điểm Bitcoin Cash được tạo ra trở thành chủ sở hữu của Bitcoin Cash. Điều này có nghĩa là chủ sở hữu Bitcoin như khối 478558 (ngày 1 tháng 8 năm 2017 khoảng 13:16 UTC) có cùng một lượng tiền Bitcoin Cash khi họ có Bitcoin vào thời điểm đó. Nếu Bitcoins của bạn được lưu trữ bởi một bên thứ ba như trao đổi, thì bạn phải hỏi họ về Bitcoin Cash của bạn.
+          - |
+            Bất kỳ giao dịch nào sau ngày phân tách sổ cái ngày 1 tháng 8 hoàn toàn tách biệt giữa Bitcoin và Bitcoin Cash. Điều này có nghĩa là bất kỳ Bitcoin nào được mua sau khi chia đều không bao gồm bất kỳ Bitcoin Cash nào, và bất kỳ Bitcoin Cash nào không có bất kỳ Bitcoin nào.
+      - question: "Làm thế nào là giao dịch lại được xử lý giữa blockchain mới và cũ?"
+        answer:
+          - |
+            Giao dịch tiền mặt Bitcoin sử dụng thuật toán băm chữ ký mới được chỉ ra bởi cờ SIGHASH_FORKID. Những chữ ký này không hợp lệ trên mạng Bitcoin Legacy. Điều này ngăn không cho các giao dịch tiền mặt của Bitcoin được phát lại trên Blockchain Bitcoin và ngược lại.
+      - question: "Tại sao cần phải có một cần cạc để tạo Bitcoin Cash?"
+        answer:
+          - |
+            Mã Bitcoin kế thừa có giới hạn tối đa 1MB dữ liệu mỗi khối, hoặc khoảng 3 lần giao dịch mỗi giây. Mặc dù kỹ thuật đơn giản để nâng cao giới hạn này, cộng đồng không thể đạt được một sự đồng thuận, ngay cả sau nhiều năm tranh luận.
+      - question: "Giới hạn kích thước khối 1 MB gây ra vấn đề cho Bitcoin?"
+        answer:
+          - |
+            Có, vào năm 2017, công suất đã đạt được 'bức tường vô hình'. Lệ phí tăng vọt, và Bitcoin trở nên không đáng tin cậy, với một số người dùng không thể xác nhận được các giao dịch của họ, ngay cả sau nhiều ngày chờ đợi.
+          - |
+            Giá thị trường của Bitcoin đã tăng lên, nhưng sự tăng trưởng và tính hữu dụng của nó như đồng tiền đã trì trệ. Nhiều người sử dụng, thương gia, doanh nghiệp và thậm chí cả các nhà đầu tư đã bỏ Bitcoin để thay thế, làm cho sự thống trị của họ giảm từ 95% xuống còn 40%.
+      - question: "Liệu Bitcoin Cash có khắc phục được những vấn đề này?"
+        answer:
+          - |
+            Vâng. Bitcoin Cash ngay lập tức nâng giới hạn kích thước khối lên 8MB trong cách tiếp cận mở rộng quy mô trên mạng. Có rất nhiều năng lực cho các giao dịch của mọi người.
+          - |
+            Lệ phí thấp và xác nhận nhanh chóng đã trở lại với tiền mặt Bitcoin. Mạng lưới đang phát triển trở lại. Người sử dụng, thương nhân, doanh nghiệp, và các nhà đầu tư đang xây dựng tương lai với đồng đẳng thực để ngang hàng tiền mặt.
+      - question: "Tại sao Bitcoin lại không tăng kích thước khối nếu nó được dễ dàng?"
+        answer:
+          - |
+            Một số nhà phát triển đã không hiểu và đồng ý với tầm nhìn ban đầu về tiền mặt điện tử ngang hàng mà Satoshi Nakamoto đã tạo ra. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Thay vào đó, họ thích Bitcoin trở thành một lớp định cư</a>.
+          - |
+            Nhiều thợ mỏ và người sử dụng tin tưởng vào các nhà phát triển này, trong khi nhiều người khác nhận ra rằng họ đã dẫn dắt cộng đồng xuống một con đường khác so với dự kiến.
+          - |
+            Hai tầm nhìn rất khác nhau cho Bitcoin phần lớn không tương thích, dẫn đến sự chia rẽ của cộng đồng.
+      - question: "SegWit không tăng công suất khối lượng? Bitcoin Cash có bao giờ có SegWit?"
+        answer:
+          - |
+            Segregated Witness hay "SegWit" là một sự thay thế không thể chấp nhận cho việc gia tăng khối lượng vì một vài lý do.
+          - |
+            Thứ nhất, ngay cả khi được sử dụng trong 100% các giao dịch, mức tăng sẽ tương đương với 1,7MB khối. Vì vậy, nó là một công suất nhỏ tăng tốt nhất. Nó sẽ không xử lý tăng trưởng theo cấp số nhân hoặc sử dụng trên toàn thế giới. Thứ hai, việc thực hiện ngã ba mềm dẫn đến những chữ ký có thể hủy bỏ, mà <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank"> làm suy yếu mô hình bảo mật của Bitcoin.</a> Thứ ba, nó làm cho năng lực trong tương lai tăng khó khăn hơn do băng thông không hiệu quả và các cuộc tấn công băm hai lần mà SegWit không giải quyết kể từ khi kẻ tấn công không bị buộc phải sử dụng nó.
+          - |
+            Vì những lý do này (và khác), Bitcoin Cash là cần thiết như là một ngã ba trước SegWit. Segwit sẽ không được thông qua.
+      - question: "Đội ngũ phát triển nào chịu trách nhiệm về tiền mặt Bitcoin?"
+        answer:
+          - |
+            Không giống như tình huống trước đây trong Bitcoin, không có đội phát triển duy nhất cho Bitcoin Cash. Hiện giờ có nhiều đội phát triển độc lập.
+          - |
+            Việc phân cấp phát triển (và phân cấp triển khai phần mềm) là một bước tiến quan trọng và cần thiết.
+      - question: "Biểu tượng ticker cho Bitcoin Cash là gì?"
+        answer:
+          - |
+            Bitcoin Cash được đại diện bởi một số biểu tượng ticker khác nhau tùy thuộc vào dịch vụ hoặc ví. BCH/BCC là các mã phổ biến nhất, với XBC đang được sử dụng để đáp ứng Tiêu chuẩn Quốc tế về mã tiền tệ (ISO 4217).
