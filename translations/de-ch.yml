@@ -1,5 +1,5 @@
 ---
-de-ch:
+de-CH:
   title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
   meta:
     description: |
@@ -11,7 +11,7 @@ de-ch:
     og:
       title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
       description: |
-	Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
+        Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
   misc:
     logo: "Logo"
   sections:
@@ -77,7 +77,7 @@ de-ch:
       - question: "Han ich auch Bitcoin Cash, falls ich scho Bitcoin han?"
         answer:
           - |
-	    Jedä, wo Bitcoins zum Ziitpunkt vode Erstellig vo Bitcoin Cash gha hät, hät automatisch au Bitcoin Cash becho. Das heisst, dass bim Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbsitzer die glich Mengi a Bitcoins in Bitcoin Cash becho hend. Falls Ihri Bitcoins zu dem Ziitpunkt binere Drittpartei, wie z.B. enere Börsä gsi sind, münd Sie sich bi dere nach Ihrne Bitcoin Cash erkundigä.
+            Jedä, wo Bitcoins zum Ziitpunkt vode Erstellig vo Bitcoin Cash gha hät, hät automatisch au Bitcoin Cash becho. Das heisst, dass bim Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbsitzer die glich Mengi a Bitcoins in Bitcoin Cash becho hend. Falls Ihri Bitcoins zu dem Ziitpunkt binere Drittpartei, wie z.B. enere Börsä gsi sind, münd Sie sich bi dere nach Ihrne Bitcoin Cash erkundigä.
           - |
             Jedi Transaktion nach em 1. August wird vo Bitcoin und Bitcoin Cash separat verarbeitet. Das heisst, dass Bitcoins, die nach dem Datum erworbä worde sind, kei Bitcoin Cash enthaltet und Bitcoin Cash, die nach dem erworbä worde sind au kei Bitcoins enthaltet.
       - question: "Wie wird d Wiederholig vo Transaktione zwüsche dä alte und dä neue Blockchain ghandhabt?"
