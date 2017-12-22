@@ -5,8 +5,13 @@ This is the repository for [bitcoincash.org](https://bitcoincash.org). As the Bi
 Build & Run the Docker Image
 ----------------------------
 
-1. `docker build .`
-2. `docker run -d -p 8888:80 <IMAGE>`
+1. `docker build -t bitcoincash .`
+2. `docker run -d -p 8888:80 bitcoincash`
+
+Contributions
+-------------
+
+If you want to submit updates to the website make sure you are editing `index.html.erb`. This is the template used to generate all translated html files via `rake translations:build`.
 
 Adding Translations
 -------------------
