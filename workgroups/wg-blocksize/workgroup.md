@@ -10,3 +10,4 @@ This meeting exists to discuss all topics regarding expanding the block size.
 # Interested Parties
 
 - Amaury Sechet, @deadalnix, Bitcoin ABC
+- Dean Pierce, @deanpierce (twitter)
