@@ -1,3 +1,4 @@
 theme/**/*
 html/**/index.html
 html/*.html
+nginx.conf

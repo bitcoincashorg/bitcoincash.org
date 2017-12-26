@@ -49,7 +49,11 @@ server {
     location / {
         index index.$lang.html;
     }
-
+<% I18n.available_locales.sort.each do |locale| %>
+    location /<%= locale.to_s.downcase %>/ {
+        index index.html;
+    }
+<% end %>
     location ~*  \.(jpg|jpeg|png|gif|ico)$ {
         expires 30d;
     }

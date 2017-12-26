@@ -20,6 +20,9 @@ namespace :translations do
   desc "build translated html files"
   task :build do
     puts "Building bitcoincash translated html files"
+    nginx_template = File.read('nginx.conf.erb')
+    nginx_renderer = ERB.new(nginx_template)
+    File.write(File.join('.', 'nginx.conf'), nginx_renderer.result())
     template = File.read('index.html.erb')
     renderer = ERB.new(template)
     I18n.available_locales.sort.each do |locale|
