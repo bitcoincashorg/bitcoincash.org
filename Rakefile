@@ -11,6 +11,7 @@ end
 
 namespace :translations do
   require 'erb'
+  require 'fileutils'
   require 'i18n'
   require "i18n/backend/fallbacks"
   I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
@@ -26,6 +27,8 @@ namespace :translations do
       I18n.locale = locale
       File.write(File.join('.', 'html', "index.#{locale}.html"), renderer.result())
       File.write(File.join('.', 'html', "index.html"), renderer.result()) if locale == :en
+      FileUtils.mkdir_p(File.join('.', 'html', locale.to_s.downcase))
+      File.write(File.join('.', 'html', locale.to_s.downcase, "index.html"), renderer.result())
     end
   end
 end
