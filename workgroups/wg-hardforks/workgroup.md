@@ -16,3 +16,4 @@ hardforks will be done on a regular basis going forward.
 # Interested Parties
 
 - Amaury Sechet, @deadalnix, Bitcoin ABC
+- Christopher Ames, @cranau
