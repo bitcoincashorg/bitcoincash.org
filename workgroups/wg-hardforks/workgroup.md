@@ -17,3 +17,4 @@ hardforks will be done on a regular basis going forward.
 
 - Amaury Sechet, @deadalnix, Bitcoin ABC
 - Christopher Ames, @cranau
+- Chris Pacia, chris@ob1.io, OpenBazaar

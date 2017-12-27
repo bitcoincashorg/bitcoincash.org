@@ -14,4 +14,5 @@ specifications for the behavior and roll-out of each op-code.
  * Membership Coordinator:
 
 # Interested Parties
+Chris Pacia, chris@ob1.io, OpenBazaar
 
