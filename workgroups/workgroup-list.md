@@ -32,7 +32,7 @@ execute hardforks on a regular basis.
 
 ## [Wallets](wg-wallets/workgroup.md)
 
-Planning and coordination for advancements in Bitcoin Cash Wallets
+Planning and coordination for advancements in Bitcoin Cash Wallets.
 
 ## [Quality Assurance](wg-qa/workgroup.md)
 
