@@ -7,6 +7,12 @@ certified against.
 
 * [Telegram Group](https://t.me/joinchat/AAAAAFMGq7FrTocnust)
 
+# Officers
+
+ * Chairperson:
+ * Meeting Reporter:
+ * Membership Coordinator:
+
 # Interested Parties
 
 - Shammah Chancellor, @schancel, Bitcoin ABC

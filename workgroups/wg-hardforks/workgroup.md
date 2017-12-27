@@ -7,6 +7,12 @@ hardforks will be done on a regular basis going forward.
 
 * [Telegram Group](https://t.me/joinchat/AAAAAEU12wV25KF47Z6igg)
 
+# Officers
+
+ * Chairperson:
+ * Meeting Reporter:
+ * Membership Coordinator:
+ 
 # Interested Parties
 
 - Amaury Sechet, @deadalnix, Bitcoin ABC

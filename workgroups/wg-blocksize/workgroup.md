@@ -7,6 +7,12 @@ This meeting exists to discuss all topics regarding expanding the block size.
 
 * [Telegram Group](https://t.me/joinchat/AAAAAEd6Apu4uWyXChJFpQ)
 
+# Officers
+
+ * Chairperson:
+ * Meeting Reporter:
+ * Membership Coordinator:
+
 # Interested Parties
 
 - Amaury Sechet, @deadalnix, Bitcoin ABC
