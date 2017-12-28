@@ -15,3 +15,4 @@ Planning and coordination for advancements in Bitcoin Cash Wallets.
 # Interested Parties
 
 - Amaury Sechet, @deadalnix, Bitcoin ABC
+- Geoffrey Vishloff, @wrstuv31, Project Coordinator

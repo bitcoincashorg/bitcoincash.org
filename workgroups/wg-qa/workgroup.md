@@ -13,6 +13,13 @@ certified against.
  * Meeting Reporter:
  * Membership Coordinator:
 
+# Officers
+
+ * Chairperson: 
+ * Meeting Reporter:
+ * Membership Coordinator: 
+
 # Interested Parties
 
 - Shammah Chancellor, @schancel, Bitcoin ABC
+- Geoffrey Vishloff, @wrstuv31, Project Coordinator

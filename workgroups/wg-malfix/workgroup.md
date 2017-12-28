@@ -16,3 +16,4 @@ of the Bitcoin Cash blockcahin.
 # Interested Parties
 
 - Tomas, @tomasvdw, Bitcoin ABC
+- Geoffrey Vishloff, @wrstuv31, Project Coordinator
