@@ -5,7 +5,7 @@ hardforks will be done on a regular basis going forward.
 
 # Communication
 
-* [Telegram Group](https://t.me/joinchat/AAAAAEU12wV25KF47Z6igg)
+* [Telegram Group](https://t.me/joinchat/HCYr50he2qnG83280xLUfw)
 
 # Officers
 

@@ -5,7 +5,7 @@ specifications for the behavior and roll-out of each op-code.
 
 # Communication
 
-* [Telegram Group](https://t.me/joinchat/t.me/AAAAAEoZXghMzF2czthU8w)
+* [Telegram Group](https://t.me/joinchat/HCYr503bdcWunfULXzvkNg)
 
 # Officers
 

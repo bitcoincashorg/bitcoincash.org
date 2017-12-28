@@ -5,7 +5,7 @@ certified against.
 
 # Communication
 
-* [Telegram Group](https://t.me/joinchat/AAAAAFMGq7FrTocnust)
+* [Telegram Group](https://t.me/joinchat/HCYr504kfZ9mWtlywoyprQ)
 
 # Officers
 
