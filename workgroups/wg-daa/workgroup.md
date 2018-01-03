@@ -16,3 +16,4 @@ adjustments and implmenting them on the Bitcoin Cash.
 # Interested Parties
 
 - Shammah Chancellor, @schancel, Bitcoin ABC
+- Tom Harding, @dgenr8, Bitcoin XT
