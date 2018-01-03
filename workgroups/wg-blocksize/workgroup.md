@@ -19,3 +19,4 @@ This meeting exists to discuss all topics regarding expanding the block size.
 - Dean Pierce, @deanpierce (twitter)
 - Chris Pacia, chris@ob1.io, OpenBazaar
 - Jason Cox, jasonbcox
+- Tom Harding, @dgenr8, Bitcoin XT
