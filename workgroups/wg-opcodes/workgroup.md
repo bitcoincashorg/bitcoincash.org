@@ -15,4 +15,5 @@ specifications for the behavior and roll-out of each op-code.
 
 # Interested Parties
 Chris Pacia, chris@ob1.io, OpenBazaar
+Jason Cox, jasonbcox
 
