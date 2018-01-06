@@ -73,16 +73,13 @@ fr:
       - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
         answer:
           - |
-            Bitcoin Cash est une monnaie virtuelle Pair-à-Pair. Elle est complétement décentralisé, sans banque centrale et n'a pas besoin de tiers pour fonctionner.
-        answer:
-          - |
-            Oui. Bitcoin Cash est la continuation du projet Bitcoin comme une monnaie électronique pair-à-pair. C'est un fork de la chaine de bloc de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
+            Oui. Bitcoin Cash s’inscrit dans la continuité du projet Bitcoin en tant que “monnaie numérique pair-à-pair”. Bitcoin Cash est une divergence de la chaine Bitcoin car elle apporte une évolution de son ensemble de règles pour permettre une plus grande croissance et une plus grande adoption.
       - question: "Si je détiens des Bitcoins, ai-je automatiquement des Bitcoins Cash ?"
         answer:
           - |
-            Toute personne qui possédait des Bitcoins au moment où Bitcoin Cash a été créé possède des Bitcoins Cash. Cela signifie que toute personne qui possédait des Bitcoins au bloc 478558 (1er août 2017, 14h16 heure de Paris) possède le même montant de Bitcoin Cash. Si vos Bitcoins étaient sur des plateformes d'échanges, vous devez les contacter pour y avoir accès.
+            Chaque personne qui possédait des Bitcoins au moment où Bitcoin Cash a été créé possède des Bitcoins Cash. Cela signifie que chaque personne qui possédait des Bitcoins au bloc 478558 (1er août 2017, 14h16 heure de Paris) possède le même montant de Bitcoin Cash. Si vos Bitcoins étaient sur des plateformes d'échanges, vous devez les contacter pour y avoir accès.
           - |
-            Toutes les transactions après cette date sont dans des registres de transactions différents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
+            Toutes les transactions après la date de séparation des chaines sont enregistrées dans des registres différents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
       - question: "Est-ce que les transactions diffusées sur le réseau Bitcoin peuvent l'être sur le réseau Bitcoin Cash ?"
         answer:
           - |
@@ -126,4 +123,4 @@ fr:
       - question: "Quelle est le code symbole pour Bitcoin Cash ?"
         answer:
           - |
-            Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international conforme à ISO 4217.
+            Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte-monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international conforme à ISO 4217.
