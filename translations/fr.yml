@@ -69,8 +69,8 @@ fr:
       - question: "Qu'est ce que Bitcoin Cash ?"
         answer:
           - |
-            Bitcoin Cash est une monnaie virtuelle pair-à-pair pour internet. Il est entièrement décentralisé, sans banque centrale et ne nécessite aucun tiers de confiance pour fonctionner.
-      - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
+            Bitcoin Cash est une monnaie virtuelle pair-à-pair. Elle est complétement décentralisée, sans banque centrale et n'a pas besoin de tiers pour fonctionner.
+      - question: "Bitcoin Cash est-il différent de 'Bitcoin' ?"
         answer:
           - |
             Oui. Bitcoin Cash s’inscrit dans la continuité du projet Bitcoin en tant que “monnaie numérique pair-à-pair”. Bitcoin Cash est une divergence de la chaine Bitcoin car elle apporte une évolution de son ensemble de règles pour permettre une plus grande croissance et une plus grande adoption.
