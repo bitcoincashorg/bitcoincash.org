@@ -58,13 +58,13 @@ de:
         Jeder, der bei Block 478558 Bitcoin besessen hat, erhielt ebenso automatisch Bitcoin Cash. Jeder ist willkommen, dabei zu helfen Bitcoin Cash für die gesamte Welt zugänglich zu machen.
     features:
       - |
-        <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt dem Leitplan von Satoshi Nakamoto für globale Akzeptanz durch On-Chan-Skalierung. Als erster Schritt wurde das Blocksizelimit anpassbar festgelegt. Ebenso wurde das Standardlimit auf 8MB erhöht. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschung wird betrieben, um zukünftige Blocksize-Erhöhungen zu ermöglichen.</a>.
+        <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt dem Leitplan von Satoshi Nakamoto für globale Akzeptanz durch On-Chain-Skalierung. Als erster Schritt wurde das Blocksizelimit anpassbar festgelegt. Ebenso wurde das Standardlimit auf 8MB erhöht. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschung wird betrieben, um zukünftige Blocksize-Erhöhungen zu ermöglichen</a>.
       - |
         <strong>Neue Transaktionssignaturen</strong> - Ein neuer SigHash-Typ bietet Replay Protection, verbesserte Walletsicherheit und Eliminierung des Quadratic-Hashing-Problems.
       - |
         <strong>Neuer Difficulty Adjustment Algorithmus</strong> - Der neue Algorithmus erlaubt eine schnelle Anpassung der Difficulty, schützt vor Hashrateschwankungen und erlaubt Minern fließend von der Legacy Bitcoin Blockchain auf Bitcoin Cash umzusteigen.
       - |
-        <strong>Dezentralisierte Entwicklung</strong> -  Mit mehreren unabhängigen Entwicklerteams, die Softwareimplementierungen bieten, ist die Zukunft gesichert. Bitcoin Cash ist resistent gegen politische oder soziale Attacken auf die ENtwicklung des Protokolls. Keine einzelne Gruppe oder einzelnes Projekt kann es kontrollieren. Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailingliste</a> ist eine gute Plattform um Vorschläge für Änderungen anzubringen, die Koordination und Zusammenarbeit von mehreren Entwicklungsteams benötigt.
+        <strong>Dezentralisierte Entwicklung</strong> -  Mit mehreren unabhängigen Entwicklerteams, die Softwareimplementierungen bieten, ist die Zukunft gesichert. Bitcoin Cash ist resistent gegen politische oder soziale Attacken auf die Entwicklung des Protokolls. Keine einzelne Gruppe oder einzelnes Projekt kann es kontrollieren. Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailingliste</a> ist eine gute Plattform um Vorschläge für Änderungen anzubringen, die Koordination und Zusammenarbeit von mehreren Entwicklungsteams benötigt.
     faq:
       - question: "Was ist Bitcoin Cash?"
         answer:
@@ -79,7 +79,7 @@ de:
           - |
             Jeder, der Bitcoin zum Zeitpunkt der Erstellung von Bitcoin Cash besessen hat, wurde automatisch zu einem Bitcoin Cash Besitzer. Das heißt, dass bei Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbesitzer die gleiche Menge wie Bitcoin an Bitcoin Cash erhalten haben. Falls Ihre Bitcoins zu diesem Zeitpunkt bei einer Drittpartei, wie z.B. einer Börse waren müssen Sie sich bei dieser nach ihren Bitcoin Cash erkundigen.
           - |
-            Jede Transaktion nach dem 1. August wird von Bitcoin und Bitcoin Cash seperat verarbeitet. Dies bedeutet, dass Bitcoin, die danach erworben wurden, keine Bitcoin Cash enthalten und Bitcoin Cash, die danach erworben wurden keine Bitcoin enthalten.
+            Jede Transaktion nach dem 1. August wird von Bitcoin und Bitcoin Cash separat verarbeitet. Dies bedeutet, dass Bitcoin, die danach erworben wurden, keine Bitcoin Cash enthalten und Bitcoin Cash, die danach erworben wurden keine Bitcoin enthalten.
       - question: "Wie wird die Wiederholung von Transaktionen zwischen der alten und der neuen Blockchain gehandhabt?"
         answer:
           - |
@@ -103,7 +103,7 @@ de:
       - question: "Warum hat Bitcoin das Blocksizelimit nicht angegehoben wenn es so einfach ist?"
         answer:
           - |
-            Einige Entickler haben die originale Vision einer globalen elektronischen Peer-to-Peer Währung von Satoshi Nakamoto nicht verstanden oder ihr nicht zugestimmt. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Stattdessen wollen sie Bitcoin in ein Settlement Layer verwandeln.</a>.
+            Einige Entickler haben die originale Vision einer globalen elektronischen Peer-to-Peer Währung von Satoshi Nakamoto nicht verstanden oder ihr nicht zugestimmt. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Stattdessen wollen sie Bitcoin in ein Settlement Layer verwandeln</a>.
           - |
             Viele Miner und Nutzer vertrauten diesen Entwicklern, während wiederum andere erkannten, dass diese die Community auf einen anderen Weg als versprochen führten.
           - |
@@ -113,7 +113,7 @@ de:
           - |
             Segregated Witness oder "SegWit" ist ein inakzeptabler Ersatz für die Erhöhung der Blocksize aus mehreren Gründen.
           - |
-            Erstens, selbst wenn SegWit in 100% der Transaktionen verwendet werden würde, würde dies einer Blocksize von 1,7MB entsprechen. Deshalb ist es im besten Fall nur eine kleine Erhöhung. SegWit kann exponentielles Wachstum oder globale Akzeptanz nicht handhaen. Zweitens resultiert die Soft Fork von SegWit in Wegwerfsignaturen, welche <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">das Sicherheitsmodell von Bitcoin verschlechtern.</a> Drittens werden zukünftige Kapazitätserhöhungen aufgrund der Bandbreitenineffizienz und Quadractic-Hashing-Angriffen erschwert, da SegWit diese Probleme nicht löst, da ein Angreifer SegWit nicht verwenden muss.
+            Erstens, selbst wenn SegWit in 100% der Transaktionen verwendet werden würde, würde dies einer Blocksize von 1,7MB entsprechen. Deshalb ist es im besten Fall nur eine kleine Erhöhung. SegWit kann exponentielles Wachstum oder globale Akzeptanz nicht handhaben. Zweitens resultiert die Soft Fork von SegWit in Wegwerfsignaturen, welche <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">das Sicherheitsmodell von Bitcoin verschlechtern</a>. Drittens werden zukünftige Kapazitätserhöhungen aufgrund der Bandbreitenineffizienz und Quadractic-Hashing-Angriffen erschwert, da SegWit diese Probleme nicht löst, da ein Angreifer SegWit nicht verwenden muss.
           - |
             Aus diesen Gründen war es notwendig, die Bitcoin Cash Fork vor der Implementierung von SegWit durchzuführen. SegWit wird nicht implementiert.
       - question: "Welches Entwicklerteam leitet Bitcoin Cash?"
@@ -125,4 +125,4 @@ de:
       - question: "Was ist der Ticker für Bitcoin Cash?"
         answer:
           - |
-            Bitcoin Cash wird je nach Dienst oder Wallet von unterschiedlichen Tickersymbolen repräsentiert. BCH/BCC sind die am häufigsten anzutreffenden Ticker. XBC wird verwendet, um den Internationalen Standard für Währungscodes (ISO 4217) gerecht zu werden.
+            Bitcoin Cash wird je nach Dienst oder Wallet von unterschiedlichen Tickersymbolen repräsentiert. BCH/BCC sind die am häufigsten anzutreffenden Ticker. XBC wird verwendet, um dem Internationalen Standard für Währungscodes (ISO 4217) gerecht zu werden.

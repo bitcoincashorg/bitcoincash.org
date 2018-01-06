@@ -105,7 +105,7 @@ en:
       - question: "Why didn't Bitcoin raise the block size if it was easy?"
         answer:
           - |
-            Some of the developers did not understand and agree with the original vision of peer-to-peer electronic cash that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
+            Some of the developers did not understand and agree with the <a href="bitcoin.pdf" target="_blank">original vision of peer-to-peer electronic cash</a> that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
           - |
             Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.
           - |

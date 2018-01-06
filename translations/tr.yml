@@ -1,0 +1,130 @@
+---
+tr:
+  title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
+  meta:
+    description: |
+      Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+    twitter:
+      title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
+      description: |
+        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+    og:
+      title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
+      description: |
+        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+  misc:
+    logo: "logo"
+    dropdown_md_width: 2
+    dropdown_sm_width: 3
+  sections:
+    about: "Hakkında"
+    features: "Özellikler"
+    nodes: "Ağ Noktaları"
+    wallets: "Cüzdanlar"
+    community: "Topluluklar"
+    services: "Hizmetler"
+    projects: "Projeler"
+    exchanges: "Takas Merkezleri"
+    faq: "SSS"
+  layout:
+    bitcoin_cash: "Bitcoin Cash"
+    lead: "Kişiler Arası Elektonik Nakit"
+    loading: "Yükleniyor..."
+  features:
+    - title: "Hızlı"
+      description: "Saniyeler içinde işlem yapın. Dakikalar içinde onaylansın."
+    - title: "Güvenilir"
+      description: "Sıkışıklık olmayan ağ sistemi."
+    - title: "Düşük Ücretler"
+      description: "Dünyanın herhangi bir yerine birkaç kuruşa para gönderin."
+    - title: "Basit"
+      description: "Kullanımı kolay. Sorunsuz."
+    - title: "Kalıcı"
+      description: "Değer biriktirme aracı olarak kanıtlanmış bir ödeme sistemi."
+    - title: "Emniyetli"
+      description: "Dünyanın en sağlam blokzinciri teknolojisi."
+  headings:
+    about: "Dünyanın En İyi Parası"
+    features: "Yeni Özellikler"
+    nodes: "Ağ Noktaları"
+    wallets: "Cüzdanlar"
+    services: "Hizmetler"
+    projects: "Projeler"
+    exchanges: "Takas Merkezleri"
+    faq: "Sıkça Sorulan Sorular"
+  content:
+    about:
+      - |
+        Bitcoin Cash, Bitcoin'in esas amacı olan "Kişiler Arası Elektronik Nakit" niteliğini koruyarak dünyaya sağlam parayı sunuyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+      - |
+        Blok 478558 itibariyle tüm Bitcoin sahipleri aynı miktarda Bitcoin Cash sahibidirler. Biz tüm dünyaya açık, sağlam bir para birimi geliştirirken herkesi bize katılamaya davet ediyoruz.
+    features:
+      - |
+        <strong>Zincir Üzeri Ölçeklenme</strong> - Bitcoin Cash, küresel benimsenmenin zincir-üzeri ölçeklenme ile erişileceğini savunan Nakamoto yol haritasini izlemektedir. İlk adim olarak, blok boyutu sınırı ayarlanabilir yapılmıştır ve sınır 8MB'a çıkarılmıştır. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Büyük çapta artışa imkan vermek için çalışmalar devam etmektedir</a>.
+      - |
+        <strong>Yeni İşlem İmzaları</strong> - Yeni bir tip kriptografik özet fonksiyonu sayesinde işlem tekrarlama koruması, geliştirilmiş donanım cüzdanı güvenliği ve ikinci dereceden hesaba dayalı adresleme probleminin kaldırılmasını sağlar.
+      - |
+        <strong>Yeni Zorluk Ayarlarma Algoritması (ZAA)</strong> - Duyarlı iş-ispatı zorluk ayarı sayesinde madencilerin miras Bitcoin zincirinden geçiş yapması sağlanırken işlem hızı dalgalanması için koruma sağlar.
+      - |
+        <strong>Merkeziyetsiz Gelişim</strong> - Birçok bağımsız yazılımcı ekibi sayesinde gelecek güvende. Bitcoin Cash'in gelişimi politik ve sosyal saldırlardan etkilenemez. Hiçbir tekil topluluk ya da şahıs kontrol edemez. Bitcoin-ml <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">e-posta listesi</a> yazılımcılara tavsiyeler için iyi bir kaynaktır.
+    faq:
+      - question: "Bitcoin Cash nedir?"
+        answer:
+          - |
+            Bitcoin Cash internet üzerinden kullanılan kişiler arası elektronik nakit sistemidir. Herhangi bir merkezi otorite, banka ya da aracıya ihtiyaç olmadan kullanılabilir.
+      - question: "Bitcoin Cash 'Bitcoin'den farklı mıdır?"
+        answer:
+          - |
+            Evet. Bitcoin Cash, Bitcoin projesinin kişiler arası elektronik para birimi olarak devamıdır. Geliştirilmiş uzlaşma kuralları sayesinde büyümesi ve ölçeklenmesi kolaylatılmış Bitcoin blokzinciri kaydının ayrılmış bir koludur.
+      - question: "Eğer Bitcoin'im varsa otomatik olarak Bitcoin Cash sahibi de olur muyum?"
+        answer:
+          - |
+            Bitcoin Cash yaratıldığı zaman Bitcoin'i olan herkes aynı zamanda Bitcoin Cash sahibidir. Yani, blok 478558 (1 Ağustos 2017 13:16 UTC sularında) itibariyle tüm Bitcoin sahipleri aynı miktarda Bitcoin Cash sahibidirler. Eğer Bitcoin'leriniz aracı bir kuruluş tarafından tutuluyorsa, mesela takas merkezleri gibi, onlarla Bitcoin Cash'iniz hakkında iletişime geçebilirsiniz.
+          - |
+            1 Ağustos hesap defteri ayrımı itibariyle yapılan herhangi bir işlem Bitcoin ve Bitcoin Cash arasında tamamen ayrıdır. Sonuç olarak, ayrımdan sonra alınan herhangi bir miktarda Bitcoin Bitcoin Cash içermez, aynı zamanda alınan herhangi Bitcon Cash de Bitcoin içermez.
+      - question: "Yeni ve eski blokzincirleri arasında işlem tekrarlanması idare ediliyor?"
+        answer:
+          - |
+            Bitcoin Cash işlemleri SIGHASH_FORKID isimli yeni bir imzalı şifreleme algoritması kullanmaktadır. Bu imzalar eski (miras) Bitcoin ağında geçerli değildir. Bunun sayesinde Bitcoin Cash işlemlerinin Bitcoin blokzincirinde tekrarlanması engellenmiş olur.
+      - question: "Neden Bitcoin Cash'in yaratılması için bir ayrılık gerekliydi?"
+        answer:
+          - |
+            Miras Bitcoin kodu 1MB'lık blok boyutu ya da saniyede 3 işlemlik bir sınıra sahipdir. Teknik olarak bu sınırı kaldırmak kolay olsa da yıllardır süren tartışmalar fikir ayrılığına sebep vermiştir.
+      - question: "1MB'lık blok boyutu sınırı Bitcoin için bir soruna mı sebep oluyordu?"
+        answer:
+          - |
+            Evet, 2017 yılında kapasite 'görünmez' bir duvara çarptı. İşlem ücretleri tavana fırladı ve bazı kullanıcıların işlemleri günlerce beklemelerine rağmen onaylanmadı, tabi sonuç olarak Bitcoin'in güvenirliği sarsıldı.
+          - |
+            Bitcoin'in market fiyatı yükselmesine rağmen büyümesi duraksadı ve bir para birimi olarak kullanılamaz hale geldi. Birçok kullanıcı, tüccar, şirket ve yatırımcı alternatifler aramaya başladi ve sonuç olarak Bitcoin'in pazar payı %95'ten %40'lara kadar düştü.
+      - question: "Bitcoin Cash bu sorunlara çözüm sağlıyor mu?"
+        answer:
+          - |
+            Evet. Bitcoin Cash zincir üzeri büyüme amacıyla öncelikle blok boyutu sınırını 8MB'a çıkardı. Böylelikle herkesin işlemleri için fazlasıyla yeterli kapasite sağlanmış oldu.
+          - |
+            Düşük işlem ücretleri ve hızlı onaylar Bitcoin Cash'e geri kazandırılmış oldu. Kullanıcı ağı tekrar büyümeye başladı. Kullanıcılar, tüccarlar, şirketler ve yatırımcılar geleceği gerçek kişiler arasi nakit ile inşa etmeye devam ediyor.
+      - question: "Madem blok boyutunu arttırmak kolaydı Bitcoin neden bunu yapmadı?"
+        answer:
+          - |
+            Bazı yazılımcılar Satoshi Nakamoto'nun yarattığı ve savunduğu, kişiler arası elektronik nakit niteliğini anlamadılar ve fikir ayrılıkları oluştu. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Bunun yerine onlar Bitcoin'in bir toplu anlaşma sistemi olmasını tercih ettiler</a>.
+          - |
+            Birçok madenci ve kullanıcı bu yazılımcılara güvenmeye devam ederken bazıları da onların beklenenden farklı bir yol haritası çizdiğini fark ettiler.
+          - |
+            Bitcoin'in bu iki farklı yorumu oldukça uyumsuz olduğu için topluluk iyiye ayrılmış oldu.
+      - question: "SegWit zaten blok kapasitesini arttırmamış mıydı? Bitcoin Cash SegWit kullanmayı planlıyor mu?"
+        answer:
+          - |
+            Ayrılmış tanık (SegWit) birkaç sebepten ötürü blok boyutunu arttırmak için kabul edilemez bir çözümdür.
+          - |
+            Öncelikle tüm işlemlerde kullanılsa bile blok boyutu artışı sadece 1.7MB olacaktır. Yani, en iyi ihtimalle küçük bir kapasite artışı sağlanabilir. Dünya çapında kullanıma ya da üstel büyümeye yeterli değildir. İkinci olarak, bu uygulama atılabilir imzalara sebep verdiği için <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">Bitcoin'in güvenlik modelini zayıflatmaktadır.</a> Üçüncü olarak, bant genişliği verimsizliği ve ikinci dereceden hash atağını engellememesi gibi sebeplerden ötürü ileriye yönelik kapasite artışını daha zor hale getirmektedir.
+          - |
+            Bu (ve başka) sebeplerden ötürü Bitcoin Cash'ın SegWit'ten önce ayrılması gerekliydi. SegWit bizim tarafımızdan ileride kullanılmayacaktır.
+      - question: "Bitcoin Cash'in gelişimden hangi yazılımcı takımı sorumlu?"
+        answer:
+          - |
+            Bitcoin'den farklı olarak Bitcoin Cash tek bir yazılımcı takımı ile geliştirilmemektedir. Şu an itibariyle birden fazla bağımsız yazılımcı takımı proje üzerinde çalışmaktadır.
+          - |
+            Yazılım gelişiminin (ve uygulanmasının) merkeziyetsiz hale getirilmesi gelecek için çok gerekli bir adımdır.
+      - question: "Bitcoin Cash'in kısaltması nedir?"
+        answer:
+          - |
+            Bitcoin Cash servise ve cüzdana göre farklı kısaltmalara sahiptir. BCC/BCH en yaygın kullanılan kısalatmalar olurken, XBC ise para birimleri kodu Uluslararası Standardına (ISO 4217) uyumluluk için kullanılmaktadır.

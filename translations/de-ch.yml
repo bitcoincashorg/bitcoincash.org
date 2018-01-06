@@ -1,0 +1,128 @@
+---
+de-CH:
+  title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
+  meta:
+    description: |
+      Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
+    twitter:
+      title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
+      description: |
+        Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
+    og:
+      title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
+      description: |
+        Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
+  misc:
+    logo: "Logo"
+  sections:
+    about: "Über"
+    features: "Features"
+    nodes: "Nodes"
+    wallets: "Wallets"
+    community: "Community"
+    services: "Diänscht"
+    projects: "Projäkt"
+    exchanges: "Börsä"
+    faq: "FAQ"
+  layout:
+    bitcoin_cash: "Bitcoin Cash"
+    lead: "Die elektronischi Peer-to-Peer Währig"
+    loading: "Am ladä..."
+  features:
+    - title: "Schnäll"
+      description: "Mach Gschäft innert Sekundä. Bechum d Bestätigung innert Minutä."
+    - title: "Zueverlässig"
+      description: "Es Netzwerk, das ohni Überlaschtig funktioniert."
+    - title: "Niedrigi Transaktionsköschtä"
+      description: "Verschick Geld global für eistelligi Centbeträg."
+    - title: "Eifach"
+      description: "Eifach und ohni Ärger z benutze."
+    - title: "Stabil"
+      description: "Es Bezahlsystem, wo au es Wertufbewahrigsmittel isch."
+    - title: "Sicher"
+      description: "Die sicherschti Blockchain vodä Wält."
+  headings:
+    about: "Die bescht Währig vo dä Wält."
+    features: "Neue Features"
+    nodes: "Nodes"
+    wallets: "Wallets"
+    services: "Diänscht"
+    projects: "Projäkt"
+    exchanges: "Börsä"
+    faq: "Hüüfig gstellti Frage"
+  content:
+    about:
+      - |
+        Bitcoin Cash bütet dä Wält e solidi Währig, wo dä Originalversion vo Bitcoin als „Peer-to-Peer Electronic Cash“ entspricht. Dä Nutzä für Händler oder Kundä sind zueverlässigi Transaktionä mit tüüfe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globale Akzeptanz, Innovation und dezentralisierte Entwicklig.
+      - |
+        Jedä, wo bim Block 478558 Bitcoin gha hät, hät automatisch au Bitcoin Cash becho. Jedä isch willkomme, debi z hlefe Bitcoin Cash für die gsamt Wält zuegänglich z mache.
+    features:
+      - |
+        <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt em Leitplan vo Satoshi Nakamoto für globali Akzeptanz dur On-Chain-Skalierig. Als erschte Schritt isch z Blocksizelimit apassbar festgleit wordä. Ebeso isch au z Standardlimit uf 8MB erhöht wordä. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschig wird betriebä, um zuekünftigi Blocksize-Erhöhige z ermöglichä.</a>.
+      - |
+        <strong>Neui Transaktionssignaturä</strong> - En neuä SigHash-Typ bütet Replay Protection, verbesserti Walletsicherheit und Eliminierig vom Quadratic-Hashing-Problem.
+      - |
+        <strong>Neuä Difficulty Adjustment Algorithmus</strong> - Dä neui Algorithmus erlaubt e schnelli Apassig vo dä Difficulty, schützt vor Hashrateschwankige und erlaubt Miner flüssend vo dä Legacy Bitcoin Blockchain uf die vo Bitcoin Cash umzstiege.
+      - |
+        <strong>Dezentralisierti Entwicklig</strong> - Mit mehrere unabhängigä Entwicklerteams, wo Softwareimplementierig bütet, isch d Zuekunft gsicheret. Bitcoin Cash isch resischtänt gege politischi oder soziali Agriff ufd Entwicklig vom Protokoll. Kei einzelni Gruppä oder einzels Projäkt chann’s kontrollierä. Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailinglistä</a> isch e gueti Plattform um Vorschläg für Änderige azbringä, die d Koordination und Zemmearbet vo mehrere Entwicklerteams brucht.
+    faq:
+      - question: "Was isch Bitcoin Cash?"
+        answer:
+          - |
+            Bitcoin Cash isch die elektronischi Peer-To-Peer Währig für’s Internet. Es isch komplett dezentralisiert, ohni Zentralbank und brucht keis Vertraue i Drittparteie, um z funktioniere.
+      - question: "Isch Bitcoin Cash andersch als \"Bitcoin\"?"
+        answer:
+          - |
+            Ja. Bitcoin Cash isch d Wieterfüehrig vo Bitcoin als elektronischi Peer-to-Peer Währig. Es isch en Fork vo dä Bitcoin Blockchain it aktualisierte Regle, wo am Bitcoin Cash erlaubet z wachse.
+      - question: "Han ich auch Bitcoin Cash, falls ich scho Bitcoin han?"
+        answer:
+          - |
+            Jedä, wo Bitcoins zum Ziitpunkt vode Erstellig vo Bitcoin Cash gha hät, hät automatisch au Bitcoin Cash becho. Das heisst, dass bim Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbsitzer die glich Mengi a Bitcoins in Bitcoin Cash becho hend. Falls Ihri Bitcoins zu dem Ziitpunkt binere Drittpartei, wie z.B. enere Börsä gsi sind, münd Sie sich bi dere nach Ihrne Bitcoin Cash erkundigä.
+          - |
+            Jedi Transaktion nach em 1. August wird vo Bitcoin und Bitcoin Cash separat verarbeitet. Das heisst, dass Bitcoins, die nach dem Datum erworbä worde sind, kei Bitcoin Cash enthaltet und Bitcoin Cash, die nach dem erworbä worde sind au kei Bitcoins enthaltet.
+      - question: "Wie wird d Wiederholig vo Transaktione zwüsche dä alte und dä neue Blockchain ghandhabt?"
+        answer:
+          - |
+            D’ Transaktione vo Bitcoin Cash nutzed en neue Signatur Hashing Algorithmus, erkennbar dur d’ Kennzeichnig „SIGHASH_FORKID". Die Signature sind uf dä Bitcoin Legacy Blockchain nöd gültig. Das verhinderet d Wiederholig vo Bitcoin Cash Transaktione uf dä Bitcoin Blockchain und umgekehrt.
+      - question: "Warum isch en Fork notwändig um Bitcoin Cash is Läbe z rüefe?"
+        answer:
+          - |
+            Dä Legacy Bitcoin Code het es Blocksizelimit vo 1MB gha, was 3 Transaktione / Sekunde entspricht. Obwohls technisch eifach gsi wär, die Blocksize z erhöche, hät d’ Community nie en gmeinsame Nenner gfunde.
+      - question: "Het z Bitcoin Blocksizelimit vo 1MB Problem verursacht?"
+        answer:
+          - |
+            Ja, im 2017, als d Kapazität komplett usglastet worde isch. Transaktionsköschtä sind explodiert und Bitcoin isch unzueverlässig worde. Viel Transaktione sind sogar no nach mehrere Täg nonig bestätigt worde.
+          - |
+            Dä Marktpriis vo Bitcoin isch gstiege, aber dä Wachstum und dä Nutzä als Währig stagniert. Viel Nutzer, Händler, Gschäft und Investore hend Bitcoin für Alternative verlah, was derzue gfüehrt het, dass d’ Dominanz vo Bitcoin vo 95% uf bis zu 40% gfalle isch.
+      - question: "Behebt Bitcoin Cash die Problem?"
+        answer:
+          - |
+            Ja. Bitcoin Cash het z Blocksizelimit als Teil vo dä On-Chain Skalierigsherangehenswies uf 8MB erhöht, was gnueg Platz für jedi Transaktion bütet.
+          - |
+            Niedrigi Transaktionsköschtä und schnelli Bestätigunge sind mit Bitcoin Cash zruggkehrt. Z Netzwerk wachst wieder. Nutzer, Händler, Gschäft und Investore bauet d’ Zuekunft mit Hilf vonere echte Peer-to-Peer Währig.
+      - question: "Warum het Bitcoin z Blocksizelimit nöd angehobe wenn’s so eifach isch?"
+        answer:
+          - |
+            Einigi Entwickler hend die original Version vonere globale elektronische Peer-to-Peer Währig vom Satoshi Nakamato nöd verstande oder ihre nöd zuegstimmt. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Stattdesse wennds Bitcoin ines Settlement Layer verwandlä.</a>.
+          - |
+            Vieli Miner und Nutzer hend denne Entwickler vertraut, während wiederum anderi erkennt hend, dass die d’ Community uf en andere Wäg als versproche gfüehrt hend.
+          - |
+            Die zwei Visione sind gröschteteils inkompatibel, weswege d’ Community sich gspalte hät.
+      - question: "Het SeqWit d’ Kapazität vo Bitcoinblöck erhöht? Wird Bitcoin Cash jemals SeqWit becho?"
+        answer:
+          - |
+            Segregated Witness oder "SegWit" isch en inakzeptable Ersatz für d’ Erhöhig vo dä Blocksize us mehrere Gründ.
+          - |
+            Erstens, selbscht wenn SegWit i 100% vo allnä Transaktione verwendet werde wür, wür das enere Blocksize vo 1.7MB entspräche. Darum isch’s im beschtä Fall nur e chliini Errhöhig. SegWit chann exponentiells Wachstum oder globali Akzeptanz nid handhabe. Zweitens resultiert die Soft Fork vo SegWit inere Wegwerfsignatur, welli <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">d’ Sicherheitsmodell vo Bitcoin verschlechteret.</a>.  Drittens werdet zuekünftigi Kapazitätserhöhige ufgrund vo Bandbreiteineffizienz und Quadratic-Hashing-Agriff erschwehrt, will SegWit die Problem nöd löst, da en Agriffer SegWit nöd verwände muen.
+          - |
+            Us dännä Gründ ischs notwendig gsi, d’ Bitcoin Cash Fork vor dä Implementierig vo SegWit durrezfüehre. SegWit wird nöd implementiert.
+      - question: "Welles Entwicklerteam leitet Bitcoin Cash?"
+        answer:
+          - |
+            Im Gegesatz zur Situation bi Bitcoin, gitts keis einzelns Entwicklerteam für Bitcoin Cash, sondern es existieret mehreri unabhängigi Entwicklerteams.
+          - |
+            D’ Dezentralisierig vo dä Entwicklig und dä Softwareimplementierig isch en notwendige und wichtige Schritt i die richtig Richtig.
+      - question: "Was isch dä Ticker für Bitcoin Cash?"
+        answer:
+          - |
+            Bitcoin Cash wird je nach Diänscht oder Wallet vo underschiedliche Tickersymbol repräsentiert. BCH/BCC sind die hüüfigschte. XBC wird verwendet, um em internationale Standard für Währigscodes (ISO 4217) grächt z’ werde.
