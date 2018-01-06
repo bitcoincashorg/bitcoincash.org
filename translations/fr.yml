@@ -3,21 +3,21 @@ fr:
   title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   meta:
     description: |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     twitter:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     og:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
   misc:
     logo: "logo"
   sections:
     about: "À propos"
     features: "Fonctionnalités"
-    nodes: "Noeuds"
+    nodes: "Nœuds"
     wallets: "Portefeuilles"
     community: "Communauté"
     services: "Services"
@@ -32,19 +32,19 @@ fr:
     - title: "Rapide"
       description: "Envoyé en quelques secondes. Confirmé en quelques minutes."
     - title: "Fiable"
-      description: "Un réseau qui fonctionne, sans congestion."
+      description: "Un réseau qui fonctionne sans congestion."
     - title: "Frais infimes"
-      description: "Envoyez de l'argent mondialement pour quelques centimes."
+      description: "Envoyez de l'argent partout dans le monde pour quelques centimes."
     - title: "Simple"
       description: "Simple à utiliser. Sans difficulté."
     - title: "Stable"
-      description: "Un système de paiement prouvé comme valeur refuge."
+      description: "Un système de paiement prouvé comme étant une valeur refuge."
     - title: "Securisé"
       description: "La chaine de blocs la plus robuste."
   headings:
     about: "La meilleure monnaie du Monde"
     features: "Nouvelles fonctionnalités"
-    nodes: "Noeuds"
+    nodes: "Nœuds"
     wallets: "Portefeuilles"
     services: "Services"
     projects: "Projets"
