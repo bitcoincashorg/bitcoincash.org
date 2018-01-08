@@ -5,8 +5,12 @@ This is the repository for [bitcoincash.org](https://bitcoincash.org). As the Bi
 Build & Run the Docker Image
 ----------------------------
 
-1. `docker build -t bitcoincash .`
-2. `docker run -d -p 8888:80 bitcoincash`
+In order to build and run the site you need ruby and docker. Then run:
+
+1. `gem install bundler`
+2. `bundle install`
+3. `rake docker:build`
+4. `docker run -d -p 8888:80 bitcoincash`
 
 Contributions
 -------------
