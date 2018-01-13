@@ -9,7 +9,7 @@ of the Bitcoin Cash blockcahin.
 
 # Officers
 
- * Chairperson:
+ * Chairperson: Earl G.
  * Meeting Reporter:
  * Membership Coordinator:
 
