@@ -1,4 +1,4 @@
-# Cash Address Rollout
+# User Experience
 
 Planning and coordination for advancements in Bitcoin Cash Wallets.
 
@@ -8,7 +8,7 @@ Planning and coordination for advancements in Bitcoin Cash Wallets.
 
 # Officers
 
- * Chairperson:
+ * Chairperson: Alex K. (tentative)
  * Meeting Reporter:
  * Membership Coordinator:
 

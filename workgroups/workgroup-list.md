@@ -20,7 +20,7 @@ adjustments and implmenting them on the Bitcoin Cash.
 Proposing the re-enablement of various opcodes and creating well-defined
 specifications for the behavior and roll-out of each op-code.
 
-## [Malleability Fixes](wg-malfix/workgroup.md)
+## [Malleability Fix](wg-malfix/workgroup.md)
 
 Fixes to transaction malleability to enable various other technologies on top
 of the Bitcoin Cash blockcahin.
@@ -30,7 +30,7 @@ of the Bitcoin Cash blockcahin.
 Defining a specification for how Bitcoin Cash node implementations will
 execute hardforks on a regular basis.
 
-## [Wallets](wg-wallets/workgroup.md)
+## [User Experience](wg-ux/workgroup.md)
 
 Planning and coordination for advancements in Bitcoin Cash Wallets.
 

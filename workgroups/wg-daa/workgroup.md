@@ -9,7 +9,7 @@ adjustments and implmenting them on the Bitcoin Cash.
 
 # Officers
 
- * Chairperson:
+ * Chairperson: @darkminter
  * Meeting Reporter:
  * Membership Coordinator:
 
@@ -17,3 +17,5 @@ adjustments and implmenting them on the Bitcoin Cash.
 
 - Shammah Chancellor, @schancel, Bitcoin ABC
 - Tom Harding, @dgenr8, Bitcoin XT
+- kyuupichan
+- mengarian, Bitcoin Unlimited

@@ -22,4 +22,4 @@ certified against.
 # Interested Parties
 
 - Shammah Chancellor, @schancel, Bitcoin ABC
-- Geoffrey Vishloff, @wrstuv31, Project Coordinator
+- Geoffrey Vishloff, @wrstuv31
