@@ -9,7 +9,7 @@ specifications for the behavior and roll-out of each op-code.
 
 # Officers
 
- * Chairperson:
+ * Chairperson: @JVP
  * Meeting Reporter:
  * Membership Coordinator:
 
