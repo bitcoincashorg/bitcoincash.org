@@ -127,4 +127,4 @@ en:
       - question: "What is the ticker symbol for Bitcoin Cash?"
         answer:
           - |
-            Bitcoin Cash is represented by a number of different ticker symbols depending on the service or wallet. BCH/BCC are the most popular tickers, with XBC being used to meet the International Standard for currency codes (ISO 4217).
+            Bitcoin Cash is represented by a number of different ticker symbols depending on the service or wallet. BCH is the most popular ticker, with XBC being used to meet the International Standard for currency codes (ISO 4217).
