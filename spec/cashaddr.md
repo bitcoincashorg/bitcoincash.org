@@ -91,10 +91,21 @@ uint64_t PolyMod(const data &v) {
 }
 ````
 
-The checksum is calculated over the following data:
+The checksum is calculated over the following data (list of integers in range 0-31):
+1. The lower 5 bits of each characters of the prefix. - e.g. "bit..." becomes 2,9,20,...
+2. A zero for the separator (5 zero bits).
+3. The payload by chunks of 5 bits. If necessary, the payload is padded to the right with zero bits to complete any unfinished chunk at the end.
+4. Eight zeros as a "template" for the checksum.
+
+The 40-bit number returned by PolyMod is split into eight 5-bit numbers (msb first).
+The payload and the checksum are then encoded according to the base32 character table.
+
+To verify a base32-formatted address, it is split at the colon ":" into prefix and payload.
+Input data (list of integers) for PolyMod function is assembled from these parts:
 1. The lower 5 bits of each characters of the prefix.
 2. A zero for the separator (5 zero bits).
-3. The payload by chunks of 5 bits. The payload is padded with zero bits up to the point where it is a multiple of 5 bits.
+3. Each base32 char of the payload mapped to it's respective number.
+If PolyMod returns non-zero, then the address was broken.
 
 The following adresses can be used as test vector for checksum computation:
  - prefix:x64nx6hz
