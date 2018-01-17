@@ -19,3 +19,4 @@ Planning and coordination for advancements in Bitcoin Cash Wallets.
 - Chris Pacia, chris@ob1.io, OpenBazaar
 - Jason Dreyzehner, @bitjson, BitPay
 - Ryan X. Charles, ryan@yours.org, Yours Inc.
+- Jason Cox, jasonbcox
