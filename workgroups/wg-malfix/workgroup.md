@@ -1,7 +1,7 @@
 # Malleability Fixes
 
 Fixes to transaction malleability to enable various other technologies on top
-of the Bitcoin Cash blockcahin.
+of the Bitcoin Cash blockchain.
 
 # Communication
 

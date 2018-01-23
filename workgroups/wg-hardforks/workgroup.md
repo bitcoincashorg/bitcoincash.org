@@ -21,7 +21,7 @@ hardforks will be done on a regular basis going forward.
 
 # Schedule
 
-Prototcol upgrades every six months at Median Time Past timestamps. Code and features to be included in the upgrade will be finalized three months prior to the upgrade.
+Protocol upgrades every six months at Median Time Past timestamps. Code and features to be included in the upgrade will be finalized three months prior to the upgrade.
 
 ## Upcoming Dates
 

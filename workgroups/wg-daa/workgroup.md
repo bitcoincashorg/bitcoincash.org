@@ -1,7 +1,7 @@
 # Difficulty Adjustment Algorithm
 
 Workgroup for researching and discussing the latest technology for difficulty
-adjustments and implmenting them on the Bitcoin Cash.
+adjustments and implementing them on the Bitcoin Cash.
 
 # Communication
 
