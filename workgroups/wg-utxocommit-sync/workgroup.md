@@ -4,7 +4,7 @@ How to implement UTXO commitments and better syncing features
 
 # Communication
 
-* [Telegram Group](hhttps://t.me/joinchat/AAR0rxGzV0svmvTMVeP8gQ)
+* [Telegram Group](https://t.me/joinchat/AAR0rxGzV0svmvTMVeP8gQ)
 
 # Officers
 
