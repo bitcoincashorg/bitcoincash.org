@@ -14,4 +14,6 @@ How to implement UTXO commitments and better syncing features
 
 # Interested Parties
 
-- Tomas, @tomasvdw, Bitcoin ABC
+- Tomas, @tomasvdw, bitCrust
+- Amaury Sechet, @deadalnix, Bitcoin ABC
+

@@ -14,7 +14,7 @@ engineers who are talking past each other.
 ## Meeting Reporter
 
 This position should record the major points at each meeting, and prepare a
-report for the larger Bitcoin Cash development meetings.  This is to ensure
+report for the larger Bitcoin Cash developer community.  This is to ensure
 that Bitcoin Cash developers which are not directly involved in a particular
 workgroup are kept informed.  Reports should be brief and to the point.  They
 should include:

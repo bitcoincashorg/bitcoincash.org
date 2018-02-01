@@ -34,6 +34,11 @@ execute hardforks on a regular basis.
 
 Planning and coordination for advancements in Bitcoin Cash Wallets.
 
+## [UTXO Commitments and Syncing](wg-utxocommit-sync/workgroup.md)
+
+Defining quality standards against which a node implementation may be
+certified against.
+
 ## [Quality Assurance](wg-qa/workgroup.md)
 
 Defining quality standards against which a node implementation may be

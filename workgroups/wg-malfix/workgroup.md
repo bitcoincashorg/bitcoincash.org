@@ -15,5 +15,5 @@ of the Bitcoin Cash blockchain.
 
 # Interested Parties
 
-- Tomas, @tomasvdw, Bitcoin ABC
+- Tomas, @tomasvdw, bitCrust
 - Geoffrey Vishloff, @wrstuv31
