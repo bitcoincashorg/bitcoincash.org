@@ -1,5 +1,6 @@
 ---
-in:
+id:
+  language: Bahasa Indonesia
   title: "Bitcoin Cash - Mata Uang P2P Elektronik"
   meta:
     description: |

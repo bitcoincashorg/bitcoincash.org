@@ -16,6 +16,7 @@
         <link href="/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/css/lang.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/custom.css?v=1" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i&subset=latin,latin-ext" rel="stylesheet">
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -112,6 +113,34 @@ gtag('config', 'UA-17656782-2');
                                         <a href="#faq" class="inner-link">
                                             <%= I18n.t(:'sections.faq').strip %>
                                         </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger"><%= I18n.t(:language).strip %></span>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content lang-menu">
+                                                        <%-
+                                                            I18n.available_locales.map { |locale|
+                                                              [locale, I18n.t(:language, :locale => locale).strip]
+                                                            }
+                                                            .sort_by { |pair| pair[1] }
+                                                            .each_slice(7) do |group|
+                                                        -%>
+                                                        <ul class="menu-vertical">
+                                                            <%- group.each do |pair| -%>
+                                                            <li>
+                                                                <a href="/<%= pair[0].to_s.downcase %>/">
+                                                                <%= pair[1] %>
+                                                                </a>
+                                                            </li>
+                                                            <%- end -%>
+                                                        </ul>
+                                                        <%- end -%>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>

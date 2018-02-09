@@ -1,5 +1,6 @@
 ---
 el:
+  language: ελληνικά
   title: "Bitcoin Cash - Το ψηφιακό νόμισμα αρχιτεκτονικής ομότιμων κόμβων (P2P)"
   meta:
     description: |

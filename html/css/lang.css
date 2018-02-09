@@ -1,0 +1,39 @@
+/*
+ * Styles specific to the language menu
+ */
+
+.lang-menu {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    width: auto !important;
+}
+
+.lang-menu .menu-vertical {
+    min-width: 150px;
+    width: auto !important;
+}
+
+.menu-vertical li:last-child {
+    margin-bottom: 0.30952381em;
+}
+
+@media (min-width: 768px) {
+    .menu-vertical {
+        display: inline-block;
+        float: left;
+    }
+
+    .menu-vertical li:last-child {
+        margin-bottom: 0;
+    }
+
+    .menu-horizontal li:last-child > span {
+        border-left: 2px solid #929292;
+        padding-left: 1.4em;
+    }
+
+    .menu-horizontal li:not(:last-child) {
+        margin-right: 1.0em;
+    }
+}
