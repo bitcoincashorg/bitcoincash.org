@@ -6,7 +6,7 @@ hard consensus rules but later extending into soft rules.
 
 # Communication
 
-* [Telegram Group](#)
+* [Telegram Group](https://t.me/joinchat/HCYr50Wph-KptdM0-2-7NQ)
 
 # Officers
 
