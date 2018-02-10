@@ -734,7 +734,7 @@ mr = (function (mr, $, window, document){
                 offset      = dropdown.offset().left;
                 width       = dropdown.outerWidth(true);
                 offsetRight = offset + width;
-                winWidth    = jQuery(window).outerWidth(true);
+                winWidth    = jQuery('.containerMeasure').outerWidth(true);
                 leftCorrect = jQuery('.containerMeasure').outerWidth() - width;
 
             if(offsetRight > winWidth){

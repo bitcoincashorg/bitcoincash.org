@@ -1,4 +1,9 @@
 /*! Place your custom styles here */
+
+.bar .logo {
+  max-height: 1.3em;
+}
+
 .benefits .row .col-sm-4 {
   margin-bottom: 40px;
 }

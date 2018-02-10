@@ -3292,7 +3292,7 @@ form[action*='list-manage.com'] .small-meta {
     margin-bottom: 0.92857143em;
   }
   .bar__module + .bar__module {
-    margin-top: 1.85714286em;
+    margin-top: 1em;
   }
   .bar__module .btn {
     display: block;
@@ -4767,11 +4767,11 @@ section.parallax .row .background-image-holder {
   }
   .bar-2 .menu-horizontal > li:not(:first-child),
   .bar-1 .menu-horizontal > li:not(:first-child) {
-    margin-left: 0.92857143em;
+    margin-left: 0em;
   }
   .bar-2 .bar__module,
   .bar-1 .bar__module {
-    margin-bottom: 1.85714286em;
+    margin-bottom: 1.0em;
   }
   .bar-2 .row div[class*='col-']:last-child .bar__module:last-child,
   .bar-1 .row div[class*='col-']:last-child .bar__module:last-child {
@@ -4788,7 +4788,7 @@ section.parallax .row .background-image-holder {
 }
 @media all and (min-width: 1024px) {
   .bar-1 .bar__module + .bar__module {
-    margin-left: 1.85714286em;
+    margin-left: 0em;
   }
 }
 @media all and (min-width: 991px) {
