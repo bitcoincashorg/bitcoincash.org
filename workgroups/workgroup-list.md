@@ -15,6 +15,10 @@ This meeting exists to discuss all topics regarding expanding the block size.
 Workgroup for researching and discussing the latest technology for difficulty
 adjustments and implmenting them on the Bitcoin Cash.
 
+## [Fungibility](wg-fungibility/workgroup.md)
+
+Discussion workgroup for issues surrounding better privacy protections on Bitcoin Cash.
+
 ## [Op Codes](wg-opcodes/workgroup.md)
 
 Proposing the re-enablement of various opcodes and creating well-defined
