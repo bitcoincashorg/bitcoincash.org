@@ -18,4 +18,4 @@ adjustments and implementing them on the Bitcoin Cash.
 - Shammah Chancellor, @schancel, Bitcoin ABC
 - Tom Harding, @dgenr8, Bitcoin XT
 - kyuupichan
-- mengarian, Bitcoin Unlimited
+- Antony Zegers, @Mengerian, Bitcoin Unlimited and Bitcoin ABC
