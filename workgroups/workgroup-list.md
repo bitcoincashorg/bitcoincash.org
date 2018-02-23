@@ -57,3 +57,8 @@ hard consensus rules but later extending into soft rules.
 ## [Sidechains](wg-sidechains/workgroup.md)
 
 Discussion related to sidechains on Bitcoin Cash and in general.
+
+## [Watercooler](wg-watercooler/workgroup.md)
+
+Discussion related to sidechains on Bitcoin Cash and in general.
+
