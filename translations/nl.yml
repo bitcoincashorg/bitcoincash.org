@@ -1,7 +1,8 @@
 ---
 nl:
   language: Nederlands
-  title: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
+  title:
+    index: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
   meta:
     description: |
       Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.

@@ -1,7 +1,8 @@
 ---
 it:
   language: Italiano
-  title: "Bitcoin Cash - Denaro Contante Peer-to-Peer"
+  title:
+    index: "Bitcoin Cash - Denaro Contante Peer-to-Peer"
   meta:
     description: |
       Bitcoin Cash porta al mondo moneta sonante. Commissioni economiche e conferme affidabili vanno a vantaggio di commercianti e clienti. Il futuro sarà luminoso grazie a una crescita senza restrizioni, adozione globale, innovazione libera e sviluppo decentralizzato.

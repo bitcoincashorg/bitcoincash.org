@@ -1,7 +1,8 @@
 ---
 es:
   language: Español
-  title: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
+  title:
+    index: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
   meta:
     description: |
       Bitcoin Cash es una moneda fuerte para todos. Usuarios y comerciantes pueden ahora disfrutar de comisiones bajas y confirmaciones fiables. El futuro es prometedor gracias a crecimiento sin restricciones, adopción global, innovación que no necesita permisos y desarrollo descentralizado.

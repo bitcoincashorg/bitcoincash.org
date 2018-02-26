@@ -1,7 +1,8 @@
 ---
 id:
   language: Bahasa Indonesia
-  title: "Bitcoin Cash - Mata Uang P2P Elektronik"
+  title:
+    index: "Bitcoin Cash - Mata Uang P2P Elektronik"
   meta:
     description: |
       Bitcoin Cash adalah mata uang P2P yang mendunia. Bitcoin Cash memberdayakan pedagang dan pengguna untuk bertransaksi dengan biaya rendah dan konfirmasi cepat. Dengan inovasi baru dan pertumbuhan teknologi, Bitcoin Cash memungkinkan adopsi global dan pengembangan moneter yang terdesentralisasi.

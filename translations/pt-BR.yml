@@ -1,7 +1,8 @@
 ---
 pt-BR:
   language: Português Brasil
-  title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+  title:
+    index: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
   meta:
     description: |
       Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.

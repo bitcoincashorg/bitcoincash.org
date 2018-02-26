@@ -1,7 +1,8 @@
 ﻿---
 de:
   language: Deutsch Deutschland
-  title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+  title:
+    index: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
   meta:
     description: |
       Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
