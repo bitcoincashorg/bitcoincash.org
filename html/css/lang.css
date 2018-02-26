@@ -14,6 +14,10 @@
     width: auto !important;
 }
 
+.lang-menu .menu-vertical li {
+    margin-right: 20px;
+}
+
 .menu-vertical li:last-child {
     margin-bottom: 0.30952381em;
 }

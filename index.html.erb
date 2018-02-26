@@ -125,7 +125,7 @@ gtag('config', 'UA-17656782-2');
                                                               [locale, I18n.t(:language, :locale => locale).strip]
                                                             }
                                                             .sort_by { |pair| pair[1] }
-                                                            .each_slice(7) do |group|
+                                                            .each_slice(6) do |group|
                                                         -%>
                                                         <ul class="menu-vertical">
                                                             <%- group.each do |pair| -%>
