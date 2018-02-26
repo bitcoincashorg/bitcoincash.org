@@ -4,16 +4,17 @@ fr:
   title: 
     index: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   meta:
-    description: |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
-    twitter:
-      title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
+    index:
       description: |
         Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
-    og:
-      title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
-      description: |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
+      twitter:
+        title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
+        description: |
+          Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
+      og:
+        title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
+        description: |
+          Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
   misc:
     logo: "logo"
   sections:

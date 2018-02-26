@@ -4,16 +4,17 @@ tr:
   title:
     index: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
   meta:
-    description: |
-      Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
-    twitter:
-      title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
+    index:
       description: |
         Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
-    og:
-      title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
-      description: |
-        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+      twitter:
+        title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
+        description: |
+          Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+      og:
+        title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
+        description: |
+          Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
   misc:
     logo: "logo"
     dropdown_md_width: 2

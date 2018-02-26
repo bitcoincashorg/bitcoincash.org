@@ -4,16 +4,17 @@ pl:
   title:
     index: "Bitcoin Cash - to elektroniczna waluta peer-to-peer"
   meta:
-    description: |
-      Bitcoin Cash to twarda waluta, cechująca się znikomymi opłatami. Przyszłość jawi się w jasnych barwach co do wzrostu wartości, globalalnej adopcja, niezależości oraz rozwoju.
-    twitter:
-      title: "Bitcoin Cash - Elektroniczna waluta peer-to-peer"
+    index:
       description: |
         Bitcoin Cash to twarda waluta, cechująca się znikomymi opłatami. Przyszłość jawi się w jasnych barwach co do wzrostu wartości, globalalnej adopcja, niezależości oraz rozwoju.
-    og:
-      title: "Bitcoin Cash - Elektroniczna waluta peer-to-peer"
-      description: |
-        Bitcoin Cash to twarda waluta, cechująca się znikomymi opłatami. Przyszłość jawi się w jasnych barwach co do wzrostu wartości, globalalnej adopcja, niezależości oraz rozwoju.
+      twitter:
+        title: "Bitcoin Cash - Elektroniczna waluta peer-to-peer"
+        description: |
+          Bitcoin Cash to twarda waluta, cechująca się znikomymi opłatami. Przyszłość jawi się w jasnych barwach co do wzrostu wartości, globalalnej adopcja, niezależości oraz rozwoju.
+      og:
+        title: "Bitcoin Cash - Elektroniczna waluta peer-to-peer"
+        description: |
+          Bitcoin Cash to twarda waluta, cechująca się znikomymi opłatami. Przyszłość jawi się w jasnych barwach co do wzrostu wartości, globalalnej adopcja, niezależości oraz rozwoju.
   misc:
     logo: "logo"
   sections:

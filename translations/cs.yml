@@ -4,16 +4,17 @@ cs:
   title:
     index: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
   meta:
-    description: |
-      Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
-    twitter:
-      title: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
+    index:
       description: |
         Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
-    og:
-      title: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
-      description: |
-        Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
+      twitter:
+        title: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
+        description: |
+          Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
+      og:
+        title: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
+        description: |
+          Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
   misc:
     logo: "logo"
   sections:

@@ -4,16 +4,17 @@ pt-BR:
   title:
     index: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
   meta:
-    description: |
-      Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
-    twitter:
-      title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+    index:
       description: |
         Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
-    og:
-      title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
-      description: |
-        Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
+      twitter:
+        title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+        description: |
+          Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
+      og:
+        title: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
+        description: |
+          Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
   misc:
     logo: "logo"
   sections:

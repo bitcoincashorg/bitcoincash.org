@@ -4,16 +4,17 @@ de:
   title:
     index: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
   meta:
-    description: |
-      Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
-    twitter:
-      title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+    index:
       description: |
         Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
-    og:
-      title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
-      description: |
-        Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+      twitter:
+        title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+        description: |
+          Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+      og:
+        title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+        description: |
+          Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
   misc:
     logo: "Logo"
   sections:

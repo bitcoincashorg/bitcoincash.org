@@ -4,16 +4,17 @@ pt-PT:
   title:
     index: "Bitcoin Cash - Moeda Eletrónica de Pessoa para Pessoa"
   meta:
-    description: |
-      O Bitcoin Cash traz dinheiro forte para o mundo. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
-    twitter:
-      title: "Bitcoin Cash - Moeda Eletrónica de Pessoa para Pessoa"
+    index:
       description: |
         O Bitcoin Cash traz dinheiro forte para o mundo. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
-    og:
-      title: "Bitcoin Cash - Moeda Eletrónica de Pessoa para Pessoa"
-      description: |
-        O Bitcoin Cash traz dinheiro forte para o mundo. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
+      twitter:
+        title: "Bitcoin Cash - Moeda Eletrónica de Pessoa para Pessoa"
+        description: |
+          O Bitcoin Cash traz dinheiro forte para o mundo. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
+      og:
+        title: "Bitcoin Cash - Moeda Eletrónica de Pessoa para Pessoa"
+        description: |
+          O Bitcoin Cash traz dinheiro forte para o mundo. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
   misc:
     logo: "logo"
   sections:

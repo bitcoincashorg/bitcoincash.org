@@ -4,16 +4,17 @@ de-CH:
   title:
     index: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
   meta:
-    description: |
-      Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
-    twitter:
-      title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
+    index:
       description: |
         Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
-    og:
-      title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
-      description: |
-        Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
+      twitter:
+        title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
+        description: |
+          Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
+      og:
+        title: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
+        description: |
+          Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
   misc:
     logo: "Logo"
   sections:
