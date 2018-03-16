@@ -29,6 +29,18 @@ Bitcoin Cash brings sound money to the world.  Merchants and users are empowered
  
 All Bitcoin holders as of block 478558 are now owners of Bitcoin Cash. All Bitcoiners are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
 
+Listing Policy for Exchanges, Wallets, and Projects
+---------------------------------------------------
+
+Although many exchanges, wallets, and other projects would like to be listed on our website, BitcoinCash.org is not meant
+to be an exhaustive directory.  There is limited space and quite simply, we only want to showcase the best of the best.
+
+Only the top several exchanges by trading volume in each country will be considered.  
+
+For wallets, we only want to list those that have the highest trust and best reputation within the community.  Relevant factors include the brand, the age of the wallet, as well as the track record of the company, developers, and/or other individuals involved.
+
+We apologize in advance if we're unable to provide a listing for you on BitcoinCash.org.  We acknowledge the criteria for wallet listings are somewhat subjective. Please understand our decisions are not personal, but rather based on a conservative approach and our responsbility to safeguard the community against questionable projects. (edited)
+
 License
 -------
 
