@@ -1,4 +1,10 @@
-# Sidechains
+---
+layout: page
+title: Sidechains
+desc: Discussion related to sidechains on Bitcoin Cash and in general.
+permalink: wg-sidechains
+group: workgroup
+---
 
 Discussion related to sidechains on Bitcoin Cash and in general.
 

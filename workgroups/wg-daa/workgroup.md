@@ -1,4 +1,10 @@
-# Difficulty Adjustment Algorithm
+---
+layout: page
+title: Difficulty Adjustment Algorithm
+desc: Workgroup for researching and discussing the latest technology for difficulty adjustments and implmenting them on the Bitcoin Cash.
+permalink: wg-daa
+group: workgroup
+---
 
 Workgroup for researching and discussing the latest technology for difficulty
 adjustments and implementing them on the Bitcoin Cash.

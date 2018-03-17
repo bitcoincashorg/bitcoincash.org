@@ -1,4 +1,10 @@
-# Fungibility
+---
+layout: page
+title: Fungibility
+desc: Discussion workgroup for issues surrounding better privacy protections on Bitcoin Cash.
+permalink: wg-fungibility
+group: workgroup
+---
 
 Discussion workgroup for issues surrounding better privacy protections on Bitcoin Cash.
 

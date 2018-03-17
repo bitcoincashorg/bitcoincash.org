@@ -1,4 +1,10 @@
-# User Experience
+---
+layout: page
+title: User Experience
+desc: Planning and coordination for advancements in Bitcoin Cash Wallets.
+permalink: wg-ux
+group: workgroup
+---
 
 Planning and coordination for advancements in Bitcoin Cash Wallets.
 

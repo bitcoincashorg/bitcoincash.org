@@ -1,4 +1,10 @@
-# Quality Assurance
+---
+layout: page
+title: Quality Assurance
+desc: Defining quality standards against which a node implementation may be certified against.
+permalink: wg-qa
+group: workgroup
+---
 
 Defining quality standards against which a node implementation may be
 certified against.

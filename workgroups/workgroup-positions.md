@@ -1,4 +1,8 @@
-# Positions
+---
+layout: page
+title: Positions
+permalink: positions.html
+---
 
 All positions within Bitcoin Cash workgroups are voluntary and obtained by
 doing that job.  The following is a list of positions and what it means to be

@@ -1,4 +1,10 @@
-# Op Codes
+---
+layout: page
+title: Op Codes
+desc: Proposing the re-enablement of various opcodes and creating well-defined specifications for the behavior and roll-out of each op-code.
+permalink: wg-opcodes
+group: workgroup
+---
 
 Proposing the re-enablement of various opcodes and creating well-defined
 specifications for the behavior and roll-out of each op-code.
@@ -17,3 +23,8 @@ specifications for the behavior and roll-out of each op-code.
 - Chris Pacia, chris@ob1.io, OpenBazaar
 - Jason Cox, jasonbcox
 - Jason Dreyzehner, @bitjson, BitPay
+
+
+## Summaries
+
+{% include sub-list.html group='opcodes' %}

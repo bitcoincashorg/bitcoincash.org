@@ -1,4 +1,8 @@
-# Participant Roster
+---
+layout: page
+title: Participant Roster
+permalink: /roster/
+---
 
 This document is an optional way to advertise yourself to other members of the Bitcoin Cash ecosystem.
 

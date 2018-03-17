@@ -1,19 +1,20 @@
-# Metadata
-
-Title:            Discussion on proposal to re-enable a subset of opcodes
-Workgroup:        OpCodes
-Meeting Time:     20170131 1100 (UTC)
-Document Version: 1.0
-
-Developer Participants:
- * Amaury Sechét of Bitcoin ABC
- * Shammah Chancellor of Bitcoin ABC
- * Jason B Cox of Bitcoin ABC
- * shadders of nChain
- * Dan Connoly of BitcoinJ Cash
- * Dagur of Bitcoin XT
- * Andreas Suisani of Bitcoin Unlimited
- * Josh Yabut
+---
+layout: summary
+title: Discussion on proposal to re-enable a subset of opcodes
+group: opcodes
+time: 20170131 1100 (UTC)
+version: 1.0
+participants: [
+    Amaury Sechét of Bitcoin ABC,
+    Shammah Chancellor of Bitcoin ABC,
+    Jason B Cox of Bitcoin ABC,
+    shadders of nChain,
+    Dan Connoly of BitcoinJ Cash,
+    Dagur of Bitcoin XT,
+    Andreas Suisani of Bitcoin Unlimited,
+    Josh Yabut
+]
+---
 
 REQUEST TO EDITORS:
 

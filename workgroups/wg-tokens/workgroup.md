@@ -1,4 +1,10 @@
-# Tokens
+---
+layout: page
+title: Tokens
+desc: Discussion related to tokens on Bitcoin Cash.
+permalink: wg-tokens
+group: workgroup
+---
 
 Discussion related to tokens on Bitcoin Cash.
 

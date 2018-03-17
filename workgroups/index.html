@@ -1,0 +1,18 @@
+---
+layout: page
+title: Bitcoin Cash Workgroups
+permalink: index.html
+---
+
+The following is a topical list of Bitcoin Cash Development Workgroups.  Each
+group should be focused around a specific subject.  They may exist for a
+limited time, or be of ongoing interest.  
+
+Each group should find people to take on each position listed in [workgroup-positions](positions.html)
+
+{% for item in site.pages %}
+    {% if item.group == 'workgroup' %}
+        <h2><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h2>
+        <p>{{item.desc}}</p>
+    {% endif %}
+{% endfor %}

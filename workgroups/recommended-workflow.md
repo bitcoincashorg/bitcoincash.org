@@ -1,4 +1,8 @@
-# Recommended Proposal Workflow
+---
+layout: page
+title: Recommended Proposal Workflow
+permalink: workflow.html
+---
 
 1. Write a document detailing:
     - The problem to be solved

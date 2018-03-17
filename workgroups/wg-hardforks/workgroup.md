@@ -1,4 +1,11 @@
-# Regular Hardfork Mechanism
+---
+layout: page
+title: Regular Hardfork Mechanism
+desc: Defining a specification for how Bitcoin Cash node implementations will execute hardforks on a regular basis.
+permalink: wg-hardforks
+group: workgroup
+---
+
 
 The purpose of this workgroup is to define a formal specification for how
 hardforks will be done on a regular basis going forward.
@@ -48,3 +55,7 @@ Protocol upgrades every six months at Median Time Past timestamps. Code and feat
   [Bitcoin ABC Medium Term Development Plan](https://www.bitcoinabc.org/bitcoin-abc-medium-term-development)
   
   [nChain Development & Testing Accord](https://nchain.com/en/blog/bitcoin-cash-development-testing-accord/)
+
+## Summaries
+
+{% include sub-list.html group='hardforks' %}

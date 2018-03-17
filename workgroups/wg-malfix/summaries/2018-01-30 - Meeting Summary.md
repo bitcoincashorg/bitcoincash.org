@@ -1,14 +1,15 @@
-# Metadata
-
-Title:            Fixing Transaction Maleability:  Is it worth it?
-Workgroup:        MalFix
-Meeting Time:     20170129 1100 (UTC)
-Document Version: 1.0
-
-Developer Participants:
- * Amaury Sechét of Bitcoin ABC
- * Tomas of bitCrust
- * shadders of nChain
+---
+layout: summary
+title: Fixing Transaction Maleability - Is it worth it?
+group: malfix
+time: 20170129 1100 (UTC)
+version: 1.0
+participants: [
+    Amaury Sechét of Bitcoin ABC,
+    Tomas of bitCrust,
+    shadders of nChain
+]
+---
 
 REQUEST TO EDITORS:
 

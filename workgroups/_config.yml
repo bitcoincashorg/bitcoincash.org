@@ -1,0 +1,19 @@
+baseurl: 
+
+name: Workgroups
+description: Bitcoin Cash Working Group
+
+avatar: "assets/img/1-bitcoin-cash-logo.svg"
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+exclude: ['README.md']

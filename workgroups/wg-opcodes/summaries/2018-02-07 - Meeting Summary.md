@@ -1,23 +1,23 @@
-# Metadata
-
-Title:            Followup discussion on proposal to re-enable a subset of opcodes
-Workgroup:        OpCodes
-Meeting Time:     20180207 1500 (UTC)
-Document Version: 1.0
-
-Chair:
- * JVP
- 
-Developer Participants:
- * Shammah Chancellor of Bitcoin ABC
- * Dan Connolly of BitcoinJ Cash
- * Amaury Sechét of Bitcoin ABC
- * Steve Shadders of nChain
- * Andrew Stone of Bitcoin Unlimited
- * Andrea Suisani of Bitcoin Unlimited
- * Jason B Cox
- * Joshua Yabut
- * *more*
+---
+layout: summary
+title: Followup discussion on proposal to re-enable a subset of opcodes
+group: opcodes
+category: summary
+time: 20180207 1500 (UTC)
+version: 1.0
+chair: JVP
+participants: [
+    Shammah Chancellor of Bitcoin ABC,
+    Dan Connolly of BitcoinJ Cash,
+    Amaury Sechét of Bitcoin ABC,
+    Steve Shadders of nChain,
+    Andrew Stone of Bitcoin Unlimited,
+    Andrea Suisani of Bitcoin Unlimited,
+    Jason B Cox,
+    Joshua Yabut,
+    more
+]
+---
 
 # Discussion Topic
 

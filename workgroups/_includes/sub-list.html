@@ -1,0 +1,9 @@
+<ul>
+    {% for item in site.pages %}
+        {% if item.group == include.group %}
+        <li>
+            <a href="{{site.baseurl}}{{item.url}}">{{item.title}} - {{item.time}}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>

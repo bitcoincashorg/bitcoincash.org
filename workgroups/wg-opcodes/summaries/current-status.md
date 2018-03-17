@@ -1,8 +1,9 @@
-# Metadata
-
-Title:            Current Status of OpCodes Workgroup
-Workgroup:        OpCodes
-Document Version: 1.0
+---
+layout: summary
+title: Current Status of OpCodes Workgroup
+group: opcodes
+version: 1.0
+---
 
 # Document Purpose
 

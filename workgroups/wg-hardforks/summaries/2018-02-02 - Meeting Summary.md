@@ -1,16 +1,17 @@
-# Metadata
-
-Title:            Automatic Replay Protection
-Workgroup:        hardforks
-Meeting Time:     20180202 1100 (UTC)
-Document Version: 1.0
-
-Developer Participants:
- * Amaury Sechét of Bitcoin ABC
- * Shammah Chancellor of Bitcoin ABC
- * Josh Yabut
- * Dan Connolly
- * JVP
+---
+layout: summary
+title: Automatic Replay Protection
+group: hardforks
+time: 20180202 1100 (UTC)
+version: 1.0
+participants: [
+    Amaury Sechét of Bitcoin ABC,
+    Shammah Chancellor of Bitcoin ABC,
+    Josh Yabut,
+    Dan Connolly,
+    JVP
+]
+---
 
 REQUEST TO EDITORS:
 

@@ -1,4 +1,10 @@
-# Malleability Fixes
+---
+layout: page
+title: Malleability Fixes
+desc: Fixes to transaction malleability to enable various other technologies on top of the Bitcoin Cash blockcahin.
+permalink: wg-malfix
+group: workgroup
+---
 
 Fixes to transaction malleability to enable various other technologies on top
 of the Bitcoin Cash blockchain.
@@ -17,3 +23,5 @@ of the Bitcoin Cash blockchain.
 
 - Tomas, @tomasvdw, bitCrust
 - Geoffrey Vishloff, @wrstuv31
+
+{% include sub-list.html group='malfix' %}

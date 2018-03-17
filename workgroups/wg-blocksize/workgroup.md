@@ -1,5 +1,10 @@
-
-# Block Size Increases
+---
+layout: page
+title: Block Size Increases
+desc: This meeting exists to discuss all topics regarding expanding the block size.
+permalink: wg-blocksize
+group: workgroup
+---
 
 This meeting exists to discuss all topics regarding expanding the block size.
 
