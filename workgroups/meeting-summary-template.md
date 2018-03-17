@@ -1,14 +1,17 @@
-# Metadata
-
-<pre>
-Title:                Stuff
-Workgroup:            Workgroup
-Meeting Time:         2018-02-23 1500 (UTC)
-Document Version:     1.0
-
-Participants:
-* Inigo Montoya
-</pre>
+---
+layout: summary
+title: Summary Template
+group: template
+time: 2018-02-23 1500 (UTC)
+version: 1.0
+chair: Name
+participants: [
+    Array,
+    List,
+    of,
+    Participants
+]
+---
 
 # Discussion Topic
 
