@@ -1,21 +1,82 @@
 ---
 en:
   language: English
-  title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+  title:
+    index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+    graphics: "Bitcoin Cash - Logos / Graphics"
   meta:
-    description: |
-      Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
-    twitter:
-      title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+    index:
       description: |
         Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
-    og:
-      title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+      twitter:
+        title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+        description: |
+          Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+      og:
+        title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+        description: |
+          Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+    graphics:
       description: |
-        Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+        A collection of logos and graphics for Bitcoin Cash.
+      twitter:
+        title: "Bitcoin Cash - Logos / Graphics"
+        description: |
+          A collection of logos and graphics for Bitcoin Cash.
+      og:
+        title: "Bitcoin Cash - Logos / Graphics"
+        description: |
+          A collection of logos and graphics for Bitcoin Cash.
+  graphics:
+    title: "Promotional Graphics"
+    description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
+    logos: "Logos"
+    download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
+    download_all: "Download All"
+    small: "Small (PNG)"
+    medium: "Medium (PNG)"
+    large: "Large (PNG)"
+    full: "Full (PNG)"
+    vector: "Vector (SVG)"
+    sections:
+      home: "Home"
+      logos: "Logos"
+      merchant: "Merchant"
+      donations: "Donations"
+      identity: "Identity"
+    types:
+      primary: "BCH Logo Primary"
+      white: "BCH Logo White Text"
+      mark: "BCH Logo Mark"
+      horizontal_primary: "BCH Logo Horizontal Primary"
+      horizontal_white: "BCH Logo Horizontal White"
+      wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+    merchant:
+      title: "Merchant Buttons"
+      description: "Show your customers that you accept Bitcoin Cash"
+      primary: "Bitcoin Cash Accepted Here Primary"
+      orange: "Bitcoin Cash Accepted Here Orange"
+    donation:
+      title: "Donation Buttons"
+      description: "Promote the acceptance of Bitcoin Cash as a donation method."
+      primary: "Bitcoin Cash Donations Accepted Primary"
+      orange: "Bitcoin Cash Donations Accepted Orange"
+    identity:
+      title: "Visual Identity"
+      description: "Bitcoin Cash fonts, colors, and more."
+      font: "Ubuntu Bold"
+      font_italic: "Ubuntu Bold Italic"
+      download: "Download Font"
+      orange: "Bitcoin Cash Orange"
+      grey: "Bitcoin Cash Grey"
+      white: "Bitcoin Cash White"
+      hex: "Hex"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
   misc:
     logo: "logo"
-    dropdown_md_width: 2
+    dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
     about: "About"
@@ -26,6 +87,7 @@ en:
     services: "Services"
     projects: "Projects"
     exchanges: "Exchanges"
+    graphics: "Logos / Graphics"
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"

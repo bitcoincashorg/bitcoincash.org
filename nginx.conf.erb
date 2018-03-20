@@ -49,8 +49,16 @@ server {
     location / {
         index index.$lang.html;
     }
+
+    location /graphics/ {
+        index index.$lang.html;
+    }
 <% I18n.available_locales.sort.each do |locale| %>
     location /<%= locale.to_s.downcase %>/ {
+        index index.html;
+    }
+
+    location /<%= locale.to_s.downcase %>/graphics/ {
         index index.html;
     }
 <% end %>
