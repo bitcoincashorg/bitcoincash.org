@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header .navbar-brand {
     color: #EE8B2B !important;
   }
-  #fh5co-home, #fh5co-home .text-wrap {
+  #fh5co-home.home, #fh5co-home.home .text-wrap {
     height: auto !important;
   }
   #fh5co-header #navbar li a:hover {
