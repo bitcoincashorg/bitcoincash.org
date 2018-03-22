@@ -39,7 +39,7 @@ Only the top several exchanges by trading volume in each country will be conside
 
 For wallets, we only want to list those that have the highest trust and best reputation within the community.  Relevant factors include the brand, the age of the wallet, as well as the track record of the company, developers, and/or other individuals involved.
 
-We apologize in advance if we're unable to provide a listing for you on BitcoinCash.org.  We acknowledge the criteria for wallet listings are somewhat subjective. Please understand our decisions are not personal, but rather based on a conservative approach and our responsbility to safeguard the community against questionable projects.
+We apologize in advance if we're unable to provide a listing for you on BitcoinCash.org.  We acknowledge the criteria for wallet listings are somewhat subjective. Please understand our decisions are not personal, but rather based on a conservative approach and our responsbility to safeguard the community against questionable projects.  Lastly, no listing should be interpreted as our explicit endorsement.
 
 License
 -------
