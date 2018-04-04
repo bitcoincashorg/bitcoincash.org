@@ -1,18 +1,20 @@
 ---
 sk:
   language: Slovenčina
-  title: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
+  title: 
+    index: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
   meta:
-    description: |
-      Bitcoin Cash prináša svetu skvelú menu. Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
-    twitter:
-      title: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
+    index:
       description: |
         Bitcoin Cash prináša svetu skvelú menu. Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
-    og:
-      title: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
-      description: |
-        Bitcoin Cash prináša svetu skvelú menu. Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
+      twitter:
+        title: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
+        description: |
+          Bitcoin Cash prináša svetu skvelú menu. Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
+      og:
+        title: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
+        description: |
+          Bitcoin Cash prináša svetu skvelú menu. Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
   misc:
     logo: "logo"
     dropdown_md_width: 2
