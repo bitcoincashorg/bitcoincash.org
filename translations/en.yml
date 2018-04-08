@@ -125,11 +125,11 @@ en:
       - |
         <strong>On Chain Scalability</strong> - Bitcoin Cash follows the Nakamoto roadmap of global adoption with on-chain scaling. As a first step, the blocksize limit has been made adjustable, with an increased default of 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Research is underway to allow massive future increases</a>.
       - |
-        <strong>New Transaction Signatures</strong> - A new SigHash type provides replay protection, improved hardware wallet security, and elimination of the quadratic hashing problem.
+        <a href="https://github.com/bitcoincashorg/spec/blob/master/replay-protected-sighash.md" target="_blank"><strong>New Transaction Signatures</strong></a> - A new SigHash type provides replay protection, improved hardware wallet security, and elimination of the quadratic hashing problem.
       - |
-        <strong>New Difficulty Adjustment Algorithm (DAA)</strong> - Responsive Proof-of-Work difficulty adjustment allows miners to migrate from the legacy Bitcoin chain as desired, while providing protection against hashrate fluctuations.
+        <a href="https://github.com/bitcoincashorg/spec/blob/master/nov-13-hardfork-spec.md" target="_blank"><strong>New Difficulty Adjustment Algorithm (DAA)</strong></a> - Responsive Proof-of-Work difficulty adjustment allows miners to migrate from the legacy Bitcoin chain as desired, while providing protection against hashrate fluctuations.
       - |
-        <strong>Decentralized Development</strong> - With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it. The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams.
+        <strong>Decentralized Development</strong> - With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it. The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through to workgroups.
     faq:
       - question: "What is Bitcoin Cash?"
         answer:
