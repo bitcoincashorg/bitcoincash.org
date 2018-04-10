@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 960px;
   padding: 0 10px;
   width: 100%;
 }
@@ -175,14 +175,9 @@ img {
     margin: 0 auto;
   }
 
-  img {
-    /* border-radius: 5px; */
-  }
 }
 
 .site-info {
-  float: left;
-
   @include mobile {
     float: none;
     display: block;
@@ -211,7 +206,6 @@ img {
 }
 
 nav {
-  float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -234,6 +228,9 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+  }
+  .current {
+    font-weight:bold;
   }
 }
 

@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: #summary <- without #
 title: Summary Template
 group: template
 time: 2018-02-23 1500 (UTC)

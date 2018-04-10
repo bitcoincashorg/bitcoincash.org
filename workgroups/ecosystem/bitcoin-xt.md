@@ -7,7 +7,6 @@ title: Bitcoin-XT
 Agenda
 ======
 
-
 Points of Contact
 =================
 

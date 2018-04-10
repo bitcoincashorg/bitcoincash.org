@@ -7,7 +7,6 @@ title: Bitcoin-Unlimited
 Agenda
 ======
 
-
 Points of Contact
 =================
 

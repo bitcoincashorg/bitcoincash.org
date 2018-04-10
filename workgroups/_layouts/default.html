@@ -25,13 +25,14 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/ecosystem">Ecosystem</a>
-            <a href="{{ site.baseurl }}/summaries.html">Summaries</a>
-            <a href="{{ site.baseurl }}/etiquette.html">Etiquette</a>
-            <a href="{{ site.baseurl }}/workflow.html">Workflow</a>
-            <a href="{{ site.baseurl }}/format.html">Format</a>
-            <a href="{{ site.baseurl }}/positions.html">Positions</a>
-            <a href="{{ site.baseurl }}/roster">Roster</a>
+            <a href="{{ site.baseurl }}/" {% if page.url == '/index.html' or page.url == '' %}class="current"{% endif %}>Workgroups</a>
+            <a href="{{ site.baseurl }}/ecosystem" {% if page.url == '/ecosystem/' %}class="current"{% endif %}>Ecosystem</a>
+            <a href="{{ site.baseurl }}/summaries.html" {% if page.url == '/summaries.html' %}class="current"{% endif %}>Summaries</a>
+            <a href="{{ site.baseurl }}/etiquette.html" {% if page.url == '/etiquette.html' %}class="current"{% endif %}>Etiquette</a>
+            <a href="{{ site.baseurl }}/workflow.html" {% if page.url == '/workflow.html' %}class="current"{% endif %}>Workflow</a>
+            <a href="{{ site.baseurl }}/format.html" {% if page.url == '/format.html' %}class="current"{% endif %}>Format</a>
+            <a href="{{ site.baseurl }}/positions.html" {% if page.url == '/positions.html' %}class="current"{% endif %}>Positions</a>
+            <a href="{{ site.baseurl }}/roster" {% if page.url == '/roster/' %}class="current"{% endif %}>Roster</a>
             
           </nav>
         </header>
