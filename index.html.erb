@@ -49,11 +49,6 @@ gtag('config', 'UA-17656782-2');
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right homepage">
                             <li>
-                                <a href="#announcement" data-nav-section="announcement" class="inner-link">
-                                    <span><%= I18n.t(:'sections.announcement').strip %></span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="#about" data-nav-section="about" class="inner-link">
                                     <span><%= I18n.t(:'sections.about').strip %></span>
                                 </a>
@@ -212,6 +207,21 @@ gtag('config', 'UA-17656782-2');
                     <div class="row to-animate">
                         <div class="col-sm-12 col-md-12">
                             <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a id="announcement"></a>
+            <section class="space--xxs" id="announcement-section"  data-section="announcement">
+                <div class="container">
+                    <div class="row text-center to-animate">
+                      <div class='col-sm-12 section-heading '>
+                        <h2><%= I18n.t(:'headings.announcement').strip %></h2>
+                      </div>
+                    </div>
+                    <div class="row to-animate">
+                        <div class="col-sm-12 col-md-12">
+                            <%= I18n.t(:'content.announcement').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
                         </div>
                     </div>
                 </div>
@@ -395,6 +405,9 @@ gtag('config', 'UA-17656782-2');
                         </div>
                         <div class="col-sm-4 col-md-3 vertical-align to-animate">
                             <a href="https://cash.coin.dance/" target="_blank"><img alt="Coin Dance" src="/img/services/coindance.png"></a>
+                        </div>
+                        <div class="col-sm-4 col-md-3 vertical-align to-animate">
+                            <a href="https://cointext.io" target="_blank"><img alt="Cointext" src="/img/services/cointext.png"></a>
                         </div>
                         <div class="col-sm-4 col-md-3 vertical-align to-animate">
                             <a href="https://coinmix.to/" target="_blank"><img alt="Coinmix" src="/img/services/coinmix.png"></a>
