@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Workgroup Etiquette
+title: Workgroup & Video Meeting Etiquette
 permalink: etiquette.html
 ---
 
 We believe that a common understanding of etiquette enables positive communication, and better cooperation.  This document provides a guideline for our common understanding of workgroup etiquette.  This common understanding makes evaluating more efficient, by helping us to evaluate solutions on a technical, rather than personal, basis.
 
-1. Video meetings take place under a modified Chatham House Rule:
+1. All participants must adhere to the Code of Conduct (see code-of-conduct.md).
+
+2. Video meetings take place under a modified Chatham House Rule:
     
 > “Participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.”
 
-There will be one exception to this rule: Meeting summaries published to this repository should include a list of the developers in attendance and their respective ecosystem association.  Summaries will have their contents otherwise anonymized.  This provides a forum for discussion that is both private and open, where ideas may be discussed freely without expecting personal reprisals from those not personally engaged in these discussions.
-
-2. Non-constructive criticism, name calling, speaking over others, or otherwise being disruptive to professional discussion is strictly prohibited.
+  There will be one exception to this rule: Meeting summaries published to this repository should include a list of the developers in attendance and their respective ecosystem association.  Summaries will have their contents otherwise anonymized.  This provides a forum for discussion that is both private and open, where ideas may be discussed freely without expecting personal reprisals from those not personally engaged in these discussions.
 
 3. Lurking in video meetings is generally frowned upon. These meetings are intended for productive discussion by ecosystem developers.  Inquisitive parties should look for meeting summaries.  If there are too many non-participant attendees, the chairperson may remove people.
 

@@ -9,7 +9,7 @@ Please see [workgroup-list](workgroup-list.md) for information about current wor
 
 # Participating
 
-To participate, join the telegram group listed under each workgroup-specific
+To participate, first read [code-of-conduct](code-of-conduct.md) and [etiquette](etiquette.md). Then, join the telegram group listed under each workgroup-specific
 document, and submit a pull request with some information about yourself in
 the "Interested Parties" section.
 
