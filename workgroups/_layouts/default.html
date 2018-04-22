@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <!--[if lt IE 9]>
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/assets/img/1-bitcoin-cash-logo.svg" /></a>
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar">
+          <img src="{{ site.baseurl }}/assets/img/1-bitcoin-cash-logo.svg" />
+        </a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+        <div class="site-info">
+          <h1 class="site-name">
+            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+          </h1>
+          <p class="site-description">{{ site.description }}</p>
+        </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/" {% if page.url == '/index.html' or page.url == '' %}class="current"{% endif %}>Workgroups</a>
-            <a href="{{ site.baseurl }}/ecosystem" {% if page.url == '/ecosystem/' %}class="current"{% endif %}>Ecosystem</a>
-            <a href="{{ site.baseurl }}/summaries.html" {% if page.url == '/summaries.html' %}class="current"{% endif %}>Summaries</a>
-            <a href="{{ site.baseurl }}/etiquette.html" {% if page.url == '/etiquette.html' %}class="current"{% endif %}>Etiquette</a>
-            <a href="{{ site.baseurl }}/workflow.html" {% if page.url == '/workflow.html' %}class="current"{% endif %}>Workflow</a>
-            <a href="{{ site.baseurl }}/format.html" {% if page.url == '/format.html' %}class="current"{% endif %}>Format</a>
-            <a href="{{ site.baseurl }}/positions.html" {% if page.url == '/positions.html' %}class="current"{% endif %}>Positions</a>
-            <a href="{{ site.baseurl }}/roster" {% if page.url == '/roster/' %}class="current"{% endif %}>Roster</a>
-            
-          </nav>
-        </header>
-      </div>
+        <nav class="topnav" id="topnav">
+          <a href="{{ site.baseurl }}/" {% if page.url=='/index.html' or page.url=='' %}class="active" {% endif %}>Home</a>
+          <a href="{{ site.baseurl }}/ecosystem" {% if page.url=='/ecosystem/' %}class="active" {% endif %}>Ecosystem</a>
+          <a href="{{ site.baseurl }}/summaries.html" {% if page.url=='/summaries.html' %}class="active" {% endif %}>Summaries</a>
+          <a href="{{ site.baseurl }}/etiquette.html" {% if page.url=='/etiquette.html' %}class="active" {% endif %}>Etiquette</a>
+          <a href="{{ site.baseurl }}/workflow.html" {% if page.url=='/workflow.html' %}class="active" {% endif %}>Workflow</a>
+          <a href="{{ site.baseurl }}/format.html" {% if page.url=='/format.html' %}class="active" {% endif %}>Format</a>
+          <a href="{{ site.baseurl }}/positions.html" {% if page.url=='/positions.html' %}class="active" {% endif %}>Positions</a>
+          <a href="{{ site.baseurl }}/roster" {% if page.url=='/roster/' %}class="active" {% endif %}>Roster</a>
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+        </nav>
+      </header>
     </div>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        <a href="https://www.bitcoincash.org" target="_blank"><img height="40" src="{{ site.baseurl }}/assets/img/1-bitcoin-cash-logo.svg" /></a>
+        {% include svg-icons.html %}
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
+  <script>
+    function toggleMenu() {
+      var x = document.getElementById("topnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
 
-        </footer>
-      </div>
-    </div>
-
-
-  </body>
 </html>
