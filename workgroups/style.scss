@@ -131,6 +131,26 @@ img {
   background: $lightGray;
 }
 
+table{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th {
+  height: 30px;
+  background: $lightGray;
+  vertical-align: middle;
+  text-align: left;
+}
+th, td {
+  padding: 5px;
+}
+
+table, th, td {
+  border: 1px solid $darkerGray;
+}
+
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -203,35 +223,6 @@ img {
 
   @include mobile {
     margin: 3px 0;
-  }
-}
-
-nav {
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-  .current {
-    font-weight:bold;
   }
 }
 
