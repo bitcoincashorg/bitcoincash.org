@@ -22,3 +22,5 @@ hard consensus rules but later extending into soft rules.
 
 # Interested Parties
 - Steve Shadders, @shadders, nChain
+
+{% include sub-list.html group='protocol' %}

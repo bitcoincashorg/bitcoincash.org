@@ -25,3 +25,5 @@ adjustments and implementing them on the Bitcoin Cash.
 - Tom Harding, @dgenr8, Bitcoin XT
 - kyuupichan
 - Antony Zegers, @Mengerian, Bitcoin Unlimited and Bitcoin ABC
+
+{% include sub-list.html group='daa' %}

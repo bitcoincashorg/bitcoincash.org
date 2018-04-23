@@ -45,3 +45,5 @@ group: workgroup
   
   [nChain Development & Testing Accord](https://nchain.com/en/blog/bitcoin-cash-development-testing-accord/)
 
+
+{% include sub-list.html group='hardforks' %}

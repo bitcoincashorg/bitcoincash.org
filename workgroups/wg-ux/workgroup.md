@@ -26,3 +26,5 @@ Planning and coordination for advancements in Bitcoin Cash Wallets.
 - Jason Dreyzehner, @bitjson, BitPay
 - Ryan X. Charles, ryan@yours.org, Yours Inc.
 - Jason Cox, jasonbcox
+
+{% include sub-list.html group='ux' %}

@@ -20,3 +20,4 @@ Discussion workgroup for issues surrounding better privacy protections on Bitcoi
 
 # Interested Parties
 
+{% include sub-list.html group='fungibility' %}

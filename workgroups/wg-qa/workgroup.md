@@ -29,3 +29,5 @@ certified against.
 
 - Shammah Chancellor, @schancel, Bitcoin ABC
 - Geoffrey Vishloff, @wrstuv31
+
+{% include sub-list.html group='qa' %}

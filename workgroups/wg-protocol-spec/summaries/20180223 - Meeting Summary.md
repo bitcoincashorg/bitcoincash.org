@@ -1,16 +1,17 @@
-# Metadata
-
-Title:             	Initial meeting on creating a specification
-Workgroup:        	Specification
-Meeting Time:     	2018-02-23 1500 (UTC)
-Document Version: 	1.0
-
-Participants:
-
- * Steve Shadders of nChain
- * Amaury Sechét of Bitcoin ABC
- * Andrea Suisani of Bitcoin Unlimited
- * Cranau
+---
+layout: summary
+title: Initial meeting on creating a specification
+group: protocol
+category: summary
+time: 20180223 1500 (UTC)
+version: 1.0
+participants: [
+    Amaury Sechét of Bitcoin ABC,
+    Steve Shadders of nChain,
+    Andrea Suisani of Bitcoin Unlimited,
+    Cranau
+]
+---
 
 # Discussion Topic
 

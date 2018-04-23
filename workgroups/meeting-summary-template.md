@@ -1,7 +1,7 @@
 ---
 layout: #summary <- without #
 title: Summary Template
-group: template
+group: template # chose from: blocksize, daa, fungibility, hardforks, malfix, opcodes, protocol, qa, sidechains, tokens, utxo, ux
 time: 2018-02-23 1500 (UTC)
 version: 1.0
 chair: Name
@@ -19,4 +19,5 @@ participants: [
 
 # Resolution
 
+# Further Actions
 # Further Actions

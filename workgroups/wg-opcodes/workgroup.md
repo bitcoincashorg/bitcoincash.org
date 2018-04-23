@@ -25,6 +25,4 @@ specifications for the behavior and roll-out of each op-code.
 - Jason Dreyzehner, @bitjson, BitPay
 
 
-## Summaries
-
 {% include sub-list.html group='opcodes' %}

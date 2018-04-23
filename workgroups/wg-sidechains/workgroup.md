@@ -21,3 +21,5 @@ Discussion related to sidechains on Bitcoin Cash and in general.
 # Interested Parties
 
 - CryptAxe, @cryptaxe, Drivechain developer
+
+{% include sub-list.html group='sidechains' %}

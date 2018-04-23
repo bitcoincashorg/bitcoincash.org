@@ -23,3 +23,4 @@ How to implement UTXO commitments and better syncing features
 - Tomas, @tomasvdw, bitCrust
 - Amaury Sechet, @deadalnix, Bitcoin ABC
 
+{% include sub-list.html group='utxo' %}
