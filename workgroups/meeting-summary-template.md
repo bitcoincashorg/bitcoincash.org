@@ -20,4 +20,3 @@ participants: [
 # Resolution
 
 # Further Actions
-# Further Actions
