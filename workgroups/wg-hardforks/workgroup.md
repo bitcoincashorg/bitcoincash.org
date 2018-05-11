@@ -15,7 +15,7 @@ parties: [
   'Chris Pacia, chris@ob1.io, OpenBazaar',
   'Jason Cox, jasonbcox'
 ]
-permalink: wg-hardforks
+permalink: /workgroups/wg-hardforks
 group: workgroup
 ---
 

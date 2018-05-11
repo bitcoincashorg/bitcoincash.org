@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: dev-page
 title: UTXO commitments and syncing
 desc: Defining quality standards against which a node implementation may be certified against.
-permalink: wg-utxocommit-sync
+permalink: /workgroups/wg-utxocommit-sync
 group: workgroup
 ---
 

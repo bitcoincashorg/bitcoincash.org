@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: dev-page
 title: Op Codes
 desc: Proposing the re-enablement of various opcodes and creating well-defined specifications for the behavior and roll-out of each op-code.
-permalink: wg-opcodes
+permalink: /workgroups/wg-opcodes
 group: workgroup
 ---
 

@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: dev-page
 title: User Experience
 desc: Planning and coordination for advancements in Bitcoin Cash Wallets.
-permalink: wg-ux
+permalink: /workgroups/wg-ux
 group: workgroup
 ---
 

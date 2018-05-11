@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: dev-page
 title: Tokens
 desc: Discussion related to tokens on Bitcoin Cash.
-permalink: wg-tokens
+permalink: /workgroups/wg-tokens
 group: workgroup
 ---
 

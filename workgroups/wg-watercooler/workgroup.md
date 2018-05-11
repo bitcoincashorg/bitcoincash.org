@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: dev-page
 title: Watercooler
 desc: Discussion related to sidechains on Bitcoin Cash and in general.
-permalink: wg-watercooler
+permalink: /workgroups/wg-watercooler
 group: workgroup
 ---
 

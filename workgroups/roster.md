@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: dev-page
 title: Participant Roster
-permalink: /roster/
+permalink: /workgroups/roster/
 ---
 
 This document is an optional way to advertise yourself to other members of the Bitcoin Cash ecosystem.

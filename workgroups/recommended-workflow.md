@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: dev-page
 title: Recommended Proposal Workflow
-permalink: workflow.html
+permalink: /workgroups/workflow.html
 ---
 
 1. Write a document detailing:

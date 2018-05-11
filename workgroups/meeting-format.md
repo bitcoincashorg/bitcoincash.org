@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: dev-page
 title: Format of Meetings
-permalink: format.html
+permalink: /workgroups/format.html
 ---
 
 1. Each meeting should in general be 1 hour.  Chairpeople should take a vote as to whether the meeting should be extended at the 50 minute mark.

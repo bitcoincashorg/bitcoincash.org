@@ -1,3 +1,8 @@
+---
+layout: dev-page
+title: Workgroup & Video Meeting Etiquette
+permalink: /workgroups/code-of-conduct.html
+---
 # Code of Conduct
 
 These codes of conduct is the set of rules and expectations for individuals wishing to contribute to the Bitcoin Cash Workgroups.  Repeatedly not adhering to these codes of conduct will not prevent you from contributing code or other work-based merits, but it will prevent you from contributing to discourse.  Individuals breaking these codes of conduct will not be tolerated.

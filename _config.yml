@@ -34,7 +34,6 @@ sass:
 
 exclude:
   - 'README.md'
-  - 'workgroups'
   - 'spec'
   - 'translations'
   - 'kube'

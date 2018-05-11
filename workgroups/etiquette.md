@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: dev-page
 title: Workgroup & Video Meeting Etiquette
-permalink: etiquette.html
+permalink: /workgroups/etiquette.html
 ---
 
 We believe that a common understanding of etiquette enables positive communication, and better cooperation.  This document provides a guideline for our common understanding of workgroup etiquette.  This common understanding makes evaluating more efficient, by helping us to evaluate solutions on a technical, rather than personal, basis.

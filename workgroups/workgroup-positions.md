@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: dev-page
 title: Positions
-permalink: positions.html
+permalink: /workgroups/positions.html
 ---
 
 All positions within Bitcoin Cash workgroups are voluntary and obtained by

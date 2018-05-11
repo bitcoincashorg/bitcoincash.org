@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: dev-page
 title: Block Size Increases
 desc: This meeting exists to discuss all topics regarding expanding the block size.
-permalink: wg-blocksize
+permalink: /workgroups/wg-blocksize
 group: workgroup
 ---
 

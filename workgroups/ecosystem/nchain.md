@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: dev-page
 group: ecosystem
 title: nChain
 ---

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: dev-page
 title: Summaries
-permalink: summaries.html
+permalink: /workgroups/summaries.html
 ---
 <ul>
 {% for item in site.pages %}
