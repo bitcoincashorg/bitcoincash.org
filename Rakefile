@@ -1,14 +1,6 @@
 require 'bundler'
 Bundler.setup
 
-namespace :docker do
-  desc "build docker images"
-  task :build => ['translations:build'] do
-    puts "Building bitcoincash docker image"
-    puts `docker build -t bitcoincash .`
-  end
-end
-
 namespace :translations do
   require 'erb'
   require 'fileutils'
@@ -42,5 +34,42 @@ namespace :translations do
     end
   end
 end
+
+namespace :workgroups do
+  desc "serve jekyll site locally"
+  task :serve do
+    Dir.chdir 'workgroups' do
+      sh "bundle exec jekyll serve"
+    end
+  end
+  
+  desc "serve jekyll site locally"
+  task :build do
+    Dir.chdir 'workgroups' do
+      sh "bundle exec jekyll build"
+    end
+  end
+  
+  task :default => 'build'
+end
+
+namespace :spec do
+  desc "serve jekyll site locally"
+  task :serve do
+    Dir.chdir 'spec' do
+      sh "bundle exec jekyll serve"
+    end
+  end
+  
+  desc "serve jekyll site locally"
+  task :build do
+    Dir.chdir 'spec' do
+      sh "bundle exec jekyll build"
+    end
+  end
+  
+  task :default => 'build'
+end
+
 
 task :default => 'docker:build'
