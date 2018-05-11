@@ -1,7 +1,10 @@
-# UAHF Technical Specification
-
-Version 1.6, 2017-07-24
-
+---
+layout: spec-page
+title: UAHF Technical Specification
+date: 2017-07-24
+activation: 1501590000
+version: 1.6
+---
 
 ## Introduction
 
@@ -15,9 +18,8 @@ fork - the sense of the requirements would largely stay the same.
 
 ## Definitions
 
-MTP: the "median time past" value of a block, calculated from the
-nTime values of its past up to 11 ancestors, as obtained by the
-GetMedianTimePast(block.parent) call.
+MTP: the "median time past" value of a block, calculated from its nTime
+value, and the nTime values of its up to 10 immediate ancestors.
 
 "activation time": once the MTP of the chain tip is equal to or greater
 than this time, the next block must be a valid fork block. The fork block

@@ -1,7 +1,10 @@
-# UAHF Test Plan
-
-Version 1.0, 2017-06-14
-
+---
+layout: spec-page
+title: UAHF Test Plan
+date: 2017-06-14
+activation: 1501590000
+version: 1.0
+---
 
 ## Introduction
 

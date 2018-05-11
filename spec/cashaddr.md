@@ -1,6 +1,10 @@
-# Address format for Bitcoin Cash
-
-Version 1.0, 2017-10-13
+---
+layout: spec-page
+title: Address format for Bitcoin Cash
+date: 2017-10-13
+activation: 1515888000
+version: 1.0
+---
 
 ## Abstract
 
@@ -61,7 +65,7 @@ Encoding the size of the hash in the version field ensure that it is possible to
 |         0 |       P2KH        |                  0 |
 |         1 |       P2SH        |                  8 |
 
-Further types will be added as news features are added.
+Further types will be added as new features are added.
 
 #### Hash
 
@@ -92,7 +96,7 @@ uint64_t PolyMod(const data &v) {
 ````
 
 The checksum is calculated over the following data (list of integers in range 0-31):
-1. The lower 5 bits of each characters of the prefix. - e.g. "bit..." becomes 2,9,20,...
+1. The lower 5 bits of each character of the prefix. - e.g. "bit..." becomes 2,9,20,...
 2. A zero for the separator (5 zero bits).
 3. The payload by chunks of 5 bits. If necessary, the payload is padded to the right with zero bits to complete any unfinished chunk at the end.
 4. Eight zeros as a "template" for the checksum.
@@ -124,7 +128,7 @@ BCH codes allows for error correction. However, it is strongly advised that erro
 
 Lower case is preferred for cashaddr, but uppercase is accepted. A mixture of lower case and uppercase must be rejected.
 
-Allowing for uppercase ensure that the address can be encoded efficiently in QR codes using the alphanumeric mode[[3]](#alphanumqr).
+Allowing for uppercase ensures that the address can be encoded efficiently in QR codes using the alphanumeric mode[[3]](#alphanumqr).
 
 ## Double prefix
 

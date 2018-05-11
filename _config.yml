@@ -34,7 +34,6 @@ sass:
 
 exclude:
   - 'README.md'
-  - 'spec'
   - 'translations'
   - 'kube'
   - 'nginx.conf'

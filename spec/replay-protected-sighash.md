@@ -1,6 +1,10 @@
-# BUIP-HF Digest for replay protected signature verification across hard forks
-
-Version 1.2, 2017-07-16
+---
+layout: spec-page
+title: BUIP-HF Digest for replay protected signature verification across hard forks
+date: 2017-07-16
+activation: 1501590000
+version: 1.2
+---
 
 ## Abstract
 

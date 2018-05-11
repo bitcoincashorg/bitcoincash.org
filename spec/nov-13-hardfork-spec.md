@@ -1,6 +1,10 @@
-# November 13th Bitcoin Cash Hardfork Technical Details
-
-Version 1.3, 2017-11-07
+---
+layout: spec-page
+title: November 13th Bitcoin Cash Hardfork Technical Details
+date: 2017-11-07
+activation: 1510600000
+version: 1.3
+---
 
 ## Summary
  
