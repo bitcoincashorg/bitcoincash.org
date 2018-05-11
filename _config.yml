@@ -1,7 +1,8 @@
 baseurl: 
 
-name: Workgroups
-description: Bitcoin Cash Working Group
+baseurl: ""
+name: BitoinCash.org
+description: Bitcoin Cash is a p2p digital currency
 
 avatar: "assets/img/1-bitcoin-cash-logo.svg"
 
@@ -45,7 +46,31 @@ exclude:
   - COPYING
 
 languages:
-  - en
+ - en
+ - cs
+ - de-ch
+ - de
+ - el
+ - es
+ - fr
+ - hi
+ - id
+ - it
+ - ja
+ - ko
+ - ms
+ - nl
+ - pl
+ - pt-BR
+ - pt-PT
+ - ru
+ - sk
+ - tr
+ - vi
+ - zh-CN
+ - zh-TW
+
+exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 
 plugins: 
   - jekyll-multiple-languages-plugin
