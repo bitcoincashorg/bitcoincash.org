@@ -2,6 +2,5 @@ theme/**/*
 html/**/index.html
 html/*.html
 html/graphics/*.html
-nginx.conf
 _site
 .sass-cache

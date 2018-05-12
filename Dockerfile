@@ -1,12 +1,13 @@
 # Build layer
 FROM ruby:2.5.1-stretch
-ENV DEBIAN_FRONTEND=noninteractive
 
 RUN mkdir -p /work
 WORKDIR work
 RUN gem install bundler
-COPY . .
+COPY Gemfile Gemfile
+COPY Gemfile.lock Gemfile.lock
 RUN bundler install
+COPY . .
 RUN bundler exec jekyll build
 
 # Hosting Layer
