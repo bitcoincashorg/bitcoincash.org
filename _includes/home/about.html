@@ -1,0 +1,56 @@
+<section class="space--xxs no-bottom" id="about-section" data-section="about">
+    <div class="container benefits">
+        {% assign features = site.translations[site.lang]["features"] %}
+        <div class="row text-center">
+            <div class="col-sm-4 col-md-4 to-animate">
+                <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
+                <p><strong>{{ features[0].title }}</strong></p>
+                <p>{{ features[0].description }}</p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+                <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
+                <p><strong>{{ features[1]['title'] }}</strong></p>
+                <p>{{ features[1]['description'] }}</p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+                <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
+                <p><strong>{{ features[2]['title'] }}</strong></p>
+                <p>{{ features[2]['description'] }}</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-4 col-md-4 to-animate">
+                <p><i class="fa fa-check fa-fw fa-2x"></i></p>
+                <p><strong>{{ features[3]['title'] }}</strong></p>
+                <p>{{ features[3]['description'] }}</p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+                <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
+                <p><strong>{{ features[4]['title'] }}</strong></p>
+                <p>{{ features[4]['description'] }}</p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+                <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
+                <p><strong>{{ features[5]['title'] }}</strong></p>
+                <p>{{ features[5]['description'] }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<a id="about"></a>
+<section class="space--xxs" data-section="about2" id="about2-section">
+    <div class="container">
+        <div class="row text-center section-heading to-animate">
+            <div class='col-sm-12'>
+                <h2>{% t 'headings.about' %}</h2>
+            </div>
+        </div>
+        <div class="row to-animate">
+            <div class="col-sm-12 col-md-12">
+                {% for c in site.translations[site.lang]["content"]["about"] %}
+                <p>{{ c }}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
