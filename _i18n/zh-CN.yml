@@ -1,6 +1,7 @@
 language: 简体中文
 title:
   index: "比特币现金 - 点对点数字现金"
+  graphics: "Bitcoin Cash - Logos / Graphics"
 meta:
   index:
     description: |
@@ -13,9 +14,70 @@ meta:
       title: "比特币现金 - 点对点数字现金"
       description: |
         比特币现金为世界带来一种可靠的钱，商家和用户拥有了具备低廉费用和可靠确认的支付方式。 因其不受限制的增长、全球采用、无需许可的创新，以及去中心化的开发，将有光明的未来。
+  graphics:
+    description: |
+      A collection of logos and graphics for Bitcoin Cash.
+    twitter:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+    og:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+graphics:
+  title: "Promotional Graphics"
+  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
+  logos: "Logos"
+  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
+  download_all: "Download All"
+  small: "Small (PNG)"
+  medium: "Medium (PNG)"
+  large: "Large (PNG)"
+  full: "Full (PNG)"
+  vector: "Vector (SVG)"
+  sections:
+    home: "Home"
+    logos: "Logos"
+    merchant: "Merchant"
+    donations: "Donations"
+    identity: "Identity"
+  types:
+    primary: "BCH Logo Primary"
+    white: "BCH Logo White Text"
+    mark: "BCH Logo Mark"
+    horizontal_primary: "BCH Logo Horizontal Primary"
+    horizontal_white: "BCH Logo Horizontal White"
+    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+  merchant:
+    title: "Merchant Buttons"
+    description: "Show your customers that you accept Bitcoin Cash"
+    primary: "Bitcoin Cash Accepted Here Primary"
+    orange: "Bitcoin Cash Accepted Here Orange"
+  donation:
+    title: "Donation Buttons"
+    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    primary: "Bitcoin Cash Donations Accepted Primary"
+    orange: "Bitcoin Cash Donations Accepted Orange"
+  identity:
+    title: "Visual Identity"
+    description: "Bitcoin Cash fonts, colors, and more."
+    font: "Ubuntu Bold"
+    font_italic: "Ubuntu Bold Italic"
+    download: "Download Font"
+    orange: "Bitcoin Cash Orange"
+    grey: "Bitcoin Cash Grey"
+    white: "Bitcoin Cash White"
+    hex: "Hex"
+    rgb: "RGB"
+    cmyk: "CMYK"
+    pantone: "Pantone"
 misc:
   logo: "标志"
+  dropdown_md_width: "3"
+  dropdown_sm_width: "3"
 sections:
+  announcement: "Announcement"
   about: "关于"
   features: "功能"
   nodes: "节点"
@@ -24,6 +86,7 @@ sections:
   services: "服务"
   projects: "项目"
   exchanges: "交易所"
+  graphics: "Logos / Graphics"
   faq: "常见问题"
 layout:
   bitcoin_cash: "比特币现金"
@@ -43,6 +106,7 @@ features:
   - title: "安全"
     description: "世界上最健壮的区块链技术。"
 headings:
+  announcement: "May 2018 Network Upgrade"
   about: "世界上最好的钱"
   features: "新功能"
   nodes: "节点"
@@ -52,6 +116,9 @@ headings:
   exchanges: "交易所"
   faq: "常见问题"
 content:
+  announcement:
+    - |
+      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       比特币现金 (Bitcoin Cash) 为世界带来一种可靠的钱，履行最初的比特币作为「点对点数字现金」的承诺，商家和用户拥有了具备低廉费用和可靠确认的支付方式。因其不受限制的增长、全球采用、无需许可的创新，以及去中心化的开发，将有光明的未来。

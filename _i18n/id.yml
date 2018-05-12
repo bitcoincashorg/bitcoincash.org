@@ -1,6 +1,7 @@
 language: Bahasa Indonesia
 title:
   index: "Bitcoin Cash - Mata Uang P2P Elektronik"
+  graphics: "Bitcoin Cash - Logos / Graphics"
 meta:
   index:
     description: |
@@ -13,9 +14,70 @@ meta:
       title: "Bitcoin Cash - Mata Uang P2P Elektronik"
       description: |
         Bitcoin Cash adalah mata uang P2P yang mendunia. Bitcoin Cash memberdayakan pedagang dan pengguna untuk bertransaksi dengan biaya rendah dan konfirmasi cepat. Dengan inovasi baru dan pertumbuhan teknologi, Bitcoin Cash memungkinkan adopsi global dan pengembangan moneter yang terdesentralisasi.
+  graphics:
+    description: |
+      A collection of logos and graphics for Bitcoin Cash.
+    twitter:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+    og:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+graphics:
+  title: "Promotional Graphics"
+  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
+  logos: "Logos"
+  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
+  download_all: "Download All"
+  small: "Small (PNG)"
+  medium: "Medium (PNG)"
+  large: "Large (PNG)"
+  full: "Full (PNG)"
+  vector: "Vector (SVG)"
+  sections:
+    home: "Home"
+    logos: "Logos"
+    merchant: "Merchant"
+    donations: "Donations"
+    identity: "Identity"
+  types:
+    primary: "BCH Logo Primary"
+    white: "BCH Logo White Text"
+    mark: "BCH Logo Mark"
+    horizontal_primary: "BCH Logo Horizontal Primary"
+    horizontal_white: "BCH Logo Horizontal White"
+    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+  merchant:
+    title: "Merchant Buttons"
+    description: "Show your customers that you accept Bitcoin Cash"
+    primary: "Bitcoin Cash Accepted Here Primary"
+    orange: "Bitcoin Cash Accepted Here Orange"
+  donation:
+    title: "Donation Buttons"
+    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    primary: "Bitcoin Cash Donations Accepted Primary"
+    orange: "Bitcoin Cash Donations Accepted Orange"
+  identity:
+    title: "Visual Identity"
+    description: "Bitcoin Cash fonts, colors, and more."
+    font: "Ubuntu Bold"
+    font_italic: "Ubuntu Bold Italic"
+    download: "Download Font"
+    orange: "Bitcoin Cash Orange"
+    grey: "Bitcoin Cash Grey"
+    white: "Bitcoin Cash White"
+    hex: "Hex"
+    rgb: "RGB"
+    cmyk: "CMYK"
+    pantone: "Pantone"
 misc:
   logo: "logo"
+  dropdown_md_width: "3"
+  dropdown_sm_width: "3"
 sections:
+  announcement: "Announcement"
   about: "Tentang Bitcoin Cash"
   features: "Fitur"
   nodes: "Node"
@@ -24,6 +86,7 @@ sections:
   services: "Servis"
   projects: "Projek"
   exchanges: "Tempat Penukaran Uang"
+  graphics: "Logos / Graphics"
   faq: "FAQ"
 layout:
   bitcoin_cash: "Bitcoin Cash"
@@ -43,6 +106,7 @@ features:
   - title: "Aman"
     description: "Didukung dengan teknologi Blockchain paling kuat di dunia."
 headings:
+  announcement: "May 2018 Network Upgrade"
   about: "Mata Uang terbaik di dunia"
   features: "Fitur Baru"
   nodes: "Node"
@@ -52,6 +116,9 @@ headings:
   exchanges: "Tempat Penukaran Uang"
   faq: "Frequently Asked Questions (FAQ)"
 content:
+  announcement:
+    - |
+      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash adalah mata uang mendunia terjamin yang berasal dari visi awal Bitcoin untuk menjadi "Mata Uang Elektronik P2P". Bitcoin Cash memberdayakan pedagang dan pengguna untuk bertransaksi dengan biaya rendah dan konfirmasi cepat. Dengan inovasi baru dan pertumbuhan teknologi, Bitcoin Cash memungkinkan adopsi global dan pengembangan moneter yang terdesentralisasi.
@@ -81,7 +148,6 @@ content:
           Semua pemilik Bitcoin pada saat Bitcoin Cash diciptakan menjadi pemilik Bitcoin Cash secara otomatis. Pemilik Bitcoin pada blok 478558 (1 Agustus 2017 sekitar 13:16 UTC) memiliki jumlah Bitcoin Cash yang sama dengan Bitcoin pada saat Bitcoin Cash diciptakan. Jika Bitcoin Anda disimpan oleh pihak ketiga seperti tempat pertukaran uang, Anda harus bertanya kepada mereka tentang Bitcoin Cash Anda.
         - |
           Semua transaksi atau akuisisi yang terjadi setelah perpisahan antara Bitcoin dan Bitcoin Cash pada tanggal 1 Agustus sepenuhnya terpisah.
-
     - question: "Bagaimana replay transaksi ditangani antara blockchain baru dan lama?"
       answer:
         - |
@@ -116,7 +182,6 @@ content:
           Segregated Witness atau "SegWit" adalah komprimi yang tidak dapat diterima untuk meningkatkan ukuran blok karena beberapa alasan.
         - |
           Pertama, bahkan dengan kapabilitas baru "SegWit", kapasitas blok hanya bertambah ke 1.7MB dengan 100% pemakaian. Peningkatan ini sangat kecil dan tidak akan memungkinkan pertumbuhan eksponensial atau penggunaan mendunia. Kedua, soft fork, atau protokol yang dilakukan untuk mengimplementasikan kompromi ini, menghasilkan discardable signatures, yang <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank"> melemahkan fungsi sekuritas Bitcoin. </a> Ketiga, "SegWit" membuat penambahan kapasitas di masa depan lebih sulit dikarenakan bandwidth inefficiency dan quadratic hashing attacks.
-
         - |
           Untuk alasan yang didaftarkan disini (dan lainnya), Bitcoin Cash perlu diciptakan sebagai pre-SegWit fork. Segwit tidak akan diadopsi.
     - question: "Tim developer mana yang akan memimpin pengembangan Bitcoin Cash?"
