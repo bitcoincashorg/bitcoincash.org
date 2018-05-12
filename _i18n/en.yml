@@ -72,6 +72,19 @@ graphics:
     rgb: "RGB"
     cmyk: "CMYK"
     pantone: "Pantone"
+developers:
+  title: "Bitcoin Cash Developer Portal"
+  description: "The following is a topical list of Bitcoin Cash Development Workgroups. Each group should be focused around a specific subject. They may exist for a limited time, or be of ongoing interest."
+  sections:
+    home: "Home"
+    workgroups: "Workgroups"
+    specifications: "Specifications"
+  specifications:
+    title: "Bitcoin Cash Specifications"
+    description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
+  workgroups:
+    title: "Bitcoin Cash Workgroups"
+    description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
 misc:
   logo: "logo"
   dropdown_md_width: "3"
@@ -87,6 +100,7 @@ sections:
   projects: "Projects"
   exchanges: "Exchanges"
   graphics: "Logos / Graphics"
+  developers: "Developer Portal"
   faq: "FAQ"
 layout:
   bitcoin_cash: "Bitcoin Cash"
