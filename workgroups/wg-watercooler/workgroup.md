@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: Watercooler
-desc: Discussion related to sidechains on Bitcoin Cash and in general.
 permalink: /workgroups/wg-watercooler
 group: workgroup
+workgroup: wg-watercooler
 ---
 
 General chat. Any topic is fair game, but keep it civil.

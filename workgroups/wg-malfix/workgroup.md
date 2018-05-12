@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: Malleability Fixes
-desc: Fixes to transaction malleability to enable various other technologies on top of the Bitcoin Cash blockcahin.
 permalink: /workgroups/wg-malfix
 group: workgroup
+workgroup: wg-malfix
 ---
 
 Fixes to transaction malleability to enable various other technologies on top
