@@ -1,6 +1,7 @@
 language: 한국어
 title:
   index: "비트코인캐시 - 피어-투-피어 전자 현금"
+  graphics: "Bitcoin Cash - Logos / Graphics"
 meta:
   index:
     description: |
@@ -13,9 +14,70 @@ meta:
       title: "비트코인캐시 - 피어-투-피어 전자 현금"
       description: |
         비트코인캐시는 세계에 건전한 화폐를 가능케합니다. 상인들과 사용자들은 낮은 수수료와 신뢰있는 승인의 권한이 주어집니다. 미래는 제한없는 성장, 세계적인 채택, 허가불필의 혁신, 탈중앙화된 개발로 밝게 빛납니다.
+  graphics:
+    description: |
+      A collection of logos and graphics for Bitcoin Cash.
+    twitter:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+    og:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+graphics:
+  title: "Promotional Graphics"
+  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
+  logos: "Logos"
+  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
+  download_all: "Download All"
+  small: "Small (PNG)"
+  medium: "Medium (PNG)"
+  large: "Large (PNG)"
+  full: "Full (PNG)"
+  vector: "Vector (SVG)"
+  sections:
+    home: "Home"
+    logos: "Logos"
+    merchant: "Merchant"
+    donations: "Donations"
+    identity: "Identity"
+  types:
+    primary: "BCH Logo Primary"
+    white: "BCH Logo White Text"
+    mark: "BCH Logo Mark"
+    horizontal_primary: "BCH Logo Horizontal Primary"
+    horizontal_white: "BCH Logo Horizontal White"
+    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+  merchant:
+    title: "Merchant Buttons"
+    description: "Show your customers that you accept Bitcoin Cash"
+    primary: "Bitcoin Cash Accepted Here Primary"
+    orange: "Bitcoin Cash Accepted Here Orange"
+  donation:
+    title: "Donation Buttons"
+    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    primary: "Bitcoin Cash Donations Accepted Primary"
+    orange: "Bitcoin Cash Donations Accepted Orange"
+  identity:
+    title: "Visual Identity"
+    description: "Bitcoin Cash fonts, colors, and more."
+    font: "Ubuntu Bold"
+    font_italic: "Ubuntu Bold Italic"
+    download: "Download Font"
+    orange: "Bitcoin Cash Orange"
+    grey: "Bitcoin Cash Grey"
+    white: "Bitcoin Cash White"
+    hex: "Hex"
+    rgb: "RGB"
+    cmyk: "CMYK"
+    pantone: "Pantone"
 misc:
   logo: "로고"
+  dropdown_md_width: "3"
+  dropdown_sm_width: "3"
 sections:
+  announcement: "Announcement"
   about: "관하여"
   features: "기능"
   nodes: "노드"
@@ -24,6 +86,7 @@ sections:
   services: "서비스"
   projects: "프로젝트"
   exchanges: "거래소"
+  graphics: "Logos / Graphics"
   faq: "자주묻는문답"
 layout:
   bitcoin_cash: "비트코인캐시"
@@ -43,6 +106,7 @@ features:
   - title: "안전성"
     description: "세상에서 가장 견고한 블록체인 기술."
 headings:
+  announcement: "May 2018 Network Upgrade"
   about: "세계 최고의 화폐"
   features: "새로운 기능"
   nodes: "노드"
@@ -52,6 +116,9 @@ headings:
   exchanges: "거래소"
   faq: "자주묻는문답"
 content:
+  announcement:
+    - |
+      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       "피어-투-피어 전자 현금" 이라는 비트코인의 원래의 목적에 부합하는, 비트코인캐시는 세계에 건전한 화폐를 가능케합니다. 상인들과 사용자들은 낮은 수수료와 신뢰있는 승인의 권한이 주어집니다. 미래는 무제한성장, 세계적 채택, 허가없는 혁신, 탈중앙화된 개발로 밝게 빛납니다.

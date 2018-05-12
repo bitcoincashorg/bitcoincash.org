@@ -1,6 +1,7 @@
 language: 日本語
 title:
   index: "ビットコインキャッシュ - ピアツーピアの電子通貨"
+  graphics: "Bitcoin Cash - Logos / Graphics"
 meta:
   index:
     description: |
@@ -13,11 +14,70 @@ meta:
       title: "ビットコインキャッシュ - ピアツーピアの電子通貨"
       description: |
         ビットコインキャッシュは、この世界に信頼できるお金をもたらします。企業もユーザーも、わずかな手数料だけで確実な送金が可能になります。無制限の成長、世界的な採用、規制のないイノベーション。これらによりビットコインキャッシュの未来は光り輝いています。
+  graphics:
+    description: |
+      A collection of logos and graphics for Bitcoin Cash.
+    twitter:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+    og:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+graphics:
+  title: "Promotional Graphics"
+  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
+  logos: "Logos"
+  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
+  download_all: "Download All"
+  small: "Small (PNG)"
+  medium: "Medium (PNG)"
+  large: "Large (PNG)"
+  full: "Full (PNG)"
+  vector: "Vector (SVG)"
+  sections:
+    home: "Home"
+    logos: "Logos"
+    merchant: "Merchant"
+    donations: "Donations"
+    identity: "Identity"
+  types:
+    primary: "BCH Logo Primary"
+    white: "BCH Logo White Text"
+    mark: "BCH Logo Mark"
+    horizontal_primary: "BCH Logo Horizontal Primary"
+    horizontal_white: "BCH Logo Horizontal White"
+    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+  merchant:
+    title: "Merchant Buttons"
+    description: "Show your customers that you accept Bitcoin Cash"
+    primary: "Bitcoin Cash Accepted Here Primary"
+    orange: "Bitcoin Cash Accepted Here Orange"
+  donation:
+    title: "Donation Buttons"
+    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    primary: "Bitcoin Cash Donations Accepted Primary"
+    orange: "Bitcoin Cash Donations Accepted Orange"
+  identity:
+    title: "Visual Identity"
+    description: "Bitcoin Cash fonts, colors, and more."
+    font: "Ubuntu Bold"
+    font_italic: "Ubuntu Bold Italic"
+    download: "Download Font"
+    orange: "Bitcoin Cash Orange"
+    grey: "Bitcoin Cash Grey"
+    white: "Bitcoin Cash White"
+    hex: "Hex"
+    rgb: "RGB"
+    cmyk: "CMYK"
+    pantone: "Pantone"
 misc:
   logo: "logo"
-  dropdown_md_width: '3'
-  dropdown_sm_width: '4'
+  dropdown_md_width: "3"
+  dropdown_sm_width: "4"
 sections:
+  announcement: "Announcement"
   about: "ビットコインキャッシュとは"
   features: "特徴"
   nodes: "ノード"
@@ -26,6 +86,7 @@ sections:
   services: "サービス"
   projects: "プロジェクト"
   exchanges: "取引所"
+  graphics: "Logos / Graphics"
   faq: "よくある質問"
 layout:
   bitcoin_cash: "ビットコインキャッシュ"
@@ -45,6 +106,7 @@ features:
   - title: "セキュリティ"
     description: "世界でもっとも頑健なブロックチェーンテクノロジー。"
 headings:
+  announcement: "May 2018 Network Upgrade"
   about: "世界で最も優れた通貨"
   features: "新しい特徴"
   nodes: "ノード"
@@ -54,6 +116,9 @@ headings:
   exchanges: "取引所"
   faq: "よくある質問"
 content:
+  announcement:
+    - |
+      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       ビットコインキャッシュは、"Peer-to-Peer Electronic Cash"というビットコインのオリジナルのビジョンを実現し、この世界に信頼できるお金をもたらします。企業もユーザーも、わずかな手数料だけで確実な送金が可能になります。無制限の成長、世界的な採用、規制のないイノベーション、および分散型開発。これらによりビットコインキャッシュの未来は光り輝いています。

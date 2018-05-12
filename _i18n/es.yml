@@ -1,6 +1,7 @@
 language: Español
 title:
   index: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
+  graphics: "Bitcoin Cash - Logos / Graphics"
 meta:
   index:
     description: |
@@ -13,9 +14,70 @@ meta:
       title: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
       description: |
         Bitcoin Cash es una moneda fuerte para todos. Usuarios y comerciantes pueden ahora disfrutar de comisiones bajas y confirmaciones fiables. El futuro es prometedor gracias a crecimiento sin restricciones, adopción global, innovación que no necesita permisos y desarrollo descentralizado.
+  graphics:
+    description: |
+      A collection of logos and graphics for Bitcoin Cash.
+    twitter:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+    og:
+      title: "Bitcoin Cash - Logos / Graphics"
+      description: |
+        A collection of logos and graphics for Bitcoin Cash.
+graphics:
+  title: "Promotional Graphics"
+  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
+  logos: "Logos"
+  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
+  download_all: "Download All"
+  small: "Small (PNG)"
+  medium: "Medium (PNG)"
+  large: "Large (PNG)"
+  full: "Full (PNG)"
+  vector: "Vector (SVG)"
+  sections:
+    home: "Home"
+    logos: "Logos"
+    merchant: "Merchant"
+    donations: "Donations"
+    identity: "Identity"
+  types:
+    primary: "BCH Logo Primary"
+    white: "BCH Logo White Text"
+    mark: "BCH Logo Mark"
+    horizontal_primary: "BCH Logo Horizontal Primary"
+    horizontal_white: "BCH Logo Horizontal White"
+    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+  merchant:
+    title: "Merchant Buttons"
+    description: "Show your customers that you accept Bitcoin Cash"
+    primary: "Bitcoin Cash Accepted Here Primary"
+    orange: "Bitcoin Cash Accepted Here Orange"
+  donation:
+    title: "Donation Buttons"
+    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    primary: "Bitcoin Cash Donations Accepted Primary"
+    orange: "Bitcoin Cash Donations Accepted Orange"
+  identity:
+    title: "Visual Identity"
+    description: "Bitcoin Cash fonts, colors, and more."
+    font: "Ubuntu Bold"
+    font_italic: "Ubuntu Bold Italic"
+    download: "Download Font"
+    orange: "Bitcoin Cash Orange"
+    grey: "Bitcoin Cash Grey"
+    white: "Bitcoin Cash White"
+    hex: "Hex"
+    rgb: "RGB"
+    cmyk: "CMYK"
+    pantone: "Pantone"
 misc:
   logo: "logo"
+  dropdown_md_width: "3"
+  dropdown_sm_width: "3"
 sections:
+  announcement: "Announcement"
   about: "Acerca de"
   features: "Características"
   nodes: "Nodos"
@@ -24,6 +86,7 @@ sections:
   services: "Servicios"
   projects: "Proyectos"
   exchanges: "Casas de cambio"
+  graphics: "Logos / Graphics"
   faq: "FAQ"
 layout:
   bitcoin_cash: "Bitcoin Cash"
@@ -43,6 +106,7 @@ features:
   - title: "Seguro"
     description: "La tecnología blockchain más robusta del mundo."
 headings:
+  announcement: "May 2018 Network Upgrade"
   about: "El mejor dinero del mundo"
   features: "Nuevas características"
   nodes: "Nodos"
@@ -52,6 +116,9 @@ headings:
   exchanges: "Casas de cambio"
   faq: "Preguntas frecuentes"
 content:
+  announcement:
+    - |
+      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash ofrece una moneda fuerte al mundo, cumpliendo con la promesa inicial de Bitcoin como dinero electrónico de usuario a usuario. Usuarios y comerciantes pueden disfrutar de comisiones bajas y confirmaciones fiables. El futuro es prometedor gracias a crecimiento sin restricciones, adopción global, innovación que no necesita permisos y desarrollo descentralizado.
