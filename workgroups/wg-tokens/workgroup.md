@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: Tokens
-desc: Discussion related to tokens on Bitcoin Cash.
 permalink: /workgroups/wg-tokens
 group: workgroup
+workgroup: wg-tokens
 ---
 
 Discussion related to tokens on Bitcoin Cash.

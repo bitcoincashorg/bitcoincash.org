@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: Block Size Increases
-desc: This meeting exists to discuss all topics regarding expanding the block size.
 permalink: /workgroups/wg-blocksize
 group: workgroup
+workgroup: wg-blocksize
 ---
 
 This meeting exists to discuss all topics regarding expanding the block size.

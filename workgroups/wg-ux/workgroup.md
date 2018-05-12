@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: User Experience
-desc: Planning and coordination for advancements in Bitcoin Cash Wallets.
 permalink: /workgroups/wg-ux
 group: workgroup
+workgroup: wg-ux
 ---
 
 Planning and coordination for advancements in Bitcoin Cash Wallets.

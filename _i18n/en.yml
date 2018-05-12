@@ -86,6 +86,45 @@ developers:
   workgroups:
     title: "Bitcoin Cash Workgroups"
     description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
+    wg-daa:
+      title: "Dificulty Adjustment Algorithm"
+      description: "This meeting exists to discuss all topics regarding expanding the block size."
+    wg-blocksize:
+      title: "Block Size Increases"
+      description: "Workgroup for researching and discussing the latest technology for difficulty adjustments and implmenting them on the Bitcoin Cash."
+    wg-fungibility:
+      title: "Fungibliity"
+      description: "Discussion workgroup for issues surrounding better privacy protections on Bitcoin Cash."
+    wg-hardforks:
+      title: "Regular Hardfork Mechanism"
+      description: "Defining a specification for how Bitcoin Cash node implementations will execute hardforks on a regular basis."
+    wg-malfix:
+      title: "Malleability Fixes"
+      description: "Fixes to transaction malleability to enable various other technologies on top of the Bitcoin Cash blockcahin."
+    wg-opcodes:
+      title: "Op Codes"
+      description: "Proposing the re-enablement of various opcodes and creating well-defined specifications for the behavior and roll-out of each op-code."
+    wg-protocol-spec:
+      title: "Formal Protocol Specification"
+      description: "The purpose of this workgroup is to coordinate the development, review and acceptance of a formal definition document for the bitcoin cash protocol. Initially it is envisaged that the scope will be limited to hard consensus rules but later extending into soft rules."
+    wg-qa:
+      title: "Quality Assurance"
+      description: "Defining quality standards against which a node implementation may be certified against."
+    wg-sidechains:
+      title: "Sidechains"
+      description: "Discussion related to sidechains on Bitcoin Cash and in general."
+    wg-tokens:
+      title: "Tokens"
+      description: "Discussion related to tokens on Bitcoin Cash."
+    wg-utxocommit-sync:
+      title: "UTXO Commitments and Syncing"
+      description: "Defining quality standards against which a node implementation may be certified against."
+    wg-ux:
+      title: "User Experience"
+      description: "Planning and coordination for advancements in Bitcoin Cash Wallets."
+    wg-watercooler:
+      title: "Watercooler"
+      description: "Discussion related to sidechains on Bitcoin Cash and in general."
   ecosystem:
     title: "Bitcoin Cash Ecosystem"
     description: ""

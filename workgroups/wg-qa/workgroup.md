@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: Quality Assurance
-desc: Defining quality standards against which a node implementation may be certified against.
 permalink: /workgroups/wg-qa
 group: workgroup
+workgroup: wg-qa
 ---
 
 Defining quality standards against which a node implementation may be
