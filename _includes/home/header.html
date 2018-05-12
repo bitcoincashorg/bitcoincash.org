@@ -1,80 +1,18 @@
-<a id="start"></a>
-<header id="fh5co-header">
+<section id="fh5co-home" data-section="home" class="home site-header">
     <div class="container">
-        <nav class="navbar navbar-default">
-            {% include site-logo.html %}
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right homepage">
-                    <li>
-                        <a href="#about" data-nav-section="about" class="inner-link">
-                            <span>{% t sections.about %}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#features" data-nav-section="features" class="inner-link">
-                            <span>{% t sections.features %}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#nodes" data-nav-section="nodes" class="inner-link">
-                            <span>{% t 'sections.nodes' %}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#wallets" data-nav-section="wallets" class="inner-link">
-                            <span>{% t 'sections.wallets' %}</span>
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <span class="dropdown__trigger">{% t 'sections.community' %}</span>
-                        <div class="dropdown__container">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="dropdown__content col-md-{%- t 'misc.dropdown_md_width' %} col-sm-{%- t 'misc.dropdown_sm_width' -%}">
-                                        <ul class="menu-vertical">
-                                            <li>
-                                                <a href="#services" data-nav-section="services" class="inner-link">
-                                                    {% t 'sections.services' %}
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#projects" data-nav-section="projects" class="inner-link">
-                                                    {% t 'sections.projects' %}
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#exchanges" data-nav-section="exchanges" class="inner-link">
-                                                    {% t 'sections.exchanges' %}
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="graphics.html" class="external">
-                                                    {% t 'sections.graphics' %}
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="workgroups.html" class="external">
-                                                    {% t 'sections.workgroups' %}
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="spec.html" class="external">
-                                                    {% t 'sections.specification' %}
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#faq" data-nav-section="faq" class="inner-link">
-                            <span>{% t 'sections.faq' %}</span>
-                        </a>
-                    </li>
-                </ul>
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo to-animate">
+                <img alt="{% t 'layout.bitcoin_cash' %}" src="/media-kit/2-bitcoin-cash-logo-wt.svg">
+                <p class="lead">
+                    {% t 'layout.lead' %}
+                </p>
             </div>
-        </nav>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 ticker text-center">
+                <span id="ticker_value" class="to-animate">{% t 'layout.loading' %}</span>
+            </div>
+        </div>
     </div>
-</header>
+    <div class="slant"></div>
+</section>

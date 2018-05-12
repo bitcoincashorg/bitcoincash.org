@@ -79,12 +79,16 @@ developers:
     home: "Home"
     workgroups: "Workgroups"
     specifications: "Specifications"
+    ecosystem: "Ecosystem"
   specifications:
     title: "Bitcoin Cash Specifications"
     description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
   workgroups:
     title: "Bitcoin Cash Workgroups"
     description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
+  ecosystem:
+    title: "Bitcoin Cash Ecosystem"
+    description: ""
 misc:
   logo: "logo"
   dropdown_md_width: "3"
