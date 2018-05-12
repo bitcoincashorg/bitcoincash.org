@@ -1,0 +1,31 @@
+<section id="fh5co-specifications" data-section="specifications">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">{% t 'developers.specifications.title' %}</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>{% t 'developers.specifications.description' %}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                {% assign items_group = site.pages | sort: 'activation' | reverse | group_by: 'activation' %}
+                {% assign date_now = "now" | date: "%Y-%m-%d" %}
+                
+                {% for group in items_group  %}
+                    {% if group.name != '' %}
+                        <h2>{{group.name | date: "%B %Y"}} Upgrade</h2>
+                        {% assign items = group.items | sort: 'date' | reverse %}
+                
+                        {% for item in items %}
+                            <h3><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h3>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}                
+            </div>
+        </div>
+    </div>
+</section>
