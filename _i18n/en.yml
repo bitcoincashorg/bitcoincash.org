@@ -113,20 +113,15 @@ learn:
     tutorials: "Tutorials"
   tutorials:
     title: "tutorials"
-    description: "Create mnemonics, root seeds, master hd nodes, BIP44 accounts, external change addresss, generate cash addresses, get list of spendable utxo, create tx and send them."
+    description: "Step by step guides to take you from basics to professional grade apps"
 tools:
   title: "Tools"
-  description: "Want to change the world w/ Bitcoin Cash? Good, here are the tools you need to make it happen."
+  description: "Want to change the world w/ Bitcoin Cash? Great, here are the tools you need to make it happen."
   sections:
     home: "Home"
-    workgroups: "Workgroups"
-    specifications: "Specifications"
-  specifications:
-    title: "Bitcoin Cash Specifications"
-    description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
-  workgroups:
-    title: "Bitcoin Cash Workgroups"
-    description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
+    javascript: "Javascript"
+  javascript:
+    title: "Javascript"
 specs:
   title: "Bitcoin Cash Developer Portal"
   description: "The following is a topical list of Bitcoin Cash Development Workgroups. Each group should be focused around a specific subject. They may exist for a limited time, or be of ongoing interest."

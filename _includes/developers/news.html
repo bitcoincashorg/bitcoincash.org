@@ -1,32 +1,25 @@
-<section class="space--xxs text-center gray border-bottom" id="news-section"  data-section="news">
-    <div class="container services">
-        <div class="row to-animate">
+<section class="space--xxs gray border-bottom" id="news-section"  data-section="news">
+    <div class="container">
+        <div class="row to-animate text-center">
             <div class="col-xs-12 section-heading ">
                 <h2>{% t 'headings.news' %}</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-6 vertical-align to-animate">
-                <a href="tech/">
-                  Tech
-                </a>
-            </div>
-            <div class="col-sm-12 col-lg-6 vertical-align to-animate">
-                <a href="learn/">
-                  Learn
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 vertical-align to-animate">
-                <a href="tools/">
-                  Tools
-                </a>
-            </div>
-            <div class="col-sm-12 col-lg-6 vertical-align to-animate">
-                <a href="specs/">
-                  Specs
-                </a>
+            <div class="col-md-12">
+              {% assign items_group = site.pages | sort: 'group' | reverse | group_by: 'group' %}
+              {% assign date_now = "now" | date: "%Y-%m-%d" %}
+
+              {% for group in items_group  %}
+                  {% if group.name == 'blog' %}
+                      {% assign items = group.items | sort: 'date' | reverse %}
+
+                      {% for item in items %}
+                          <h2><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h2>
+                          <h3>{{ item.description }}</h3>
+                      {% endfor %}
+                  {% endif %}
+              {% endfor %}
             </div>
         </div>
     </div>
