@@ -1,27 +1,27 @@
-<section id="fh5co-specifications" data-section="specifications">
+<section id="fh5co-technical" data-section="foundation">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">{% t 'tech.specifications.title' %}</h2>
+                <h2 class="to-animate">{% t 'tech.foundation.title' %}</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>{% t 'tech.specifications.description' %}</h3>
+                        <h3>{% t 'tech.foundation.description' %}</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                {% assign items_group = site.pages | sort: 'activation' | reverse | group_by: 'activation' %}
+                {% assign items_group = site.pages | sort: 'group' | reverse | group_by: 'group' %}
                 {% assign date_now = "now" | date: "%Y-%m-%d" %}
 
                 {% for group in items_group  %}
-                    {% if group.name != '' %}
-                        <h2>{{group.name | date: "%B %Y"}} Upgrade</h2>
+                    {% if group.name == 'foundation' %}
                         {% assign items = group.items | sort: 'date' | reverse %}
 
                         {% for item in items %}
-                            <h3><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h3>
+                            <h2><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h2>
+                            <h3>{{item.description}}</h3>
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
