@@ -73,6 +73,61 @@ graphics:
     cmyk: "CMYK"
     pantone: "Pantone"
 developers:
+  title: "Create amazing apps with Bitcoin Cash"
+  description: "Resources for developers, by developers."
+  sections:
+    home: "Home"
+    getStarted: "Get Started"
+    news: "News"
+  getStarted:
+    tech:
+      title: "Tech"
+      description: "Open Tech for Everyone"
+    learn:
+      title: "Learn"
+      description: "Learn Bitcoin Cash development"
+    tools:
+      title: "Tools"
+      description: "Everything needed to make it happen"
+    specs:
+      title: "Specs"
+      description: "Vocabulary and associated APIs for Bitcoin Cash"
+tech:
+  title: "Open Tech for Everyone"
+  description: "Money touches everyone on earth. Bitcoin Cash is the best money in history."
+  sections:
+    home: "Home"
+    workgroups: "Workgroups"
+    specifications: "Specifications"
+  specifications:
+    title: "Bitcoin Cash Specifications"
+    description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
+  workgroups:
+    title: "Bitcoin Cash Workgroups"
+    description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
+learn:
+  title: "Learn Bitcoin Cash development"
+  description: "Pick up new skills to create amazing things"
+  sections:
+    home: "Home"
+    tutorials: "Tutorials"
+  tutorials:
+    title: "tutorials"
+    description: "Create mnemonics, root seeds, master hd nodes, BIP44 accounts, external change addresss, generate cash addresses, get list of spendable utxo, create tx and send them."
+tools:
+  title: "Tools"
+  description: "Want to change the world w/ Bitcoin Cash? Good, here are the tools you need to make it happen."
+  sections:
+    home: "Home"
+    workgroups: "Workgroups"
+    specifications: "Specifications"
+  specifications:
+    title: "Bitcoin Cash Specifications"
+    description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
+  workgroups:
+    title: "Bitcoin Cash Workgroups"
+    description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
+specs:
   title: "Bitcoin Cash Developer Portal"
   description: "The following is a topical list of Bitcoin Cash Development Workgroups. Each group should be focused around a specific subject. They may exist for a limited time, or be of ongoing interest."
   sections:
@@ -120,15 +175,17 @@ features:
   - title: "Secure"
     description: "World's most robust blockchain technology."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "The Best Money in the World"
-  features: "New Features"
-  nodes: "Nodes"
-  wallets: "Wallets"
-  services: "Services"
-  projects: "Projects"
+  announcement: "May 2018 Network Upgrade"
+  developers: "Get Started"
   exchanges: "Exchanges"
   faq: "Frequently Asked Questions"
+  features: "New Features"
+  news: "News"
+  nodes: "Nodes"
+  projects: "Projects"
+  services: "Services"
+  wallets: "Wallets"
 content:
   announcement:
     - |
