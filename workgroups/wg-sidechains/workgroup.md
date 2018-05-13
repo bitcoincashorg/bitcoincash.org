@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: Sidechains
-desc: Discussion related to sidechains on Bitcoin Cash and in general.
 permalink: /workgroups/wg-sidechains
 group: workgroup
+workgroup: wg-sidechains
 ---
 
 Discussion related to sidechains on Bitcoin Cash and in general.

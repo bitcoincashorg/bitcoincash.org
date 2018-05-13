@@ -1,9 +1,8 @@
 ---
 layout: dev-page
-title: UTXO commitments and syncing
-desc: Defining quality standards against which a node implementation may be certified against.
 permalink: /workgroups/wg-utxocommit-sync
 group: workgroup
+workgroup: wg-utxocommit-sync
 ---
 
 How to implement UTXO commitments and better syncing features

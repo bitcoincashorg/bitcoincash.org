@@ -1,7 +1,5 @@
 ---
-layout: workgroup
-title: Regular Hardfork Mechanism
-desc: Defining a specification for how Bitcoin Cash node implementations will execute hardforks on a regular basis.
+layout: dev-page
 purpose: The purpose of this workgroup is to define a formal specification for how hardforks will be done on a regular basis going forward.
 schedule: Protocol upgrades every six months at Median Time Past timestamps. Code and features to be included in the upgrade will be finalized three months prior to the upgrade.
 communication: ['[Telegram Group](https://t.me/joinchat/HCYr50he2qn0A9bSLZWoqg)']
@@ -17,6 +15,7 @@ parties: [
 ]
 permalink: /workgroups/wg-hardforks
 group: workgroup
+workgroup: wg-hardforks
 ---
 
 ### Upcoming Dates

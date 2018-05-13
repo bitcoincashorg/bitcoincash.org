@@ -12,12 +12,12 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                {% assign pages_list = site.pages | sort: 'title' %}
+                {% assign pages_list = site.pages | sort: 'workgroup' %}
 
                 {% for item in pages_list %}
                     {% if item.group == 'workgroup' %}
-                        <h2><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h2>
-                        <p>{{item.desc}}</p>
+                        <h2><a href="{{site.baseurl}}{{item.url}}">{% t developers.workgroups.{{item.workgroup}}.title %}</a></h2>
+                        <p>{% t developers.workgroups.{{item.workgroup}}.description %}</p>
                     {% endif %}
                 {% endfor %}
             </div>

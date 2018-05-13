@@ -1,0 +1,36 @@
+<a id="start"></a>
+<header id="fh5co-header">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            {% include site-logo.html %}
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="../" class="external" data-nav-section="home">
+                            <span>{% t 'developers.sections.home' %}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{site.baseurl}}/developers.html" class="external">
+                            <span>{% t 'sections.developers' %}</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <span class="dropdown__trigger">{% t 'developers.sections.workgroups' %}</span>
+                        <div class="dropdown__container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="dropdown__content col-md-{%- t 'misc.dropdown_md_width' %} col-sm-{%- t 'misc.dropdown_sm_width' -%}">
+                                        <ul class="menu-vertical">
+                                            {% include developers/workgroups/menu-items.html %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
