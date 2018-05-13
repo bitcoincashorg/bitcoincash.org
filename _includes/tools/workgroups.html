@@ -2,22 +2,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">{% t 'developers.workgroups.title' %}</h2>
+                <h2 class="to-animate">{% t 'tools.workgroups.title' %}</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>{% t 'developers.workgroups.description' %}</h3>
+                        <h3>{% t 'tools.workgroups.description' %}</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                {% assign pages_list = site.pages | sort: 'workgroup' %}
+                {% assign pages_list = site.pages | sort: 'title' %}
 
                 {% for item in pages_list %}
                     {% if item.group == 'workgroup' %}
-                        <h2><a href="{{site.baseurl}}{{item.url}}">{% t developers.workgroups.{{item.workgroup}}.title %}</a></h2>
-                        <p>{% t developers.workgroups.{{item.workgroup}}.description %}</p>
+                        <h2><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></h2>
+                        <p>{{item.desc}}</p>
                     {% endif %}
                 {% endfor %}
             </div>

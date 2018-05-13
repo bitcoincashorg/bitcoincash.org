@@ -11,6 +11,7 @@ In order to build and run the site you need ruby and docker. Then run:
 2. `bundle install`
 3. `rake docker:build`
 4. `docker run -d -p 8888:80 bitcoincash`
+5. Open a browser to `localhost:8888`
 
 Contributions
 -------------
@@ -26,7 +27,7 @@ About Bitcoin Cash
 ------------------
 
 Bitcoin Cash brings sound money to the world.  Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
- 
+
 All Bitcoin holders as of block 478558 are now owners of Bitcoin Cash. All Bitcoiners are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
 
 Listing Policy for Exchanges, Wallets, and Projects
@@ -35,7 +36,7 @@ Listing Policy for Exchanges, Wallets, and Projects
 Although many exchanges, wallets, and other projects would like to be listed on our website, BitcoinCash.org is not meant
 to be an exhaustive directory.  There is limited space and quite simply, we only want to showcase the best of the best.
 
-Only the top several exchanges by trading volume in each country will be considered.  
+Only the top several exchanges by trading volume in each country will be considered.
 
 For wallets, we only want to list those that have the highest trust and best reputation within the community.  Relevant factors include the brand, the age of the wallet, as well as the track record of the company, developers, and/or other individuals involved.
 
