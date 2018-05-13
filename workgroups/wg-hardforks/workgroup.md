@@ -1,5 +1,5 @@
 ---
-layout: workgroup
+layout: dev-page
 purpose: The purpose of this workgroup is to define a formal specification for how hardforks will be done on a regular basis going forward.
 schedule: Protocol upgrades every six months at Median Time Past timestamps. Code and features to be included in the upgrade will be finalized three months prior to the upgrade.
 communication: ['[Telegram Group](https://t.me/joinchat/HCYr50he2qn0A9bSLZWoqg)']

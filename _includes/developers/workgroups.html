@@ -12,7 +12,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                {% assign pages_list = site.pages | sort: 'title' %}
+                {% assign pages_list = site.pages | sort: 'workgroup' %}
 
                 {% for item in pages_list %}
                     {% if item.group == 'workgroup' %}
