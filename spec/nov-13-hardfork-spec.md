@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: November 13th Bitcoin Cash Hardfork Technical Details
 date: 2017-11-07
 activation: 1510600000

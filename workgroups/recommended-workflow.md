@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 title: Recommended Proposal Workflow
 permalink: /workgroups/workflow.html
 ---

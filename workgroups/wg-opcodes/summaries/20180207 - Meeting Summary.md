@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: meeting-summary
 title: Followup discussion on proposal to re-enable a subset of opcodes
 group: opcodes
 category: summary

@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-opcodes
 group: workgroup
 workgroup: wg-opcodes

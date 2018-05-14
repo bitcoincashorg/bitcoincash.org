@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 title: Participant Roster
 permalink: /workgroups/roster/
 ---

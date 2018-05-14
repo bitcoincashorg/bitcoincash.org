@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 title: Positions
 permalink: /workgroups/positions.html
 ---

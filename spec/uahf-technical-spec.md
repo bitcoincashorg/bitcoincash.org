@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: UAHF Technical Specification
 date: 2017-07-24
 activation: 1501590000

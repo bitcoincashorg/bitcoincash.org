@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-protocol-spec
 group: workgroup
 workgroup: wg-protocol-spec

@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-blocksize
 group: workgroup
 workgroup: wg-blocksize

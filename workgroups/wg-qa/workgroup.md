@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-qa
 group: workgroup
 workgroup: wg-qa

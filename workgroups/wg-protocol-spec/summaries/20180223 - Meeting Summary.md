@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: meeting-summary
 title: Initial meeting on creating a specification
 group: protocol
 category: summary

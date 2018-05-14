@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 title: Format of Meetings
 permalink: /workgroups/format.html
 ---

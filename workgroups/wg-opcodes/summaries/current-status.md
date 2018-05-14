@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: meeting-summary
 title: Current Status of OpCodes Workgroup
 group: opcodes
 version: 1.0

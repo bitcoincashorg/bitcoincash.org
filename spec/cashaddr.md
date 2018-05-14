@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: Address format for Bitcoin Cash
 date: 2017-10-13
 activation: 1515888000

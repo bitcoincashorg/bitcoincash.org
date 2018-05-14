@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: UAHF Test Plan
 date: 2017-06-14
 activation: 1501590000

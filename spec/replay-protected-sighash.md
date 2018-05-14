@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: BUIP-HF Digest for replay protected signature verification across hard forks
 date: 2017-07-16
 activation: 1501590000

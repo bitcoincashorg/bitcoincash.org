@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 group: ecosystem
 title: Bitcoin-Unlimited
 ---

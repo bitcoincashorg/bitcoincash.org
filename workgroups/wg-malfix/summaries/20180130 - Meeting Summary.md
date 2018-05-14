@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: meeting-summary
 title: Fixing Transaction Maleability - Is it worth it?
 group: malfix
 time: 20170129 1100 (UTC)

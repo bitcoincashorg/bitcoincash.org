@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: meeting-summary
 title: Discussion on proposal to re-enable a subset of opcodes
 group: opcodes
 time: 20170131 1100 (UTC)

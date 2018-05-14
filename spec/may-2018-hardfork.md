@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: May 2018 Hardfork Specification
 date: 2018-04-09
 activation: 1526400000

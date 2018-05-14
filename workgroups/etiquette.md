@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 title: Workgroup & Video Meeting Etiquette
 permalink: /workgroups/etiquette.html
 ---

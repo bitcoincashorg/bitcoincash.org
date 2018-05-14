@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-fungibility
 group: workgroup
 workgroup: wg-fungibility

@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-ux
 group: workgroup
 workgroup: wg-ux

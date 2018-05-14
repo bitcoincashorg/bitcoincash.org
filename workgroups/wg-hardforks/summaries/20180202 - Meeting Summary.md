@@ -1,5 +1,5 @@
 ---
-layout: summary
+layout: meeting-summary
 title: Automatic Replay Protection
 group: hardforks
 time: 20180202 1100 (UTC)

@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-watercooler
 group: workgroup
 workgroup: wg-watercooler

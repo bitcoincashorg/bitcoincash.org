@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-sidechains
 group: workgroup
 workgroup: wg-sidechains

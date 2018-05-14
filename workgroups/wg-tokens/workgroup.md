@@ -1,5 +1,5 @@
 ---
-layout: dev-page
+layout: workgroup
 permalink: /workgroups/wg-tokens
 group: workgroup
 workgroup: wg-tokens
