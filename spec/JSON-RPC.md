@@ -39,35 +39,35 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 
 #### Result
 
-* Result (for verbose = true): object
+* Result (for verbose = `true`): object
 
 ```js
 {
-  "hash" : "hash",     (string) the block hash (same as provided)
-  "confirmations" : n,   (numeric) The number of confirmations, or -1 if the block is not on the main chain
-  "size" : n,            (numeric) The block size
-  "height" : n,          (numeric) The block height or index
-  "version" : n,         (numeric) The block version
-  "versionHex" : "00000000", (string) The block version formatted in hexadecimal
-  "merkleroot" : "xxxx", (string) The merkle root
+  "hash" : "hash",     (`String`) the block hash (same as provided)
+  "confirmations" : n,   (`Numeric`) The number of confirmations, or -1 if the block is not on the main chain
+  "size" : n,            (`Numeric`) The block size
+  "height" : n,          (`Numeric`) The block height or index
+  "version" : n,         (`Numeric`) The block version
+  "versionHex" : "00000000", (`String`) The block version formatted in hexadecimal
+  "merkleroot" : "xxxx", (`String`) The merkle root
   "tx" : [               (array of string) The transaction ids
-     "transactionid"     (string) The transaction id
+     "transactionid"     (`String`) The transaction id
      ,...
   ],
-  "time" : ttt,          (numeric) The block time in seconds since epoch (Jan 1 1970 GMT)
-  "mediantime" : ttt,    (numeric) The median block time in seconds since epoch (Jan 1 1970 GMT)
-  "nonce" : n,           (numeric) The nonce
-  "bits" : "1d00ffff", (string) The bits
-  "difficulty" : x.xxx,  (numeric) The difficulty
-  "chainwork" : "xxxx",  (string) Expected number of hashes required to produce the chain up to this block (in hex)
-  "previousblockhash" : "hash",  (string) The hash of the previous block
-  "nextblockhash" : "hash"       (string) The hash of the next block
+  "time" : ttt,          (`Numeric`) The block time in seconds since epoch (Jan 1 1970 GMT)
+  "mediantime" : ttt,    (`Numeric`) The median block time in seconds since epoch (Jan 1 1970 GMT)
+  "nonce" : n,           (`Numeric`) The nonce
+  "bits" : "1d00ffff", (`String`) The bits
+  "difficulty" : x.xxx,  (`Numeric`) The difficulty
+  "chainwork" : "xxxx",  (`String`) Expected number of hashes required to produce the chain up to this block (in hex)
+  "previousblockhash" : "hash",  (`String`) The hash of the previous block
+  "nextblockhash" : "hash"       (`String`) The hash of the next block
 }
 ```
 
-* Result (for verbose = false):
+* Result (for verbose = `false`):
 
-"data"             (string) A string that is serialized, hex-encoded data for block 'hash'.
+data (`String`) A string that is serialized, hex-encoded data for block 'hash'.
 
 ### getblockchaininfo
 
@@ -83,32 +83,32 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 
 ```js
 {
-  "chain": "xxxx",        (string) current network name as defined in BIP70 (main, test, regtest)
-  "blocks": xxxxxx,         (numeric) the current number of blocks processed in the server
-  "headers": xxxxxx,        (numeric) the current number of headers we have validated
-  "bestblockhash": "...", (string) the hash of the currently best block
-  "difficulty": xxxxxx,     (numeric) the current difficulty
-  "mediantime": xxxxxx,     (numeric) median time for the current best block
-  "verificationprogress": xxxx, (numeric) estimate of verification progress [0..1]
-  "chainwork": "xxxx"     (string) total amount of work in active chain, in hexadecimal
-  "pruned": xx,             (boolean) if the blocks are subject to pruning
-  "pruneheight": xxxxxx,    (numeric) lowest-height complete block stored
+  "chain": "xxxx",        (`String`) current network name as defined in BIP70 (main, test, regtest)
+  "blocks": xxxxxx,         (`Numeric`) the current number of blocks processed in the server
+  "headers": xxxxxx,        (`Numeric`) the current number of headers we have validated
+  "bestblockhash": "...", (`String`) the hash of the currently best block
+  "difficulty": xxxxxx,     (`Numeric`) the current difficulty
+  "mediantime": xxxxxx,     (`Numeric`) median time for the current best block
+  "verificationprogress": xxxx, (`Numeric`) estimate of verification progress [0..1]
+  "chainwork": "xxxx"     (`String`) total amount of work in active chain, in hexadecimal
+  "pruned": xx,             (`Boolean`) if the blocks are subject to pruning
+  "pruneheight": xxxxxx,    (`Numeric`) lowest-height complete block stored
   "softforks": [            (array) status of softforks in progress
      {
-        "id": "xxxx",        (string) name of softfork
-        "version": xx,         (numeric) block version
+        "id": "xxxx",        (`String`) name of softfork
+        "version": xx,         (`Numeric`) block version
         "reject": {            (object) progress toward rejecting pre-softfork blocks
-           "status": xx,       (boolean) true if threshold reached
+           "status": xx,       (`Boolean`) true if threshold reached
         },
      }, ...
   ],
   "bip9_softforks": {          (object) status of BIP9 softforks in progress
-     "xxxx" : {                (string) name of the softfork
-        "status": "xxxx",    (string) one of "defined", "started", "locked_in", "active", "failed"
-        "bit": xx,             (numeric) the bit (0-28) in the block version field used to signal this softfork (only for "started" status)
-        "startTime": xx,       (numeric) the minimum median time past of a block at which the bit gains its meaning
-        "timeout": xx,         (numeric) the median time past of a block at which the deployment is considered failed if not yet locked in
-        "since": xx            (numeric) height of the first block to which the status applies
+     "xxxx" : {                (`String`) name of the softfork
+        "status": "xxxx",    (`String`) one of "defined", "started", "locked_in", "active", "failed"
+        "bit": xx,             (`Numeric`) the bit (0-28) in the block version field used to signal this softfork (only for "started" status)
+        "startTime": xx,       (`Numeric`) the minimum median time past of a block at which the bit gains its meaning
+        "timeout": xx,         (`Numeric`) the median time past of a block at which the deployment is considered failed if not yet locked in
+        "since": xx            (`Numeric`) height of the first block to which the status applies
      }
   }
 }
@@ -119,26 +119,28 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
 * none
 
 #### Result
 
-* n    (numeric) The current block count
+* n (`Numeric`): The current block count
 
 ### getblockhash
 
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
-1. height         (numeric, required) The height index
+1. height (`Numeric`, required): The height index
 
 #### Result
 
-"hash"         (string) The block hash
+hash (`String`): The block hash
 
 ### getblockheader
 
@@ -148,27 +150,27 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 
 #### Arguments
 
-1. "hash"          (string, required) The block hash
-2. verbose           (boolean, optional, default=true) true for a json object, false for the hex encoded data
+1. hash (`String`, required): The block hash
+2. verbose (`Boolean`, optional, default=true): true for a json object, false for the hex encoded data
 
 #### Result
 
 ```js
 {
-  "hash" : "hash",     (string) the block hash (same as provided)
-  "confirmations" : n,   (numeric) The number of confirmations, or -1 if the block is not on the main chain
-  "height" : n,          (numeric) The block height or index
-  "version" : n,         (numeric) The block version
-  "versionHex" : "00000000", (string) The block version formatted in hexadecimal
-  "merkleroot" : "xxxx", (string) The merkle root
-  "time" : ttt,          (numeric) The block time in seconds since epoch (Jan 1 1970 GMT)
-  "mediantime" : ttt,    (numeric) The median block time in seconds since epoch (Jan 1 1970 GMT)
-  "nonce" : n,           (numeric) The nonce
-  "bits" : "1d00ffff", (string) The bits
-  "difficulty" : x.xxx,  (numeric) The difficulty
-  "chainwork" : "0000...1f3"     (string) Expected number of hashes required to produce the current chain (in hex)
-  "previousblockhash" : "hash",  (string) The hash of the previous block
-  "nextblockhash" : "hash",      (string) The hash of the next block
+  "hash" : "hash",     (`String`) the block hash (same as provided)
+  "confirmations" : n,   (`Numeric`) The number of confirmations, or -1 if the block is not on the main chain
+  "height" : n,          (`Numeric`) The block height or index
+  "version" : n,         (`Numeric`) The block version
+  "versionHex" : "00000000", (`String`) The block version formatted in hexadecimal
+  "merkleroot" : "xxxx", (`String`) The merkle root
+  "time" : ttt,          (`Numeric`) The block time in seconds since epoch (Jan 1 1970 GMT)
+  "mediantime" : ttt,    (`Numeric`) The median block time in seconds since epoch (Jan 1 1970 GMT)
+  "nonce" : n,           (`Numeric`) The nonce
+  "bits" : "1d00ffff", (`String`) The bits
+  "difficulty" : x.xxx,  (`Numeric`) The difficulty
+  "chainwork" : "0000...1f3"     (`String`) Expected number of hashes required to produce the current chain (in hex)
+  "previousblockhash" : "hash",  (`String`) The hash of the previous block
+  "nextblockhash" : "hash",      (`String`) The hash of the next block
 }
 ```
 
@@ -177,6 +179,7 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
 * None
@@ -186,16 +189,16 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 ```js
 [
   {
-    "height": xxxx,         (numeric) height of the chain tip
-    "hash": "xxxx",         (string) block hash of the tip
-    "branchlen": 0          (numeric) zero for main chain
-    "status": "active"      (string) "active" for the main chain
+    "height": xxxx,         (`Numeric`) height of the chain tip
+    "hash": "xxxx",         (`String`) block hash of the tip
+    "branchlen": 0          (`Numeric`) zero for main chain
+    "status": "active"      (`String`) "active" for the main chain
   },
   {
     "height": xxxx,
     "hash": "xxxx",
-    "branchlen": 1          (numeric) length of branch connecting the tip to the main chain
-    "status": "xxxx"        (string) status of the chain (active, valid-fork, valid-headers, headers-only, invalid)
+    "branchlen": 1          (`Numeric`) length of branch connecting the tip to the main chain
+    "status": "xxxx"        (`String`) status of the chain (active, valid-fork, valid-headers, headers-only, invalid)
   }
 ]
 ```
@@ -208,19 +211,19 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 
 #### Arguments
 
-1. nblocks      (numeric, optional) Size of the window in number of blocks (default: one month).
-2. "blockhash"  (string, optional) The hash of the block that ends the window.
+1. nblocks (`Numeric`, optional): Size of the window in number of blocks (default: one month).
+2. blockhash (`String`, optional): The hash of the block that ends the window.
 
 #### Result
 
 ```js
 {
-  "time": xxxxx,                (numeric) The timestamp for the final block in the window in UNIX format.
-  "txcount": xxxxx,             (numeric) The total number of transactions in the chain up to that point.
-  "window_block_count": xxxxx,  (numeric) Size of the window in number of blocks.
-  "window_tx_count": xxxxx,     (numeric) The number of transactions in the window. Only returned if "window_block_count" is > 0.
-  "window_interval": xxxxx,     (numeric) The elapsed time in the window in seconds. Only returned if "window_block_count" is > 0.
-  "txrate": x.xx,               (numeric) The average rate of transactions per second in the window. Only returned if "window_interval" is > 0.
+  "time": xxxxx,                (`Numeric`) The timestamp for the final block in the window in UNIX format.
+  "txcount": xxxxx,             (`Numeric`) The total number of transactions in the chain up to that point.
+  "window_block_count": xxxxx,  (`Numeric`) Size of the window in number of blocks.
+  "window_tx_count": xxxxx,     (`Numeric`) The number of transactions in the window. Only returned if "window_block_count" is > 0.
+  "window_interval": xxxxx,     (`Numeric`) The elapsed time in the window in seconds. Only returned if "window_block_count" is > 0.
+  "txrate": x.xx,               (`Numeric`) The average rate of transactions per second in the window. Only returned if "window_interval" is > 0.
 }
 ```
 
@@ -229,53 +232,55 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
 * none
 
 #### Result
 
-* n.nnn       (numeric) the proof-of-work difficulty as a multiple of the minimum difficulty.
+* n.nnn (`Numeric`): the proof-of-work difficulty as a multiple of the minimum difficulty.
 
 ### getmempoolancestors
 
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
-1. "txid"                 (string, required) The transaction id (must be in mempool)
-2. verbose                  (boolean, optional, default=false) True for a json object, false for array of transaction ids
+1. txid (`String`, required): The transaction id (must be in mempool)
+2. verbose (`Boolean`, optional, default=`false`): True for a json object, false for array of transaction ids
 
 #### Result
 
-Result (for verbose=false):
+Result (for verbose=`false`):
 ```js
 [                       (json array of strings)
-  "transactionid"           (string) The transaction id of an in-mempool ancestor transaction
+  "transactionid"           (`String`) The transaction id of an in-mempool ancestor transaction
   ,...
 ]
 ```
 
-Result (for verbose=true):
+Result (for verbose=`true`):
 ```js
-{                           (json object)
-  "transactionid" : {       (json object)
-    "size" : n,             (numeric) transaction size.
-    "fee" : n,              (numeric) transaction fee in BCH
-    "modifiedfee" : n,      (numeric) transaction fee with fee deltas used for mining priority
-    "time" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT
-    "height" : n,           (numeric) block height when transaction entered pool
-    "startingpriority" : n, (numeric) DEPRECATED. Priority when transaction entered pool
-    "currentpriority" : n,  (numeric) DEPRECATED. Transaction priority now
-    "descendantcount" : n,  (numeric) number of in-mempool descendant transactions (including this one)
-    "descendantsize" : n,   (numeric) virtual transaction size of in-mempool descendants (including this one)
-    "descendantfees" : n,   (numeric) modified fees (see above) of in-mempool descendants (including this one)
-    "ancestorcount" : n,    (numeric) number of in-mempool ancestor transactions (including this one)
-    "ancestorsize" : n,     (numeric) virtual transaction size of in-mempool ancestors (including this one)
-    "ancestorfees" : n,     (numeric) modified fees (see above) of in-mempool ancestors (including this one)
+{                           (json `Object`)
+  "transactionid" : {       (json `Object`)
+    "size" : n,             (`Numeric`) transaction size.
+    "fee" : n,              (`Numeric`) transaction fee in BCH
+    "modifiedfee" : n,      (`Numeric`) transaction fee with fee deltas used for mining priority
+    "time" : n,             (`Numeric`) local time transaction entered pool in seconds since 1 Jan 1970 GMT
+    "height" : n,           (`Numeric`) block height when transaction entered pool
+    "startingpriority" : n, (`Numeric`) DEPRECATED. Priority when transaction entered pool
+    "currentpriority" : n,  (`Numeric`) DEPRECATED. Transaction priority now
+    "descendantcount" : n,  (`Numeric`) number of in-mempool descendant transactions (including this one)
+    "descendantsize" : n,   (`Numeric`) virtual transaction size of in-mempool descendants (including this one)
+    "descendantfees" : n,   (`Numeric`) modified fees (see above) of in-mempool descendants (including this one)
+    "ancestorcount" : n,    (`Numeric`) number of in-mempool ancestor transactions (including this one)
+    "ancestorsize" : n,     (`Numeric`) virtual transaction size of in-mempool ancestors (including this one)
+    "ancestorfees" : n,     (`Numeric`) modified fees (see above) of in-mempool ancestors (including this one)
     "depends" : [           (array) unconfirmed transactions used as inputs for this transaction
-        "transactionid",    (string) parent transaction id
+        "transactionid",    (`String`) parent transaction id
        ... ]
   }, ...
 }
@@ -289,7 +294,7 @@ Result (for verbose=true):
 
 #### Arguments
 
-1. "txid"                 (string, required) The transaction id (must be in mempool)
+1. "txid"                 (`String`, required): The transaction id (must be in mempool)
 2. verbose                  (boolean, optional, default=false) True for a json object, false for array of transaction ids
 
 #### Result
@@ -297,30 +302,30 @@ Result (for verbose=true):
 Result (for verbose=false):
 ```js
 [                       (json array of strings)
-  "transactionid"           (string) The transaction id of an in-mempool descendant transaction
+  "transactionid"           (`String`) The transaction id of an in-mempool descendant transaction
   ,...
 ]
 ```
 
-Result (for verbose=true):
+Result (for verbose=`true`):
 ```js
-{                           (json object)
-  "transactionid" : {       (json object)
-    "size" : n,             (numeric) transaction size.
-    "fee" : n,              (numeric) transaction fee in BCH
-    "modifiedfee" : n,      (numeric) transaction fee with fee deltas used for mining priority
-    "time" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT
-    "height" : n,           (numeric) block height when transaction entered pool
-    "startingpriority" : n, (numeric) DEPRECATED. Priority when transaction entered pool
-    "currentpriority" : n,  (numeric) DEPRECATED. Transaction priority now
-    "descendantcount" : n,  (numeric) number of in-mempool descendant transactions (including this one)
-    "descendantsize" : n,   (numeric) virtual transaction size of in-mempool descendants (including this one)
-    "descendantfees" : n,   (numeric) modified fees (see above) of in-mempool descendants (including this one)
-    "ancestorcount" : n,    (numeric) number of in-mempool ancestor transactions (including this one)
-    "ancestorsize" : n,     (numeric) virtual transaction size of in-mempool ancestors (including this one)
-    "ancestorfees" : n,     (numeric) modified fees (see above) of in-mempool ancestors (including this one)
+{                           (json `Object`)
+  "transactionid" : {       (json `Object`)
+    "size" : n,             (`Numeric`) transaction size.
+    "fee" : n,              (`Numeric`) transaction fee in BCH
+    "modifiedfee" : n,      (`Numeric`) transaction fee with fee deltas used for mining priority
+    "time" : n,             (`Numeric`) local time transaction entered pool in seconds since 1 Jan 1970 GMT
+    "height" : n,           (`Numeric`) block height when transaction entered pool
+    "startingpriority" : n, (`Numeric`) DEPRECATED. Priority when transaction entered pool
+    "currentpriority" : n,  (`Numeric`) DEPRECATED. Transaction priority now
+    "descendantcount" : n,  (`Numeric`) number of in-mempool descendant transactions (including this one)
+    "descendantsize" : n,   (`Numeric`) virtual transaction size of in-mempool descendants (including this one)
+    "descendantfees" : n,   (`Numeric`) modified fees (see above) of in-mempool descendants (including this one)
+    "ancestorcount" : n,    (`Numeric`) number of in-mempool ancestor transactions (including this one)
+    "ancestorsize" : n,     (`Numeric`) virtual transaction size of in-mempool ancestors (including this one)
+    "ancestorfees" : n,     (`Numeric`) modified fees (see above) of in-mempool ancestors (including this one)
     "depends" : [           (array) unconfirmed transactions used as inputs for this transaction
-        "transactionid",    (string) parent transaction id
+        "transactionid",    (`String`) parent transaction id
        ... ]
   }, ...
 }
@@ -334,28 +339,28 @@ Result (for verbose=true):
 
 #### Arguments
 
-1. "txid"                   (string, required) The transaction id (must be in mempool)
+1. "txid"                   (`String`, required): The transaction id (must be in mempool)
 
 #### Result
 
 ```js
 Result:
-{                           (json object)
-    "size" : n,             (numeric) transaction size.
-    "fee" : n,              (numeric) transaction fee in BCH
-    "modifiedfee" : n,      (numeric) transaction fee with fee deltas used for mining priority
-    "time" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT
-    "height" : n,           (numeric) block height when transaction entered pool
-    "startingpriority" : n, (numeric) DEPRECATED. Priority when transaction entered pool
-    "currentpriority" : n,  (numeric) DEPRECATED. Transaction priority now
-    "descendantcount" : n,  (numeric) number of in-mempool descendant transactions (including this one)
-    "descendantsize" : n,   (numeric) virtual transaction size of in-mempool descendants (including this one)
-    "descendantfees" : n,   (numeric) modified fees (see above) of in-mempool descendants (including this one)
-    "ancestorcount" : n,    (numeric) number of in-mempool ancestor transactions (including this one)
-    "ancestorsize" : n,     (numeric) virtual transaction size of in-mempool ancestors (including this one)
-    "ancestorfees" : n,     (numeric) modified fees (see above) of in-mempool ancestors (including this one)
+{                           (json `Object`)
+    "size" : n,             (`Numeric`) transaction size.
+    "fee" : n,              (`Numeric`) transaction fee in BCH
+    "modifiedfee" : n,      (`Numeric`) transaction fee with fee deltas used for mining priority
+    "time" : n,             (`Numeric`) local time transaction entered pool in seconds since 1 Jan 1970 GMT
+    "height" : n,           (`Numeric`) block height when transaction entered pool
+    "startingpriority" : n, (`Numeric`) DEPRECATED. Priority when transaction entered pool
+    "currentpriority" : n,  (`Numeric`) DEPRECATED. Transaction priority now
+    "descendantcount" : n,  (`Numeric`) number of in-mempool descendant transactions (including this one)
+    "descendantsize" : n,   (`Numeric`) virtual transaction size of in-mempool descendants (including this one)
+    "descendantfees" : n,   (`Numeric`) modified fees (see above) of in-mempool descendants (including this one)
+    "ancestorcount" : n,    (`Numeric`) number of in-mempool ancestor transactions (including this one)
+    "ancestorsize" : n,     (`Numeric`) virtual transaction size of in-mempool ancestors (including this one)
+    "ancestorfees" : n,     (`Numeric`) modified fees (see above) of in-mempool ancestors (including this one)
     "depends" : [           (array) unconfirmed transactions used as inputs for this transaction
-        "transactionid",    (string) parent transaction id
+        "transactionid",    (`String`) parent transaction id
        ... ]
 }
 ```
@@ -373,11 +378,11 @@ Result:
 
 ```js
 {
-  "size": xxxxx,               (numeric) Current tx count
-  "bytes": xxxxx,              (numeric) Transaction size.
-  "usage": xxxxx,              (numeric) Total memory usage for the mempool
-  "maxmempool": xxxxx,         (numeric) Maximum memory usage for the mempool
-  "mempoolminfee": xxxxx       (numeric) Minimum fee for tx to be accepted
+  "size": xxxxx,               (`Numeric`) Current tx count
+  "bytes": xxxxx,              (`Numeric`) Transaction size.
+  "usage": xxxxx,              (`Numeric`) Total memory usage for the mempool
+  "maxmempool": xxxxx,         (`Numeric`) Maximum memory usage for the mempool
+  "mempoolminfee": xxxxx       (`Numeric`) Minimum fee for tx to be accepted
 }
 ```
 
@@ -395,31 +400,31 @@ Result:
 
 Result: (for verbose = false):
 ```js
-[                     (json array of string)
-  "transactionid"     (string) The transaction id
+[                     (json `Array` of `String`)
+  "transactionid"     (`String`) The transaction id
   ,...
 ]
 ```
 
 Result: (for verbose = true):
 ```js
-{                           (json object)
-  "transactionid" : {       (json object)
-    "size" : n,             (numeric) transaction size.
-    "fee" : n,              (numeric) transaction fee in BCH
-    "modifiedfee" : n,      (numeric) transaction fee with fee deltas used for mining priority
-    "time" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT
-    "height" : n,           (numeric) block height when transaction entered pool
-    "startingpriority" : n, (numeric) DEPRECATED. Priority when transaction entered pool
-    "currentpriority" : n,  (numeric) DEPRECATED. Transaction priority now
-    "descendantcount" : n,  (numeric) number of in-mempool descendant transactions (including this one)
-    "descendantsize" : n,   (numeric) virtual transaction size of in-mempool descendants (including this one)
-    "descendantfees" : n,   (numeric) modified fees (see above) of in-mempool descendants (including this one)
-    "ancestorcount" : n,    (numeric) number of in-mempool ancestor transactions (including this one)
-    "ancestorsize" : n,     (numeric) virtual transaction size of in-mempool ancestors (including this one)
-    "ancestorfees" : n,     (numeric) modified fees (see above) of in-mempool ancestors (including this one)
+{                           (json `Object`)
+  "transactionid" : {       (json `Object`)
+    "size" : n,             (`Numeric`) transaction size.
+    "fee" : n,              (`Numeric`) transaction fee in BCH
+    "modifiedfee" : n,      (`Numeric`) transaction fee with fee deltas used for mining priority
+    "time" : n,             (`Numeric`) local time transaction entered pool in seconds since 1 Jan 1970 GMT
+    "height" : n,           (`Numeric`) block height when transaction entered pool
+    "startingpriority" : n, (`Numeric`) DEPRECATED. Priority when transaction entered pool
+    "currentpriority" : n,  (`Numeric`) DEPRECATED. Transaction priority now
+    "descendantcount" : n,  (`Numeric`) number of in-mempool descendant transactions (including this one)
+    "descendantsize" : n,   (`Numeric`) virtual transaction size of in-mempool descendants (including this one)
+    "descendantfees" : n,   (`Numeric`) modified fees (see above) of in-mempool descendants (including this one)
+    "ancestorcount" : n,    (`Numeric`) number of in-mempool ancestor transactions (including this one)
+    "ancestorsize" : n,     (`Numeric`) virtual transaction size of in-mempool ancestors (including this one)
+    "ancestorfees" : n,     (`Numeric`) modified fees (see above) of in-mempool ancestors (including this one)
     "depends" : [           (array) unconfirmed transactions used as inputs for this transaction
-        "transactionid",    (string) parent transaction id
+        "transactionid",    (`String`) parent transaction id
        ... ]
   }, ...
 }
@@ -433,28 +438,28 @@ Result: (for verbose = true):
 
 #### Arguments
 
-1. "txid"             (string, required) The transaction id
-2. "n"                (numeric, required) vout number
+1. "txid"             (`String`, required): The transaction id
+2. "n"                (`Numeric`, required) vout number
 3. "include_mempool"  (boolean, optional) Whether to include the mempool. Default: true.     Note that an unspent output that is spent in the mempool won't appear.
 
 #### Result
 
 ```js
 {
-  "bestblock" : "hash",    (string) the block hash
-  "confirmations" : n,       (numeric) The number of confirmations
-  "value" : x.xxx,           (numeric) The transaction value in BCH
-  "scriptPubKey" : {         (json object)
-     "asm" : "code",       (string)
-     "hex" : "hex",        (string)
-     "reqSigs" : n,          (numeric) Number of required signatures
-     "type" : "pubkeyhash", (string) The type, eg pubkeyhash
+  "bestblock" : "hash",    (`String`) the block hash
+  "confirmations" : n,       (`Numeric`) The number of confirmations
+  "value" : x.xxx,           (`Numeric`) The transaction value in BCH
+  "scriptPubKey" : {         (json `Object`)
+     "asm" : "code",       (`String`)
+     "hex" : "hex",        (`String`)
+     "reqSigs" : n,          (`Numeric`) Number of required signatures
+     "type" : "pubkeyhash", (`String`) The type, eg pubkeyhash
      "addresses" : [          (array of string) array of bitcoin addresses
-        "address"     (string) bitcoin address
+        "address"     (`String`) bitcoin address
         ,...
      ]
   },
-  "coinbase" : true|false   (boolean) Coinbase or not
+  "coinbase" : true|false   (`Boolean`) Coinbase or not
 }
 ```
 
@@ -466,16 +471,16 @@ Result: (for verbose = true):
 
 #### Arguments
 
-1. "txids"       (string) A json array of txids to filter
+1. "txids"       (`String`) A json array of txids to filter
     [
-      "txid"     (string) A transaction hash
+      "txid"     (`String`) A transaction hash
       ,...
     ]
-2. "blockhash"   (string, optional) If specified, looks for txid in the block with this hash
+2. "blockhash"   (`String`, optional) If specified, looks for txid in the block with this hash
 
 #### Result
 
-"data"           (string) A string that is a serialized, hex-encoded data for the proof.
+"data"           (`String`) A string that is a serialized, hex-encoded data for the proof.
 
 ### gettxoutsetinfo
 
@@ -490,14 +495,14 @@ Result: (for verbose = true):
 
 ```js
 {
-  "height":n,     (numeric) The current block height (index)
-  "bestblock": "hex",   (string) the best block hash hex
-  "transactions": n,      (numeric) The number of transactions
-  "txouts": n,            (numeric) The number of output transactions
-  "bogosize": n,          (numeric) A database-independent metric for UTXO set size
-  "hash_serialized": "hash",   (string) The serialized hash
-  "disk_size": n,         (numeric) The estimated size of the chainstate on disk
-  "total_amount": x.xxx          (numeric) The total amount
+  "height":n,     (`Numeric`) The current block height (index)
+  "bestblock": "hex",   (`String`) the best block hash hex
+  "transactions": n,      (`Numeric`) The number of transactions
+  "txouts": n,            (`Numeric`) The number of output transactions
+  "bogosize": n,          (`Numeric`) A database-independent metric for UTXO set size
+  "hash_serialized": "hash",   (`String`) The serialized hash
+  "disk_size": n,         (`Numeric`) The estimated size of the chainstate on disk
+  "total_amount": x.xxx          (`Numeric`) The total amount
 }
 ```
 
@@ -509,7 +514,7 @@ Result: (for verbose = true):
 
 #### Arguments
 
-1. "blockhash"   (string, required) the hash of the block to mark as precious
+1. "blockhash"   (`String`, required): the hash of the block to mark as precious
 
 #### Result
 
@@ -523,11 +528,11 @@ Result: (for verbose = true):
 
 #### Arguments
 
-1. "height"       (numeric, required) The block height to prune up to. May be set to a discrete height, or a unix timestamp
+1. "height"       (`Numeric`, required) The block height to prune up to. May be set to a discrete height, or a unix timestamp
                   to prune blocks whose block time is at least 2 hours older than the provided timestamp.
 #### Result
 
-n    (numeric) Height of the last block pruned.
+n    (`Numeric`) Height of the last block pruned.
 
 ### verifychain
 
@@ -541,7 +546,7 @@ n    (numeric) Height of the last block pruned.
 
 #### Result
 
-true|false       (boolean) Verified or not
+true|false       (`Boolean`) Verified or not
 
 ### verifytxoutproof "proof"
 
@@ -560,22 +565,22 @@ true|false       (boolean) Verified or not
 
 ```js
 {
-  "version": xxxxx,           (numeric) the server version
-  "protocolversion": xxxxx,   (numeric) the protocol version
-  "walletversion": xxxxx,     (numeric) the wallet version
-  "balance": xxxxxxx,         (numeric) the total bitcoin balance of the wallet
-  "blocks": xxxxxx,           (numeric) the current number of blocks processed in the server
-  "timeoffset": xxxxx,        (numeric) the time offset
-  "connections": xxxxx,       (numeric) the number of connections
-  "proxy": "host:port",     (string, optional) the proxy used by the server
-  "difficulty": xxxxxx,       (numeric) the current difficulty
-  "testnet": true|false,      (boolean) if the server is using testnet or not
-  "keypoololdest": xxxxxx,    (numeric) the timestamp (seconds since Unix epoch) of the oldest pre-generated key in the key pool
-  "keypoolsize": xxxx,        (numeric) how many new keys are pre-generated
-  "unlocked_until": ttt,      (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked
-  "paytxfee": x.xxxx,         (numeric) the transaction fee set in BCH/kB
-  "relayfee": x.xxxx,         (numeric) minimum relay fee for non-free transactions in BCH/kB
-  "errors": "..."           (string) any error messages
+  "version": xxxxx,           (`Numeric`) the server version
+  "protocolversion": xxxxx,   (`Numeric`) the protocol version
+  "walletversion": xxxxx,     (`Numeric`) the wallet version
+  "balance": xxxxxxx,         (`Numeric`) the total bitcoin balance of the wallet
+  "blocks": xxxxxx,           (`Numeric`) the current number of blocks processed in the server
+  "timeoffset": xxxxx,        (`Numeric`) the time offset
+  "connections": xxxxx,       (`Numeric`) the number of connections
+  "proxy": "host:port",     (`String`, optional) the proxy used by the server
+  "difficulty": xxxxxx,       (`Numeric`) the current difficulty
+  "testnet": true|false,      (`Boolean`) if the server is using testnet or not
+  "keypoololdest": xxxxxx,    (`Numeric`) the timestamp (seconds since Unix epoch) of the oldest pre-generated key in the key pool
+  "keypoolsize": xxxx,        (`Numeric`) how many new keys are pre-generated
+  "unlocked_until": ttt,      (`Numeric`) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked
+  "paytxfee": x.xxxx,         (`Numeric`) the transaction fee set in BCH/kB
+  "relayfee": x.xxxx,         (`Numeric`) minimum relay fee for non-free transactions in BCH/kB
+  "errors": "..."           (`String`) any error messages
 }
 ```
 
@@ -593,13 +598,13 @@ true|false       (boolean) Verified or not
 
 ```js
 {
-  "locked": {               (json object) Information about locked memory manager
-    "used": xxxxx,          (numeric) Number of bytes used
-    "free": xxxxx,          (numeric) Number of bytes available in current arenas
-    "total": xxxxxxx,       (numeric) Total number of bytes managed
-    "locked": xxxxxx,       (numeric) Amount of bytes that succeeded locking. If this number is smaller than total, locking pages failed at some point and key data could be swapped to disk.
-    "chunks_used": xxxxx,   (numeric) Number allocated chunks
-    "chunks_free": xxxxx,   (numeric) Number unused chunks
+  "locked": {               (json `Object`) Information about locked memory manager
+    "used": xxxxx,          (`Numeric`) Number of bytes used
+    "free": xxxxx,          (`Numeric`) Number of bytes available in current arenas
+    "total": xxxxxxx,       (`Numeric`) Total number of bytes managed
+    "locked": xxxxxx,       (`Numeric`) Amount of bytes that succeeded locking. If this number is smaller than total, locking pages failed at some point and key data could be swapped to disk.
+    "chunks_used": xxxxx,   (`Numeric`) Number allocated chunks
+    "chunks_free": xxxxx,   (`Numeric`) Number unused chunks
   }
 }
 ```
@@ -611,11 +616,11 @@ true|false       (boolean) Verified or not
 `POST`
 #### Arguments
 
-1. "command"     (string, optional) The command to get help on
+1. "command"     (`String`, optional) The command to get help on
 
 #### Result
 
-"text"     (string) The help text
+"text"     (`String`) The help text
 
 ### stop
 
@@ -642,7 +647,7 @@ true|false       (boolean) Verified or not
 
 #### Result
 
-ttt        (numeric) The number of seconds that the server has been running
+ttt        (`Numeric`) The number of seconds that the server has been running
 
 ## Generating
 
@@ -653,8 +658,8 @@ ttt        (numeric) The number of seconds that the server has been running
 `POST`
 #### Arguments
 
-1. nblocks      (numeric, required) How many blocks are generated immediately.
-2. address      (string, required) The address to send the newly generated bitcoin to.
+1. nblocks      (`Numeric`, required) How many blocks are generated immediately.
+2. address      (`String`, required): The address to send the newly generated bitcoin to.
 3. maxtries     (numeric, optional) How many iterations to try (default = 1000000).
 4.
 #### Result
@@ -673,13 +678,13 @@ ttt        (numeric) The number of seconds that the server has been running
 1. template_request         (json object, optional) A json object in the following spec
 ```js
      {
-       "mode":"template"    (string, optional) This must be set to "template", "proposal" (see BIP 23), or omitted
+       "mode":"template"    (`String`, optional) This must be set to "template", "proposal" (see BIP 23), or omitted
        "capabilities":[     (array, optional) A list of strings
-           "support"          (string) client side supported feature, 'longpoll', 'coinbasetxn', 'coinbasevalue', 'proposal', 'serverlist', 'workid'
+           "support"          (`String`) client side supported feature, 'longpoll', 'coinbasetxn', 'coinbasevalue', 'proposal', 'serverlist', 'workid'
            ,...
        ],
        "rules":[            (array, optional) A list of strings
-           "support"          (string) client side supported softfork deployment
+           "support"          (`String`) client side supported softfork deployment
            ,...
        ]
      }
@@ -689,46 +694,46 @@ ttt        (numeric) The number of seconds that the server has been running
 
 ```js
 {
-  "version" : n,                    (numeric) The preferred block version
+  "version" : n,                    (`Numeric`) The preferred block version
   "rules" : [ "rulename", ... ],    (array of strings) specific block rules that are to be enforced
-  "vbavailable" : {                 (json object) set of pending, supported versionbit (BIP 9) softfork deployments
-      "rulename" : bitnumber          (numeric) identifies the bit number as indicating acceptance and readiness for the named softfork rule
+  "vbavailable" : {                 (json `Object`) set of pending, supported versionbit (BIP 9) softfork deployments
+      "rulename" : bitnumber          (`Numeric`) identifies the bit number as indicating acceptance and readiness for the named softfork rule
       ,...
   },
-  "vbrequired" : n,                 (numeric) bit mask of versionbits the server requires set in submissions
-  "previousblockhash" : "xxxx",     (string) The hash of current highest block
+  "vbrequired" : n,                 (`Numeric`) bit mask of versionbits the server requires set in submissions
+  "previousblockhash" : "xxxx",     (`String`) The hash of current highest block
   "transactions" : [                (array) contents of non-coinbase transactions that should be included in the next block
       {
-         "data" : "xxxx",             (string) transaction data encoded in hexadecimal (byte-for-byte)
-         "txid" : "xxxx",             (string) transaction id encoded in little-endian hexadecimal
-         "hash" : "xxxx",             (string) hash encoded in little-endian hexadecimal (including witness data)
+         "data" : "xxxx",             (`String`) transaction data encoded in hexadecimal (byte-for-byte)
+         "txid" : "xxxx",             (`String`) transaction id encoded in little-endian hexadecimal
+         "hash" : "xxxx",             (`String`) hash encoded in little-endian hexadecimal (including witness data)
          "depends" : [                (array) array of numbers
-             n                          (numeric) transactions before this one (by 1-based index in 'transactions' list) that must be present in the final block if this one is
+             n                          (`Numeric`) transactions before this one (by 1-based index in 'transactions' list) that must be present in the final block if this one is
              ,...
          ],
-         "fee": n,                    (numeric) difference in value between transaction inputs and outputs (in Satoshis); for coinbase transactions, this is a negative Number of the total collected block fees (ie, not including the block subsidy); if key is not present, fee is unknown and clients MUST NOT assume there isn't one
-         "sigops" : n,                (numeric) total SigOps cost, as counted for purposes of block limits; if key is not present, sigop cost is unknown and clients MUST NOT assume it is zero
-         "required" : true|false      (boolean) if provided and true, this transaction must be in the final block
+         "fee": n,                    (`Numeric`) difference in value between transaction inputs and outputs (in Satoshis); for coinbase transactions, this is a negative Number of the total collected block fees (ie, not including the block subsidy); if key is not present, fee is unknown and clients MUST NOT assume there isn't one
+         "sigops" : n,                (`Numeric`) total SigOps cost, as counted for purposes of block limits; if key is not present, sigop cost is unknown and clients MUST NOT assume it is zero
+         "required" : true|false      (`Boolean`) if provided and true, this transaction must be in the final block
       }
       ,...
   ],
-  "coinbaseaux" : {                 (json object) data that should be included in the coinbase's scriptSig content
-      "flags" : "xx"                  (string) key name is to be ignored, and value included in scriptSig
+  "coinbaseaux" : {                 (json `Object`) data that should be included in the coinbase's scriptSig content
+      "flags" : "xx"                  (`String`) key name is to be ignored, and value included in scriptSig
   },
-  "coinbasevalue" : n,              (numeric) maximum allowable input to coinbase transaction, including the generation award and transaction fees (in Satoshis)
-  "coinbasetxn" : { ... },          (json object) information for coinbase transaction
-  "target" : "xxxx",                (string) The hash target
-  "mintime" : xxx,                  (numeric) The minimum timestamp appropriate for next block time in seconds since epoch (Jan 1 1970 GMT)
+  "coinbasevalue" : n,              (`Numeric`) maximum allowable input to coinbase transaction, including the generation award and transaction fees (in Satoshis)
+  "coinbasetxn" : { ... },          (json `Object`) information for coinbase transaction
+  "target" : "xxxx",                (`String`) The hash target
+  "mintime" : xxx,                  (`Numeric`) The minimum timestamp appropriate for next block time in seconds since epoch (Jan 1 1970 GMT)
   "mutable" : [                     (array of string) list of ways the block template may be changed
-     "value"                          (string) A way the block template may be changed, e.g. 'time', 'transactions', 'prevblock'
+     "value"                          (`String`) A way the block template may be changed, e.g. 'time', 'transactions', 'prevblock'
      ,...
   ],
-  "noncerange" : "00000000ffffffff",(string) A range of valid nonces
-  "sigoplimit" : n,                 (numeric) limit of sigops in blocks
-  "sizelimit" : n,                  (numeric) limit of block size
-  "curtime" : ttt,                  (numeric) current timestamp in seconds since epoch (Jan 1 1970 GMT)
-  "bits" : "xxxxxxxx",              (string) compressed target of next block
-  "height" : n                      (numeric) The height of the next block
+  "noncerange" : "00000000ffffffff",(`String`) A range of valid nonces
+  "sigoplimit" : n,                 (`Numeric`) limit of sigops in blocks
+  "sizelimit" : n,                  (`Numeric`) limit of block size
+  "curtime" : ttt,                  (`Numeric`) current timestamp in seconds since epoch (Jan 1 1970 GMT)
+  "bits" : "xxxxxxxx",              (`String`) compressed target of next block
+  "height" : n                      (`Numeric`) The height of the next block
 }
 ```
 
@@ -746,14 +751,14 @@ ttt        (numeric) The number of seconds that the server has been running
 
 ```js
 {
-  "blocks": nnn,             (numeric) The current block
-  "currentblocksize": nnn,   (numeric) The last block size
-  "currentblocktx": nnn,     (numeric) The last block transaction
-  "difficulty": xxx.xxxxx    (numeric) The current difficulty
-  "errors": "..."            (string) Current errors
-  "networkhashps": nnn,      (numeric) The network hashes per second
-  "pooledtx": n              (numeric) The size of the mempool
-  "chain": "xxxx",           (string) current network name as defined in BIP70 (main, test, regtest)
+  "blocks": nnn,             (`Numeric`) The current block
+  "currentblocksize": nnn,   (`Numeric`) The last block size
+  "currentblocktx": nnn,     (`Numeric`) The last block transaction
+  "difficulty": xxx.xxxxx    (`Numeric`) The current difficulty
+  "errors": "..."            (`String`) Current errors
+  "networkhashps": nnn,      (`Numeric`) The network hashes per second
+  "pooledtx": n              (`Numeric`) The size of the mempool
+  "chain": "xxxx",           (`String`) current network name as defined in BIP70 (main, test, regtest)
 }
 ```
 
@@ -770,7 +775,7 @@ ttt        (numeric) The number of seconds that the server has been running
 
 #### Result
 
-x             (numeric) Hashes per second estimated
+x             (`Numeric`) Hashes per second estimated
 
 ### prioritisetransaction
 
@@ -780,17 +785,17 @@ x             (numeric) Hashes per second estimated
 
 #### Arguments
 
-1. "txid"       (string, required) The transaction id.
-2. priority_delta (numeric, required) The priority to add or subtract.
+1. "txid"       (`String`, required): The transaction id.
+2. priority_delta (`Numeric`, required) The priority to add or subtract.
                   The transaction selection algorithm considers the tx as it would have a higher priority.
                   (priority of a transaction is calculated: coinage * value_in_satoshis / txsize)
-3. fee_delta      (numeric, required) The fee value (in satoshis) to add (or subtract, if negative).
+3. fee_delta      (`Numeric`, required) The fee value (in satoshis) to add (or subtract, if negative).
                   The fee is not actually paid, only the algorithm for selecting transactions into a block
                   considers the transaction as it would have paid a higher (or lower) fee.
 
 #### Result
 
-true              (boolean) Returns true
+true              (`Boolean`) Returns true
 
 ### submitblock
 
@@ -800,10 +805,10 @@ true              (boolean) Returns true
 
 #### Arguments
 
-1. "hexdata"        (string, required) the hex-encoded block data to submit
-2. "parameters"     (string, optional) object of optional parameters
+1. "hexdata"        (`String`, required): the hex-encoded block data to submit
+2. "parameters"     (`String`, optional) object of optional parameters
     {
-      "workid" : "id"    (string, optional) if the server provided a workid, it MUST be included with submissions
+      "workid" : "id"    (`String`, optional) if the server provided a workid, it MUST be included with submissions
     }
 
 #### Result
@@ -820,8 +825,8 @@ true              (boolean) Returns true
 
 #### Arguments
 
-1. "node"     (string, required) The node (see getpeerinfo for nodes)
-2. "command"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once
+1. "node"     (`String`, required): The node (see getpeerinfo for nodes)
+2. "command"  (`String`, required): 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once
 
 #### Result
 
@@ -859,19 +864,19 @@ true              (boolean) Returns true
 
 #### Arguments
 
-1. "node"   (string, optional) If provided, return information about this specific node, otherwise all nodes are returned.
+1. "node"   (`String`, optional) If provided, return information about this specific node, otherwise all nodes are returned.
 
 #### Result
 
 ```js
 [
   {
-    "addednode" : "192.168.0.201",   (string) The node ip address or name (as provided to addnode)
-    "connected" : true|false,          (boolean) If connected
+    "addednode" : "192.168.0.201",   (`String`) The node ip address or name (as provided to addnode)
+    "connected" : true|false,          (`Boolean`) If connected
     "addresses" : [                    (list of objects) Only when connected = true
        {
-         "address" : "192.168.0.201:8333",  (string) The bitcoin server IP and port were connected to
-         "connected" : "outbound"           (string) connection, inbound or outbound
+         "address" : "192.168.0.201:8333",  (`String`) The bitcoin server IP and port were connected to
+         "connected" : "outbound"           (`String`) connection, inbound or outbound
        }
      ]
   }
@@ -891,7 +896,7 @@ true              (boolean) Returns true
 
 #### Result
 
-n          (numeric) The connection count
+n          (`Numeric`) The connection count
 
 ### getexcessiveblock
 
@@ -905,7 +910,7 @@ n          (numeric) The connection count
 
 #### Result
 
-* excessiveBlockSize (integer) block size in bytes
+* excessiveBlockSize (`Integer`) block size in bytes
 
 ### getnettotals
 
@@ -921,17 +926,17 @@ n          (numeric) The connection count
 
 ```js
 {
-  "totalbytesrecv": n,   (numeric) Total bytes received
-  "totalbytessent": n,   (numeric) Total bytes sent
-  "timemillis": t,       (numeric) Current UNIX time in milliseconds
+  "totalbytesrecv": n,   (`Numeric`) Total bytes received
+  "totalbytessent": n,   (`Numeric`) Total bytes sent
+  "timemillis": t,       (`Numeric`) Current UNIX time in milliseconds
   "uploadtarget":
   {
-    "timeframe": n,                         (numeric) Length of the measuring timeframe in seconds
-    "target": n,                            (numeric) Target in bytes
-    "target_reached": true|false,           (boolean) True if target is reached
-    "serve_historical_blocks": true|false,  (boolean) True if serving historical blocks
-    "bytes_left_in_cycle": t,               (numeric) Bytes left in current time cycle
-    "time_left_in_cycle": t                 (numeric) Seconds left in current time cycle
+    "timeframe": n,                         (`Numeric`) Length of the measuring timeframe in seconds
+    "target": n,                            (`Numeric`) Target in bytes
+    "target_reached": true|false,           (`Boolean`) True if target is reached
+    "serve_historical_blocks": true|false,  (`Boolean`) True if serving historical blocks
+    "bytes_left_in_cycle": t,               (`Numeric`) Bytes left in current time cycle
+    "time_left_in_cycle": t                 (`Numeric`) Seconds left in current time cycle
   }
 }
 ```
@@ -950,36 +955,36 @@ n          (numeric) The connection count
 
 ```js
 {
-  "version": xxxxx,                      (numeric) the server version
-  "subversion": "/Satoshi:x.x.x/",     (string) the server subversion string
-  "protocolversion": xxxxx,              (numeric) the protocol version
-  "localservices": "xxxxxxxxxxxxxxxx", (string) the services we offer to the network
+  "version": xxxxx,                      (`Numeric`) the server version
+  "subversion": "/Satoshi:x.x.x/",     (`String`) the server subversion string
+  "protocolversion": xxxxx,              (`Numeric`) the protocol version
+  "localservices": "xxxxxxxxxxxxxxxx", (`String`) the services we offer to the network
   "localrelay": true|false,              (bool) true if transaction relay is requested from peers
-  "timeoffset": xxxxx,                   (numeric) the time offset
-  "connections": xxxxx,                  (numeric) the number of connections
+  "timeoffset": xxxxx,                   (`Numeric`) the time offset
+  "connections": xxxxx,                  (`Numeric`) the number of connections
   "networkactive": true|false,           (bool) whether p2p networking is enabled
   "networks": [                          (array) information per network
   {
-    "name": "xxx",                     (string) network (ipv4, ipv6 or onion)
-    "limited": true|false,               (boolean) is the network limited using -onlynet?
-    "reachable": true|false,             (boolean) is the network reachable?
-    "proxy": "host:port"               (string) the proxy that is used for this network, or empty if none
-    "proxy_randomize_credentials": true|false,  (string) Whether randomized credentials are used
+    "name": "xxx",                     (`String`) network (ipv4, ipv6 or onion)
+    "limited": true|false,               (`Boolean`) is the network limited using -onlynet?
+    "reachable": true|false,             (`Boolean`) is the network reachable?
+    "proxy": "host:port"               (`String`) the proxy that is used for this network, or empty if none
+    "proxy_randomize_credentials": true|false,  (`String`) Whether randomized credentials are used
   }
   ,...
   ],
-  "relayfee": x.xxxxxxxx,                (numeric) minimum relay fee for non-free transactions in BCH/kB
-  "excessutxocharge": x.xxxxxxxx,        (numeric) minimum charge for excess utxos in BCH
-  "incrementalfee": x.xxxxxxxx,          (numeric) minimum fee increment for mempool limiting or BIP 125 replacement in BCH/kB
+  "relayfee": x.xxxxxxxx,                (`Numeric`) minimum relay fee for non-free transactions in BCH/kB
+  "excessutxocharge": x.xxxxxxxx,        (`Numeric`) minimum charge for excess utxos in BCH
+  "incrementalfee": x.xxxxxxxx,          (`Numeric`) minimum fee increment for mempool limiting or BIP 125 replacement in BCH/kB
   "localaddresses": [                    (array) list of local addresses
   {
-    "address": "xxxx",                 (string) network address
-    "port": xxx,                         (numeric) network port
-    "score": xxx                         (numeric) relative score
+    "address": "xxxx",                 (`String`) network address
+    "port": xxx,                         (`Numeric`) network port
+    "score": xxx                         (`Numeric`) relative score
   }
   ,...
   ]
-  "warnings": "..."                    (string) any network warnings
+  "warnings": "..."                    (`String`) any network warnings
 }
 ```
 
@@ -998,39 +1003,39 @@ n          (numeric) The connection count
 ```js
 [
   {
-    "id": n,                   (numeric) Peer index
-    "addr":"host:port",      (string) The ip address and port of the peer
-    "addrlocal":"ip:port",   (string) local address
-    "services":"xxxxxxxxxxxxxxxx",   (string) The services offered
-    "relaytxes":true|false,    (boolean) Whether peer has asked us to relay transactions to it
-    "lastsend": ttt,           (numeric) The time in seconds since epoch (Jan 1 1970 GMT) of the last send
-    "lastrecv": ttt,           (numeric) The time in seconds since epoch (Jan 1 1970 GMT) of the last receive
-    "bytessent": n,            (numeric) The total bytes sent
-    "bytesrecv": n,            (numeric) The total bytes received
-    "conntime": ttt,           (numeric) The connection time in seconds since epoch (Jan 1 1970 GMT)
-    "timeoffset": ttt,         (numeric) The time offset in seconds
-    "pingtime": n,             (numeric) ping time (if available)
-    "minping": n,              (numeric) minimum observed ping time (if any at all)
-    "pingwait": n,             (numeric) ping wait (if non-zero)
-    "version": v,              (numeric) The peer version, such as 7001
-    "subver": "/Satoshi:0.8.5/",  (string) The string version
-    "inbound": true|false,     (boolean) Inbound (true) or Outbound (false)
-    "addnode": true|false,     (boolean) Whether connection was due to addnode and is using an addnode slot
-    "startingheight": n,       (numeric) The starting height (block) of the peer
-    "banscore": n,             (numeric) The ban score
-    "synced_headers": n,       (numeric) The last header we have in common with this peer
-    "synced_blocks": n,        (numeric) The last block we have in common with this peer
+    "id": n,                   (`Numeric`) Peer index
+    "addr":"host:port",      (`String`) The ip address and port of the peer
+    "addrlocal":"ip:port",   (`String`) local address
+    "services":"xxxxxxxxxxxxxxxx",   (`String`) The services offered
+    "relaytxes":true|false,    (`Boolean`) Whether peer has asked us to relay transactions to it
+    "lastsend": ttt,           (`Numeric`) The time in seconds since epoch (Jan 1 1970 GMT) of the last send
+    "lastrecv": ttt,           (`Numeric`) The time in seconds since epoch (Jan 1 1970 GMT) of the last receive
+    "bytessent": n,            (`Numeric`) The total bytes sent
+    "bytesrecv": n,            (`Numeric`) The total bytes received
+    "conntime": ttt,           (`Numeric`) The connection time in seconds since epoch (Jan 1 1970 GMT)
+    "timeoffset": ttt,         (`Numeric`) The time offset in seconds
+    "pingtime": n,             (`Numeric`) ping time (if available)
+    "minping": n,              (`Numeric`) minimum observed ping time (if any at all)
+    "pingwait": n,             (`Numeric`) ping wait (if non-zero)
+    "version": v,              (`Numeric`) The peer version, such as 7001
+    "subver": "/Satoshi:0.8.5/",  (`String`) The string version
+    "inbound": true|false,     (`Boolean`) Inbound (true) or Outbound (false)
+    "addnode": true|false,     (`Boolean`) Whether connection was due to addnode and is using an addnode slot
+    "startingheight": n,       (`Numeric`) The starting height (block) of the peer
+    "banscore": n,             (`Numeric`) The ban score
+    "synced_headers": n,       (`Numeric`) The last header we have in common with this peer
+    "synced_blocks": n,        (`Numeric`) The last block we have in common with this peer
     "inflight": [
-       n,                        (numeric) The heights of blocks were currently asking from this peer
+       n,                        (`Numeric`) The heights of blocks were currently asking from this peer
        ...
     ],
-    "whitelisted": true|false, (boolean) Whether the peer is whitelisted
+    "whitelisted": true|false, (`Boolean`) Whether the peer is whitelisted
     "bytessent_per_msg": {
-       "addr": n,              (numeric) The total bytes sent aggregated by message type
+       "addr": n,              (`Numeric`) The total bytes sent aggregated by message type
        ...
     },
     "bytesrecv_per_msg": {
-       "addr": n,              (numeric) The total bytes received aggregated by message type
+       "addr": n,              (`Numeric`) The total bytes received aggregated by message type
        ...
     }
   }
@@ -1074,10 +1079,10 @@ n          (numeric) The connection count
 
 #### Arguments
 
-1. "subnet"       (string, required) The IP/Subnet (see getpeerinfo for nodes ip) with a optional netmask (default is /32 = single ip)
-2. "command"      (string, required) 'add' to add a IP/Subnet to the list, 'remove' to remove a IP/Subnet from the list
-3. "bantime"      (numeric, optional) time in seconds how long (or until when if [absolute] is set) the ip is banned (0 or empty means using the default time of 24h which can also be overwritten by the -bantime startup argument)
-4. "absolute"     (boolean, optional) If set, the bantime must be a absolute timestamp in seconds since epoch (Jan 1 1970 GMT)
+1. subnet (`String`, required): The IP/Subnet (see getpeerinfo for nodes ip) with a optional netmask (default is /32 = single ip)
+2. command (`String`, required): 'add' to add a IP/Subnet to the list, 'remove' to remove a IP/Subnet from the list
+3. bantime (numeric, optional) time in seconds how long (or until when if [absolute] is set) the ip is banned (0 or empty means using the default time of 24h which can also be overwritten by the -bantime startup argument)
+4. absolute (boolean, optional) If set, the bantime must be a absolute timestamp in seconds since epoch (Jan 1 1970 GMT)
 
 #### Result
 
@@ -1095,7 +1100,7 @@ n          (numeric) The connection count
 
 #### Result
 
-* blockSize (integer) excessive block size in bytes
+* blockSize (`Integer`) excessive block size in bytes
 
 ### setnetworkactive
 
@@ -1105,7 +1110,7 @@ n          (numeric) The connection count
 
 #### Arguments
 
-1. "state"        (boolean, required) true to enable networking, false to disable
+1. state (`Boolean`, required) true to enable networking, false to disable
 
 #### Result
 
@@ -1118,28 +1123,29 @@ n          (numeric) The connection count
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
-1. "inputs"                (array, required) A json array of json objects
+1. inputs (`Array`, required) A json array of json objects
      [
        {
-         "txid":"id",    (string, required) The transaction id
-         "vout":n,         (numeric, required) The output number
+         "txid":"id",    (`String`, required): The transaction id
+         "vout":n,         (`Numeric`, required) The output number
          "sequence":n      (numeric, optional) The sequence number
        }
        ,...
      ]
-2. "outputs"               (object, required) a json object with outputs
+2. outputs  (`Object`, required) a json object with outputs
     {
-      "address": x.xxx,    (numeric or string, required) The key is the bitcoin address, the numeric value (can be string) is the BCH amount
-      "data": "hex"      (string, required) The key is "data", the value is hex encoded data
+      "address": x.xxx,    (`Numeric` or `String`, required) The key is the bitcoin address, the numeric value (can be string) is the BCH amount
+      "data": "hex"      (`String`, required): The key is "data", the value is hex encoded data
       ,...
     }
-3. locktime                  (numeric, optional, default=0) Raw locktime. Non-0 value also locktime-activates inputs
+3. locktime (`Numeric`, optional, default=`0`) Raw locktime. Non-0 value also locktime-activates inputs
 
 #### Result
 
-"transaction"              (string) hex string of the transaction
+transaction (`String`) hex string of the transaction
 
 ### decoderawtransaction
 
@@ -1149,40 +1155,40 @@ n          (numeric) The connection count
 
 #### Arguments
 
-1. "hexstring"      (string, required) The transaction hex string
+1. hexstring (`String`, required): The transaction hex string
 
 #### Result
 
 ```js
 {
-  "txid" : "id",        (string) The transaction id
-  "hash" : "id",        (string) The transaction hash (differs from txid for witness transactions)
-  "size" : n,             (numeric) The transaction size
-  "version" : n,          (numeric) The version
-  "locktime" : ttt,       (numeric) The lock time
-  "vin" : [               (array of json objects)
+  "txid" : "id",        (`String`) The transaction id
+  "hash" : "id",        (`String`) The transaction hash (differs from txid for witness transactions)
+  "size" : n,             (`Numeric`) The transaction size
+  "version" : n,          (`Numeric`) The version
+  "locktime" : ttt,       (`Numeric`) The lock time
+  "vin" : [               (`Array` of json objects)
      {
-       "txid": "id",    (string) The transaction id
-       "vout": n,         (numeric) The output number
-       "scriptSig": {     (json object) The script
-         "asm": "asm",  (string) asm
-         "hex": "hex"   (string) hex
+       "txid": "id",    (`String`) The transaction id
+       "vout": n,         (`Numeric`) The output number
+       "scriptSig": {     (json `Object`) The script
+         "asm": "asm",  (`String`) asm
+         "hex": "hex"   (`String`) hex
        },
-       "sequence": n     (numeric) The script sequence number
+       "sequence": n     (`Numeric`) The script sequence number
      }
      ,...
   ],
-  "vout" : [             (array of json objects)
+  "vout" : [             (`Array` of json objects)
      {
-       "value" : x.xxx,            (numeric) The value in BCH
-       "n" : n,                    (numeric) index
-       "scriptPubKey" : {          (json object)
-         "asm" : "asm",          (string) the asm
-         "hex" : "hex",          (string) the hex
-         "reqSigs" : n,            (numeric) The required sigs
-         "type" : "pubkeyhash",  (string) The type, eg 'pubkeyhash'
-         "addresses" : [           (json array of string)
-           "12tvKAXCxZjSmdNbao16dKXC8tRWfcF5oc"   (string) bitcoin address
+       "value" : x.xxx,            (`Numeric`) The value in BCH
+       "n" : n,                    (`Numeric`) index
+       "scriptPubKey" : {          (json `Object`)
+         "asm" : "asm",          (`String`) the asm
+         "hex" : "hex",          (`String`) the hex
+         "reqSigs" : n,            (`Numeric`) The required sigs
+         "type" : "pubkeyhash",  (`String`) The type, eg 'pubkeyhash'
+         "addresses" : [           (json `Array` of `String`)
+           "12tvKAXCxZjSmdNbao16dKXC8tRWfcF5oc"   (`String`) bitcoin address
            ,...
          ]
        }
@@ -1200,21 +1206,21 @@ n          (numeric) The connection count
 
 #### Arguments
 
-1. "hexstring"     (string) the hex encoded script
+1. hexstring (`String`) the hex encoded script
 
 #### Result
 
 ```js
 {
-  "asm":"asm",   (string) Script public key
-  "hex":"hex",   (string) hex encoded public key
-  "type":"type", (string) The output type
-  "reqSigs": n,    (numeric) The required signatures
-  "addresses": [   (json array of string)
-     "address"     (string) bitcoin address
+  "asm":"asm",   (`String`) Script public key
+  "hex":"hex",   (`String`) hex encoded public key
+  "type":"type", (`String`) The output type
+  "reqSigs": n,    (`Numeric`) The required signatures
+  "addresses": [   (json `Array` of `String`)
+     "address"     (`String`) bitcoin address
      ,...
   ],
-  "p2sh","address" (string) address of P2SH script wrapping this redeem script (not returned if the script is already a P2SH).
+  "p2sh","address" (`String`) address of P2SH script wrapping this redeem script (not returned if the script is already a P2SH).
 }
 ```
 
@@ -1226,57 +1232,57 @@ n          (numeric) The connection count
 
 #### Arguments
 
-1. "txid"      (string, required) The transaction id
-2. verbose       (bool, optional, default=false) If false, return a string, otherwise return a json object
+1. txid (`String`, required): The transaction id
+2. verbose (`Boolean`, optional, default=`false`) If false, return a string, otherwise return a json object
 
 #### Result
 
 Result (if verbose is not set or set to false):
 
-"data"      (string) The serialized, hex-encoded data for 'txid'
+data (`String`) The serialized, hex-encoded data for 'txid'
 
 Result (if verbose is set to true):
 ```js
 {
-  "hex" : "data",       (string) The serialized, hex-encoded data for 'txid'
-  "txid" : "id",        (string) The transaction id (same as provided)
-  "hash" : "id",        (string) The transaction hash (differs from txid for witness transactions)
-  "size" : n,             (numeric) The serialized transaction size
-  "version" : n,          (numeric) The version
-  "locktime" : ttt,       (numeric) The lock time
-  "vin" : [               (array of json objects)
+  "hex" : "data",       (`String`) The serialized, hex-encoded data for 'txid'
+  "txid" : "id",        (`String`) The transaction id (same as provided)
+  "hash" : "id",        (`String`) The transaction hash (differs from txid for witness transactions)
+  "size" : n,             (`Numeric`) The serialized transaction size
+  "version" : n,          (`Numeric`) The version
+  "locktime" : ttt,       (`Numeric`) The lock time
+  "vin" : [               (`Array` of json objects)
      {
-       "txid": "id",    (string) The transaction id
-       "vout": n,         (numeric)
-       "scriptSig": {     (json object) The script
-         "asm": "asm",  (string) asm
-         "hex": "hex"   (string) hex
+       "txid": "id",    (`String`) The transaction id
+       "vout": n,         (`Numeric`)
+       "scriptSig": {     (json `Object`) The script
+         "asm": "asm",  (`String`) asm
+         "hex": "hex"   (`String`) hex
        },
-       "sequence": n      (numeric) The script sequence number
+       "sequence": n      (`Numeric`) The script sequence number
      }
      ,...
   ],
-  "vout" : [              (array of json objects)
+  "vout" : [              (`Array` of json objects)
      {
-       "value" : x.xxx,            (numeric) The value in BCH
-       "n" : n,                    (numeric) index
-       "scriptPubKey" : {          (json object)
-         "asm" : "asm",          (string) the asm
-         "hex" : "hex",          (string) the hex
-         "reqSigs" : n,            (numeric) The required sigs
-         "type" : "pubkeyhash",  (string) The type, eg 'pubkeyhash'
-         "addresses" : [           (json array of string)
-           "address"        (string) bitcoin address
+       "value" : x.xxx,            (`Numeric`) The value in BCH
+       "n" : n,                    (`Numeric`) index
+       "scriptPubKey" : {          (json `Object`)
+         "asm" : "asm",          (`String`) the asm
+         "hex" : "hex",          (`String`) the hex
+         "reqSigs" : n,            (`Numeric`) The required sigs
+         "type" : "pubkeyhash",  (`String`) The type, eg 'pubkeyhash'
+         "addresses" : [           (json `Array` of `String`)
+           "address"        (`String`) bitcoin address
            ,...
          ]
        }
      }
      ,...
   ],
-  "blockhash" : "hash",   (string) the block hash
-  "confirmations" : n,      (numeric) The confirmations
-  "time" : ttt,             (numeric) The transaction time in seconds since epoch (Jan 1 1970 GMT)
-  "blocktime" : ttt         (numeric) The block time in seconds since epoch (Jan 1 1970 GMT)
+  "blockhash" : "hash",   (`String`) the block hash
+  "confirmations" : n,      (`Numeric`) The confirmations
+  "time" : ttt,             (`Numeric`) The transaction time in seconds since epoch (Jan 1 1970 GMT)
+  "blocktime" : ttt         (`Numeric`) The block time in seconds since epoch (Jan 1 1970 GMT)
 }
 ```
 
@@ -1288,12 +1294,12 @@ Result (if verbose is set to true):
 
 #### Arguments
 
-1. "hexstring"    (string, required) The hex string of the raw transaction)
-2. allowhighfees    (boolean, optional, default=false) Allow high fees
+1. hexstring (`String`, required): The hex string of the raw transaction)
+2. allowhighfees (`Boolean`, optional, default=`false`) Allow high fees
 
 #### Result
 
-"hex"             (string) The transaction hash in hex
+hex (`String`) The transaction hash in hex
 
 ### signrawtransaction
 
@@ -1303,24 +1309,24 @@ Result (if verbose is set to true):
 
 #### Arguments
 
-1. "hexstring"     (string, required) The transaction hex string
-2. "prevtxs"       (string, optional) An json array of previous dependent transaction outputs
+1. hexstring (`String`, required): The transaction hex string
+2. prevtxs (`String`, optional) An json array of previous dependent transaction outputs
      [               (json array of json objects, or 'null' if none provided)
        {
-         "txid":"id",             (string, required) The transaction id
-         "vout":n,                  (numeric, required) The output number
-         "scriptPubKey": "hex",   (string, required) script key
+         "txid":"id",             (`String`, required): The transaction id
+         "vout":n,                  (`Numeric`, required) The output number
+         "scriptPubKey": "hex",   (`String`, required): script key
          "redeemScript": "hex",   (string, required for P2SH or P2WSH) redeem script
-         "amount": value            (numeric, required) The amount spent
+         "amount": value            (`Numeric`, required) The amount spent
        }
        ,...
     ]
-3. "privkeys"     (string, optional) A json array of base58-encoded private keys for signing
+3. privkeys (`String`, optional) A json array of base58-encoded private keys for signing
     [                  (json array of strings, or 'null' if none provided)
-      "privatekey"   (string) private key in base58-encoding
+      "privatekey"   (`String`) private key in base58-encoding
       ,...
     ]
-4. "sighashtype"     (string, optional, default=ALL) The signature hash type. Must be one of
+4. sighashtype (string, optional, default=ALL) The signature hash type. Must be one of
        "ALL"
        "NONE"
        "SINGLE"
@@ -1338,15 +1344,15 @@ Result (if verbose is set to true):
 
 ```js
 {
-  "hex" : "value",           (string) The hex-encoded raw transaction with signature(s)
-  "complete" : true|false,   (boolean) If the transaction has a complete set of signatures
+  "hex" : "value",           (`String`) The hex-encoded raw transaction with signature(s)
+  "complete" : true|false,   (`Boolean`) If the transaction has a complete set of signatures
   "errors" : [                 (json array of objects) Script verification errors (if there are any)
     {
-      "txid" : "hash",           (string) The hash of the referenced, previous transaction
-      "vout" : n,                (numeric) The index of the output to spent and used as input
-      "scriptSig" : "hex",       (string) The hex-encoded signature script
-      "sequence" : n,            (numeric) Script sequence number
-      "error" : "text"           (string) Verification or signing error related to the input
+      "txid" : "hash",           (`String`) The hash of the referenced, previous transaction
+      "vout" : n,                (`Numeric`) The index of the output to spent and used as input
+      "scriptSig" : "hex",       (`String`) The hex-encoded signature script
+      "sequence" : n,            (`Numeric`) Script sequence number
+      "error" : "text"           (`String`) Verification or signing error related to the input
     }
     ,...
   ]
@@ -1361,20 +1367,21 @@ Result (if verbose is set to true):
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
-1. nrequired      (numeric, required) The number of required signatures out of the n keys or addresses.
-2. "keys"       (string, required) A json array of keys which are bitcoin addresses or hex-encoded public keys
+1. nrequired (`Numeric`, required) The number of required signatures out of the n keys or addresses.
+2. "keys"       (`String`, required): A json array of keys which are bitcoin addresses or hex-encoded public keys
      [
-       "key"    (string) bitcoin address or hex-encoded public key
+       "key"    (`String`) bitcoin address or hex-encoded public key
        ,...
      ]
 #### Result
 
 ```js
 {
-  "address":"multisigaddress",  (string) The value of the new multisig address.
-  "redeemScript":"script"       (string) The string value of the hex-encoded redemption script.
+  "address":"multisigaddress",  (`String`) The value of the new multisig address.
+  "redeemScript":"script"       (`String`) The string value of the hex-encoded redemption script.
 }
 ```
 
@@ -1386,11 +1393,11 @@ Result (if verbose is set to true):
 
 #### Arguments
 
-1. nblocks     (numeric, required)
+1. nblocks (`Numeric`, required)
 
 #### Result
 
-n              (numeric) estimated fee-per-kilobyte
+n              (`Numeric`) estimated fee-per-kilobyte
 
 ### estimatepriority
 
@@ -1400,11 +1407,11 @@ n              (numeric) estimated fee-per-kilobyte
 
 #### Arguments
 
-1. nblocks     (numeric, required)
+1. nblocks (`Numeric`, required)
 
 #### Result
 
-n              (numeric) estimated priority
+n              (`Numeric`) estimated priority
 
 ### estimatesmartfee
 
@@ -1414,14 +1421,14 @@ n              (numeric) estimated priority
 
 #### Arguments
 
-1. nblocks     (numeric)
+1. nblocks (`Numeric`)
 
 #### Result
 
 ```js
 {
-  "feerate" : x.x,     (numeric) estimate fee-per-kilobyte (in BCH)
-  "blocks" : n         (numeric) block number where estimate was found
+  "feerate" : x.x,     (`Numeric`) estimate fee-per-kilobyte (in BCH)
+  "blocks" : n         (`Numeric`) block number where estimate was found
 }
 ```
 
@@ -1433,14 +1440,14 @@ n              (numeric) estimated priority
 
 #### Arguments
 
-1. nblocks     (numeric, required)
+1. nblocks (`Numeric`, required)
 
 #### Result
 
 ```js
 {
-  "priority" : x.x,    (numeric) estimated priority
-  "blocks" : n         (numeric) block number where estimate was found
+  "priority" : x.x,    (`Numeric`) estimated priority
+  "blocks" : n         (`Numeric`) block number where estimate was found
 }
 ```
 
@@ -1452,12 +1459,12 @@ n              (numeric) estimated priority
 
 #### Arguments
 
-1. "privkey"         (string, required) The private key to sign the message with.
-2. "message"         (string, required) The message to create a signature of.
+1. privkey (`String`, required): The private key to sign the message with.
+2. message (`String`, required): The message to create a signature of.
 
 #### Result
 
-"signature"          (string) The signature of the message encoded in base 64
+signature (`String`) The signature of the message encoded in base 64
 
 ### validateaddress
 
@@ -1467,24 +1474,24 @@ n              (numeric) estimated priority
 
 #### Arguments
 
-1. "address"     (string, required) The bitcoin address to validate
+1. address (`String`, required): The bitcoin address to validate
 
 #### Result
 
 ```js
 {
-  "isvalid" : true|false,       (boolean) If the address is valid or not. If not, this is the only property returned.
-  "address" : "address", (string) The bitcoin address validated
-  "scriptPubKey" : "hex",       (string) The hex encoded scriptPubKey generated by the address
-  "ismine" : true|false,        (boolean) If the address is yours or not
-  "iswatchonly" : true|false,   (boolean) If the address is watchonly
-  "isscript" : true|false,      (boolean) If the key is a script
-  "pubkey" : "publickeyhex",    (string) The hex value of the raw public key
-  "iscompressed" : true|false,  (boolean) If the address is compressed
-  "account" : "account"         (string) DEPRECATED. The account associated with the address, "" is the default account
-  "timestamp" : timestamp,        (number, optional) The creation time of the key if available in seconds since epoch (Jan 1 1970 GMT)
-  "hdkeypath" : "keypath"       (string, optional) The HD keypath if the key is HD and available
-  "hdmasterkeyid" : "<hash160>" (string, optional) The Hash160 of the HD master pubkey
+  "isvalid" : true|false,       (`Boolean`) If the address is valid or not. If not, this is the only property returned.
+  "address" : "address", (`String`) The bitcoin address validated
+  "scriptPubKey" : "hex",       (`String`) The hex encoded scriptPubKey generated by the address
+  "ismine" : true|false,        (`Boolean`) If the address is yours or not
+  "iswatchonly" : true|false,   (`Boolean`) If the address is watchonly
+  "isscript" : true|false,      (`Boolean`) If the key is a script
+  "pubkey" : "publickeyhex",    (`String`) The hex value of the raw public key
+  "iscompressed" : true|false,  (`Boolean`) If the address is compressed
+  "account" : "account"         (`String`) DEPRECATED. The account associated with the address, "" is the default account
+  "timestamp" : timestamp,        (`Number`, optional) The creation time of the key if available in seconds since epoch (Jan 1 1970 GMT)
+  "hdkeypath" : "keypath"       (`String`, optional) The HD keypath if the key is HD and available
+  "hdmasterkeyid" : "<hash160>" (`String`, optional) The Hash160 of the HD master pubkey
 }
 ```
 
@@ -1496,10 +1503,10 @@ n              (numeric) estimated priority
 
 #### Arguments
 
-1. "address"         (string, required) The bitcoin address to use for the signature.
-2. "signature"       (string, required) The signature provided by the signer in base 64 encoding (see signmessage).
-3. "message"         (string, required) The message that was signed.
+1. address (`String`, required): The bitcoin address to use for the signature.
+2. signature (`String`, required): The signature provided by the signer in base 64 encoding (see signmessage).
+3. message (`String`, required): The message that was signed.
 
 #### Result
 
-true|false   (boolean) If the signature is verified or not.
+`true`|`false` (`Boolean`) If the signature is verified or not.
