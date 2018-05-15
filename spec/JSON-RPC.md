@@ -1,9 +1,9 @@
 ---
 layout: specification
 title: BCH JSON RPC Specification
-date: 2018-04-09
+date: 2018-05-15
 activation: 1501590000
-version: 0.1
+version: 0.2
 ---
 
 ## Summary
@@ -24,7 +24,7 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 
 #### Result
 
-* "hex"      (string) the block hash hex encoded
+* hex (`String`): the block hash hex encoded
 
 ### getblock
 
@@ -34,9 +34,8 @@ Documenting the BCH JSON RPC HTTP verbs, methods and arguments
 
 #### Arguments
 
-1. "blockhash"          (string, required) The block hash
-2. verbose                (boolean, optional, default=true) true for a json object, false for the hex encoded data
-
+1. blockhash (`String`, required): The block hash
+2. verbose (`Boolean`, optional, default=true): `true` for a json object, `false` for the hex encoded data
 
 #### Result
 
