@@ -93,10 +93,10 @@ developers:
       summaries: "Summaries"
     wg-daa:
       title: "Dificulty Adjustment Algorithm"
-      description: "This meeting exists to discuss all topics regarding expanding the block size."
+      description: "Workgroup for researching and discussing the latest technology for difficulty adjustments and implmenting them on the Bitcoin Cash."
     wg-blocksize:
       title: "Block Size Increases"
-      description: "Workgroup for researching and discussing the latest technology for difficulty adjustments and implmenting them on the Bitcoin Cash."
+      description: "This meeting exists to discuss all topics regarding expanding the block size."
     wg-fungibility:
       title: "Fungibility"
       description: "Discussion workgroup for issues surrounding better privacy protections on Bitcoin Cash."
