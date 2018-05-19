@@ -37,10 +37,10 @@ graphics:
   full: "Full (PNG)"
   vector: "Vector (SVG)"
   sections:
+    donations: "Donations"
     home: "Home"
     logos: "Logos"
     merchant: "Merchant"
-    donations: "Donations"
     identity: "Identity"
   types:
     primary: "BCH Logo Primary"
@@ -89,52 +89,22 @@ developers:
     tools:
       title: "Tools"
       description: "Everything needed to make it happen"
+    workgroups:
+      title: "Work Groups"
+      description: "Community coordination"
     specs:
       title: "Specs"
       description: "Vocabulary and associated APIs for Bitcoin Cash"
-tech:
-  title: "Open Tech for Everyone"
-  description: "Money touches everyone on earth. Bitcoin Cash is the best money in history."
+workgroups:
+  title: "BITCOIN CASH WORKGROUPS"
+  description: "Technical community working collectively"
   sections:
+    developers: "Developers"
     home: "Home"
-    foundation: "Foundation"
-    emerging: "Emerging"
-  foundation:
-    title: "Foundation"
-    description: "The knowledge needed to start your journey"
-  emerging:
-    title: "Emerging"
-    description: "The ever changing and growing world of Bitcoin Cash"
-learn:
-  title: "Learn Bitcoin Cash development"
-  description: "Pick up new skills to create amazing things"
-  sections:
-    home: "Home"
-    tutorials: "Tutorials"
   tutorials:
     title: "tutorials"
     description: "Step by step guides to take you from basics to professional grade apps"
-tools:
-  title: "Tools"
-  description: "Want to change the world w/ Bitcoin Cash? Great, here are the tools you need to make it happen."
-  sections:
-    home: "Home"
-    javascript: "Javascript"
-  javascript:
-    title: "Javascript"
-specs:
-  title: "Bitcoin Cash Developer Portal"
-  description: "The following is a topical list of Bitcoin Cash Development Workgroups. Each group should be focused around a specific subject. They may exist for a limited time, or be of ongoing interest."
-  sections:
-    home: "Home"
-    workgroups: "Workgroups"
-    specifications: "Specifications"
-    ecosystem: "Ecosystem"
-  specifications:
-    title: "Bitcoin Cash Specifications"
-    description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
   workgroups:
-    title: "Bitcoin Cash Workgroups"
     description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
     sections:
       communication: "Communication"
@@ -180,9 +150,50 @@ specs:
     wg-watercooler:
       title: "Watercooler"
       description: "Discussion related to sidechains on Bitcoin Cash and in general."
+learn:
+  title: "Learn Bitcoin Cash development"
+  description: "Pick up new skills to create amazing things"
+  sections:
+    home: "Home"
+    tutorials: "Tutorials"
+  tutorials:
+    title: "tutorials"
+    description: "Step by step guides to take you from basics to professional grade apps"
+specs:
+  title: "Bitcoin Cash Developer Portal"
+  description: "The following is a topical list of Bitcoin Cash Development Workgroups. Each group should be focused around a specific subject. They may exist for a limited time, or be of ongoing interest."
+  sections:
+    home: "Home"
+    workgroups: "Workgroups"
+    specifications: "Specifications"
+    ecosystem: "Ecosystem"
+  specifications:
+    title: "Bitcoin Cash Specifications"
+    description: "The following is a list of upcoming and past Bitcoin Cash upgrades."
   ecosystem:
     title: "Bitcoin Cash Ecosystem"
     description: ""
+tech:
+  title: "Open Tech for Everyone"
+  description: "Money touches everyone on earth. Bitcoin Cash is the best money in history."
+  sections:
+    home: "Home"
+    foundation: "Foundation"
+    emerging: "Emerging"
+  foundation:
+    title: "Foundation"
+    description: "The knowledge needed to start your journey"
+  emerging:
+    title: "Emerging"
+    description: "The ever changing and growing world of Bitcoin Cash"
+tools:
+  title: "Tools"
+  description: "Want to change the world w/ Bitcoin Cash? Great, here are the tools you need to make it happen."
+  sections:
+    home: "Home"
+    javascript: "Javascript"
+  javascript:
+    title: "Javascript"
 misc:
   logo: "logo"
   dropdown_md_width: "3"
