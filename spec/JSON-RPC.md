@@ -641,6 +641,7 @@ true|false       (`Boolean`) Verified or not
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
 * none
@@ -651,20 +652,65 @@ ttt        (`Numeric`) The number of seconds that the server has been running
 
 ## Generating
 
+### generate
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. numblocks    (`Numeric`, required) How many blocks are generated immediately.
+2. maxtries     (`Numeric`, optional) How many iterations to try (default = 1000000).
+
+#### Result
+
+[ blockhashes ]     (array) hashes of blocks generated
+
 ### generatetoaddress
 
 #### HTTP Verb
 
 `POST`
+
 #### Arguments
 
 1. nblocks      (`Numeric`, required) How many blocks are generated immediately.
 2. address      (`String`, required): The address to send the newly generated bitcoin to.
 3. maxtries     (numeric, optional) How many iterations to try (default = 1000000).
-4.
+
 #### Result
 
-[ blockhashes ]     (array) hashes of blocks generated
+[ blockhashes ]     (`Array`) hashes of blocks generated
+
+### getgenerate
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+`true`|`false`      (`Boolean`) If the server is set to generate coins or not
+
+### setgenerate
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. generate         (`Boolean`, required) Set to true to turn on generation, off to turn off.
+2. genproclimit     (`Numeric`, optional) Set the processor limit for when generation is on. Can be -1 for unlimited.
+
+#### Results
+
+* None
 
 ## Mining
 
@@ -737,6 +783,48 @@ ttt        (`Numeric`) The number of seconds that the server has been running
 }
 ```
 
+### getblockversion
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+(`Integer`) block version number
+
+### getminercomment
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+minerComment (`String`) miner comment
+
+### getminingmaxblock
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+(`Integer`) maximum generated block size in bytes
+
 ### getmininginfo
 
 #### HTTP Verb
@@ -797,6 +885,48 @@ x             (`Numeric`) Hashes per second estimated
 
 true              (`Boolean`) Returns true
 
+### setblockversion
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. blockVersionNumber         (`Integer`, hex integer, 'BIP109', 'BASE' or 'default'.  Required) The block version number.
+
+#### Result
+
+* None
+
+### setminercomment
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. comment (`String` Required) The block version number.
+
+#### Result
+
+* None
+
+### setminingmaxblock
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. blocksize (`Integer`, required) the maximum number of bytes to include in a block.
+
+#### Result
+
+* None
+
 ### submitblock
 
 #### HTTP Verb
@@ -840,9 +970,13 @@ true              (`Boolean`) Returns true
 
 #### Arguments
 
+* None
+
 #### Result
 
-### disconnectnode "[address]" [nodeid]
+* None
+
+### disconnectnode
 
 #### HTTP Verb
 
@@ -851,6 +985,18 @@ true              (`Boolean`) Returns true
 #### Arguments
 
 * None
+
+### expedited
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. "block | tx" (`String`, required) choose block to send expedited blocks, tx to send expedited transactions
+2. "node ip addr" (`String`, required) The node's IP address or IP and port (see getpeerinfo for nodes)
+3. "on | off" (`String`, required) Turn expedited service on or off
 
 #### Result
 
@@ -1043,6 +1189,27 @@ n          (`Numeric`) The connection count
 ]
 ```
 
+### gettrafficshaping
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+```js
+{
+  "sendBurst" : 40,   (`String`) The maximum send bandwidth in Kbytes/sec
+  "sendAve" : 30,   (`String`) The average send bandwidth in Kbytes/sec
+  "recvBurst" : 20,   (`String`) The maximum receive bandwidth in Kbytes/sec
+  "recvAve" : 10,   (`String`) The average receive bandwidth in Kbytes/sec
+}
+```
+
 ### listbanned
 
 #### HTTP Verb
@@ -1071,6 +1238,20 @@ n          (`Numeric`) The connection count
 
 * None
 
+### pushtx
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. "node" (`String`, required) The node (see getpeerinfo for nodes)
+
+#### Result
+
+* None
+
 ### setban
 
 #### HTTP Verb
@@ -1081,8 +1262,24 @@ n          (`Numeric`) The connection count
 
 1. subnet (`String`, required): The IP/Subnet (see getpeerinfo for nodes ip) with a optional netmask (default is /32 = single ip)
 2. command (`String`, required): 'add' to add a IP/Subnet to the list, 'remove' to remove a IP/Subnet from the list
-3. bantime (numeric, optional) time in seconds how long (or until when if [absolute] is set) the ip is banned (0 or empty means using the default time of 24h which can also be overwritten by the -bantime startup argument)
-4. absolute (boolean, optional) If set, the bantime must be a absolute timestamp in seconds since epoch (Jan 1 1970 GMT)
+3. bantime (`Numeric`, optional) time in seconds how long (or until when if [absolute] is set) the ip is banned (0 or empty means using the default time of 24h which can also be overwritten by the -bantime startup argument)
+4. absolute (`Boolean`, optional) If set, the bantime must be a absolute timestamp in seconds since epoch (Jan 1 1970 GMT)
+
+#### Result
+
+* None
+
+### settrafficshaping
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. "send|receive" (`String`, required) Are you setting the transmit or receive bandwidth
+2. "burst" (`Integer`, required) Specify the maximum burst size in Kbytes/sec (actual max will be 1 packet larger than this number)
+2. "average" (`Integer`, required) Specify the average throughput in Kbytes/sec
 
 #### Result
 
@@ -1363,7 +1560,6 @@ hex (`String`) The transaction hash in hex
 
 ### createmultisig
 
-
 #### HTTP Verb
 
 `POST`
@@ -1376,6 +1572,7 @@ hex (`String`) The transaction hash in hex
        "key"    (`String`) bitcoin address or hex-encoded public key
        ,...
      ]
+
 #### Result
 
 ```js
@@ -1451,6 +1648,133 @@ n              (`Numeric`) estimated priority
 }
 ```
 
+### get
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+configuration setting name
+
+#### Result
+
+```js
+{
+  "setting name" : value of the setting
+  ...
+}
+```
+
+### getaddressforms
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. "address" (`String`, required) the address
+
+#### Result
+
+```js
+{
+"legacy": "1 or 3 prefixed address",
+"bitcoincash": "bitcoincash prefixed address",
+"bitpay": "C or H prefixed address"
+}
+```
+
+### getstat
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. "-v" or "--verbose" (`String`, optional) full details
+2. "statistic" (`String`, required) Specify what statistic you want
+3. "series" (`String`, optional) Specify what data series you want.  Options are "total", "now","all", "sec10", "min5", "hourly", "daily","monthly".  Default is all.
+4. "count" (`String`, optional) Specify the number of samples you want.
+
+#### Result
+
+```js
+{
+  "<statistic name>"
+  {
+  "<series meta>"
+(Only with --verbose|-v)       [
+      "Series": Requested series.
+      "SampleSize": Requested sample group size.
+    ],
+  "<series name>"
+    [
+    <data>, (any type) The data points in the series
+    ],
+  "timestamp"
+    [
+    <time> (time only with --verbose|-v)
+    ],
+  ...
+  },
+...
+}
+```
+
+### getstatlist
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+```js
+{
+  "name" : (`String`) name of the statistic
+  ...
+}
+```
+
+### log
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+1. "category|all" (`String`, required) Category or all categories
+2. "on"           (`String`, optional) Turn a category, or all categories, on
+2. "off"          (`String`, optional) Turn a category, or all categories, off
+2.                (`String`, optional) No argument. Show a category, or all categories, state: on|off
+
+#### Result
+
+* None
+
+### set
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* <configuration setting name>=<value> <configuration setting name2>=<value2>...
+
+#### Result
+
+nothing or error string
+
 ### signmessagewithprivkey
 
 #### HTTP Verb
@@ -1494,6 +1818,20 @@ signature (`String`) The signature of the message encoded in base 64
   "hdmasterkeyid" : "<hash160>" (`String`, optional) The Hash160 of the HD master pubkey
 }
 ```
+
+### validatechainhistory
+
+#### HTTP Verb
+
+`POST`
+
+#### Arguments
+
+* None
+
+#### Result
+
+* None 
 
 ### verifymessage
 
