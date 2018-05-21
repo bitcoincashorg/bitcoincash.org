@@ -1078,6 +1078,14 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-person .flag {
   padding-bottom:56px;
 }
+.fh5co-person a.btn {
+  margin-left: 0;
+}
+#media-holder{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+
 
 @media screen and (max-width: 1200px) {
 
