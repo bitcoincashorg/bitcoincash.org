@@ -3,7 +3,7 @@ layout: specification
 title: Restore disabled script opcodes, May 2018
 date: 2018-04-05
 activation: 1526400000
-version: 0.3
+version: 0.4
 ---
 
 ## Introduction
@@ -333,9 +333,10 @@ Unit tests:
 Convert the numeric value into a byte sequence of a certain size, taking account of the sign bit.
 The byte sequence produced uses the little-endian encoding.
 
-    `n m OP_NUM2BIN -> x`
+    n m OP_NUM2BIN -> x
     
-    where m and n are interpreted as numeric values
+where `m` and `n` are interpreted as numeric values. `m` must be minimally encoded and <= 4 bytes long.
+`n` can be up to `MAX_SCRIPT_ELEMENT_SIZE` long and does not need to be minimally encoded.
 
 See also `OP_BIN2NUM`.
 
@@ -344,9 +345,8 @@ Examples:
 * `-5 4 OP_NUM2BIN -> {0x05, 0x00, 0x00, 0x80}`
 
 The operator must fail if:
-1. `n` or `m` are not numeric values.
-2. `m < len(n)`. `n` is a numeric value, therefore it must already be in minimal representation, so it cannot fit into
-   a byte sequence which is smaller than the length of `n`. 
+1. `m` is not a minimally encoded numeric value.
+2. `m < len(minimal_encoding(n))`. `n` must be able to fit into `m` bytes.
 3. `m > MAX_SCRIPT_ELEMENT_SIZE`. The result would be too large.
 
 Impact of successful execution:
@@ -354,7 +354,7 @@ Impact of successful execution:
 * number of elements on stack is reduced by one
 
 Unit tests:
-1. `n m OP_NUM2BIN -> failure` where `!isnum(n)` or `!isnum(m)`. Both operands must be numeric values.
+1. `n m OP_NUM2BIN -> failure` where `!isnum(m)`. `m` must be a numeric value.
 2. `256 1 OP_NUM2BIN -> failure`. Trying to produce a byte sequence which is smaller than the minimum size needed to
    contain the numeric value.
 3. `1 (MAX_SCRIPT_ELEMENT_SIZE+1) OP_NUM2BIN -> failure`. Trying to produce an array which is too large.
@@ -369,7 +369,7 @@ Unit tests:
 
 Convert the byte sequence into a numeric value, including minimal encoding. The byte sequence must encode the value in little-endian encoding.
 
-    `x1 OP_BIN2NUM -> n`
+    x1 OP_BIN2NUM -> n
 
 See also `OP_NUM2BIN`.
 
