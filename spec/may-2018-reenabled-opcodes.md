@@ -333,10 +333,13 @@ Unit tests:
 Convert the numeric value into a byte sequence of a certain size, taking account of the sign bit.
 The byte sequence produced uses the little-endian encoding.
 
-    n m OP_NUM2BIN -> x
+    a b OP_NUM2BIN -> x
     
-where `m` and `n` are interpreted as numeric values. `m` must be minimally encoded and <= 4 bytes long.
-`n` can be up to `MAX_SCRIPT_ELEMENT_SIZE` long and does not need to be minimally encoded.
+where `a` and `b` are interpreted as numeric values. `a` is the value to be converted to a byte sequence,
+it can be up to `MAX_SCRIPT_ELEMENT_SIZE` long and does not need to be minimally encoded.
+`b` is the desired size of the result, it must be minimally encoded and <= 4 bytes long. It must be possible for the
+value `a` to be encoded in a byte sequence of length `b` without loss of data.
+
 
 See also `OP_BIN2NUM`.
 
@@ -345,16 +348,16 @@ Examples:
 * `-5 4 OP_NUM2BIN -> {0x05, 0x00, 0x00, 0x80}`
 
 The operator must fail if:
-1. `m` is not a minimally encoded numeric value.
-2. `m < len(minimal_encoding(n))`. `n` must be able to fit into `m` bytes.
-3. `m > MAX_SCRIPT_ELEMENT_SIZE`. The result would be too large.
+1. `b` is not a minimally encoded numeric value.
+2. `b < len(minimal_encoding(a))`. `a` must be able to fit into `b` bytes.
+3. `b > MAX_SCRIPT_ELEMENT_SIZE`. The result would be too large.
 
 Impact of successful execution:
-* stack memory use will be increased by `m - len(n) - len(m)`, maximum increase is when `m = MAX_SCRIPT_ELEMENT_SIZE`
+* stack memory use will be increased by `b - len(a) - len(b)`, maximum increase is when `b = MAX_SCRIPT_ELEMENT_SIZE`
 * number of elements on stack is reduced by one
 
 Unit tests:
-1. `n m OP_NUM2BIN -> failure` where `!isnum(m)`. `m` must be a numeric value.
+1. `a b OP_NUM2BIN -> failure` where `!isnum(b)`. `b` must be a minimally encoded numeric value.
 2. `256 1 OP_NUM2BIN -> failure`. Trying to produce a byte sequence which is smaller than the minimum size needed to
    contain the numeric value.
 3. `1 (MAX_SCRIPT_ELEMENT_SIZE+1) OP_NUM2BIN -> failure`. Trying to produce an array which is too large.
@@ -369,12 +372,12 @@ Unit tests:
 
 Convert the byte sequence into a numeric value, including minimal encoding. The byte sequence must encode the value in little-endian encoding.
 
-    x1 OP_BIN2NUM -> n
+    a OP_BIN2NUM -> x
 
 See also `OP_NUM2BIN`.
 
 Notes:
-* if `x1` is any form of zero, including negative zero, then `OP_0` must be the result
+* if `a` is any form of zero, including negative zero, then `OP_0` must be the result
     
 Examples:
 * `{0x02, 0x00, 0x00, 0x00, 0x00} OP_BIN2NUM -> 2`. `0x0200000000` in little-endian encoding has value 2.
