@@ -1,0 +1,76 @@
+baseurl: 
+
+baseurl: ""
+name: BitoinCash.org
+description: Bitcoin Cash is a p2p digital currency
+
+avatar: "assets/img/1-bitcoin-cash-logo.svg"
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: support@bitcoincash.org
+  facebook: bitcoincashorg
+  flickr:
+  github: bitcoincashorg/bitcoincash.org
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  telegram: HCYr51JfzqwI0xwKf-poow
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+exclude:
+  - 'README.md'
+  - 'translations'
+  - 'kube'
+  - 'nginx.conf'
+  - 'nginx.conf.erb'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Makefile'
+  - 'Rakefile'
+  - COPYING
+
+languages:
+ - en
+ - cs
+ - de-ch
+ - de
+ - el
+ - es
+ - fr
+ - hi
+ - id
+ - it
+ - ja
+ - ko
+ - ms
+ - nl
+ - pl
+ - pt-BR
+ - pt-PT
+ - ru
+ - sk
+ - tr
+ - vi
+ - zh-CN
+ - zh-TW
+
+exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
+
+plugins: 
+  - jekyll-multiple-languages-plugin
