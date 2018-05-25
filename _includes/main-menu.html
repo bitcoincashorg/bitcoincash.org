@@ -6,22 +6,22 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right homepage">
                     <li>
-                        <a href="{% unless isHome %}/{%endunless%}#about" data-nav-section="about" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                        <a href="{% unless page.isHome %}/{%endunless%}#about" data-nav-section="about" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t sections.about %}</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless isHome %}/{%endunless%}#features" data-nav-section="features" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                        <a href="{% unless page.isHome %}/{%endunless%}#features" data-nav-section="features" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t sections.features %}</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless isHome %}/{%endunless%}#nodes" data-nav-section="nodes" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                        <a href="{% unless page.isHome %}/{%endunless%}#nodes" data-nav-section="nodes" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t 'sections.nodes' %}</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless isHome %}/{%endunless%}#wallets" data-nav-section="wallets" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                        <a href="{% unless page.isHome %}/{%endunless%}#wallets" data-nav-section="wallets" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t 'sections.wallets' %}</span>
                         </a>
                     </li>
@@ -33,17 +33,17 @@
                                     <div class="dropdown__content col-md-{%- t 'misc.dropdown_md_width' %} col-sm-{%- t 'misc.dropdown_sm_width' -%}">
                                         <ul class="menu-vertical">
                                             <li>
-                                                <a href="{% unless isHome %}/{%endunless%}#services" data-nav-section="services" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="{% unless page.isHome %}/{%endunless%}#services" data-nav-section="services" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                                                     {% t 'sections.services' %}
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="{% unless isHome %}/{%endunless%}#projects" data-nav-section="projects" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="{% unless page.isHome %}/{%endunless%}#projects" data-nav-section="projects" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                                                     {% t 'sections.projects' %}
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="{% unless isHome %}/{%endunless%}#exchanges" data-nav-section="exchanges" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="{% unless page.isHome %}/{%endunless%}#exchanges" data-nav-section="exchanges" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                                                     {% t 'sections.exchanges' %}
                                                 </a>
                                             </li>
@@ -65,16 +65,16 @@
                         </div>
                     </li>
                     <li>
-                        <a href="{% unless isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if isHome %} "inner-link" {%else %} "external" {%endif%}>
+                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t 'sections.faq' %}</span>
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
-        {% if isGraphics %}
+        {% if page.isGraphics %}
             {% include graphics/menu.html %}
-        {% else if %}
+        {% else if page.isDevelopers %}
             {% include developers/menu.html %} 
         {% endif %}    
 
