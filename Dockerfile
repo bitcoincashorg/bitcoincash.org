@@ -6,9 +6,10 @@ WORKDIR work
 RUN gem install bundler
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
-RUN bundler install
+RUN bundle install
 COPY . .
-RUN bundler exec jekyll build
+RUN mv _config-prod.yml _config.yml
+RUN bundle exec jekyll build
 
 # Hosting Layer
 FROM nginx
