@@ -7,10 +7,13 @@ PROJECT ?=
 PORT ?= 8080
 
 .phony: container
-defailt: container
+default: container
 
 container:
 	docker build -t $(PROJECT)bitcoincashorg .
 
 run: container
 	docker run -it -p $(PORT):80 $(PROJECT)bitcoincashorg:latest
+
+serve: 
+	bundler exec jekyll serve &
