@@ -57,6 +57,31 @@
                                                     {% t 'sections.developers' %}
                                                 </a>
                                             </li>
+                                            <li>
+                                                <a href="workgroups.html" class="external">
+                                                    {% t 'sections.workgroups' %}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="specs.html" class="external">
+                                                    {% t 'sections.specs' %}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="learn.html" class="external">
+                                                    {% t 'sections.learn' %}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="tools.html" class="external">
+                                                    {% t 'sections.tools' %}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="tech.html" class="external">
+                                                    {% t 'sections.tech' %}
+                                                </a>
+                                            </li>
 
                                         </ul>
                                     </div>
@@ -72,10 +97,21 @@
                 </ul>
             </div>
         </nav>
+        {% comment %}If someone knows a better way to do this, please do {% endcomment %}
         {% if page.isGraphics %}
             {% include graphics/menu.html %}
         {% elsif page.isDevelopers %}
             {% include developers/menu.html %} 
+        {% elsif page.isLearn %}
+            {% include learn/menu.html %} 
+        {% elsif page.isSpecs %}    
+            {% include specs/menu.html %}
+        {% elsif page.isTech %}
+            {% include tech/menu.html %}
+        {% elsif page.isTools %}
+            {% include tools/menu.html %}     
+        {% elsif page.isWorkgroups %}
+            {% include workgroups/menu.html %}             
         {% endif %}    
 
     </div>
