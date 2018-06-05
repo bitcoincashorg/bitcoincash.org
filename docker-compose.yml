@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    webserver:
+      context: .
+      build: ./docker
+      image: bitcoincash:latest
+      ports: 
+        - 8888:80
+      volumes:
+        - /usr/share/nginx/html/
+  
