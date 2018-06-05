@@ -99,7 +99,7 @@ workgroups:
   title: "BITCOIN CASH WORKGROUPS"
   description: "Technical community working collectively"
   sections:
-    developers: "Developers"
+    workgroups: "Work Groups"
     home: "Home"
   tutorials:
     title: "tutorials"
@@ -210,6 +210,11 @@ sections:
   exchanges: "Exchanges"
   graphics: "Logos / Graphics"
   developers: "Developer Portal"
+  learn: "Learning"
+  specs: "Spec Documents"
+  tech: "Technology"
+  tools: "Tools"
+  workgroups: "Work Groups"
   faq: "FAQ"
 layout:
   bitcoin_cash: "Bitcoin Cash"
