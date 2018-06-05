@@ -2,22 +2,42 @@
 Version: 0.1
 Status: Work in progress.
 
+## Block
+This section of the BCH spec documents the block.
+
+### Block Description
+
+A block is a collection of one or more transactions prefaced by a **block header** and protected by proof-of-work. Each block in the blockchain contains the current transactions that have been verified plus a hash of the previous block. 
+
+The block chain is a distributed ledger run individually by all full nodes on the BCH network. A full node has a complete copy of the entire block chain and run the bitcoin core client software used to maintain the blockchain. 
+
+A block is naturally limited to be generated every 10 minutes (600 seconds) on average.
+
+### Block Purpose
+
+Blocks are the data stored on the block chain. The block header identifies the block. The block the body contains one or more transactions. The first transaction in the block is a special transaction called the coinbase transaction.
+
+### Block Requirements
+
+### Block Details
+
+On the node file system, each block is stored in a `*.dat` file. For example, on Windows 10 blocks are stored at C:\Users\user\AppData\Roaming\Bitcoin\blocks. 
+
+
 ## Block Header
 This section of the BCH spec documents the block header.
 
-### Description
-
-A block is a collection of one or more transactions prefaced by a **block header** and protected by proof-of-work. Blocks are the data stored on the block chain.
+### Block Header Description
 
 The block header is the unique signature for each block in the blockchain. The block header is the first 80-bytes of each block and comprises six fields concatenated together and encoded in hex notation. The block header is hashed and included in the next block that is mined.
 
-### Purpose
+### Block Header Purpose
 
 The serialized (raw) form of each block header is hashed as part of the hashcash algorithm (proof-of-work), making the serialized block header part of the consensus rules. The block header is hashed repeatedly to create proof-of-work.
 
 In addition, the block header ensures the integrity of the blockchain and its transactions by leveraging the fuctionality of hashing. If someone wanted to alter a transaction, it would be nearly impossible because the hash of the header stored in each block would have to also be modified.
 
-### Requirements
+### Block Header Requirements
 
 The block header requires the following six fields:
 
@@ -34,11 +54,11 @@ Notes:
 - hash is SHA256(SHA256()) in internal byte order, wich means the standard order in which hash digests are displayed as strings.
 - The values for all other fields are in little-endian order.
 
-### Details
+### Block Header Details
 
 Bitcoin Cash uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure that the block heaser is in the proper byte-order before hashing. The block header hash must satisfy claimed `nBits` proof of work. In other words, the `nBits` value must match the difficulty rules. See "Proof of Work" section for more details.
 
-### Other
+### Block Header Other
 
 Sources:
 
@@ -55,4 +75,16 @@ Questions:
 1) In some documentation (https://en.bitcoin.it/wiki/Protocol_documentation#Block_Headers), the data type for the two hash fields is `char[32]`, but in the code it is as documented above. Why the difference? 
 
 2) How should the field names be documented? As is in the code?
+
+## Coinbase Transaction
+This section of the BCH spec documents the coinbase TX.
+
+### Coinbase Transaction Description
+A coinbase transaction (TX) is a special transaction that is the first transaction in block body. The coinbase TX is the transaction that records the award given to the miner for committing the block to the blockchain, that is, solving the proof-of-work for the outstanding transactions.
+
+### Coinbase Transaction Purpose
+The purpose of the coinbase transaction is to certify that the transactions in the block are valid.
+
+### Coinbase Transaction Requirements
+
 
