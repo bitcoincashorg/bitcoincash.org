@@ -99,7 +99,7 @@ workgroups:
   title: "BITCOIN CASH WORKGROUPS"
   description: "Technical community working collectively"
   sections:
-    developers: "Developers"
+    workgroups: "Work Groups"
     home: "Home"
   tutorials:
     title: "tutorials"
@@ -107,7 +107,6 @@ workgroups:
   workgroups:
     description: "The following is a topical list of Bitcoin Cash Development Workgroups.  Each group should be focused around a specific subject.  They may exist for a limited time, or be of ongoing interest."
     sections:
-
       communication: "Communication"
       officers: "Officers"
       parties: "Interested Parties"
