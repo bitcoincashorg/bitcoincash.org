@@ -2,38 +2,38 @@
 Version: 0.1
 Status: Work in progress.
 
-This section of the BCH spec documents the transaction primitive.
+This section of the BCH spec documents the transaction primitive, including description, serialization, input and output.
 
 ## Transaction Overview
 A transaction is one of the two base primitives in the BCH system, the other being a block. Primitive in this context means that it is one of the data types for which the BCH spec provides built-in support.
 
 A transaction is a transfer of BCH that is broadcast to the network and collected into blocks. A transaction typically references previous transaction outputs as new transaction inputs and dedicates all input Bitcoin values to new outputs. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
 
-
-
-### Desccription
+### Transaction Desccription
 Transaction comprises a signature and redeem script pair. 
 
-### Purpose
+### Transaction Purpose
 To provide flexibility in releasing outputs.
 
-### Requirements
+### Transaction Requirements
 What is needed for valid TX.
 
-### Details
+### Transaction Implementation Details
 Which follow.
 
 ## Transaction Serialization Format
 A serialized transaction contains an input and an output.
 
-## Transaction Input
+### Desc
 
+### Purpose
+
+### Requirements
+
+## Transaction Input
 Inputs to a transaction include the outpoint, signature script, and sequence.
 
 An input is a reference to an output from a previous transaction. Multiple inputs are often listed in a transaction. All of the new transaction's input values (that is, the total coin value of the previous outputs referenced by the new transaction's inputs) are added up, and the total (less any transaction fee) is completely used by the outputs of the new transaction. Previous tx is a hash of a previous transaction. Index is the specific output in the referenced transaction. ScriptSig is the first half of a script (discussed in more detail later).
-
-
-
 
 ### Outpoint
 
@@ -116,4 +116,4 @@ Standard transaction outputs nominate addresses, and the redemption of any futur
 	OP_RETURN
 	<push data>
 
-### Coinbase Transactions
+### Coinbase Transaction
