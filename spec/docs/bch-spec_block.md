@@ -39,7 +39,7 @@ The serialized (raw) form of each block header is hashed as part of the hashcash
 The block header ensures the integrity of the blockchain and its transactions by leveraging the capabilities of hashing. If someone wanted to alter a transaction, it would be nearly impossible because the hash of the previous block header is stored in each subsequent block.
 
 ### Block Header Requirements
-The block header requires the following six fields:
+The block header is serialized in binary format and requires the following six fields:
 
 Field 			| Size (bytes) 	| Data type | Description
 ----------------|---------------|-----------|------------
@@ -50,12 +50,12 @@ nTime 			| 4 			| uint32_t 	| Current timestamp in seconds since 1970-01-01T00:0
 nBits 			| 4 			| uint32_t 	| Difficulty target for the proof-of-work for this block. An encoded version of the target threshold this block’s header hash must be less than or equal to. See the nBits format described below.
 nNonce			| 4 			| uint32_t 	| 32-bit number (starts at 0) used to generate this block (the "nonce"). An arbitrary number miners change to modify the header hash in order to produce a hash less than or equal to the target threshold. If all 32-bit values are tested, the time can be updated or the coinbase transaction can be changed and the merkle root updated.
 
-Notes:
-- hash is SHA256(SHA256()) in internal byte order, wich means the standard order in which hash digests are displayed as strings.
-- The values for all other fields are in little-endian order. (Question about big endian?) 
+Serialization: 
+- hash is SHA256(SHA256(DATA)) seralized in internal byte order, wich means the standard order in which hash digests are displayed as strings.
+- The values for all other fields are serialized in little-endian order.
 
 ### Block Header Details
-BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure that the block heaser is in the proper byte-order before hashing. The block header hash must satisfy the claimed `nBits` proof of work. In other words, the `nBits` value must match the difficulty rules. See "Proof of Work" section for more details.
+BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure that the block header is in the proper byte-order before hashing. The block header hash must satisfy the claimed `nBits` proof of work. In other words, the `nBits` value must match the difficulty rules. See "Proof of Work" section for more details.
 
 ## Coinbase Transaction
 This section of the BCH spec documents the coinbase transaction that is required for each block.
