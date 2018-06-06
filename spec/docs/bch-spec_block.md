@@ -6,7 +6,7 @@ Status: Work in progress.
 This section of the BCH spec documents the block primitive, including block format, block header, and coinbase transaction.
 
 ### Block Description
-A block is one of the two base primitives in the BCH system, the other being a transaction. Primitive in this context means that it is one of the data types for which the BCH spec provides built-in support.
+A block is one of the two base primitives in the BCH system, the other being a transaction. Primitive in this context means that it is one of the data structures for which the BCH software provides built-in support.
 
 A block is a collection of one or more transactions prefaced by a **block header** and protected by proof-of-work. Each block in the blockchain contains the current transactions that have been verified plus a hash of the previous block. The first transaction in the block body is a special transaction called the coinbase transaction. A new block is naturally limited to be generated every 10 minutes (600 seconds) on average.
 
@@ -34,6 +34,8 @@ This section of the BCH spec documents the block header.
 The block header is the unique signature for each block in the blockchain. The block header is the first 80-bytes of each block and comprises six fields concatenated together and encoded in hex notation. The block header is hashed and included in the next block that is mined.
 
 ### Block Header Purpose
+Blocks are composed of the block header followed by transactions in the block. A block is identified by the  hash of its header. The block header includes a pointer to the previous block that link them into a graph.
+
 The serialized (raw) form of each block header is hashed as part of the hashcash algorithm (proof-of-work), making the serialized block header part of the BCH consensus rules. The block header is hashed repeatedly to create proof-of-work.
 
 The block header ensures the integrity of the blockchain and its transactions by leveraging the capabilities of hashing. If someone wanted to alter a transaction, it would be nearly impossible because the hash of the previous block header is stored in each subsequent block.
