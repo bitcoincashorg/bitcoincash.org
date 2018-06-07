@@ -147,3 +147,28 @@ This is a copy of the outline for the BCH spec documentation to be developed. So
 			Check lock time verify
 			Check sequence verify
 
+
+-----------------------
+## WIP Notes
+
+Sources:
+
+http://doc.bitcoinabc.org/ (comments/docs in the code via doxygen)
+https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/primitives/block.h
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa378932(v=vs.85).aspx
+https://bitcoin.org/en/developer-reference#block-headers
+https://en.bitcoin.it/wiki/Protocol_documentation#Block_Headers
+https://en.bitcoin.it/wiki/Block_hashing_algorithm
+https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki
+
+
+Notes:
+
+1) In some documentation (https://en.bitcoin.it/wiki/Protocol_documentation#Block_Headers), the data type for the two hash fields is `char[32]`, but in the code it is as documented above. Why the difference? 
+
+2) What is the diff between BTC and BCH in terms of the protocol/spec? 
+- BCH increases the block size max from 1MB to 32MB. 
+- BCH addresses are different/updated from BTC.
+- BCH enables various opcodes that are disabled in BTC.
+- BCH blockchain diverges after the hard fork in Aug 2017.
+- Existing docs in the /spec folder have details on the changes. These need to be incorporated into the master spec.
