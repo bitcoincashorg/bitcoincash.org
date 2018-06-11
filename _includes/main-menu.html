@@ -89,6 +89,22 @@
                             <span>{% t 'sections.faq' %}</span>
                         </a>
                     </li>
+                    <li class="dropdown">
+                        <span class="dropdown__trigger">{% t 'language' %}</span>
+                        <div class="dropdown__container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="dropdown__content lang-menu">
+                                        <ul class="menu-vertical">
+                                            {% for item in site.translations[] %}
+                                                <li><a class="external" href="/{%unless item[0] == 'en' %}{{item[0]}}{%endunless%}">{{ item[1].language }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -96,18 +112,18 @@
         {% if page.isGraphics %}
             {% include graphics/menu.html %}
         {% elsif page.isDevelopers %}
-            {% include developers/menu.html %} 
+            {% include developers/menu.html %}
         {% elsif page.isLearn %}
-            {% include learn/menu.html %} 
-        {% elsif page.isSpecs %}    
+            {% include learn/menu.html %}
+        {% elsif page.isSpecs %}
             {% include specs/menu.html %}
         {% elsif page.isTech %}
             {% include tech/menu.html %}
         {% elsif page.isTools %}
-            {% include tools/menu.html %}     
+            {% include tools/menu.html %}
         {% elsif page.isWorkgroups %}
-            {% include workgroups/menu.html %}             
-        {% endif %}    
+            {% include workgroups/menu.html %}
+        {% endif %}
 
     </div>
 </header>
