@@ -1,4 +1,4 @@
-baseurl: 
+baseurl:
 
 baseurl: ""
 name: BitoinCash.org
@@ -46,31 +46,31 @@ exclude:
   - COPYING
 
 languages:
- - en
- - cs
- - de-ch
- - de
- - el
- - es
- - fr
- - hi
- - id
- - it
- - ja
- - ko
- - ms
- - nl
- - pl
- - pt-BR
- - pt-PT
- - ru
- - sk
- - tr
- - vi
- - zh-CN
- - zh-TW
+  - en
+  - cs
+  - de-ch
+  - de
+  - el
+  - es
+  - fr
+  - hi
+  - id
+  - it
+  - ja
+  - ko
+  - ms
+  - nl
+  - pl
+  - pt-BR
+  - pt-PT
+  - ru
+  - sk
+  - tr
+  - vi
+  - zh-CN
+  - zh-TW
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 
-plugins: 
+plugins:
   - jekyll-multiple-languages-plugin
