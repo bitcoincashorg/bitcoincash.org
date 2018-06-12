@@ -1,4 +1,4 @@
-baseurl: 
+baseurl:
 
 baseurl: ""
 name: BitoinCash.org
@@ -72,5 +72,5 @@ languages:
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 
-plugins: 
+plugins:
   - jekyll-multiple-languages-plugin
