@@ -4,7 +4,6 @@
         <nav class="navbar navbar-default">
             {% include site-logo.html %}
 
-            {% if page.isHome %}
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right homepage">
                     <li>
@@ -110,7 +109,7 @@
                 </ul>
             </div>
         </nav>
-        {% else %}
+        {% if page.isDevelopers or page.isGraphics or page.isLearn or page.isSpecs or page.isTech or page.isTools or page.isWorkgroups %}
             {% include {{ page.url | remove: ".html" }}/menu.html %}
         {% endif %}
     </div>
