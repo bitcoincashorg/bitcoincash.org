@@ -109,21 +109,8 @@
             </div>
         </nav>
         {% comment %}If someone knows a better way to do this, please do {% endcomment %}
-        {% if page.isGraphics %}
-            {% include graphics/menu.html %}
-        {% elsif page.isDevelopers %}
-            {% include developers/menu.html %} 
-        {% elsif page.isLearn %}
-            {% include learn/menu.html %} 
-        {% elsif page.isSpecs %}    
-            {% include specs/menu.html %}
-        {% elsif page.isTech %}
-            {% include tech/menu.html %}
-        {% elsif page.isTools %}
-            {% include tools/menu.html %}     
-        {% elsif page.isWorkgroups %}
-            {% include workgroups/menu.html %}             
-        {% endif %}    
-
+        {% for menu in page.submenus %}
+            {% include {{ menu }}/menu.html %}
+        {% endfor %}
     </div>
 </header>
