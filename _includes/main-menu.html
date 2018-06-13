@@ -89,6 +89,22 @@
                             <span>{% t 'sections.faq' %}</span>
                         </a>
                     </li>
+                    <li class="dropdown">
+                        <span class="dropdown__trigger">{% t 'language' %}</span>
+                        <div class="dropdown__container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="dropdown__content lang-menu">
+                                        <ul class="menu-vertical">
+                                            {% for item in site.data.languages[] %}
+                                                <li><a class="external" href="{% unless item[0] == 'en' %}{{ item[0] | prepend: site.baseurl_root }}{% endunless %}">{{ item[1] }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
