@@ -106,7 +106,6 @@ features:
     description: "Nejrobustnejší blockchain na svete."
 headings:
   about: "Nejlepšie peniaze na svete"
-  features: "Vlastnosti"
   nodes: "Uzly"
   wallets: "Peňaženky"
   services: "Služby"
@@ -119,15 +118,6 @@ content:
       Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
     - |
       Všetci ktorí vlastnili v dobe bloku 478558 akékoľvek Bitcoiny sú automaticky držiteľmi Bitcoin Cash. Všetci ľudia sú vitaní aby sa pripojili ku komunite Bitcoinu Cash a podielali sa na vývoji a šírení skvelej meny dostupnej celému svetu.
-  features:
-    - |
-      <strong>On Chain Škálovateľnosť</strong> - Bitcoin Cash kráča po ceste vytýčenej Satoshi Nakamotom smerom k celosvetovej adopcii a on-chain škálovateľnosti. Prvým krokom bolo nastavenie limitu veľkosti bloku tak, aby mal vychádzajúcu hodnotu 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">V súčasnosti prebieha výskum ďalších masívnych zvýšení tohto limitu</a>.
-    - |
-      <strong>Nové Podpisy Transakcií</strong> - Nový SigHash umožňuje ochranu pred nechceným opakovaným odosielaním transakcie, vylepšuje bezpečnost hardvérových peňaženiek a eliminuje problém s tzv. kvadratickým hashingom.
-    - |
-      <strong>Nový Algoritmus Úpravy Obtiažnosti (DAA)</strong> - Dynamická Proof-of-Work zmena obtiažnosti umožňuje ťažičom bezstarostnú migráciu z pôvodnej siete a zároveň poskytuje ochranu pred fluktuáciou výkonu siete.
-    - |
-      <strong>Decentralizovaný Vývoj</strong> - S niekoľkými nezávislými tímami, ktorí hladajú nejlepšie riešenie budúceho vývoja je budúcnosť meny zabezpečená. Vďaka tomu je Bitcoin Cash rezistentný voči politickým i sociálnym útokom na vývoj protokolu. Žiadna jedna skupina alebo združenie nemôže projekt svojvoľne ovládnuť. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> je dobré miesto pre návrhy vylepšení, které vyžadujú koordináciu medzi vývojovými tímami.
   faq:
     - question: "Čo je Bitcoin Cash?"
       answer:

@@ -106,7 +106,6 @@ features:
     description: "A tecnologia blockchain mais robusta do mundo."
 headings:
   about: "O melhor dinheiro do mundo"
-  features: "Novas funcionalidades"
   nodes: "Nodos"
   wallets: "Carteiras"
   community: "Comunidade"
@@ -120,15 +119,6 @@ content:
       Bitcoin Cash introduz uma moeda robusta para o mundo, satisfazendo a promessa inicial do Bitcoin como uma "Moeda eletrônica de pessoa para pessoa". Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
     - |
       Todos os que possuíam Bitcoin no bloco 478558 possuem também Bitcoin Cash. Todos são bem-vindos à comunidade Bitcoin Cash na criação de uma moeda robusta para o mundo todo.
-  features:
-    - |
-      <strong>Escalabilidade On Chain</strong> - Bitcoin Cash segue o roteiro do Satoshi Nakamoto de adoção global com escalabilidade on-chain. Como primeiro passo, o limite do tamanho dos blocos foi feito ajustável, com um aumento de 8MB por default. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Pesquisas estão em andamento para aumentos futuros</a>.
-    - |
-      <strong>Novas Assinaturas das Transações</strong> - Um novo tipo de SigHash provê proteção contra replay, maior segurança de carteiras e eliminação do problema do hashing quadrático.
-    - |
-      <strong>Novo Algoritmo de Ajuste de Dificuldade (DAA)</strong> - Ajustes da dificuldade do Proof-of-Work permitem aos mineradores migrar do Bitcoin para o Bitcoin Cash facilmente, enquanto protege contra flutuações na taxa de hash.
-    - |
-      <strong>Desenvolvimento Descentralizado</strong> - Com múltiplos times de desenvolvedores indepentes implementanto software, o futuro é seguro. O Bitcoin Cash é resistente a ataques políticos e sociais no desenvolvimento do protocolo. Nenhum grupo único pode controlar o projeto. A <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> é um bom local para fazer propostas de mudanças que requeiram coordenação entre múltiplos times.
   faq:
     - question: "O que é Bitcoin Cash?"
       answer:

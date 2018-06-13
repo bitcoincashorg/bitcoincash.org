@@ -106,7 +106,6 @@ features:
     description: "La chaine de blocs la plus robuste."
 headings:
   about: "La meilleure monnaie du Monde"
-  features: "Nouvelles fonctionnalités"
   nodes: "Nœuds"
   wallets: "Portefeuilles"
   services: "Services"
@@ -119,15 +118,6 @@ content:
       Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     - |
       Tous les détenteurs de Bitcoins au bloc 478558 sont détenteurs de Bitcoins Cash. Tous sont les bienvenues à se joindre à la communauté Bitcoin Cash pour créer une monnaie saine accessible au monde entier.
-  features:
-    - |
-      <strong>Evolutivité "On Chain"</strong> - Bitcoin Cash poursuit la vision de Satoshi Nakamoto roadmap d'une adoption globale en enregistrant l'ensemble des transactions dans la chaine de blocs ("On Chain"). Dans un premier temps, la limite de taille des blocs a été rendue ajustable, avec une valeur proposée par défaut de 8 Mo. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Des recherches sont en cours (qui ont d'ores et déjà validé des résultats significatifs) afin de permettre des augmentations massives da la taille de ces blocs</a>.
-    - |
-      <strong>Nouvel algorithme pour les signatures de transactions</strong> - Un nouvel algorithme de signature permet d'éviter qu'un attaquant puisse intercepter une transaction sur la chaine Bitcoin, et la re-diffuser une seconde fois sur la chaine Bitcoin Cash - et vice versa (replay protection). Cette fonctionnalité vous permet d'utiliser vos applications de manière sécurisée et sans arrière-pensées. Par ailleurs, cet algorithme permet de résoudre un problème lié à un cas adverse entrainant une augmentation quadratique du temps de validation des signatures, connu sous le nom de "Quadratic Hashing".
-    - |
-      <strong>Nouvel algorithme d'ajustement de la difficulté (Difficulty Adjustment Algorithm ou DAA)</strong> - L'algorithme calculant la difficulté pour le minage par preuve de travail a été légèrement modifié afin d'en optimiser la réactivité pour permettre aux mineurs de migrer de l'ancienne chaine Bitcoin selon leur désir, sans que cela implique de variation notable dans le temps moyen entre les blocs.
-    - |
-      <strong>Développement décentralisé</strong> - Avec plusieurs groupes de développeurs qui implémentent autant de logiciels compatibles avec le protocole Bitcoin Cash, le futur est assuré : Le développement du protocole de Bitcoin Cash est résistant aux attaques politiques et sociales. Aucun groupe ou projet ne peut en prendre le contrôle. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est le point d'entrée pour les nouvelles propositions et le centre de coordination entre les différentes équipes de développement.
   faq:
     - question: "Qu'est ce que Bitcoin Cash ?"
       answer:

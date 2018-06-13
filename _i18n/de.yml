@@ -91,22 +91,8 @@ layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Eine elektronische Peer-to-Peer Währung"
   loading: "Lädt..."
-features:
-  - title: "Schnell"
-    description: "Tätige Geschäfte innerhalb von Sekunden. Erhalte die Bestätigung innerhalb von Minuten."
-  - title: "Zuverlässig"
-    description: "Ein Netzwerk, das ohne Überlastung funktioniert."
-  - title: "Niedrige Transaktionskosten"
-    description: "Sende Geld global für einstellige Centbeträge."
-  - title: "Einfach"
-    description: "Einfach und ohne Ärger zu benutzen."
-  - title: "Stabil"
-    description: "Ein Bezahlungssystem, welches ebenso ein Wertaufbewahrungsmittel ist."
-  - title: "Sicher"
-    description: "Die robusteste Blockchain der Welt."
 headings:
   about: "Die beste Währung der Welt"
-  features: "Neue Features"
   nodes: "Nodes"
   wallets: "Wallets"
   services: "Dienste"
@@ -119,15 +105,6 @@ content:
       Bitcoin bietet der Welt eine solide Währung, die der Originalvision von Bitcoin als "Peer-to-Peer Electronic Cash" entspricht. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
     - |
       Jeder, der bei Block 478558 Bitcoin besessen hat, erhielt ebenso automatisch Bitcoin Cash. Jeder ist willkommen, dabei zu helfen Bitcoin Cash für die gesamte Welt zugänglich zu machen.
-  features:
-    - |
-      <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt dem Leitplan von Satoshi Nakamoto für globale Akzeptanz durch On-Chain-Skalierung. Als erster Schritt wurde das Blocksizelimit anpassbar festgelegt. Ebenso wurde das Standardlimit auf 8MB erhöht. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschung wird betrieben, um zukünftige Blocksize-Erhöhungen zu ermöglichen</a>.
-    - |
-      <strong>Neue Transaktionssignaturen</strong> - Ein neuer SigHash-Typ bietet Replay Protection, verbesserte Walletsicherheit und Eliminierung des Quadratic-Hashing-Problems.
-    - |
-      <strong>Neuer Difficulty Adjustment Algorithmus</strong> - Der neue Algorithmus erlaubt eine schnelle Anpassung der Difficulty, schützt vor Hashrateschwankungen und erlaubt Minern fließend von der Legacy Bitcoin Blockchain auf Bitcoin Cash umzusteigen.
-    - |
-      <strong>Dezentralisierte Entwicklung</strong> -  Mit mehreren unabhängigen Entwicklerteams, die Softwareimplementierungen bieten, ist die Zukunft gesichert. Bitcoin Cash ist resistent gegen politische oder soziale Attacken auf die Entwicklung des Protokolls. Keine einzelne Gruppe oder einzelnes Projekt kann es kontrollieren. Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailingliste</a> ist eine gute Plattform um Vorschläge für Änderungen anzubringen, die Koordination und Zusammenarbeit von mehreren Entwicklungsteams benötigt.
   faq:
     - question: "Was ist Bitcoin Cash?"
       answer:

@@ -106,7 +106,6 @@ features:
     description: "Didukung dengan teknologi Blockchain paling kuat di dunia."
 headings:
   about: "Mata Uang terbaik di dunia"
-  features: "Fitur Baru"
   nodes: "Node"
   wallets: "Dompet"
   services: "Servis"
@@ -119,15 +118,6 @@ content:
       Bitcoin Cash adalah mata uang mendunia terjamin yang berasal dari visi awal Bitcoin untuk menjadi "Mata Uang Elektronik P2P". Bitcoin Cash memberdayakan pedagang dan pengguna untuk bertransaksi dengan biaya rendah dan konfirmasi cepat. Dengan inovasi baru dan pertumbuhan teknologi, Bitcoin Cash memungkinkan adopsi global dan pengembangan moneter yang terdesentralisasi.
     - |
       Dimulai sejak blok 478558, semua pemegang Bitcoin juga sekarang memiliki Bitcoin Cash. Anda dipersilahkan untuk bergabung dengan komunitas Bitcoin Cash untuk menciptakan uang yang mudah diakses di seluruh dunia.
-  features:
-    - |
-      <strong>Skalabilitas On-Chain</strong> - Bitcoin Cash mengikuti rencana dan visi Nakamoto untuk global adopsasi dengan Skalabilitas On-Chain. Sebagai langkah awal, batas blocksize sudah disesuaikan dengan meningkatkan kapabilitas ke 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank"> Saat ini, penelitian untuk memungkinkan peningkatan kapasitas masif sedang dilakukan.</a>
-    - |
-      <strong>Signatures untuk Transaksi Baru</strong> - Jenis SigHash baru menyediakan perlindungan replay, keamanan dompet perangkat keras yang lebih baik, dan penghapusan masalah hashing kuadrat.
-    - |
-      <strong>Algoritma Penyesuaian Tingkat Kesulitan Baru</strong> - Penyesuaian kesulitan Proof-of-Work yang responsif memungkinkan penambang bermigrasi dari rantai Bitcoin orisinal sesuai keinginan, sambil memberikan perlindungan terhadap fluktuasi hashrate.
-    - |
-      <strong>Pembangunan Desentralisasi</strong> - Dengan beberapa tim pengembangan yang independen, masa depan Bitcoin Cash aman. Pembangan protokol Bitcoin Cash terlindungi terhadap serangan politik dan sosial. Tidak ada satu kelompok atau proyek yang bisa mengendalikannya. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> adalah tempat yang baik untuk membuat proposal untuk perubahan yang memerlukan koordinasi antar tim pengembangan.
   faq:
     - question: "Apa itu Bitcoin Cash?"
       answer:

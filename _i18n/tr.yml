@@ -106,7 +106,6 @@ features:
     description: "Dünyanın en sağlam blokzinciri teknolojisi."
 headings:
   about: "Dünyanın En İyi Parası"
-  features: "Yeni Özellikler"
   nodes: "Ağ Noktaları"
   wallets: "Cüzdanlar"
   services: "Hizmetler"
@@ -119,15 +118,6 @@ content:
       Bitcoin Cash, Bitcoin'in esas amacı olan "Kişiler Arası Elektronik Nakit" niteliğini koruyarak dünyaya sağlam parayı sunuyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
     - |
       Blok 478558 itibariyle tüm Bitcoin sahipleri aynı miktarda Bitcoin Cash sahibidirler. Biz tüm dünyaya açık, sağlam bir para birimi geliştirirken herkesi bize katılamaya davet ediyoruz.
-  features:
-    - |
-      <strong>Zincir Üzeri Ölçeklenme</strong> - Bitcoin Cash, küresel benimsenmenin zincir-üzeri ölçeklenme ile erişileceğini savunan Nakamoto yol haritasini izlemektedir. İlk adim olarak, blok boyutu sınırı ayarlanabilir yapılmıştır ve sınır 8MB'a çıkarılmıştır. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Büyük çapta artışa imkan vermek için çalışmalar devam etmektedir</a>.
-    - |
-      <strong>Yeni İşlem İmzaları</strong> - Yeni bir tip kriptografik özet fonksiyonu sayesinde işlem tekrarlama koruması, geliştirilmiş donanım cüzdanı güvenliği ve ikinci dereceden hesaba dayalı adresleme probleminin kaldırılmasını sağlar.
-    - |
-      <strong>Yeni Zorluk Ayarlarma Algoritması (ZAA)</strong> - Duyarlı iş-ispatı zorluk ayarı sayesinde madencilerin miras Bitcoin zincirinden geçiş yapması sağlanırken işlem hızı dalgalanması için koruma sağlar.
-    - |
-      <strong>Merkeziyetsiz Gelişim</strong> - Birçok bağımsız yazılımcı ekibi sayesinde gelecek güvende. Bitcoin Cash'in gelişimi politik ve sosyal saldırlardan etkilenemez. Hiçbir tekil topluluk ya da şahıs kontrol edemez. Bitcoin-ml <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">e-posta listesi</a> yazılımcılara tavsiyeler için iyi bir kaynaktır.
   faq:
     - question: "Bitcoin Cash nedir?"
       answer:

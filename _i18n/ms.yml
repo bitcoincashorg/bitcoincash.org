@@ -106,7 +106,6 @@ features:
     description: "Teknologi blockchain yang terkukuh di dunia."
 headings:
   about: "Wang terbaik di dunia ini."
-  features: "Ciri-ciri baru"
   nodes: "Nodes"
   wallets: "Dompet"
   services: "Perkhidmatan"
@@ -119,15 +118,6 @@ content:
       Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini, memenuhi janji asal Bitcoin iaitu: "Wang Electronik P2P". Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
     - |
       Semua yang mempunyai Bitcoin sejak blok 478558 juga mempunyai Bitcoin Cash. Kamu semua dialu-alukan untuk menyertai masyarakat Bitcoin Cash dan bergerak langsung untuk mencipta wang yang kukuh yang mudah didatangi setiap manusia di dunia ini.
-  features:
-    - |
-      <strong>Pertumbuhan Secara "On Chain"</strong> - Bitcoin Cash mengikut rancangan Nakamoto untuk membawa penggunaan antarabangsa dengan pertumbuhan "on chain". Sebagai langkah utama, had saiz blok telah dijadikan secara laras, dengan asas 8MB yang telah ditingkatkan. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Kajian sedang dijalankan untuk membenarkan peningkatan lebih dalam masa depan</a>.
-    - |
-      <strong>Tandatangan Transaksi Terbaru</strong> - SigHash yang baru membenarkan perlindungan daripada transaksi ulangan, keselamatan dompet 'hardware' yang bertambah baik, dan juga penghapusan masalah 'quadratic hashing'.
-    - |
-      <strong>Algoritma Pelarasan Kesukaran (DAA) yang baru</strong> - Pelarasan Kesukaran 'Proof-of-Work' yang lebih responsif membenarkan 'miner' untuk meninggalkan chain Bitcoin yang lama dengan sewenang-wenangnya, sambil memberi perlindungan dari turun naik 'hashrate'.
-    - |
-      <strong>Pembangunan Dessentralisasi</strong> - Dengan beberapa kumpulan developer bebas yang menyediakan pelaksanaan software, masa hadapan kami selamat. Bitcoin Cash boleh menahan jajahan politik dan sosial ke atas pembangunan protokol. Tiada satu kumpulan atau projek yang boleh menguasainya. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Senarai e-mel bitcoin-ml</a> adalah tempat yang sesuai untuk membuat cadangan yang memerlukan penyelarasan antara kumpulan masing-masing.
   faq:
     - question: "Apakah itu Bitcoin Cash?"
       answer:

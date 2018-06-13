@@ -106,7 +106,6 @@ features:
     description: "世界上最健壮的区块链技术。"
 headings:
   about: "世界上最好的钱"
-  features: "新功能"
   nodes: "节点"
   wallets: "钱包"
   services: "服务"
@@ -119,15 +118,6 @@ content:
       比特币现金 (Bitcoin Cash) 为世界带来一种可靠的钱，履行最初的比特币作为「点对点数字现金」的承诺，商家和用户拥有了具备低廉费用和可靠确认的支付方式。因其不受限制的增长、全球采用、无需许可的创新，以及去中心化的开发，将有光明的未来。
     - |
       所有于区块高度 478558 时比特币的拥有者，也是比特币现金的拥有者。欢迎各位加入比特币现金社区，与我们一起向前推进，让这可靠的钱全球可用。
-  features:
-    - |
-      <strong>链上扩容</strong> - 比特币现金遵循中本聪通过链上扩容实现全球普及的路线图。作为第一步，区块大小限制已被设为可调整，默认提升到了 8MB 。 <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">允许未来大幅提升区块容量的研究正在进行</a> 。
-    - |
-      <strong>新的交易签名</strong> - 新的签名哈希 (SigHash) 类型提供了重放攻击保护、改善了硬件钱包安全性，也解决了二次哈希问题。
-    - |
-      <strong>新的难度调整算法(DAA)</strong> - 响应式的工作量证明(PoW) 难度调整允许矿工按其意愿从旧的比特币链迁移至新链，同时提供保护抑制算力过度波动。
-    - |
-      <strong>去中心化的开发</strong> - 有数个独立开发团队提供的软件实现，未来是安全的。比特币现金能够抵御在协议开发上的政治和社交攻击，没有单独的团队或项目能控制。 <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml</a> 邮件列表是一个好的平台，用于跨发开团队协作以实现协议变更。
   faq:
     - question: "比特币现金是什么？"
       answer:

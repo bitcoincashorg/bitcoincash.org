@@ -106,7 +106,6 @@ features:
     description: "Wykorzystuje najbezpieczniejszą na świecie technologię blockchain."
 headings:
   about: "Najlepsza waluta na świecie"
-  features: "Co jest nowego"
   nodes: "Węzły"
   wallets: "Portfele"
   services: "Usługi"
@@ -119,15 +118,6 @@ content:
       Bitcoin Cash wypełnia oryginalną wizję Bitcoin'a jako elektroniczna waluta peer-to-peer - tj. "elektroniczna gotówka". Dzięki niej handlowcy i klienci mogą dokonywać transakcji za dosłownie grosik - niezależnie od kwoty. Przyszłość rysuje się w świetlanych barwach dzięki globalnej adopcji, rosnącej wartości waluty, nieograniczonemu i zdecentralizowanemu rozwojowi.
     - |
       Wszyscy posiadacze Bitcoinów z dniem 1 sierpnia (blok 478558) są także posiadaczami Bitcoin Cash. Przyłączcie się do naszej wspólnoty i pokażmy uczciwą walutę całemu światu.
-  features:
-    - |
-      <strong>Skalowanie On-Chain</strong> - Bitcoin Cash podąża za wizją Satoshi Nakamoto (twórcy Bitcoina) zwiększając moc transakcyjną poprzez tzw. "on-chain scaling". Zwiększyliśmy wielkość bloku w łańcuchu (z ang. block-chain) do 8MB - z możliwością dostosowania w razie potrzeby. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank"> Prowadzone są testy by w przyszłości zwiększyć blok jeszcze bardziej by przeprowadzać jeszcze więcej transakcji przy znikomym koszcie.</a>.
-    - |
-      <strong>Nowe sygnatury transakcji</strong> - Nowy algorytm SigHash zwiększa bezpieczeństwo portfela, dodaje tzw. replay-protection oraz eliminuje tzw. problem czasu hashowania (który rośnie z kwadratem wielkości).
-    - |
-      <strong>Nowy algorytm dostosowujący trudność hashowania (DAA)</strong> - Dzięki elastycznemu algorytmowi dostosowywania trudności Proof-of-Work górnicy mogą przełączać się pomiędzy Bitcoin Legacy a Bitcoin Cash kiedy tylko sobie życzą, jednocześnie sieć pozostaje zabezpieczona przed przestojem.
-    - |
-      <strong>Zdecentralizowany rozwój</strong> - Dzięki wielu niezależnym zespołom programistów przyszłość Bitcoin Cash jest odporna na polityczne ataki. Żadna pojedyncza grupa nie jest w stanie kontrolować protokołu Bitcoin Cash. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Lista emailowa bitcoin-ml</a> jest bardzo dobrym forum, by proponować zmiany i koordynować rozwój protokołu.
   faq:
     - question: "Co to jest Bitcoin Cash?"
       answer:

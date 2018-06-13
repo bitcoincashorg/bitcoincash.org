@@ -106,7 +106,6 @@ features:
     description: "A tecnologia <em>blockchain</em> mais robusta do mundo."
 headings:
   about: "O melhor dinheiro do mundo"
-  features: "Novas Funcionalidades"
   nodes: "Nós"
   wallets: "Carteiras"
   services: "Serviços"
@@ -119,15 +118,6 @@ content:
       O Bitcoin Cash traz dinheiro forte para o mundo cumprindo a promessa original do Bitcoin como moeda electrónica de pessoa para pessoa. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
     - |
       Todos os detentores de Bitcoin também são detentores de Bitcoin Cash a partir do bloco 478558. São todos bem-vindos a se juntarem à comunidade Bitcoin Cash enquanto prosseguimos na criação de dinheiro forte e acessível para o mundo inteiro.
-  features:
-    - |
-      <strong>Escalabilidade On Chain</strong> - O Bitcoin Cash segue o plano Nakamoto de adopção global com escalabilidade ao nível da <em>blockchain</em>. Como um primeiro passo, o tamanho limite dos blocos foi tornado ajustável e o limite por omissão aumentado para 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Continua em curso investigação com o objetivo de  permitir aumentos massivos no futuro</a>.
-    - |
-      <strong>Novas Assinaturas de Transacções</strong> - Um novo tipo de assinatura para as transacções fornece protecção contra repetições, segurança reforçada para carteiras físicas e elimina o problema das operações de <em>hash</em> quadráticas.
-    - |
-      <strong>Novo Algoritmo de Ajuste da Dificuldade (AAD)</strong> - Um ajustamento responsivo do algoritmo de prova-de-trabalho permite aos mineradores migrar da rede Bitcoin anterior ao ritmo pretendido, ao mesmo tempo que fornece protecção contra flutuações na taxa de <em>hashing</em>.
-    - |
-      <strong>Desenvolvimento Descentralizado</strong> - Com várias equipas independentes a fornecer implementações de software, o futuro é seguro. O Bitcoin Cash é resistente a ataques políticos e sociais no que toca ao desenvolvimento do protocolo. Nenhum grupo ou projecto pode controlar o protocolo sozinho. A <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">lista de distribuição bitcoin-ml</a> é uma boa forma de realizar propostas de alterações que requerem coordenação entre as diferentes equipas.
   faq:
     - question: "O que é o Bitcoin Cash?"
       answer:
