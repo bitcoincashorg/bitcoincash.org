@@ -77,7 +77,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "關於"
   features: "功能"
   nodes: "節點"
@@ -106,7 +105,6 @@ features:
   - title: "安全"
     description: "世上最強大的區塊鏈科技。"
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "世上最佳的貨幣"
   features: "最新功能"
   nodes: "節點"
@@ -116,9 +114,6 @@ headings:
   exchanges: "交易所"
   faq: "常見問題"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       比特幣現金 (Bitcoin Cash) 為世界帶來一種可靠的貨幣，滿足原先比特幣身為「點對點數位現金」的承諾，並提供商家與使用者低手續費且可靠的交易確認。它，因其不受限制的成長、全世界的普及、無須允許的創新，以及去中心化的開發，有著極為光明的未來。

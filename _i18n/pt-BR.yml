@@ -77,7 +77,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Sobre"
   features: "Funcionalidades"
   nodes: "Nodos"
@@ -106,7 +105,6 @@ features:
   - title: "Seguro"
     description: "A tecnologia blockchain mais robusta do mundo."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "O melhor dinheiro do mundo"
   features: "Novas funcionalidades"
   nodes: "Nodos"
@@ -117,9 +115,6 @@ headings:
   exchanges: "Corretoras"
   faq: "Perguntas Frequentes"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash introduz uma moeda robusta para o mundo, satisfazendo a promessa inicial do Bitcoin como uma "Moeda eletrônica de pessoa para pessoa". Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
