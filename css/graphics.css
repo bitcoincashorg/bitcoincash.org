@@ -475,6 +475,12 @@ h1, h2, h3, h4, h5, h6 {
   color:rgba(0,0,0,0.5) !important;
 }
 
+
+.subpage-header .text-inner {
+  display:block !important;
+  padding-top:150px !important;
+}
+
 #faq-section a {
   color:#777;
 }
@@ -1086,6 +1092,17 @@ h1, h2, h3, h4, h5, h6 {
 flex-direction: row;
 flex-wrap: wrap;}
 
+
+.item-promo p {
+ margin-bottom:0;
+}
+.item-promo {
+  margin-bottom:50px;
+}
+
+.item-promo .btn {
+  margin-top:10px;
+}
 
 @media screen and (max-width: 1200px) {
 
