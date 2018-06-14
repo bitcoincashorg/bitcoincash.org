@@ -1,4 +1,28 @@
-<section class="space--xxs no-bottom" id="about-section" data-section="about">
+
+<section class="space--xxs" id="about-section" data-section="about">
+    <div class="container">
+        <div class="row section-heading to-animate">
+
+            <div class='col-sm-12 text-center'>
+                <h2>{% t 'headings.about' %}</h2>
+            </div>
+
+            <div class='col-sm-12 col-md-6 text-center'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NF7J2CZ_guw?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+
+            <div class='col-sm-12 col-md-6'>
+                {% for c in site.translations[site.lang]["content"]["about"] %}
+                <p>{{ c }}</p>
+                {% endfor %}
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<section class="space--xxs no-bottom" >
     <div class="container benefits">
         {% assign features = site.translations[site.lang]["features"] %}
         <div class="row text-center">
@@ -38,19 +62,3 @@
     </div>
 </section>
 <a id="about"></a>
-<section class="space--xxs" data-section="about2" id="about2-section">
-    <div class="container">
-        <div class="row text-center section-heading to-animate">
-            <div class='col-sm-12'>
-                <h2>{% t 'headings.about' %}</h2>
-            </div>
-        </div>
-        <div class="row to-animate">
-            <div class="col-sm-12 col-md-12">
-                {% for c in site.translations[site.lang]["content"]["about"] %}
-                <p>{{ c }}</p>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
