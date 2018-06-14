@@ -11,13 +11,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#nodes" data-nav-section="nodes" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.nodes' %}</span>
+                        <a href="nodes.html" class="external">
+                            {% t 'sections.nodes' %}
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#wallets" data-nav-section="wallets" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.wallets' %}</span>
+                        <a href="wallets.html" class="external">
+                            {% t 'sections.wallets' %}
                         </a>
                     </li>
                     <li class="dropdown">
@@ -28,17 +28,21 @@
                                     <div class="dropdown__content col-md-{%- t 'misc.dropdown_md_width' %} col-sm-{%- t 'misc.dropdown_sm_width' -%}">
                                         <ul class="menu-vertical">
                                             <li>
-                                                <a href="{% unless page.isHome %}/{%endunless%}#services" data-nav-section="services" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+
+                                                <a href="services.html" class="external">
                                                     {% t 'sections.services' %}
                                                 </a>
+                                                
                                             </li>
+
+
                                             <li>
-                                                <a href="{% unless page.isHome %}/{%endunless%}#projects" data-nav-section="projects" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="projects.html" class="external">
                                                     {% t 'sections.projects' %}
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="{% unless page.isHome %}/{%endunless%}#exchanges" data-nav-section="exchanges" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="exchanges.html" class="external">
                                                     {% t 'sections.exchanges' %}
                                                 </a>
                                             </li>
@@ -61,8 +65,8 @@
                         </div>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.faq' %}</span>
+                        <a href="faq.html" class="external">
+                            {% t 'sections.faq' %}
                         </a>
                     </li>
                     <li class="dropdown">

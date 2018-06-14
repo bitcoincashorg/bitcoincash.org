@@ -11,6 +11,11 @@
 * Edit this section
 *
 * ======================================================= */
+ion-icon {
+  color:#F59332;
+}
+
+
 body {
   font-family: "Ubuntu", Arial, sans-serif;
   font-weight: 300;
