@@ -16,6 +16,33 @@ ion-icon {
 }
 
 
+#step-section {
+  background:#4d4d4d;
+  margin:40px 0;
+}
+
+#step-section * {
+  color:#fff;
+}
+
+#step-section hr {
+  border-color:#333;
+}
+
+#step-section .btn {
+  color:#fff;
+  background:#F59331;
+  border:0;
+}
+#step-section .btn:hover {
+  color:#fff;
+  background:#777;
+}
+
+#step-section .section-heading h2:after {
+  /*background:#fff;*/
+}
+
 body {
   font-family: "Ubuntu", Arial, sans-serif;
   font-weight: 300;
