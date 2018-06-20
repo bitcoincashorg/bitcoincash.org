@@ -138,6 +138,17 @@ p.question {
   margin-bottom: 1.5em;
 }
 
+.nodes div a.btn, .wallets div a.btn, .services div a.btn, .exchanges div a.btn{
+  width:auto;
+  padding:1em 2em;
+  display:inline-block;
+  height:auto;
+  border:0;
+  color:#fff;
+  background:#F59331;
+
+}
+
 @media all and (min-width: 990px) {
   .menu-vertical li {
     white-space: normal;
