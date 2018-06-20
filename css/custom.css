@@ -140,7 +140,7 @@ p.question {
 
 .nodes div a.btn, .wallets div a.btn, .services div a.btn, .exchanges div a.btn{
   width:auto;
-  padding:1em 2em;
+  padding:.8em 1em;
   display:inline-block;
   height:auto;
   border:0;
