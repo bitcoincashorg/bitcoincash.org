@@ -146,6 +146,7 @@ p.question {
   border: 0;
   color: #fff;
   background: #F59331;
+  transition-duration: 0.2s;
 }
 
 @media all and (min-width: 990px) {
