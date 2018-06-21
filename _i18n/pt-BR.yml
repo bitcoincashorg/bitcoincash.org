@@ -113,6 +113,7 @@ headings:
   projects: "Projetos"
   exchanges: "Corretoras"
   faq: "Perguntas Frequentes"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

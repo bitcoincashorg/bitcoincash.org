@@ -242,6 +242,7 @@ headings:
   projects: "Projects"
   services: "Services"
   wallets: "Wallets"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

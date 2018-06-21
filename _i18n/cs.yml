@@ -112,6 +112,7 @@ headings:
   projects: "Projekty"
   exchanges: "Burzy a Směnárny"
   faq: "Často kladené otázky"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

@@ -112,6 +112,7 @@ headings:
   projects: "Проекты"
   exchanges: "Биржи"
   faq: "Часто Задаваемые Вопросы"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

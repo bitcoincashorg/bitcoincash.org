@@ -112,6 +112,7 @@ headings:
   projects: "项目"
   exchanges: "交易所"
   faq: "常见问题"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |
