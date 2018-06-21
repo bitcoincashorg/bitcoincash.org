@@ -13,3 +13,8 @@
     </div>
     <div class="slant"></div>
 </section>
+
+{% comment %}If someone knows a better way to do this, please do {% endcomment %}
+{% for menu in page.submenus %}
+    {% include {{ menu }}/menu.html %}
+{% endfor %}
