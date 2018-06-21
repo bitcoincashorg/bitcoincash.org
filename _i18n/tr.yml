@@ -2,6 +2,7 @@ language: Türkçe
 title:
   index: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

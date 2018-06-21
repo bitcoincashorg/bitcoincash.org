@@ -2,6 +2,7 @@ language: Nederlands
 title:
   index: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

@@ -2,6 +2,7 @@ language: 繁體中文
 title:
   index: "比特幣現金 - 點對點數位現金"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

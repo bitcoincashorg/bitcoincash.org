@@ -2,6 +2,7 @@ language: Tiếng Việt
 title:
   index: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

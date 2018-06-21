@@ -2,6 +2,7 @@ language: Čeština
 title:
   index: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

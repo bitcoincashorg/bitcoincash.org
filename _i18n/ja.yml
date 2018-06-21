@@ -2,6 +2,7 @@ language: 日本語
 title:
   index: "ビットコインキャッシュ - ピアツーピアの電子通貨"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

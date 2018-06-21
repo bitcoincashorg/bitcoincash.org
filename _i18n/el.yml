@@ -2,6 +2,7 @@ language: ελληνικά
 title:
   index: "Bitcoin Cash - Το ψηφιακό νόμισμα αρχιτεκτονικής ομότιμων κόμβων (P2P)"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |

@@ -2,6 +2,7 @@ language: Bahasa Indonesia
 title:
   index: "Bitcoin Cash - Mata Uang P2P Elektronik"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
