@@ -2,6 +2,7 @@ language: Русский
 title: 
   index: "Bitcoin Cash - Пиринговая Цифровая Валюта"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -112,6 +113,7 @@ headings:
   projects: "Проекты"
   exchanges: "Биржи"
   faq: "Часто Задаваемые Вопросы"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

@@ -2,6 +2,7 @@ language: Português Brasil
 title:
   index: "Bitcoin Cash - Moeda eletrônica de pessoa para pessoa"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -113,6 +114,7 @@ headings:
   projects: "Projetos"
   exchanges: "Corretoras"
   faq: "Perguntas Frequentes"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

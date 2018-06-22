@@ -2,6 +2,7 @@ language: Bahasa Melayu
 title:
   index: "Bitcoin Cash - Wang elektronik langsung P2P"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -112,6 +113,7 @@ headings:
   projects: "Projek-projek"
   exchanges: "Penukar-penukar Wang"
   faq: "Soalan Lazim"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |
