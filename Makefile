@@ -21,7 +21,7 @@ dev: _config.yml
 
 .PHONY: container
 container:
-	docker build -t $(PROJECT)bitcoincashorg .
+	docker build --build-arg APP_ENV=$(APP_ENV) -t $(PROJECT)bitcoincashorg .
 
 .PHONY: run
 run: container

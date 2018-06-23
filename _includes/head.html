@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>{{ t title.index }}</title>
+<title>{% t page.title %}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{%- t 'meta.index.description' -%}">
 <meta name="twitter:card" content="summary_large_image">
@@ -12,7 +12,7 @@
 <link href="/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
 {%- if layout.graphics -%}
-<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+ <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
 {% endif -%}
 {%- if layout.theme -%}
 <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -24,11 +24,12 @@
 <link rel="stylesheet" href="/css/graphics.css">
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
 <script src="/js/modernizr-2.6.2.min.js"></script>
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17656782-2"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1814670-4"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments)};
-gtag('js', new Date());
-gtag('config', 'UA-17656782-2');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1814670-4');
 </script>

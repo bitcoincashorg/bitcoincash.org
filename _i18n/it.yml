@@ -2,6 +2,7 @@ language: Italiano
 title:
   index: "Bitcoin Cash - Denaro Contante Peer-to-Peer"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "2"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Info"
   features: "Caratteristiche"
   nodes: "Nodi"
@@ -106,33 +106,20 @@ features:
   - title: "Sicuro"
     description: "La tecnologia blockchain più sicura al mondo."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Il Miglior Denaro del Mondo"
-  features: "Novità"
   nodes: "Nodi"
   wallets: "Portafogli"
   services: "Servizi"
   projects: "Progetti"
   exchanges: "Borse di scambio"
   faq: "Domande Frequenti"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash porta al mondo moneta sonante, realizza l'originale promessa di Bitcoin in quanto "Denaro Elettroinico Peer-to-Peer (da pari a pari)". Commissioni economiche e conferme affidabili vanno a vantaggio di commercianti e clienti. Il futuro sarà luminoso grazie a una crescita senza restrizioni, adozione globale, innovazione libera e sviluppo decentralizzato.
     - |
       Tutti i possessori di Bitcoin al blocco 478558 sono anche possessori di Bitcoin Cash. Siamo tutti invitati e benvenuti nella comunità di Bitcoin Cash, pronti ad andare avanti per creare denaro sonante accessibile al mondo intero.
-  features:
-    - |
-      <strong>Scalabilità "On Chain"</strong> - Bitcoin Cash segue la via tracciata da Nakamoto di un'adozione globale basata sulla crescita delle transazioni 'on-chain', sulla blockchain. Come primo passo, la dimensione massima del blocco è stata resa configurabile, con un iniziale aumento a 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">La ricerca permetterà aumenti consistenti in futuro</a>.
-    - |
-      <strong>Nuove firme per le transazioni</strong> - Una nuvo formato di firma consente la 'replay protection', aumenta la sicurezza dei portafogli hardware ed elimina il problema della inefficienza di firma noto come 'quadratic hashing'.
-    - |
-      <strong>Un nuovo Algoritmo di Adattamento della Difficoltà (DAA)</strong> - Un adattamento della difficoltà di Proof-of-Work più reattivo che permette ai miner di spostarsi liberamente da e verso la blockchain del vecchio Bitcoin senza causare eccessive fluttuazioni della potenza di hashing.
-    - |
-      <strong>Sviluppo Decentralizzato</strong> - Con molteplici gruppi di sviluppo indipendenti che forniscono implementazioni diverse ma compatibili, il futuro è assicurato. Bitcoin Cash è protetto contro attacchi socio-politici allo sviluppo del protocollo. Non esiste un singolo gruppo o progetto che può controllarlo. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">mailing list bitcoin-ml</a> è un buon posto dove proporre cambiamenti che richiedono il coordinamento tra i vari team di sviluppo.
   faq:
     - question: "Cos'è Bitcoin Cash?"
       answer:

@@ -8,10 +8,18 @@
     min-height: 1px;
     width: auto !important;
 }
+.lang-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.lang-menu ul li{
+    width: 50%;
+}
 
 .lang-menu .menu-vertical {
     min-width: 150px;
-    width: auto !important;
+    width: 450px !important;
 }
 
 .menu-vertical li:last-child {

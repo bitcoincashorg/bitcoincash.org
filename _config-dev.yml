@@ -1,6 +1,4 @@
-baseurl: 
-
-baseurl: ""
+baseurl: "/"
 name: BitoinCash.org
 description: Bitcoin Cash is a p2p digital currency
 
@@ -46,29 +44,8 @@ exclude:
   - COPYING
 
 languages:
- - en
-#  - cs
-#  - de-ch
-#  - de
-#  - el
-#  - es
-#  - fr
-#  - hi
-#  - id
-#  - it
-#  - ja
-#  - ko
-#  - ms
-#  - nl
-#  - pl
-#  - pt-BR
-#  - pt-PT
-#  - ru
-#  - sk
-#  - tr
-#  - vi
-#  - zh-CN
-#  - zh-TW
+  - en
+  - es
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 

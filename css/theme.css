@@ -4572,9 +4572,7 @@ h2 + .btn,
 img:last-child {
   margin-bottom: 0;
 }
-img.flag {
-  max-height: 1.85714286em;
-}
+
 img.image--sm:not(:last-child) {
   margin-bottom: 0.92857143em;
 }

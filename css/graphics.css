@@ -475,6 +475,12 @@ h1, h2, h3, h4, h5, h6 {
   color:rgba(0,0,0,0.5) !important;
 }
 
+
+.subpage-header .text-inner {
+  display:block !important;
+  padding-top:150px !important;
+}
+
 #faq-section a {
   color:#777;
 }
@@ -1077,6 +1083,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-person .flag {
   padding-bottom:56px;
+}
+.fh5co-person a.btn {
+  margin-left: 0;
+}
+#media-holder{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+
+
+.item-promo p {
+ margin-bottom:0;
+}
+.item-promo {
+  margin-bottom:50px;
+}
+
+.item-promo .btn {
+  margin-top:10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1735,7 +1760,7 @@ footer.footer-6.bg--secondary .footer__lower {
 section.space--xs,
 footer.space--xs {
   padding-top: 3.71428571em;
-  padding-bottom: 3.71428571em;
+  padding-bottom: 0.71428571em;
 }
 
 .social-list a {

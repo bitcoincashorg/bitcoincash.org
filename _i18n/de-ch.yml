@@ -2,6 +2,7 @@ language: Deutsch Schweiz
 title:
   index: "Bitcoin Cash - Die elektronischi Peer-to-Peer Währig"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Über"
   features: "Features"
   nodes: "Nodes"
@@ -92,47 +92,21 @@ layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Die elektronischi Peer-to-Peer Währig"
   loading: "Am ladä..."
-features:
-  - title: "Schnäll"
-    description: "Mach Gschäft innert Sekundä. Bechum d Bestätigung innert Minutä."
-  - title: "Zueverlässig"
-    description: "Es Netzwerk, das ohni Überlaschtig funktioniert."
-  - title: "Niedrigi Transaktionsköschtä"
-    description: "Verschick Geld global für eistelligi Centbeträg."
-  - title: "Eifach"
-    description: "Eifach und ohni Ärger z benutze."
-  - title: "Stabil"
-    description: "Es Bezahlsystem, wo au es Wertufbewahrigsmittel isch."
-  - title: "Sicher"
-    description: "Die sicherschti Blockchain vodä Wält."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Die bescht Währig vo dä Wält."
-  features: "Neue Features"
   nodes: "Nodes"
   wallets: "Wallets"
   services: "Diänscht"
   projects: "Projäkt"
   exchanges: "Börsä"
   faq: "Hüüfig gstellti Frage"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash bütet dä Wält e solidi Währig, wo dä Originalversion vo Bitcoin als „Peer-to-Peer Electronic Cash“ entspricht. Dä Nutzä für Händler oder Kundä sind zueverlässigi Transaktionä mit tüüfe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globale Akzeptanz, Innovation und dezentralisierte Entwicklig.
     - |
       Jedä, wo bim Block 478558 Bitcoin gha hät, hät automatisch au Bitcoin Cash becho. Jedä isch willkomme, debi z hlefe Bitcoin Cash für die gsamt Wält zuegänglich z mache.
-  features:
-    - |
-      <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt em Leitplan vo Satoshi Nakamoto für globali Akzeptanz dur On-Chain-Skalierig. Als erschte Schritt isch z Blocksizelimit apassbar festgleit wordä. Ebeso isch au z Standardlimit uf 8MB erhöht wordä. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschig wird betriebä, um zuekünftigi Blocksize-Erhöhige z ermöglichä.</a>.
-    - |
-      <strong>Neui Transaktionssignaturä</strong> - En neuä SigHash-Typ bütet Replay Protection, verbesserti Walletsicherheit und Eliminierig vom Quadratic-Hashing-Problem.
-    - |
-      <strong>Neuä Difficulty Adjustment Algorithmus</strong> - Dä neui Algorithmus erlaubt e schnelli Apassig vo dä Difficulty, schützt vor Hashrateschwankige und erlaubt Miner flüssend vo dä Legacy Bitcoin Blockchain uf die vo Bitcoin Cash umzstiege.
-    - |
-      <strong>Dezentralisierti Entwicklig</strong> - Mit mehrere unabhängigä Entwicklerteams, wo Softwareimplementierig bütet, isch d Zuekunft gsicheret. Bitcoin Cash isch resischtänt gege politischi oder soziali Agriff ufd Entwicklig vom Protokoll. Kei einzelni Gruppä oder einzels Projäkt chann’s kontrollierä. Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailinglistä</a> isch e gueti Plattform um Vorschläg für Änderige azbringä, die d Koordination und Zemmearbet vo mehrere Entwicklerteams brucht.
   faq:
     - question: "Was isch Bitcoin Cash?"
       answer:

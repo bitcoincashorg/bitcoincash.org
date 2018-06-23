@@ -2,6 +2,7 @@ language: Język Polski
 title:
   index: "Bitcoin Cash - to elektroniczna waluta peer-to-peer"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Opis"
   features: "Co jest nowego"
   nodes: "Węzły sieci"
@@ -106,33 +106,20 @@ features:
   - title: "Bezpieczny"
     description: "Wykorzystuje najbezpieczniejszą na świecie technologię blockchain."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Najlepsza waluta na świecie"
-  features: "Co jest nowego"
   nodes: "Węzły"
   wallets: "Portfele"
   services: "Usługi"
   projects: "Projekty"
   exchanges: "Giełdy"
   faq: "Często zadawane pytania"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash wypełnia oryginalną wizję Bitcoin'a jako elektroniczna waluta peer-to-peer - tj. "elektroniczna gotówka". Dzięki niej handlowcy i klienci mogą dokonywać transakcji za dosłownie grosik - niezależnie od kwoty. Przyszłość rysuje się w świetlanych barwach dzięki globalnej adopcji, rosnącej wartości waluty, nieograniczonemu i zdecentralizowanemu rozwojowi.
     - |
       Wszyscy posiadacze Bitcoinów z dniem 1 sierpnia (blok 478558) są także posiadaczami Bitcoin Cash. Przyłączcie się do naszej wspólnoty i pokażmy uczciwą walutę całemu światu.
-  features:
-    - |
-      <strong>Skalowanie On-Chain</strong> - Bitcoin Cash podąża za wizją Satoshi Nakamoto (twórcy Bitcoina) zwiększając moc transakcyjną poprzez tzw. "on-chain scaling". Zwiększyliśmy wielkość bloku w łańcuchu (z ang. block-chain) do 8MB - z możliwością dostosowania w razie potrzeby. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank"> Prowadzone są testy by w przyszłości zwiększyć blok jeszcze bardziej by przeprowadzać jeszcze więcej transakcji przy znikomym koszcie.</a>.
-    - |
-      <strong>Nowe sygnatury transakcji</strong> - Nowy algorytm SigHash zwiększa bezpieczeństwo portfela, dodaje tzw. replay-protection oraz eliminuje tzw. problem czasu hashowania (który rośnie z kwadratem wielkości).
-    - |
-      <strong>Nowy algorytm dostosowujący trudność hashowania (DAA)</strong> - Dzięki elastycznemu algorytmowi dostosowywania trudności Proof-of-Work górnicy mogą przełączać się pomiędzy Bitcoin Legacy a Bitcoin Cash kiedy tylko sobie życzą, jednocześnie sieć pozostaje zabezpieczona przed przestojem.
-    - |
-      <strong>Zdecentralizowany rozwój</strong> - Dzięki wielu niezależnym zespołom programistów przyszłość Bitcoin Cash jest odporna na polityczne ataki. Żadna pojedyncza grupa nie jest w stanie kontrolować protokołu Bitcoin Cash. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Lista emailowa bitcoin-ml</a> jest bardzo dobrym forum, by proponować zmiany i koordynować rozwój protokołu.
   faq:
     - question: "Co to jest Bitcoin Cash?"
       answer:

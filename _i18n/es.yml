@@ -2,6 +2,7 @@ language: Español
 title:
   index: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Acerca de"
   features: "Características"
   nodes: "Nodos"
@@ -106,33 +106,20 @@ features:
   - title: "Seguro"
     description: "La tecnología blockchain más robusta del mundo."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "El mejor dinero del mundo"
-  features: "Nuevas características"
   nodes: "Nodos"
   wallets: "Monederos"
   services: "Servicios"
   projects: "Proyectos"
   exchanges: "Casas de cambio"
   faq: "Preguntas frecuentes"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash ofrece una moneda fuerte al mundo, cumpliendo con la promesa inicial de Bitcoin como dinero electrónico de usuario a usuario. Usuarios y comerciantes pueden disfrutar de comisiones bajas y confirmaciones fiables. El futuro es prometedor gracias a crecimiento sin restricciones, adopción global, innovación que no necesita permisos y desarrollo descentralizado.
     - |
       Todo aquel que poseía Bitcoin antes del bloque 478558 también es poseedor de Bitcoin Cash. Todo el mundo es bienvenido en la comunidad de Bitcoin Cash a medida que avanzamos en la creación de una moneda fuerte al alcance de todas las personas del planeta.
-  features:
-    - |
-      <strong>Escalabilidad on-chain</strong> - Bitcoin Cash se mantiene fiel a la hoja de ruta de Nakamoto de conseguir la adopción global al escalar <i>on-chain</i> (en la cadena). Como primer paso se ha implementado un límite del tamaño del bloque ajustable, con una capacidad estándar aumentada a 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Se está estudiando el desarollo que permita aumentos masivos en el futuro</a>.
-    - |
-      <strong>Nuevas firmas digitales</strong> - Un nuevo tipo de SigHash proporciona <i>replay protection</i> (protección frente a transacciones repetidas), mayor seguridad en monederos hardware, y la eliminación del problema de hashing cuadrático.
-    - |
-      <strong>Nuevo algoritmo de ajuste de la dificultad</strong> - Un ajuste reactivo de la dificultad de <i>Proof-of-Work</i> permite a los mineros migrar desde la cadena antigua de Bitcoin (BTC) según lo deseen, a la vez que ofrece protección frente a fluctuaciones en la tasa de hash.
-    - |
-      <strong>Desarrollo descentralizado</strong> - El futuro está a salvo gracias a que son múltiples equipos independientes de desarrolladores los que ofrecen las implementaciones del software. Bitcoin Cash es resistente a ataques políticos y sociales al desarrollo del software. Ningún único grupo o proyecto puede tomar el control. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">lista de correo bitcoin-ml</a> es un buen medio para realizar propuestas de modificaciones al protocolo que requieran coordinación entre los distintos equipos de desarrollo.
   faq:
     - question: "¿Qué es Bitcoin Cash?"
       answer:

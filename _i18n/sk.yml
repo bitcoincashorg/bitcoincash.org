@@ -2,6 +2,7 @@ language: Slovenčina
 title: 
   index: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "2"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Informácie"
   features: "Vlastnosti"
   nodes: "Uzly"
@@ -106,33 +106,20 @@ features:
   - title: "Bezpečná"
     description: "Nejrobustnejší blockchain na svete."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Nejlepšie peniaze na svete"
-  features: "Vlastnosti"
   nodes: "Uzly"
   wallets: "Peňaženky"
   services: "Služby"
   projects: "Projekty"
   exchanges: "Burzy a Zmenárne"
   faq: "Často položené otázky"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
     - |
       Všetci ktorí vlastnili v dobe bloku 478558 akékoľvek Bitcoiny sú automaticky držiteľmi Bitcoin Cash. Všetci ľudia sú vitaní aby sa pripojili ku komunite Bitcoinu Cash a podielali sa na vývoji a šírení skvelej meny dostupnej celému svetu.
-  features:
-    - |
-      <strong>On Chain Škálovateľnosť</strong> - Bitcoin Cash kráča po ceste vytýčenej Satoshi Nakamotom smerom k celosvetovej adopcii a on-chain škálovateľnosti. Prvým krokom bolo nastavenie limitu veľkosti bloku tak, aby mal vychádzajúcu hodnotu 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">V súčasnosti prebieha výskum ďalších masívnych zvýšení tohto limitu</a>.
-    - |
-      <strong>Nové Podpisy Transakcií</strong> - Nový SigHash umožňuje ochranu pred nechceným opakovaným odosielaním transakcie, vylepšuje bezpečnost hardvérových peňaženiek a eliminuje problém s tzv. kvadratickým hashingom.
-    - |
-      <strong>Nový Algoritmus Úpravy Obtiažnosti (DAA)</strong> - Dynamická Proof-of-Work zmena obtiažnosti umožňuje ťažičom bezstarostnú migráciu z pôvodnej siete a zároveň poskytuje ochranu pred fluktuáciou výkonu siete.
-    - |
-      <strong>Decentralizovaný Vývoj</strong> - S niekoľkými nezávislými tímami, ktorí hladajú nejlepšie riešenie budúceho vývoja je budúcnosť meny zabezpečená. Vďaka tomu je Bitcoin Cash rezistentný voči politickým i sociálnym útokom na vývoj protokolu. Žiadna jedna skupina alebo združenie nemôže projekt svojvoľne ovládnuť. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> je dobré miesto pre návrhy vylepšení, které vyžadujú koordináciu medzi vývojovými tímami.
   faq:
     - question: "Čo je Bitcoin Cash?"
       answer:

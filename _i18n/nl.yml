@@ -2,6 +2,7 @@ language: Nederlands
 title:
   index: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Over"
   features: "Features"
   nodes: "Nodes"
@@ -106,33 +106,20 @@ features:
   - title: "Betrouwbaar"
     description: "'s Werelds meest robuuste blockchain-technologie."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Het beste geld ter wereld"
-  features: "Nieuwe Features"
   nodes: "Nodes"
   wallets: "Wallets"
   services: "Diensten"
   projects: "Projecten"
   exchanges: "Exchanges"
   faq: "Veelgestelde vragen"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash brengt betrouwbaar geld naar de wereld en vervult de oorspronkelijke belofte van Bitcoin als "Peer-to-Peer Digitaal Geld". Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
     - |
       Alle Bitcoin-houders vanaf block 478558 zijn ook eigenaar van Bitcoin Cash. Iedereen is welkom bij de Bitcoin Cash community waarin we streven om betrouwbaar geld voor iedereen toegankelijk te maken.
-  features:
-    - |
-      <strong>On-Chain Schaalbaarheid</strong> - Bitcoin Cash volgt de Nakamoto-roadmap van globale adoptie door on-chain schaalbaarheid. Als eerste stap is de blocksize aangepast naar een verhoogde standaard van 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Onderzoek is gaande om enorme verhogingen in de toekomst mogelijk te maken</a>.
-    - |
-      <strong>Nieuwe Transactie-Handtekeningen</strong> - Een nieuw SigHash-type biedt replay protection, verbeterde hardware-walletbeveiliging en eliminatie van het kwadratische hash-probleem.
-    - |
-      <strong>Nieuw Difficulty Adjustment Algorithm (DAA)</strong> - Responsieve Proof-of-Work aanpassingsmoeilijkheid stelt miners in staat te migreren van de legacy Bitcoin-keten, terwijl bescherming wordt geboden tegen hashrate-fluctuaties.
-    - |
-      <strong>Gedecentraliseerde Ontwikkeling</strong> - Met meerdere onafhankelijke teams van ontwikkelaars die software implementaties leveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op de ontwikkeling van protocollen. Geen enkele groep of project kan het besturen. De <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkelteams vereisen.
   faq:
     - question: "Wat is Bitcoin Cash?"
       answer:

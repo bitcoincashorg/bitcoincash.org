@@ -2,6 +2,7 @@ language: Tiếng Việt
 title:
   index: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "2"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Về chúng tôi"
   features: "Tính năng"
   nodes: "Mạng lưới Node"
@@ -106,33 +106,20 @@ features:
   - title: "Bảo mật"
     description: "Công nghệ Blockchain mạnh nhất thế giới."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Là đồng tiền điện tử tốt nhất thế giới"
-  features: "Tính năng mới"
   nodes: "Mạng lưới Node"
   wallets: "Ví"
   services: "Dịch vụ"
   projects: "Dự án"
   exchanges: "Sàn giao dịch"
   faq: "Những câu hỏi thường gặp"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử, hoàn thành sứ mệnh ban đầu của Bitcoin là "Đồng tiền Điện tử Peer-to-Peer". Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
     - |
       Tất cả những người dùng sở hữu Bitcoin tại khối 478558 cũng đồng thời là chủ sở hữu của Bitcoin Cash. Chào mừng tất cả đến với cộng đồng Bitcoin Cash trong khi chúng tôi đang tiến về phía trước trong việc tạo ra tiếng nói có thể tiếp cận được với cả thế giới.
-  features:
-    - |
-      <strong>Khả năng mở rộng chuỗi</strong> - Bitcoin Cash theo dõi đúng lộ trình về quy mô mở rộng trên toàn cầu của Satoshi Nakamoto. Bước đầu tiên, giới hạn kích cỡ khối đã được điều chỉnh, với sự gia tăng mặc định là 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Nghiên cứu đang được tiến hành xử lí để cho phép tăng kích cỡ khối trong tương lai</a>.
-    - |
-      <strong>Chữ ký giao dịch mới</strong> - Một loại SigHash mới cung cấp bảo vệ chống tấn công lặp lại, cải thiện độ an toàn của ví phần cứng và loại bỏ vấn đề băm quadratic.
-    - |
-      <strong>Thuật toán điều chỉnh độ khó Mới (DAA)</strong> - Điều chỉnh độ khó về "Bằng chứng công việc" cho phép các thợ mỏ di chuyển từ chuỗi Bitcoin kế thừa theo ý muốn, đồng thời bảo vệ chống lại các biến động về Hashrate.
-    - |
-      <strong>Phát triển phi tập trung</strong> - Với một đội ngũ phát triển độc lập, nhiều người cung cấp việc triển khai phần mềm, tương lai sẽ rất an toàn. Bitcoin Cash chống lại các cuộc tấn công chính trị và xã hội về phát triển giao thức. Không một tổ chức hoặc dự án nào có thể kiểm soát nó. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank"> danh sách gửi thư bitcoin-ml </a> là một địa điểm lý tưởng để đưa ra các đề xuất thay đổi cần thiết cho sự phối hợp giữa các nhóm phát triển.
   faq:
     - question: "Bitcoin Cash là gì?"
       answer:

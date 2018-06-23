@@ -2,6 +2,7 @@ language: Français
 title: 
   index: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "À propos"
   features: "Fonctionnalités"
   nodes: "Nœuds"
@@ -106,33 +106,20 @@ features:
   - title: "Securisé"
     description: "La chaine de blocs la plus robuste."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "La meilleure monnaie du Monde"
-  features: "Nouvelles fonctionnalités"
   nodes: "Nœuds"
   wallets: "Portefeuilles"
   services: "Services"
   projects: "Projets"
   faq: "Foire Aux Questions"
   exchanges: "Plateformes d'échange"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     - |
       Tous les détenteurs de Bitcoins au bloc 478558 sont détenteurs de Bitcoins Cash. Tous sont les bienvenues à se joindre à la communauté Bitcoin Cash pour créer une monnaie saine accessible au monde entier.
-  features:
-    - |
-      <strong>Evolutivité "On Chain"</strong> - Bitcoin Cash poursuit la vision de Satoshi Nakamoto roadmap d'une adoption globale en enregistrant l'ensemble des transactions dans la chaine de blocs ("On Chain"). Dans un premier temps, la limite de taille des blocs a été rendue ajustable, avec une valeur proposée par défaut de 8 Mo. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Des recherches sont en cours (qui ont d'ores et déjà validé des résultats significatifs) afin de permettre des augmentations massives da la taille de ces blocs</a>.
-    - |
-      <strong>Nouvel algorithme pour les signatures de transactions</strong> - Un nouvel algorithme de signature permet d'éviter qu'un attaquant puisse intercepter une transaction sur la chaine Bitcoin, et la re-diffuser une seconde fois sur la chaine Bitcoin Cash - et vice versa (replay protection). Cette fonctionnalité vous permet d'utiliser vos applications de manière sécurisée et sans arrière-pensées. Par ailleurs, cet algorithme permet de résoudre un problème lié à un cas adverse entrainant une augmentation quadratique du temps de validation des signatures, connu sous le nom de "Quadratic Hashing".
-    - |
-      <strong>Nouvel algorithme d'ajustement de la difficulté (Difficulty Adjustment Algorithm ou DAA)</strong> - L'algorithme calculant la difficulté pour le minage par preuve de travail a été légèrement modifié afin d'en optimiser la réactivité pour permettre aux mineurs de migrer de l'ancienne chaine Bitcoin selon leur désir, sans que cela implique de variation notable dans le temps moyen entre les blocs.
-    - |
-      <strong>Développement décentralisé</strong> - Avec plusieurs groupes de développeurs qui implémentent autant de logiciels compatibles avec le protocole Bitcoin Cash, le futur est assuré : Le développement du protocole de Bitcoin Cash est résistant aux attaques politiques et sociales. Aucun groupe ou projet ne peut en prendre le contrôle. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est le point d'entrée pour les nouvelles propositions et le centre de coordination entre les différentes équipes de développement.
   faq:
     - question: "Qu'est ce que Bitcoin Cash ?"
       answer:

@@ -2,6 +2,7 @@ language: हिन्दी
 title:
   index: "बिटकोइन कैश - पीयर-टू-पीयर इलेक्ट्रॉनिक कैश"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "के बारे में"
   features: "विशेषताएं"
   nodes: "नोड्स(गांठ)"
@@ -106,33 +106,20 @@ features:
   - title: "सुरक्षित"
     description: "दुनिया का सबसे मजबूत ब्लॉकचैन प्रौद्योगिकी"
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "विश्व में सर्वश्रेष्ठ पैसा"
-  features: "नए विशेषताएँ"
   nodes: "नोड्स(गांठ)"
   wallets: "पर्स"
   services: "समुदाय"
   projects: "परियोजनाओं"
   exchanges: "एक्सचेंजों"
   faq: "सामान्य प्रश्न"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       बिटकॉइन कैश ने दुनिया में लाजवाब पैसा लाया है। व्यापारी और उपयोगकर्ताओं को कम शुल्क और विश्वसनीय पुष्टि के साथ सशक्त हैं। भविष्य में अप्रतिबंधित वृद्धि, वैश्विक अपनाने, अनुमतिहीन नवाचार और विकेन्द्रीकृत विकास के साथ चमकती है
     - |
       ब्लॉक 478558 के रूप में सभी बिटकॉइन धारक भी बिटकॉइन कैश के मालिक हैं। हम सभी को पूरी दुनिया के लिए सुलभ ध्वनि पैसे बनाने में आगे बढ़ने के लिए बिटकॉइन कैश समुदाय में शामिल होने के लिए सभी का स्वागत है।
-  features:
-    - |
-      <strong> चेन स्केलेबिलिटी पर</strong> - बिटकोइन कैश ऑन-चेन स्केलिंग के साथ वैश्विक गोद लेने के नाकामोटो रोडमैप का अनुसरण करता है। पहला कदम के रूप में, 8 एमबी की वृद्धि हुई डिफ़ॉल्ट के साथ, ब्लॉक की सीमा को समायोज्य बना दिया गया है <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank"> विशाल भविष्य की बढ़ोतरी की अनुमति देने के लिए अनुसंधान चल रहा है</a>
-    - |
-      <strong> नया लेन-देन हस्ताक्षर</strong> - एक नया सिगहाश प्रकार रेप्ल सुरक्षा, बेहतर हार्डवेयर वॉलेट सुरक्षा प्रदान करता है, और द्विघात हैशिंग समस्या को समाप्त कर देता है।
-    - |
-      <strong> नई कठिनाई समायोजन एल्गोरिथ्म (डीएए)</strong> - कार्यप्रणाली के उत्तरदायित्व के उत्तरदायित्व में हानिकारक उतार-चढ़ाव के खिलाफ सुरक्षा प्रदान करते हुए खनिकों को वांछित विरासत विकिपीडिया श्रृंखला से माइग्रेट करने की अनुमति मिलती है।
-    - |
-      <strong> विकेंद्रीकृत विकास</strong> - डेवलपर्स की कई स्वतंत्र टीमों के साथ सॉफ्टवेयर लागू करने, भविष्य सुरक्षित है। बिटकॉइन कैश प्रोटोकॉल विकास पर राजनीतिक और सामाजिक हमलों के लिए प्रतिरोधी है। कोई भी समूह या प्रोजेक्ट इसे नियंत्रित नहीं कर सकता। <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank"> bitcoin-ml मेलिंग सूची </a> आवश्यकतानुसार बदलावों के प्रस्ताव बनाने के लिए एक अच्छा स्थल है विकास दल में समन्वय
   faq:
     - question: "बिटकॉइन कैश क्या है?"
       answer:

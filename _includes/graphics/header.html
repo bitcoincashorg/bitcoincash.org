@@ -1,4 +1,4 @@
-<section id="fh5co-home" data-section="home" class="site-header">
+<section id="fh5co-home" data-section="home" class="site-header subpage-header">
     <div class="container">
         <div class="text-wrap">
             <div class="text-inner">
@@ -13,3 +13,8 @@
     </div>
     <div class="slant"></div>
 </section>
+
+{% comment %}If someone knows a better way to do this, please do {% endcomment %}
+{% for menu in page.submenus %}
+    {% include {{ menu }}/menu.html %}
+{% endfor %}

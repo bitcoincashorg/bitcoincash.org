@@ -2,6 +2,7 @@ language: 한국어
 title:
   index: "비트코인캐시 - 피어-투-피어 전자 현금"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "관하여"
   features: "기능"
   nodes: "노드"
@@ -106,33 +106,20 @@ features:
   - title: "안전성"
     description: "세상에서 가장 견고한 블록체인 기술."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "세계 최고의 화폐"
-  features: "새로운 기능"
   nodes: "노드"
   wallets: "지갑"
   services: "서비스"
   projects: "프로젝트"
   exchanges: "거래소"
   faq: "자주묻는문답"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       "피어-투-피어 전자 현금" 이라는 비트코인의 원래의 목적에 부합하는, 비트코인캐시는 세계에 건전한 화폐를 가능케합니다. 상인들과 사용자들은 낮은 수수료와 신뢰있는 승인의 권한이 주어집니다. 미래는 무제한성장, 세계적 채택, 허가없는 혁신, 탈중앙화된 개발로 밝게 빛납니다.
     - |
       478558 블록까지의 비트코인 보유자는 또한 비트코인캐시의 소유자입니다. 전세계에 받아들여지는 건전한 화폐를 만들기 위해 나아가는 비트코인캐시 커뮤니티에는 누구든 함께할수 있습니다.
-  features:
-    - |
-      <strong>온 체인 확장성</strong> - 비트코인캐시는 온-체인 확장의 전세계적인 채택으로 나카모토의 로드맵을 따릅니다. 첫걸음으로, 블록크기 제한이 기본 8MB이나 조정가능하게끔 만들어졌습니다. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">연구는 거대한 미래의 확장을 위해 수행중</a>.
-    - |
-      <strong>새로운 거래 서명</strong> - 새로운 시그해쉬는 리플레이프로텍션을 제공하여, 하드웨어 지갑의 안정성을 증진시키고 이차의 해싱문제를 제거합니다.
-    - |
-      <strong>새로운 난이도 조절 알고리즘 (DAA)</strong> - 반응이 빠른 작업증명 난이도 조절은 기존 비트코인에서 채굴자들이 옮길수있게 하면서도, 해시레이트의 변동에서 보호될수있게 합니다.
-    - |
-      <strong>분산화된 개발</strong> - 소프트웨어 수행을 제공하는 다양한 독립적인 개발자들의 덕분에, 미래는 안전합니다. 비트코인캐시는 프로토콜 개발에 대한 정치적이고 사회적인 공격에 저항합니다. 어떠한 하나의 그룹이나 프로젝트가 제어할수없습니다. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">비트코인 메일링리스트</a>는 개발팀을 넘어서 제안하고 변화를 요청할수 있는 좋은 장소입니다.
   faq:
     - question: "비트코인캐시는 무엇입니까?"
       answer:

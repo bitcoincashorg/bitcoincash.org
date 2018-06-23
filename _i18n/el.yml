@@ -2,6 +2,7 @@ language: ελληνικά
 title:
   index: "Bitcoin Cash - Το ψηφιακό νόμισμα αρχιτεκτονικής ομότιμων κόμβων (P2P)"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "4"
 sections:
-  announcement: "Announcement"
   about: "Σχετικά με"
   features: "Χαρακτηριστικά"
   nodes: "Κόμβοι"
@@ -92,33 +92,16 @@ layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Ψηφιακό νόμισμα αρχιτεκτονικής ομότιμων κόμβων (P2P)"
   loading: "Φορτώνει..."
-features:
-  - title: "Ταχύτητα"
-    description: "Συναλλαγές άμεσα. Επιβεβαίωση σε λίγα λεπτά"
-  - title: "Εμπιστοσύνη"
-    description: "Αποσυμφορημένο δίκτυο."
-  - title: "Χαμηλά κόμιστρα"
-    description: "Στείλτε λεφτά παντού στον κόσμο, πληρώνοντας δεκάρες"
-  - title: "Απλό"
-    description: "Εύκολο στην χρήση. Χωρίς ταλαιπωρία"
-  - title: "Σταθερό"
-    description: "Ένα σύστημα συναλλαγών με αποδεδειγμένη αξία ως νομισματική αποθήκη"
-  - title: "Ασφαλές"
-    description: "Παγκόσμια αξιοπιστία μεσω της αρχιτεκτονικής ‘Αλυσίδα Κοινοποιήσεων’ (blockchain)"
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Το καλύτερο χρήμα στον κόσμο"
-  features: "Νέα χαρακτηριστικά"
   nodes: "Κόμβοι"
   wallets: "Πορτοφόλια"
   services: "Υπηρεσίες"
   projects: "Έργα"
   exchanges: "Ανταλλακτήρια"
   faq: "Συχνές Ερωτήσεις"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Το Bitcoin Cash φέρνει ένα ισχυρό νόμισμα στο παγκόσμιο προσκήνιο, εκπληρώνοντας την αρχική υπόσχεση του Bitcoin για ένα ψηφιακό νόμισμα αρχιτεκτονικής ομότιμων κόμβων (P2P). Έμποροι και απλοί χρήστες εξουσιοδοτούνται για την χρήση του, πληρώνοντας χαμηλά κόμιστρα σε αξιόπιστες συναλλαγές. Ένα νέο λαμπρό μέλλον με απεριόριστες δυνατότητες επέκτασης, παγκόσμια προσαρμογή, ανεμπόδιστη εφευρετικότητα και αποκεντρωμένη ανάπτυξη και σχεδιασμό.

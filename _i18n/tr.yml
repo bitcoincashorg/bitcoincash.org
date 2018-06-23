@@ -2,6 +2,7 @@ language: Türkçe
 title:
   index: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -77,7 +78,6 @@ misc:
   dropdown_md_width: "2"
   dropdown_sm_width: "3"
 sections:
-  announcement: "Announcement"
   about: "Hakkında"
   features: "Özellikler"
   nodes: "Ağ Noktaları"
@@ -106,33 +106,20 @@ features:
   - title: "Emniyetli"
     description: "Dünyanın en sağlam blokzinciri teknolojisi."
 headings:
-  announcement: "May 2018 Network Upgrade"
   about: "Dünyanın En İyi Parası"
-  features: "Yeni Özellikler"
   nodes: "Ağ Noktaları"
   wallets: "Cüzdanlar"
   services: "Hizmetler"
   projects: "Projeler"
   exchanges: "Takas Merkezleri"
   faq: "Sıkça Sorulan Sorular"
+  listingrequest: "Submit a listing request"
 content:
-  announcement:
-    - |
-      The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
   about:
     - |
       Bitcoin Cash, Bitcoin'in esas amacı olan "Kişiler Arası Elektronik Nakit" niteliğini koruyarak dünyaya sağlam parayı sunuyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
     - |
       Blok 478558 itibariyle tüm Bitcoin sahipleri aynı miktarda Bitcoin Cash sahibidirler. Biz tüm dünyaya açık, sağlam bir para birimi geliştirirken herkesi bize katılamaya davet ediyoruz.
-  features:
-    - |
-      <strong>Zincir Üzeri Ölçeklenme</strong> - Bitcoin Cash, küresel benimsenmenin zincir-üzeri ölçeklenme ile erişileceğini savunan Nakamoto yol haritasini izlemektedir. İlk adim olarak, blok boyutu sınırı ayarlanabilir yapılmıştır ve sınır 8MB'a çıkarılmıştır. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Büyük çapta artışa imkan vermek için çalışmalar devam etmektedir</a>.
-    - |
-      <strong>Yeni İşlem İmzaları</strong> - Yeni bir tip kriptografik özet fonksiyonu sayesinde işlem tekrarlama koruması, geliştirilmiş donanım cüzdanı güvenliği ve ikinci dereceden hesaba dayalı adresleme probleminin kaldırılmasını sağlar.
-    - |
-      <strong>Yeni Zorluk Ayarlarma Algoritması (ZAA)</strong> - Duyarlı iş-ispatı zorluk ayarı sayesinde madencilerin miras Bitcoin zincirinden geçiş yapması sağlanırken işlem hızı dalgalanması için koruma sağlar.
-    - |
-      <strong>Merkeziyetsiz Gelişim</strong> - Birçok bağımsız yazılımcı ekibi sayesinde gelecek güvende. Bitcoin Cash'in gelişimi politik ve sosyal saldırlardan etkilenemez. Hiçbir tekil topluluk ya da şahıs kontrol edemez. Bitcoin-ml <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">e-posta listesi</a> yazılımcılara tavsiyeler için iyi bir kaynaktır.
   faq:
     - question: "Bitcoin Cash nedir?"
       answer:
