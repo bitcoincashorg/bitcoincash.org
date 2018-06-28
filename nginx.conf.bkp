@@ -1,5 +1,33 @@
 map $http_accept_language $lang {
     default en;
+    ~^cs cs;
+    ~^de-ch de-CH;
+    ~^de-CH de-CH;
+    ~^de de;
+    ~^el el;
+    ~^en en;
+    ~^es es;
+    ~^fr fr;
+    ~^hi hi;
+    ~^in in;
+    ~^it it;
+    ~^ja ja;
+    ~^ko ko;
+    ~^ms ms;
+    ~^nl nl;
+    ~^pl pl;
+    ~^pt-br pt-BR;
+    ~^pt-BR pt-BR;
+    ~^pt-pt pt-PT;
+    ~^pt-PT pt-PT;
+    ~^pt pt-BR;
+    ~^tr tr;
+    ~^vi vi;
+    ~^zh-cn zh-CN;
+    ~^zh-CN zh-CN;
+    ~^zh-tw zh-TW;
+    ~^zh-TW zh-TW;
+    ~^zh zh-CN;
 }
 
 server {
