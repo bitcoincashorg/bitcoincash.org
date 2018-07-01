@@ -1,52 +1,75 @@
 
 +++
-date = "2018-06-30"
+date = "2018-07-01"
 title = "Block"
-description = "Block header, coinbase tx, valiation rules"
+description = "Block header, version, header hash, merkle root hash, timestamp, target, nonce, coinbase tx, valiation rules"
 category = "bch spec"
 +++
 
-This section describes the block format, block contents, and block validation rules for implementing a BCH compatible client.
+This section of the BCH spec defines the block format, block contents, and block validation rules for implementing a compatible BCH client.
 
 # Block
-A **block** is a collection of one or more transactions prefaced by a **block header** and protected by the [proof-of-work](proof-of-work). Each block in the blockchain contains the current transactions that have been verified plus a hash of the previous block. The first transaction in the **block body** is a required special transaction called the **coinbase transaction**. An algorithm ensures that a new block is generated every 10 minutes (600 seconds) on average.
+A **block** is one of the two base primitives in the BCH system, the other being a **transaction**. Primitive in this context means it is one of the data structures for which the BCH software provides built-in support. 
 
-A **block** is one of the two base primitives in the BCH system, the other being a **transaction**. Primitive in this context means it is one of the data structures for which the BCH software provides built-in support.
+Nodes collect new transactions into a **block**, hash them into a hash tree (**merkle root hash**), and scan through **nonce** values to make the block's hash satisfy proof-of-work requirements.
+
+When a miner solves the proof-of-work, it broadcasts the block to network nodes and if the block is valid it is added to the block chain. The first transaction in the block is the **coinbase transaction** that creates a new coin owned by the creator of the block. An algorithm ensures that a new block is generated every 10 minutes (600 seconds) on average.
+
+The block validation rules described here ensure that BCH nodes stay in consensus with other nodes. There are several rules that must be respected for a block to be valid.
 
 ## Block Header
-The block header is the first 80-bytes of each block comprising six fields concatenated together: [version](#version), [hash of previous block](#previous-block-hash), [hash of the merkle root](#merkle-root-hash), [timestamp](#time), [difficulty](difficulty-target), and [nonce](#nonce). See [Block Header Requirements](#block-header-requirements).
+Block headers are serialized in the 80-byte format comprising six fields: [version](#version), [previous block hash](#previous-block-hash), [merkle root hash](#merkle-root-hash), [timestamp](#time), [difficulty target](target), and [nonce](#nonce).
 
-A block is identified by the hash of its header which is a unique signature for each block in the blockchain. The block header hash is included in the next block that is mined. The block header includes a pointer to the previous block that links them in the blockchain.
+The block header is hashed as part of the proof-of-work algorithm, making the serialized header format part of the consensus rules. The hash of the block header is the unique signature of the block. The block header hash is included in the next block that is mined. The block header includes a pointer to the previous block that links them in the blockchain.
 
-The block header is 80 bytes serialized in binary format and requires the following six fields:
+The block header requires the following six fields. Note that the hashes are in internal byte order; all other values are in little-endian order.
 
 Field 			| Size (bytes) 	| Data type | Description
 ----------------|---------------|-----------|------------
-`nVersion` 		| 4 			| int32_t 	| The version number indicates which set of block validation rules to follow.
-`hashPrevBlock` | 32 			| uint256 	| The SHA256(SHA256(Block_Header)) hash digest of the previous block’s header.
-`hashMerkleRoot`| 32 			| uint256 	| SHA256(SHA256(Merkle_Root)) hash digest of the merkle root.
+`nVersion` 		| 4 			| int32_t 	| The block version number indicates which set of block validation rules to follow.
+`hashPrevBlock` | 32 			| uint256 	| The SHA256(SHA256(Block_Header)) message digest of the previous block’s header.
+`hashMerkleRoot`| 32 			| uint256 	| The SHA256(SHA256(Merkle_Root)) message digest of the merkle root.
 `nTime` 		| 4 			| uint32_t 	| Current timestamp in seconds since 1970-01-01T00:00 UTC (Unix time).
 `nBits` 		| 4 			| uint32_t 	| Difficulty target for the proof-of-work for this block.
 `nNonce`		| 4 			| uint32_t 	| 32-bit number (starts at 0) used to generate this block (the "nonce").
 
-### Version
-The block header version number is a signed 4 byte integer (int32_t) that indicates which set of block validation rules to follow. For BCH the current version value is ???
+### Block Version
+The block version number is a signed 4 byte integer (int32_t) that indicates which set of block validation rules to follow. The current version of the BCH validation rules is ????.
 
 ### Previous Block Hash
-The SHA256(SHA256(Block_Header)) hash digest of the previous block’s header. This ensures no previous block can be changed without also changing this block’s header. 
+The SHA256(SHA256(Block_Header)) message digest (hash) of the previous block’s header in internal byte order. This ensures no previous block can be changed without also changing this block’s header. 
 
-### Merkle Root
-The **Merkle root** is a SHA256(SHA256(Merkle_root)) hash digest that is derived from the hashes of all transactions in the block. The Merkle root ensures the integrity of transactions in the block because they cannot be modified without changing the block header.
+### Merkle Root Hash
+The Merkle tree is data structure that provides a record of all transactions in the block in order of the transaction timestamp. Each transaction in the block is a leaf in the Merkle tree and includes a hash of the previous transaction hash. The Merkle root is derived from the hashes of all transactions included in this block. The hash of the Merkle root ensures that no transaction can be modified without modifying the block header.
 
-The Merkle tree is a record of all transactions in the block in order of the transaction timestamp. Each transaction in the block is a leaf in the tree and includes a hash of the previous transaction hash. The Merkle root thereby a hash of all transactions in the block. 
+The merkle root is constructed using the TXIDs of all transactions in the block. TXIDs must be placed in order as required by the consensus rules:
+
+* The coinbase transaction TXID is always placed first.
+
+* Any input within this block can spend an output which also appears in this block (assuming the spend is otherwise valid). However, the TXID corresponding to the output must be placed at some point before the TXID corresponding to the input. This ensures that any program parsing block chain transactions linearly will encounter each output before it is used as an input.
+
+If a block only has a coinbase transaction, the coinbase TXID is used as the merkle root hash.
+
+If a block only has a coinbase transaction and one other transaction, the TXIDs of those two transactions are placed in order, concatenated as 64 raw bytes, and then SHA256(SHA256()) hashed together to form the merkle root.
+
+If a block has three or more transactions, intermediate merkle tree rows are formed. The TXIDs are placed in order and paired, starting with the coinbase transaction's TXID. Each pair is concatenated together as 64 raw bytes and SHA256(SHA256()) hashed to form a second row of hashes. If there are an odd (non-even) number of TXIDs, the last TXID is concatenated with a copy of itself and hashed. If there are more than two hashes in the second row, the process is repeated to create a third row (and, if necessary, repeated further to create additional rows). Once a row is obtained with only two hashes, those hashes are concatenated and hashed to produce the merkle root.
+
+TXIDs and intermediate hashes are always in internal byte order when they're concatenated, and the resulting merkle root is also in internal byte order when it's placed in the block header.
 
 Note that the Merkle root makes it is possible in the future to securely verify that a transaction has been accepted by the network using just the block header (which includes the Merkle tree), eliminating the current requirement to download the entire blockchain.
 
-### Timestamp
-The block timestamp is Unix epoch time when the miner started hashing the header according to the miner's clock. The block timestamp must be greater than the median time of the previous 11 blocks. Full nodes will not accept blocks with timestamps more than two hours in the future according to their clock.
+### Block Timestamp
+The block timestamp is Unix epoch time when the miner started hashing the header according to the miner's clock. The block timestamp must be greater than the median time of the previous 11 blocks. Nodes will not accept blocks with timestamps more than two hours in the future according to their clock.
 
 ### Difficulty Target
-The difficulty target establishes the rules for [proof-of-work](#proof-of-work). Specifically, the difficulty target is an encoded version of the target threshold this block’s header hash must be less than. The block header hash must satisfy the `nBits` target.
+The difficulty target is a 256-bit unsigned integer which a header hash must be below for that header to be a valid part of the block chain. The header field *nBits* provides only 32 bits of space, so the target number uses a less precise format called "compact" which works like a base-256 version of scientific notation. As a base-256 number, nBits can be parsed as bytes the same way you might parse a decimal number in base-10 scientific notation.
+
+Although the target threshold should be an unsigned integer, the class from which the original nBits implementation inherits properties from a signed data class, allowing the target threshold to be negative if the high bit of the significand is set. 
+
+* When parsing nBits, the system converts a negative target threshold into a target of zero, which the header hash can equal (in
+  theory, at least).
+
+* When creating a value for nBits, Bitcoin Core checks to see if it will produce an nBits which will be interpreted as negative; if so, it divides the significand by 256 and increases the exponent by 1 to produce the same number with a different encoding.
 
 Difficulty is a measure of how difficult it is to find a hash below a given target. The BCH network has a global block difficulty. Valid blocks must have a hash below the difficulty target set by `nBits` value.
 
@@ -55,7 +78,11 @@ In the block header the difficulty target is a hash where the leading 32 bits ar
 Each block stores a packed representation (called "Bits") for its actual hexadecimal target. The target can be derived from it via a predefined formula. The current difficulty target is available here: <https://blockexplorer.com/api/status?q=getDifficulty>.
 
 ### Nonce
-The nonce is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros. The rest of the fields may not be changed, as they have a defined meaning. A nonce that results in a hash value that is lower than the difficulty target with the required number of leading zeros (currently 32) satifies the proof-of-work. 
+To be valid, a block include a **nonce** value that is the solution to the mining process. This proof-of-work is verified by other BCH nodes each time they receive a block.
+
+The nonce is a 32-bit (4-byte) field whose value is arbitrarily set by miners to modify the header hash and produce a hash that is less than the difficulty target with the required number of leading zeros (currently 32) satifies the proof-of-work.
+
+An arbitrary number miners change to modify the header hash in order to produce a hash less than or equal to the target threshold.  If all 32-bit values are tested, the time can be updated or the coinbase transaction can be changed and the merkle root updated. 
 
 The nonce is an arbitrarily changed by miners to modify the header hash and produce a hash less than the difficulty target. If all 32-bit values are tested, the time can be updated or the coinbase transaction can be changed and the merkle root updated.
 
@@ -63,43 +90,27 @@ Any change to the nonce will make the block header hash completely different. Si
 
 It is mportant to note that the proof-of-work can be verified by computing one hash with the proper content, and is therefore very cheap. The fact that the proof is cheap to verify is as important as the fact that it is expensive to compute.
 
+## Coinbase Transaction
+The first transaction in a block must be a **coinbase transaction**.  The coinbase transaction (TX) is a special transaction that is used to pay the miner. The coinbase transaction must collect and spend any transaction fees paid by transactions included in this block. 
 
-## Block Body
-The block body contains one or more transactions, including a single coinbase transaction and zero-or-more client transactions.
+A valid blocks is entitled to receive a block subsidy of newly created bitcoincash value, which also
+should be spent in the coinbase transaction. Together, the transaction fees and block subsidy are called the **block
+reward**. A coinbase transaction is invalid if it tries to spend more value than is available from the block reward. 
 
-### Coinbase Transaction
-A coinbase transaction (TX) is a special transaction that is used to pay the miner. The coinbase transaction remunerates the miner with a reward for proof-of-work and any transaction fees.
+The coinbase transaction must have one input spending from 000000000000000. The field used to provide the signature can contain arbitrary data up to 100 bytes. The coinbase transaction must start with the block height to ensure no two coinbase transactions have the same transaction id (TXID).
 
-The coinbase transaction must have one input spending from 000000000000000. The field used to provide the signature can contain arbitrary data up to 100 bytes. The coinbase transaction must start with the block height to ensure no two coinbase transactions have the same transaction id.
+## Block Searilzation
+Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32 MB. All fields described below count towards the serialized size limit.
 
-### Client Transactions
-A block body includes zero-or-more client transactions. See [Transactions](#transactions) for spec details.
+| Bytes 	| Name 			| Data type 		| Description
+|-----------|---------------|-------------------|------------
+| 80 		| block header 	| block_header 		| The block header in the proper format. See [Block Header](#block-header).
+| Varies 	| txn_count 	| compactSize uint 	| Total number of transactions in this block, including the coinbase transaction.
+| Varies 	| txns 			| raw transaction 	| Each transaction in this block in this block, one after another, in raw transaction format.  Transactions must appear in the data stream in the same order their TXIDs appeared in the first row of the [Merkle tree](#merkle-root-hash).
 
-
-## Block Validation Rules
-There are several rules that must be respected for a block to be valid. To better understand these rules, it is important to appreciate the purpose of the block and block header. 
-
-The block header provides an immutable record of all transactions in a block. The block header ensures the integrity of transactions on the blockchain by leveraging the capabilities of hashing. It would be extremely difficult to alter a transaction after it has been committed to the blockchain because the hash of the previous block header is stored in the subsequent block. As more blocks are mined and added to the blockchain, the block becomes virtually impossible to alter. 
-
-### Block Size
-Under current BCH consensus rules, a block is valid if its searlized size is not more than 32 MB. All fields described below count towards the serialized size limit.
-
-Bytes 	| Name 			| Data type 		| Description
---------|---------------|-------------------|------------
-80 		| block header 	| block_header 		| Block metadata (see [Block Header](#block-header)).
-Varies 	| txn_count 	| compactSize uint 	| Total number of transactions in this block, including the coinbase transaction.
-Varies 	| txns 			| raw transaction 	| Each transaction in this block in raw (serialized) transaction format. 
-
-### Block Serialization
-Blocks must be serialized in binary format for transport on the network. The serialized (raw) form of each block header is hashed as part of the proof-of-work, making the serialized block header part of the BCH consensus rules. As part of the mining process, the block header is hashed repeatedly to create proof-of-work.
+The serialized (raw) form of each block header is hashed as part of the proof-of-work, making the serialized block header part of the BCH consensus rules. As part of the mining process, the block header is hashed repeatedly to create proof-of-work.
 
 BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure that the block header is in the proper byte-order before hashing. The following serialization rules apply to the block header:
 
 - Both hash fields use double-hashing (`SHA256(SHA256(DATA))`) and are seralized in internal byte order, which means the standard order in which hash message digests are displayed as strings.
 - The values for all other fields in the block header are serialized in little-endian order. Note that when displayed via a block browser or query, the ordering is big-endian.
-
-### Block proof-of-work
-The nonce is the solution to the mining process. Individual blocks must contain a proof-of-work to be considered valid. This proof of work is verified by other BCH nodes each time they receive a block.
-
-### Coinbase Transaction
-The first transaction in the block body must be a coinbase transaction that must collect and spend any transaction fees paid by transactions included in this block.
