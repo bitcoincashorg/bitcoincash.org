@@ -1573,6 +1573,9 @@ flex-wrap: wrap;}
     float: none;
     width: 100%;
   }
+  #typeform-full,#typeform-full[style] {
+    height:350px !important;
+  }
 }
 
 .row-bottom-padded-lg {
