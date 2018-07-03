@@ -2,6 +2,7 @@ language: English
 title:
   index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -242,6 +243,7 @@ headings:
   projects: "Projects"
   services: "Services"
   wallets: "Wallets"
+  listingrequest: "Submit a listing request"
   error404: "Error 404"
 error404:
   subheading: The page you are looking for does not exist.

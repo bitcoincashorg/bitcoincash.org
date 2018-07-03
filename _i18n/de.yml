@@ -2,6 +2,7 @@
 title:
   index: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -99,6 +100,7 @@ headings:
   projects: "Projekte"
   exchanges: "Börsen"
   faq: "Häufig gestellte Fragen"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

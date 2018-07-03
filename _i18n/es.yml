@@ -2,6 +2,7 @@ language: Español
 title:
   index: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -112,6 +113,7 @@ headings:
   projects: "Proyectos"
   exchanges: "Casas de cambio"
   faq: "Preguntas frecuentes"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

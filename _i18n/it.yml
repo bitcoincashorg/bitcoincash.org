@@ -2,6 +2,7 @@ language: Italiano
 title:
   index: "Bitcoin Cash - Denaro Contante Peer-to-Peer"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -112,6 +113,7 @@ headings:
   projects: "Progetti"
   exchanges: "Borse di scambio"
   faq: "Domande Frequenti"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

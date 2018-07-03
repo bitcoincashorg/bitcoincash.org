@@ -69,7 +69,7 @@ p.release {
   --webkit-box-shadow: none;
 }
 
-@media (min-width: 991px)  {
+@media (min-width: 991px) {
   .dropdown .dropdown__container:before {
     height: 0px;
   }
@@ -113,7 +113,7 @@ p.question {
   margin-bottom: 1.04em;
 }
 
-.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{
+.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover {
   border-bottom: 3px solid #F08B16;
 }
 
@@ -136,6 +136,17 @@ p.question {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5em;
+}
+
+.nodes div a.btn, .wallets div a.btn, .services div a.btn, .exchanges div a.btn {
+  width: auto;
+  padding: .8em 1em;
+  display: inline-block;
+  height: auto;
+  border: 0;
+  color: #fff;
+  background: #F59331;
+  transition-duration: 0.2s;
 }
 
 @media all and (min-width: 990px) {

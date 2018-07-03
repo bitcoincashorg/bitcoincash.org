@@ -2,6 +2,7 @@ language: 简体中文
 title:
   index: "比特币现金 - 点对点数字现金"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -112,6 +113,7 @@ headings:
   projects: "项目"
   exchanges: "交易所"
   faq: "常见问题"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |

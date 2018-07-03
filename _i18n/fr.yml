@@ -2,6 +2,7 @@ language: Français
 title: 
   index: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -112,6 +113,7 @@ headings:
   projects: "Projets"
   faq: "Foire Aux Questions"
   exchanges: "Plateformes d'échange"
+  listingrequest: "Submit a listing request"
 content:
   about:
     - |
