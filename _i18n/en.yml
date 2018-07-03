@@ -244,6 +244,10 @@ headings:
   services: "Services"
   wallets: "Wallets"
   listingrequest: "Submit a listing request"
+  error404: "Error 404"
+error404:
+  subheading: The page you are looking for does not exist.
+  button: Go to the homepage
 content:
   about:
     - |
