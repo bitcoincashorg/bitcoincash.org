@@ -535,6 +535,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 10;
   padding-bottom: 7em;
 }
+
+#typeform-full,#typeform-full[style] {
+  height:500px !important;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-intro {
     padding-bottom: 3em;
@@ -1567,6 +1572,9 @@ flex-wrap: wrap;}
   .col-xxs-12 {
     float: none;
     width: 100%;
+  }
+  #typeform-full,#typeform-full[style] {
+    height:350px !important;
   }
 }
 
