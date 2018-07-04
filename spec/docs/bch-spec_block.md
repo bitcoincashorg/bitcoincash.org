@@ -93,11 +93,25 @@ It is mportant to note that the proof-of-work can be verified by computing one h
 ## Coinbase Transaction
 The first transaction in a block must be a **coinbase transaction**.  The coinbase transaction (TX) is a special transaction that is used to pay the miner. The coinbase transaction must collect and spend any transaction fees paid by transactions included in this block. 
 
-A valid blocks is entitled to receive a block subsidy of newly created bitcoincash value, which also
+A valid block is entitled to receive a block subsidy of newly created bitcoincash value, which also
 should be spent in the coinbase transaction. Together, the transaction fees and block subsidy are called the **block
 reward**. A coinbase transaction is invalid if it tries to spend more value than is available from the block reward. 
 
 The coinbase transaction must have one input spending from 000000000000000. The field used to provide the signature can contain arbitrary data up to 100 bytes. The coinbase transaction must start with the block height to ensure no two coinbase transactions have the same transaction id (TXID).
+
+The coinbase transaction has exactly one input, called `coinbase` in the following format:
+
+| Bytes    | Name               | Data Type            | Description
+|----------|--------------------|----------------------|--------------
+| 32       | hash (null)        | char[32]             | A 32-byte null, as a coinbase has no previous outpoint.
+| 4        | index (UINT32_MAX) | uint32_t             | 0xffffffff, as a coinbase has no previous outpoint.
+| *Varies* | script bytes       | compactSize uint     | The number of bytes in the coinbase script, up to a maximum of 100 bytes.
+| *Varies* (4) | height         | script               | The block height of this block as required by BIP34.  Uses script language: starts with a data-pushing opcode that indicates how many bytes to push to the stack followed by the block height as a little-endian unsigned integer.  This script must be as short as possible, otherwise it may be rejected.<br/><br/>  The data-pushing opcode will be 0x03 and the total size four bytes until block 16,777,216 about 300 years from now.
+| *Varies* | coinbase script    | *None*               | The coinbase field/parameter: Arbitrary data not exceeding 100 bytes minus the (4) height bytes.  Miners commonly place an extra nonce in this field to update the block header merkle root during hashing.
+| 4        | sequence           | uint32_t             | Sequence number.
+
+Although the coinbase script is arbitrary data, if it includes the bytes used by any signature-checking operations such as `OP_CHECKSIG`,
+those signature checks will be counted as signature operations (sigops) towards the block's sigop limit.  To avoid this, you can prefix all data with the appropriate push operation.
 
 ## Block Searilzation
 Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32 MB. All fields described below count towards the serialized size limit.
