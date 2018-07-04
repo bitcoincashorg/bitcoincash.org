@@ -1,222 +1,84 @@
-# BCH Spec: Transaction
-Version: 0.1
-Status: Work in progress.
++++
+date = "2018-07-04"
+title = "Transaction"
+description = "Transaction, opcodes, "
+category = "bch spec"
++++
 
-This section of the BCH spec documents the transaction primitive, including description, serialization, input and output.
+This section of the BCH spec documents the block data structure for implementing a compatible BCH client, including the block header, block serialization, and coinbase transaction formats.
 
-## Transaction Overview
+This spec is based on the Bitcoin ABC implementation of the [BitcoinCash](<https://www.bitcoincash.org/>) protocol. Additional resources:
+- Bitcoin ABC source code: <https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src>
+- Bitcoin ABC developer documentation: <http://doc.bitcoinabc.org/index.html>
+
+## Transaction
 A transaction is one of the two base primitives in the BCH system, the other being a block. Primitive in this context means that it is one of the data types for which the BCH spec provides built-in support.
 
 A transaction is a transfer of BCH that is broadcast to the network and collected into blocks. A transaction typically references previous transaction outputs as new transaction inputs and dedicates all input Bitcoin values to new outputs. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
 
-Transaction comprises a signature and redeem script pair. To provide flexibility in releasing outputs. A serialized transaction contains an input and an output.
+Transaction comprises a signature and redeem script pair, which provides flexibility in releasing outputs. A serialized transaction contains an input and an output.
 
-## Transaction Input
+Source code: https://github.com/Bitcoin-ABC/bitcoin-abc/bitcoin-abc/src/primitives/transaction.h
+
+### Transaction requirements
+A transaction that meets the criteria documented here is said to be standard. Standard transactions are accepted into the mempool and relayed by nodes on the network. This ensures that nodes have a similar looking mempool so that the system behave predictably. Standard transaction outputs nominate addresses, and the redemption of any future inputs requires a relevant signature.
+
+Transaction requirements:
+- Transaction size: < 100k
+- Version must be 1 or 2
+- Signature script must be data push only
+- Script size must be 1650 or less
+
+### Transaction Input
 Inputs to a transaction include the outpoint, signature script, and sequence.
 
 An input is a reference to an output from a previous transaction. Multiple inputs are often listed in a transaction. All of the new transaction's input values (that is, the total coin value of the previous outputs referenced by the new transaction's inputs) are added up, and the total (less any transaction fee) is completely used by the outputs of the new transaction. Previous tx is a hash of a previous transaction. Index is the specific output in the referenced transaction. ScriptSig is the first half of a script (discussed in more detail later).
 
-### Outpoint
+### Transaction Output
+Outputs from a transaction include the BCH amount and redeem script which is used to spend the output and sets up parameters for the signature script. Redeem scripts should not use OP_CODES.
 
-The outpoint is a reference to an output from a previous transaction. 
+## OpCodes
+The opcodes used in the pubkey scripts of standard transactions are as follows. See also the source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/script/script.h.
 
-### Signature Script
+### 0x00 to 0x4e
+There are arious data pushing opcodes from 0x00 to 0x4e (1--78) that must be used must be used to push signatures and public keys onto the stack. 
 
-The signature script contains two components: a signature and a public key. The public key must match the hash given in the script of the redeemed output. The public key is used to verify the redeemers signature, which is the second component. More precisely, the second component is an ECDSA signature over a hash of a simplified version of the transaction. It, combined with the public key, proves the transaction was created by the real owner of the address in question.
+### OP_TRUE/OP_1, OP_2 through OP_16
+`OP_TRUE`/`OP_1` (0x51) and `OP_2` through `OP_16` (0x52--0x60) push the values 1 through 16 to the stack.
 
-Desc of sigscript
+### OP_CHECKSIG
+`OP_CHECKSIG` consumes a signature and a full public key, and pushes true onto the stack if the transaction data specified by the SIGHASH flag was converted into the signature using the same ECDSA private key that generated the public key.  Otherwise, it pushes false onto the stack.
 
-Why? To ensure only legitimate spender (i.e. evidence of private key held). 
+### OP_DUP
+`OP_DUP` pushes a copy of the topmost stack item on to the stack.
 
-Conditions which authorization has to fulfill to define how outputs may be released.
+### OP_HASH160
+`OP_HASH160` consumes the topmost item on the stack, computes the RIPEMD160(SHA256()) hash of that item, and pushes that hash onto the stack.
 
-### Sequence
+### OP_EQUAL 
+`OP_EQUAL` consumes the top two items on the stack, compares them, and pushes true onto the stack if they are the same, false if not.
 
-Check lock time verify (s4)
+### OP_VERIFY
+`OP_VERIFY` consumes the topmost item on the stack. If that item is zero (false) it terminates the script in failure.
 
-Check sequence verify (s4)
+### OP_EQUALVERIFY
+`OP_EQUALVERIFY` runs `OP_EQUAL` and then `OP_VERIFY` in sequence.
 
-## Transaction Output
+### OP_CHECKMULTISIG
+`OP_CHECKMULTISIG` consumes the value (n) at the top of the stack, consumes that many of the next stack levels (public keys), consumes the value (m) now at the top of the stack, and consumes that many of the next values (signatures) plus one extra value.
 
-Outputs from a transaction include the BCH amount, redeed script, and 
+The "one extra value" it consumes is the result of an off-by-one error in the Bitcoin Core implementation. This value is not used, so signature scripts prefix the list of secp256k1 signatures with a single OP_0 (0x00).
 
-### Amount
+`OP_CHECKMULTISIG` compares the first signature against each public key until it finds an ECDSA match. Starting with the subsequent public key, it compares the second signature against each remaining public key until it finds an ECDSA match. The process is repeated until all signatures have been checked or not enough public keys remain to produce a successful result.
 
-### Redeem Script
-Desc: redeem script to spend
-Why? Sets up parameters for signature script.
-NOTE: Redeem scripts should not use OP_CODES, potentially add this to consensus standard
+Because public keys are not checked again if they fail any signature comparison, signatures must be placed in the signature script using the same order as their corresponding public keys were placed in the pubkey script or redeem script. 
 
-### Standard Transaction Format
+The `OP_CHECKMULTISIG` verification process requires that signatures in the signature script be provided in the same order as their corresponding public keys in the pubkey script or redeem script. 
 
-A transaction that meet some specific criterion is said to be standard. Standard transactions are accepted into the mempool and relayed by nodes on the network. 
+### OP_RETURN
+`OP_RETURN` terminates the script in failure when executed.
 
-This ensures that nodes have a similar looking mempool so that the system behave predictably.
-
-Requirements:
-	Transaction size: < 100k
-	Version must be 1 or 2
-	Signature script must be data push only
-	Script size must be 1650 or less
-
-Standard transaction outputs nominate addresses, and the redemption of any future inputs requires a relevant signature.
-				
-#### P2SH
-	23-bytes
-	OP_HASH160
-	<reedem script hash>
-	OP_EQUAL
-	Use address version=1 and hash=<reedem script hash>
-
-#### P2PKH
-	25 bytes
-	OP_DUP
-	OP_HASH160
-	<public key hash>
-	OP_EQUAL
-	OP_CHECKSIG
-	Use address version=0 and hash=<public key hash> 
-
-#### P2PK
-	35 or 67 bytes
-	<public key>
-	OP_CHECKSIG
-	Use address version=0 and hash=HASH160(<public key>)
-
-#### Bare multisig
-	<n: [0-20]>
-	<pubkey 0>
-	…
-	<pubkey n>
-	<(null)>
-	OP_CHECKMULTISIG
-
-#### Data carrier
-	Limited to one per transaction
-	Limited to 223 bytes
-	OP_RETURN
-	<push data>
-
-
-## Transactions
-
-The following subsections briefly document core transaction details.
-
-#### OpCodes
-
-The opcodes used in the pubkey scripts of standard transactions are:
-
-* Various data pushing opcodes from 0x00 to 0x4e (1--78). These aren't
-  typically shown in examples, but they must be used to push
-  signatures and public keys onto the stack. See the link below this list
-  for a description.
-
-* `OP_TRUE`/`OP_1` (0x51) and `OP_2` through `OP_16` (0x52--0x60), which
-  push the values 1 through 16 to the stack.
-
-* [`OP_CHECKSIG`][op_checksig]{:#term-op-checksig}{:.term} consumes a signature and a full public key, and pushes
-  true onto the stack if the transaction data specified by the SIGHASH flag was
-  converted into the signature using the same ECDSA private key that
-  generated the public key.  Otherwise, it pushes false onto the stack.
-
-* [`OP_DUP`][op_dup]{:#term-op-dup}{:.term} pushes a copy of the topmost stack item on to the stack.
-
-* [`OP_HASH160`][op_hash160]{:#term-op-hash160}{:.term} consumes the topmost item on the stack,
-  computes the RIPEMD160(SHA256()) hash of that item, and pushes that hash onto the stack.
-
-* [`OP_EQUAL`][op_equal]{:#term-op-equal}{:.term} consumes the top two items on the stack, compares them, and
-  pushes true onto the stack if they are the same, false if not.
-
-* [`OP_VERIFY`][op_verify]{:#term-op-verify}{:.term} consumes the topmost item on the stack.
-  If that item is zero (false) it terminates the script in failure.
-
-* [`OP_EQUALVERIFY`][op_equalverify]{:#term-op-equalverify}{:.term} runs `OP_EQUAL` and then `OP_VERIFY` in sequence.
-
-* [`OP_CHECKMULTISIG`][op_checkmultisig]{:#term-op-checkmultisig}{:.term} consumes the value (n) at the top of the stack,
-  consumes that many of the next stack levels (public keys), consumes
-  the value (m) now at the top of the stack, and consumes that many of
-  the next values (signatures) plus one extra value.
-
-    The "one extra value" it consumes is the result of an off-by-one
-    error in the Bitcoin Core implementation. This value is not used, so
-    signature scripts prefix the list of secp256k1 signatures with a
-    single OP_0 (0x00).
-
-    `OP_CHECKMULTISIG` compares the first signature against each public
-    key until it finds an ECDSA match. Starting with the subsequent
-    public key, it compares the second signature against each remaining
-    public key until it finds an ECDSA match. The process is repeated
-    until all signatures have been checked or not enough public keys
-    remain to produce a successful result.
-
-    Because public keys are not checked again if they fail any signature
-    comparison, signatures must be placed in the signature script using
-    the same order as their corresponding public keys were placed in
-    the pubkey script or redeem script. See the `OP_CHECKMULTISIG` warning
-    below for more details.
-
-* [`OP_RETURN`][op_return]{:#term-op-return}{:.term} terminates the script in failure when executed.
-
-A complete list of opcodes can be found on the Bitcoin Wiki [Script
-Page][wiki script], with an authoritative list in the `opcodetype` enum
-of the Bitcoin Core [script header file][core script.h]
-
-![Warning icon](/img/icons/icon_warning.svg?{{site.time | date: '%s'}})
-**<span id="signature_script_modification_warning">Signature script modification warning</span>:**
-Signature scripts are not signed, so anyone can modify them. This
-means signature scripts should only contain data and data-pushing opcodes
-which can't be modified without causing the pubkey script to fail.
-Placing non-data-pushing opcodes in the signature script currently
-makes a transaction non-standard, and future consensus rules may forbid
-such transactions altogether. (Non-data-pushing opcodes are already
-forbidden in signature scripts when spending a P2SH pubkey script.)
-
-![Warning icon](/img/icons/icon_warning.svg?{{site.time | date: '%s'}})
-**`OP_CHECKMULTISIG` warning:** The multisig verification process
-described above requires that signatures in the signature script be
-provided in the same order as their corresponding public keys in
-the pubkey script or redeem script. For example, the following
-combined signature and pubkey script will produce the stack and
-comparisons shown:
-
-{% highlight text %}
-OP_0 <A sig> <B sig> OP_2 <A pubkey> <B pubkey> <C pubkey> OP_3
-
-Sig Stack       Pubkey Stack  (Actually a single stack)
----------       ------------
-B sig           C pubkey
-A sig           B pubkey
-OP_0            A pubkey
-
-1. B sig compared to C pubkey (no match)
-2. B sig compared to B pubkey (match #1)
-3. A sig compared to A pubkey (match #2)
-
-Success: two matches found
-{% endhighlight %}
-
-But reversing the order of the signatures with everything else the same
-will fail, as shown below:
-
-{% highlight text %}
-OP_0 <B sig> <A sig> OP_2 <A pubkey> <B pubkey> <C pubkey> OP_3
-
-Sig Stack       Pubkey Stack  (Actually a single stack)
----------       ------------
-A sig           C pubkey
-B sig           B pubkey
-OP_0            A pubkey
-
-1. A sig compared to C pubkey (no match)
-2. A sig compared to B pubkey (no match)
-
-Failure, aborted: two signature matches required but none found so
-                  far, and there's only one pubkey remaining
-{% endhighlight %}
-
-{% endautocrossref %}
-
-### Address Conversion
+## Address Conversion
 The hashes used in P2PKH and P2SH outputs are commonly encoded as Bitcoin addresses.  This is the procedure to encode those hashes and decode the addresses.
 
 First, get your hash.  For P2PKH, you RIPEMD-160(SHA256()) hash a ECDSA public key derived from your 256-bit ECDSA private key (random data). For P2SH, you RIPEMD-160(SHA256()) hash a redeem script serialized in the format used in raw transactions.
@@ -263,7 +125,7 @@ A raw transaction has the following top-level format:
 A transaction may have multiple inputs and outputs, so the txIn and txOut structures may recur within a transaction. CompactSize unsigned
 integers are a form of variable-length integers; they are described in CompactSize unsigned integer.
 
-### TxIn: Transaction Input
+## TxIn: Transaction Input
 Each non-coinbase input spends an outpoint from a previous transaction.
 
 | Bytes    | Name             | Data Type            | Description
@@ -273,15 +135,15 @@ Each non-coinbase input spends an outpoint from a previous transaction.
 | *Varies* | signature script | char[]               | A script-language script which satisfies the conditions placed in the outpoint's pubkey script.  Should only contain data pushes; see the [signature script modification warning][].
 | 4        | sequence         | uint32_t             | Sequence number.  Default for Bitcoin Core and almost all other programs is 0xffffffff.
 
-### Outpoint
-Because a single transaction can include multiple outputs, the outpoint structure includes both a TXID and an output index number to refer to the specific part of a specific output.
+## Outpoint
+The outpoint is a reference to an output from a previous transaction. Because a single transaction can include multiple outputs, the outpoint structure includes both a TXID and an output index number to refer to the specific part of a specific output.
 
 | Bytes | Name  | Data Type | Description
 |-------|-------|-----------|--------------
-| 32    | hash  | char[32]  | The TXID of the transaction holding the output to spend.  The TXID is a hash provided here in internal byte order.
+| 32    | hash  | char[32]  | The TXID of the transaction holding the output to spend. The TXID is a hash provided here in internal byte order.
 | 4     | index | uint32_t  | The output index number of the specific output to spend from the transaction. The first output is 0x00000000.
 
-### TxOut: Transaction Output 
+## TxOut: Transaction Output 
 Each output spends a certain number of satoshis, placing them under control of anyone who can satisfy the provided pubkey script.
 
 | Bytes    | Name            | Data Type        | Description
@@ -290,12 +152,12 @@ Each output spends a certain number of satoshis, placing them under control of a
 | 1+       | pk_script bytes | compactSize uint | Number of bytes in the pubkey script.  Maximum is 10,000 bytes.
 | *Varies* | pk_script       | char[]           | Defines the conditions which must be satisfied to spend this output.
 
-### CompactSize Unsigned Integers
+## CompactSize Unsigned Integers
 The raw transaction format and several peer-to-peer network messages use a type of variable-length integer to indicate the number of bytes in a following piece of data.
 
 Bitcoin Core code and this document refers to these variable length integers as compactSize. Many other documents refer to them as var_int or varInt, but this risks conflation with other variable-length integer encodings---such as the CVarInt class used in Bitcoin Core for serializing data to disk.  Because it's used in the transaction format, the format of compactSize unsigned integers is part of the consensus rules.
 
-For numbers from 0 to 252, compactSize unsigned integers look like regular unsigned integers. For other numbers up to 0xffffffffffffffff, a byte is prefixed to the number to indicate its length---but otherwise the numbers look like regular unsigned integers in little-endian order.
+For numbers from 0 to 252, compactSize unsigned integers look like regular unsigned integers. For other numbers up to 0xffffffffffffffff, a byte is prefixed to the number to indicate its length---but otherwise the numbers look like regular unsigned integers in little-endian order. For example, the number 515 is encoded as 0xfd0302.
 
 | Value                                   | Bytes Used | Format
 |-----------------------------------------|------------|-----------------------------------------
@@ -304,5 +166,53 @@ For numbers from 0 to 252, compactSize unsigned integers look like regular unsig
 | >= 0x10000 && <= 0xffffffff             | 5          | 0xfe followed by the number as uint32_t
 | >= 0x100000000 && <= 0xffffffffffffffff | 9          | 0xff followed by the number as uint64_t
 
-For example, the number 515 is encoded as 0xfd0302.
+## Signature Script
+The signature script (sigscript) contains two components: a signature and a public key. The public key must match the hash given in the script of the redeemed output. The public key is used to verify the redeemers signature, which is the second component. More precisely, the second component is an ECDSA signature over a hash of a simplified version of the transaction. It, combined with the public key, proves the transaction was created by the real owner of the address in question.
 
+Signature scripts are not signed, so anyone can modify them. This means signature scripts should only contain data and data-pushing opcodes which can't be modified without causing the pubkey script to fail. Placing non-data-pushing opcodes in the signature script currently makes a transaction non-standard, and future consensus rules may forbid such transactions altogether. (Non-data-pushing opcodes are already forbidden in signature scripts when spending a P2SH pubkey script.)
+
+The purpose of the sigscript is to ensure that the spender is a legitimate spender, that is, evidence of private key held. 
+
+## Sequence
+
+Check lock time verify (s4)
+
+Check sequence verify (s4)
+
+## Standard Transaction Format Examples
+				
+### P2SH
+	23-bytes
+	OP_HASH160
+	<reedem script hash>
+	OP_EQUAL
+	Use address version=1 and hash=<reedem script hash>
+
+### P2PKH
+	25 bytes
+	OP_DUP
+	OP_HASH160
+	<public key hash>
+	OP_EQUAL
+	OP_CHECKSIG
+	Use address version=0 and hash=<public key hash> 
+
+### P2PK
+	35 or 67 bytes
+	<public key>
+	OP_CHECKSIG
+	Use address version=0 and hash=HASH160(<public key>)
+
+### Bare multisig
+	<n: [0-20]>
+	<pubkey 0>
+	…
+	<pubkey n>
+	<(null)>
+	OP_CHECKMULTISIG
+
+### Data carrier
+	Limited to one per transaction
+	Limited to 223 bytes
+	OP_RETURN
+	<push data>

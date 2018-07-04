@@ -1,12 +1,15 @@
-
 +++
-date = "2018-07-01"
+date = "2018-07-04"
 title = "Block"
 description = "Block header, version, header hash, merkle root hash, timestamp, target, nonce, coinbase tx, valiation rules"
 category = "bch spec"
 +++
 
-This section of the BCH spec defines the block format, block contents, and block validation rules for implementing a compatible BCH client.
+This section of the BCH spec documents the block data structure for implementing a compatible BCH client, including the block header, block serialization, and coinbase transaction formats.
+
+This spec is based on the Bitcoin ABC implementation of the [BitcoinCash](<https://www.bitcoincash.org/>) protocol. Additional resources:
+- Bitcoin ABC source code: <https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src>
+- Bitcoin ABC developer documentation: <http://doc.bitcoinabc.org/index.html>
 
 # Block
 A **block** is one of the two base primitives in the BCH system, the other being a **transaction**. Primitive in this context means it is one of the data structures for which the BCH software provides built-in support. 
@@ -16,6 +19,8 @@ Nodes collect new transactions into a **block**, hash them into a hash tree (**m
 When a miner solves the proof-of-work, it broadcasts the block to network nodes and if the block is valid it is added to the block chain. The first transaction in the block is the **coinbase transaction** that creates a new coin owned by the creator of the block. An algorithm ensures that a new block is generated every 10 minutes (600 seconds) on average.
 
 The block validation rules described here ensure that BCH nodes stay in consensus with other nodes. There are several rules that must be respected for a block to be valid.
+
+Block source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/primitives/block.h
 
 ## Block Header
 Block headers are serialized in the 80-byte format comprising six fields: [version](#version), [previous block hash](#previous-block-hash), [merkle root hash](#merkle-root-hash), [timestamp](#time), [difficulty target](target), and [nonce](#nonce).
@@ -90,29 +95,6 @@ Any change to the nonce will make the block header hash completely different. Si
 
 It is mportant to note that the proof-of-work can be verified by computing one hash with the proper content, and is therefore very cheap. The fact that the proof is cheap to verify is as important as the fact that it is expensive to compute.
 
-## Coinbase Transaction
-The first transaction in a block must be a **coinbase transaction**.  The coinbase transaction (TX) is a special transaction that is used to pay the miner. The coinbase transaction must collect and spend any transaction fees paid by transactions included in this block. 
-
-A valid block is entitled to receive a block subsidy of newly created bitcoincash value, which also
-should be spent in the coinbase transaction. Together, the transaction fees and block subsidy are called the **block
-reward**. A coinbase transaction is invalid if it tries to spend more value than is available from the block reward. 
-
-The coinbase transaction must have one input spending from 000000000000000. The field used to provide the signature can contain arbitrary data up to 100 bytes. The coinbase transaction must start with the block height to ensure no two coinbase transactions have the same transaction id (TXID).
-
-The coinbase transaction has exactly one input, called `coinbase` in the following format:
-
-| Bytes    | Name               | Data Type            | Description
-|----------|--------------------|----------------------|--------------
-| 32       | hash (null)        | char[32]             | A 32-byte null, as a coinbase has no previous outpoint.
-| 4        | index (UINT32_MAX) | uint32_t             | 0xffffffff, as a coinbase has no previous outpoint.
-| *Varies* | script bytes       | compactSize uint     | The number of bytes in the coinbase script, up to a maximum of 100 bytes.
-| *Varies* (4) | height         | script               | The block height of this block as required by BIP34.  Uses script language: starts with a data-pushing opcode that indicates how many bytes to push to the stack followed by the block height as a little-endian unsigned integer.  This script must be as short as possible, otherwise it may be rejected.<br/><br/>  The data-pushing opcode will be 0x03 and the total size four bytes until block 16,777,216 about 300 years from now.
-| *Varies* | coinbase script    | *None*               | The coinbase field/parameter: Arbitrary data not exceeding 100 bytes minus the (4) height bytes.  Miners commonly place an extra nonce in this field to update the block header merkle root during hashing.
-| 4        | sequence           | uint32_t             | Sequence number.
-
-Although the coinbase script is arbitrary data, if it includes the bytes used by any signature-checking operations such as `OP_CHECKSIG`,
-those signature checks will be counted as signature operations (sigops) towards the block's sigop limit.  To avoid this, you can prefix all data with the appropriate push operation.
-
 ## Block Searilzation
 Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32 MB. All fields described below count towards the serialized size limit.
 
@@ -128,3 +110,24 @@ BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure 
 
 - Both hash fields use double-hashing (`SHA256(SHA256(DATA))`) and are seralized in internal byte order, which means the standard order in which hash message digests are displayed as strings.
 - The values for all other fields in the block header are serialized in little-endian order. Note that when displayed via a block browser or query, the ordering is big-endian.
+
+## Coinbase Transaction
+The first transaction in the body of each block is a special transaction called the **coinbase transaction** which is used to reumenerate the miner of the block. The coinbase transaction is required, and must collect and spend any transaction fees paid by transactions included in this block. 
+
+A valid block is entitled to receive a block subsidy of newly created bitcoincash value, and it must also be spent in the coinbase transaction. Together, the transaction fees and block subsidy are called the **block reward**. A coinbase transaction is invalid if it tries to spend more value than is available from the block reward. 
+
+The coinbase transaction must have one input spending from 000000000000000. The field used to provide the signature can contain arbitrary data up to 100 bytes. The coinbase transaction must start with the block height to ensure no two coinbase transactions have the same transaction id (TXID).
+
+The coinbase transaction has the following format:
+
+| Bytes    | Name               | Data Type            | Description
+|----------|--------------------|----------------------|--------------
+| 32       | hash (null)        | char[32]             | A 32-byte null, as a coinbase has no previous outpoint.
+| 4        | index (UINT32_MAX) | uint32_t             | 0xffffffff, as a coinbase has no previous outpoint.
+| *Varies* | script bytes       | compactSize uint     | The number of bytes in the coinbase script, up to a maximum of 100 bytes.
+| *Varies* (4) | height         | script               | The block height of this block. Required parameter.  Uses the script language: starts with a data-pushing opcode that indicates how many bytes to push to the stack followed by the block height as a little-endian unsigned integer. This script must be as short as possible, otherwise it may be rejected. The data-pushing opcode is 0x03 and the total size is four bytes.
+| *Varies* | coinbase script    | *None*               | The coinbase field and input parameter: Arbitrary data not exceeding 100 bytes minus the (4) height bytes.  Miners commonly place an extra nonce in this field to update the block header merkle root during hashing.
+| 4        | sequence           | uint32_t             | Sequence number.
+
+Although the coinbase script is arbitrary data, if it includes the bytes used by any signature-checking operations such as `OP_CHECKSIG`,
+those signature checks will be counted as signature operations (sigops) towards the block's sigop limit. To avoid this, you can prefix all data with the appropriate push operation. See [Transaction](#transaction) for details on opcodes.
