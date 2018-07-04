@@ -243,15 +243,18 @@ headings:
   projects: "Projects"
   services: "Services"
   wallets: "Wallets"
+<<<<<<< HEAD
   listingrequest: "Submit a listing request"
   error404: "Error 404"
+error404:
+  subheading: The page you are looking for does not exist.
+  button: Go to the homepage
+=======
   benefits: "Benefits for Merchants"
   why: "Why Use Bitcoin Cash?"
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
-error404:
-  subheading: The page you are looking for does not exist.
-  button: Go to the homepage
+>>>>>>> master_jonald
 content:
   about:
     - |
@@ -266,7 +269,61 @@ content:
     - question: "Is Bitcoin Cash different from 'Bitcoin'?"
       answer:
         - |
-
+<<<<<<< HEAD
+          Yes. Bitcoin Cash is the continuation of the Bitcoin project as peer-to-peer digital cash. It is a fork of the Bitcoin blockchain ledger, with upgraded consensus rules that allow it to grow and scale.
+    - question: "If I own Bitcoin, do I automatically own Bitcoin Cash too?"
+      answer:
+        - |
+          Anyone who held Bitcoin at the time Bitcoin Cash was created became owners of Bitcoin Cash. This means that Bitcoin holders as of block 478558 (August 1st, 2017 about 13:16 UTC) have the same amount of Bitcoin Cash as they had Bitcoin at that time. If your Bitcoins are stored by a third party such as an exchange, then you must inquire with them about your Bitcoin Cash.
+        - |
+          Any transactions after the August 1st ledger split are completely separate between Bitcoin and Bitcoin Cash. This means any Bitcoin acquired after the split does not include any Bitcoin Cash, and any Bitcoin Cash does not include any Bitcoin.
+    - question: "How is transaction replay being handled between the new and the old blockchain?"
+      answer:
+        - |
+          Bitcoin Cash transactions use a new signature hashing algorithm indicated by the flag SIGHASH_FORKID. These signatures are not valid on the Bitcoin Legacy network. This prevents Bitcoin Cash transactions from being replayed on the Bitcoin blockchain and vice versa.
+    - question: "Why was a fork necessary to create Bitcoin Cash?"
+      answer:
+        - |
+          The legacy Bitcoin code had a maximum limit of 1MB of data per block, or about 3 transactions per second. Although technically simple to raise this limit, the community could not reach a consensus, even after years of debate.
+    - question: "Was the 1 MB block size limit causing problems for Bitcoin?"
+      answer:
+        - |
+          Yes, in 2017, capacity hit the 'invisible wall'. Fees skyrocketed, and Bitcoin became unreliable, with some users unable to get their transactions confirmed, even after days of waiting.
+        - |
+          Bitcoin's market price has increased, but its growth and usefulness as a currency has stagnated. Many users, merchants, businesses and even investors left Bitcoin for alternatives, causing its dominance to fall from 95% to as low as 40%.
+    - question: "Does Bitcoin Cash fix these problems?"
+      answer:
+        - |
+          Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
+        - |
+          Low fees and fast confirmations have returned with Bitcoin Cash. The network is growing again. Users, merchants, businesses, and investors are building the future with real peer to peer cash.
+    - question: "Why didn't Bitcoin raise the block size if it was easy?"
+      answer:
+        - |
+          Some of the developers did not understand and agree with the <a href="/bitcoin.pdf" target="_blank">original vision of peer-to-peer electronic cash</a> that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
+        - |
+          Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.
+        - |
+          These two very different visions for Bitcoin are largely incompatible, which led to the community divide.
+    - question: "Didn't SegWit increase the block capacity? Will Bitcoin Cash ever have SegWit?"
+      answer:
+        - |
+          Segregated Witness or "SegWit" is an unacceptable substitute for increasing the blocksize for several reasons.
+        - |
+          First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.
+        - |
+          For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
+    - question: "Which Development Team is In Charge of Bitcoin Cash?"
+      answer:
+        - |
+          Unlike the previous situation in Bitcoin, there is no one single development team for Bitcoin Cash. There are now multiple independent teams of developers.
+        - |
+          This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.
+    - question: "What is the ticker symbol for Bitcoin Cash?"
+      answer:
+        - |
+          Bitcoin Cash is usually represented by the ticker symbol BCH.
+=======
           In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash. 
 
   why:
@@ -332,3 +389,4 @@ content:
       - |
         The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
         
+>>>>>>> master_jonald

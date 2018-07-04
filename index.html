@@ -13,3 +13,19 @@ title: title.index
 {% include home/projects.html %}
 {% include home/exchanges.html %}
 {% include home/faq.html %}
+
+{% if site.translations[site.lang]["headings"]["why"] != nil or site.translations[site.lang]["content"]["why"] != nil  %}
+	{% include home/why.html %}
+{% endif %}
+
+{% if site.translations[site.lang]["headings"]["benefits"] != nil or site.translations[site.lang]["content"]["benefits"] != nil %}
+	{% include home/benefits.html %}
+{% endif %}
+
+{% if site.translations[site.lang]["headings"]["history"] != nil or site.translations[site.lang]["content"]["history"] != nil %}
+	{% include home/history.html %}
+{% endif %}
+
+{% if site.translations[site.lang]["headings"]["development"] != nil or site.translations[site.lang]["content"]["development"] != nil %}
+	{% include home/development.html %}
+{% endif %}

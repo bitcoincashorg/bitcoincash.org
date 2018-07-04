@@ -1,0 +1,20 @@
+<a id="faq"></a>
+<section class="space--xxs" id="benefits-section" data-section="benefits">
+    <div class="container">
+        <div class="row text-center to-animate">
+            <div class="col-xs-12 section-heading">
+                <h2>{% t 'headings.benefits' %}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+            {% for qa in site.translations[site.lang]["content"]["benefits"] %}
+            <p class="question to-animate">{{ qa['benefit'] }}</p>
+                {% for a in qa['descrip'] %}
+                <p class='to-animate'>{{ a }}</p>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
