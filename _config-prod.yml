@@ -46,7 +46,7 @@ exclude:
 languages:
   - en
   - cs
-  - de-ch
+  # - de-ch
   - de
   # - el
   - es
