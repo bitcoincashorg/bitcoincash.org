@@ -48,7 +48,7 @@ languages:
   - cs
   - de-ch
   - de
-  - el
+  # - el
   - es
   - fr
   - hi
@@ -70,5 +70,5 @@ languages:
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 
-plugins: 
+plugins:
   - jekyll-multiple-languages-plugin
