@@ -1,11 +1,14 @@
 
 <section class="space--xxs" id="about-section" data-section="about">
     <div class="container">
-        <div class="row section-heading to-animate">
+        <div class="row to-animate">
 
-            <div class='col-sm-12 text-center'>
+            <div class='col-sm-12 section-heading text-center'>
                 <h2>{% t 'headings.about' %}</h2>
             </div>
+        </div>
+
+        <div class="row to-animate">
 
             <div class='col-sm-12 col-md-6 text-center'>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -22,7 +25,7 @@
     </div>
 </section>
 
-<section class="space--xxs no-bottom" >
+<section class="space--xxs" >
     <div class="container benefits">
         {% assign features = site.translations[site.lang]["features"] %}
         <div class="row text-center">
@@ -58,6 +61,10 @@
                 <p><strong>{{ features[5]['title'] }}</strong></p>
                 <p>{{ features[5]['description'] }}</p>
             </div>
+            
+        </div>
+        <div class="col-sm-12 text-center mb-4">
+            <a href="bitcoin.pdf" target="_blank" class="btn btn-default">{% t 'headings.whitepaper' %}</a>
         </div>
     </div>
 </section>
