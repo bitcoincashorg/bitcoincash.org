@@ -245,6 +245,7 @@ headings:
   wallets: "Wallets"
   whitepaper: "Read the Whitepaper"
   listingrequest: "Submit a listing request"
+  listingcriteria: "Listing Criteria"
   error404: "Error 404"
   benefits: "Benefits for Merchants"
   why: "Why Use Bitcoin Cash?"
@@ -332,4 +333,48 @@ content:
          With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
         The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
-        
+  
+  criteria:
+      - title: "Does your project use the BCH ticker?"
+        descrip:
+          - |
+              Your projects website must clearly define the Bitcoin Cash ticker as BCH
+      - title: "Does your project use the full name of the currency Bitcoin Cash?"
+        descrip:
+          - |
+              Your projects website must define Bitcoin Cash in it's full name.      
+      - title: "Does your project clearly promote Bitcoin Cash?"
+        descrip:
+          - |
+              Applicants website's must clearly promote Bitcoin Cash
+      - title: "Does your project use the official Bitcoin Cash logo?"
+        descrip:
+          - |
+            We encourage applicants to use the official Bitcoin Cash logo available in our graphics section. While not required, using the official logo increases your chances of being listed. 
+      - title: "Does your project remain objective to the facts?"
+        descrip:
+          - |
+            Applicants website's must remain objective. Derogotary statements against Bitcoin Cash to promote a specific agenda may lead to a declined application
+
+      - title: "Does your project separate Bitcoin Core (BTC) from Bitcoin Cash (BCH)"
+        descrip:
+          - |
+            Applicants that clearly distinguish between Bitcoin Core (BTC) and Bitcoin Cash (BCH) will have a higher chance of being listed. We recommend using the color black for Bitcoin Core (BTC) and orange for Bitcoin Cash (BCH).
+       
+      - title: "Does your project appear professional and user friendly?"
+        descrip:
+          - |
+            Applicant websites must appear professional. User Interface (UI) should be simple for new users.
+      - title: "Does your project appear professional and user friendly?"
+        descrip:
+          - |
+            Applicant websites must appear professional. User Interface (UI) should be simple for new users.
+      - title: "Is your project trusted and vetted by the Bitcoin Cash community"
+        descrip:
+          - |
+            Applicants should reach out to the Bitcoin Cash community via Twitter, Telegram, Reddit, or Slack. Projects that have been vetted by trusted members within the community are more likely to receive an approved application.
+      - title: "Workgroup's Discretion"
+        descrip:
+          - |
+            We reserve the right to decline applications at our discretion.
+                   
