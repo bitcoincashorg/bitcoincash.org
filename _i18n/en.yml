@@ -338,7 +338,7 @@ content:
       - title: "Does your project use the BCH ticker?"
         descrip:
           - |
-              Your projects website must clearly define the Bitcoin Cash ticker as BCH
+              Your projects website must clearly define the Bitcoin Cash ticker as BCH.
       - title: "Does your project use the full name of the currency Bitcoin Cash?"
         descrip:
           - |
@@ -350,11 +350,11 @@ content:
       - title: "Does your project use the official Bitcoin Cash logo?"
         descrip:
           - |
-            We encourage applicants to use the official Bitcoin Cash logo available in our graphics section. While not required, using the official logo increases your chances of being listed. 
+            We encourage applicants to use the Bitcoin Cash logo available in our graphics section. While not required, using this logo increases your chances of being listed.
       - title: "Does your project remain objective to the facts?"
         descrip:
           - |
-            Applicants website's must remain objective. Derogotary statements against Bitcoin Cash to promote a specific agenda may lead to a declined application
+            Applicants website's must remain objective. Derogotary statements against Bitcoin Cash to promote a specific agenda may lead to a declined application.
 
       - title: "Does your project separate Bitcoin Core (BTC) from Bitcoin Cash (BCH)"
         descrip:
