@@ -6,16 +6,13 @@ title: title.get-listed
 
 {% include get-listed/header.html %}
 
-
 <div class="container">
 	<div class="row text-center to-animate">
-            <div class="col-xs-12 section-heading">
-                <h2>{% t 'headings.listingcriteria' %}</h2>
-            </div>
+        <div class="col-xs-12 section-heading">
+            <h2>{% t 'headings.listingcriteria' %}</h2>
         </div>
-
+    </div>
 	<div clas="row">
-
 		<div class="col-sm-12">
 			{% for qa in site.translations[site.lang]["content"]["criteria"] %}
             <p class="question to-animate">{{ qa['title'] }}</p>

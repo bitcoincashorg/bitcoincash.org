@@ -347,10 +347,10 @@ content:
         descrip:
           - |
               Applicants website's must clearly promote Bitcoin Cash
-      - title: "Does your project use the official Bitcoin Cash logo?"
+      - title: "Does your project use the Bitcoin Cash logo?"
         descrip:
           - |
-            We encourage applicants to use the Bitcoin Cash logo available in our graphics section. While not required, using this logo increases your chances of being listed.
+            We encourage applicants to use the Bitcoin Cash logo available in our graphics section. Branding should remain consistent with bitcoincash.org. While not required, using the logos available on bitcoincash.org logo increases your chances of being listed.
       - title: "Does your project remain objective to the facts?"
         descrip:
           - |
@@ -365,10 +365,6 @@ content:
         descrip:
           - |
             Applicant websites must appear professional. User Interface (UI) should be simple for new users.
-      - title: "Does your project appear professional and user friendly?"
-        descrip:
-          - |
-            Applicant websites must appear professional. User Interface (UI) should be simple for new users.
       - title: "Is your project trusted and vetted by the Bitcoin Cash community"
         descrip:
           - |
@@ -377,4 +373,3 @@ content:
         descrip:
           - |
             We reserve the right to decline applications at our discretion.
-                   
