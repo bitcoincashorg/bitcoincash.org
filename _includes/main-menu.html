@@ -42,11 +42,6 @@
                                                     {% t 'sections.exchanges' %}
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="graphics.html" class="external">
-                                                    {% t 'sections.graphics' %}
-                                                </a>
-                                            </li>
                                             <!-- Disabled for renovations
                                             <li>
                                                 <a href="developers.html" class="external">
@@ -59,6 +54,11 @@
                                 </div>
                             </div>
                         </div>
+                    </li>
+                    <li>
+                        <a href="graphics.html" class="external">
+                            {% t 'sections.graphics' %}
+                        </a>
                     </li>
                     <li>
                         <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
