@@ -1,36 +1,60 @@
-<section class="space--xxs no-bottom" id="about-section" data-section="about">
+
+<section class="space--xxs" id="about-section" data-section="about">
+    <div class="container">
+        <div class="row section-heading to-animate">
+
+            <div class='col-sm-12 text-center'>
+                <h2>{% t 'headings.about' %}</h2>
+            </div>
+
+            <div class='col-sm-12 col-md-6 text-center'>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+
+            <div class='col-sm-12 col-md-6'>
+                {% for c in site.translations[site.lang]["content"]["about"] %}
+                <p>{{ c }}</p>
+                {% endfor %}
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<section class="space--xxs no-bottom" >
     <div class="container benefits">
         {% assign features = site.translations[site.lang]["features"] %}
         <div class="row text-center">
             <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
+                <p><ion-icon name="jet"></ion-icon></p>
                 <p><strong>{{ features[0].title }}</strong></p>
                 <p>{{ features[0].description }}</p>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
+                <p><ion-icon name="cog"></ion-icon></p>
                 <p><strong>{{ features[1]['title'] }}</strong></p>
                 <p>{{ features[1]['description'] }}</p>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
+                <p><ion-icon name="arrow-down"></ion-icon></p>
                 <p><strong>{{ features[2]['title'] }}</strong></p>
                 <p>{{ features[2]['description'] }}</p>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-check fa-fw fa-2x"></i></p>
+                <p><ion-icon name="ios-cafe"></ion-icon></p>
                 <p><strong>{{ features[3]['title'] }}</strong></p>
                 <p>{{ features[3]['description'] }}</p>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
+                <p><ion-icon name="business"></ion-icon></p>
                 <p><strong>{{ features[4]['title'] }}</strong></p>
                 <p>{{ features[4]['description'] }}</p>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
+                <p><ion-icon name="lock"></ion-icon></p>
                 <p><strong>{{ features[5]['title'] }}</strong></p>
                 <p>{{ features[5]['description'] }}</p>
             </div>
@@ -38,18 +62,82 @@
     </div>
 </section>
 <a id="about"></a>
-<section class="space--xxs" data-section="about2" id="about2-section">
+
+<section class="space--xxs" id="step-section">
     <div class="container">
-        <div class="row text-center section-heading to-animate">
-            <div class='col-sm-12'>
-                <h2>{% t 'headings.about' %}</h2>
+        <div class="row section-heading to-animate">
+            <div class="col-sm-12 text-center">
+                <h2>Getting Started</h2>
             </div>
+
         </div>
-        <div class="row to-animate">
-            <div class="col-sm-12 col-md-12">
-                {% for c in site.translations[site.lang]["content"]["about"] %}
-                <p>{{ c }}</p>
-                {% endfor %}
+
+        <div class="row">
+            <hr style="margin:40px 0; clear:both;">
+            <div class="col-sm-12 col-md-4">
+                <img src="/img/bitcoin-cash-transaction.png" alt="Bitcoin Cash Transaction">
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <h3>1. Download a wallet</h3>
+                <p>Lorem ipsum dolor sit amet, adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. </p>
+                <div class="text-right">
+                    <a href="#" class="btn btn-default">View More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <hr style="margin:40px 0; clear:both;">
+
+            <div class="col-sm-12 col-md-4">
+                <img src="/img/bitcoin-cash-transaction.png" alt="Bitcoin Cash Transaction">
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <h3>2. Buy Bitcoin Cash</h3>
+                <p>Lorem ipsum dolor sit amet, adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. </p>
+                <div class="text-right">
+                    <a href="#" class="btn btn-default">View More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <hr style="margin:40px 0; clear:both;">
+
+             <div class="col-sm-12 col-md-4">
+                <img src="/img/bitcoin-cash-transaction.png" alt="Bitcoin Cash Transaction">
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <h3>3. Spend Bitcoin Cash</h3>
+                <p>Lorem ipsum dolor sit amet, adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. </p>
+                <div class="text-right">
+                    <a href="#" class="btn btn-default">View More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <hr style="margin:40px 0; clear:both;">
+
+            <div class="col-sm-12 col-md-4">
+                <img src="/img/bitcoin-cash-transaction.png" alt="Bitcoin Cash Transaction">
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <h3>4. Accept Bitcoin Cash as a Merchant</h3>
+                <p>Lorem ipsum dolor sit amet, adipiscing elit. Cras imperdiet nec erat ac condimentum. Nulla vel rutrum ligula. Sed hendrerit interdum orci a posuere. Vivamus ut velit aliquet, mollis purus eget, iaculis nisl. </p>
+                <div class="text-right">
+                    <a href="#" class="btn btn-default">View More</a>
+                </div>
+            </div>
+                
+
             </div>
         </div>
     </div>
