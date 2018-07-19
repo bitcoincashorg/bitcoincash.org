@@ -16,6 +16,11 @@
                         </a>
                     </li>
                     <li>
+                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                            <span>{% t 'sections.faq' %}</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="{% unless page.isHome %}/{%endunless%}#wallets" data-nav-section="wallets" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t 'sections.wallets' %}</span>
                         </a>
@@ -58,11 +63,6 @@
                     <li>
                         <a href="graphics.html" class="external">
                             {% t 'sections.graphics' %}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.faq' %}</span>
                         </a>
                     </li>
                     <li class="dropdown">
