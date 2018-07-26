@@ -1,4 +1,5 @@
 language: English
+lang: en
 title:
   index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
   graphics: "Bitcoin Cash - Logos / Graphics"
@@ -258,24 +259,24 @@ content:
     - |
       Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
     - |
-      All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world. 
+      All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
   faq:
     - question: "What is Bitcoin Cash?"
       answer:
         - |
-          Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank.  
+          Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank.
     - question: "Is Bitcoin Cash different from 'Bitcoin'?"
       answer:
         - |
 
-          In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash. 
+          In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash.
 
   why:
       - benefit: "Send Money Anywhere In the World, Almost for Free"
         descrip:
           - |
             With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
-      
+
       - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
         descrip:
           - |
@@ -300,7 +301,7 @@ content:
         descrip:
           - |
             Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It's decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
-  
+
   benefits:
       - benefit: "Ultra Low Fees"
         descrip:
@@ -332,4 +333,4 @@ content:
          With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
         The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
-        
+

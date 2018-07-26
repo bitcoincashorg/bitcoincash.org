@@ -1,5 +1,6 @@
 language: Français
-title: 
+lang: fr
+title:
   index: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   graphics: "Bitcoin Cash - Logos / Graphics"
   get-listed: "Submit a listing request"
@@ -168,7 +169,7 @@ content:
         - |
           Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse à 1.7 Mo par bloc.Au mieux, cela serait une augmentation dérisoire de la capacité. Cela ne permettrait pas une croissance exponentielle lié à un usage mondialisé. Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux "hard forks" que Bitcoin Cash favorise) implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin</a>. Troisièmement, les futurs augmentations de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas les problèmes de temps de hashage quadratique pour les transactions non-SegWit. Ces inneficiences constituent des opportunités supplémentaires pour un éventuel attaquant - qui n'est pas obligé d'utiliser le format de transaction segwit.
         - |
-          Pour ces raisons (et d'autres), il était nécessaire de forker Bitcoin Cash avant que Segwit ne soit activé. SegWit ne sera jamais adopté sur Bitcoin Cash. 
+          Pour ces raisons (et d'autres), il était nécessaire de forker Bitcoin Cash avant que Segwit ne soit activé. SegWit ne sera jamais adopté sur Bitcoin Cash.
     - question: "Quelle équipe de développement est en charge de Bitcoin Cash ?"
       answer:
         - |
