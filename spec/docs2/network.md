@@ -9,7 +9,7 @@ This section of the BCH spec documents the peer-to-peer network protocol governi
 
 This spec is based on the Bitcoin ABC implementation of the [BitcoinCash](<https://www.bitcoincash.org/>) protocol. Additional resources:
 - Bitcoin ABC source code: <https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src>
-- Bitcoin ABC developer documentation: <http://doc.bitcoinabc.org/index.html>
+- Bitcoin ABC developer documentation: <https://doc.bitcoinabc.org/index.html>
 
 ## BCH Network
 
@@ -54,7 +54,7 @@ The following network messages all request or provide data related to transactio
 | getData 			| tx, block, merkeblock, notfound	
 
 
-Many of the data messages use inventories as unique identifiers for transactions and blocks. Inventories have a simple 36-byte structure:
+Many of the data messages use unique identifiers for transactions and blocks. Such identifiers have a simple 36-byte structure:
 
 | Bytes | Name            | Data Type | Description
 |-------|-----------------|-----------|-------------

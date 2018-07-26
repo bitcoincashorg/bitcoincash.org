@@ -18,7 +18,7 @@ A transaction is a transfer of BCH that is broadcast to the network and collecte
 
 Transaction comprises a signature and redeem script pair, which provides flexibility in releasing outputs. A serialized transaction contains an input and an output.
 
-Source code: https://github.com/Bitcoin-ABC/bitcoin-abc/bitcoin-abc/src/primitives/transaction.h
+Source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/primitives/transaction.h
 
 ### Transaction requirements
 A transaction that meets the criteria documented here is said to be standard. Standard transactions are accepted into the mempool and relayed by nodes on the network. This ensures that nodes have a similar looking mempool so that the system behave predictably. Standard transaction outputs nominate addresses, and the redemption of any future inputs requires a relevant signature.
@@ -28,6 +28,8 @@ Transaction requirements:
 - Version must be 1 or 2
 - Signature script must be data push only
 - Script size must be 1650 or less
+
+NOTE: A BCH node should be able to process non-standard transactions as well. Even if a node cannot successfully relay a non-standard transaction, it should not crash if it ends up having to process one of those transactions.
 
 ### Transaction Input
 Inputs to a transaction include the outpoint, signature script, and sequence.

@@ -5,11 +5,11 @@ description = "Block header, version, header hash, merkle root hash, timestamp, 
 category = "bch spec"
 +++
 
-This section of the BCH spec documents the block data structure for implementing a compatible BCH client, including the block header, block serialization, and coinbase transaction formats.
+This section of the BCH specification documents the block data structure for implementing a compatible BCH client, including the block header, block serialization, and coinbase transaction formats.
 
 This spec is based on the Bitcoin ABC implementation of the [BitcoinCash](<https://www.bitcoincash.org/>) protocol. Additional resources:
 - Bitcoin ABC source code: <https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src>
-- Bitcoin ABC developer documentation: <http://doc.bitcoinabc.org/index.html>
+- Bitcoin ABC developer documentation: <https://doc.bitcoinabc.org/index.html>
 
 # Block
 A **block** is one of the two base primitives in the BCH system, the other being a **transaction**. Primitive in this context means it is one of the data structures for which the BCH software provides built-in support. 
@@ -70,8 +70,17 @@ TXIDs and intermediate hashes are always in internal byte order when they're con
 
 Note that the Merkle root makes it is possible in the future to securely verify that a transaction has been accepted by the network using just the block header (which includes the Merkle tree), eliminating the current requirement to download the entire blockchain.
 
+Here is some example psudocode for implementing the merkle root:
+
+Here is the C++ implementation:
+
+Refer to the source code for more details on security issues: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/consensus/merkle.cpp.
+
 ### Block Timestamp
-The block timestamp is Unix epoch time when the miner started hashing the header according to the miner's clock. The block timestamp must be greater than the median time of the previous 11 blocks. Nodes will not accept blocks with timestamps more than two hours in the future according to their clock.
+The block timestamp is Unix epoch time when the miner started hashing the header according to the miner's clock. The block timestamp must be greater than the median time of the previous 11 blocks. Note that when validating the first 11 blocks of the chain, you will need to know how to handle arrays of less than length 11 to get a median. A node will not accept a block with a timestamp more than 2 hours ahead of its view of network-adjusted time.
+
+
+Well if you're writing the code and .
 
 ### Difficulty Target
 The difficulty target is a 256-bit unsigned integer which a header hash must be less than or equal to for that header to be a valid part of the block chain. The header field *nBits* provides only 32 bits of space, so the target number uses a less precise format called "compact" which works like a base-256 version of scientific notation. As a base-256 number, nBits can be parsed as bytes the same way you might parse a decimal number in base-10 scientific notation.
@@ -90,6 +99,8 @@ The current difficulty target is available here: <https://blockexplorer.com/api/
 ### Nonce
 To be valid, a block include a **nonce** value that is the solution to the mining process. This proof-of-work is verified by other BCH nodes each time they receive a block.
 
+NOTE: The original purpose of the nonce was to manipulate it to find a solution to the mining process. While this is still true, because mining devices now have hashrates in the terahash range, the `nonce` field is too small. In practice, most block headers do not include a solution to the mining process in the `nonce`. Miners have to try many different merkle root hashes, which is done typically by changing the coinbase TX.
+
 The nonce is a 32-bit (4-byte) field whose value is arbitrarily set by miners to modify the header hash and produce a hash that is less than the difficulty target with the required number of leading zeros (currently 32) satifies the proof-of-work.
 
 An arbitrary number miners change to modify the header hash in order to produce a hash less than or equal to the target threshold.  If all 32-bit values are tested, the time can be updated or the coinbase transaction can be changed and the merkle root updated. 
@@ -100,8 +111,8 @@ Any change to the nonce will make the block header hash completely different. Si
 
 It is mportant to note that the proof-of-work can be verified by computing one hash with the proper content, and is therefore very cheap. The fact that the proof is cheap to verify is as important as the fact that it is expensive to compute.
 
-## Block Searilzation
-Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32 MB. All fields described below count towards the serialized size limit.
+## Block Serilazation
+Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32MB (32,000,000 bytes). All fields described below count towards the serialized size limit.
 
 | Bytes 	| Name 			| Data type 		| Description
 |-----------|---------------|-------------------|------------
@@ -119,7 +130,7 @@ BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure 
 ## Coinbase Transaction
 The first transaction in the body of each block is a special transaction called the **coinbase transaction** which is used to pay miners of the block. The coinbase transaction is required, and must collect and spend any transaction fees paid by transactions included in this block. 
 
-A valid block is entitled to receive a block subsidy of newly created bitcoincash value, and it must also be spent in the coinbase transaction. Together, the transaction fees and block subsidy are called the **block reward**. A coinbase transaction is invalid if it tries to spend more value than is available from the block reward. The subsidy plus fees is the maximum coinbase payout. It is valid to pay less.
+A valid block is entitled to receive a block subsidy of newly created bitcoincash value, and it must also be spent in the coinbase transaction. Together, the transaction fees and block subsidy are called the **block reward**. A coinbase transaction is invalid if it tries to spend more value than is available from the block reward. The subsidy plus fees is the maximum coinbase payout, but note that it is valid for the coinbase to pay less.
 
 The coinbase transaction must have one input spending from 000000000000000. The field used to provide the signature can contain arbitrary data up to 100 bytes. The coinbase transaction must start with the block height to ensure no two coinbase transactions have the same transaction id (TXID).
 
