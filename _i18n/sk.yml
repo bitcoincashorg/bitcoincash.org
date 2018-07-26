@@ -1,5 +1,6 @@
 language: Slovenčina
-title: 
+lang: sk
+title:
   index: "Bitcoin Cash - Peer-to-Peer Digitálna Mena"
   graphics: "Bitcoin Cash - Logos / Graphics"
   get-listed: "Submit a listing request"
@@ -160,7 +161,7 @@ content:
         - |
           Niektorí vývojári neporozumeli a nesúhlasili s pôvodnou víziou peer-to-peer digitálnej meny, ktorú predstavil Satoshi Nakamoto. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Namiesto toho preferovali, aby sa Bitcoin stal vysporiadavacou vrstvou.</a>.
         - |
-          Mnoho ťažičov a uživateľov týmto vývojárom verilo. Napriek tomu niektorí neprehliadli skutočnost, že práve títo vývojári smerujú projekt Bitcoinu iným smerom, ako sa očakávalo. 
+          Mnoho ťažičov a uživateľov týmto vývojárom verilo. Napriek tomu niektorí neprehliadli skutočnost, že práve títo vývojári smerujú projekt Bitcoinu iným smerom, ako sa očakávalo.
         - |
           Tieto dve veľmi rozdielne vízie Bitcoinu sú do značnej miery nekompatibilné čo viedlo k rozdeleniu komunity a k rozštiepeniu meny.
     - question: "Nezvýšil SegWit kapacitu blokov? Bude mať Bitcoin Cash niekedy SegWit?"

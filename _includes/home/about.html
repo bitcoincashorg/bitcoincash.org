@@ -10,8 +10,9 @@
 
         <div class="row to-animate">
 
+            <!-- YouTube intro video -->
             <div class='col-sm-12 col-md-6 text-center'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OE3QTbgh-p8?cc_load_policy=1&cc_lang_pref={% t 'lang' %}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
 
             <div class='col-sm-12 col-md-6'>
@@ -19,9 +20,9 @@
                 <p>{{ c }}</p>
                 {% endfor %}
             </div>
-            
+
         </div>
-        
+
     </div>
 </section>
 
@@ -61,7 +62,7 @@
                 <p><strong>{{ features[5]['title'] }}</strong></p>
                 <p>{{ features[5]['description'] }}</p>
             </div>
-            
+
         </div>
         <div class="col-sm-12 text-center mb-4">
             <a href="bitcoin.pdf" target="_blank" class="btn btn-default">{% t 'headings.whitepaper' %}</a>
