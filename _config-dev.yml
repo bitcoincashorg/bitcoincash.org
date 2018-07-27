@@ -45,7 +45,7 @@ exclude:
 
 languages:
   - en
-  - de
+  - ko
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 

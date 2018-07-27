@@ -16,6 +16,11 @@
                         </a>
                     </li>
                     <li>
+                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                            <span>{% t 'sections.faq' %}</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="{% unless page.isHome %}/{%endunless%}#wallets" data-nav-section="wallets" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
                             <span>{% t 'sections.wallets' %}</span>
                         </a>
@@ -42,11 +47,6 @@
                                                     {% t 'sections.exchanges' %}
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="graphics.html" class="external">
-                                                    {% t 'sections.graphics' %}
-                                                </a>
-                                            </li>
                                             <!-- Disabled for renovations
                                             <li>
                                                 <a href="developers.html" class="external">
@@ -61,12 +61,12 @@
                         </div>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.faq' %}</span>
+                        <a href="graphics.html" class="external">
+                            {% t 'sections.graphics' %}
                         </a>
                     </li>
                     <li class="dropdown">
-                        <span class="dropdown__trigger">{% t 'language' %}</span>
+                        <span class="dropdown__trigger"><i class="fa fa-globe"></i> {% t 'language' %}</span>
                         <div class="dropdown__container">
                             <div class="container">
                                 <div class="row">
