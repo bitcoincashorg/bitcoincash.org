@@ -15,18 +15,41 @@ ion-icon {
   color:#F59332;
 }
 
+.pop-shadow {
+  border-radius:5px;
+  -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 24px 9px rgba(0,0,0,.04);
+    box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 24px 9px rgba(0,0,0,.04);
+    padding:1em;
+    margin-bottom:2.5em;
+    min-height:190px;
+}
+
+.pop-shadow ion-icon {
+  margin-top:-45px;
+  margin-bottom:15px;
+  background:#f59231;
+  color:#fff;
+  border-radius:50px;
+  padding:15px;
+  -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
+    box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
+}
+
+iframe {
+  padding:0.5em;
+  border-radius: 5px;
+  border:1px solid #eee;
+}
 
 #step-section {
-  background:#4d4d4d;
   margin:40px 0;
 }
 
 #step-section * {
-  color:#fff;
 }
 
 #step-section hr {
-  border-color:#333;
+  border-color:#eee;
 }
 
 #step-section .btn {
@@ -42,6 +65,110 @@ ion-icon {
 #step-section .section-heading h2:after {
   /*background:#fff;*/
 }
+
+
+.card-user-profile {
+  position: relative;
+  z-index: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.card-user-profile > :last-child {
+  margin-bottom: 0;
+}
+
+.card-user-profile:hover .card-user-profile-img {
+  opacity: 1;
+}
+
+.card-user-profile-content {
+  position: relative;
+}
+
+.card-user-profile-content::before {
+  position: absolute;
+  content: '';
+  top: -3.4375rem;
+  left: -1.875rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3.4375rem 0 0 31.25rem;
+  z-index: 0;
+  border-color: transparent transparent transparent #fefefe;
+}
+
+.card-user-profile-actions {
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  padding: 1rem;
+  background: #e6e6e6;
+  background: #fefefe;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-user-profile-actions > :last-child {
+  margin-bottom: 0;
+}
+
+.card-user-profile-img {
+  max-width: 100%;
+  opacity: 0.85;
+  transition: all 0.25s ease;
+}
+
+.card-user-profile-avatar {
+  position: absolute;
+  bottom: 100%;
+  left: 1rem;
+  z-index: 2;
+  max-width: 5.625rem;
+}
+
+.card-user-profile-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-user-profile-name {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-user-profile-button {
+  margin-bottom: 0;
+  -webkit-flex: 1 0 0;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.card-user-profile-button + .card-user-profile-button {
+  margin-left: 1rem;
+}
+
+.card-user-profile-info {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+
 
 body {
   font-family: "Ubuntu", Arial, sans-serif;
@@ -569,6 +696,24 @@ h1, h2, h3, h4, h5, h6 {
   height: 70px;
   bottom: 0;
   margin-bottom: -35px;
+  padding: 0;
+  width: 101%;
+}
+
+.slant-top {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  top: 0;
+  margin-top: -35px;
   padding: 0;
   width: 101%;
 }
@@ -1495,6 +1640,11 @@ flex-wrap: wrap;}
   border-color: transparent;
 }
 
+.btn-default {
+  border-radius:30px;
+  border:0;
+}
+
 
 .btn.btn-secondary {
   background: #fff;
@@ -1502,6 +1652,32 @@ flex-wrap: wrap;}
   border: 2px solid #4E4E4E;
 }
 
+#about-section h2 {
+  margin-top:1em;
+}
+#connect {
+  background:#eee;
+  position: relative;
+  padding:6em 0 6em;
+}
+#connect h5 {
+  /* color:#f6cba2; */
+  font-size:22px;
+}
+
+#connect ion-icon {
+  font-size:24px;
+  color:#333;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+#connect a:hover ion-icon {
+  color:#fff;
+}
 .btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus {
   background:#4E4E4E !important;
   color:#fff;

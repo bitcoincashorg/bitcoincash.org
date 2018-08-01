@@ -1,5 +1,5 @@
 
-<section class="space--xxs" id="about-section" data-section="about">
+<section class="space--sm" id="about-section" data-section="about">
     <div class="container">
         <div class="row section-heading to-animate">
 
@@ -22,46 +22,82 @@
     </div>
 </section>
 
-<section class="space--xxs no-bottom" >
+<section class="space--xs no-bottom" >
     <div class="container benefits">
         {% assign features = site.translations[site.lang]["features"] %}
         <div class="row text-center">
             <div class="col-sm-4 col-md-4 to-animate">
+                <div class="pop-shadow">
                 <p><ion-icon name="jet"></ion-icon></p>
                 <p><strong>{{ features[0].title }}</strong></p>
                 <p>{{ features[0].description }}</p>
+                </div>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
+                <div class="pop-shadow">
                 <p><ion-icon name="cog"></ion-icon></p>
                 <p><strong>{{ features[1]['title'] }}</strong></p>
                 <p>{{ features[1]['description'] }}</p>
+                </div>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
+                <div class="pop-shadow">
                 <p><ion-icon name="arrow-down"></ion-icon></p>
                 <p><strong>{{ features[2]['title'] }}</strong></p>
                 <p>{{ features[2]['description'] }}</p>
+                </div>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-sm-4 col-md-4 to-animate">
+                <div class="pop-shadow">
                 <p><ion-icon name="ios-cafe"></ion-icon></p>
                 <p><strong>{{ features[3]['title'] }}</strong></p>
                 <p>{{ features[3]['description'] }}</p>
+                </div>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
+                <div class="pop-shadow">
                 <p><ion-icon name="business"></ion-icon></p>
                 <p><strong>{{ features[4]['title'] }}</strong></p>
                 <p>{{ features[4]['description'] }}</p>
+                </div>
             </div>
             <div class="col-sm-4 col-md-4 to-animate">
+                <div class="pop-shadow">
                 <p><ion-icon name="lock"></ion-icon></p>
                 <p><strong>{{ features[5]['title'] }}</strong></p>
                 <p>{{ features[5]['description'] }}</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <a id="about"></a>
+
+<section class="space--xxs" id="connect">
+    <div class="slant-top"></div>
+    <div class="container">
+        <div class="row section-heading to-animate">
+            <div class="col-sm-12 text-center">
+                <h5>Join the Bitcoin Cash community</h5>
+                <a class="btn btn-default large round" href="#" target="_blank">
+                    <ion-icon name="logo-reddit"></ion-icon> Reddit
+                </a>
+                <a class="btn btn-default large round" href="#" target="_blank">
+                    <ion-icon name="logo-slack"></ion-icon> Slack
+                </a>
+                <a class="btn btn-default large round" href="#" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon> Facebook
+                </a>
+                <a class="btn btn-default large round" href="#" target="_blank">
+                    <ion-icon name="paper-plane"></ion-icon> Telegram
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="slant"></div>
+</section>
 
 <section class="space--xxs" id="step-section">
     <div class="container">
@@ -73,6 +109,42 @@
         </div>
 
         <div class="row">
+            <div class="col-sm-12 col-md-6">
+                    <div class="card-user-profile">
+                            <img class="card-user-profile-img" src="https://images.pexels.com/photos/5439/earth-space.jpg?h=350&auto=compress&cs=tinysrgb" alt="picture of space" />
+                            <div class="card-user-profile-content card-section">
+                                <div class="card-user-profile-avatar">
+                                <img src="https://pbs.twimg.com/profile_images/422887689612820482/sZtHMJu5.png" alt="picture of yeti" />
+                                </div>
+                                <p class="card-user-profile-name">Abominable Snowman</p>
+                                <p class="card-user-profile-status">Yeti Web Designer</p>
+                                <p class="card-user-profile-info">The Yeti, once better known as the Abominable Snowman, is a mysterious bipedal creature said to live in the mountains of Asia. It sometimes leaves tracks in snow, but is also said to dwell below the Himalayan snow line.</p>
+                            </div>
+                            
+                            <div class="card-user-profile-actions">
+                                <a href="#" class="card-user-profile-button btn btn-secondary">Follow</a>
+                                <a href="#" class="card-user-profile-button btn btn-secondary secondary">More Info</a>
+                            </div>
+                        </div>        
+            </div>
+            <div class="col-sm-12 col-md-6">
+                    <div class="card-user-profile">
+                            <img class="card-user-profile-img" src="https://images.pexels.com/photos/5439/earth-space.jpg?h=350&auto=compress&cs=tinysrgb" alt="picture of space" />
+                            <div class="card-user-profile-content card-section">
+                                <div class="card-user-profile-avatar">
+                                <img src="https://pbs.twimg.com/profile_images/422887689612820482/sZtHMJu5.png" alt="picture of yeti" />
+                                </div>
+                                <p class="card-user-profile-name">Abominable Snowman</p>
+                                <p class="card-user-profile-status">Yeti Web Designer</p>
+                                <p class="card-user-profile-info">The Yeti, once better known as the Abominable Snowman, is a mysterious bipedal creature said to live in the mountains of Asia. It sometimes leaves tracks in snow, but is also said to dwell below the Himalayan snow line.</p>
+                            </div>
+                            
+                            <div class="card-user-profile-actions">
+                                <a href="#" class="card-user-profile-button btn btn-secondary">Follow</a>
+                                <a href="#" class="card-user-profile-button btn btn-secondary secondary">More Info</a>
+                            </div>
+                        </div>        
+            </div>
             <hr style="margin:40px 0; clear:both;">
             <div class="col-sm-12 col-md-4">
                 <img src="/img/bitcoin-cash-transaction.png" alt="Bitcoin Cash Transaction">
@@ -106,6 +178,8 @@
         </div>
 
         <div class="row">
+
+            
             <hr style="margin:40px 0; clear:both;">
 
              <div class="col-sm-12 col-md-4">
