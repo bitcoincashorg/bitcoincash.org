@@ -102,7 +102,9 @@ iframe {
 .card-user-profile > :last-child {
   margin-bottom: 0;
 }
-
+.card-user-profile-img {
+  -webkit-backface-visibility: hidden;
+}
 .card-user-profile:hover .card-user-profile-img {
   opacity: 1;
 }
