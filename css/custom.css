@@ -118,6 +118,29 @@ p.question {
   border-bottom: 3px solid #F08B16;
 }
 
+.wallets .featured-wallets div a {
+  display:block;
+  margin:0 auto 1em;
+  height:175px;
+  position: relative;
+}
+.featured-wallets a img {
+  display:block;
+  margin:0 auto;
+}
+.featured-wallets a .supports {
+  position:absolute;
+  right:10px;
+  bottom:0px;
+}
+.featured-wallets ion-icon {
+  color:#4d4d4d;
+  display:block;
+  font-size:20px;
+}
+.secondary-wallets {
+  margin-top:4em;
+}
 .nodes div a, .wallets div a, .services div a, .exchanges div a{
   padding: 2em;
   width: 100%;
