@@ -46,6 +46,7 @@ p.release {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  position:relative;
 }
 
 @media only screen and (max-device-width: 1024px) {

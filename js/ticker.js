@@ -27,10 +27,10 @@ ticker = function(currencies) {
         if (sym === undefined) {
           sym = "";
         }
-        output.push("BCH/" + currency + "&nbsp;" + sym + price);
+        output.push("<a href='https://markets.bitcoin.com/crypto/BCH'><div class='currency'>BCH/" + currency + "&nbsp;" + sym + price + "</div></a>");
       });
 
-      $('#ticker_value').html(output.join(" &bull; "));
+      $('#ticker_value').html(output);
     }
   }).done(function () {
     setTimeout(function(){ ticker(ticker_currencies); }, 10000);
