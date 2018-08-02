@@ -76,13 +76,27 @@ iframe {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 1rem;
+  margin: 1em;
   border: 0;
-  border-radius: 0;
+  border-radius: 5px;
   background: #fefefe;
   box-shadow: none;
   overflow: hidden;
   color: #0a0a0a;
+  -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
+    box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
+    -webkit-backface-visibility: hidden;
+
+}
+
+.card-user-profile ion-icon {
+  background:#4d4d4d;
+  color:#fff;
+  border-radius:50px;
+  box-shadow:0 0 15px rgba(10, 10, 10, 0.3);
+  padding:8px;
+  font-size:42px;
+  margin-left:.2em;
 }
 
 .card-user-profile > :last-child {
@@ -95,6 +109,7 @@ iframe {
 
 .card-user-profile-content {
   position: relative;
+  padding:0 1em;
 }
 
 .card-user-profile-content::before {
@@ -105,21 +120,13 @@ iframe {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 3.4375rem 0 0 31.25rem;
+  border-width: 2em 0 0 30em;
   z-index: 0;
   border-color: transparent transparent transparent #fefefe;
 }
 
 .card-user-profile-actions {
-  -webkit-flex: 0 1 auto;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  padding: 1rem;
-  background: #e6e6e6;
-  background: #fefefe;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  padding: .5em 1em 1em;
 }
 
 .card-user-profile-actions > :last-child {
@@ -149,24 +156,59 @@ iframe {
   margin-bottom: 0;
   font-weight: 300;
   font-size: 1.5rem;
+  margin-top:.5em;
+  color:#777;
 }
 
 .card-user-profile-button {
   margin-bottom: 0;
-  -webkit-flex: 1 0 0;
-      -ms-flex: 1 0 0px;
-          flex: 1 0 0;
+  
 }
 
 .card-user-profile-button + .card-user-profile-button {
   margin-left: 1rem;
 }
 
-.card-user-profile-info {
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  opacity: 0.8;
+.card-section .card-user-profile-info {
+  font-size: 15px;
+  margin-bottom:.5em;
+  letter-spacing:1px;
 }
+
+.card-user-profile-status {
+  font-weight:bold;
+  color:#4d4d4d;
+  margin-bottom:.5em;
+}
+
+.card-section .btn {
+  margin-bottom:1em;
+}
+
+@media screen and (min-width: 767px) {
+  
+  .card-step1 {
+
+  }
+
+  .card-step2 {
+    margin-top:4em;
+  }
+
+  .card-step3 {
+    
+  }
+
+  .card-step4 {
+    margin-top:4em;
+  }
+
+  .card-step5 {
+    margin-top:3em;
+  }
+
+}
+
 
 
 
@@ -1643,6 +1685,10 @@ flex-wrap: wrap;}
 .btn-default {
   border-radius:30px;
   border:0;
+}
+
+.btn-round {
+  border-radius:30px;
 }
 
 
