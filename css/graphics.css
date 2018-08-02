@@ -1459,7 +1459,7 @@ flex-wrap: wrap;}
   margin: 0 0 30px 0;
   font-size: 50px;
   font-weight: 300;
-  color: #444;
+  color: #4d4d4d;
   text-transform: uppercase;
   position: relative;
   display: block;
@@ -1687,12 +1687,15 @@ flex-wrap: wrap;}
 .btn-default {
   border-radius:30px;
   border:0;
+  color:#4d4d4d;
 }
 
 .btn-round {
   border-radius:30px;
 }
-
+p strong {
+  color:#4d4d4d;
+}
 
 .btn.btn-secondary {
   background: #fff;
