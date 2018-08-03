@@ -27,7 +27,7 @@ ticker = function(currencies) {
         if (sym === undefined) {
           sym = "";
         }
-        output.push("<a href='https://markets.bitcoin.com/crypto/BCH'><div class='currency'>BCH/" + currency + "&nbsp;" + sym + price + "</div></a>");
+        output.push("<a href='#'><div class='currency'>"  + sym + price + " <span class='country'>" + currency + "</span></div></a>");
       });
 
       $('#ticker_value').html(output);

@@ -521,6 +521,12 @@ h1, h2, h3, h4, h5, h6 {
   width:200px;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-brand img{
+    width:200px;
+  }  
+}
+
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
   background: #fff;
@@ -642,6 +648,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size:21px;
 }
 
+.hero-logo .btn {
+  margin:.5em 0;
+}
+
+@media screen and (max-width: 600px) {
+
+  .hero-logo .btn {
+    width:48%;
+    font-size:11px;
+    letter-spacing:1px;
+    padding:10px;
+  }  
+
+}
+
+@media screen and (max-width: 320px) {
+  .hero-logo .btn {
+    width:auto;
+    font-size:13px;
+    letter-spacing:1px;
+    padding:10px 20px;
+    display:block;
+  }  
+}
+
 #fh5co-home #ticker, #fh5co-home #ticker_value {
   color:#fff;
   margin-top:50px;
@@ -685,6 +716,22 @@ padding-top:2em;
   padding:10px 20px 10px 10px;
   margin-bottom:10px;
   border-radius:5px 0 0 5px;
+}
+
+.currency .country {
+  font-size:12px;
+  letter-spacing:1px;
+  font-weight:bold;
+  background:#fff;
+  color:#4d4d4d;
+  padding:3px 4px;
+  border-radius:3px;
+  display:block;
+  margin-top:2px;
+  width:auto;
+  float:right;
+  margin-right:0px;
+  margin-left:25px
 }
 
 @media screen and (min-width: 768px) {
@@ -1479,6 +1526,7 @@ flex-wrap: wrap;}
 .btn:hover, .btn:active, .btn:focus {
   outline: none;
 }
+
 
 #fh5co-contact {
   padding-bottom: 0;
