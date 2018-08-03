@@ -118,15 +118,35 @@ p.question {
   border-bottom: 3px solid #F08B16;
 }
 
+/* .video-section .card-user-profile {
+  margin-top:2em;
+} */
+
+.video-section .card-user-profile-content::before {
+ content:none;
+}
+.video-section .card-user-profile-name {
+  margin-top:1.5em;
+  margin-bottom:.5em;
+  color:#ee8a2c;
+}
+.featured-wallets {
+  padding-bottom:2em;
+}
 .wallets .featured-wallets div a {
   display:block;
   margin:0 auto 1em;
-  height:175px;
   position: relative;
+  color:#4d4d4d;
+  height:auto;
 }
 .featured-wallets a img {
   display:block;
   margin:0 auto;
+}
+
+.featured-wallets a:hover, .featured-wallets a:focus {
+  text-decoration: none;
 }
 .featured-wallets a .supports {
   position:absolute;
@@ -138,8 +158,14 @@ p.question {
   display:block;
   font-size:20px;
 }
+.featured-wallets p {
+  font-size:16px;
+  font-weight:normal;
+  margin-top:1em;
+  
+}
 .secondary-wallets {
-  margin-top:4em;
+  margin-top:1em;
 }
 .nodes div a, .wallets div a, .services div a, .exchanges div a{
   padding: 2em;

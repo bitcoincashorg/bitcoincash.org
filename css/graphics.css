@@ -41,6 +41,11 @@ iframe {
   border:1px solid #eee;
 }
 
+.card-user-profile iframe {
+  padding:0; 
+  border:0;
+}
+
 #step-section {
   margin:40px 0;
 }
@@ -649,7 +654,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-logo .btn {
-  margin:.5em 0;
+  margin:.5em .25em;
 }
 
 @media screen and (max-width: 600px) {
@@ -659,6 +664,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size:11px;
     letter-spacing:1px;
     padding:10px;
+    margin:.5em 0;
   }  
 
 }
@@ -2133,6 +2139,12 @@ section.space--xs,
 footer.space--xs {
   padding-top: 3.71428571em;
   padding-bottom: 0.71428571em;
+}
+
+section.space--none,
+footer.space--none {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .social-list a {
