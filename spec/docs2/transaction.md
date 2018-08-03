@@ -1,7 +1,7 @@
 +++
 date = "2018-07-05"
 title = "Transaction"
-description = "Transaction, opcodes, txin, outpoint, txout, sigscript"
+description = "Transaction, opcodes, txin, outpoint, txout, scriptSig"
 category = "bch spec"
 +++
 
@@ -34,7 +34,7 @@ NOTE: A BCH node should be able to process non-standard transactions as well. Ev
 ### Transaction Input
 Inputs to a transaction include the outpoint, signature script, and sequence.
 
-An input is a reference to an output from a previous transaction. Multiple inputs are often listed in a transaction. All of the new transaction's input values (that is, the total coin value of the previous outputs referenced by the new transaction's inputs) are added up, and the total (less any transaction fee) is completely used by the outputs of the new transaction. Previous tx is a hash of a previous transaction. Index is the specific output in the referenced transaction. ScriptSig is the first half of a script (discussed in more detail later).
+An input is a reference to an output from a previous transaction. Multiple inputs are often listed in a transaction. All of the new transaction's input values (that is, the total coin value of the previous outputs referenced by the new transaction's inputs) are added up, and the total (less any transaction fee) is completely used by the outputs of the new transaction. Previous tx is a hash of a previous transaction. Index is the specific output in the referenced transaction. scriptSig is the first half of a script (discussed in more detail later).
 
 ### Transaction Output
 Outputs from a transaction include the BCH amount and redeem script which is used to spend the output and sets up parameters for the signature script. Redeem scripts should not use OP_CODES.
@@ -117,12 +117,12 @@ A raw transaction has the following top-level format:
 
 | Bytes    | Name         | Data Type           | Description
 |----------|--------------|---------------------|-------------
-| 4        | version      | uint32_t            | Transaction version number; currently version 1.  Programs creating transactions using newer consensus rules may use higher version numbers.
-| *Varies* | tx_in count  | compactSize uint    | Number of inputs in this transaction.
-| *Varies* | tx_in        | txIn                | Transaction inputs.  See description of txIn below.
-| *Varies* | tx_out count | compactSize uint    | Number of outputs in this transaction.
-| *Varies* | tx_out       | txOut               | Transaction outputs.  See description of txOut below.
-| 4        | lock_time    | uint32_t            | A time (Unix epoch time) or block number. 
+| 4        | version      | `uint32_t`            | Transaction version number; currently version 1.  Programs creating transactions using newer consensus rules may use higher version numbers.
+| *Varies* | tx_in count  | `compactSize uint`    | Number of inputs in this transaction.
+| *Varies* | tx_in        | `txIn`                | Transaction inputs.  See description of txIn below.
+| *Varies* | tx_out count | `compactSize uint`    | Number of outputs in this transaction.
+| *Varies* | tx_out       | `txOut`               | Transaction outputs.  See description of txOut below.
+| 4        | lock_time    | `uint32_t`            | A time (Unix epoch time) or block number. 
 
 A transaction may have multiple inputs and outputs, so the txIn and txOut structures may recur within a transaction. CompactSize unsigned
 integers are a form of variable-length integers; they are described in CompactSize unsigned integer.
@@ -169,12 +169,12 @@ For numbers from 0 to 252, compactSize unsigned integers look like regular unsig
 | >= 0x100000000 && <= 0xffffffffffffffff | 9          | 0xff followed by the number as uint64_t
 
 ## Signature Script
-The signature script (sigscript) contains two components: a signature and a public key. The public key must match the hash given in the script of the redeemed output. The public key is used to verify the redeemers signature, which is the second component. More precisely, the second component is an ECDSA signature over a hash of a simplified version of the transaction. It, combined with the public key, proves the transaction was created by the real owner of the address in question.
+The purpose of the signature script (scriptSig) is to ensure that the spender is a legitimate spender, that is, evidence of private key held.
+
+The scriptSig contains two components: a signature and a public key. The public key must match the hash given in the script of the redeemed output. The public key is used to verify the redeemers signature, which is the second component. More precisely, the second component is an ECDSA signature over a hash of a simplified version of the transaction. It, combined with the public key, proves the transaction was created by the real owner of the address in question.
 
 Signature scripts are not signed, so anyone can modify them. This means signature scripts should only contain data and data-pushing opcodes which can't be modified without causing the pubkey script to fail. Placing non-data-pushing opcodes in the signature script currently makes a transaction non-standard, and future consensus rules may forbid such transactions altogether. (Non-data-pushing opcodes are already forbidden in signature scripts when spending a P2SH pubkey script.)
-
-The purpose of the sigscript is to ensure that the spender is a legitimate spender, that is, evidence of private key held. 
-
+ 
 ## Sequence
 
 Check lock time verify (s4)
@@ -184,6 +184,7 @@ Check sequence verify (s4)
 ## Standard Transaction Format Examples
 				
 ### P2SH
+
 	23-bytes
 	OP_HASH160
 	<reedem script hash>
@@ -191,21 +192,24 @@ Check sequence verify (s4)
 	Use address version=1 and hash=<reedem script hash>
 
 ### P2PKH
+
 	25 bytes
 	OP_DUP
 	OP_HASH160
 	<public key hash>
-	OP_EQUAL
+	OP_EQUALVERIFY
 	OP_CHECKSIG
 	Use address version=0 and hash=<public key hash> 
 
 ### P2PK
+
 	35 or 67 bytes
 	<public key>
 	OP_CHECKSIG
 	Use address version=0 and hash=HASH160(<public key>)
 
 ### Bare multisig
+
 	<n: [0-20]>
 	<pubkey 0>
 	…
@@ -213,8 +217,13 @@ Check sequence verify (s4)
 	<(null)>
 	OP_CHECKMULTISIG
 
+NOTE: Bare multisig (which isn't wrapped into P2SH) is limited to 3-of-3.
+
 ### Data carrier
+
 	Limited to one per transaction
 	Limited to 223 bytes
 	OP_RETURN
 	<push data>
+
+NOTE: Multiple pushes of data are allowed.

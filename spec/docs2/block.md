@@ -23,7 +23,7 @@ The block validation rules described here ensure that BCH nodes stay in consensu
 A node is distinct on the network from miners and wallets. A BCH node is a piece of software that connects to other nodes in a network and communicates via peer-to-peer messages. Nodes use the verack protocol to communicate and perform full validation checks, including:
 
 1. Connecting to the network and peers.
-2. Acuiqring block headers.
+2. Acquiring block headers.
 3. Validating all blocks.
 4. Validating all transactions.
 
@@ -46,7 +46,7 @@ Field 			| Size (bytes) 	| Data type | Description
 `nNonce`		| 4 			| uint32_t 	| 32-bit number (starts at 0) used to generate this block (the "nonce").
 
 ### Block Version
-The block version number is a signed 4 byte integer (int32_t) that indicates which set of block validation rules to follow. BCH version >= 4 is valid.
+The block version number is a signed 4 byte integer (`int32_t`) that indicates which set of block validation rules to follow. BCH version >= 4 is valid.
 
 ### Previous Block Hash
 The SHA256(SHA256(Block_Header)) message digest (hash) of the previous block’s header in internal byte order. This ensures no previous block can be changed without also changing this block’s header. 
@@ -79,9 +79,6 @@ Refer to the source code for more details on security issues: https://github.com
 ### Block Timestamp
 The block timestamp is Unix epoch time when the miner started hashing the header according to the miner's clock. The block timestamp must be greater than the median time of the previous 11 blocks. Note that when validating the first 11 blocks of the chain, you will need to know how to handle arrays of less than length 11 to get a median. A node will not accept a block with a timestamp more than 2 hours ahead of its view of network-adjusted time.
 
-
-Well if you're writing the code and .
-
 ### Difficulty Target
 The difficulty target is a 256-bit unsigned integer which a header hash must be less than or equal to for that header to be a valid part of the block chain. The header field *nBits* provides only 32 bits of space, so the target number uses a less precise format called "compact" which works like a base-256 version of scientific notation. As a base-256 number, nBits can be parsed as bytes the same way you might parse a decimal number in base-10 scientific notation.
 
@@ -99,7 +96,7 @@ The current difficulty target is available here: <https://blockexplorer.com/api/
 ### Nonce
 To be valid, a block include a **nonce** value that is the solution to the mining process. This proof-of-work is verified by other BCH nodes each time they receive a block.
 
-NOTE: The original purpose of the nonce was to manipulate it to find a solution to the mining process. While this is still true, because mining devices now have hashrates in the terahash range, the `nonce` field is too small. In practice, most block headers do not include a solution to the mining process in the `nonce`. Miners have to try many different merkle root hashes, which is done typically by changing the coinbase TX.
+NOTE: The original purpose of the nonce was to manipulate it to find a solution to the mining process. However, because mining devices now have hashrates in the terahash range, the `nonce` field is too small. In practice, most block headers do not include a solution to the mining process in the `nonce`. Miners have to try many different merkle root hashes, which is typically done by changing the coinbase TX.
 
 The nonce is a 32-bit (4-byte) field whose value is arbitrarily set by miners to modify the header hash and produce a hash that is less than the difficulty target with the required number of leading zeros (currently 32) satifies the proof-of-work.
 
@@ -110,22 +107,6 @@ The nonce is an arbitrarily changed by miners to modify the header hash and prod
 Any change to the nonce will make the block header hash completely different. Since it is virtually impossible to predict which combination of bits will result in the right hash, many different nonce values are tried, and the hash is recomputed for each value until a hash containing the required number of zero bits as set by the difficulty target is found. The resulting hash has to be a value less than the current difficulty and so will have to have a certain number of leading zero bits to be less than that. As this iterative calculation requires time and resources, the presentation of the block with the correct nonce value constitutes proof-of-work.
 
 It is mportant to note that the proof-of-work can be verified by computing one hash with the proper content, and is therefore very cheap. The fact that the proof is cheap to verify is as important as the fact that it is expensive to compute.
-
-## Block Serilazation
-Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32MB (32,000,000 bytes). All fields described below count towards the serialized size limit.
-
-| Bytes 	| Name 			| Data type 		| Description
-|-----------|---------------|-------------------|------------
-| 80 		| block header 	| block_header 		| The block header in the proper format. See [Block Header](#block-header).
-| Varies 	| txn_count 	| compactSize uint 	| Total number of transactions in this block, including the coinbase transaction.
-| Varies 	| txns 			| raw transaction 	| Each transaction in this block in this block, one after another, in raw transaction format.  Transactions must appear in the data stream in the same order their TXIDs appeared in the first row of the [Merkle tree](#merkle-root-hash).
-
-The serialized (raw) form of each block header is hashed as part of the proof-of-work, making the serialized block header part of the BCH consensus rules. As part of the mining process, the block header is hashed repeatedly to create proof-of-work.
-
-BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure that the block header is in the proper byte-order before hashing. The following serialization rules apply to the block header:
-
-- Both hash fields use double-hashing (`SHA256(SHA256(DATA))`) and are seralized in internal byte order, which means the standard order in which hash message digests are displayed as strings.
-- The values for all other fields in the block header are serialized in little-endian order. Note that when displayed via a block browser or query, the ordering is big-endian.
 
 ## Coinbase Transaction
 The first transaction in the body of each block is a special transaction called the **coinbase transaction** which is used to pay miners of the block. The coinbase transaction is required, and must collect and spend any transaction fees paid by transactions included in this block. 
@@ -147,3 +128,19 @@ The coinbase transaction has the following format:
 
 Although the coinbase script is arbitrary data, if it includes the bytes used by any signature-checking operations such as `OP_CHECKSIG`,
 those signature checks will be counted as signature operations (sigops) towards the block's sigop limit. To avoid this, you can prefix all data with the appropriate push operation. See [Transaction](#transaction) for details on opcodes.
+
+## Block Serilazation
+Blocks must be serialized in binary format for transport on the network. Under current BCH consensus rules, a BCH block is valid if its searlized size is not more than 32MB (32,000,000 bytes). All fields described below count towards the serialized size limit.
+
+| Bytes 	| Name 			| Data type 		| Description
+|-----------|---------------|-------------------|------------
+| 80 		| block header 	| block_header 		| The block header in the proper format. See [Block Header](#block-header).
+| Varies 	| txn_count 	| compactSize uint 	| Total number of transactions in this block, including the coinbase transaction.
+| Varies 	| txns 			| raw transaction 	| Each transaction in this block in this block, one after another, in raw transaction format.  Transactions must appear in the data stream in the same order their TXIDs appeared in the first row of the [Merkle tree](#merkle-root-hash).
+
+The serialized (raw) form of each block header is hashed as part of the proof-of-work, making the serialized block header part of the BCH consensus rules. As part of the mining process, the block header is hashed repeatedly to create proof-of-work.
+
+BCH uses SHA256(SHA256(Block_Header)) to hash the block header. You must ensure that the block header is in the proper byte-order before hashing. The following serialization rules apply to the block header:
+
+- Both hash fields use double-hashing (`SHA256(SHA256(DATA))`) and are seralized in internal byte order, which means the standard order in which hash message digests are displayed as strings.
+- The values for all other fields in the block header are serialized in little-endian order. Note that when displayed via a block browser or query, the ordering is big-endian.

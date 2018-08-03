@@ -160,7 +160,7 @@ The `merkleblock` message provides three special data types: a transaction count
 To create a `merkleblock` message, create a complete merkle tree with TXIDs on the bottom row and all the other hashes calculated up to the merkle root on the top row. For each transaction that matches the filter, track its TXID node and all of its ancestor nodes.
 
 ## CmpctBlock
-The `cmpctblock` message is a reply to a `getdata` message which requested a block using the inventory type `MSG_CMPCT_BLOCK`. If the requested block was recently announced and is close to the tip of the best chain of the receiver and after having sent the requesting peer a `sendcmpct` message, nodes respond with a `cmpctblock` message containing data for the block. If the requested block is too old, the node responds with a *full non-compact block. 
+The `cmpctblock` message is a reply to a `getdata` message which requested a block using the inventory type `MSG_CMPCT_BLOCK`. If the requested block was recently announced and is close to the tip of the best chain of the receiver and after having sent the requesting peer a `sendcmpct` message, nodes respond with a `cmpctblock` message containing data for the block. If the requested block is too old, the node responds with a *full non-compact block*. 
 
 Upon receipt of a `cmpctblock` message, after sending a `sendcmpct` message, nodes should calculate the short transaction ID for each unconfirmed transaction they have available (ie in their mempool) and compare each to each short transaction ID in the `cmpctblock` message. After finding already-available transactions, nodes which do not have all transactions available to reconstruct the full block should request the missing transactions using a `getblocktxn` message.
 
