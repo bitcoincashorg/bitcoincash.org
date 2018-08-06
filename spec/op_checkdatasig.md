@@ -1,3 +1,11 @@
+---
+layout: specification
+title: OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY Specification
+date: 2018-08-06
+activation: 1542300000
+version: 0.1
+---
+
 OP_CHECKDATASIG
 ===============
 
