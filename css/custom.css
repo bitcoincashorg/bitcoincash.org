@@ -164,6 +164,18 @@ p.question {
   margin-top:1em;
   
 }
+.wallet-filter {
+  min-height:400px;
+  margin-bottom:2em;
+  -webkit-transition: height 250ms ease;
+  -moz-transition: height 250ms ease;
+  -o-transition: height 250ms ease;
+  -ms-transition: height 250ms ease;
+  transition: height 250ms ease;
+}
+.wallet-filter .wallets .section-heading {
+  margin-top:2em;
+}
 .secondary-wallets {
   margin-top:1em;
 }
@@ -188,6 +200,29 @@ p.question {
   margin-bottom: 1.5em;
 }
 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color:transparent;
+}
+
+.row .nav-tabs {
+  margin-bottom:2em;
+}
+
+.nav-tabs li a {
+  height:auto;
+  margin-bottom:0;
+  background:transparent;
+}
+.nav-tabs li {
+  margin-right:5px;
+}
+
+.nav-tabs li a:hover {
+  border-bottom:0;
+}
+.nav-tabs li.active a, .row .nav-tabs > li.active > a, .row .nav-tabs > li.active > a:hover, .row .nav-tabs > li.active > a:focus {
+  background:#fafafa;
+}
 .nodes div a.btn, .wallets div a.btn, .services div a.btn, .exchanges div a.btn {
   width: auto;
   padding: .8em 1em;
@@ -198,7 +233,11 @@ p.question {
   background: #F59331;
   transition-duration: 0.2s;
 }
-
+@media all and (max-width: 767px) {
+  .wallets div a {
+    width:90%
+  }
+}
 @media all and (min-width: 990px) {
   .menu-vertical li {
     white-space: normal;
