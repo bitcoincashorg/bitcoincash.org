@@ -9,7 +9,7 @@ version: 0.1
 OP_CHECKDATASIG
 ===============
 
-OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY check whether a signature is valid with respect to a message hash and and a public key. The message hash is restricted to exactly 256 bits.
+OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY check whether a signature is valid with respect to a message hash and a public key. The message hash is restricted to exactly 256 bits.
 
 OP_CHECKDATASIG permits data to be imported into a script, and have its validity checked against some signing authority such as an "Oracle".
 
@@ -162,6 +162,6 @@ References
 
 [5] [Andrew Stone’s OP_DATASIGVERIFY](https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/bucash1.3.0.0/doc/opdatasigverify.md)
 
-[6] [Andrew Stone article on Scripting](https://medium.com/@g.andrew.stone/bitcoin-scripting-applications-decision-based-spending-8e7b93d7bdb9)
+[6] [Andrew Stone's article on Scripting](https://medium.com/@g.andrew.stone/bitcoin-scripting-applications-decision-based-spending-8e7b93d7bdb9)
 
-[7] [Peer Review of Stone Proposal](https://github.com/bitcoincashorg/bitcoincash.org/pull/10)
+[7] [Peer Review of Andrew Stone's Proposal](https://github.com/bitcoincashorg/bitcoincash.org/pull/10)
