@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-*   Template Style 
+*   Template Style
 * Edit this section
 *
 * ======================================================= */
@@ -42,7 +42,7 @@ iframe {
 }
 
 .card-user-profile iframe {
-  padding:0; 
+  padding:0;
   border:0;
 }
 
@@ -169,7 +169,7 @@ iframe {
 
 .card-user-profile-button {
   margin-bottom: 0;
-  
+
 }
 
 .card-user-profile-button + .card-user-profile-button {
@@ -193,7 +193,7 @@ iframe {
 }
 
 @media screen and (min-width: 767px) {
-  
+
   .card-step1 {
 
   }
@@ -203,7 +203,7 @@ iframe {
   }
 
   .card-step3 {
-    
+
   }
 
   .card-step4 {
@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .navbar-brand img{
     width:200px;
-  }  
+  }
 }
 
 #fh5co-header.navbar-fixed-top {
@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing:1px;
     padding:10px;
     margin:.5em 0;
-  }  
+  }
 
 }
 
@@ -676,7 +676,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing:1px;
     padding:10px 20px;
     display:block;
-  }  
+  }
 }
 
 #fh5co-home #ticker, #fh5co-home #ticker_value {
@@ -1466,7 +1466,7 @@ flex-wrap: wrap;}
 
 
 @media screen and (max-width: 1200px) {
-  
+
   .fh5co-person .square-crop {
     padding-left: 1.4em;
     padding-right:1.4em;
@@ -2063,11 +2063,11 @@ ol.lead li:not(:last-child) {
     }
 
     .navbar-nav > li > .dropdown__trigger:hover {
-        
+
         color: #222;
       }
 
-    
+
 
   .list-inline--images li:not(:last-child) {
     margin-right: 5.57142857em;
