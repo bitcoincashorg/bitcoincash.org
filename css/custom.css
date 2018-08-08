@@ -130,17 +130,17 @@ p.question {
   margin-bottom:.5em;
   color:#ee8a2c;
 }
-.featured-wallets {
+.featured-wallets, .featured-exchanges {
   padding-bottom:2em;
 }
-.wallets .featured-wallets div a {
+.wallets .featured-wallets div a, .exchanges .featured-exchanges div a {
   display:block;
   margin:0 auto 1em;
   position: relative;
   color:#4d4d4d;
   height:auto;
 }
-.featured-wallets a img {
+.featured-wallets a img, .featured-exchanges a img {
   display:block;
   margin:0 auto;
 }
@@ -182,7 +182,7 @@ p.question {
   color:#4d4d4d;
   font-size:0.8em;
 }
-.featured-wallets a:hover, .featured-wallets a:focus {
+.featured-wallets a:hover, .featured-wallets a:focus, .featured-exchanges a:hover, .featured-exchanges a:focus {
   text-decoration: none;
 }
 .featured-wallets a .supports {
@@ -195,11 +195,10 @@ p.question {
   display:block;
   font-size:20px;
 }
-.featured-wallets p {
+.featured-wallets p, .featured-exchanges p {
   font-size:16px;
   font-weight:normal;
   margin-top:1em;
-  
 }
 .wallet-filter {
   min-height:400px;
