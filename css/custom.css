@@ -98,7 +98,9 @@ section.no-top {
 }
 
 section.gray {
-  background-color: #FAFAFA;
+      background: #fafafa;
+    background: -webkit-linear-gradient(to right, #fafafa, #f9f9f9);
+    background: linear-gradient(to right, #fafafa, #f9f9f9);
 }
 
 section.border-bottom {
