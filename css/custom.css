@@ -144,7 +144,44 @@ p.question {
   display:block;
   margin:0 auto;
 }
-
+.wallet-types h3 {
+  font-weight:bold;
+  color:#4d4d4d;
+  font-size:21px;
+}
+.wallet-types, .card-user-profile.wallet-types {
+  padding:1em 0.5em;
+  margin:1em 0;
+}
+.wallet-types .type ion-icon {
+  background:#f59231;
+  font-size:40px;
+}
+/* @media all and (max-width: 767px) {
+    .wallet-types .type ion-icon {
+      font-size:24px;
+  }
+} */
+.wallet-types h4 {
+  margin-bottom:0.25em;
+  color:#4d4d4d;
+}
+.wallet-types .col-xs-3 {
+  text-align:right;
+}
+.wallet-types .type {
+  margin-bottom:1.1em;
+  padding-bottom:1.1em;
+  border-bottom:1px solid #eee;
+}
+.wallet-types .type:last-child {
+  border-bottom:0;
+  margin-bottom:0;
+}
+.wallet-types .type p {
+  color:#4d4d4d;
+  font-size:0.8em;
+}
 .featured-wallets a:hover, .featured-wallets a:focus {
   text-decoration: none;
 }
