@@ -200,8 +200,8 @@ p.question {
   margin-bottom: 1.5em;
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  background-color:transparent;
+.wallets .nav-tabs > li.active > a, .wallets .nav-tabs > li.active > a:hover, .wallets .nav-tabs > li.active > a:focus {
+  background-color:#fafafa;
 }
 
 .wallet-filter .nav-tabs {
