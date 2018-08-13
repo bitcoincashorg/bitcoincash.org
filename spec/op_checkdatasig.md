@@ -1,15 +1,15 @@
 ---
 layout: specification
 title: OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY Specification
-date: 2018-08-06
+date: 2018-08-12
 activation: 1542300000
-version: 0.1
+version: 0.2
 ---
 
 OP_CHECKDATASIG
 ===============
 
-OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY check whether a signature is valid with respect to a message hash and a public key. The message hash is restricted to exactly 256 bits.
+OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY check whether a signature is valid with respect to a message and a public key.
 
 OP_CHECKDATASIG permits data to be imported into a script, and have its validity checked against some signing authority such as an "Oracle".
 
@@ -20,12 +20,12 @@ OP_CHECKDATASIG Specification
 
 ### Semantics
 
-OP_CHECKDATASIG fails immediately if the stack is not well formed. To be well formed, the stack must contain at least three elements [`<sig>`, `<msgHash>`, `<pubKey>`] in this order where `<pubKey>` is the top element and
+OP_CHECKDATASIG fails immediately if the stack is not well formed. To be well formed, the stack must contain at least three elements [`<sig>`, `<msg>`, `<pubKey>`] in this order where `<pubKey>` is the top element and
   * `<pubKey>` must be a validly encoded public key
-  * `<msgHash>` must be a string of exactly 256 bits
+  * `<msg>` can be any string
   * `<sig>` must follow the strict DER encoding as described in [2] and the S-value of `<sig>` must be at most the curve oder divided by 2 as described in [3]
 
-If the stack is well formed, then OP_CHECKDATASIG pops the top three elements [`<sig>`, `<msgHash>`, `<pubKey>`] from the stack and pushes true onto the stack if the signature is valid with respect to the message hash and the public key using the secp256k1 elliptic curve. Otherwise, it pops three elements and pushes false onto the stack in the case that `<sig>` is the empty string and fails in all other cases.
+If the stack is well formed, then OP_CHECKDATASIG pops the top three elements [`<sig>`, `<msg>`, `<pubKey>`] from the stack and pushes true onto the stack if the signature is valid with respect to the double-SHA256 hash of the message and the public key using the secp256k1 elliptic curve. Otherwise, it pops three elements and pushes false onto the stack in the case that `<sig>` is the empty string and fails in all other cases.
 
 Nullfail is enforced the same as for OP_CHECKSIG [3]. If the signature does not match the supplied public key and message hash, and the signature is not an empty byte array, the entire script fails.
 
@@ -43,15 +43,14 @@ Use of OP_CHECKDATASIG, unless occuring in an unexecuted OP_IF branch, will make
 
 ### Unit Tests
 
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` fails if 15 November 2018 protocol upgrade is not yet activated.
- - `<sig> <msgHash> OP_CHECKDATASIG` fails if there are fewer than 3 item on stack.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` fails if `<msgHash>` is not a string of 256 bits (32 bytes).
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` fails if `<pubKey>` is not a validly encoded public key.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` fails if `<sig>` is not a validly encoded signature with strict DER encoding.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` fails if signature `<sig>` is not empty and does not pass the Low S check.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` fails if signature `<sig>` is not empty and does not pass signature validation of `<msg>` and `<pubKey>`.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` pops three elements and pushes false onto the stack if `<sig>` is an empty byte array.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIG` pops three elements and pushes true onto the stack if `<sig>` is a valid signature of `<msgHash>` with respect to `<pubKey>`.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` fails if 15 November 2018 protocol upgrade is not yet activated.
+ - `<sig> <msg> OP_CHECKDATASIG` fails if there are fewer than 3 items on stack.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` fails if `<pubKey>` is not a validly encoded public key.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` fails if `<sig>` is not a validly encoded signature with strict DER encoding.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` fails if signature `<sig>` is not empty and does not pass the Low S check.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` fails if signature `<sig>` is not empty and does not pass signature validation of `<msg>` and `<pubKey>`.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` pops three elements and pushes false onto the stack if `<sig>` is an empty byte array.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIG` pops three elements and pushes true onto the stack if `<sig>` is a valid signature of `<msg>` with respect to `<pubKey>`.
 
 OP_CHECKDATASIGVERIFY Specification
 -----------------------------------
@@ -74,17 +73,16 @@ Use of OP_CHECKDATASIGVERIFY, unless occuring in an unexecuted OP_IF branch, wil
 
 ### Unit Tests
 
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY` fails if 15 November 2018 protocol upgrade is not yet activated.
- - `<sig> <msgHash> OP_CHECKDATASIGVERIFY` fails if there are fewer than 3 item on stack.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY` fails if `<msgHash>` is not a string of 256 bits (32 bytes).
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY`fails if `<pubKey>` is not a validly encoded public key.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY` fails if `<sig>` is not a validly encoded signature with strict DER encoding.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY` fails if signature `<sig>` is not empty and does not pass the Low S check.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY` fails if `<sig>` is not a valid signature of `<msgHash>` with respect to `<pubKey>`.
- - `<sig> <msgHash> <pubKey> OP_CHECKDATASIGVERIFY` pops the top three stack elements if `<sig>` is a valid signature of `<msgHash>` with respect to `<pubKey>`.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIGVERIFY` fails if 15 November 2018 protocol upgrade is not yet activated.
+ - `<sig> <msg> OP_CHECKDATASIGVERIFY` fails if there are fewer than 3 item on stack.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIGVERIFY`fails if `<pubKey>` is not a validly encoded public key.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIGVERIFY` fails if `<sig>` is not a validly encoded signature with strict DER encoding.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIGVERIFY` fails if signature `<sig>` is not empty and does not pass the Low S check.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIGVERIFY` fails if `<sig>` is not a valid signature of `<msg>` with respect to `<pubKey>`.
+ - `<sig> <msg> <pubKey> OP_CHECKDATASIGVERIFY` pops the top three stack elements if `<sig>` is a valid signature of `<msg>` with respect to `<pubKey>`.
 
-Sample Implementation [4]
--------------------------
+Sample Implementation [4, 5]
+----------------------------
 
 ```c++
                     case OP_CHECKDATASIG:
@@ -104,12 +102,6 @@ Sample Implementation [4]
                         valtype &vchMessage = stacktop(-2);
                         valtype &vchPubKey = stacktop(-1);
 
-                        // The size of the message must be 32 bytes.
-                        if (vchMessage.size() != 32) {
-                            return set_error(serror,
-                                             SCRIPT_ERR_INVALID_OPERAND_SIZE);
-                        }
-
                         if (!CheckDataSignatureEncoding(vchSig, flags,
                                                         serror) ||
                             !CheckPubKeyEncoding(vchPubKey, flags, serror)) {
@@ -119,7 +111,9 @@ Sample Implementation [4]
 
                         bool fSuccess = false;
                         if (vchSig.size()) {
-                            uint256 message(vchMessage);
+                            CHashWriter ss(SER_GETHASH, 0);
+                            ss << vchMessage;
+                            uint256 message = ss.GetHash();
                             CPubKey pubkey(vchPubKey);
                             fSuccess = pubkey.Verify(message, vchSig);
                         }
@@ -147,7 +141,7 @@ Sample Implementation [4]
 History
 -------
 
-This specification is based on Andrew Stone’s OP_DATASIGVERIFY proposal [5, 6]. It is modified from Stone's original proposal based on a synthesis of all the peer-review and feedback received [7].
+This specification is based on Andrew Stone’s OP_DATASIGVERIFY proposal [6, 7]. It is modified from Stone's original proposal based on a synthesis of all the peer-review and feedback received [8].
 
 References
 ----------
@@ -160,8 +154,10 @@ References
 
 [4] [Bitcoin ABC implementation](https://reviews.bitcoinabc.org/D1621)
 
-[5] [Andrew Stone’s OP_DATASIGVERIFY](https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/bucash1.3.0.0/doc/opdatasigverify.md)
+[5] [Bitcoin ABC implementation update](https://reviews.bitcoinabc.org/D1646)
 
-[6] [Andrew Stone's article on Scripting](https://medium.com/@g.andrew.stone/bitcoin-scripting-applications-decision-based-spending-8e7b93d7bdb9)
+[6] [Andrew Stone’s OP_DATASIGVERIFY](https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/bucash1.3.0.0/doc/opdatasigverify.md)
 
-[7] [Peer Review of Andrew Stone's Proposal](https://github.com/bitcoincashorg/bitcoincash.org/pull/10)
+[7] [Andrew Stone's article on Scripting](https://medium.com/@g.andrew.stone/bitcoin-scripting-applications-decision-based-spending-8e7b93d7bdb9)
+
+[8] [Peer Review of Andrew Stone's Proposal](https://github.com/bitcoincashorg/bitcoincash.org/pull/10)
