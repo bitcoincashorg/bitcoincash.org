@@ -25,7 +25,7 @@ OP_CHECKDATASIG fails immediately if the stack is not well formed. To be well fo
   * `<msg>` can be any string
   * `<sig>` must follow the strict DER encoding as described in [2] and the S-value of `<sig>` must be at most the curve order divided by 2 as described in [3]
 
-If the stack is well formed, then OP_CHECKDATASIG pops the top three elements [`<sig>`, `<msg>`, `<pubKey>`] from the stack and pushes true onto the stack if the signature is valid with respect to the single-SHA256 hash of the message and the public key using the secp256k1 elliptic curve. Otherwise, it pops three elements and pushes false onto the stack in the case that `<sig>` is the empty string and fails in all other cases.
+If the stack is well formed, then OP_CHECKDATASIG pops the top three elements [`<sig>`, `<msg>`, `<pubKey>`] from the stack and pushes true onto the stack if the signature is valid with respect to the raw single-SHA256 hash (no further padding, serialization, length etc. is concatenated to the message bytes from the stack) of the message and the public key using the secp256k1 elliptic curve. Otherwise, it pops three elements and pushes false onto the stack in the case that `<sig>` is the empty string and fails in all other cases.
 
 Nullfail is enforced the same as for OP_CHECKSIG [3]. If the signature does not match the supplied public key and message hash, and the signature is not an empty byte array, the entire script fails.
 
