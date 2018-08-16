@@ -29,7 +29,7 @@
                             </div>
                             <div class="col-xs-9">
                                 <h4>Shop in Person</h4>
-                                <p>Drop in to businesses accepting Bitcoin Cash.</p>
+                                <p>Drop in to over <span class="merchantCount">192</span> physical locations accepting Bitcoin Cash.</p>
                             </div>
                         </div>
                     </div>
@@ -43,12 +43,12 @@
                         <h1 class="card-user-profile-status">Spend Bitcoin Cash</h1>
                         <p class="card-user-profile-info">Donec lobortis luctus cursus. Phasellus volutpat massa massa, id accumsan augue ultrices hendrerit. Donec sed suscipit odio. Duis ut orci eget arcu elementum ornare vel nec massa. Vestibulum ullamcorper tortor nibh, non pretium eros fermentum vel. </p>
 
-                        <p class="card-user-profile-info">Donec lobortis luctus cursus. Phasellus volutpat massa massa, id accumsan augue ultrices hendrerit. Donec sed suscipit odio. Duis ut orci eget arcu elementum ornare vel nec massa. Vestibulum ullamcorper tortor nibh, non pretium eros fermentum vel. </p>                        
+                        <p class="card-user-profile-info">Donec lobortis luctus cursus. Phasellus volutpat massa massa, id accumsan augue ultrices hendrerit. Donec sed suscipit odio. Duis ut orci eget arcu elementum ornare vel nec massa. Vestibulum ullamcorper tortor nibh, non pretium eros fermentum vel. </p>
                     </div>
                     <div class="card-user-profile-actions">
-                        
+
                     </div>
-            </div>  
+            </div>
             </div>
         </div>
     </div>
@@ -59,13 +59,28 @@
     <div class="container">
         <div class="row to-animate">
             <div class="col-xs-12 section-heading ">
-                <h2>Spend Bitcoin Cash In Person {% t 'headings.featured-wallets' %}</h2>
+                <h2>Spend Bitcoin Cash In Person</h2>
             </div>
             <div class="col-xs-12">
                 <iframe src="https://marco-coino.firebaseapp.com/marcocoino-embed.html?lat=35.652832&long=139.839478&zoom=2&color=orange" width="500"
                     height="500"></iframe>
-                    <p>Location data by <a href="https://www.coinline.co.nz/marco-coino/" title="Marco Coino" target="_blank">Marco Coino</a></p>
+                    <p><span class="merchantCount">192</span> businesses listed - Location data by <a href="https://www.coinline.co.nz/marco-coino/" title="Marco Coino" target="_blank">Marco Coino</a></p>
             </div>
         </div>
     </div>
 </section>
+
+<script src="js/jquery.min.js"></script>
+<script>
+
+    $.getJSON("https://us-central1-marco-coino.cloudfunctions.net/totalMerchants", function( data ) {
+      var count;
+      $.each(data, function(key, val) {
+        count = val;
+      });
+
+      $('.merchantCount').html(count);
+
+    });
+
+</script>
