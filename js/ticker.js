@@ -16,7 +16,7 @@ ticker = function(currencies) {
     timeout: 6000,
     error: function (x, t, m) {
       if ($('#ticker_value').html() === 'Loading...') {
-        $('#ticker_value').html("N/A");
+        $("#ticker_value").html("<div class='currency'>API data not found</div>");
       }
     },
     success: function (currencyRates) {
@@ -40,3 +40,4 @@ ticker = function(currencies) {
 }
 
 ticker(ticker_currencies);
+
