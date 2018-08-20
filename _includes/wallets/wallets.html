@@ -3,15 +3,15 @@
         <div class="row">
             <div class="col-xs-12 col-md-4">
                 <div class="card-user-profile wallet-types">
-                    <h3>What kind of wallet should I use?</h3>
+                    <h3>{% t 'downloadwallet.sidetitle' %}</h3>
                     <div class="text-left">
                         <div class="row type">
                             <div class="col-xs-3">
                                 <ion-icon name="phone-portrait"></ion-icon>
                             </div>
                             <div class="col-xs-9">
-                                <h4>Mobile Wallet</h4>
-                                <p>A mobile wallet is great for storing and spending Bitcoin Cash.</p>
+                                <h4>{% t 'downloadwallet.mobilewallet' %}</h4>
+                                <p>{% t 'downloadwallet.mobilewallet_excerpt' %}</p>
                             </div>
                         </div>
                         <div class="row type">
@@ -19,8 +19,8 @@
                                 <ion-icon name="laptop"></ion-icon>
                             </div>
                             <div class="col-xs-9">
-                                <h4>Desktop Wallet</h4>
-                                <p>Try using a Desktop Wallet to bring Bitcoin Cash into your business.</p>
+                                <h4>{% t 'downloadwallet.desktopwallet' %}</h4>
+                                <p>{% t 'downloadwallet.desktopwallet_excerpt' %}</p>
                             </div>
                         </div>
                         <div class="row type">
@@ -28,8 +28,8 @@
                                 <ion-icon name="battery-full"></ion-icon>
                             </div>
                             <div class="col-xs-9">
-                                <h4>Hardware Wallet</h4>
-                                <p>Keep your Bitcoin Cash in a secure hardware wallet. Great for long term storage.</p>
+                                <h4>{% t 'downloadwallet.hardwarewallet' %}</h4>
+                                <p>{% t 'downloadwallet.hardwarewallet_excerpt' %}</p>
                             </div>
                         </div>
                         <div class="row type">
@@ -37,8 +37,8 @@
                                 <ion-icon name="cash"></ion-icon>
                             </div>
                             <div class="col-xs-9">
-                                <h4>Paper Wallet</h4>
-                                <p>Store your Bitcoin Cash offline on a Paper Wallet. Great for long term storage or gifting to friends or family.</p>
+                                <h4>{% t 'downloadwallet.paperwallet' %}</h4>
+                                <p>{% t 'downloadwallet.paperwallet_excerpt' %}</p>
                             </div>
                         </div>
                     </div>
@@ -48,11 +48,9 @@
                 <div class="card-user-profile text-left">
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <div class="card-user-profile-content card-section">
-                        <h3 class="card-user-profile-name">Where do I store my Bitcoin Cash?</h3>
-                        <h1 class="card-user-profile-status">2. Download a wallet</h1>
-                        <p class="card-user-profile-info">Donec lobortis luctus cursus. Phasellus volutpat massa massa, id accumsan augue ultrices hendrerit. Donec sed suscipit odio. Duis ut orci eget arcu elementum ornare vel nec massa. Vestibulum ullamcorper tortor nibh, non pretium eros fermentum vel. </p>
-
-                        <p class="card-user-profile-info">Donec lobortis luctus cursus. Phasellus volutpat massa massa, id accumsan augue ultrices hendrerit. Donec sed suscipit odio. Duis ut orci eget arcu elementum ornare vel nec massa. Vestibulum ullamcorper tortor nibh, non pretium eros fermentum vel. </p>                        
+                        <h3 class="card-user-profile-name">{% t 'downloadwallet.subtitle' %}</h3>
+                        <h1 class="card-user-profile-status">2. {% t 'downloadwallet.title' %}</h1>
+                        <p class="card-user-profile-info">{% t 'downloadwallet.description' %}</p>                        
                     </div>
                     <div class="card-user-profile-actions">
                         
@@ -87,7 +85,7 @@
                         <ion-icon name="logo-apple"></ion-icon>
                         <ion-icon name="laptop"></ion-icon>
                     </div>
-                    <p>Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly. </p>
+                    <p>{% t 'downloadwallet.bitcoindotcom' %}</p>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 vertical-align to-animate">
@@ -95,7 +93,7 @@
                     <div class="supports">
                         <ion-icon name="logo-android"></ion-icon>
                     </div>
-                    <p>What is more peer to peer than just handing cash in person? No addresses, no third parties needed. The wallet has made that process digital by using Bitcoin Cash as the basis of the ecosystem of products. </p>
+                    <p>{% t 'downloadwallet.handcash' %}</p>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 vertical-align to-animate">
@@ -104,7 +102,7 @@
                         <ion-icon name="logo-android"></ion-icon>
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
-                    <p>Yenom is a simple, beginner friendly Bitcoin Cash only wallet. Great for family or friends using Bitcoin for the first time! It’s the simplest way to send or receive Bitcoin. Anyone can easily give it a try using Yenom.</p>
+                    <p>{% t 'downloadwallet.yenom' %}</p>
                 </a>
             </div>
             <div class="col-sm-6 col-md-6 vertical-align to-animate">
@@ -114,7 +112,7 @@
                         <ion-icon name="logo-apple"></ion-icon>
                         <ion-icon name="laptop"></ion-icon>
                     </div>
-                    <p>Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electrum is fast, because it uses servers that index the Bitcoin blockchain. You can export your private keys and use them in other Bitcoin clients. </p>
+                    <p>{% t 'downloadwallet.electron' %}</p>
                 </a>
                 
             </div>
