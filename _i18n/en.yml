@@ -235,6 +235,8 @@ features:
     description: "World's most robust blockchain technology."
 headings:
   about: "The Best Money in the World"
+  community: "Join the Bitcoin Cash community"
+  steps: "Getting Started"
   developers: "Get Started"
   exchanges: "Exchanges"
   faq: "Frequently Asked Questions"
@@ -312,3 +314,48 @@ content:
       answer:
         - |
           Bitcoin Cash is usually represented by the ticker symbol BCH.
+viewmore: "View More"
+gettingstarted: 
+  title: "Getting Started"
+  subtitle: "What is peer to peer electronic cash?"
+  excerpt: Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.
+  description: Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.
+downloadwallet: 
+  title: "Download a wallet"
+  subtitle: "Where do I store my Bitcoin Cash?"
+  excerpt: Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.
+  description: Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.
+  mobilewallet: "Mobile Wallet"
+    mobilewallet_excerpt: "A mobile wallet is great for storing and spending Bitcoin Cash."
+  desktopwallet: "Desktop Wallet"
+    desktopwallet_excerpt: "Try using a Desktop Wallet to bring Bitcoin Cash into your business."
+  hardwarewallet: "Hardware Wallet"
+    hardwarewallet_excerpt: "Keep your Bitcoin Cash in a secure hardware wallet. Great for long term storage."
+  paperwallet: "Paper Wallet"
+    paperwallet_excerpt: "Store your Bitcoin Cash offline on a Paper Wallet. Great for long term storage or gifting to friends or family."
+  featuredwallets: "Featured Wallets"
+    bitcoindotcom: "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly. "
+    handcash: "What is more peer to peer than just handing cash in person? No addresses, no third parties needed. The wallet has made that process digital by using Bitcoin Cash as the basis of the ecosystem of products. "
+    yenom: "Yenom is a simple, beginner friendly Bitcoin Cash only wallet. Great for family or friends using Bitcoin for the first time! It’s the simplest way to send or receive Bitcoin. Anyone can easily give it a try using Yenom."
+    electron: "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electrum is fast, because it uses servers that index the Bitcoin blockchain. You can export your private keys and use them in other Bitcoin clients. "
+buyorearn: 
+  title: "Buy or Earn Bitcoin Cash"
+  subtitle: "How do I get Bitcoin Cash?"
+  excerpt: The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred.
+  description: The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash.
+spendbch: 
+  title: "Spend Bitcoin Cash"
+  subtitle: "What can I buy with Bitcoin Cash?"
+  excerpt: Bitcoin isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
+  description: Bitcoin isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
+  shoponline: "Shop Online"
+    shoponline_excerpt: "Spend Bitcoin Cash at some of your favourite online retailers."
+  spendatrestaurants: "Spend at Restaurants"
+    spendatrestaurants_excerpt: "Visit restaurants or cafes that accept Bitcoin Cash."
+  shopinperson: "Shop in Person"
+    shopinperson_excerpt: "Drop in to over 192 physical locations accepting Bitcoin Cash."
+acceptbch: 
+  title: "Accept Bitcoin Cash"
+  subtitle: "How can my business use Bitcoin Cash?"
+  excerpt: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms.
+  description: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin payments today without worrying about the complexities of how to accept Bitcoin. 
