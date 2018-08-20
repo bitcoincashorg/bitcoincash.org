@@ -293,6 +293,14 @@ p.question {
   background: #F59331;
   transition-duration: 0.2s;
 }
+
+.social-list a, .social-list a i, .social-list a ion-icon {
+  color:#a3a3a3;
+  font-size:24px;
+  margin-top:1em;
+}
+
+
 @media all and (max-width: 767px) {
   .wallets div a {
     width:90%

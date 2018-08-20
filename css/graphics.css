@@ -1823,8 +1823,9 @@ p strong {
   font-size:22px;
 }
 
-#connect ion-icon {
+#connect ion-icon, #connect i {
   font-size:24px;
+  font-weight:normal !important;
   color:#4d4d4d;
   vertical-align: middle;
   -webkit-transition: color 0.2s ease-out;
@@ -1833,7 +1834,7 @@ p strong {
   transition: color 0.2s ease-out;
 }
 
-#connect a:hover ion-icon {
+#connect a:hover ion-icon, #connect a:hover i {
   color:#fff;
 }
 .btn.btn-secondary:hover, .btn.btn-secondary:active, .btn.btn-secondary:focus {
