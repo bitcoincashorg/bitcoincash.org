@@ -82,7 +82,7 @@ iframe {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0.5em;
+  margin: 1em 1em;
   border: 0;
   border-radius: 5px;
   background: #fefefe;
@@ -193,7 +193,15 @@ iframe {
   margin-bottom:1em;
 }
 
-@media screen and (min-width: 767px) {
+
+
+@media screen and (min-width: 992px) {
+  .card-step4 {
+    margin-top:-2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
 
   .card-step1 {
 
