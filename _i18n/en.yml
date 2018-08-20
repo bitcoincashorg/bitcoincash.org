@@ -200,6 +200,7 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
+  home: "Home"
   about: "About"
   features: "Features"
   nodes: "Nodes"
