@@ -120,6 +120,15 @@ p.question {
   border-bottom: 3px solid #F08B16;
 }
 
+
+.community-cta .btn{
+  margin-bottom:1em;
+}
+
+.community-cta .btn + .btn {
+  margin-left:1em;
+}
+
 /* .video-section .card-user-profile {
   margin-top:2em;
 } */
