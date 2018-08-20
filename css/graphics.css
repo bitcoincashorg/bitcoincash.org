@@ -31,6 +31,7 @@ ion-icon {
   color:#fff;
   border-radius:50px;
   padding:15px;
+  font-size:35px;
   -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
     box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
 }
