@@ -111,9 +111,11 @@ Sample Implementation [4, 5]
 
                         bool fSuccess = false;
                         if (vchSig.size()) {
-                            CHashWriter ss(SER_GETHASH, 0);
-                            ss << vchMessage;
-                            uint256 message = ss.GetHash();
+                            valtype vchHash(32);
+                            CSHA256()
+                                .Write(vchMessage.data(), vchMessage.size())
+                                .Finalize(vchHash.data());
+                            uint256 message(vchHash);
                             CPubKey pubkey(vchPubKey);
                             fSuccess = pubkey.Verify(message, vchSig);
                         }
