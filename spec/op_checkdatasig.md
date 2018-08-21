@@ -3,7 +3,7 @@ layout: specification
 title: OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY Specification
 date: 2018-08-12
 activation: 1542300000
-version: 0.5
+version: 0.6
 ---
 
 OP_CHECKDATASIG
@@ -138,6 +138,39 @@ Sample Implementation [4, 5]
                             }
                         }
                     } break;
+```
+
+Sample Usage
+------------
+
+The following example shows a spend and redeem script for a basic use of CHECKDATASIG.  This example validates the signature of some data, provides a placeholder where you would then process that data, and finally allows one of 2 signatures to spend based on the outcome of the data processing.
+
+### spend script:
+```
+push txsignature
+push txpubkey
+push msg
+push sig
+```
+### redeem script:
+```
+                                (txsig, txpubkey msg, sig)
+OP_OVER                         (txsig, txpubkey, msg, sig, msg)
+push data pubkey                (txsig, txpubkey, msg, sig, msg, pubkey)
+OP_CHECKDATASIGVERIFY           (txsig, txpubkey, msg)
+```
+Now that msg is on the stack top, the script can write predicates on it,
+resulting in the message being consumed and a true/false condition left on the stack: (txpubkey, txsig, boolean)
+```
+OP_IF                           (txsig, txpubkey)
+  OP_DUP                        (txsig, txpubkey, txpubkey)
+  OP_HASH160                    (txsig, txpubkey, address)
+  push <p2pkh spend address>    (txsig, txpubkey, address, p2pkh spend address)
+  OP_EQUALVERIFY                (txsig, txpubkey)
+  OP_CHECKSIG
+OP_ELSE
+  (same as if clause but a different <p2pkh spend address>)
+OP_ENDIF
 ```
 
 History
