@@ -45,14 +45,14 @@ p.release {
 }
 
 .panel h4 {
-  color:#fff;
-  margin:1.5em 0 .5em;
-  font-size:22px;
-  letter-spacing:1px;
+  color: #fff;
+  margin: 1.5em 0 .5em;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
 
 .reminder-links a {
-  display:block;
+  display: block;
 }
 
 .fa-fw {
