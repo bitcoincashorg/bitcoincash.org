@@ -1,9 +1,9 @@
 ---
 layout: specification
 title: 2018 November 15 Network Upgrade Specification
-date: 2018-07-29
+date: 2018-08-24
 activation: 1542300000
-version: 0.2
+version: 0.3
 ---
 
 ## Summary
@@ -14,6 +14,7 @@ When the median time past [1] of the most recent 11 blocks (MTP-11) is greater t
 * Enable OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY opcodes
 * Enforce minimum transaction size
 * Enforce "push only" rule for scriptSig
+* Enforce "clean stack" rule
 
 The following are not consensus changes, but are recommended changes for Bitcoin Cash implementations:
 
@@ -33,17 +34,21 @@ Transactions that are smaller than 100 bytes shall be considered invalid. This p
 
 ## Push Only
 
-Transactions shall be considered invalid if an opcode with number greater than 96 (hex encoding 0x60) appears in a scriptSig.
+Transactions shall be considered invalid if an opcode with number greater than 96 (hex encoding 0x60) appears in a scriptSig. This is the same as Bitcoin BIP 62 rule #3 [4].
+
+## Clean Stack
+
+For a transaction to be valid, only a single non-zero item must remaing on the stack upon completion of Script evaluation. If any extra data elements remain on the stack, the script evaluates to false. This is the same as Bitcoin BIP 62 rule #6 [4].
 
 ## Automatic Replay Protection
 
 When the median time past [2] of the most recent 11 blocks (MTP-11) is less than UNIX timestamp 1557921600 (May 2019 upgrade) Bitcoin Cash full nodes MUST enforce the following rule:
 
- * `forkid` [4] to be equal to 0.
+ * `forkid` [5] to be equal to 0.
 
 When the median time past [1] of the most recent 11 blocks (MTP-11) is greater than or equal to UNIX timestamp 1557921600 (May 2019 upgrade) Bitcoin Cash full nodes implementing the November 2018 consensus rules SHOULD enforce the following change:
 
- * Update `forkid` [4] to be equal to 0xFF0001.  ForkIDs beginning with 0xFF will be reserved for future protocol upgrades.
+ * Update `forkid` [5] to be equal to 0xFF0001.  ForkIDs beginning with 0xFF will be reserved for future protocol upgrades.
 
 This particular consensus rule MUST NOT be implemented by Bitcoin Cash wallet software. Wallets that follow the upgrade should not have to change anything.
 
@@ -55,4 +60,6 @@ This particular consensus rule MUST NOT be implemented by Bitcoin Cash wallet so
 
 [3] [Leaf-Node weakness in Bitcoin Merkle Tree Design](https://bitslog.wordpress.com/2018/06/09/leaf-node-weakness-in-bitcoin-merkle-tree-design/)
 
-[4] The `forkId` is defined as per the [replay protected sighash](replay-protected-sighash.md) specification.
+[4] [BIP 62](https://github.com/bitcoin/bips/blob/master/bip-0062.mediawiki)
+
+[5] The `forkId` is defined as per the [replay protected sighash](replay-protected-sighash.md) specification.
