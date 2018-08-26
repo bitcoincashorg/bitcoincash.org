@@ -1,6 +1,6 @@
 ---
 layout: specification
-title: Transaction format for Bitcoin Cash
+title: Transaction Spec for Bitcoin Cash
 date: 2017-08-26
 activation: 1515888000
 version: 1.0
