@@ -1,24 +1,27 @@
-+++
-date = "2018-07-05"
-title = "Transaction"
-description = "Transaction, opcodes, txin, outpoint, txout, scriptSig"
-category = "bch spec"
-+++
+---
+layout: specification
+title: Transaction format for Bitcoin Cash
+date: 2017-08-26
+activation: 1515888000
+version: 1.0
+---
 
-This section of the BCH spec documents the block data structure for implementing a compatible BCH client, including the block header, block serialization, and coinbase transaction formats.
+This section of the Bitcoin Cash (BCH) specification ("spec") documents the **transaction data structure** for implementing a compatible BCH client, including transaction format, opcodes, and examples.
 
-This spec is based on the Bitcoin ABC implementation of the [BitcoinCash](<https://www.bitcoincash.org/>) protocol. Additional resources:
-- Bitcoin ABC source code: <https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src>
-- Bitcoin ABC developer documentation: <http://doc.bitcoinabc.org/index.html>
+This spec is based on the Bitcoin ABC implementation of the [Bitcoin Cash](https://www.bitcoincash.org/) protocol. 
+
+Developer resources:
+- Bitcoin ABC source code: https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src.
+- Bitcoin ABC developer documentation: http://doc.bitcoinabc.org/index.html.
 
 ## Transaction
 A transaction is one of the two base primitives in the BCH system, the other being a block. Primitive in this context means that it is one of the data types for which the BCH spec provides built-in support.
 
-A transaction is a transfer of BCH that is broadcast to the network and collected into blocks. A transaction typically references previous transaction outputs as new transaction inputs and dedicates all input Bitcoin values to new outputs. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
+A transaction is a transfer of BCH that is broadcast to the network and collected into blocks. A transaction typically references previous transaction outputs as new transaction inputs and dedicates all input Bitcoincash values to new outputs. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
 
 Transaction comprises a signature and redeem script pair, which provides flexibility in releasing outputs. A serialized transaction contains an input and an output.
 
-Source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/primitives/transaction.h
+Source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/primitives/transaction.h.
 
 ### Transaction requirements
 A transaction that meets the criteria documented here is said to be standard. Standard transactions are accepted into the mempool and relayed by nodes on the network. This ensures that nodes have a similar looking mempool so that the system behave predictably. Standard transaction outputs nominate addresses, and the redemption of any future inputs requires a relevant signature.
@@ -40,7 +43,9 @@ An input is a reference to an output from a previous transaction. Multiple input
 Outputs from a transaction include the BCH amount and redeem script which is used to spend the output and sets up parameters for the signature script. Redeem scripts should not use OP_CODES.
 
 ## OpCodes
-The opcodes used in the pubkey scripts of standard transactions are as follows. See also the source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/script/script.h.
+The opcodes used in the pubkey scripts of standard transactions are as follows. 
+
+See also the source code: https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/script/script.h.
 
 ### 0x00 to 0x4e
 There are arious data pushing opcodes from 0x00 to 0x4e (1--78) that must be used must be used to push signatures and public keys onto the stack. 
@@ -69,7 +74,7 @@ There are arious data pushing opcodes from 0x00 to 0x4e (1--78) that must be use
 ### OP_CHECKMULTISIG
 `OP_CHECKMULTISIG` consumes the value (n) at the top of the stack, consumes that many of the next stack levels (public keys), consumes the value (m) now at the top of the stack, and consumes that many of the next values (signatures) plus one extra value.
 
-The "one extra value" it consumes is the result of an off-by-one error in the original Bitcoin implementation. This value is not used, so signature scripts prefix the list of secp256k1 signatures with a single OP_0 (0x00).
+The "one extra value" it consumes is the result of an off-by-one error in the original Bitcoin implementation. This value is not used in Bitcoincash, so signature scripts prefix the list of secp256k1 signatures with a single OP_0 (0x00).
 
 `OP_CHECKMULTISIG` compares the first signature against each public key until it finds an ECDSA match. Starting with the subsequent public key, it compares the second signature against each remaining public key until it finds an ECDSA match. The process is repeated until all signatures have been checked or not enough public keys remain to produce a successful result.
 
@@ -81,17 +86,17 @@ The `OP_CHECKMULTISIG` verification process requires that signatures in the sign
 `OP_RETURN` terminates the script in failure when executed.
 
 ## Address Conversion
-The hashes used in P2PKH and P2SH outputs are commonly encoded as Bitcoin addresses.  This is the procedure to encode those hashes and decode the addresses.
+The hashes used in P2PKH and P2SH outputs are commonly encoded as Bitcoincash addresses.  This is the procedure to encode those hashes and decode the addresses.
 
 First, get your hash.  For P2PKH, you RIPEMD-160(SHA256()) hash a ECDSA public key derived from your 256-bit ECDSA private key (random data). For P2SH, you RIPEMD-160(SHA256()) hash a redeem script serialized in the format used in raw transactions.
 
 Taking the resulting hash:
 
-1. Add an address version byte in front of the hash.  The version bytes commonly used by Bitcoin are:
+1. Add an address version byte in front of the hash.  The version bytes commonly used by Bitcoincash are:
 
-    * 0x00 for P2PKH addresses on the main Bitcoin network (mainnet)
+    * 0x00 for P2PKH addresses on the main Bitcoincash network (mainnet)
 
-    * 0x6f for P2PKH addresses on the Bitcoin testing network (testnet)
+    * 0x6f for P2PKH addresses on the Bitcoincash testing network (testnet)
 
     * 0x05 for P2SH addresses on mainnet
 
@@ -109,7 +114,7 @@ The code can be traced using the [base58 header file][core base58.h].
 To convert addresses back into hashes, reverse the base58 encoding, extract the checksum, repeat the steps to create the checksum and compare it against the extracted checksum, and then remove the version byte.
 
 ## Raw Transaction Format
-Bitcoin transactions are broadcast between peers in a serialized byte format, called raw format. It is this form of a transaction which is SHA256(SHA256()) hashed to create the TXID and, ultimately, the merkle root of a block containing the transaction---making the transaction format part of the consensus rules.
+Bitcoincash transactions are broadcast between peers in a serialized byte format, called raw format. It is this form of a transaction which is SHA256(SHA256()) hashed to create the TXID and, ultimately, the merkle root of a block containing the transaction---making the transaction format part of the consensus rules.
 
 Bitcoincash Core and many other tools print and accept raw transactions encoded as hex.
 
@@ -134,7 +139,7 @@ Each non-coinbase input spends an outpoint from a previous transaction.
 |----------|------------------|----------------------|--------------
 | 36       | previous_output  | outpoint             | The previous outpoint being spent.  See description of outpoint below.
 | *Varies* | script bytes     | compactSize uint     | The number of bytes in the signature script.  Maximum is 10,000 bytes.
-| *Varies* | signature script | char[]               | A script-language script which satisfies the conditions placed in the outpoint's pubkey script.  Should only contain data pushes.
+| *Varies* | signature script | char[]               | Script that satisfies conditions in the outpoint's pubkey script. Should only contain data pushes.
 | 4        | sequence         | uint32_t             | Sequence number. Default is 0xffffffff.
 
 ## Outpoint
@@ -146,11 +151,11 @@ The outpoint is a reference to an output from a previous transaction. Because a 
 | 4     | index | uint32_t  | The output index number of the specific output to spend from the transaction. The first output is 0x00000000.
 
 ## TxOut: Transaction Output 
-Each output spends a certain number of satoshis, placing them under control of anyone who can satisfy the provided pubkey script.
+Each output spends a certain number of Satoshis, placing them under control of anyone who can satisfy the provided pubkey script.
 
 | Bytes    | Name            | Data Type        | Description
 |----------|-----------------|------------------|--------------
-| 8        | value           | int64_t          | Number of satoshis to spend.  May be zero; the sum of all outputs may not exceed the sum of satoshis previously spent to the outpoints provided in the input section.  (Exception: coinbase transactions spend the block subsidy and collected transaction fees.)
+| 8        | value           | int64_t          | Number of Satoshis to spend. May be zero; the sum of all outputs may not exceed the sum of Satoshis previously spent to the outpoints provided in the input section.  (Exception: coinbase transactions spend the block subsidy and collected transaction fees.)
 | 1+       | pk_script bytes | compactSize uint | Number of bytes in the pubkey script.  Maximum is 10,000 bytes.
 | *Varies* | pk_script       | char[]           | Defines the conditions which must be satisfied to spend this output.
 
