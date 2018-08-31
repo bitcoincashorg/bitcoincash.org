@@ -205,6 +205,15 @@ p.question {
 .wallet-types .type:nth-child(4) ion-icon{
   background:#ff584f;
 }
+
+.wallet-types .type:nth-child(5) ion-icon{
+  background:#dd4b44;
+}
+
+.wallet-types .type:nth-child(6) ion-icon{
+  background:#b93d36;
+}
+
 .featured-wallets a:hover, .featured-wallets a:focus {
   text-decoration: none;
 }
