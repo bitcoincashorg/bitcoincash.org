@@ -20,14 +20,14 @@
                             <p>
                                 <ion-icon name="people"></ion-icon>
                             </p>
-                            <a href="{{site.baseurl}}{{item.url}}">
+                            <a href="{{item.url}}">
                                 <h3>
                                     <strong>{% t workgroups.workgroups.{{item.workgroup}}.title %}</strong>
                                 </h3>
                             </a>
                             <p>{% t workgroups.workgroups.{{item.workgroup}}.description %}</p>
                             <div class="text-right">
-                                <a href="{{site.baseurl}}{{item.url}}" class="btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
+                                <a href="{{item.url}}" class="btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
                             </div>
                         </div>
                     </div>
