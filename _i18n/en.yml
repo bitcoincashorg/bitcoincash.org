@@ -247,12 +247,16 @@ headings:
   whitepaper: "Read the Whitepaper"
   listingrequest: "Submit a listing request"
   error404: "Error 404"
+  error403: "Error 403"
   benefits: "Benefits for Merchants"
   why: "Why Use Bitcoin Cash?"
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
 error404:
   subheading: The page you are looking for does not exist.
+  button: Go to the homepage
+error403:
+  subheading: The page you are looking for is fobidden.
   button: Go to the homepage
 content:
   about:
