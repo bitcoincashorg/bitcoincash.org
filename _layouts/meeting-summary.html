@@ -1,25 +1,35 @@
 ---
-layout: default
+layout: page
 ---
 
-<article class="page">
-  <h1>{{ page.title }}</h1>
-  <ul>
-    <li>Time: {{page.time}}</li>
-    <li>Document Version: {{page.version}}</li>
-    {% if page.chair %}
-      <li>Chair: {{page.chair}}</li>
-    {% endif %}
-    <li>
-      Participants:
-      <ul>
-        {% for item in page.participants %}
-          <li>{{item}}</li>
-        {% endfor %}
-      </ul>
-    </li>
-  </ul>
-  <div class="entry">
-    {{ content }}
+{% include main-menu.html %}
+{% include workgroups/header.html %}
+{% include workgroups/menu.html %}
+
+<section class="space--xxs border-bottom" id="nodes-section" data-section="nodes">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ page.title }}</h1>
+        <ul>
+          <li>Time: {{page.time}}</li>
+          <li>Document Version: {{page.version}}</li>
+          {% if page.chair %}
+          <li>Chair: {{page.chair}}</li>
+          {% endif %}
+          <li>
+            Participants:
+            <ul>
+              {% for item in page.participants %}
+              <li>{{item}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        {{ content }}
+      </div>
+    </div>
   </div>
-</article>
+</section>
