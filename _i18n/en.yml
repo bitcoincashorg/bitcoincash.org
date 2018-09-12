@@ -2,8 +2,25 @@ language: English
 lang: en
 title:
   index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
-  graphics: "Bitcoin Cash - Logos / Graphics"
-  get-listed: "Submit a listing request"
+  graphics: "Logos / Graphics - Bitcoin Cash"
+  get-listed: "Submit a listing request - Bitcoin Cash"
+  gettingstarted: "Getting Started - Bitcoin Cash"
+  wallets: "Download a wallet - Bitcoin Cash"
+  buyorearn: "Buy or Earn BCH - Bitcoin Cash"
+  spendbch: "Spend BCH - Bitcoin Cash"
+  acceptbch: "Accept BCH - Bitcoin Cash"
+  nodes: "Nodes - Bitcoin Cash"
+  services: "Services - Bitcoin Cash"
+  projects: "Projects - Bitcoin Cash"
+  exchanges: "Exchanges - Bitcoin Cash"
+  developers: "Developer Portal - Bitcoin Cash"
+  workgroups: "Workgroups - Bitcoin Cash"
+  tools: "Tools - Bitcoin Cash"
+  tech: "Tech - Bitcoin Cash"
+  specs: "Specs - Bitcoin Cash"
+  learn: "Learn - Bitcoin Cash"
+  404: "404 Page Not Found - Bitcoin Cash"
+
 meta:
   index:
     description: |
