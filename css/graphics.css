@@ -19,6 +19,23 @@ ion-icon {
   margin-top:1em;
 }
 
+.notice .pop-shadow {
+  background:#4d4d4d;
+}
+
+.notice .pop-shadow p, .notice .pop-shadow h3, .notice .pop-shadow a {
+  color:#fff;
+}
+
+.notice .pop-shadow h4 {
+  color:#fff;
+  margin-top:2em;
+  margin-bottom:0.5em;
+}
+.notice .pop-shadow a {
+  display:block;
+}
+
 .pop-shadow {
   border-radius:5px;
   -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 24px 9px rgba(0,0,0,.04);
