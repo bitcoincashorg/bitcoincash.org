@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: Launching bitcoincash.org/developers
 description: Knowledge, tutorials and tooling to get you building amazing Bitcoin Cash applications
 date: 2018-05-13

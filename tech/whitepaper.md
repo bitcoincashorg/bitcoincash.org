@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: Original Whitepaper
 description: Bitcoin A Peer-to-Peer Electronic Cash System
 date: 2008-10-31
