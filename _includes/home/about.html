@@ -22,8 +22,23 @@
     </div>
 </section>
 
+<section class="space--sm">
+    <div class="container benefits">
+        <div class="row space--xs">
+            <div class="col-sm-12">
+                <div class="pop-shadow whitepaper-promo">
+                <p><ion-icon name="document"></ion-icon></p>
+                <p><strong>{% t 'headings.whitepaper' %}</strong></p>
+                <p>{% t 'whitepaper.description' %}</p>
+                <a href="bitcoin.pdf" title="Bitcoin Whitepaper" class="btn btn-secondary large btn-round">{% t 'headings.whitepaper' %}</a>
+                </div>
+            </div>
+        </div>
+</section>
+
 <section class="space--xs no-bottom" >
     <div class="container benefits">
+
         {% assign features = site.translations[site.lang]["features"] %}
         <div class="row text-center">
             <div class="col-sm-4 col-md-4 to-animate">

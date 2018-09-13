@@ -275,6 +275,8 @@ headings:
   why: "Why Use Bitcoin Cash?"
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
+whitepaper:
+  description: 'The original whitepaper was published on October 31, 2008 by Satoshi Nakamoto, the anonymous creator of the worlds first cryptocurrency. The title of the Bitcoin whitepaper is "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin Cash aims to continue this vision of bringing sound money to the world.'
 error404:
   subheading: The page you are looking for does not exist.
   button: Go to the homepage

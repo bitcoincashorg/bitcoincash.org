@@ -15,6 +15,10 @@ ion-icon {
   color:#F59332;
 }
 
+.whitepaper-promo .btn {
+  margin-top:1em;
+}
+
 .pop-shadow {
   border-radius:5px;
   -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 24px 9px rgba(0,0,0,.04);
