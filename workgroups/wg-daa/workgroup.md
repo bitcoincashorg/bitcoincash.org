@@ -3,6 +3,7 @@ layout: workgroup
 permalink: /workgroups/wg-daa
 group: workgroup
 workgroup: wg-daa
+title: workgroups.workgroups.wg-daa.title
 ---
 
 Workgroup for researching and discussing the latest technology for difficulty
