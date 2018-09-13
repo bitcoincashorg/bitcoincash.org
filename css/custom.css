@@ -329,8 +329,8 @@ p.question {
   }
 }
 
-* {
-  word-break: break-all;
+a {
+  word-break: break-word;
 }
 
 ol {

@@ -1,5 +1,13 @@
 <meta charset="utf-8">
-<title>{% t page.title %}</title>
+<title>
+  {% if page.layout == "meeting-summary" %}
+    {{page.title}}
+  {% elsif page.layout == "specification" %}
+    {{page.title}}
+  {% else %}
+    {% t page.title %}
+  {% endif %}
+</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{%- t 'meta.index.description' -%}">
 <meta name="twitter:card" content="summary_large_image">

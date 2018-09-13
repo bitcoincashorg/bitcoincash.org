@@ -3,20 +3,30 @@ layout: page
 ---
 
 {% include main-menu.html %}
-{% include specs/header.html %}
+<section id="fh5co-home" data-section="home" class="site-header"  style="padding-top: 0 !important">
+    <div class="container">
+        <div class="text-wrap">
+            <div class="text-inner">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="to-animate">{{page.title}}</h1>
+                        <h2 class="to-animate">Date: {{page.date}}</h2>
+                        <h2 class="to-animate">Version: {{page.version}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slant"></div>
+  </section>
+
 {% include specs/menu.html %}
 
 <section class="space--xxs border-bottom" id="nodes-section" data-section="nodes">
 	<div class="container">
-		<h1>{{ page.title }}</h1>
 		<div class="row">
 			<div class="col-md-12">
-				<ul>
-					<li>Version: {{page.version}}</li>
-					<li>Date: {{page.date}}</li>
-				</ul>
 				{{ content }}
-
 			</div>
 		</div>
 	</div>

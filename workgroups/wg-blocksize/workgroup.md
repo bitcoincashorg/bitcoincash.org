@@ -2,6 +2,7 @@
 layout: workgroup
 permalink: /workgroups/wg-blocksize
 group: workgroup
+title: workgroups.workgroups.wg-blocksize.title
 workgroup: wg-blocksize
 ---
 
