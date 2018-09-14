@@ -27,13 +27,63 @@ p.release {
 .benefits p {
   margin-bottom: 0;
 }
-
+.reminder a, .reminder a:hover, .reminder a:focus {
+  color:#fff;
+  text-decoration: none;
+}
 .reminder {
   color: #fff;
   margin-top: 15px;
 }
 .reminder ion-icon {
   color:#fff;
+}
+.reminder-bar .panel {
+  margin:0;
+  border-radius:0;
+}
+.reminder-bar .panel-default > .panel-heading {
+  background:#4d4d4d;
+  color:#fff;
+  border:0;
+}
+
+.reminder-bar .panel-body {
+  background:#4d4d4d;
+  color:#fff;
+}
+.reminder-bar .panel-body p, .reminder-bar .panel-body h3 {
+  color:#fff;
+}
+
+.reminder-bar .panel-body h4 {
+  margin:.5em 0 0;
+}
+.reminder-bar .panel-title {
+  padding:0.15em;
+  margin:0;
+  font-size:13px;
+}
+
+.reminder-bar .panel-title ion-icon {
+  color:#fff;
+}
+
+.reminder-bar .panel-title a {
+  color:#fff;
+}
+
+.reminder-bar .panel-default {
+  border:0;
+}
+
+.reminder-bar .btn ion-icon {
+  color:#fff;
+}
+
+.reminder-bar .panel-title a:hover, .reminder-bar .panel-title a:focus {
+  color:#f7f7f7;
+  text-decoration: none;
 }
 
 .panel.secondary {

@@ -21,38 +21,57 @@
         
     </div>
 </section>
+  <div class="container reminder-bar">
+     <div class="panel panel-default navbar-fixed-bottom">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        <ion-icon name="construct"></ion-icon>
+                    {% t 'networkupgrade.reminder' %}: November 15th, 2018 {% t 'networkupgrade.title' %}
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class='col-sm-12 col-md-6'>
+                        <h3>November 15th, 2018 {% t 'networkupgrade.title' %}</h3>
+                <p>{% t 'networkupgrade.description' %}</p>
 
-<section class="space--sm">
-    <div class="container benefits notice">
-        <div class="row space--xs">
-            <div class="col-sm-12">
-                <div class="pop-shadow whitepaper-promo">
-                <p><ion-icon name="alert"></ion-icon></p>
-                <p><strong>November 2018 Network Upgrade</strong></p>
-                <p>The Bitcoin Cash network will undergo a protocol upgrade on November 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.</p>
-                <div class="text-center reminder-links">
-                                <h4>Compatible Implementations:</h4>
+                    <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne"><ion-icon name="close"></ion-icon> Close</a>
+
+                    </div>
+                <div class="col-sm-12 col-md-6 text-center reminder-links">
+                                <h4>{% t 'networkupgrade.compatible' %}:</h4>
                                 <a href="https://download.bitcoinabc.org/0.18.1/" title="Bitcoin ABC 0.18.1" target="_blank">
-                                    Bitcoin ABC 0.18.1
+                                    <ion-icon name="link"></ion-icon> Bitcoin ABC 0.18.1
                                 </a>
                                 <a href="https://twitter.com/Bcoin/status/1033054171870556161" title="bcoin bcash" target="_blank">
-                                    bcoin - bcash 1.1.0 (coming soon)
+                                    <ion-icon name="link"></ion-icon> bcoin - bcash 1.1.0 (coming soon)
                                 </a>
-                                <h4>Additional Information:</h4>
+                                <h4>{% t 'networkupgrade.additional' %}:</h4>
                                 <a href="https://github.com/bitcoincashorg/bitcoincash.org/pull/94/files" title="November Hardfork Spec" target="_blank">
-                                    November Hardfork Spec
+                                    <ion-icon name="link"></ion-icon> November Hardfork Spec
                                 </a>
-                                <a href="https://github.com/bitcoincashorg/bitcoincash.org/pull/93/files" title="Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY" target="_blank">
-                                    Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY
+                                <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md" title="Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY" target="_blank">
+                                    <ion-icon name="link"></ion-icon> Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY
                                 </a>
 
                                 <a href="https://docs.google.com/spreadsheets/d/1Wg2ciYk7efDFpUD9qIz2Q9-Qp4H8i0Io8ThdDbGdyPU" title="Testnet Information" target="_blank">
-                                   Testnet Information
+                                   <ion-icon name="link"></ion-icon> Testnet Information
                                 </a>
-                                </div>
+                        </div>
+                </div>
             </div>
         </div>
-</section>
+  </div>
+<script>
+    $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.in").each(function(){
+            $(this).siblings(".panel-heading");
+        });
+    });
+</script>
 
 
 <section class="space--sm">
