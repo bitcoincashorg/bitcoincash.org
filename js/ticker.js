@@ -27,7 +27,7 @@ ticker = function(currencies) {
         if (sym === undefined) {
           sym = "";
         }
-        output.push("<a href='#'><div class='currency'>"  + sym + price + " <span class='country'>" + currency + "</span></div></a>");
+        output.push("<div class='currency'>"  + sym + price + " <span class='country'>" + currency + "</span></div>");
       });
 
       $('#ticker_value').html(output);

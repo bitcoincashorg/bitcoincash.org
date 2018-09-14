@@ -1,5 +1,5 @@
 
-<section class="space--sm" id="about-section" data-section="about">
+<section class="space--xs" id="about-section" data-section="about">
     <div class="container">
         <div class="row section-heading to-animate">
 
@@ -25,7 +25,7 @@
      <div class="panel panel-default navbar-fixed-bottom">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="event.preventDefault();">
                         <ion-icon name="construct"></ion-icon>
                     {% t 'networkupgrade.reminder' %}: November 15th, 2018 {% t 'networkupgrade.title' %}
                     </a>
@@ -37,7 +37,7 @@
                         <h3>November 15th, 2018 {% t 'networkupgrade.title' %}</h3>
                 <p>{% t 'networkupgrade.description' %}</p>
 
-                    <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne"><ion-icon name="close"></ion-icon> Close</a>
+                    <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" onclick="event.preventDefault();"><ion-icon name="close"></ion-icon> Close</a>
 
                     </div>
                 <div class="col-sm-12 col-md-6 text-center reminder-links">
@@ -74,7 +74,7 @@
 </script>
 
 
-<section class="space--sm">
+<section class="space--xxs">
     <div class="container benefits">
         <div class="row space--xs">
             <div class="col-sm-12">
@@ -88,7 +88,7 @@
         </div>
 </section>
 
-<section class="space--xs no-bottom" >
+<section class="space--xxs no-bottom" >
     <div class="container benefits">
 
         {% assign features = site.translations[site.lang]["features"] %}
@@ -138,9 +138,6 @@
                 </div>
             </div>
 
-        </div>
-        <div class="col-sm-12 text-center mb-4">
-            <a href="bitcoin.pdf" target="_blank" class="btn btn-default">{% t 'headings.whitepaper' %}</a>
         </div>
     </div>
 </section>
