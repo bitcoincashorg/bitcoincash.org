@@ -102,7 +102,7 @@ provide tool to truncate the data back to pre-fork block?)
 
 ## References
 
-[1] https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md
+[1] https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/uahf-technical-spec.md
 
 
 END
