@@ -1,26 +1,8 @@
 language: English
-lang: en
 title:
   index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
-  graphics: "Logos / Graphics - Bitcoin Cash"
-  get-listed: "Submit a listing request - Bitcoin Cash"
-  gettingstarted: "Getting Started - Bitcoin Cash"
-  wallets: "Download a wallet - Bitcoin Cash"
-  buyorearn: "Buy or Earn BCH - Bitcoin Cash"
-  spendbch: "Spend BCH - Bitcoin Cash"
-  acceptbch: "Accept BCH - Bitcoin Cash"
-  nodes: "Nodes - Bitcoin Cash"
-  services: "Services - Bitcoin Cash"
-  projects: "Projects - Bitcoin Cash"
-  exchanges: "Exchanges - Bitcoin Cash"
-  developers: "Developer Portal - Bitcoin Cash"
-  workgroups: "Workgroups - Bitcoin Cash"
-  tools: "Tools - Bitcoin Cash"
-  tech: "Tech - Bitcoin Cash"
-  specs: "Specs - Bitcoin Cash"
-  learn: "Learn - Bitcoin Cash"
-  404: "404 Page Not Found - Bitcoin Cash"
-
+  graphics: "Bitcoin Cash - Logos / Graphics"
+  get-listed: "Submit a listing request"
 meta:
   index:
     description: |
@@ -218,7 +200,6 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
-  home: "Home"
   about: "About"
   features: "Features"
   nodes: "Nodes"
@@ -227,7 +208,7 @@ sections:
   services: "Services"
   projects: "Projects"
   exchanges: "Exchanges"
-  graphics: "Logos"
+  graphics: "Logos / Graphics"
   developers: "Developer Portal"
   learn: "Learning"
   specs: "Spec Documents"
@@ -238,9 +219,6 @@ sections:
 layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Peer-to-Peer Electronic Cash"
-  leadsubtitle: "Enabling new economies with low fee micro-transactions, large business transactions, and permissionless spending."
-  herobutton_one: "Get Started"
-  herobutton_two: "Download A Wallet"
   loading: "Loading..."
 features:
   - title: "Fast"
@@ -257,8 +235,6 @@ features:
     description: "World's most robust blockchain technology."
 headings:
   about: "The Best Money in the World"
-  community: "Join the Bitcoin Cash community"
-  steps: "Getting Started"
   developers: "Get Started"
   exchanges: "Exchanges"
   faq: "Frequently Asked Questions"
@@ -267,42 +243,95 @@ headings:
   projects: "Projects"
   services: "Services"
   wallets: "Wallets"
-  featured-wallets: "Featured Wallets"
-  whitepaper: "Read the Whitepaper"
+<<<<<<< HEAD
   listingrequest: "Submit a listing request"
   error404: "Error 404"
+error404:
+  subheading: The page you are looking for does not exist.
+  button: Go to the homepage
+=======
   benefits: "Benefits for Merchants"
   why: "Why Use Bitcoin Cash?"
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
-whitepaper:
-  description: 'The original whitepaper was published on October 31, 2008 by Satoshi Nakamoto, the anonymous creator of the worlds first cryptocurrency. The title of the Bitcoin whitepaper is "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin Cash aims to continue this vision of bringing sound money to the world.'
-error404:
-  subheading: The page you are looking for does not exist.
-  button: Go to the homepage
+>>>>>>> master_jonald
 content:
   about:
     - |
       Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
     - |
-      All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
+      All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world. 
   faq:
     - question: "What is Bitcoin Cash?"
       answer:
         - |
-          Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank.
+          Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank.  
     - question: "Is Bitcoin Cash different from 'Bitcoin'?"
       answer:
         - |
-
-          In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash.
+<<<<<<< HEAD
+          Yes. Bitcoin Cash is the continuation of the Bitcoin project as peer-to-peer digital cash. It is a fork of the Bitcoin blockchain ledger, with upgraded consensus rules that allow it to grow and scale.
+    - question: "If I own Bitcoin, do I automatically own Bitcoin Cash too?"
+      answer:
+        - |
+          Anyone who held Bitcoin at the time Bitcoin Cash was created became owners of Bitcoin Cash. This means that Bitcoin holders as of block 478558 (August 1st, 2017 about 13:16 UTC) have the same amount of Bitcoin Cash as they had Bitcoin at that time. If your Bitcoins are stored by a third party such as an exchange, then you must inquire with them about your Bitcoin Cash.
+        - |
+          Any transactions after the August 1st ledger split are completely separate between Bitcoin and Bitcoin Cash. This means any Bitcoin acquired after the split does not include any Bitcoin Cash, and any Bitcoin Cash does not include any Bitcoin.
+    - question: "How is transaction replay being handled between the new and the old blockchain?"
+      answer:
+        - |
+          Bitcoin Cash transactions use a new signature hashing algorithm indicated by the flag SIGHASH_FORKID. These signatures are not valid on the Bitcoin Legacy network. This prevents Bitcoin Cash transactions from being replayed on the Bitcoin blockchain and vice versa.
+    - question: "Why was a fork necessary to create Bitcoin Cash?"
+      answer:
+        - |
+          The legacy Bitcoin code had a maximum limit of 1MB of data per block, or about 3 transactions per second. Although technically simple to raise this limit, the community could not reach a consensus, even after years of debate.
+    - question: "Was the 1 MB block size limit causing problems for Bitcoin?"
+      answer:
+        - |
+          Yes, in 2017, capacity hit the 'invisible wall'. Fees skyrocketed, and Bitcoin became unreliable, with some users unable to get their transactions confirmed, even after days of waiting.
+        - |
+          Bitcoin's market price has increased, but its growth and usefulness as a currency has stagnated. Many users, merchants, businesses and even investors left Bitcoin for alternatives, causing its dominance to fall from 95% to as low as 40%.
+    - question: "Does Bitcoin Cash fix these problems?"
+      answer:
+        - |
+          Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
+        - |
+          Low fees and fast confirmations have returned with Bitcoin Cash. The network is growing again. Users, merchants, businesses, and investors are building the future with real peer to peer cash.
+    - question: "Why didn't Bitcoin raise the block size if it was easy?"
+      answer:
+        - |
+          Some of the developers did not understand and agree with the <a href="/bitcoin.pdf" target="_blank">original vision of peer-to-peer electronic cash</a> that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
+        - |
+          Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.
+        - |
+          These two very different visions for Bitcoin are largely incompatible, which led to the community divide.
+    - question: "Didn't SegWit increase the block capacity? Will Bitcoin Cash ever have SegWit?"
+      answer:
+        - |
+          Segregated Witness or "SegWit" is an unacceptable substitute for increasing the blocksize for several reasons.
+        - |
+          First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.
+        - |
+          For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
+    - question: "Which Development Team is In Charge of Bitcoin Cash?"
+      answer:
+        - |
+          Unlike the previous situation in Bitcoin, there is no one single development team for Bitcoin Cash. There are now multiple independent teams of developers.
+        - |
+          This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.
+    - question: "What is the ticker symbol for Bitcoin Cash?"
+      answer:
+        - |
+          Bitcoin Cash is usually represented by the ticker symbol BCH.
+=======
+          In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash. 
 
   why:
       - benefit: "Send Money Anywhere In the World, Almost for Free"
         descrip:
           - |
             With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
-
+      
       - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
         descrip:
           - |
@@ -327,7 +356,7 @@ content:
         descrip:
           - |
             Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It's decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
-
+  
   benefits:
       - benefit: "Ultra Low Fees"
         descrip:
@@ -358,93 +387,6 @@ content:
       - |
          With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
-        The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
-
-viewmore: "View More"
-gettingstarted:
-  title: "Getting Started"
-  subtitle: "What is peer to peer electronic cash?"
-  excerpt: "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries."
-  description: "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries."
-  sidetitle: "Learn all about Bitcoin Cash"
-  shoponline: "Shop Online"
-  shoponline_excerpt: "Spend Bitcoin Cash at some of your favourite online retailers."
-  spendatrestaurants: "Spend at Restaurants"
-  spendatrestaurants_excerpt: "Visit restaurants or cafes that accept Bitcoin Cash."
-  shopinperson: "Shop in Person"
-  shopinperson_excerpt: "Drop in to over <span class='merchantCount'>192</span> physical locations accepting Bitcoin Cash."
-  maptitle: "Spend Bitcoin Cash In Person"
-  mapcount: "businesses listed"
-downloadwallet:
-  title: "Download a wallet"
-  subtitle: "Where do I store my Bitcoin Cash?"
-  excerpt: Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.
-  description: Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.
-  sidetitle: "What kind of wallet should I use?"
-  mobilewallet: "Mobile Wallet"
-  mobilewallet_excerpt: "A mobile wallet is great for storing and spending Bitcoin Cash."
-  desktopwallet: "Desktop Wallet"
-  desktopwallet_excerpt: "Try using a Desktop Wallet to bring Bitcoin Cash into your business."
-  hardwarewallet: "Hardware Wallet"
-  hardwarewallet_excerpt: "Keep your Bitcoin Cash in a secure hardware wallet. Great for long term storage."
-  paperwallet: "Paper Wallet"
-  paperwallet_excerpt: "Store your Bitcoin Cash offline on a Paper Wallet. Great for long term storage or gifting to friends or family."
-  featuredwallets: "Featured Wallets"
-  bitcoindotcom: "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly. "
-  handcash: "What is more peer to peer than just handing cash in person? No addresses, no third parties needed. The wallet has made that process digital by using Bitcoin Cash as the basis of the ecosystem of products. "
-  yenom: "Yenom is a simple, beginner friendly Bitcoin Cash only wallet. Great for family or friends using Bitcoin for the first time! It’s the simplest way to send or receive Bitcoin. Anyone can easily give it a try using Yenom."
-  electron: "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electrum is fast, because it uses servers that index the Bitcoin blockchain. You can export your private keys and use them in other Bitcoin clients. "
-buyorearn:
-  title: "Buy or Earn Bitcoin Cash"
-  subtitle: "How do I get Bitcoin Cash?"
-  excerpt: The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred.
-  firstparagraph: "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash."
-  secondparagraphtitle: "Where can I find Bitcoin Cash locally?"
-  secondparagraph: "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a> about other options, or consider visiting restaurants in your city where you can <a href='../spend-bitcoin-cash'>spend Bitcoin Cash</a> and enquire there."
-  thirdparagraphtitle: "Can I buy Bitcoin Cash Online?"
-  thirdparagraph: "Buying Bitcoin Cash online is the most popular way to receive Bitcoin Cash. Online Exchanges which buy and sell local currency and cryptocurrencies allow you to perform bank transfers to trade for Bitcoin Cash. Some even accept credit card for immediate purchase. As with any online purchase, do your own research and ensure you have a your own wallet. We do not recommend leaving any Bitcoin Cash on exchanges. You should always store your Bitcoin Cash on your own wallet that's been safely backed up."
-  sidetitle: "Where can I Buy Bitcoin Cash"
-  buyexchange: "Buy from an Exchange"
-  buyexchange_excerpt: "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash"
-  usefaucet: "Use a Bitcoin Cash Faucet"
-  usefaucet_excerpt: "Use a trusted <a href='https://free.bitcoin.com'>Bitcoin Cash faucet</a> to receive a tiny amount of Bitcoin Cash for free!"
-  buyapp: "Purchase in an App"
-  buyapp_excerpt: "Used a trusted 3rd party app that sells Bitcoin Cash with a credit card."
-  earnonline: "Earn Bitcoin Cash Online"
-  earnonline_excerpt: "Perform tasks, sell items, or accept Bitcoin Cash as a payment method."
-  buyatm: "Purchase BCH from a Bitcoin Cash ATM"
-  buyatm_excerpt: "Many cities across the globe are setup with specialized Bitcoin Cash enabled ATM machines."
-  buyinperson: "Buy in Person"
-  buyinperson_excerpt: "Connect with locals in your area who are selling Bitcoin Cash."
-  acceptbch: "Accept Bitcoin Cash at your Business "
-  acceptbch_excerpt: "Add Bitcoin Cash as a payment method to your store."
-  getpaid: "Ask to be paid in Bitcoin Cash"
-  getpaid_excerpt: "Enquire with your job about being paid in full or partially in Bitcoin Cash."
-spendbch:
-  title: "Spend Bitcoin Cash"
-  subtitle: "What can I buy with Bitcoin Cash?"
-  excerpt: Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
-  description: Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
-  sidetitle: "Where can I spend Bitcoin Cash"
-  shoponline: "Shop Online"
-  shoponline_excerpt: "Spend Bitcoin Cash at some of your favourite online retailers."
-  spendatrestaurants: "Spend at Restaurants"
-  spendatrestaurants_excerpt: "Visit restaurants or cafes that accept Bitcoin Cash."
-  shopinperson: "Shop in Person"
-  shopinperson_excerpt: "Drop in to over <span class='merchantCount'>192</span> physical locations accepting Bitcoin Cash."
-  maptitle: "Spend Bitcoin Cash In Person"
-  mapcount: "businesses listed"
-acceptbch:
-  title: "Accept Bitcoin Cash"
-  subtitle: "How can my business use Bitcoin Cash?"
-  excerpt: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Easily accept Bitcoin Cash directly or use third-party providers to accept Bitcoin Cash using their platforms and convert all or part of the sale into local fiat currency.
-  description: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin Cash are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin payments today without worrying about the complexities of how to accept Bitcoin. 
-  sidetitle: "How can I accept Bitcoin Cash"
-  acceptonline: "Bitcoin Cash Payment Gateways"
-  acceptonline_excerpt: "Receive Bitcoin Cash as a payment method from trusted 3rd party Payment Gateways."
-  wordpress: "Enable Bitcoin Cash on Wordpress"
-  wordpress_excerpt: "Accept Bitcoin Cash donations for content creation or integrate into your Wordpress enabled ecommerce platform."
-  pos: "Point Of Sales"
-  pos_excerpt: "Try one of the many Bitcoin Cash Point Of Sales (POS) to accept BCH in your store."
-  donations: "Accept Donations or Tips"
-  donations_excerpt: "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations."
+        The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
+        
+>>>>>>> master_jonald

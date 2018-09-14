@@ -886,6 +886,11 @@ padding-top:2em;
   z-index: 10;
   padding-bottom: 7em;
 }
+
+#typeform-full,#typeform-full[style] {
+  height:500px !important;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-intro {
     padding-bottom: 3em;
@@ -1959,6 +1964,9 @@ p strong {
   .col-xxs-12 {
     float: none;
     width: 100%;
+  }
+  #typeform-full,#typeform-full[style] {
+    height:350px !important;
   }
 }
 

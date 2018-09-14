@@ -1,0 +1,16 @@
+<section class="space--xxs" data-section="development" id="development-section">
+    <div class="container">
+        <div class="row text-center section-heading to-animate">
+            <div class='col-sm-12'>
+                <h2>{% t 'headings.development' %}</h2>
+            </div>
+        </div>
+        <div class="row to-animate">
+            <div class="col-sm-12 col-md-12">
+                {% for c in site.translations[site.lang]["content"]["development"] %}
+                <p>{{ c }}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
