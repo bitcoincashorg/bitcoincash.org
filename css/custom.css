@@ -38,6 +38,7 @@ p.release {
 .reminder ion-icon {
   color:#fff;
 }
+
 .reminder-bar .panel {
   margin:0;
   border-radius:0;
@@ -67,6 +68,10 @@ p.release {
   font-size:13px;
 }
 
+footer .social-list {
+  margin-bottom:2em;
+}
+
 .reminder-bar .panel-title ion-icon {
   color:#fff;
   float:left;
@@ -77,6 +82,7 @@ p.release {
 
 .reminder-bar .panel-title a {
   color:#fff;
+  display:block;
 }
 
 .reminder-bar .panel-default {
