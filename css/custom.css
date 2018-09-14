@@ -29,9 +29,11 @@ p.release {
 }
 
 .reminder {
-  color: #f7941c;
-  font-size: 22px;
+  color: #fff;
   margin-top: 15px;
+}
+.reminder ion-icon {
+  color:#fff;
 }
 
 .panel.secondary {

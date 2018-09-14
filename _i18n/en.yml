@@ -275,6 +275,12 @@ headings:
   why: "Why Use Bitcoin Cash?"
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
+networkupgrade: 
+  reminder: "Reminder"
+  title: "Planned Network Upgrade"
+  description: "The Bitcoin Cash network will undergo a protocol upgrade. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+  compatible: "Compatible Implementations"
+  additional: "Additional Information"
 whitepaper:
   description: 'The original whitepaper was published on October 31, 2008 by Satoshi Nakamoto, the anonymous creator of the worlds first cryptocurrency. The title of the Bitcoin whitepaper is "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin Cash aims to continue this vision of bringing sound money to the world.'
 error404:
