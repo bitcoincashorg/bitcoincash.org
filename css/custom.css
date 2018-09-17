@@ -425,7 +425,7 @@ p.question {
   }
 }
 
-a {
+.specification a, .specification code, .specification p {
   word-break: break-word;
 }
 
