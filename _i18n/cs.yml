@@ -2,8 +2,8 @@ language: Čeština
 lang: cs
 title:
   index: "Bitcoin Cash - Peer-to-Peer Digitální Měna"
-  graphics: "Bitcoin Cash - Logos / Graphics"
-  get-listed: "Submit a listing request"
+  graphics: "Bitcoin Cash - Loga / Grafika"
+  get-listed: "Přidejte se"
 meta:
   index:
     description: |
@@ -18,52 +18,52 @@ meta:
         Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
   graphics:
     description: |
-      A collection of logos and graphics for Bitcoin Cash.
+      Sbírka obsahující loga a grafiky Bitcoin Cash.
     twitter:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Loga / Grafika"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Sbírka obsahující loga a grafiky Bitcoin Cash.
     og:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Loga / Grafika"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Sbírka obsahující loga a grafiky Bitcoin Cash.
 graphics:
-  title: "Promotional Graphics"
-  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-  logos: "Logos"
-  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
-  download_all: "Download All"
-  small: "Small (PNG)"
-  medium: "Medium (PNG)"
-  large: "Large (PNG)"
-  full: "Full (PNG)"
-  vector: "Vector (SVG)"
+  title: "Promo Grafika"
+  description: "Tato loga a materiály Bitcoin Cash můžete použít k libovolným propagačním účelům online, tiskem i ve výloze vašeho podniku."
+  logos: "Loga"
+  download_png_svg: "Stáhnout loga Bitcoin Cash v PNG a SVG"
+  download_all: "Stáhnout všechno"
+  small: "Malé (PNG)"
+  medium: "Střední (PNG)"
+  large: "Velké (PNG)"
+  full: "Úplné (PNG)"
+  vector: "Vektorové (SVG)"
   sections:
-    home: "Home"
-    logos: "Logos"
-    merchant: "Merchant"
-    donations: "Donations"
-    identity: "Identity"
+    home: "Domů"
+    logos: "Loga"
+    merchant: "Obchodníci"
+    donations: "Příspěvky"
+    identity: "Identita"
   types:
-    primary: "BCH Logo Primary"
-    white: "BCH Logo White Text"
-    mark: "BCH Logo Mark"
-    horizontal_primary: "BCH Logo Horizontal Primary"
-    horizontal_white: "BCH Logo Horizontal White"
-    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+    primary: "BCH Logo Hlavní"
+    white: "BCH Logo Bílý Text"
+    mark: "BCH Logo Značka"
+    horizontal_primary: "BCH Logo Horizontální Hlavní"
+    horizontal_white: "BCH Logo Horizontální Bílé"
+    wallets_exchanges: "BCH Logo Pro Peněženky / Směnárny"
   merchant:
-    title: "Merchant Buttons"
-    description: "Show your customers that you accept Bitcoin Cash"
-    primary: "Bitcoin Cash Accepted Here Primary"
-    orange: "Bitcoin Cash Accepted Here Orange"
+    title: "Grafika pro Obchodníky"
+    description: "Ukažte Vašim zákazníkům, že přijímáte Bitcoin Cash!"
+    primary: "Přijímáme Bitcoin Cash Hlavní"
+    orange: "Přijímáme Bitcoin Cash Oranžové"
   donation:
-    title: "Donation Buttons"
-    description: "Promote the acceptance of Bitcoin Cash as a donation method."
-    primary: "Bitcoin Cash Donations Accepted Primary"
-    orange: "Bitcoin Cash Donations Accepted Orange"
+    title: "Grafika pro Dárce"
+    description: "Podpořte Bitcoin Cash jako způsob jak nezištně podpořit lidi, na kterých Vám záleží."
+    primary: "Přijímáme Bitcoin Cash Darem Hlavní"
+    orange: "Přijímáme Bitcoin Cash Darem Oranžové"
   identity:
-    title: "Visual Identity"
-    description: "Bitcoin Cash fonts, colors, and more."
+    title: "Visualní Identita"
+    description: "Bitcoin Cash fonty, barvy a další..."
     font: "Ubuntu Bold"
     font_italic: "Ubuntu Bold Italic"
     download: "Download Font"
@@ -87,7 +87,7 @@ sections:
   services: "Služby"
   projects: "Projekty"
   exchanges: "Burzy"
-  graphics: "Logos / Graphics"
+  graphics: "Loga / Grafika"
   faq: "FAQ"
 layout:
   bitcoin_cash: "Bitcoin Cash"
