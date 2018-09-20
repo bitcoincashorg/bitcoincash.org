@@ -396,7 +396,7 @@ p.question {
 .nav-tabs li.active a, .row .nav-tabs > li.active > a, .row .nav-tabs > li.active > a:hover, .row .nav-tabs > li.active > a:focus {
   background:#fafafa;
 }
-.nodes div a.btn, .wallets div a.btn, .services div a.btn, .exchanges div a.btn {
+.nodes div a.btn, .services div a.btn, .exchanges div a.btn {
   width: auto;
   padding: .8em 1em;
   display: inline-block;
@@ -404,6 +404,17 @@ p.question {
   border: 0;
   color: #fff;
   background: #F59331;
+  transition-duration: 0.2s;
+}
+
+.wallets div a.btn {
+  width: auto;
+  padding: .8em 1em;
+  display: inline-block;
+  height: auto;
+  background: transparent;
+  color: #4E4E4E;
+  border: 2px solid #4E4E4E;
   transition-duration: 0.2s;
 }
 
