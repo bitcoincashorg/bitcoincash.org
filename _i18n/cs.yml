@@ -66,10 +66,10 @@ graphics:
     description: "Bitcoin Cash fonty, barvy a další..."
     font: "Ubuntu Bold"
     font_italic: "Ubuntu Bold Italic"
-    download: "Download Font"
-    orange: "Bitcoin Cash Orange"
-    grey: "Bitcoin Cash Grey"
-    white: "Bitcoin Cash White"
+    download: "Stáhnout Font"
+    orange: "Bitcoin Cash Oranžová"
+    grey: "Bitcoin Cash Šedá"
+    white: "Bitcoin Cash Bílá"
     hex: "Hex"
     rgb: "RGB"
     cmyk: "CMYK"
@@ -114,7 +114,7 @@ headings:
   projects: "Projekty"
   exchanges: "Burzy a Směnárny"
   faq: "Často kladené otázky"
-  listingrequest: "Submit a listing request"
+  listingrequest: "Přidejte se na tento web"
 content:
   about:
     - |
