@@ -16,62 +16,54 @@
                 <p>{{ c }}</p>
                 {% endfor %}
             </div>
-            
+
         </div>
-        
+
     </div>
 </section>
-  <div class="container reminder-bar">
-     <div class="panel panel-default navbar-fixed-bottom">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="event.preventDefault();">
-                        <ion-icon name="construct"></ion-icon>
-                    {% t 'networkupgrade.reminder' %}: November 15th, 2018 {% t 'networkupgrade.title' %}
-                    </a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <div class='col-sm-12 col-md-6'>
-                        <h3>November 15th, 2018 {% t 'networkupgrade.title' %}</h3>
+<div class="container reminder-bar">
+   <div class="panel panel-default navbar-fixed-bottom">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="event.preventDefault();">
+                <ion-icon name="construct"></ion-icon>
+                {% t 'networkupgrade.reminder' %}: November 15th, 2018 {% t 'networkupgrade.title' %}
+            </a>
+        </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class='col-sm-12 col-md-6'>
+                <h3>November 15th, 2018 {% t 'networkupgrade.title' %}</h3>
                 <p>{% t 'networkupgrade.description' %}</p>
 
-                    <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" onclick="event.preventDefault();"><ion-icon name="close"></ion-icon> {% t 'networkupgrade.close' %}</a>
+                <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" onclick="event.preventDefault();"><ion-icon name="close"></ion-icon> {% t 'networkupgrade.close' %}</a>
 
-                    </div>
-                <div class="col-sm-12 col-md-6 text-center reminder-links">
-                                <h4>{% t 'networkupgrade.compatible' %}:</h4>
-                                <a href="https://download.bitcoinabc.org/0.18.1/" title="Bitcoin ABC 0.18.1" target="_blank">
-                                    <ion-icon name="link"></ion-icon> Bitcoin ABC 0.18.1
-                                </a>
-                                <a href="https://twitter.com/Bcoin/status/1033054171870556161" title="bcoin bcash" target="_blank">
-                                    <ion-icon name="link"></ion-icon> bcoin - bcash 1.1.0 (coming soon)
-                                </a>
-                                <h4>{% t 'networkupgrade.additional' %}:</h4>
-                                <a href="https://github.com/bitcoincashorg/bitcoincash.org/pull/94/files" title="November Hardfork Spec" target="_blank">
-                                    <ion-icon name="link"></ion-icon> November Hardfork Spec
-                                </a>
-                                <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md" title="Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY" target="_blank">
-                                    <ion-icon name="link"></ion-icon> Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY
-                                </a>
-
-                                <a href="https://docs.google.com/spreadsheets/d/1Wg2ciYk7efDFpUD9qIz2Q9-Qp4H8i0Io8ThdDbGdyPU" title="Testnet Information" target="_blank">
-                                   <ion-icon name="link"></ion-icon> Testnet Information
-                                </a>
-                        </div>
-                </div>
             </div>
-        </div>
-  </div>
-<script>
-    $(document).ready(function(){
-        // Add minus icon for collapse element which is open by default
-        $(".collapse.in").each(function(){
-            $(this).siblings(".panel-heading");
-        });
-    });
-</script>
+            <div class="col-sm-12 col-md-6 text-center reminder-links">
+                <h4>{% t 'networkupgrade.compatible' %}:</h4>
+                <a href="https://download.bitcoinabc.org/0.18.1/" title="Bitcoin ABC 0.18.1" target="_blank">
+                    <ion-icon name="link"></ion-icon> Bitcoin ABC 0.18.1
+                </a>
+                <a href="https://twitter.com/Bcoin/status/1033054171870556161" title="bcoin bcash" target="_blank">
+                    <ion-icon name="link"></ion-icon> bcoin - bcash 1.1.0 (coming soon)
+                </a>
+                <h4>{% t 'networkupgrade.additional' %}:</h4>
+                <a href="https://github.com/bitcoincashorg/bitcoincash.org/pull/94/files" title="November Hardfork Spec" target="_blank">
+                    <ion-icon name="link"></ion-icon> November Hardfork Spec
+                </a>
+                <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md" title="Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY" target="_blank">
+                    <ion-icon name="link"></ion-icon> Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY
+                </a>
+
+                <a href="https://docs.google.com/spreadsheets/d/1Wg2ciYk7efDFpUD9qIz2Q9-Qp4H8i0Io8ThdDbGdyPU" title="Testnet Information" target="_blank">
+                 <ion-icon name="link"></ion-icon> Testnet Information
+             </a>
+         </div>
+     </div>
+ </div>
+</div>
+</div>
 
 
 <section class="space--xxs">
@@ -79,208 +71,211 @@
         <div class="row space--xs">
             <div class="col-sm-12">
                 <div class="pop-shadow whitepaper-promo">
-                <p><ion-icon name="document"></ion-icon></p>
-                <p><strong>{% t 'headings.whitepaper' %}</strong></p>
-                <p>{% t 'whitepaper.description' %}</p>
-                <a href="bitcoin.pdf" title="Bitcoin Whitepaper" class="btn btn-secondary large btn-round">{% t 'headings.whitepaper' %}</a>
+                    <p><ion-icon name="document"></ion-icon></p>
+                    <p><strong>{% t 'headings.whitepaper' %}</strong></p>
+                    <p>{% t 'whitepaper.description' %}</p>
+                    <a href="bitcoin.pdf" title="Bitcoin Whitepaper" class="btn btn-secondary large btn-round">{% t 'headings.whitepaper' %}</a>
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
-<section class="space--xxs no-bottom" >
-    <div class="container benefits">
+    <section class="space--xxs no-bottom" >
+        <div class="container benefits">
 
-        {% assign features = site.translations[site.lang]["features"] %}
-        <div class="row text-center">
-            <div class="col-sm-4 col-md-4 to-animate">
-                <div class="pop-shadow">
-                <p><ion-icon name="jet"></ion-icon></p>
-                <p><strong>{{ features[0].title }}</strong></p>
-                <p>{{ features[0].description }}</p>
+            {% assign features = site.translations[site.lang]["features"] %}
+            <div class="row text-center">
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="jet"></ion-icon></p>
+                        <p><strong>{{ features[0].title }}</strong></p>
+                        <p>{{ features[0].description }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="cog"></ion-icon></p>
+                        <p><strong>{{ features[1]['title'] }}</strong></p>
+                        <p>{{ features[1]['description'] }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="arrow-down"></ion-icon></p>
+                        <p><strong>{{ features[2]['title'] }}</strong></p>
+                        <p>{{ features[2]['description'] }}</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <div class="pop-shadow">
-                <p><ion-icon name="cog"></ion-icon></p>
-                <p><strong>{{ features[1]['title'] }}</strong></p>
-                <p>{{ features[1]['description'] }}</p>
+            <div class="row text-center">
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="ios-cafe"></ion-icon></p>
+                        <p><strong>{{ features[3]['title'] }}</strong></p>
+                        <p>{{ features[3]['description'] }}</p>
+                    </div>
                 </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="business"></ion-icon></p>
+                        <p><strong>{{ features[4]['title'] }}</strong></p>
+                        <p>{{ features[4]['description'] }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="lock"></ion-icon></p>
+                        <p><strong>{{ features[5]['title'] }}</strong></p>
+                        <p>{{ features[5]['description'] }}</p>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <div class="pop-shadow">
-                <p><ion-icon name="arrow-down"></ion-icon></p>
-                <p><strong>{{ features[2]['title'] }}</strong></p>
-                <p>{{ features[2]['description'] }}</p>
+        </div>
+    </section>
+    <a id="about"></a>
+
+    <section class="space--xxs" id="connect">
+        <div class="slant-top"></div>
+        <div class="container">
+            <div class="community-cta section-heading to-animate">
+                <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
+                    <h5>{% t 'headings.community' %}</h5>
+                    <a class="btn btn-default large round" href="http://reddit.com/r/btc" target="_blank">
+                        <ion-icon name="logo-reddit"></ion-icon> /r/btc
+                    </a>
+                    <a class="btn btn-default large round" href="http://reddit.com/r/bitcoincash" target="_blank">
+                        <ion-icon name="logo-reddit"></ion-icon> /r/bitcoincash
+                    </a>
+                    <a class="btn btn-default large round" href="btcforks.slack.com" target="_blank">
+                        <ion-icon name="logo-slack"></ion-icon> Slack
+                    </a>
+                    <a class="btn btn-default large round" href="https://www.facebook.com/bitcoincashorg/" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon> Facebook
+                    </a>
+                    <a class="btn btn-default large round" href="https://telegram.me/bitcoincashfork" target="_blank">
+                        <ion-icon name="paper-plane"></ion-icon> Telegram
+                    </a>
+                    <a class="btn btn-default large round" href="https://discord.gg/nw3mpph" target="_blank">
+                        <i class="socicon socicon-discord icon"></i> Discord
+                    </a>
+                    <a class="btn btn-default large round" href="https://bitcoincashtalk.org" target="_blank">
+                        <ion-icon name="globe" role="img" class="hydrated" aria-label="globe"></ion-icon> BitcoinCashTalk
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm-4 col-md-4 to-animate">
-                <div class="pop-shadow">
-                <p><ion-icon name="ios-cafe"></ion-icon></p>
-                <p><strong>{{ features[3]['title'] }}</strong></p>
-                <p>{{ features[3]['description'] }}</p>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <div class="pop-shadow">
-                <p><ion-icon name="business"></ion-icon></p>
-                <p><strong>{{ features[4]['title'] }}</strong></p>
-                <p>{{ features[4]['description'] }}</p>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <div class="pop-shadow">
-                <p><ion-icon name="lock"></ion-icon></p>
-                <p><strong>{{ features[5]['title'] }}</strong></p>
-                <p>{{ features[5]['description'] }}</p>
+        <div class="slant"></div>
+    </section>
+
+    <section class="space--xs" id="step-section">
+        <div class="container">
+            <div class="section-heading row to-animate">
+                <div class="col-sm-12 text-center">
+                    <h2>{% t 'headings.steps' %}</h2>
                 </div>
             </div>
 
-        </div>
-    </div>
-</section>
-<a id="about"></a>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card-user-profile card-step1">
+                        <a href="/getting-started.html">
+                            <img class="card-user-profile-img" src="/img/getting-started.jpg" alt="{% t 'gettingstarted.title' %} Getting Started Bitcoin Cash" />
+                        </a>
+                        <div class="card-user-profile-content card-section">
+                            <div class="card-user-profile-avatar">
+                                <ion-icon name="school"></ion-icon>
+                            </div>
+                            <p class="card-user-profile-name">{% t 'gettingstarted.subtitle' %}</p>
+                            <p class="card-user-profile-status">1. {% t 'gettingstarted.title' %}</p>
+                            <p class="card-user-profile-info">{% t 'gettingstarted.excerpt' %}</p>
+                        </div>
 
-<section class="space--xxs" id="connect">
-    <div class="slant-top"></div>
-    <div class="container">
-        <div class="community-cta section-heading to-animate">
-            <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
-                <h5>{% t 'headings.community' %}</h5>
-                <a class="btn btn-default large round" href="http://reddit.com/r/btc" target="_blank">
-                    <ion-icon name="logo-reddit"></ion-icon> /r/btc
-                </a>
-                <a class="btn btn-default large round" href="http://reddit.com/r/bitcoincash" target="_blank">
-                    <ion-icon name="logo-reddit"></ion-icon> /r/bitcoincash
-                </a>
-                <a class="btn btn-default large round" href="btcforks.slack.com" target="_blank">
-                    <ion-icon name="logo-slack"></ion-icon> Slack
-                </a>
-                <a class="btn btn-default large round" href="https://www.facebook.com/bitcoincashorg/" target="_blank">
-                    <ion-icon name="logo-facebook"></ion-icon> Facebook
-                </a>
-                <a class="btn btn-default large round" href="https://telegram.me/bitcoincashfork" target="_blank">
-                    <ion-icon name="paper-plane"></ion-icon> Telegram
-                </a>
-                <a class="btn btn-default large round" href="https://discord.gg/nw3mpph" target="_blank">
-                    <i class="socicon socicon-discord icon"></i> Discord
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="slant"></div>
-</section>
+                        <div class="card-user-profile-actions">
+                            <a href="/getting-started.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card-user-profile card-step2">
+                        <a href="/wallets.html">
+                            <img class="card-user-profile-img" src="/img/bitcoin-cash-wallet.jpg" alt="{% t 'downloadwallet.title' %} Bitcoin Cash Wallet on iPhone and Macbook" />
+                        </a>
+                        <div class="card-user-profile-content card-section">
+                            <div class="card-user-profile-avatar">
+                                <ion-icon name="wallet"></ion-icon>
+                            </div>
+                            <p class="card-user-profile-name">{% t 'downloadwallet.subtitle' %}</p>
+                            <p class="card-user-profile-status">2. {% t 'downloadwallet.title' %}</p>
+                            <p class="card-user-profile-info">{% t 'downloadwallet.excerpt' %} </p>
+                        </div>
 
-<section class="space--xs" id="step-section">
-    <div class="container">
-        <div class="section-heading row to-animate">
-            <div class="col-sm-12 text-center">
-                <h2>{% t 'headings.steps' %}</h2>
+                        <div class="card-user-profile-actions">
+                            <a href="/wallets.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card-user-profile card-step3">
+                        <a href="/buy-bitcoin-cash.html">
+                            <img class="card-user-profile-img" src="/img/buy-bitcoin-cash.jpg" alt="{% t 'buyorearn.title' %} Bitcoin Cash Coin with Coinbase Behind" />
+                        </a>
+                        <div class="card-user-profile-content card-section">
+                            <div class="card-user-profile-avatar">
+                                <ion-icon name="cart"></ion-icon>
+                            </div>
+                            <p class="card-user-profile-name">{% t 'buyorearn.subtitle' %}</p>
+                            <p class="card-user-profile-status">3. {% t 'buyorearn.title' %}</p>
+                            <p class="card-user-profile-info">{% t 'buyorearn.excerpt' %}</p>
+                        </div>
 
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
-                        <div class="card-user-profile card-step1">
-                            <a href="/getting-started.html">
-                                <img class="card-user-profile-img" src="/img/getting-started.jpg" alt="{% t 'gettingstarted.title' %} Getting Started Bitcoin Cash" />
-                            </a>
-                            <div class="card-user-profile-content card-section">
-                                <div class="card-user-profile-avatar">
-                                        <ion-icon name="school"></ion-icon>
-                                </div>
-                                <p class="card-user-profile-name">{% t 'gettingstarted.subtitle' %}</p>
-                                <p class="card-user-profile-status">1. {% t 'gettingstarted.title' %}</p>
-                                <p class="card-user-profile-info">{% t 'gettingstarted.excerpt' %}</p>
+                        <div class="card-user-profile-actions">
+                            <a href="/buy-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card-user-profile card-step4">
+                        <a href="/spend-bitcoin-cash.html">
+                            <img class="card-user-profile-img" src="/img/spend-bitcoin-cash.jpg" alt="{% t 'spendbch.title' %} - Tokyo Shibuya Crossing Bitcoin Cash" />
+                        </a>
+                        <div class="card-user-profile-content card-section">
+                            <div class="card-user-profile-avatar">
+                                <ion-icon name="gift"></ion-icon>
                             </div>
-                            
-                            <div class="card-user-profile-actions">
-                                <a href="/getting-started.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
-                            </div>
-                        </div>        
+                            <p class="card-user-profile-name">{% t 'spendbch.subtitle' %}</p>
+                            <p class="card-user-profile-status">4. {% t 'spendbch.title' %}</p>
+                            <p class="card-user-profile-info">{% t 'spendbch.excerpt' %}</p>
+                        </div>
+
+                        <div class="card-user-profile-actions">
+                            <a href="/spend-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                        <div class="card-user-profile card-step2">
-                            <a href="/wallets.html">
-                                <img class="card-user-profile-img" src="/img/bitcoin-cash-wallet.jpg" alt="{% t 'downloadwallet.title' %} Bitcoin Cash Wallet on iPhone and Macbook" />
-                            </a>
-                            <div class="card-user-profile-content card-section">
-                                <div class="card-user-profile-avatar">
-                                        <ion-icon name="wallet"></ion-icon>
-                                </div>
-                                <p class="card-user-profile-name">{% t 'downloadwallet.subtitle' %}</p>
-                                <p class="card-user-profile-status">2. {% t 'downloadwallet.title' %}</p>
-                                <p class="card-user-profile-info">{% t 'downloadwallet.excerpt' %} </p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <div class="card-user-profile card-step5">
+                        <a href="/accept-bitcoin-cash.html">
+                            <img class="card-user-profile-img" src="/img/accept-bitcoin-cash.jpg" alt="{% t 'acceptbch.title' %} - iPad accepting Bitcoin Cash" />
+                        </a>
+                        <div class="card-user-profile-content card-section">
+                            <div class="card-user-profile-avatar">
+                                <ion-icon name="star"></ion-icon>
                             </div>
-                            
-                            <div class="card-user-profile-actions">
-                                <a href="/wallets.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
-                            </div>
-                        </div>        
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
-                        <div class="card-user-profile card-step3">
-                            <a href="/buy-bitcoin-cash.html">
-                                <img class="card-user-profile-img" src="/img/buy-bitcoin-cash.jpg" alt="{% t 'buyorearn.title' %} Bitcoin Cash Coin with Coinbase Behind" />
-                            </a>
-                            <div class="card-user-profile-content card-section">
-                                <div class="card-user-profile-avatar">
-                                        <ion-icon name="cart"></ion-icon>
-                                </div>
-                                <p class="card-user-profile-name">{% t 'buyorearn.subtitle' %}</p>
-                                <p class="card-user-profile-status">3. {% t 'buyorearn.title' %}</p>
-                                <p class="card-user-profile-info">{% t 'buyorearn.excerpt' %}</p>
-                            </div>
-                            
-                            <div class="card-user-profile-actions">
-                                <a href="/buy-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
-                            </div>
-                        </div>        
-            </div>
-            <div class="col-sm-12 col-md-6">
-                        <div class="card-user-profile card-step4">
-                            <a href="/spend-bitcoin-cash.html">
-                                <img class="card-user-profile-img" src="/img/spend-bitcoin-cash.jpg" alt="{% t 'spendbch.title' %} - Tokyo Shibuya Crossing Bitcoin Cash" />
-                            </a>
-                            <div class="card-user-profile-content card-section">
-                                <div class="card-user-profile-avatar">
-                                        <ion-icon name="gift"></ion-icon>
-                                </div>
-                                <p class="card-user-profile-name">{% t 'spendbch.subtitle' %}</p>
-                                <p class="card-user-profile-status">4. {% t 'spendbch.title' %}</p>
-                                <p class="card-user-profile-info">{% t 'spendbch.excerpt' %}</p>
-                            </div>
-                            
-                            <div class="card-user-profile-actions">
-                                <a href="/spend-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
-                            </div>
-                        </div>        
+                            <p class="card-user-profile-name">{% t 'acceptbch.subtitle' %}</p>
+                            <p class="card-user-profile-status">5. {% t 'acceptbch.title' %}</p>
+                            <p class="card-user-profile-info">{% t 'acceptbch.excerpt' %}</p>
+                        </div>
+
+                        <div class="card-user-profile-actions">
+                            <a href="/accept-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-md-offset-3">
-                        <div class="card-user-profile card-step5">
-                            <a href="/accept-bitcoin-cash.html">
-                                <img class="card-user-profile-img" src="/img/accept-bitcoin-cash.jpg" alt="{% t 'acceptbch.title' %} - iPad accepting Bitcoin Cash" />
-                            </a>
-                            <div class="card-user-profile-content card-section">
-                                <div class="card-user-profile-avatar">
-                                        <ion-icon name="star"></ion-icon>
-                                </div>
-                                <p class="card-user-profile-name">{% t 'acceptbch.subtitle' %}</p>
-                                <p class="card-user-profile-status">5. {% t 'acceptbch.title' %}</p>
-                                <p class="card-user-profile-info">{% t 'acceptbch.excerpt' %}</p>
-                            </div>
-                            
-                            <div class="card-user-profile-actions">
-                                <a href="/accept-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'viewmore' %}</a>
-                            </div>
-                        </div>        
-            </div>
-        </div>
-    </div>
-</section>
+    </section>

@@ -234,7 +234,7 @@ sections:
   tech: "Technology"
   tools: "Tools"
   workgroups: "Work Groups"
-  faq: "FAQ"
+  faq: "About"
 layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Peer-to-Peer Electronic Cash"
@@ -275,7 +275,7 @@ headings:
   why: "Why Use Bitcoin Cash?"
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
-networkupgrade: 
+networkupgrade:
   reminder: "Reminder"
   title: "Planned Network Upgrade"
   description: "The Bitcoin Cash network will undergo a protocol upgrade. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
@@ -445,7 +445,7 @@ acceptbch:
   title: "Accept Bitcoin Cash"
   subtitle: "How can my business use Bitcoin Cash?"
   excerpt: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Easily accept Bitcoin Cash directly or use third-party providers to accept Bitcoin Cash using their platforms and convert all or part of the sale into local fiat currency.
-  description: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin Cash are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin payments today without worrying about the complexities of how to accept Bitcoin. 
+  description: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin Cash are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin payments today without worrying about the complexities of how to accept Bitcoin.
   sidetitle: "How can I accept Bitcoin Cash"
   acceptonline: "Bitcoin Cash Payment Gateways"
   acceptonline_excerpt: "Receive Bitcoin Cash as a payment method from trusted 3rd party Payment Gateways."
