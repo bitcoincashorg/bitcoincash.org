@@ -839,6 +839,9 @@ padding-top:2em;
 #fh5co-header.navbar-fixed-top .navbar-brand > img.darkit {display:block;}
 #fh5co-header.navbar-fixed-top .navbar-brand > img.lightit {display:none;}
 
+.navbar-nav > li ion-icon {
+  color:#fff;
+}
 
 .navbar-nav > li > .dropdown__trigger {
   color: rgba(255, 255, 255, 1) !important;

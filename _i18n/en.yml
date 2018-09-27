@@ -5,6 +5,7 @@ title:
   graphics: "Logos / Graphics - Bitcoin Cash"
   get-listed: "Submit a listing request - Bitcoin Cash"
   gettingstarted: "Getting Started - Bitcoin Cash"
+  starthere: "Start Here - Bitcoin Cash"
   wallets: "Download a wallet - Bitcoin Cash"
   buyorearn: "Buy or Earn BCH - Bitcoin Cash"
   spendbch: "Spend BCH - Bitcoin Cash"
@@ -235,6 +236,7 @@ sections:
   tools: "Tools"
   workgroups: "Work Groups"
   faq: "About"
+  starthere: "Start Here"
 layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Peer-to-Peer Electronic Cash"
