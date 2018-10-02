@@ -22,7 +22,7 @@ The following are not consensus changes, but are recommended changes for Bitcoin
 
 ## Canonical Transaction Order
 
-With the exception of the coinbase transaction, transactions within a block shall be sorted by Transaction ID in ascending order. The coinbase transaction shall be the first transaction in a block.
+With the exception of the coinbase transaction, transactions within a block MUST be sorted by the numerically ascending order of 256-bit little endian integers constructed by deserializing the bytes of the transaction id (formed from the double sha256 hash of the transaction data).  The coinbase transaction shall be the first transaction in a block.
 
 ## OpCodes
 
