@@ -75,6 +75,19 @@ p.release {
   background-attachment: fixed;
 }
 
+.close-fix {
+  position: relative;
+  top: -15px;
+}
+
+.mt-sm {
+  margin-top: -1rem;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
 @media only screen and (max-device-width: 1024px) {
   .site-header {
       background-attachment: scroll !important;
