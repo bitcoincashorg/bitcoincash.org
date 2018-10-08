@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[bitcoin-cash-website.en-yml]
+file_filter = _i18n/<lang>.yml
+minimum_perc = 0
+source_file = _i18n/en.yml
+source_lang = en
+type = YML
+
