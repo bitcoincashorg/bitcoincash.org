@@ -84,6 +84,10 @@ p.release {
   margin-top: -1rem;
 }
 
+.mt-sm:hover {
+  cursor: pointer;
+}
+
 .text-white {
   color: #ffffff !important;
 }
