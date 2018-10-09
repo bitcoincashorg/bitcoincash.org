@@ -40,7 +40,7 @@ p.release {
   margin: 20px 0 40px;
 }
 
-.panel.secondary p, .panel.secondary h2 {
+.panel.secondary p, .panel.secondary h2, .panel.secondary h2 small {
   color: #fff;
 }
 
@@ -81,7 +81,7 @@ p.release {
 }
 
 .mt-sm {
-  margin-top: -1rem;
+  margin-togp: -1rem;
 }
 
 .mt-sm:hover {
