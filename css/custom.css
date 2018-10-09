@@ -45,10 +45,10 @@ p.release {
 }
 
 .panel h4 {
-  color:#fff;
-  margin:1.5em 0 .5em;
-  font-size:22px;
-  letter-spacing:1px;
+  color: #fff;
+  margin: 1.5em 0 .5em;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
 
 .reminder-links a {
@@ -81,7 +81,11 @@ p.release {
 }
 
 .mt-sm {
-  margin-top: -1rem;
+  margin-togp: -1rem;
+}
+
+.mt-sm:hover {
+  cursor: pointer;
 }
 
 .text-white {
