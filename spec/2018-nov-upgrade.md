@@ -1,9 +1,9 @@
 ---
 layout: specification
 title: 2018 November 15 Network Upgrade Specification
-date: 2018-08-24
+date: 2018-09-10
 activation: 1542300000
-version: 0.3
+version: 0.4
 ---
 
 ## Summary
@@ -22,7 +22,7 @@ The following are not consensus changes, but are recommended changes for Bitcoin
 
 ## Canonical Transaction Order
 
-With the exception of the coinbase transaction, transactions within a block shall be sorted by Transaction ID in ascending order. The coinbase transaction shall be the first transaction in a block.
+With the exception of the coinbase transaction, transactions within a block MUST be sorted in numerically ascending order of the transaction id, interpreted as 256-bit little endian integers.  The coinbase transaction MUST be the first transaction in a block.
 
 ## OpCodes
 
