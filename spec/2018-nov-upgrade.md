@@ -1,9 +1,9 @@
 ---
 layout: specification
 title: 2018 November 15 Network Upgrade Specification
-date: 2018-09-10
+date: 2018-10-10
 activation: 1542300000
-version: 0.4
+version: 0.5
 ---
 
 ## Summary
@@ -34,7 +34,7 @@ Transactions that are smaller than 100 bytes shall be considered invalid. This p
 
 ## Push Only
 
-Transactions shall be considered invalid if an opcode with number greater than 96 (hex encoding 0x60) appears in a scriptSig. This is the same as Bitcoin BIP 62 rule #3 [4].
+Transactions shall be considered invalid if an opcode with number greater than 96 (hex encoding 0x60) appears in a scriptSig. This is the same as Bitcoin BIP 62 rule #2 [4].
 
 ## Clean Stack
 
