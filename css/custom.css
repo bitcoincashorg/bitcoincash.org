@@ -132,6 +132,10 @@ p.release {
   color: white;
 }
 
+.bcash {
+  max-width: 50%;
+}
+
 section.no-bottom {
   padding-bottom: 0;
 }
