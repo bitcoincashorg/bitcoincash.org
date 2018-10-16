@@ -9,7 +9,7 @@ version: 0.6
 OP_CHECKDATASIG
 ===============
 
-OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY check whether a signature is valid with respect to a message and a public key.
+OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY check whether the data on the stack represents a valid ECDSA signature, message, and public key.
 
 OP_CHECKDATASIG permits data to be imported into a script, and have its validity checked against some signing authority such as an "Oracle".
 
