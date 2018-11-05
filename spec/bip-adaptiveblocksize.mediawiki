@@ -1,0 +1,128 @@
+<pre>
+  BIP: ?
+  BUIP: ?
+  Title: Asymmetric Moving Maximum Block Size Consensus Rule Based On Median Block Size
+  Author: @im_uname, adapted from https://github.com/bitpay/bips/blob/master/bip-adaptiveblocksize.mediawiki
+  Status: WIP
+  Type: Standards Track
+  Created: 2018-10-21
+</pre>
+
+
+==Abstract==
+
+
+We propose a dynamic limit to the block size based on the the **largest** number out of the following: 
+
+1. Median block size over the last 12,960 blocks (about three months) multiplied by 10 and calculated when a block is connected to the blockchain.
+
+2. Median block size over the last 52,560 blocks (about one year) multiplied by 10 and calculated when a block is connected to the blockchain.
+
+3. 32,000,000 bytes (32MB).
+
+Aside from the largest of the above, the limit shall also have a static upper bound at 10,000,000,000,000 bytes (10TB). 
+
+
+==Motivation==
+
+
+The purpose of this consensus rule change is to allow the maximum block size to increase based on actual network usage, and have a slower safety fallback if usage drops. A block size limit prevents denial of service attacks, network partition and frequent reorganizations favoring large miners regardless of node investment on the Bitcoin network; however a fixed limit does not allow the capacity of the network to increase as advancements in scaling are realized, while increases via voting or regular hardforks are prone to political pressure and hence suboptimal.  By adjusting the limit based on the sizes of blocks in the recent past, the throughput of the network can adjust to changes in user demand and scaling related technology advancements, leaving ample room for spikes in usage, while still being protected from short term denial of service attacks via very large blocks.
+
+
+This is a chain-based signaling mechanism that will allow miners to have certainty that the blocks they build will be accepted by the rest of the network. If wished, a majority of miners will be able to affect the limit whether upwards or downwards, with a cost over a window of time. With this BUIP in place, future hard forks related to block size should be unnecessary.
+
+
+Please note that this proposal DOES NOT propose a [[https://gist.github.com/gavinandresen/54f6e24b830781aae1f4|blended cost metric]] for transactions and blocks used for miner transaction selection. Consensus rules regarding maximum signature operations per block and maximum standard transaction signature operations should be considered separately from this consensus rule change. 
+
+
+==Specification==
+
+* This is implemented as a hard fork using a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes.
+
+** The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
+** Using a pre-sorted list of the last 12,960 blocks' and 52,560 blocks' sizes (about three months and one year of blocks respectively)
+** each median * 10 (10 is the growth multiplier), the larger number is the new maximum block size consensus.
+** If the larger median is less than 32,000,000 bytes, then 32,000,000 bytes is used as the maximum block size until next calculation. Note: the current maximum block size consensus rule is 32,000,000 bytes. 
+** If the larger median is higher than 10,000,000,000,000 bytes (10TB), 10TB is used as the maximum block size until next calculation.
+
+
+===Activation===
+Activation: By flag time, as specified above.
+
+Fully validating older clients are not compatible with this change. The first block exceeding the old limits on block size will partition older clients off the new network.
+
+SPV (simple payment validation) wallets are compatible with this change.
+
+==Rationale==
+
+By having a maximum block size that adjusts based on the median block size of the past blocks, the degree to which a single miner can influence the decision over what the maximum block size is directly proportional to their own mining hash rate on the network. The only way a single miner can make a unilateral decision on block size limit would be if they had greater than 50% of the mining power sustained over the span of three months, or one year in case he decides to shrink maximum block size. In this case, Bitcoin Cash has existential problems beyond the scope of this BIP. Using the median block size multiplied by 10 achieves predictable growth in the max block size over time, while allowing seasonal and circumstantial spikes in real usage up to 10x, yet protects the network against excessively large blocks causing instability both known and unknown. 
+
+Choosing the median block size versus using an arithmetic mean is an important design decision. Using the moving average over the look back period to calculate the maximum block size consensus rule would allow individual miners to influence this consensus rule in a way that is not proportional to their historical hash rate on the network. In other words, a single miner could have a disproportionately large influence over the block size limit by building very large or very small blocks.
+
+===Miners' Collective Manual Intervention at a Cost===
+
+We expect miners to optimize their actual mined blocksizes by weighing transaction fees from broadcasted transactions against orphan risk of larger blocks (see [[https://www.bitcoinunlimited.info/resources/feemarket.pdf | analysis]]). In the cases where the allowances of this BIP proves to be inadequate and miners collectively wish to increase or decrease blocksize limit beyond normal usage (for example, to either grow in anticipation of a large incoming usecase, or to stave off a newly discovered rare attack at the edge of the blocksize limit: 
+
+** If >51% of miners wish to increase blocksize limit, they can fill their blocks with transactions to themselves over 1/10th of their desired limit, and sustain it over a period of 3 months. This will incur a cost in orphaning risk versus their peers who do not hold such desires. 
+
+** If >51% of miners wish to decrease blocksize limit, they can restrict their mined blocksize to below 1/10th the desired limit, and sustain it over a period of one year. This will incur a cost in giving up transaction fees.
+
+These adjustments, tampered by their associated costs and the rolling adjustment window, are not considered "attacks" and should be regarded as miners rationally choosing to intervene for their investments, should they be employed. 
+
+If a severe and immediate vulnerability is discovered for larger blocks and cannot be adequately addressed by the decrease mechanism, miners shall implement a manual soft fork with either a flag date or a BIP9/BIP135 mechanism.
+
+===Asymmetric Increase/Decrease Mechanism===
+
+Under this BIP, by design the limit is harder to decrease than increase, with decreases happening over a longer time period than increases. The Bitcoin Cash community has been known to focused on relentless growth, including aggressively preparing for future capacity only bounded by network robustness concerns, and this mechanism reflects that. Network capacities that have been reached and deemed safe in the past are unlikely to become unsafe in the future, partly due to ever-falling price per unit capacity of computer hardware, and partly because participants who has invested in higher capacities are likely to inertially retain it in anticipation of returning volume even if there is a short term or seasonal fall in usage.
+
+===Choice of parameters===
+
+**The multiplier 10 is chosen to accomodate short spikes in commercial usage: It is a comfortable margin above ~3.5X increase in e-commerce volume on [[https://techcrunch.com/2017/11/24/black-friday-deals-net-640m-in-sales-so-far-mobile-60-of-all-traffic/ | Black Friday]] over [[https://www.digitalcommerce360.com/article/us-ecommerce-sales/ | yearly numbers]].
+
+**The 3-month increase window is chosen as a middle ground to both deter short term manipulation (a 51% short term miner have to sustain ove a full quarter) and allow reasonable response to buildup across a single shopping season (two months in western countries).
+
+**The one-year decrease window reflects the desire to only reasonable decrease limit if overall usage decreased year-over-year, which are less subject to seasonal fluctuations.
+
+
+===Fastest Growth Scenarios===
+The maximum rate of growth is capped at the growth multiplier, which is 10. So, the fastest the limit can increase is if every block is mined to capacity continuously over time. In this case, the absolute fastest growth rate is a 10x of maximum block size every 6480 blocks (45 days). While this is a really aggressive pace of growth, it only happens when 100% of the miners participate, and decreases in speed as less miners participate.
+
+
+===Mining Ramifications===
+We don’t expect this consensus rule change to impact miners who choose to mine from block headers before the full block is transferred, validated and connected to the active chain. The same behavior will be observed before and after this change. Since this consensus rule will be calculated as a precondition to ConnectBlock(), the maximum block size rule for the next block will not be known until after the last block is connected to the main chain.
+
+Since the limit moves slowly and is kept at a high multiplier above median usage, miners who wish to not accidentally exceed current limits should have ample room to safely add large number of transactions to their block - simply prepare a block targeting the limit as if the next incoming block will be empty.
+
+Should the growth rate of the block size limit exceed the actual capacity of the Bitcoin Cash network, there should be an increase in the number of empty blocks as a result of SPV mining.  The effect of which would be to reduce the median block size and therefore reduce the block size limit.  To the extent miners engage in SPV mining, it should have an automatic, self correcting effect on the block size limit.
+
+===Implications for hardware investments of node operators===
+There has been comments about whether to significantly shorten the increase timeframe, so that extraordinary spikes in usage can be better accomodated. 
+
+One of the desirable properties of an adaptive system is predictability: that node operators, both mining and economic, can anticipate increased maximum throughput of the network and plan their hardware deployment as well as mining strategies accordingly ahead of time. It is not essential that the network accomodate operators that cannot keep up when more network capacity is needed; however, it is very beneficial for any operators, even those who can keep pace, to know ahead what to deploy and how much to invest. With a 90 days median cycle and a maximum 45 days - 10X increase, we allow them a comfortable window of predicatability. A much shorter timeframe removes this predictability, resulting in uncertainty both in investment and network health.
+
+===FAQ===
+
+# Is it possible for the maximum block size consensus rule to drop below the current rule of 32,000,000 bytes under this proposal?
+## No, this proposal states that the maximum block size consensus rule will never drop below 32,000,000 bytes. Miners can build any size blocks they want, but the rule states that the maximum block size will not be lower than 32,000,000 bytes.
+# Why should the maximum block size consensus rule be computed every time a block is connected to the active chain? Why not every 144 blocks or 2016 blocks, etc.?
+## Quite simply, the decision to calculate the maximum block size after each block was the least arbitrary of the all options available to us. In other words, we considered the choice of calculating the maximum block size at alternate intervals to be more arbitrary than every block for no gain.
+# How would this proposal affect miners' behavior? More specifically, how does this affect miners that begin hashing using the last reported successfully mined block header only?
+## We don't think that SPV miners will be affected by this proposal. This proposal posits that block size increases will happen in response to the need to process transactions on the Bitcoin payment network but be moderated by limitations of current technology. Example, miner A builds a large block and propagates it. Miner B has very limited hardware and/or network capabilities. Miner B chooses to mine from miner A's block header only and actually finds the next block (this happens at the present time). Miner B does not have the ability to add any transactions from their memory pool for fear they appeared in the last block. So, miner B mines a block with only the coinbase transaction. This very small block will then be a factor in lowering the maximum block size consensus rule in the immediate future.
+# Will this proposal lead to a change in incentives for miners? If so, how?
+## We don't think miner incentives will change at all. The chances of a miner (or pool) building the next valid block is directly portional to their percentage of hashing power on the network. Similarly, the degree to which a miner (or pool) can influence what the maximum block size consensus rule is also directly proportional to their hashing power on the network, while incurring a cost if it deviates from the cost optimal.
+# What about "weak blocks"; could the development of this technology invalidate the assumption that larger blocks have a higher orphan risk?
+## While validation and propagation times might be significantly improved by weak blocks, adding transactions to a block has a cost and will always have a cost. As propagation and validation technologies improve, the cost falls and miners will naturally have incentives to build larger blocks with lower per transaction fees; this is expected and encouraged in Bitcoin Cash. Storage costs are not expected to be a problem, as network participants target their investments against the comfortable upper multiplier limits, whose increase is moderated by the rolling window.
+# What about consideration of systems used in other cryptocurrencies like Meni Rosenfeld's flexcap system in Monero?
+## The simplicity of using the multiple of median block size over a look back range was very attractive to us.  Some of those flexcap proposals allow the block size to momentarily surge in response to high demand.  We believe this is a mistake.  The network cannot magically conjure up additional capacity in response to surges in demand.  We believe the proper mechanism to address surges in demand is to prepare for it using higher multiples that allows network participants to invest around it well ahead of time.
+# What about other consensus rules that are currently directly derived from maximum block size such as maximum signature operations per block and maximum standard transaction signature operations? How does this proposal affect those consensus rules with respect to current rules?
+## It doesn't. This proposal does not address other block limitations because we believe they should have independent limits. It can be debated whether they should have an adaptive limit mechanism as well. 
+# What if an extraordinarily pressing need to increase blocksize was in place that cannot be adequately addressed by simply mining full blocks that raises maxblocksize every 45 days?
+## Just like status quo, an extraordinary situation can be addressed by a hard fork. Given the relative ease to do it via adaptive blocksize versus a hardfork that can raise controvery, though, we expect almost all needs to not require a hardfork.
+
+==Prior Implementation for Reference==
+https://github.com/bitpay/bitcoin/tree/adaptive-block-size
+
+
+==CC0 Waiver==
+To the extent possible under law, im_uname has waived all copyright and related or neighboring rights to symmetric Moving Maximum Block Size Consensus Rule Based On Median Block Size.
+
