@@ -67,7 +67,7 @@ We expect miners to optimize their actual mined blocksizes by weighing transacti
 
 ** If >51% of miners wish to decrease blocksize limit, they can restrict their mined blocksize to below 1/10th the desired limit, and sustain it over a period of one year. This will incur a cost in giving up transaction fees.
 
-These adjustments, tampered by their associated costs and the rolling adjustment window, are not considered "attacks" and should be regarded as miners rationally choosing to intervene for their investments, should they be employed. 
+These adjustments, tempered by their associated costs and the rolling adjustment window, are not considered "attacks" and should be regarded as miners rationally choosing to intervene for their investments, should they be employed. 
 
 If a severe and immediate vulnerability is discovered for larger blocks and cannot be adequately addressed by the decrease mechanism, miners shall implement a manual soft fork with either a flag date or a BIP9/BIP135 mechanism.
 
@@ -96,7 +96,7 @@ Since the limit moves slowly and is kept at a high multiplier above median usage
 Should the growth rate of the block size limit exceed the actual capacity of the Bitcoin Cash network, there should be an increase in the number of empty blocks as a result of SPV mining.  The effect of which would be to reduce the median block size and therefore reduce the block size limit.  To the extent miners engage in SPV mining, it should have an automatic, self correcting effect on the block size limit.
 
 ===Implications for hardware investments of node operators===
-There has been comments about whether to significantly shorten the increase timeframe, so that extraordinary spikes in usage can be better accomodated. 
+There have been comments about whether to significantly shorten the increase timeframe, so that extraordinary spikes in usage can be better accomodated. 
 
 One of the desirable properties of an adaptive system is predictability: that node operators, both mining and economic, can anticipate increased maximum throughput of the network and plan their hardware deployment as well as mining strategies accordingly ahead of time. It is not essential that the network accomodate operators that cannot keep up when more network capacity is needed; however, it is very beneficial for any operators, even those who can keep pace, to know ahead what to deploy and how much to invest. With a 90 days median cycle and a maximum 45 days - 10X increase, we allow them a comfortable window of predicatability. A much shorter timeframe removes this predictability, resulting in uncertainty both in investment and network health.
 
@@ -117,12 +117,12 @@ One of the desirable properties of an adaptive system is predictability: that no
 # What about other consensus rules that are currently directly derived from maximum block size such as maximum signature operations per block and maximum standard transaction signature operations? How does this proposal affect those consensus rules with respect to current rules?
 ## It doesn't. This proposal does not address other block limitations because we believe they should have independent limits. It can be debated whether they should have an adaptive limit mechanism as well. 
 # What if an extraordinarily pressing need to increase blocksize was in place that cannot be adequately addressed by simply mining full blocks that raises maxblocksize every 45 days?
-## Just like status quo, an extraordinary situation can be addressed by a hard fork. Given the relative ease to do it via adaptive blocksize versus a hardfork that can raise controvery, though, we expect almost all needs to not require a hardfork.
+## Just like status quo, an extraordinary situation can be addressed by a hard fork. Given the relative ease to do it via adaptive blocksize versus a hardfork that can raise controversy, though, we expect almost all needs to not require a hardfork.
 
 ==Prior Implementation for Reference==
 https://github.com/bitpay/bitcoin/tree/adaptive-block-size
 
 
 ==CC0 Waiver==
-To the extent possible under law, im_uname has waived all copyright and related or neighboring rights to symmetric Moving Maximum Block Size Consensus Rule Based On Median Block Size.
+To the extent possible under law, im_uname has waived all copyright and related or neighboring rights to Asymmetric Moving Maximum Block Size Consensus Rule Based On Median Block Size.
 
