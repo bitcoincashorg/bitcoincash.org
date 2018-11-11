@@ -41,7 +41,9 @@ exclude:
   - 'Gemfile.lock'
   - 'Makefile'
   - 'Rakefile'
-  - COPYING
+  - 'COPYING'
+  - 'Dockerfile'
+  - 'docker-compose.yml'
 
 languages:
   - en
