@@ -54,7 +54,7 @@ This particular consensus rule MUST NOT be implemented by Bitcoin Cash wallet so
 
 ## References
 
-[1] Median Time Past is described in [bitcoin.it wiki](https://en.bitcoin.it/wiki/Block_timestamp). It is guaranteed by consensus trules to be monotonically increasing.
+[1] Median Time Past is described in [bitcoin.it wiki](https://en.bitcoin.it/wiki/Block_timestamp). It is guaranteed by consensus rules to be monotonically increasing.
 
 [2] https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md
 
