@@ -132,14 +132,30 @@ footer .social-list {
 
 .site-header {
   background-color: black;
-  background-image: url(../img/background14.jpg);
+  background-image: url(../img/background16.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   position:relative;
 }
+
+
+.site-header.inner {
+background-image: url(../img/background16.jpg);
+background-position:0 0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+padding-top:2em;
+}
+
+/*.hero-logo h3, .hero-logo h4, .reminder a, #fh5co-home #ticker, #fh5co-home #ticker_value {
+  text-shadow:0 0 8px rgba(0,0,0,0.55);
+}*/
 
 @media only screen and (max-device-width: 1024px) {
   .site-header {

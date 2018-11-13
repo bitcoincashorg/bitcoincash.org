@@ -718,12 +718,6 @@ h1, h2, h3, h4, h5, h6 {
   position:relative;
 }
 
-.site-header.inner {
-background: #ee8a2a;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ee8a2a, #e89c51);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ee8a2a, #e89c51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding-top:2em;
-}
 #ticker_value {
   position:absolute;
   top:125px;
