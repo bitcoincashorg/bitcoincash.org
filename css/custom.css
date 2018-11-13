@@ -167,9 +167,26 @@ padding-top:2em;
   }
 }
 
+@media (max-width: 850px) {
+  .navbar-nav > li > .dropdown__trigger {
+    margin:0px 8px !important;
+    padding-top:15px !important;
+  }
+  .nav > li > a {
+    padding:15px 8px !important;
+  }
+}
+
 @media (max-width: 767px) {
   .dropdown .dropdown__content {
       padding: 0 1.2em .3em;
+  }
+  .navbar-nav > li > .dropdown__trigger {
+    padding-top:0 !important;
+  }
+
+  .navbar-nav > li ion-icon {
+    color:rgba(0,0,0,0.5) !important;
   }
 }
 
