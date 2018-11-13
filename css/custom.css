@@ -480,3 +480,12 @@ ol {
 .pt-5 {
   padding-top: 7rem;
 }
+
+.pointer {
+  transition-duration: .1s;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
