@@ -1,6 +1,7 @@
 ---
 layout: specification
 title: Block Spec for Bitcoin Cash
+category: spec
 date: 2017-08-26
 activation: 1515888000
 version: 1.0
