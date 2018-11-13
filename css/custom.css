@@ -1,5 +1,9 @@
 /*! Place your custom styles here */
 
+.navbar-brand {
+  padding-top:10px;
+}
+
 .bar .logo {
   max-height: 1.3em;
 }
@@ -215,10 +219,6 @@ section.gray {
     background: linear-gradient(to right, #fafafa, #f9f9f9);
 }
 
-section.border-bottom {
-  border-bottom: 1px solid #EAEAEA;
-}
-
 p.question {
   font-size: 1.3em;
   font-weight: 350;
@@ -303,10 +303,10 @@ p.question {
   font-size:0.8em;
 }
 .wallet-types .type ion-icon {
-  background:#fda839;
+  background:#f7941c;
   font-size:40px;
 }
-.wallet-types .type:nth-child(2) ion-icon{
+/*.wallet-types .type:nth-child(2) ion-icon{
   background:#fe8645;
 }
 
@@ -332,7 +332,7 @@ p.question {
 
 .wallet-types .type:nth-child(8) ion-icon{
   background:#9e342e;
-}
+}*/
 
 .featured-wallets a:hover, .featured-wallets a:focus {
   text-decoration: none;
