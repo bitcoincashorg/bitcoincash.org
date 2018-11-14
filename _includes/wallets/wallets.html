@@ -5,7 +5,7 @@
 				<div class="card-user-profile wallet-types">
 					<h3>{% t 'downloadwallet.sidetitle' %}</h3>
 					<div class="text-left">
-						<div class="row type">
+						<div class="row type pointer" onclick="scroll_to('div.mobile-wallet')">
 							<div class="col-xs-3">
 								<ion-icon name="phone-portrait"></ion-icon>
 							</div>
@@ -14,7 +14,7 @@
 								<p>{% t 'downloadwallet.mobilewallet_excerpt' %}</p>
 							</div>
 						</div>
-						<div class="row type">
+						<div class="row type pointer" onclick="scroll_to('div.desktop-wallet')">
 							<div class="col-xs-3">
 								<ion-icon name="laptop"></ion-icon>
 							</div>
@@ -23,7 +23,7 @@
 								<p>{% t 'downloadwallet.desktopwallet_excerpt' %}</p>
 							</div>
 						</div>
-						<div class="row type">
+						<div class="row type pointer" onclick="scroll_to('div.hardware-wallet')">
 							<div class="col-xs-3">
 								<ion-icon name="battery-full"></ion-icon>
 							</div>
@@ -32,7 +32,7 @@
 								<p>{% t 'downloadwallet.hardwarewallet_excerpt' %}</p>
 							</div>
 						</div>
-						<div class="row type">
+						<div class="row type pointer" onclick="scroll_to('div.paper-wallet')">
 							<div class="col-xs-3">
 								<ion-icon name="cash"></ion-icon>
 							</div>
@@ -112,10 +112,11 @@
 	</div>
 </section>
 
+
 <section class="space--xxs text-center gray wallet-filter">
 	<div class="container wallets">
-
-		<div class="col-xs-12 section-heading ">
+		<!-- mobile wallet -->
+		<div class="col-xs-12 section-heading mobile-wallet">
 			<h2>Mobile {% t 'headings.wallets' %}</h2>
 		</div>
 		<!-- Mobile Tabs -->
@@ -197,11 +198,6 @@
 						<div class="col-sm-6 col-md-3 vertical-align to-animate">
 							<a href="https://strongcoin.com/" target="_blank">
 								<img alt="StrongCoin" src="/img/wallets/strongcoin.png">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 vertical-align to-animate">
-							<a href="https://www.wmtransfer.com/" target="_blank">
-								<img alt="Web Money" src="/img/wallets/webmoney.png">
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-3 vertical-align to-animate">
@@ -289,11 +285,6 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-3 vertical-align to-animate">
-							<a href="https://www.wmtransfer.com/" target="_blank">
-								<img alt="Web Money" src="/img/wallets/webmoney.png">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3 vertical-align to-animate">
 							<a href="https://coinomi.com/" target="_blank">
 								<img alt="Coinomi" src="/img/wallets/coinomi.png">
 							</a>
@@ -312,7 +303,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 section-heading ">
+		<div class="col-xs-12 section-heading desktop-wallet">
 			<h2>Desktop {% t 'headings.wallets' %}</h2>
 		</div>
 		<div class="col-xs-12">
@@ -407,7 +398,7 @@
 		</div>
 
 
-		<div class="col-xs-12 section-heading ">
+		<div class="col-xs-12 section-heading hardware-wallet">
 			<h2>Hardware {% t 'headings.wallets' %}</h2>
 		</div>
 
@@ -431,7 +422,7 @@
 
 
 
-		<div class="col-xs-12 section-heading ">
+		<div class="col-xs-12 section-heading paper-wallet">
 			<h2>Paper {% t 'headings.wallets' %}</h2>
 		</div>
 
