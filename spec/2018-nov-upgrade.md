@@ -15,6 +15,7 @@ When the median time past [1] of the most recent 11 blocks (MTP-11) is greater t
 * Enforce minimum transaction size
 * Enforce "push only" rule for scriptSig
 * Enforce "clean stack" rule
+* Enforce checkpoint at blockheight 556767
 
 The following are not consensus changes, but are recommended changes for Bitcoin Cash implementations:
 
@@ -51,6 +52,10 @@ When the median time past [1] of the most recent 11 blocks (MTP-11) is greater t
  * Update `forkid` [5] to be equal to 0xFF0001.  ForkIDs beginning with 0xFF will be reserved for future protocol upgrades.
 
 This particular consensus rule MUST NOT be implemented by Bitcoin Cash wallet software. Wallets that follow the upgrade should not have to change anything.
+
+## Blockchain Checkpoint
+
+Implementations SHOULD implement an additional conensus rule, that block at height 556767 must have hash `0000000000000000004626ff6e3b936941d341c5932ece4357eeccac44e6d56c`. See [implementation example in ABC software](https://reviews.bitcoinabc.org/rABC651ac4461c2c92952df39f75a9d177c746e60b57).
 
 ## References
 
