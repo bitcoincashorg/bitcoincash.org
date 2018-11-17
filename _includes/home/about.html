@@ -77,15 +77,25 @@
         <div class="col-sm-12 col-md-12">
             <div class="panel secondary">
             <div class="col-sm-12 section-heading ">
-                <h2 class="text-center"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <small>{% t 'networkupgrade.date' %}</small><br>{% t 'networkupgrade.title' %}</h2>
+                <h2 class="text-center">
+                    <i class="fa fa-check-circle"></i><br>
+                    {% t 'networkupgrade.title' %} Complete!
+                    <small class="text-center">
+                    {% t 'networkupgrade.date' %}
+                </small>
+                </h2>
+
+                <!-- <h2 class="text-center"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <small>{% t 'networkupgrade.date' %}</small><br>{% t 'networkupgrade.title' %}</h2> -->
             </div>
 
-            <p>{% t 'networkupgrade.description' %}
+            <p class="text-center">
+                <!-- {% t 'networkupgrade.description' %} -->
+                <a href="https://cash.coin.dance/" class="btn btn-default btn-round">View Details</a>
             </p>
                 <div class="text-center reminder-links">
                     <h4>{% t 'networkupgrade.compatible' %}:</h4>
-                    <a href="https://download.bitcoinabc.org/0.18.3/" title="Bitcoin ABC 0.18.3" target="_blank">
-                        <i class="fa fa-link" aria-hidden="true"></i> Bitcoin ABC 0.18.3
+                    <a href="https://download.bitcoinabc.org/0.18.4/" title="Bitcoin ABC 0.18.4" target="_blank">
+                        <i class="fa fa-link" aria-hidden="true"></i> Bitcoin ABC 0.18.4
                     </a>
                     <a href="https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/dev/doc/release-notes/release-notes-bucash1.5.0.1.md" title="Bitcoin Unlimited Cash Edition 1.5.0.1" target="_blank">
                         <i class="fa fa-link" aria-hidden="true"></i> Bitcoin Unlimited Cash Edition 1.5.0.1
@@ -96,7 +106,7 @@
                     <a href="https://github.com/bcoin-org/bcash/blob/master/CHANGELOG.md#v110" title="bcoin bcash" target="_blank">
                         <i class="fa fa-link" aria-hidden="true"></i> bcoin - bcash 1.1.0
                     </a>
-                    <h4>{% t 'networkupgrade.additional' %}:</h4>
+                   <!--  <h4>{% t 'networkupgrade.additional' %}:</h4>
                     <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md" title="November Hardfork Spec" target="_blank">
                         <i class="fa fa-link" aria-hidden="true"></i> {% t 'networkupgrade.hfspec' %}
                     </a>
@@ -106,6 +116,7 @@
 
                     <a href="https://docs.google.com/spreadsheets/d/1Wg2ciYk7efDFpUD9qIz2Q9-Qp4H8i0Io8ThdDbGdyPU" title="Testnet Information" target="_blank">
                      <i class="fa fa-link" aria-hidden="true"></i> {% t 'networkupgrade.testnet' %}
+                     </a> -->
                 </div>
             </div>
         </div>
