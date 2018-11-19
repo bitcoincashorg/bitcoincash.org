@@ -4,6 +4,7 @@ title:
   index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
   graphics: "Bitcoin Cash - Logos / Graphics"
   get-listed: "Submit a listing request"
+  network-upgrade: "Bitcoin Cash - Network Upgrade"
 meta:
   index:
     description: |
@@ -283,9 +284,7 @@ content:
     - question: "Is Bitcoin Cash different from 'Bitcoin'?"
       answer:
         - |
-
           In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash.
-
   why:
       - benefit: "Send Money Anywhere In the World, Almost for Free"
         descrip:
@@ -348,4 +347,44 @@ content:
          With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
         The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
-
+network-upgrade:
+  title: 'Network Upgrade'
+  subtitle: 'Bitcoin Cash Planned Network Upgrade Is Complete'
+  section-title: 'On November 15 2018, the Bitcoin Cash (BCH) network successfully upgraded as part of the planned feature changes outlined in the November Upgrade Spec.'
+  highlights:
+    title: 'Here are some of the highlights from the upgrade:'
+    list:
+      - |
+        Remove topological transaction order constraint, and enforce canonical transaction order (also called “CTOR”)
+      - |
+        Enable OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY (also called “DSV”) opcodes
+      - |
+        Enforce minimum transaction size
+      - |
+        Enforce "push only" rule for scriptSig
+      - |
+        Enforce "clean stack" rule
+      - |
+        Automatic replay protection for future upgrades
+  changes:
+    title: 'The two most exciting changes of the upgrade are CTOR and DSV:'
+    text: 'CTOR which is part of the comprehensive technical roadmap allows for faster transaction ordering and block propagation. This feature helps scale Bitcoin Cash for the world.<br>
+          DSV which is also part of the roadmap, is a feature that allows a transaction to verify that it has been supplied with a valid signature and message. This will enable new applications to be built on the Bitcoin Cash network that weren’t possible before. Please see op_checkdatasig.md for additional details.'
+  faq-title: 'Frequently Asked Questions'
+  faq:
+    - question: "When was the upgrade completed?"
+      answer:
+        - |
+          On block 556767 the upgrade was activated (Epoch 1542300000). As of this writing, there has been well over 300 blocks mined since the activation with Bitcoin Cash (BCH) having the most accumulated proof of work blockchain.
+    - question: "Was there a fork when the upgrade happened?"
+      answer:
+        - |
+          There are some who chose to run different software instead of what was proposed in the upgrade. Anyone that runs different software technically “forked.”
+    - question: "What is a checkpoint?"
+      answer:
+        - |
+          For the upgrade, there was a remote possibility that a malicious entity may have tried to attack the chain with deep reorgs. In order to safely prevent this attack, we updated checkpoints which were first used by Satoshi Nakamoto to the current fork height + 180 blocks to thwart any attempt at blockchain reorgs and attacks. Checkpoints have been used in every past Bitcoin Cash network upgrade including this November 15 upgrade.
+    - question: "When in the next network upgrade supposed to happen?"
+      answer:
+        - |
+          Next scheduled upgrade will take place on May 15, 2019.
