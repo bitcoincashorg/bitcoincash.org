@@ -369,7 +369,7 @@ network-upgrade:
   changes:
     title: 'The two most exciting changes of the upgrade are CTOR and OP_CHECKDATASIGVERIFY:'
     text: 'CTOR which is part of the comprehensive technical roadmap allows for faster transaction ordering and block propagation. This feature helps scale Bitcoin Cash for the world.<br>
-          OP_CHECKDATASIGVERIFY which is also part of the roadmap, is a feature that allows a transaction to verify that it has been supplied with a valid signature and message. This will enable new applications to be built on the Bitcoin Cash network that weren’t possible before. Please see op_checkdatasig.md for additional details.'
+          OP_CHECKDATASIGVERIFY which is also part of the roadmap, is a feature that allows a transaction to verify that it has been supplied with a valid signature and message. This will enable new applications to be built on the Bitcoin Cash network that weren’t possible before. Please see <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md" target="_blank">op_checkdatasig.md</a> for additional details.'
   faq-title: 'Frequently Asked Questions'
   faq:
     - question: "When was the upgrade completed?"
