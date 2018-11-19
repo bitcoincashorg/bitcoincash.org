@@ -192,7 +192,7 @@ network-upgrade:
       - |
         移除了拓扑交易顺序限制，使用典范交易顺序（又称 “CTOR”)
       - |
-        启用OP_CHECKDATASIG和OP_CHECKDATASIGVERIFY（又称“DSV”）操作码
+        启用OP_CHECKDATASIG和OP_CHECKDATASIGVERIFY 操作码
       - |
         启用最小交易限额
       - |
@@ -202,9 +202,9 @@ network-upgrade:
       - |
         对未来的升级的自动重播保护
   changes:
-    title: '其中，两项最令人激动的升级是CTOR和DSV:'
+    title: '其中，两项最令人激动的升级是CTOR和OP_CHECKDATASIGVERIFY:'
     text: 'CTOR是全面技术蓝图的一部分，其允许了更快交易以及区块传播。这一特性帮助比特币现金全球性规模化。<br>
-          DSV也是蓝图的一部分，它允许交易校验有效签名和讯息是否被提供。这使得之前无法修建在比特币现金网络的应用可以被修建了。更多讯息请看op_checkdatasig.md。'
+          OP_CHECKDATASIGVERIFY也是蓝图的一部分，它允许交易校验有效签名和讯息是否被提供。这使得之前无法修建在比特币现金网络的应用可以被修建了。更多讯息请看op_checkdatasig.md。'
   faq-title: '常见问题'
   faq:
     - question: "升级是何时完成的？"
