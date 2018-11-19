@@ -357,7 +357,7 @@ network-upgrade:
       - |
         Remove topological transaction order constraint, and enforce canonical transaction order (also called “CTOR”)
       - |
-        Enable OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY (also called “DSV”) opcodes
+        Enable OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY opcodes
       - |
         Enforce minimum transaction size
       - |
@@ -367,9 +367,9 @@ network-upgrade:
       - |
         Automatic replay protection for future upgrades
   changes:
-    title: 'The two most exciting changes of the upgrade are CTOR and DSV:'
+    title: 'The two most exciting changes of the upgrade are CTOR and OP_CHECKDATASIGVERIFY:'
     text: 'CTOR which is part of the comprehensive technical roadmap allows for faster transaction ordering and block propagation. This feature helps scale Bitcoin Cash for the world.<br>
-          DSV which is also part of the roadmap, is a feature that allows a transaction to verify that it has been supplied with a valid signature and message. This will enable new applications to be built on the Bitcoin Cash network that weren’t possible before. Please see op_checkdatasig.md for additional details.'
+          OP_CHECKDATASIGVERIFY which is also part of the roadmap, is a feature that allows a transaction to verify that it has been supplied with a valid signature and message. This will enable new applications to be built on the Bitcoin Cash network that weren’t possible before. Please see op_checkdatasig.md for additional details.'
   faq-title: 'Frequently Asked Questions'
   faq:
     - question: "When was the upgrade completed?"
