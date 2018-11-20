@@ -350,7 +350,7 @@ content:
 network-upgrade:
   title: 'Network Upgrade'
   subtitle: 'Bitcoin Cash Planned Network Upgrade Is Complete'
-  section-title: 'On November 15 2018, the Bitcoin Cash (BCH) network successfully upgraded as part of the planned feature changes outlined in the November Upgrade Spec.'
+  section-title: 'On November 15 2018, the Bitcoin Cash (BCH) network successfully upgraded as part of the planned feature changes outlined in the <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md" target="_blank">November Upgrade Specification</a>.'
   highlights:
     title: 'Here are some of the highlights from the upgrade:'
     list:
