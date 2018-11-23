@@ -22,7 +22,6 @@ title:
   specs: "Specs - Bitcoin Cash"
   learn: "Learn - Bitcoin Cash"
   404: "404 Page Not Found - Bitcoin Cash"
-
 meta:
   index:
     description: |
@@ -146,7 +145,7 @@ workgroups:
       description: "Defining a specification for how Bitcoin Cash node implementations will execute hardforks on a regular basis."
     wg-malfix:
       title: "Malleability Fixes"
-      description: "Fixes to transaction malleability to enable various other technologies on top of the Bitcoin Cash blockcahin."
+      description: "Fixes to transaction malleability to enable various other technologies on top of the Bitcoin Cash blockchain."
     wg-opcodes:
       title: "Op Codes"
       description: "Proposing the re-enablement of various opcodes and creating well-defined specifications for the behavior and roll-out of each op-code."
