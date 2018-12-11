@@ -835,6 +835,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav > li ion-icon {
   color:#fff;
+  float: left;
+  margin-right: 3px;
+}
+
+.navbar-fixed-top .navbar-nav > li ion-icon {
+  color:rgba(0,0,0,0.5) !important;
 }
 
 .navbar-nav > li > .dropdown__trigger {
