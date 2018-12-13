@@ -1,6 +1,7 @@
 ---
 layout: specification
 title: Restore disabled script opcodes, May 2018
+category: spec
 date: 2018-04-05
 activation: 1526400000
 version: 0.4

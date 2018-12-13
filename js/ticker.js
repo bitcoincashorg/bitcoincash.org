@@ -16,7 +16,7 @@ ticker = function(currencies) {
     timeout: 6000,
     error: function (x, t, m) {
       if ($('#ticker_value').html() === 'Loading...') {
-        $('#ticker_value').html("N/A");
+        $("#ticker_value").html("<div class='currency'>API data not found</div>");
       }
     },
     success: function (currencyRates) {
@@ -27,10 +27,10 @@ ticker = function(currencies) {
         if (sym === undefined) {
           sym = "";
         }
-        output.push("BCH/" + currency + "&nbsp;" + sym + price);
+        output.push("<div class='currency'>"  + sym + price + " <span class='country'>" + currency + "</span></div>");
       });
 
-      $('#ticker_value').html(output.join(" &bull; "));
+      $('#ticker_value').html(output);
     }
   }).done(function () {
     setTimeout(function(){ ticker(ticker_currencies); }, 10000);
@@ -40,3 +40,4 @@ ticker = function(currencies) {
 }
 
 ticker(ticker_currencies);
+
