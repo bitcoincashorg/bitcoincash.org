@@ -57,6 +57,7 @@ languages:
   - ru
   - es
   - tr
+  - id
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 
