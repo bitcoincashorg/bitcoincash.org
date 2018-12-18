@@ -38,7 +38,7 @@ Transactions shall be considered invalid if an opcode with number greater than 9
 
 ## Clean Stack
 
-For a transaction to be valid, only a single non-zero item must remaing on the stack upon completion of Script evaluation. If any extra data elements remain on the stack, the script evaluates to false. This is the same as Bitcoin BIP 62 rule #6 [4].
+For a transaction to be valid, only a single non-zero item must remain on the stack upon completion of Script evaluation. If any extra data elements remain on the stack, the script evaluates to false. This is the same as Bitcoin BIP 62 rule #6 [4].
 
 ## Automatic Replay Protection
 
