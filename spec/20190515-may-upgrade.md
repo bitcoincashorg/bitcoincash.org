@@ -6,6 +6,8 @@ activation: 1557921600
 version: 0.1 DRAFT SUBJECT TO CHANGE
 ---
 
+**Important: This document is an in-progress draft, and likely to change prior to the 2019-05-15 upgrade**
+
 ## Summary
 
 When the median time past [1] of the most recent 11 blocks (MTP-11) is greater than or equal to UNIX timestamp 1557921600, Bitcoin Cash will execute an upgrade of the network consensus rules according to this specification. Starting from the next block these consensus rules changes will take effect:
