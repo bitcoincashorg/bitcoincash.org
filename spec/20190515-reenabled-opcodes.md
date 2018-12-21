@@ -6,6 +6,8 @@ version: 1.0
 updated: 2018-08-13
 ---
 
+**Important: This document is an in-progress draft, and likely to change prior to the 2019-05-15 upgrade**
+
 # Introduction
 
 In May 2018 several disabled opcodes were reintroduced to the Bitcoin Cash scripting engine2. The scope of that change was limited in order to focus developer attention rather than attempting to reintroduce all of the disabled opcodes at once. This specification expands upon that change by reintroducing additional opcodes.
