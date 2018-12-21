@@ -1847,6 +1847,22 @@ p strong {
 #about-section h2 {
   margin-top:1em;
 }
+
+#roadmap {
+  padding:3em 0 2em;
+  background:url(../img/roadmap-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+  margin-bottom:3em;
+}
+
+#roadmap h4 {
+  font-size:22px;
+}
+
 #connect {
   background: #eee; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #eee, #f9f9f9); /* Chrome 10-25, Safari 5.1-6 */
@@ -2068,9 +2084,11 @@ ul:not([class*='menu']) li > a:hover {
 ol {
   list-style-position: outside;
   list-style-type: decimal;
+  margin-bottom:1em;
+  margin-left:30px;
 }
 ol li:not(:last-child) {
-  margin-bottom: 1.85714286em;
+  margin-bottom: 0;
 }
 ol.lead li:not(:last-child) {
   margin-bottom: 1.26315789473684em;
