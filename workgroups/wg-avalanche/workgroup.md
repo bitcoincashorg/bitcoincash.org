@@ -5,7 +5,11 @@ group: workgroup
 workgroup: wg-avalanche
 ---
 
-Workgroup to evaluate Avalanche as a possible option to use for pre-consensus and post-consensus.
+Workgroup to progress specifications and implementations of Avalanche for pre-consensus and post-consensus.
+
+# Agenda
+
+See [Agenda](agenda.md)
 
 # Communication
 
@@ -16,5 +20,10 @@ Workgroup to evaluate Avalanche as a possible option to use for pre-consensus an
  * Chairperson: Antony Zegers
 
 # Interested Parties
+
+ * Amaury Sechet
+ * Chris Pacia
+ * Tyler Smith
+ * Andrea Suisani
 
 {% include sub-list.html group='avalanche' %}
