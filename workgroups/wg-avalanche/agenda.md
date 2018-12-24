@@ -13,6 +13,8 @@ References
 
 Avalanche Paper: https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV
 
+Introductory explainer video by Decentralized Thought: https://youtu.be/3TAgLJHTYRg
+
 Chris Pacia article on Avalanche for pre-consensus: https://medium.com/@chrispacia/avalanche-pre-consensus-making-zeroconf-secure-ddedec254339
 
 Antony Zegers article on Avalanche for post-consensus: https://medium.com/@Mengerian/avalanche-post-consensus-making-bitcoin-cash-indestructible-2464b1ae0382
