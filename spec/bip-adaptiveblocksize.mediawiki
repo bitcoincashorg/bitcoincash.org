@@ -6,6 +6,7 @@
   Status: WIP
   Type: Standards Track
   Created: 2018-10-21
+  Latest edit: 2018-12-24
 </pre>
 
 
@@ -14,19 +15,13 @@
 
 We propose a dynamic limit to the block size based on the the **largest** number out of the following: 
 
-1. Median block size over the last 12,960 blocks (about three months) multiplied by 10 and calculated when a block is connected to the blockchain.
+1. Median block size over the last 12,959 blocks (target 90 days at average 10 minute blocks) multiplied by 10 and calculated when a block is connected to the blockchain.
 
-2. Median block size over the last 52,560 blocks (about one year) multiplied by 10 and calculated when a block is connected to the blockchain.
+2. Median block size over the last 52,559 blocks (target 365 days at average 10 minute blocks) multiplied by 10 and calculated when a block is connected to the blockchain.
 
-3. 32,000,000 bytes (32MB).
-
-Aside from the largest of the above, the limit shall also have a static upper bound at 10,000,000,000,000 bytes (10TB). 
-
+3. Pre-activation consensus maximum blocksize limit, currently (2018-12-25) at 32,000,000 bytes (32MB).
 
 ==Motivation==
-
-
-The purpose of this consensus rule change is to allow the maximum block size to increase based on actual network usage, and have a slower safety fallback if usage drops. A block size limit prevents denial of service attacks, network partition and frequent reorganizations favoring large miners regardless of node investment on the Bitcoin network; however a fixed limit does not allow the capacity of the network to increase as advancements in scaling are realized, while increases via voting or regular hardforks are prone to political pressure and hence suboptimal.  By adjusting the limit based on the sizes of blocks in the recent past, the throughput of the network can adjust to changes in user demand and scaling related technology advancements, leaving ample room for spikes in usage, while still being protected from short term denial of service attacks via very large blocks.
 
 
 This is a chain-based signaling mechanism that will allow miners to have certainty that the blocks they build will be accepted by the rest of the network. If wished, a majority of miners will be able to affect the limit whether upwards or downwards, with a cost over a window of time. With this BUIP in place, future hard forks related to block size should be unnecessary.
@@ -37,17 +32,20 @@ Please note that this proposal DOES NOT propose a [[https://gist.github.com/gavi
 
 ==Specification==
 
-* This is implemented as a hard fork using a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes.
+* This can be implemented two ways: As a hard fork using either a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes, or as a BIP-135 voting result (see [[https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki|BIP135]] and [[https://github.com/BitcoinUnlimited/BUIP/blob/master/098.mediawiki|the corresponding BUIP]].
 
-** The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
-** Using a pre-sorted list of the last 12,960 blocks' and 52,560 blocks' sizes (about three months and one year of blocks respectively)
-** each median * 10 (10 is the growth multiplier), the larger number is the new maximum block size consensus.
-** If the larger median is less than 32,000,000 bytes, then 32,000,000 bytes is used as the maximum block size until next calculation. Note: the current maximum block size consensus rule is 32,000,000 bytes. 
-** If the larger median is higher than 10,000,000,000,000 bytes (10TB), 10TB is used as the maximum block size until next calculation.
+** For either method, after the activation time the nodes will first enter a "transition period" of 12,959 blocks; during this period, the maximum blocksize remains at the pre-activation consensus limit (currently 32,000,000 bytes), but nodes both archival and pruned will record the size of each new block. 
+** After 12,961 blocks have passed since activation, maximum blocksize limit can be calculated for all nodes using median of the past 12,961 blocksizes and the pre-activation limit(see below). The network enters a "second transtion" that lasts 36,900 blocks, after which maximum blocksize can be calculated using all three criteria that now includes median blocksize of last 52,559 blocks.
+
+* The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
+
+** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively). If the latter is not available in the second transition period of the flag-date activation method, use only median of the past 12961 blocks.
+** The larger of the two medians * 10 (10 is the growth multiplier) is the new maximum block size consensus.
+** If the larger median is less than 32,000,000 bytes (or pre-activation maximum blocksize limit) or the network is in the first transition period, then 32,000,000 bytes is used as the maximum block size until next calculation. 
 
 
 ===Activation===
-Activation: By flag time, as specified above.
+Activation: By flag time or BIP135 voting, as specified above.
 
 Fully validating older clients are not compatible with this change. The first block exceeding the old limits on block size will partition older clients off the new network.
 
@@ -73,7 +71,7 @@ If a severe and immediate vulnerability is discovered for larger blocks and cann
 
 ===Asymmetric Increase/Decrease Mechanism===
 
-Under this BIP, by design the limit is harder to decrease than increase, with decreases happening over a longer time period than increases. The Bitcoin Cash community has been known to focused on relentless growth, including aggressively preparing for future capacity only bounded by network robustness concerns, and this mechanism reflects that. Network capacities that have been reached and deemed safe in the past are unlikely to become unsafe in the future, partly due to ever-falling price per unit capacity of computer hardware, and partly because participants who has invested in higher capacities are likely to inertially retain it in anticipation of returning volume even if there is a short term or seasonal fall in usage.
+Under this BIP, by design the limit is harder to decrease than increase, with decreases happening over a longer time period than increases. The Bitcoin Cash community has been known to focused on relentless growth, including aggressively preparing for future capacity only bounded by network robustness concerns, and this mechanism reflects that. Network capacities that have been reached and deemed safe in the past are unlikely to become unsafe in the future, partly due to ever-falling price per unit capacity of computer hardware, and partly because participants who has invested in higher capacity are likely to inertially retain it in anticipation of returning volume even if there is a short term or seasonal fall in usage.
 
 ===Choice of parameters===
 
@@ -87,18 +85,51 @@ Under this BIP, by design the limit is harder to decrease than increase, with de
 ===Fastest Growth Scenarios===
 The maximum rate of growth is capped at the growth multiplier, which is 10. So, the fastest the limit can increase is if every block is mined to capacity continuously over time. In this case, the absolute fastest growth rate is a 10x of maximum block size every 6480 blocks (45 days). While this is a really aggressive pace of growth, it only happens when 100% of the miners participate, and decreases in speed as less miners participate.
 
-
 ===Mining Ramifications===
 We don’t expect this consensus rule change to impact miners who choose to mine from block headers before the full block is transferred, validated and connected to the active chain. The same behavior will be observed before and after this change. Since this consensus rule will be calculated as a precondition to ConnectBlock(), the maximum block size rule for the next block will not be known until after the last block is connected to the main chain.
 
 Since the limit moves slowly and is kept at a high multiplier above median usage, miners who wish to not accidentally exceed current limits should have ample room to safely add large number of transactions to their block - simply prepare a block targeting the limit as if the next incoming block will be empty.
 
-Should the growth rate of the block size limit exceed the actual capacity of the Bitcoin Cash network, there should be an increase in the number of empty blocks as a result of SPV mining.  The effect of which would be to reduce the median block size and therefore reduce the block size limit.  To the extent miners engage in SPV mining, it should have an automatic, self correcting effect on the block size limit.
+Should the growth rate of the block size limit greatly exceed the actual fee-paying volume of the Bitcoin Cash network, there should be an increase in the number of smaller blocks to reduce orphan rates, and in extreme cases empty blocks as a result of SPV mining.  The effect of which would be to reduce the median block size and therefore reduce the block size limit.  To the extent miners engage in restricting transactions included and SPV mining, it should have an automatic, self correcting effect on the block size limit.
 
-===Implications for hardware investments of node operators===
-There have been comments about whether to significantly shorten the increase timeframe, so that extraordinary spikes in usage can be better accomodated. 
+===Choice of Long Adjustment timeframes and Larger Multiplier===
+There have been comments about whether to significantly shorten the increase timeframe and reduce multiplier, so that extraordinary spikes in usage can be better accomodated. 
 
-One of the desirable properties of an adaptive system is predictability: that node operators, both mining and economic, can anticipate increased maximum throughput of the network and plan their hardware deployment as well as mining strategies accordingly ahead of time. It is not essential that the network accomodate operators that cannot keep up when more network capacity is needed; however, it is very beneficial for any operators, even those who can keep pace, to know ahead what to deploy and how much to invest. With a 90 days median cycle and a maximum 45 days - 10X increase, we allow them a comfortable window of predicatability. A much shorter timeframe removes this predictability, resulting in uncertainty both in investment and network health.
+One of the desirable properties of an adaptive system is predictability: that node operators, both mining and economic, can anticipate increased maximum throughput of the network and plan their hardware deployment as well as mining strategies accordingly ahead of time. It is not essential that the network accomodate operators that cannot keep up when more network capacity is needed; however, it is very beneficial for any operators, even those who can keep pace, to know ahead what to deploy and how much to invest. With a 90 days median cycle and a maximum 45 days - 10X increase, we allow them a comfortable window of predictability. 
+
+A much shorter timeframe removes this predictability, resulting in uncertainty both in investment and network health. Even at a very conservative multiplier of 2x, which will result in frequent full blocks and a less predictable user experience where confirmations are needed, a short timeframe - say, 48 blocks - can result in a worst-case 64 times increase in blocksize limit over a single day. This would open node operators and businesses to many types of denial of service problems without clear indicators on how much hardware and software they should invest in, making attack scenarios that require softforks more difficult to handle, while still offering inferior experience to users in non-attack scenarios with normal fluctuation. 
+
+Within a reasonable range, the author will recommend using a long adjustment period and large multiplier to accomodate spikes in usage, rather than a short adjustment period paired with small multiplier.
+
+==Example Psuedocode==
+
+```#!/usr/bin/env python3
+
+SHORT_MEDIAN_WINDOW = 12959
+LONG_MEDIAN_WINDOW  = 52559
+MIN_BLOCK_SIZE      = 32000000
+
+def median(values):
+    """ Calculate approximate median of integer values.
+    """
+    # only allow odd number of values!
+    assert len(values)%2 == 1
+    return sorted(values)[(len(values) - 1) // 2]
+
+def allowed_blocksize(past_blocksizes):
+    """Calculate allowed size for incoming block at height h, given
+    past_blocksizes, an array of integers holding the past block sizes with
+    blocksizes[-1] being the block size of the current chain tip, that is the
+    block at height (h-1)
+    """
+    if len(past_blocksizes) < LONG_MEDIAN_WINDOW:
+        return MIN_BLOCK_SIZE
+    median_30d = median(past_blocksizes[-SHORT_MEDIAN_WINDOW:])
+    median_365d = median(past_blocksizes[-LONG_MEDIAN_WINDOW:])
+    
+    return max(median_30d,
+               median_365d,
+               MIN_BLOCK_SIZE)```
 
 ===FAQ===
 
@@ -118,6 +149,8 @@ One of the desirable properties of an adaptive system is predictability: that no
 ## It doesn't. This proposal does not address other block limitations because we believe they should have independent limits. It can be debated whether they should have an adaptive limit mechanism as well. 
 # What if an extraordinarily pressing need to increase blocksize was in place that cannot be adequately addressed by simply mining full blocks that raises maxblocksize every 45 days?
 ## Just like status quo, an extraordinary situation can be addressed by a hard fork. Given the relative ease to do it via adaptive blocksize versus a hardfork that can raise controversy, though, we expect almost all needs to not require a hardfork.
+# Is this proposal compatible with various propose UTXO commitment / fast sync schemes that aim to enable syncing fully verifying nodes without downloading all historical blocks, such as [[https://github.com/tomasvdw/bips/blob/master/BIP-UtxoCommitBucket.mediawiki|this]] ? 
+## This proposal adds additional requirements for any fast-sync schemes: in additional to hash of the UTXO, blocksizes need to be committed and verified as well. Fast-syncing clients should download blocksize commitments and use them to determine consensus maximum blocksize limit for new blocks. 
 
 ==Prior Implementation for Reference==
 https://github.com/bitpay/bitcoin/tree/adaptive-block-size
