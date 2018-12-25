@@ -35,11 +35,11 @@ Please note that this proposal DOES NOT propose a [[https://gist.github.com/gavi
 * This can be implemented two ways: As a hard fork using either a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes, or as a BIP-135 voting result (see [[https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki|BIP135]] and [[https://github.com/BitcoinUnlimited/BUIP/blob/master/098.mediawiki|the corresponding BUIP]].
 
 ** For either method, after the activation time the nodes will first enter a "transition period" of 12,959 blocks; during this period, the maximum blocksize remains at the pre-activation consensus limit (currently 32,000,000 bytes), but nodes both archival and pruned will record the size of each new block. 
-** After 12,961 blocks have passed since activation, maximum blocksize limit can be calculated for all nodes using median of the past 12,961 blocksizes and the pre-activation limit(see below). The network enters a "second transtion" that lasts 36,900 blocks, after which maximum blocksize can be calculated using all three criteria that now includes median blocksize of last 52,559 blocks.
+** After 12,959 blocks have passed since activation, maximum blocksize limit can be calculated for all nodes using median of the past 12,959 blocksizes and the pre-activation limit(see below). The network enters a "second transtion" that lasts 36,900 blocks, after which maximum blocksize can be calculated using all three criteria that now includes median blocksize of last 52,559 blocks.
 
 * The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
 
-** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively). If the latter is not available in the second transition period of the flag-date activation method, use only median of the past 12961 blocks.
+** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively). If the latter is not available in the second transition period of the flag-date activation method, use only median of the past 12,959 blocks.
 ** The larger of the two medians * 10 (10 is the growth multiplier) is the new maximum block size consensus.
 ** If the larger median is less than 32,000,000 bytes (or pre-activation maximum blocksize limit) or the network is in the first transition period, then 32,000,000 bytes is used as the maximum block size until next calculation. 
 
