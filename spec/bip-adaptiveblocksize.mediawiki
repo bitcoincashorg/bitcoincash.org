@@ -13,7 +13,7 @@
 ==Abstract==
 
 
-We propose a dynamic limit to the block size based on the the **largest** number out of the following: 
+We propose a dynamic limit to the block size based on the the '''largest''' number out of the following: 
 
 1. Median block size over the last 12,959 blocks (target 90 days at average 10 minute blocks) multiplied by 10 and calculated when a block is connected to the blockchain.
 
@@ -35,13 +35,13 @@ Please note that this proposal DOES NOT propose a [[https://gist.github.com/gavi
 * This can be implemented two ways: As a hard fork using either a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes, or as a BIP-135 voting result (see [[https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki|BIP135]] and [[https://github.com/BitcoinUnlimited/BUIP/blob/master/098.mediawiki|the corresponding BUIP]].
 
 ** For either method, after the activation time the nodes will first enter a "transition period" of 12,959 blocks; during this period, the maximum blocksize remains at the pre-activation consensus limit (currently 32,000,000 bytes), but nodes both archival and pruned will record the size of each new block. 
-** After 12,959 blocks have passed since activation, maximum blocksize limit can be calculated for all nodes using median of the past 12,959 blocksizes and the pre-activation limit(see below). The network enters a "second transtion" that lasts 36,900 blocks, after which maximum blocksize can be calculated using all three criteria that now includes median blocksize of last 52,559 blocks.
+** After 12,959 blocks have passed since activation, maximum blocksize limit can be calculated for all nodes using median of the past 12,959 blocksizes and the pre-activation limit (see below). The network enters a "second transtion" that lasts 36,900 blocks, after which maximum blocksize can be calculated using all three criteria that now includes median blocksize of last 52,559 blocks.
 
 * The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
 
 ** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively). If the latter is not available in the second transition period of the flag-date activation method, use only median of the past 12,959 blocks.
 ** The larger of the two medians * 10 (10 is the growth multiplier) is the new maximum block size consensus.
-** If the larger median is less than 32,000,000 bytes (or pre-activation maximum blocksize limit) or the network is in the first transition period, then 32,000,000 bytes is used as the maximum block size until next calculation. 
+** If the larger median times 10 is less than 32,000,000 bytes (or pre-activation maximum blocksize limit) or the network is in the first transition period, then 32,000,000 bytes is used as the maximum block size until next calculation. 
 
 
 ===Activation===
@@ -61,9 +61,9 @@ Choosing the median block size versus using an arithmetic mean is an important d
 
 We expect miners to optimize their actual mined blocksizes by weighing transaction fees from broadcasted transactions against orphan risk of larger blocks (see [[https://www.bitcoinunlimited.info/resources/feemarket.pdf | analysis]]). In the cases where the allowances of this BIP proves to be inadequate and miners collectively wish to increase or decrease blocksize limit beyond normal usage (for example, to either grow in anticipation of a large incoming usecase, or to stave off a newly discovered rare attack at the edge of the blocksize limit: 
 
-** If >51% of miners wish to increase blocksize limit, they can fill their blocks with transactions to themselves over 1/10th of their desired limit, and sustain it over a period of 3 months. This will incur a cost in orphaning risk versus their peers who do not hold such desires. 
+* If >51% of miners wish to increase blocksize limit, they can fill their blocks with transactions to themselves over 1/10th of their desired limit, and sustain it over a period of 3 months. This will incur a cost in orphaning risk versus their peers who do not hold such desires. 
 
-** If >51% of miners wish to decrease blocksize limit, they can restrict their mined blocksize to below 1/10th the desired limit, and sustain it over a period of one year. This will incur a cost in giving up transaction fees.
+* If >51% of miners wish to decrease blocksize limit, they can restrict their mined blocksize to below 1/10th the desired limit, and sustain it over a period of one year. This will incur a cost in giving up transaction fees.
 
 These adjustments, tempered by their associated costs and the rolling adjustment window, are not considered "attacks" and should be regarded as miners rationally choosing to intervene for their investments, should they be employed. 
 
@@ -75,11 +75,11 @@ Under this BIP, by design the limit is harder to decrease than increase, with de
 
 ===Choice of parameters===
 
-**The multiplier 10 is chosen to accomodate short spikes in commercial usage: It is a comfortable margin above ~3.5X increase in e-commerce volume on [[https://techcrunch.com/2017/11/24/black-friday-deals-net-640m-in-sales-so-far-mobile-60-of-all-traffic/ | Black Friday]] over [[https://www.digitalcommerce360.com/article/us-ecommerce-sales/ | yearly numbers]].
+* The multiplier 10 is chosen to accomodate short spikes in commercial usage: It is a comfortable margin above ~3.5X increase in e-commerce volume on [[https://techcrunch.com/2017/11/24/black-friday-deals-net-640m-in-sales-so-far-mobile-60-of-all-traffic/ | Black Friday]] over [[https://www.digitalcommerce360.com/article/us-ecommerce-sales/ | yearly numbers]].
 
-**The 3-month increase window is chosen as a middle ground to both deter short term manipulation (a 51% short term miner have to sustain ove a full quarter) and allow reasonable response to buildup across a single shopping season (two months in western countries).
+* The 3-month increase window is chosen as a middle ground to both deter short term manipulation (a 51% short term miner have to sustain ove a full quarter) and allow reasonable response to buildup across a single shopping season (two months in western countries).
 
-**The one-year decrease window reflects the desire to only reasonable decrease limit if overall usage decreased year-over-year, which are less subject to seasonal fluctuations.
+* The one-year decrease window reflects the desire to only reasonable decrease limit if overall usage decreased year-over-year, which are less subject to seasonal fluctuations. 
 
 
 ===Fastest Growth Scenarios===
@@ -102,34 +102,32 @@ A much shorter timeframe removes this predictability, resulting in uncertainty b
 Within a reasonable range, the author will recommend using a long adjustment period and large multiplier to accomodate spikes in usage, rather than a short adjustment period paired with small multiplier.
 
 ==Example Psuedocode==
-
-```#!/usr/bin/env python3
-
-SHORT_MEDIAN_WINDOW = 12959
-LONG_MEDIAN_WINDOW  = 52559
-MIN_BLOCK_SIZE      = 32000000
-
-def median(values):
-    """ Calculate approximate median of integer values.
-    """
-    # only allow odd number of values!
-    assert len(values)%2 == 1
-    return sorted(values)[(len(values) - 1) // 2]
-
-def allowed_blocksize(past_blocksizes):
-    """Calculate allowed size for incoming block at height h, given
-    past_blocksizes, an array of integers holding the past block sizes with
-    blocksizes[-1] being the block size of the current chain tip, that is the
-    block at height (h-1)
-    """
-    if len(past_blocksizes) < LONG_MEDIAN_WINDOW:
-        return MIN_BLOCK_SIZE
-    median_30d = median(past_blocksizes[-SHORT_MEDIAN_WINDOW:])
-    median_365d = median(past_blocksizes[-LONG_MEDIAN_WINDOW:])
+ 
+ SHORT_MEDIAN_WINDOW = 12959
+ LONG_MEDIAN_WINDOW  = 52559 
+ MIN_BLOCK_SIZE = 32000000
+ 
+ def median(values):
+     """ Calculate approximate median of integer values.
+     """
+     # only allow odd number of values!
+     assert len(values)%2 == 1
+     return sorted(values)[(len(values) - 1) // 2]
+ 
+ def allowed_blocksize(past_blocksizes):
+     """Calculate allowed size for incoming block at height h, given
+     past_blocksizes, an array of integers holding the past block sizes with
+     blocksizes[-1] being the block size of the current chain tip, that is the
+     block at height (h-1)
+     """
+     if len(past_blocksizes) < SHORT_MEDIAN_WINDOW:
+         return MIN_BLOCK_SIZE
+     median_30d = median(past_blocksizes[-SHORT_MEDIAN_WINDOW:])
+     median_365d = median(past_blocksizes[-LONG_MEDIAN_WINDOW:])
     
-    return max(median_30d,
-               median_365d,
-               MIN_BLOCK_SIZE)```
+     return max(median_30d,
+                median_365d,
+                MIN_BLOCK_SIZE)</nowiki>
 
 ===FAQ===
 
