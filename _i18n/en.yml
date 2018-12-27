@@ -411,7 +411,7 @@ downloadwallet:
   bitcoindotcom: "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly. "
   handcash: "What is more peer to peer than just handing cash in person? No addresses, no third parties needed. The wallet has made that process digital by using Bitcoin Cash as the basis of the ecosystem of products. "
   yenom: "Yenom is a simple, beginner friendly Bitcoin Cash only wallet. Great for family or friends using Bitcoin Cash for the first time! It’s the simplest way to send or receive Bitcoin Cash. Anyone can easily give it a try using Yenom."
-  electron: "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electrum is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients. "
+  electron: "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients. "
 buyorearn:
   title: "Buy or Earn Bitcoin Cash"
   subtitle: "How do I get Bitcoin Cash?"
