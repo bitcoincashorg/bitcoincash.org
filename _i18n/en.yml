@@ -463,6 +463,6 @@ acceptbch:
   wordpress: "Enable Bitcoin Cash on Wordpress"
   wordpress_excerpt: "Accept Bitcoin Cash donations for content creation or integrate into your Wordpress enabled ecommerce platform."
   pos: "Point Of Sales"
-  pos_excerpt: "Try one of the many Bitcoin Cash Point Of Sales (POS) to accept Bitcoin Cash in your store."
+  pos_excerpt: "Try one of the many Point Of Sale (POS) systems to accept Bitcoin Cash in your store."
   donations: "Accept Donations or Tips"
   donations_excerpt: "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations."
