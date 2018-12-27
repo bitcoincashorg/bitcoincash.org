@@ -404,7 +404,7 @@ downloadwallet:
   bitcoindotcom: "A carteira digital Bitcoin.com é uma forma simples e segura de enviar e receber Bitcoin. Ela é compatível com Bitcoin Cash (BCH) e Bitcoin Core (BTC), permitindo que os usuários alternem facilmente entre as duas moedas."
   handcash: "Existe algo mais \"de pessoa para pessoa\" do que simplesmente entregar o dinheiro pessoalmente? Nada de endereços nem intermediários. Esta carteira digitalizou esse processo usando o Bitcoin Cash como base do ecossistema de produtos."
   yenom: "A Yenom é uma carteira digital exclusiva para Bitcoin Cash e recomendada para iniciantes. Ela é uma excelente opção para familiares ou amigos que estão usando Bitcoin pela primeira vez. Não existe maneira mais simples de enviar ou receber Bitcoin. Qualquer pessoa pode usar a Yenom!"
-  electron: "Suas chaves privadas são criptografadas e nunca saem do seu computador. Seus valores podem ser recuperados por meio de uma frase secreta. A Electrum é rápida porque usa servidores que indexam a blockchain do Bitcoin. Você pode exportar suas chaves privadas e usá-las em outros clientes de Bitcoin."
+  electron: "Suas chaves privadas são criptografadas e nunca saem do seu computador. Seus valores podem ser recuperados por meio de uma frase secreta. A Electron Cash é rápida porque usa servidores que indexam a blockchain do Bitcoin. Você pode exportar suas chaves privadas e usá-las em outros clientes de Bitcoin."
 buyorearn:
   title: "Comprar ou ganhar Bitcoin Cash"
   subtitle: "Como faço para receber Bitcoin Cash?"

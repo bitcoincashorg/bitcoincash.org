@@ -403,7 +403,7 @@ downloadwallet:
   bitcoindotcom: "Commencez à utiliser le portefeuille Bitcoin.com pour envoyer et recevoir des Bitcoin facilement et en toute sécurité. Le portefeuille prend à la fois en charge Bitcoin Cash (BCH) et Bitcoin Core (BTC), ce qui permet aux utilisateurs de procéder facilement à des échanges entre ces deux monnaies."
   handcash: "Quoi de plus « pair-à-pair » que d'échanger de l'argent en personne ? Aucune adresse ni aucun tiers de confiance requis. Grâce à Bitcoin Cash, qui constitue la base de l'écosystème de produits, le portefeuille gère désormais ce processus de façon numérique."
   yenom: "Yenom est un portefeuille facile à utiliser pour les débutants et réservé exclusivement à Bitcoin Cash. C'est le portefeuille idéal pour vos amis ou vos proches qui utilisent Bitcoin Cash pour la première fois. Yenom reste le moyen le plus simple d'envoyer ou de recevoir des Bitcoin Cash. Ce portefeuille est accessible à tous !"
-  electron: "Vos clés privées sont chiffrées et restent toujours sur votre ordinateur. Vos fonds peuvent être récupérés à l'aide d'une phrase secrète. Le portefeuille Electrum est rapide, car il utilise des serveurs qui indexent la blockchain Bitcoin. Vous pouvez exporter vos clés privées et les utiliser avec d'autres clients Bitcoin."
+  electron: "Vos clés privées sont chiffrées et restent toujours sur votre ordinateur. Vos fonds peuvent être récupérés à l'aide d'une phrase secrète. Le portefeuille Electron Cash est rapide, car il utilise des serveurs qui indexent la blockchain Bitcoin. Vous pouvez exporter vos clés privées et les utiliser avec d'autres clients Bitcoin."
 buyorearn:
   title: "Acheter ou gagner des Bitcoin Cash"
   subtitle: "Comment obtenir des Bitcoin Cash ?"
