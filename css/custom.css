@@ -489,3 +489,24 @@ ol {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+#accordion .panel-heading a {
+  color:#4D4D4D;
+  display:block;
+}
+
+#accordion .panel-heading a:hover, #accordion .panel-heading a:focus {
+  text-decoration: none;
+}
+
+#accordion .panel h4 {
+  margin:0;
+  line-height:1.8;
+}
+
+#accordion .panel {
+  padding:1px 0;
+  border:1px solid #ddd;
+  -webkit-box-shadow:0;
+  box-shadow:0;
+}
