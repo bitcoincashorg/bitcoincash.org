@@ -416,9 +416,9 @@ buyorearn:
   title: "Buy or Earn Bitcoin Cash"
   subtitle: "How do I get Bitcoin Cash?"
   excerpt: The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred.
-  firstparagraph: "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash."
+  firstparagraph: "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash. You can do either of these at LocalBitcoinCash's <a href='https://LocalBitcoinCash.org/Shopping/'>Ecommerce Platform</a> and <a href='https://LocalBitcoinCash.org/Work/'>Work Section</a>."
   secondparagraphtitle: "Where can I find Bitcoin Cash locally?"
-  secondparagraph: "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a> about other options, or consider visiting restaurants in your city where you can <a href='../spend-bitcoin-cash'>spend Bitcoin Cash</a> and enquire there."
+  secondparagraph: "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a> about other options, or consider visiting restaurants in your city where you can <a href='../spend-bitcoin-cash'>spend Bitcoin Cash</a> and enquire there. You can also connect with locals in your area who are selling Bitcoin Cash on <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>"
   thirdparagraphtitle: "Can I buy Bitcoin Cash Online?"
   thirdparagraph: "Buying Bitcoin Cash online is the most popular way to receive Bitcoin Cash. Online Exchanges which buy and sell local currency and cryptocurrencies allow you to perform bank transfers to trade for Bitcoin Cash. Some even accept credit card for immediate purchase. As with any online purchase, do your own research and ensure you have a your own wallet. We do not recommend leaving any Bitcoin Cash on exchanges. You should always store your Bitcoin Cash on your own wallet that's been safely backed up."
   sidetitle: "Where can I get Bitcoin Cash?"
@@ -433,19 +433,19 @@ buyorearn:
   buyatm: "Purchase BCH from a Bitcoin Cash ATM"
   buyatm_excerpt: "Many cities across the globe are setup with specialized Bitcoin Cash enabled ATM machines."
   buyinperson: "Buy in Person"
-  buyinperson_excerpt: "Connect with locals in your area who are selling Bitcoin Cash."
+  buyinperson_excerpt: "Connect with locals in your area who are selling Bitcoin Cash on <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>."
   acceptbch: "Accept Bitcoin Cash at your Business "
   acceptbch_excerpt: "Add Bitcoin Cash as a payment method to your store. Sell items online or in person for BCH."
   getpaid: "Ask to be paid in Bitcoin Cash"
-  getpaid_excerpt: "Enquire with your job about being paid in full or partially in Bitcoin Cash."
+  getpaid_excerpt: "Enquire with your job about being paid in full or partially in Bitcoin Cash. Search for suitable work opportunities at <a href='https://LocalBitcoinCash.org/Work/'>LocalBitcoinCash Work Section</a>."
 spendbch:
   title: "Spend Bitcoin Cash"
   subtitle: "What can I buy with Bitcoin Cash?"
   excerpt: Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
-  description: Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
+  description: Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet. In fact, you can <a href='https://LocalBitcoinCash.org/Work/'>hire people to do any type of work</a> for you and pay them with Bitcoin Cash.
   sidetitle: "Where can I spend Bitcoin Cash"
   shoponline: "Shop Online"
-  shoponline_excerpt: "Spend Bitcoin Cash at some of your favourite online retailers."
+  shoponline_excerpt: "Spend Bitcoin Cash at some of your favourite online retailers or <a href='https://LocalBitcoinCash.org/Shopping/'>LocalBitcoinCash Shopping Platform</a>."
   spendatrestaurants: "Spend at Restaurants"
   spendatrestaurants_excerpt: "Visit restaurants or cafes that accept Bitcoin Cash."
   shopinperson: "Shop in Person"
