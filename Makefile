@@ -3,7 +3,7 @@
 # goal of this makefile is to avoid needing to install a ruby toolchain for
 # casual contributors.
 
-PROJECT ?= 
+PROJECT ?=
 PORT ?= 8080
 APP_ENV=dev
 
@@ -28,4 +28,4 @@ run: container
 	docker run -it -p $(PORT):80 $(PROJECT)bitcoincashorg:latest
 
 serve: _config.yml
-	bundler exec jekyll serve &
+	bundle exec jekyll serve &

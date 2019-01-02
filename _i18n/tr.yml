@@ -1,83 +1,225 @@
-language: Türkçe
+language: English
+lang: tr
 title:
   index: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
-  graphics: "Bitcoin Cash - Logos / Graphics"
-  get-listed: "Submit a listing request"
+  graphics: "Logolar / Grafikler - Bitcoin Cash"
+  get-listed: "Listeleme isteği gönder - Bitcoin Cash"
+  gettingstarted: "Başlarken - Bitcoin Cash"
+  starthere: "Buradan Başlayın - Bitcoin Cash"
+  wallets: "Bir cüzdan indirin - Bitcoin Cash"
+  buyorearn: "BCH Satın Alın veya Kazanın - Bitcoin Cash"
+  spendbch: "BCH Harcayın - Bitcoin Cash"
+  acceptbch: "BCH Kabul Edin - Bitcoin Cash"
+  faq: "Sıkça Sorulan Sorular - Bitcoin Cash"
+  nodes: "Ağ Noktaları - Bitcoin Cash"
+  services: "Hizmetler - Bitcoin Cash"
+  projects: "Projeler - Bitcoin Cash"
+  exchanges: "Takas Merkezleri - Bitcoin Cash"
+  developers: "Geliştirici Portalı - Bitcoin Cash"
+  workgroups: "Çalışma Grupları - Bitcoin Cash"
+  tools: "Araçlar - Bitcoin Cash"
+  tech: "Teknoloji - Bitcoin Cash"
+  specs: "Spesifikasyonlar - Bitcoin Cash"
+  learn: "Öğrenin - Bitcoin Cash"
+  404: "404 Sayfa Bulunamadı - Bitcoin Cash"
 meta:
   index:
     description: |
-      Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+      Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
     twitter:
       title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
       description: |
-        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
     og:
       title: "Bitcoin Cash - Kişiler Arası Elektronik Nakit"
       description: |
-        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+        Bitcoin Cash dünyaya sağlam parayı getiriyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
   graphics:
     description: |
-      A collection of logos and graphics for Bitcoin Cash.
+      Bitcoin Cash için logo ve grafik koleksiyonu.
     twitter:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Logolar / Grafikler"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Bitcoin Cash için logo ve grafik koleksiyonu.
     og:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Logolar / Grafikler"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Bitcoin Cash için logo ve grafik koleksiyonu.
 graphics:
-  title: "Promotional Graphics"
-  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-  logos: "Logos"
-  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
-  download_all: "Download All"
-  small: "Small (PNG)"
-  medium: "Medium (PNG)"
-  large: "Large (PNG)"
-  full: "Full (PNG)"
-  vector: "Vector (SVG)"
+  title: "Tanıtım Grafikleri"
+  description: "Bu Bitcoin Cash logoları ve marka varlıkları; çevrimiçi hizmetler, perakende satış kuruluşları, basın veya diğer tanıtım amaçları doğrultusunda kullanılabilir."
+  logos: "Logolar"
+  download_png_svg: "Bitcoin Cash logolarını PNG ve SVG formatında indirin"
+  download_all: "Tümünü İndir"
+  small: "Küçük (PNG)"
+  medium: "Orta (PNG)"
+  large: "Büyük (PNG)"
+  full: "Tam (PNG)"
+  vector: "Vektör (SVG)"
   sections:
-    home: "Home"
-    logos: "Logos"
-    merchant: "Merchant"
-    donations: "Donations"
-    identity: "Identity"
+    donations: "Bağışlar"
+    home: "Ana Sayfa"
+    logos: "Logolar"
+    merchant: "Satıcı"
+    identity: "Kimlik"
   types:
-    primary: "BCH Logo Primary"
-    white: "BCH Logo White Text"
-    mark: "BCH Logo Mark"
-    horizontal_primary: "BCH Logo Horizontal Primary"
-    horizontal_white: "BCH Logo Horizontal White"
-    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+    primary: "BCH Logosu Birincil"
+    white: "BCH Logosu Beyaz Metin"
+    mark: "BCH Logo İşareti"
+    horizontal_primary: "BCH Logosu Yatay Birincil"
+    horizontal_white: "BCH Logosu Yatay Beyaz"
+    wallets_exchanges: "Cüzdanlar / Takas Merkezleri için BCH Logosu"
   merchant:
-    title: "Merchant Buttons"
-    description: "Show your customers that you accept Bitcoin Cash"
+    title: "Satıcı Düğmeleri"
+    description: "Bitcoin Cash'i kabul ettiğinizi müşterilerinize gösterin"
     primary: "Bitcoin Cash Accepted Here Primary"
-    orange: "Bitcoin Cash Accepted Here Orange"
+    orange: "Burada Bitcoin Cash Kabul Edilir Turuncu"
   donation:
-    title: "Donation Buttons"
-    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    title: "Bağış Düğmeleri"
+    description: "Bitcoin Cash'in bağış yöntemi olarak kabulünü teşvik edin."
     primary: "Bitcoin Cash Donations Accepted Primary"
-    orange: "Bitcoin Cash Donations Accepted Orange"
+    orange: "Bitcoin Cash Bağışları Kabul Edilir Turuncu"
   identity:
-    title: "Visual Identity"
-    description: "Bitcoin Cash fonts, colors, and more."
-    font: "Ubuntu Bold"
-    font_italic: "Ubuntu Bold Italic"
-    download: "Download Font"
-    orange: "Bitcoin Cash Orange"
-    grey: "Bitcoin Cash Grey"
-    white: "Bitcoin Cash White"
+    title: "Görsel Kimlik"
+    description: "Bitcoin Cash yazı tipleri, renkleri ve daha fazlası."
+    font: "Ubuntu Kalın"
+    font_italic: "Ubuntu Kalın İtalik"
+    download: "Yazı Tipini İndir"
+    orange: "Bitcoin Cash Turuncu"
+    grey: "Bitcoin Cash Gri"
+    white: "Bitcoin Cash Beyaz"
     hex: "Hex"
     rgb: "RGB"
     cmyk: "CMYK"
     pantone: "Pantone"
+developers:
+  title: "Bitcoin Cash ile harika uygulamalar yaratın"
+  description: "Geliştiriciler için geliştiriciler tarafından sağlanan kaynaklar."
+  sections:
+    home: "Ana Sayfa"
+    getStarted: "Başlangıç"
+    news: "Haberler"
+  getStarted:
+    tech:
+      title: "Teknoloji"
+      description: "Herkes için Açık Teknoloji"
+    learn:
+      title: "Öğren"
+      description: "Bitcoin Cash gelişimini öğrenin"
+    tools:
+      title: "Araçlar"
+      description: "Gerçeğe dönüştürmek için gereken her şey"
+    workgroups:
+      title: "Çalışma Grupları"
+      description: "Topluluk koordinasyonu"
+    specs:
+      title: "Spesifikasyonlar"
+      description: "Bitcoin Cash için ifadeler ve ilişkili API'ler"
+workgroups:
+  title: "BITCOIN CASH ÇALIŞMA GRUPLARI"
+  description: "Toplu olarak çalışan teknik topluluk"
+  sections:
+    workgroups: "Çalışma Grupları"
+    home: "Ana Sayfa"
+  tutorials:
+    title: "öğreticiler"
+    description: "Temelden başlayarak sizi profesyonel uygulamalara taşıyacak adım adım kılavuzlar"
+  workgroups:
+    description: "Aşağıda Bitcoin Cash Gelişimi Çalışma Gruplarının güncel listesi yer almaktadır. Her grup belirli bir konuya odaklanmalıdır. Sınırlı bir süre için veya devamlı olarak mevcut olabilirler."
+    sections:
+      communication: "İletişim"
+      officers: "Yetkililer"
+      parties: "İlgili Taraflar"
+      summaries: "Özetler"
+    wg-daa:
+      title: "Zorluk Ayarlama Algoritması"
+      description: "Zorluk ayarlamaları ve bunları Bitcoin Cash'te uygulamak için en son teknolojiyi araştırmaya ve tartışmaya yönelik çalışma grubu."
+    wg-blocksize:
+      title: "Blok Boyutu Artışları"
+      description: "Bu toplantı, blok boyutunu genişletme ile ilgili tüm konuları tartışmaya yöneliktir."
+    wg-fungibility:
+      title: "Takas Edilebilirlik"
+      description: "Bitcoin Cash ile ilgili daha iyi gizlilik korumalarına ilişkin konular için tartışma çalışma grubu."
+    wg-hardforks:
+      title: "Düzenli Hard Fork Mekanizması"
+      description: "Bitcoin Cash ağ noktası uygulamalarının nasıl düzenli bir şekilde hard fork gerçekleştireceğine ilişkin bir spesifikasyon tanımlamak."
+    wg-malfix:
+      title: "Esneklik Düzeltmeleri"
+      description: "Bitcoin Cash blok zincirinin üstündeki çeşitli teknolojilere olanak tanımak için işlem esnekliğine yönelik düzeltmeler."
+    wg-opcodes:
+      title: "İşlem Kodları"
+      description: "Çeşitli işlem kodlarının yeniden etkinleştirilmesini önermek ve her bir işlem kodunun davranışı ve kullanıma sunulmasına ilişkin iyi tanımlanmış spesifikasyonlar oluşturmak."
+    wg-protocol-spec:
+      title: "Resmi Protokol Spesifikasyonu"
+      description: "Bu çalışma grubunun amacı, bitcoin cash protokolü için resmi bir tanım belgesinin geliştirilmesi, incelenmesi ve kabul edilmesini koordine etmektir. Kapsamın ilk önce sıkı fikir birliği kurallarıyla sınırlı olacağı ancak daha sonra bu kuralların yumuşayacağı öngörülmektedir."
+    wg-qa:
+      title: "Kalite Güvencesi"
+      description: "Bir ağ noktası uygulamasını sertifikalandırmanın temelini oluşturabilecek kalite standartlarını tanımlamak."
+    wg-sidechains:
+      title: "Yan Zincirler"
+      description: "Bitcoin Cash'teki yan zincirler ile ilgili tartışma ve genel tartışma."
+    wg-tokens:
+      title: "Token'lar"
+      description: "Bitcoin Cash'te token'larla ilgili tartışma."
+    wg-utxocommit-sync:
+      title: "UTXO Taahhütleri ve Senkronizasyonu"
+      description: "Bir ağ noktası uygulamasını sertifikalandırmanın temelini oluşturabilecek kalite standartlarını tanımlamak."
+    wg-ux:
+      title: "Kullanıcı Deneyimi"
+      description: "Bitcoin Cash Cüzdanlarındaki gelişmeler için planlama ve koordinasyon."
+    wg-watercooler:
+      title: "Su soğutucusu"
+      description: "Bitcoin Cash'teki yan zincirler ile ilgili tartışma ve genel tartışma."
+learn:
+  title: "Bitcoin Cash geliştirmeyi öğrenin"
+  description: "Muhteşem şeyler yaratmak için yeni beceriler kazanın"
+  sections:
+    home: "Ana Sayfa"
+    tutorials: "Öğreticiler"
+  tutorials:
+    title: "öğreticiler"
+    description: "Temelden başlayarak sizi profesyonel uygulamalara taşıyacak adım adım kılavuzlar"
+specs:
+  title: "Bitcoin Cash Geliştirici Portalı"
+  description: "Aşağıda Bitcoin Cash Gelişimi Çalışma Gruplarının güncel listesi yer almaktadır. Her grup belirli bir konuya odaklanmalıdır. Sınırlı bir süre için veya devamlı olarak mevcut olabilirler."
+  sections:
+    home: "Ana Sayfa"
+    workgroups: "Çalışma Grupları"
+    specifications: "Spesifikasyonlar"
+    ecosystem: "Ekosistem"
+  specifications:
+    title: "Bitcoin Cash Spesifikasyonları"
+    description: "Aşağıda, yaklaşan ve geçmiş Bitcoin Cash yükseltmelerinin listesi verilmiştir."
+  ecosystem:
+    title: "Bitcoin Cash Ekosistemi"
+    description: ""
+tech:
+  title: "Herkes için Açık Teknoloji"
+  description: "Para yeryüzündeki herkesi ilgilendirir. Bitcoin Cash, gelmiş geçmiş en iyi paradır."
+  sections:
+    home: "Ana Sayfa"
+    foundation: "Temel"
+    emerging: "Yükseliştekiler"
+  foundation:
+    title: "Temel"
+    description: "Yolculuğunuza başlamak için gereken bilgi"
+  emerging:
+    title: "Yükseliştekiler"
+    description: "Bitcoin Cash'in sürekli değişen ve büyüyen dünyası"
+tools:
+  title: "Araçlar"
+  description: "Bitcoin Cash ile dünyayı değiştirmek ister misiniz? Harika, bunu gerçekleştirmek için ihtiyacınız olan araçlar işte burada."
+  sections:
+    home: "Ana Sayfa"
+    javascript: "Javascript"
+  javascript:
+    title: "Javascript"
 misc:
   logo: "logo"
-  dropdown_md_width: "2"
+  dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
+  home: "Ana Sayfa"
   about: "Hakkında"
   features: "Özellikler"
   nodes: "Ağ Noktaları"
@@ -86,11 +228,21 @@ sections:
   services: "Hizmetler"
   projects: "Projeler"
   exchanges: "Takas Merkezleri"
-  graphics: "Logos / Graphics"
-  faq: "SSS"
+  graphics: "Logolar"
+  developers: "Geliştirici Portalı"
+  learn: "Öğrenme"
+  specs: "Spesifikasyon Belgeleri"
+  tech: "Teknoloji"
+  tools: "Araçlar"
+  workgroups: "Çalışma Grupları"
+  faq: "Hakkında"
+  starthere: "Buradan Başlayın"
 layout:
   bitcoin_cash: "Bitcoin Cash"
-  lead: "Kişiler Arası Elektonik Nakit"
+  lead: "Kişiler Arası Elektronik Nakit"
+  leadsubtitle: "Düşük maliyetli mikro işlemler, büyük ticari işlemler ve izin gerektirmeyen harcamalarla yeni ekonomilere olanak sağlamak."
+  herobutton_one: "Başlangıç"
+  herobutton_two: "Bir Cüzdan İndirin"
   loading: "Yükleniyor..."
 features:
   - title: "Hızlı"
@@ -104,80 +256,206 @@ features:
   - title: "Kalıcı"
     description: "Değer biriktirme aracı olarak kanıtlanmış bir ödeme sistemi."
   - title: "Emniyetli"
-    description: "Dünyanın en sağlam blokzinciri teknolojisi."
+    description: "Dünyanın en sağlam blok zinciri teknolojisi."
 headings:
   about: "Dünyanın En İyi Parası"
-  nodes: "Ağ Noktaları"
-  wallets: "Cüzdanlar"
-  services: "Hizmetler"
-  projects: "Projeler"
+  community: "Bitcoin Cash topluluğuna katılın"
+  steps: "Başlangıç"
+  developers: "Giriş"
   exchanges: "Takas Merkezleri"
+  microeconomy: "Mikroekonomi"
   faq: "Sıkça Sorulan Sorular"
-  listingrequest: "Submit a listing request"
+  news: "Haberler"
+  nodes: "Ağ Noktaları"
+  projects: "Projeler"
+  services: "Hizmetler"
+  wallets: "Cüzdanlar"
+  featured-wallets: "Öne Çıkan Cüzdanlar"
+  whitepaper: "Teknik İncelemeyi Okuyun"
+  listingrequest: "Listeleme isteği gönder"
+  error404: "Hata 404"
+  benefits: "Satıcılar İçin Faydalar"
+  why: "Neden Bitcoin Cash kullanmalıyız?"
+  history: "Bitcoin Cash'in Geçmişi"
+  development: "Merkezi Olmayan Gelişim"
+networkupgrade:
+  reminder: "Hatırlatma"
+  date: "15 Kasım 2018"
+  title: "Planlanmış Ağ Yükseltmesi"
+  description: "Bitcoin Cash ağında bir protokol yükseltmesi yapılacaktır. Bitcoin Cash ağını kullanan İşletmeler ve bireyler, yazılımlarının yükseltmeyle uyumlu olduğunu kontrol etmelidir."
+  compatible: "Uyumlu Uygulamalar"
+  additional: "Ek Bilgiler"
+  testnet: "Testnet Bilgisi"
+  hfspec: "Kasım Hard Fork Spesifikasyonları"
+  spec: "OP_CHECKDATASIG ve OP_CHECKDATASIGVERIFY spesifikasyonları"
+  close: "Kapat"
+  upgradecomplete: "yükseltme tamamlandı"
+  completedescription: "Planlanan Bitcoin Cash ağı yükseltmesi başarıyla tamamlandı."
+whitepaper:
+  description: 'Orijinal teknik inceleme 31 Ekim 2008 tarihinde dünyanın ilk kripto para biriminin anonim yaratıcısı  Satoshi Nakamoto tarafından yayınlandı. Bitcoin teknik incelemesinin başlığı: "Bitcoin: Kişiler Arası Elektronik Nakit Sistemi" idi. Bitcoin Cash dünyaya sağlam bir para birimi getirme vizyonunu devam ettirmeyi hedefliyor.'
+error404:
+  subheading: Aradığınız sayfa mevcut değil.
+  button: Ana sayfaya gidin
 content:
   about:
     - |
-      Bitcoin Cash, Bitcoin'in esas amacı olan "Kişiler Arası Elektronik Nakit" niteliğini koruyarak dünyaya sağlam parayı sunuyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
+      Bitcoin Cash, Bitcoin'in esas amacı olan "Kişiler Arası Elektronik Nakit" niteliğini koruyarak dünyaya sağlam parayı sunuyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
     - |
-      Blok 478558 itibariyle tüm Bitcoin sahipleri aynı miktarda Bitcoin Cash sahibidirler. Biz tüm dünyaya açık, sağlam bir para birimi geliştirirken herkesi bize katılamaya davet ediyoruz.
+      Blok 478558 itibariyle tüm Bitcoin sahipleri Bitcoin Cash'in de sahibidir. Tüm dünya tarafından erişilebilir sağlam bir para birimi oluşturma yolunda ilerlerken, herkesi Bitcoin Cash topluluğuna katılmaya davet ediyoruz.
   faq:
     - question: "Bitcoin Cash nedir?"
       answer:
         - |
-          Bitcoin Cash internet üzerinden kullanılan kişiler arası elektronik nakit sistemidir. Herhangi bir merkezi otorite, banka ya da aracıya ihtiyaç olmadan kullanılabilir.
+          Bitcoin Cash, kişiler arası elektronik nakit sistemidir. Güvenilir herhangi bir üçüncü taraf ve merkez bankası gerektirmeyen, izinsiz, merkezi olmayan bir kripto para birimidir.
     - question: "Bitcoin Cash 'Bitcoin'den farklı mıdır?"
       answer:
         - |
-          Evet. Bitcoin Cash, Bitcoin projesinin kişiler arası elektronik para birimi olarak devamıdır. Geliştirilmiş uzlaşma kuralları sayesinde büyümesi ve ölçeklenmesi kolaylatılmış Bitcoin blokzinciri kaydının ayrılmış bir koludur.
-    - question: "Eğer Bitcoin'im varsa otomatik olarak Bitcoin Cash sahibi de olur muyum?"
-      answer:
-        - |
-          Bitcoin Cash yaratıldığı zaman Bitcoin'i olan herkes aynı zamanda Bitcoin Cash sahibidir. Yani, blok 478558 (1 Ağustos 2017 13:16 UTC sularında) itibariyle tüm Bitcoin sahipleri aynı miktarda Bitcoin Cash sahibidirler. Eğer Bitcoin'leriniz aracı bir kuruluş tarafından tutuluyorsa, mesela takas merkezleri gibi, onlarla Bitcoin Cash'iniz hakkında iletişime geçebilirsiniz.
-        - |
-          1 Ağustos hesap defteri ayrımı itibariyle yapılan herhangi bir işlem Bitcoin ve Bitcoin Cash arasında tamamen ayrıdır. Sonuç olarak, ayrımdan sonra alınan herhangi bir miktarda Bitcoin Bitcoin Cash içermez, aynı zamanda alınan herhangi Bitcon Cash de Bitcoin içermez.
-    - question: "Yeni ve eski blokzincirleri arasında işlem tekrarlanması idare ediliyor?"
-      answer:
-        - |
-          Bitcoin Cash işlemleri SIGHASH_FORKID isimli yeni bir imzalı şifreleme algoritması kullanmaktadır. Bu imzalar eski (miras) Bitcoin ağında geçerli değildir. Bunun sayesinde Bitcoin Cash işlemlerinin Bitcoin blokzincirinde tekrarlanması engellenmiş olur.
-    - question: "Neden Bitcoin Cash'in yaratılması için bir ayrılık gerekliydi?"
-      answer:
-        - |
-          Miras Bitcoin kodu 1MB'lık blok boyutu ya da saniyede 3 işlemlik bir sınıra sahipdir. Teknik olarak bu sınırı kaldırmak kolay olsa da yıllardır süren tartışmalar fikir ayrılığına sebep vermiştir.
-    - question: "1MB'lık blok boyutu sınırı Bitcoin için bir soruna mı sebep oluyordu?"
-      answer:
-        - |
-          Evet, 2017 yılında kapasite 'görünmez' bir duvara çarptı. İşlem ücretleri tavana fırladı ve bazı kullanıcıların işlemleri günlerce beklemelerine rağmen onaylanmadı, tabi sonuç olarak Bitcoin'in güvenirliği sarsıldı.
-        - |
-          Bitcoin'in market fiyatı yükselmesine rağmen büyümesi duraksadı ve bir para birimi olarak kullanılamaz hale geldi. Birçok kullanıcı, tüccar, şirket ve yatırımcı alternatifler aramaya başladi ve sonuç olarak Bitcoin'in pazar payı %95'ten %40'lara kadar düştü.
-    - question: "Bitcoin Cash bu sorunlara çözüm sağlıyor mu?"
-      answer:
-        - |
-          Evet. Bitcoin Cash zincir üzeri büyüme amacıyla öncelikle blok boyutu sınırını 8MB'a çıkardı. Böylelikle herkesin işlemleri için fazlasıyla yeterli kapasite sağlanmış oldu.
-        - |
-          Düşük işlem ücretleri ve hızlı onaylar Bitcoin Cash'e geri kazandırılmış oldu. Kullanıcı ağı tekrar büyümeye başladı. Kullanıcılar, tüccarlar, şirketler ve yatırımcılar geleceği gerçek kişiler arasi nakit ile inşa etmeye devam ediyor.
-    - question: "Madem blok boyutunu arttırmak kolaydı Bitcoin neden bunu yapmadı?"
-      answer:
-        - |
-          Bazı yazılımcılar Satoshi Nakamoto'nun yarattığı ve savunduğu, kişiler arası elektronik nakit niteliğini anlamadılar ve fikir ayrılıkları oluştu. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Bunun yerine onlar Bitcoin'in bir toplu anlaşma sistemi olmasını tercih ettiler</a>.
-        - |
-          Birçok madenci ve kullanıcı bu yazılımcılara güvenmeye devam ederken bazıları da onların beklenenden farklı bir yol haritası çizdiğini fark ettiler.
-        - |
-          Bitcoin'in bu iki farklı yorumu oldukça uyumsuz olduğu için topluluk iyiye ayrılmış oldu.
-    - question: "SegWit zaten blok kapasitesini arttırmamış mıydı? Bitcoin Cash SegWit kullanmayı planlıyor mu?"
-      answer:
-        - |
-          Ayrılmış tanık (SegWit) birkaç sebepten ötürü blok boyutunu arttırmak için kabul edilemez bir çözümdür.
-        - |
-          Öncelikle tüm işlemlerde kullanılsa bile blok boyutu artışı sadece 1.7MB olacaktır. Yani, en iyi ihtimalle küçük bir kapasite artışı sağlanabilir. Dünya çapında kullanıma ya da üstel büyümeye yeterli değildir. İkinci olarak, bu uygulama atılabilir imzalara sebep verdiği için <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">Bitcoin'in güvenlik modelini zayıflatmaktadır.</a> Üçüncü olarak, bant genişliği verimsizliği ve ikinci dereceden hash atağını engellememesi gibi sebeplerden ötürü ileriye yönelik kapasite artışını daha zor hale getirmektedir.
-        - |
-          Bu (ve başka) sebeplerden ötürü Bitcoin Cash'ın SegWit'ten önce ayrılması gerekliydi. SegWit bizim tarafımızdan ileride kullanılmayacaktır.
-    - question: "Bitcoin Cash'in gelişimden hangi yazılımcı takımı sorumlu?"
-      answer:
-        - |
-          Bitcoin'den farklı olarak Bitcoin Cash tek bir yazılımcı takımı ile geliştirilmemektedir. Şu an itibariyle birden fazla bağımsız yazılımcı takımı proje üzerinde çalışmaktadır.
-        - |
-          Yazılım gelişiminin (ve uygulanmasının) merkeziyetsiz hale getirilmesi gelecek için çok gerekli bir adımdır.
-    - question: "Bitcoin Cash'in kısaltması nedir?"
-      answer:
-        - |
-          Bitcoin Cash servise ve cüzdana göre farklı kısaltmalara sahiptir. BCC/BCH en yaygın kullanılan kısalatmalar olurken, XBC ise para birimleri kodu Uluslararası Standardına (ISO 4217) uyumluluk için kullanılmaktadır.
+          2017 yılında, Bitcoin projesi ve topluluğu ikiye ayrıldı. Belki de bu iki taraftan bahsetmenin en az tartışmaya yol açan yolu, ilgili menkul değer sembolleri olan BTC ve BCH'dir. Bitcoin Cash genellikle BCH menkul değer sembolü ile temsil edilir ve destekçileri tarafından kişiler arası dijital nakit olarak Bitcoin projesinin meşru devamı olarak kabul edilir.
+  why:
+      - benefit: "Dünyanın Her Yerine Neredeyse Ücretsiz Para Gönderin"
+        descrip:
+          - |
+            Bitcoin Cash sayesinde dünyanın her yerine, istediğiniz kişiye günde 24 saat, yılda 365 gün para gönderebilirsiniz. Tıpkı Internet gibi, ağ her zaman açıktır. Hiçbir işlem çok büyük veya çok küçük değildir. Üstelik hiçbir zaman birinin iznine ve onayına ihtiyacınız yoktur.
+      - benefit: "Kendi Bankanız Olun ve Paranızın Tüm Kontrolü Elinizde Olsun"
+        descrip:
+          - |
+            Kıbrıs'ta yapılan ve neredeyse Yunanistan'da da gerçekleşen hesap sahiplerinin paralarına el koyma işlemi, banka hesaplarının sadece politik liderler karar verdiği sürece güvenli olduğunu gösterdi. En iyi koşullarda bile bankalar hata yapabilir, fonlara el koyabilir, hesapları dondurabilir ve başka yollarla kendi paranıza erişmenize engel olabilir.
+          - |
+            Bankalar ayrıca hiçbir uyarı yapmadan işlemlerinizi bloke etme, ücretler alma veya hesabınızı kapatma kararını verebilir. Bitcoin Cash size fonlarınız üzerinde dünyanın her yerinden erişebileceğiniz tam, sınırsız bir kontrol sunar.
+      - benefit: "Bilinen Sabit Bir Tedariki Olan Sınırlı Bir Dijital Para Birimi"
+        descrip:
+          - |
+            Bitcoin Cash protokolü, 21 milyondan daha fazla para olmamasını garanti eder. Devletler sürekli olarak para basar, tedariki sınırsızca şişirir ve herkesin birikiminin değerini düşürür. Bitcoin Cash sabit bir tedarike sahiptir ve bu yüzden sağlam bir parayı temsi eder.
+      - benefit: "Gizliliğinizi Arttırın ve İsimsiz Bir Şekilde İşlem Yapın"
+        descrip:
+          - |
+            Bir Bitcoin adresini kimin kontrol ettiğini bilmek genellikle imkansız olduğu için Bitcoin Cash banka transferleri ve kredi kartı ödemeleri gibi geleneksel ödeme sistemlerinden daha fazla gizlilik ve isim gizleme imkanı sunar.
+          - |
+            Bitcoin Cash nasıl kullanıldığına bağlı olarak çeşitli düzeylerde gizlilik sunar. BCH'yi gizlilik amacıyla kullanmadan önce kendinizi iyice eğitmeniz önemlidir.
+      - benefit: "Özel İndirimlerden Faydalanın"
+        descrip:
+          - |
+            Satıcıların çoğu Bitcoin Cash ile yapılan ödemelerde indirim imkanı sağlar çünkü bu kredi kartı ücretlerini ortadan kaldırır ve bu yeni ödeme sisteminin daha çok benimsenmesine yardımcı olur.
+      - benefit: "Tüm Dünyada Özgürlüğü Destekleyin"
+        descrip:
+          - |
+            Bitcoin Cash izin gerektirmeyen, açık bir ağdır. Size sizin gibi diğer insanlarla araya hiçbir şey girmeden iletişim kurma gücü verir. Merkezi değildir, isteyerek yapılan ve agresif olmayan bir yapıdadır. Kullanımı arttıkça eski güç kaynakları yıpranacak ve taze fikirler ön plana çıkacaktır. Dünyanın daha önce hiç görmediği kadar barışçıl bir devrimin önünü açacaktır.
+  benefits:
+      - benefit: "Ultra Düşük Ücretler"
+        descrip:
+          - |
+            Tipik bir Bitcoin Cash işleminin ağ ücreti yedi kuruştan azdır. BCH'nizi ABD doları gibi itibari bir para birimine çevirmek isterseniz bunu, kredi kartı işleminden yine çok daha ucuz bir ücretle satıcı işlemciler üzerinden gerçekleştirebilirsiniz.
+      - benefit: "Geri Ödeme Talepleri Yok"
+        descrip:
+          - |
+            Kredi kartlarının aksine asla otomatik iptaller, iadeler, geri ödeme talepleri veya diğer beklenmedik ücretler yoktur. Dolandırıcılığa karşı koruma, satıcıya hiçbir maliyeti olmadan sisteme entegredir.
+      - benefit: "Yeni Müşteriler"
+        descrip:
+          - |
+            Giderek daha çok patron tercih edilen ödeme yöntemi olarak Bitcoin Cash'i seçmektedir. Bu ödeme seçeneğini sunan satıcıları tercih etmekte ve aktif olarak onları aramaktadırlar.
+      - benefit: "Ücretsiz Pazarlama ve Yayın"
+        descrip:
+          - |
+            Bitcoin Cash'i kabul ederek satıcılar, web sitesi ve uygulama dizinlerinde ücretsiz listeleme imkanına kavuşup daha çok müşteri kazanırlar. Ayrıca bu yeni trendin avantajından faydalanabilir ve işletmeleri için medya oluşturabilirler.
+  history:
+      - |
+        Ekim 2008'de Satoshi Nakamoto <strong>“Bitcoin: Kişiler Arası Elektronik Nakit Sistemi”</strong> başlıklı meşhur teknik incelemesini yayınladı. 2009'da ağı işleten ilk bitcoin yazılımını piyasaya sürdü ve bu yazılım düşük ücretler ve hızlı, güvenilir işlemlerle yıllar boyu sorunsuzca çalıştı.
+      - |
+        Maalesef 2016 - 2017 döneminde Bitcoin son derece güvenilmez ve pahalı hale geldi. Bunun nedeni topluluğun ağ kapasitesini artırma konusunda bir görüş birliğine varamamasıydı. Bazı geliştiriciler Satoshi'nin planını anlamadı ve kabul etmedi. Bunun yerine Bitcoin'in bir toplu anlaşma sistemi olmasını tercih ettiler.
+      - |
+        2017 yılında kullanılabilirlik sorunlarından dolayı Bitcoin'in egemenliği %95'ten %40'a kadar düştü. Neyse ki geliştiriciler, yatırımcılar, kullanıcılar ve işletmeler dahil Bitcoin topluluğunun büyük kısmı Bitcoin'in orijinal vizyonu olan ve tüm dünyada herkes tarafından kullanılabilir bir düşük ücretli, kişiler arası elektronik nakit sistemine inanmaya devam etti.
+      - |
+        1 Ağustos 2017'de maksimum blok boyutunu artırma yönünde mantıklı bir adım attık ve Bitcoin Cash doğdu. O sırada elinde Bitcoin (blok 478558) bulunan herkes Bitcoin Cash (BCH) sahibi oldu. Ağ şimdi gelecekteki büyük artışlara imkan sağlamak için devam eden araştırmalarla 32 MB bloğa kadar destek vermektedir.
+  development:
+      - |
+        Yazılım uygulamaları sunan birden fazla bağımsız geliştirici ekibiyle gelecek güvence altında. Bitcoin Cash, protokol geliştirmeye karşı yapılan siyasi ve sosyal saldırılara karşı dirençlidir. Tek bir grup veya proje tarafından kontrol edilemez. Ayrıca birden fazla uygulama ağın her zaman %100 çalışmaya devam etmesini sağlamak için yedeklik sağlar.
+      - |
+        <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml e-posta listesi</a> gelişim ekipleri arasında koordinasyon gerektiren değişiklikler için teklif vermeye çok uygun bir ortamdır. Geliştiricilere koordine olma ve karşılıklı inceleme yapma konusunda yardımcı olmak için <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">çalışma grupları</a> hazırlanmıştır. Bitcoin Cash protokolünde değişiklik yapmak isteyenler için erken aşamada karşılıklı inceleme yapılması ve çalışma gruplarındaki diğer geliştiricilerle işbirliği içinde olunması önerilir.
+viewmore: "Daha Fazla Göster"
+gettingstarted:
+  title: "Başlangıç"
+  subtitle: "Kişiler arası elektronik nakit nedir?"
+  excerpt: "Kişiler arası (P2P) elektronik nakit, güvenilir üçüncü bir tarafa ihtiyaç olmadan bir kişiden diğerine gönderilen çevrimiçi para olarak tanımlanır. Satoshi Nakamoto tarafından orijinal Bitcoin teknik incelemesinde açıklandığı üzere, P2P nakit, çözümün bir parçası olarak dijital imzaları kullanır ancak sahtekarlığı önlemek için güvenilir üçüncü bir tarafın hala gerekli olması durumunda temel faydalar ortadan kaybolur. Bu, P2P nakit yöntemini aracılara ihtiyaç duyulmadan işlem yapmanın güvenilir ve güvenli bir yolu haline getirir."
+  description: "Kişiler arası (P2P) elektronik nakit, güvenilir üçüncü bir tarafa ihtiyaç olmadan bir kişiden diğerine gönderilen çevrimiçi para olarak tanımlanır. Satoshi Nakamoto tarafından orijinal Bitcoin teknik incelemesinde açıklandığı üzere, P2P nakit, çözümün bir parçası olarak dijital imzaları kullanır ancak sahtekarlığı önlemek için güvenilir üçüncü bir tarafın hala gerekli olması durumunda temel faydalar ortadan kaybolur. Bu, P2P nakit yöntemini aracılara ihtiyaç duyulmadan işlem yapmanın güvenilir ve güvenli bir yolu haline getirir."
+  sidetitle: "Bitcoin Cash hakkında her şeyi öğrenin"
+  shoponline: "Çevrimiçi Mağaza"
+  shoponline_excerpt: "En sevdiğiniz çevrimiçi perakende mağazalarında Bitcoin Cash harcayın."
+  spendatrestaurants: "Restoranlarda Harcayın"
+  spendatrestaurants_excerpt: "Bitcoin Cash kabul eden restoranları veya kafeleri ziyaret edin."
+  shopinperson: "Şahsen Alışveriş"
+  shopinperson_excerpt: "Bitcoin Cash kabul eden <span class='merchantCount'>192</span>'den fazla fiziksel mekana uğrayın."
+  maptitle: "Şahsen Bitcoin Cash Harcayın"
+  mapcount: "listelenen işletme"
+downloadwallet:
+  title: "Bir cüzdan indir"
+  subtitle: "Bitcoin Cash'imi nerede saklarım?"
+  excerpt: "Bitcoin Cash'e başlamak çok kolaydır. İlk adım, Bitcoin ekonomisine katılmaya başlayabilmeniz için bir cüzdan indirmektir. Çoğu cüzdanı indirmek ücretsizdir; bu cüzdanların fon gönderme, alma, güvenle saklama, işlem arama gibi birkaç temel özelliği ve diğer farklı özellikleri vardır ve bunların kullanımı kolaydır."
+  description: "Bitcoin Cash'e başlamak çok kolaydır. İlk adım, Bitcoin ekonomisine katılmaya başlayabilmeniz için bir cüzdan indirmektir. Çoğu cüzdanı indirmek ücretsizdir; bu cüzdanların fon gönderme, alma, güvenle saklama, işlem arama gibi birkaç temel özelliği ve diğer farklı özellikleri vardır ve bunların kullanımı kolaydır."
+  sidetitle: "Ne tür cüzdan kullanmalıyım?"
+  mobilewallet: "Mobil Cüzdan"
+  mobilewallet_excerpt: "Mobil bir cüzdan, Bitcoin Cash'i saklamak ve harcamak için harikadır."
+  desktopwallet: "Masaüstü Cüzdanı"
+  desktopwallet_excerpt: "Bitcoin Cash'i işletmenize getirmek için bir Masaüstü Cüzdan kullanmayı deneyin."
+  hardwarewallet: "Donanım Cüzdanı"
+  hardwarewallet_excerpt: "Bitcoin Cash'inizi güvenli bir donanım cüzdanında saklayın. Uzun süreli saklama için idealdir."
+  paperwallet: "Kağıt Cüzdan"
+  paperwallet_excerpt: "Bitcoin Cash'inizi çevrimdışı bir Kağıt Cüzdanda saklayın. Uzun süreli saklamak veya arkadaşlarınıza veya ailenize hediye etmek için mükemmeldir."
+  featuredwallets: "Öne Çıkan Cüzdanlar"
+  bitcoindotcom: "Bitcoin göndermenin ve almanın basit ve güvenli bir yolu olan Bitcoin.com Cüzdanını kullanmaya başlayın. Cüzdan, hem Bitcoin Cash (BCH) hem de Bitcoin Core'u (BTC) destekleyerek kullanıcıların iki farklı para birimi arasında kolayca geçiş yapmasına olanak tanır."
+  handcash: "Parayı şahsen vermekten daha kişisel ne olabilir ki? Adrese ihtiyaç yok, üçüncü tarafa ihtiyaç yok. Cüzdan, Bitcoin Cash'i ürün ekosisteminin temeli olarak kullanarak bu süreci dijital hale getirdi."
+  yenom: "Yenom, yeni başlayanlar için uygun olan basit bir Bitcoin Cash cüzdanıdır. İlk kez Bitcoin kullanan aile üyeleri veya arkadaşlar için harikadır! Bitcoin göndermenin veya almanın en kolay yoludur. Herkes kolaylıkla Yenom'u kullanmayı deneyebilir."
+  electron: "Özel anahtarlarınız şifrelenir ve bilgisayarınızdan asla çıkmaz. Fonlarınız gizli bir sözcük ile kurtarılabilir. Electron Cash, Bitcoin blok zincirini endeksleyen sunucular kullandığı için hızlıdır. Özel anahtarlarınızı dışa aktarabilir ve bunları diğer Bitcoin istemcilerinde kullanabilirsiniz."
+buyorearn:
+  title: "Bitcoin Cash Satın Alın veya Kazanın"
+  subtitle: "Nasıl Bitcoin Cash alırım?"
+  excerpt: "Bitcoin Cash'i elde etmenin en kolay iki yolu satın almak veya Bitcoin Cash için çalışmaktır. Bitcoin Cash satın almak, en çok kullanılan ve uygun yoldur; tüm yapmanız gereken Bitcoin takas merkezi ve depozito fonları için kaydolmaktır, bunları daha sonra Bitcoin Cash'e dönüştürebilirsiniz. Alım satım gerçekleştikten sonra takas merkezi size BCH yollayacaktır."
+  firstparagraph: "Bitcoin Cash'i elde etmenin en kolay iki yolu satın almak veya Bitcoin Cash için çalışmaktır. Bitcoin Cash satın almak, en çok kullanılan ve uygun yoldur; tüm yapmanız gereken Bitcoin takas merkezi ve depozito fonları için kaydolmaktır, bunları daha sonra Bitcoin Cash'e dönüştürebilirsiniz. Alım satım gerçekleştikten sonra takas merkezi size BCH yollayacaktır. Diğer yol ise çalışarak Bitcoin Cash kazanmaktır, örneğin iş ilanları arasında Bitcoin Cash ile ödeme yapılan bir iş bularak veya kendi hizmetinizi oluşturarak (örneğin tişört satmak) Bitcoin Cash kazanmak gibi."
+  secondparagraphtitle: "Bitcoin Cash'i yerel olarak nerede bulabilirim?"
+  secondparagraph: "Çoğu şehirde itibari para birimleriyle (USD, Yen, Euro vs. gibi) Bitcoin Cash ticareti yapan bir tezgah üstü piyasa vardır. Ya da işvereninize paranın geleceğinde ön sıralarda yer almayı isteyip istemediğini sorarak ödemenizin bir kısmını veya tamamını Bitcoin Cash olarak almayı isteyebilirsiniz. Bazı büyük şehirlerde Bitcoin Cash hizmeti sunan ve Bitcoin Cash için itibari para birimiyle işlem yapmayı sağlayan ATM'ler bulunmaktadır. En yakın <a href='http://events.bitcoin.com/'>Bitcoin Cash Buluşması</a>'nda diğer seçenekleri sorun veya şehrinizdeki <a href='../spend-bitcoin-cash'>Bitcoin Cash harcayabileceğiniz</a> restoranları ziyaret ederek araştırın."
+  thirdparagraphtitle: "Bitcoin Cash'i Çevrimiçi satın alabilir miyim?"
+  thirdparagraph: "Bitcoin Cash satın almak, Bitcoin Cash edinmenin en yaygın yoludur. Yerel para birimlerini ve kripto paraları alıp satan çevrimiçi Takas Merkezleri, Bitcoin Cash alım satımı için banka transferleri yapmanızı sağlar. Bazıları hemen satın almanız için kredi kartı dahi kabul etmektedir. Bütün çevrimiçi işlemlerde olduğu gibi kendi araştırmanızı yapın ve kendi cüzdanınızın olduğundan emin olun. Takas merkezlerinde Bitcoin Cash bırakmanızı önermiyoruz. Bitcoin Cash'inizi her zaman güvenle korunan kendi cüzdanınızda saklamalısınız."
+  sidetitle: "Bitcoin Cash'i nereden alabilirim?"
+  buyexchange: "Bir Takas Merkezinden alın"
+  buyexchange_excerpt: "İtibari para birimini güvenilir bir 3. taraf takas merkezine gönderin ve Bitcoin Cash satın alın"
+  usefaucet: "Bitcoin Cash Faucet kullanın"
+  usefaucet_excerpt: "Küçük miktarda ücretsiz Bitcoin Cash almak için güvenilir bir<a href='https://free.bitcoin.com'>Bitcoin Cash faucet</a> kullanın!"
+  buyapp: "Bir Uygulamayla satın alın"
+  buyapp_excerpt: "Kredi kartıyla Bitcoin Cash satan güvenilir bir 3. taraf uygulaması kullanın."
+  earnonline: "Çevrimiçi Bitcoin Cash kazanın"
+  earnonline_excerpt: "<a href='https://honest.cash'>honest.cash</a> üzerinde trend içerik oluşturun. <a href='http://memo.cash'>Memo.cash</a> veya <a href='https://www.mttr.app/'>Matter</a> gibi sansüre karşı gelen sosyal medya platformlarına katılın."
+  buyatm: "Bir Bitcoin Cash ATM'sinden BCH satın alın"
+  buyatm_excerpt: "Dünyada çoğu şehirde Bitcoin Cash özellikli ATM makineleri bulunmaktadır."
+  buyinperson: "Şahsen satın alın"
+  buyinperson_excerpt: "Bölgenizde Bitcoin Cash satan kişilerle iletişim kurun."
+  acceptbch: "İşletmenizden Bitcoin Cash almayı kabul edin"
+  acceptbch_excerpt: "Mağazanıza bir ödeme yöntemi olarak Bitcoin Cash'i ekleyin. Çevrimiçi olarak veya şahsen BCH ile ürün satın."
+  getpaid: "Bitcoin Cash olarak ödeme isteyin"
+  getpaid_excerpt: "İşyerinizde ücretinizin kısmen veya tamamen Bitcoin Cash ile ödenmesini isteyin."
+spendbch:
+  title: "Bitcoin Cash Harcayın"
+  subtitle: "Bitcoin Cash ile ne satın alabilirim?"
+  excerpt: "Bitcoin Cash sadece spekülasyon amaçlı değildir. Amacı, kişiler arası elektronik para birimi olarak kullanımdır, yani harcanması gereklidir. Bitcoin Cash, neredeyse anlık işlemler ve cüzi işlem ücretleri ile hızla harcanabilir; bu da onu dünyadaki en güvenli ve yaygın olarak kullanılan dijital para birimi haline getirir."
+  description: "Bitcoin Cash sadece spekülasyon amaçlı değildir. Amacı, kişiler arası elektronik para birimi olarak kullanımdır, yani harcanması gereklidir. Bitcoin Cash, neredeyse anlık işlemler ve cüzi işlem ücretleri ile hızla harcanabilir; bu da onu dünyadaki en güvenli ve yaygın olarak kullanılan dijital para birimi haline getirir."
+  sidetitle: "Bitcoin Cash'i nerede harcayabilirim"
+  shoponline: "Çevrimiçi Mağaza"
+  shoponline_excerpt: "En sevdiğiniz çevrimiçi perakende mağazalarında Bitcoin Cash harcayın."
+  spendatrestaurants: "Restoranlarda Harcayın"
+  spendatrestaurants_excerpt: "Bitcoin Cash kabul eden restoranları veya kafeleri ziyaret edin."
+  shopinperson: "Şahsen Alışveriş"
+  shopinperson_excerpt: "Bitcoin Cash kabul eden <span class='merchantCount'>192</span>'den fazla fiziksel mekana uğrayın."
+  maptitle: "Şahsen Bitcoin Cash Harcayın"
+  mapcount: "listelenen işletme"
+acceptbch:
+  title: "Bitcoin Cash Kabul Edin"
+  subtitle: "İşletmem Bitcoin Cash'i nasıl kullanabilir?"
+  excerpt: "Bir satıcı olarak ana hedeflerinizden biri, müşterilerinizi mutlu edebilmek ve başınız ağrımadan ödeme alabilmek için ödemeleri mümkün olduğunca çabuk ve sorunsuz bir şekilde kabul edip işlemektir. Bunun çözümü, işlemlerin hızlı ve düşük maliyetli olduğu Bitcoin Cash'tir. Dünya dijitalleştikçe, Bitcoin gibi elektronik para birimleri çevrimiçi ve perakende mağazalarda ödeme yapmak için tercih edilen yöntem haline gelmektedir. Bitcoin Cash'i doğrudan kolaylıkla kabul edin veya üçüncü taraf sağlayıcıların platformlarını kullanarak Bitcoin Cash'i kabul edin ve satışın tamamını veya bir kısmını yerel itibari para birimine dönüştürün."
+  description: "Bir satıcı olarak ana hedeflerinizden biri, müşterilerinizi mutlu edebilmek ve başınız ağrımadan ödeme alabilmek için ödemeleri mümkün olduğunca çabuk ve sorunsuz bir şekilde kabul edip işlemektir. Bunun çözümü, işlemlerin hızlı ve düşük maliyetli olduğu Bitcoin Cash'tir. Dünya dijitalleştikçe, Bitcoin gibi elektronik para birimleri çevrimiçi ve perakende mağazalarda ödeme yapmak için tercih edilen yöntem haline gelmektedir. Üçüncü taraf sağlayıcılar, platformlarını kullanarak Bitcoin Cash kabul etmeyi kolaylaştırır. BitPay gibi üçüncü taraf bir satıcı çözümleri uygulamasına kaydolduğunuzda, Bitcoin Cash alabilmek ve Bitcoin cüzdanınıza gönderebilmek veya Bitcoin Cash'inizi yerel itibari para birimine dönüştürebilmek için hesabınızı ayarlamanız yeterlidir. Çoğu mağaza, bazı fonların itibari paraya çevrildiği ve bazılarının kripto olarak tutulduğu bir ayrım yapar. Her iki durumda da, bir satıcı çözümleri uygulaması kurarak, Bitcoin'in nasıl kabul edileceğiyle ilgili güçlükler konusunda endişelenmeden Bitcoin ödemelerini kabul etmeye bugün başlayabilirsiniz."
+  sidetitle: "Bitcoin Cash'i nasıl kabul edebilirim?"
+  acceptonline: "Bitcoin Cash Ödeme Geçitleri"
+  acceptonline_excerpt: "Güvenilir 3. taraf Ödeme Geçitlerinden bir ödeme yöntemi olarak Bitcoin Cash alın."
+  wordpress: "Wordpress'te Bitcoin Cash'i etkinleştirin."
+  wordpress_excerpt: "İçerik oluşturma için Bitcoin Cash bağışlarını kabul edin veya Wordpress etkin e-ticaret platformunuza Bitcoin Cash'i entegre edin."
+  pos: "Satış Noktaları"
+  pos_excerpt: "Mağazanızda BCH'yi kabul etmek için çok sayıdaki Bitcoin Cash Satış Noktalarından (POS) birini deneyin."
+  donations: "Bağışlar veya Bahşişler Kabul Edin"
+  donations_excerpt: "Kâr amaçlı olmayan kuruluşlar Bitcoin Cash bağışları alırken son derece düşük ücretlerden faydalanabilirler."

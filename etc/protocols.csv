@@ -1,0 +1,24 @@
+Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
+0x00000010,Tokeda,Joannes Vermorel,bitcoincash:qr2ymruqe22fcmg350652d3yuuk49hpqyg3j56ktrl,http://media.lokad.com/bitcoin/tokeda-2018-04-30.pdf,
+0x00000020,Tokenized,James Belding,bitcoincash:qq3u936pc036nyzcc2rlt280nfnk0857dc3u5vfg6y,http://tokenized.cash/,
+0x0000005C,BCHTorrents,BCHTorrent Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://torrents.bch.sx,https://torrents.bch.sx/hash/{txid}
+0x00001337,GameChain Lobby,Devalbo,,https://github.com/devalbo/gamechain-lobby,
+0x000015B3,Satchat,Duc Nguyen,bitcoincash:qzymdkshczgdda0xekhl65knxl9les7cmcuxcmlqee,http://satchat.io/,
+0x000022B8,Turingnote,John Patterson,bitcoincash:qrkx43sa9cal4ylmw70uwcu09qzqfq5pxcs6sp4aaf,http://turingnote.io,
+0x00004b50,Keoken Platform,Bitprim Project,bitcoincash:qrsdw5crn75szgme7l6xaz2mymgjjsmkqshtg8lsce,https://keoken.io,
+0x0000544C,TradeLayer,Patrick Dugan,bitcoincash:qrcwrfg5q88dpwtjvnu53dwxjj686mmrk5nfd8zhgd,http://tradelayer.org,
+0x0000B006,Bookchain,BookChain Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://bookchain.cash,https://bookchain.cash/hash/{txid}
+0x00031337,GameChain,Devalbo,,https://github.com/devalbo/gamechain,
+0x00666770,OFGP,OFGP Devs,bitcoincash:qzn9zdurl5hf25h8hkjue3dtqsywl3mpesw0p08z5u,https://github.com/ofgp,
+0x00434d4C,BCML,Crypto-Steve,bitcoincash:qpz4hkg4z0xqny326k90pqvdud57h6m0agk0pj6e62,https://github.com/Cryto-Steve/BCML/,
+0x00504642,BitcoinFiles,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8, http://bitcoinfiles.com,
+0x00504c53,Simple Ledger Protocol,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8,http://simpleledger.cash/,
+0x00544542,ChainBet,Jonald Fyookball,,https://github.com/fyookball/ChainBet,
+0x00555354,UniSOT,Stephan Nilsson,bitcoincash:qq8f2kk556x5hhdhr6fqnfdsy020yecs4y00thetwk,http://unisot.io/ust,
+0x00584350,Counterparty Cash,Counterparty Cash Association (CCA),bitcoincash:qprul4s8shr0d9sflfqtjv5y4esgg4k2dcz0eyvscy,https://counterparty.cash,
+0x00626368,BChan,BChan Developers,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://bchan.cash/spec,https://bchan.cash/txid/{txid}
+0x00746C6B,Keyport,Keyport,,https://keyport.io,
+0x02446365,SatoshiDICE,Jon Bestman,bitcoincash:qz9cq5m250zxqfvvm2p5hp4yv7rung4shukgcguxjd,https://satoshidice.com,
+0x04008080,BCH-DNS,BCHDNS Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://domains.bch.sx,https://domains.bch.sx/whois/{txid}
+0x054c5638,TokenGroups,Bitcoin Unlimited,bitcoincash:pq6snv5fcx2fp6dlzg7s0m9zs8yqh74335tzvvfcmq,,
+0x08776863,Wormhole,Wormhole developer,bitcoincash:qzp3ww6whlf8659e9wx0apw8l2m5w6nfxchyajkyx5,http://wormhole.cash,

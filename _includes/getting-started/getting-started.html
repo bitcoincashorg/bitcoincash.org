@@ -1,0 +1,86 @@
+<section class="space--xxs text-center video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="card-user-profile wallet-types">
+                    <h3>{% t 'gettingstarted.sidetitle' %}</h3>
+                    <div class="text-left">
+                         {% assign features = site.translations[site.lang]["features"] %}
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="jet"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{{ features[0].title }}</h4>
+                                <p>{{ features[0].description }}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="cog"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{{ features[1].title }}</h4>
+                                <p>{{ features[1].description }}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="arrow-down"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{{ features[2].title }}</h4>
+                                <p>{{ features[2].description }}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="ios-cafe"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{{ features[3].title }}</h4>
+                                <p>{{ features[3].description }}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="business"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{{ features[4].title }}</h4>
+                                <p>{{ features[4].description }}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="lock"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{{ features[5].title }}</h4>
+                                <p>{{ features[5].description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <div class="card-user-profile text-left">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                    <div class="card-user-profile-content card-section">
+                        <h3 class="card-user-profile-name">{% t 'gettingstarted.subtitle' %}</h3>
+                        <h1 class="card-user-profile-status">{% t 'gettingstarted.title' %}</h1>
+                        <p class="card-user-profile-info">{% t 'gettingstarted.description' %}</p>
+                    </div>
+                    <div class="card-user-profile-actions">
+                        <a href="faq.html" class="btn btn-primary btn-round">Learn More</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="row text-center">
+            <a href="wallets.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'downloadwallet.title' %} &raquo;</a>
+        </div>
+    </div>
+</section>

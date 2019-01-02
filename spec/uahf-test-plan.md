@@ -1,6 +1,7 @@
 ---
 layout: specification
 title: UAHF Test Plan
+category: spec
 date: 2017-06-14
 activation: 1501590000
 version: 1.0
@@ -102,7 +103,7 @@ provide tool to truncate the data back to pre-fork block?)
 
 ## References
 
-[1] https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md
+[1] https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/uahf-technical-spec.md
 
 
 END

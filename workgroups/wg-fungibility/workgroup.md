@@ -3,6 +3,7 @@ layout: workgroup
 permalink: /workgroups/wg-fungibility
 group: workgroup
 workgroup: wg-fungibility
+title: workgroups.workgroups.wg-fungibility.title
 ---
 
 Discussion workgroup for issues surrounding better privacy protections on Bitcoin Cash.

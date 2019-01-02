@@ -2,10 +2,10 @@
 layout: meeting-summary
 title: Fixing Transaction Maleability - Is it worth it?
 group: malfix
-time: 20170129 1100 (UTC)
+time: 20180130 1100 (UTC)
 version: 1.0
 participants: [
-    Amaury Sechét of Bitcoin ABC,
+    Amaury Séchet of Bitcoin ABC,
     Tomas of bitCrust,
     shadders of nChain
 ]

@@ -1,0 +1,53 @@
+<a id="faq"></a>
+<section class="space--xxs" id="faq-section" data-section="faq">
+    <div class="container">
+        <!-- FAQ -->
+        <div class="row text-center to-animate">
+            <div class="col-xs-12 section-heading">
+                <h2>{% t 'headings.faq' %}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+            {% for qa in site.translations[site.lang]["content"]["faq"] %}
+            <p class="question to-animate">{{ qa['question'] }}</p>
+                {% for a in qa['answer'] %}
+                <p class='to-animate'>{{ a }}</p>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+        <!-- WHY -->
+        <div class="row text-center to-animate pt-5">
+            <div class="col-xs-12 section-heading">
+                <h2>{% t 'headings.why' %}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+            {% for qa in site.translations[site.lang]["content"]["why"] %}
+            <p class="question to-animate">{{ qa['benefit'] }}</p>
+                {% for a in qa['descrip'] %}
+                <p class='to-animate'>{{ a }}</p>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+        <!-- WHY -->
+        <div class="row text-center to-animate pt-5">
+            <div class="col-xs-12 section-heading">
+                <h2>{% t 'headings.benefits' %}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+            {% for qa in site.translations[site.lang]["content"]["benefits"] %}
+            <p class="question to-animate">{{ qa['benefit'] }}</p>
+                {% for a in qa['descrip'] %}
+                <p class='to-animate'>{{ a }}</p>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

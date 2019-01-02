@@ -1,17 +1,14 @@
 
-<section class="space--xxs" id="about-section" data-section="about">
+<section class="space--xs" id="about-section" data-section="about">
     <div class="container">
-        <div class="row to-animate">
+        <div class="row section-heading to-animate">
 
-            <div class='col-sm-12 section-heading text-center'>
+            <div class='col-sm-12 text-center'>
                 <h2>{% t 'headings.about' %}</h2>
             </div>
-        </div>
-
-        <div class="row to-animate">
 
             <div class='col-sm-12 col-md-6 text-center'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OE3QTbgh-p8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
 
             <div class='col-sm-12 col-md-6'>
@@ -19,53 +16,177 @@
                 <p>{{ c }}</p>
                 {% endfor %}
             </div>
-            
-        </div>
-        
-    </div>
-</section>
 
-<section class="space--xxs" >
-    <div class="container benefits">
-        {% assign features = site.translations[site.lang]["features"] %}
-        <div class="row text-center">
-            <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
-                <p><strong>{{ features[0].title }}</strong></p>
-                <p>{{ features[0].description }}</p>
-            </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
-                <p><strong>{{ features[1]['title'] }}</strong></p>
-                <p>{{ features[1]['description'] }}</p>
-            </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
-                <p><strong>{{ features[2]['title'] }}</strong></p>
-                <p>{{ features[2]['description'] }}</p>
-            </div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-check fa-fw fa-2x"></i></p>
-                <p><strong>{{ features[3]['title'] }}</strong></p>
-                <p>{{ features[3]['description'] }}</p>
-            </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
-                <p><strong>{{ features[4]['title'] }}</strong></p>
-                <p>{{ features[4]['description'] }}</p>
-            </div>
-            <div class="col-sm-4 col-md-4 to-animate">
-                <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
-                <p><strong>{{ features[5]['title'] }}</strong></p>
-                <p>{{ features[5]['description'] }}</p>
-            </div>
-            
-        </div>
-        <div class="col-sm-12 text-center mb-4">
-            <a href="bitcoin.pdf" target="_blank" class="btn btn-default">{% t 'headings.whitepaper' %}</a>
-        </div>
+
     </div>
 </section>
-<a id="about"></a>
+<!-- <div class="container reminder-bar">
+ <div class="panel panel-default navbar-fixed-bottom">
+  <div class="panel-heading">
+      <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="event.preventDefault();">
+              <ion-icon name="construct"></ion-icon>
+              {% t 'networkupgrade.reminder' %}: {% t 'networkupgrade.date' %} {% t 'networkupgrade.title' %}
+          </a>
+      </h4>
+  </div>
+  <div id="collapseOne" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class='col-sm-12 col-md-6'>
+          <h3>{% t 'networkupgrade.date' %} {% t 'networkupgrade.title' %}</h3>
+          <p>{% t 'networkupgrade.description' %}</p>
+
+          <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" onclick="event.preventDefault();"><ion-icon name="close"></ion-icon> {% t 'networkupgrade.close' %}</a>
+
+      </div>
+        <div class="col-sm-12 col-md-6 text-center reminder-links">
+          <h4>{% t 'networkupgrade.compatible' %}:</h4>
+          <a href="https://download.bitcoinabc.org/0.18.3/" title="Bitcoin ABC 0.18.3" target="_blank">
+              <ion-icon name="link"></ion-icon> Bitcoin ABC 0.18.3
+          </a>
+          <a href="https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/dev/doc/release-notes/release-notes-bucash1.5.0.1.md" title="Bitcoin Unlimited Cash Edition 1.5.0.1">
+              <ion-icon name="link"></ion-icon> Bitcoin Unlimited Cash Edition 1.5.0.1
+          </a>
+          <a href="https://github.com/bitcoinxt/bitcoinxt/releases/tag/v0.11K" title="Bitcoin XT Release K">
+              <ion-icon name="link"></ion-icon> Bitcoin XT Release K
+          </a>
+          <a href="https://github.com/bcoin-org/bcash/blob/master/CHANGELOG.md#v110" title="bcoin bcash" target="_blank">
+              <ion-icon name="link"></ion-icon> bcoin - bcash 1.1.0
+          </a>
+          <h4>{% t 'networkupgrade.additional' %}:</h4>
+          <a href="https://github.com/bitcoincashorg/bitcoincash.org/pull/94/files" title="November Hardfork Spec" target="_blank">
+              <ion-icon name="link"></ion-icon> {% t 'networkupgrade.hfspec' %}
+          </a>
+          <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md" title="Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY" target="_blank">
+              <ion-icon name="link"></ion-icon> {% t 'networkupgrade.spec' %}
+          </a>
+
+          <a href="https://docs.google.com/spreadsheets/d/1Wg2ciYk7efDFpUD9qIz2Q9-Qp4H8i0Io8ThdDbGdyPU" title="Testnet Information" target="_blank">
+           <ion-icon name="link"></ion-icon> {% t 'networkupgrade.testnet' %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<section class="space--xxs">
+    <div class="container benefits">
+        <div class="row space--xs">
+            <div class="col-sm-12">
+                <div class="pop-shadow whitepaper-promo">
+                    <p><ion-icon name="document"></ion-icon></p>
+                    <p><strong>{% t 'headings.whitepaper' %}</strong></p>
+                    <p>{% t 'whitepaper.description' %}</p>
+                    <a href="bitcoin.pdf" title="Bitcoin Whitepaper" class="btn btn-secondary large btn-round">{% t 'headings.whitepaper' %}</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="space--xxs" id="roadmap">
+        <div class="container">
+            <div class="community-cta section-heading to-animate">
+                <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
+                    <p><strong>{% t 'headings.roadmap' %}</strong></p>
+                    <p>To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.</p>
+                    
+                    <a class="btn btn-primary large btn-round" href="roadmap.html">
+                       View The Roadmap
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="space--xxs no-bottom" >
+        <div class="container benefits">
+
+            {% assign features = site.translations[site.lang]["features"] %}
+            <div class="row text-center">
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="jet"></ion-icon></p>
+                        <p><strong>{{ features[0].title }}</strong></p>
+                        <p>{{ features[0].description }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="cog"></ion-icon></p>
+                        <p><strong>{{ features[1]['title'] }}</strong></p>
+                        <p>{{ features[1]['description'] }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="arrow-down"></ion-icon></p>
+                        <p><strong>{{ features[2]['title'] }}</strong></p>
+                        <p>{{ features[2]['description'] }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="ios-cafe"></ion-icon></p>
+                        <p><strong>{{ features[3]['title'] }}</strong></p>
+                        <p>{{ features[3]['description'] }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="business"></ion-icon></p>
+                        <p><strong>{{ features[4]['title'] }}</strong></p>
+                        <p>{{ features[4]['description'] }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 to-animate">
+                    <div class="pop-shadow">
+                        <p><ion-icon name="lock"></ion-icon></p>
+                        <p><strong>{{ features[5]['title'] }}</strong></p>
+                        <p>{{ features[5]['description'] }}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="space--xxs" id="connect">
+        <div class="slant-top"></div>
+        <div class="container">
+            <div class="community-cta section-heading to-animate">
+                <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
+                    <h5>{% t 'headings.community' %}</h5>
+                    <a class="btn btn-default large round" href="http://reddit.com/r/btc" target="_blank">
+                        <ion-icon name="logo-reddit"></ion-icon> /r/btc
+                    </a>
+                    <a class="btn btn-default large round" href="http://reddit.com/r/bitcoincash" target="_blank">
+                        <ion-icon name="logo-reddit"></ion-icon> /r/bitcoincash
+                    </a>
+                    <a class="btn btn-default large round" href="https://btcforks.slack.com/" target="_blank">
+                        <ion-icon name="logo-slack"></ion-icon> Slack
+                    </a>
+                    <a class="btn btn-default large round" href="https://www.facebook.com/bitcoincashorg/" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon> Facebook
+                    </a>
+                    <a class="btn btn-default large round" href="https://t.me/BitcoinCashUpdates" target="_blank">
+                        <ion-icon name="paper-plane"></ion-icon> Telegram
+                    </a>
+                    <a class="btn btn-default large round" href="https://bitcoincashtalk.org" target="_blank">
+                        <ion-icon name="globe" role="img" class="hydrated" aria-label="globe"></ion-icon> BitcoinCashTalk
+                    </a>
+                    <a class="btn btn-default large round" href="https://github.com/bitcoincashorg/bitcoincash.org" target="_blank">
+                            <i class="socicon socicon-github"></i> GitHub
+                        </a>
+                </div>
+            </div>
+        </div>
+        <div class="slant"></div>
+    </section>

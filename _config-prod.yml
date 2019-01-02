@@ -41,32 +41,23 @@ exclude:
   - 'Gemfile.lock'
   - 'Makefile'
   - 'Rakefile'
-  - COPYING
+  - 'COPYING'
+  - 'Dockerfile'
+  - 'docker-compose.yml'
 
 languages:
   - en
-  - cs
-  # - de-ch
-  - de
-  # - el
-  - es
-  - fr
-  - hi
-  - id
-  - it
-  - ja
-  - ko
-  - ms
-  - nl
-  - pl
-  - pt-BR
-  - pt-PT
-  - ru
-  - sk
-  - tr
-  - vi
   - zh-CN
   - zh-TW
+  - fr
+  - de
+  - ja
+  - ko
+  - pt-BR
+  - ru
+  - es
+  - tr
+  - id
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 

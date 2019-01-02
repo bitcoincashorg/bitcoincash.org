@@ -1,0 +1,442 @@
+<section class="space--xxs text-center video-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<div class="card-user-profile wallet-types">
+					<h3>{% t 'downloadwallet.sidetitle' %}</h3>
+					<div class="text-left">
+						<div class="row type pointer" onclick="scroll_to('div.mobile-wallet')">
+							<div class="col-xs-3">
+								<ion-icon name="phone-portrait"></ion-icon>
+							</div>
+							<div class="col-xs-9">
+								<h4>{% t 'downloadwallet.mobilewallet' %}</h4>
+								<p>{% t 'downloadwallet.mobilewallet_excerpt' %}</p>
+							</div>
+						</div>
+						<div class="row type pointer" onclick="scroll_to('div.desktop-wallet')">
+							<div class="col-xs-3">
+								<ion-icon name="laptop"></ion-icon>
+							</div>
+							<div class="col-xs-9">
+								<h4>{% t 'downloadwallet.desktopwallet' %}</h4>
+								<p>{% t 'downloadwallet.desktopwallet_excerpt' %}</p>
+							</div>
+						</div>
+						<div class="row type pointer" onclick="scroll_to('div.hardware-wallet')">
+							<div class="col-xs-3">
+								<ion-icon name="battery-full"></ion-icon>
+							</div>
+							<div class="col-xs-9">
+								<h4>{% t 'downloadwallet.hardwarewallet' %}</h4>
+								<p>{% t 'downloadwallet.hardwarewallet_excerpt' %}</p>
+							</div>
+						</div>
+						<div class="row type pointer" onclick="scroll_to('div.paper-wallet')">
+							<div class="col-xs-3">
+								<ion-icon name="cash"></ion-icon>
+							</div>
+							<div class="col-xs-9">
+								<h4>{% t 'downloadwallet.paperwallet' %}</h4>
+								<p>{% t 'downloadwallet.paperwallet_excerpt' %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<div class="card-user-profile text-left">
+					<img class="card-user-profile-img" src="/img/bitcoin-cash-wallet.jpg" alt="{% t 'downloadwallet.title' %} Bitcoin Cash Wallet on iPhone and Macbook" />
+					<div class="card-user-profile-content card-section">
+						<h3 class="card-user-profile-name">{% t 'downloadwallet.subtitle' %}</h3>
+						<h1 class="card-user-profile-status">{% t 'downloadwallet.title' %}</h1>
+						<p class="card-user-profile-info">{% t 'downloadwallet.description' %}</p>
+					</div>
+					<div class="card-user-profile-actions">
+
+					</div>
+				</div>
+			</div>
+			<div class='col-sm-12 col-md-4'>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<a id="wallets"></a>
+<section class="text-center space--none">
+	<div class="container wallets">
+		<div class="row to-animate">
+			<div class="col-xs-12 section-heading ">
+				<h2>{% t 'headings.featured-wallets' %}</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="wallets-section" class="space--none text-center">
+	<div class="container wallets">
+		<div class="row featured-wallets">
+			<div class="col-sm-4 col-md-4 vertical-align to-animate">
+				<a href="https://wallet.bitcoin.com" target="_blank"><img alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.png">
+					<div class="supports">
+						<ion-icon name="logo-android"></ion-icon>
+						<ion-icon name="logo-apple"></ion-icon>
+						<ion-icon name="laptop"></ion-icon>
+					</div>
+					<p>{% t 'downloadwallet.bitcoindotcom' %}</p>
+				</a>
+			</div>
+			<div class="col-sm-4 col-md-4 vertical-align to-animate">
+				<a href="https://yenom.tech/" target="_blank"><img alt="Yenom" src="/img/wallets/yenom.png">
+					<div class="supports">
+						<ion-icon name="logo-android"></ion-icon>
+						<ion-icon name="logo-apple"></ion-icon>
+					</div>
+					<p>{% t 'downloadwallet.yenom' %}</p>
+				</a>
+			</div>
+			<div class="col-sm-4 col-md-4 vertical-align to-animate">
+				<a href="https://electroncash.org/" target="_blank"><img alt="Electron Cash" src="/img/wallets/electroncash.png">
+					<div class="supports">
+						<ion-icon name="logo-android"></ion-icon>
+						<ion-icon name="logo-apple"></ion-icon>
+						<ion-icon name="laptop"></ion-icon>
+					</div>
+					<p>{% t 'downloadwallet.electron' %}</p>
+				</a>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="space--xxs text-center gray wallet-filter">
+	<div class="container wallets">
+		<!-- mobile wallet -->
+		<div class="col-xs-12 section-heading mobile-wallet">
+			<h2>Mobile {% t 'headings.wallets' %}</h2>
+		</div>
+		<!-- Mobile Tabs -->
+		<div class="col-xs-12">
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#android" aria-controls="android" role="tab" data-toggle="tab">Android</a>
+				</li>
+				<li role="presentation">
+					<a href="#ios" aria-controls="ios" role="tab" data-toggle="tab">iOS</a>
+				</li>
+			</ul>
+		</div>
+		<!-- Mobile Tab panes -->
+		<div class="col-xs-12">
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane fade in active" id="android">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://wallet.bitcoin.com" target="_blank">
+								<img alt="Bitcoin.com Wallet" src="/img/wallets/bitcoindotcom.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://yenom.tech/" target="_blank">
+								<img alt="Yenom Wallet" src="/img/wallets/yenom.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://electroncash.org" target="_blank">
+								<img alt="Electron Cash Wallet" src="/img/wallets/electroncash.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://breadapp.com/" target="_blank">
+								<img alt="Bread" src="/img/wallets/bread.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://blog.bitpay.com/bitcoin-cash-wallet-beta/" target="_blank">
+								<img alt="Copay" src="/img/wallets/copay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://jaxx.io/" target="_blank">
+								<img alt="Jaxx" src="/img/wallets/jaxx.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://edgesecure.co/" target="_blank">
+								<img alt="Edge" src="/img/wallets/edge.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.coinbase.com/" target="_blank">
+								<img alt="Coinbase" src="/img/exchanges/coinbase.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bcc-wallet.btc.com/" target="_blank">
+								<img alt="BCC Wallet" src="/img/wallets/btcdotcom.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.mobi.me/" target="_blank">
+								<img alt="Mobi" src="/img/wallets/mobi.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bitpay.com/wallet" target="_blank">
+								<img alt="Bitpay Wallet" src="/img/wallets/bitpay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://stashcrypto.com/" target="_blank">
+								<img alt="Stash Wallet" src="/img/wallets/stashwallet.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://strongcoin.com/" target="_blank">
+								<img alt="StrongCoin" src="/img/wallets/strongcoin.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://coinomi.com/" target="_blank">
+								<img alt="Coinomi" src="/img/wallets/coinomi.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.coin.space" target="_blank">
+								<img alt="Coin Space" src="/img/wallets/coinspace.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+						    <a href="https://www.ifwallet.com" target="_blank"><img alt="ifwallet.com" src="/img/wallets/ifwallet.png"></a>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="ios">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://wallet.bitcoin.com" target="_blank">
+								<img alt="Bitcoin.com Wallet" src="/img/wallets/bitcoindotcom.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://yenom.tech/" target="_blank">
+								<img alt="Yenom Wallet" src="/img/wallets/yenom.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://electroncash.org" target="_blank">
+								<img alt="Electron Cash Wallet" src="/img/wallets/electroncash.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://breadapp.com/" target="_blank">
+								<img alt="Bread" src="/img/wallets/bread.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://blog.bitpay.com/bitcoin-cash-wallet-beta/" target="_blank">
+								<img alt="Copay" src="/img/wallets/copay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://jaxx.io/" target="_blank">
+								<img alt="Jaxx" src="/img/wallets/jaxx.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://edgesecure.co/" target="_blank">
+								<img alt="Edge" src="/img/wallets/edge.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.coinbase.com/" target="_blank">
+								<img alt="Coinbase" src="/img/exchanges/coinbase.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bcc-wallet.btc.com/" target="_blank">
+								<img alt="BCC Wallet" src="/img/wallets/btcdotcom.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.mobi.me/" target="_blank">
+								<img alt="Mobi" src="/img/wallets/mobi.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bitpay.com/wallet" target="_blank">
+								<img alt="Bitpay Wallet" src="/img/wallets/bitpay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://strongcoin.com/" target="_blank">
+								<img alt="StrongCoin" src="/img/wallets/strongcoin.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://coinomi.com/" target="_blank">
+								<img alt="Coinomi" src="/img/wallets/coinomi.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.coin.space" target="_blank">
+								<img alt="Coin Space" src="/img/wallets/coinspace.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+						    <a href="https://www.ifwallet.com" target="_blank"><img alt="ifwallet.com" src="/img/wallets/ifwallet.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 section-heading desktop-wallet">
+			<h2>Desktop {% t 'headings.wallets' %}</h2>
+		</div>
+		<div class="col-xs-12">
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#windows" aria-controls="windows" role="tab" data-toggle="tab">Windows</a>
+				</li>
+				<li role="presentation">
+					<a href="#macos" aria-controls="macos" role="tab" data-toggle="tab">macOS</a>
+				</li>
+				<li role="presentation">
+					<a href="#linux" aria-controls="linux" role="tab" data-toggle="tab">Linux</a>
+				</li>
+			</ul>
+		</div>
+		<!-- Tab panes -->
+		<div class="col-xs-12">
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane fade in active" id="windows">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://electroncash.org" target="_blank">
+								<img alt="Electron Cash Wallet" src="/img/wallets/electroncash.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.exodus.io/" target="_blank">
+								<img alt="Exodus" src="/img/wallets/exodus.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bitpay.com/wallet" target="_blank">
+								<img alt="Bitpay Wallet" src="/img/wallets/bitpay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://paperwallet.bitcoin.com/" target="_blank">
+								<img alt="Bitcoin.com Paper Wallet" src="/img/wallets/bitcoindotcom.png">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="macos">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://electroncash.org" target="_blank">
+								<img alt="Electron Cash Wallet" src="/img/wallets/electroncash.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.exodus.io/" target="_blank">
+								<img alt="Exodus" src="/img/wallets/exodus.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bitpay.com/wallet" target="_blank">
+								<img alt="Bitpay Wallet" src="/img/wallets/bitpay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://paperwallet.bitcoin.com/" target="_blank">
+								<img alt="Bitcoin.com Paper Wallet" src="/img/wallets/bitcoindotcom.png">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="linux">
+					<div class="row">
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://electroncash.org" target="_blank">
+								<img alt="Electron Cash Wallet" src="/img/wallets/electroncash.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://www.exodus.io/" target="_blank">
+								<img alt="Exodus" src="/img/wallets/exodus.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://bitpay.com/wallet" target="_blank">
+								<img alt="Bitpay Wallet" src="/img/wallets/bitpay.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-md-3 vertical-align to-animate">
+							<a href="https://paperwallet.bitcoin.com/" target="_blank">
+								<img alt="Bitcoin.com Paper Wallet" src="/img/wallets/bitcoindotcom.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-xs-12 section-heading hardware-wallet">
+			<h2>Hardware {% t 'headings.wallets' %}</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 col-md-3 vertical-align to-animate">
+				<a href="http://www.ledgerwallet.com/" target="_blank">
+					<img alt="Ledger" src="/img/wallets/ledger.png">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3 vertical-align to-animate">
+				<a href="https://wallet.trezor.io/" target="_blank">
+					<img alt="Trezor" src="/img/wallets/trezor.png">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3 vertical-align to-animate">
+				<a href="https://www.coldlar.com/" target="_blank">
+					<img alt="Coldlar Wallet" src="/img/wallets/coldlar.png">
+				</a>
+			</div>
+		</div>
+
+
+
+		<div class="col-xs-12 section-heading paper-wallet">
+			<h2>Paper {% t 'headings.wallets' %}</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 col-md-3 vertical-align to-animate">
+				<a href="https://paperwallet.bitcoin.com/" target="_blank">
+					<img alt="Bitcoin.com Paper Wallet" src="/img/wallets/bitcoindotcom.png">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3 vertical-align to-animate">
+				<a href="https://cashaddress.org/" target="_blank">
+					<img alt="Cash Address" src="/img/wallets/cashaddress.png">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3 vertical-align to-animate">
+				<a href="https://walletgenerator.net/?currency=BitcoinCash" target="_blank">
+					<img alt="WalletGenerator.net" src="/img/wallets/walletgenerator.png">
+				</a>
+			</div>
+		</div>
+		<div class="row text-center">
+			<a href="getting-started.html" class="card-user-profile-button btn btn-secondary btn-round secondary">&laquo; {% t 'gettingstarted.title' %}</a>
+			<a href="buy-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'buyorearn.title' %} &raquo;</a>
+		</div>
+	</div>
+</section>

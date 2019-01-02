@@ -1,20 +1,39 @@
-﻿language: Deutsch Deutschland
+﻿language: English
+lang: de
 title:
-  index: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
-  graphics: "Bitcoin Cash - Logos / Grafik"
-  get-listed: ""
+  index: "Bitcoin Cash – Eine elektronische Peer-to-Peer Währung"
+  graphics: "Logos / Grafiken – Bitcoin Cash"
+  get-listed: "Eine Angebotsanfrage senden – Bitcoin Cash"
+  gettingstarted: "Erste Schritte – Bitcoin Cash"
+  starthere: "Beginnen Sie hier – Bitcoin Cash"
+  wallets: "Eine Wallet herunterladen – Bitcoin Cash"
+  buyorearn: "BCH kaufen oder verdienen – Bitcoin Cash"
+  spendbch: "Mit BCH bezahlen – Bitcoin Cash"
+  acceptbch: "BCH akzeptieren – Bitcoin Cash"
+  faq: "Häufig gestellte Fragen - Bitcoin Cash"
+  nodes: "Nodes – Bitcoin Cash"
+  services: "Dienstleistungen – Bitcoin Cash"
+  projects: "Projekte – Bitcoin Cash"
+  exchanges: "Börsen – Bitcoin Cash"
+  developers: "Entwicklerportal – Bitcoin Cash"
+  workgroups: "Arbeitsgruppen – Bitcoin Cash"
+  tools: "Tools – Bitcoin Cash"
+  tech: "Tech. – Bitcoin Cash"
+  specs: "Spezifikationen – Bitcoin Cash"
+  learn: "Mehr Informationen – Bitcoin Cash"
+  404: "404 – Seite nicht gefunden – Bitcoin Cash"
 meta:
   index:
     description: |
-      Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+      Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft von Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
     twitter:
-      title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+      title: "Bitcoin Cash – Eine elektronische Peer-to-Peer-Währung"
       description: |
-        Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+        Bitcoin Cash bietet der gesamten Welt eine stabile Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Bitcoin Cash steuert dank unbegrenztem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung auf eine glänzende Zukunft zu.
     og:
-      title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+      title: "Bitcoin Cash – Eine elektronische Peer-to-Peer Währung"
       description: |
-        Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+        Bitcoin Cash bietet der gesamten Welt eine stabile Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
   graphics:
     description: |
       Eine Sammlung von Logos und Grafik für Bitcoin Cash
@@ -23,18 +42,18 @@ meta:
       description: |
         Eine Sammlung von Logos und Grafik für Bitcoin Cash
     og:
-      title: "Bitcoin Cash - Logos / Grafik"
+      title: "Bitcoin Cash – Logos / Grafik"
       description: |
         Eine Sammlung von Logos und Grafik für Bitcoin Cash
 graphics:
   title: "Werbegrafik"
-  description: ""
+  description: "Diese Bitcoin Cash-Logos und Marken-Assets können zur Anzeige in Online-Diensten, Einzelhandelsgeschäften, zu Presse- oder anderen Werbezwecken verwendet werden."
   logos: "Logos"
   download_png_svg: "Laden Sie Bitcoin Cash Logos in PNG und SVG herunter"
   download_all: "Alles herunterladen"
   small: "Klein (PNG)"
   medium: "Mittel (PNG)"
-  large: "groß (PNG)"
+  large: "Groß (PNG)"
   full: "Volle Größe (PNG)"
   vector: "Vektor (SVG)"
   sections:
@@ -49,16 +68,16 @@ graphics:
     mark: "BCH Logo Mark"
     horizontal_primary: "BCH Logo Horizontal Primär"
     horizontal_white: "BCH Logo Horizontal Weiß"
-    wallets_exchanges: ""
+    wallets_exchanges: "BCH-Logo für Wallets / Börsen"
   merchant:
-    title: ""
-    description: ""
-    primary: "Bitcoin Cash Accepted Here Primär"
+    title: "Händler-Schaltflächen"
+    description: "Zeigen Sie Ihren Kunden, dass Sie Bitcoin Cash akzeptieren"
+    primary: "Bitcoin Cash Accepted Here Primary"
     orange: "Bitcoin Cash Accepted Here Orange"
   donation:
-    title: ""
-    description: ""
-    primary: "Bitcoin Cash Donations Accepted Primär"
+    title: "Spenden-Schaltflächen"
+    description: "Fördern Sie die Akzeptanz von Bitcoin Cash als Spendenmethode."
+    primary: "Bitcoin Cash Donations Accepted Primary"
     orange: "Bitcoin Cash Donations Accepted Orange"
   identity:
     title: "Visuelle Identität"
@@ -74,124 +93,124 @@ graphics:
     cmyk: "CMYK"
     pantone: "Pantone"
 developers:
-  title: ""
-  description: ""
+  title: "Großartige Apps erstellen mit Bitcoin Cash"
+  description: "Ressourcen für Entwickler von Entwicklern."
   sections:
-    home: "Home"
-    getStarted: "Fang an"
-    news: "Nachrichten"
+    home: "Startseite"
+    getStarted: "Fangen Sie an"
+    news: "Neuigkeiten"
   getStarted:
     tech:
-      title: "Technik"
-      description: ""
+      title: "Tech."
+      description: "Offen zugängliche Technik für alle"
     learn:
       title: "Lernen"
-      description: "Erlernen Sie Bitcoin Cash Entwicklung"
+      description: "Erfahren Sie, wie Sie Projekte entwickeln, die Bitcoin Cash verwenden"
     tools:
       title: "Werkzeuge"
-      description: ""
+      description: "Alles, was nötig ist, um es zu ermöglichen"
     workgroups:
       title: "Arbeitsgruppen"
-      description: "Koordination der Gemeinschaft"
+      description: "Koordination der Community"
     specs:
       title: "Spezifikationen"
-      description: ""
+      description: "Wortschatz und zugehörige APIs für Bitcoin Cash"
 workgroups:
-  title: "BITCOIN CASH ARBEITSGRUPPEN"
-  description: ""
+  title: "BITCOIN CASH-ARBEITSGRUPPEN"
+  description: "Technische Community, die gemeinsam arbeitet"
   sections:
     workgroups: "Arbeitsgruppen"
-    home: "Home"
+    home: "Startseite"
   tutorials:
     title: "Tutorials"
-    description: ""
+    description: "Schritt-für-Schritt-Anleitungen, um Sie von den Grundlagen zu professionellen Apps zu führen"
   workgroups:
-    description: ""
+    description: "Im Folgenden finden Sie eine thematische Liste der Bitcoin Cash-Entwicklungsarbeitsgruppen. Jede Gruppe sollte sich auf ein bestimmtes Thema konzentrieren. Sie können für eine begrenzte Zeit bestehen oder von anhaltendem Interesse sein."
     sections:
       communication: "Kommunikation"
-      officers: ""
+      officers: "Verantwortliche"
       parties: "Interessierte Parteien"
       summaries: "Zusammenfassungen"
     wg-daa:
-      title: "Dificulty Adjustment Algorithm"
-      description: ""
+      title: "Algorithmus zur Anpassung der Schwierigkeit"
+      description: "Arbeitsgruppe zur Erforschung und Diskussion der neuesten Technologien zur Anpassung der Schwierigkeitsgrade und deren Implementierung in Bitcoin Cash."
     wg-blocksize:
-      title: "Block Size Increases"
-      description: ""
+      title: "Blockgrößen-Zunahmen"
+      description: "In diesem Meeting sollen alle Themen zur Erweiterung der Blockgröße erörtert werden."
     wg-fungibility:
-      title: "Fungibility"
-      description: ""
+      title: "Übertragbarkeit"
+      description: "Diskussions-Arbeitsgruppe für Fragen zum besseren Schutz der Privatsphäre bei Bitcoin Cash."
     wg-hardforks:
-      title: "Regular Hardfork Mechanism"
-      description: ""
+      title: "Regelmäßiger Hardfork-Mechanismus"
+      description: "Definieren einer Spezifikation, wie Bitcoin Cash-Node-Implementierungen Hardforks in regelmäßigen Abständen ausführen."
     wg-malfix:
-      title: "Malleability Fixes"
-      description: ""
+      title: "Verbesserungen der Malleability"
+      description: "Anpassungen bezüglich der Transaktionsfähigkeit, um verschiedene andere Technologien neben der Bitcoin Cash-Blockchain zu aktivieren."
     wg-opcodes:
-      title: "Op Codes"
-      description: ""
+      title: "Op. Codes"
+      description: "Vorschlagen der erneuten Aktivierung verschiedener Op. Codes und Erstellen klar definierter Spezifikationen für das Verhalten und die Veröffentlichung jedes Op. Codes."
     wg-protocol-spec:
-      title: "Formal Protocol Specification"
-      description: ""
+      title: "Formale Protokollspezifikation"
+      description: "Zweck dieser Arbeitsgruppe ist die Koordination der Entwicklung, Überprüfung und Abnahme eines formalen Definitionsdokuments für das Bitcoin Cash-Protokoll. Zunächst ist vorgesehen, dass der Geltungsbereich auf harte Konsensregeln begrenzt, später jedoch auf sanfte Regeln ausgedehnt wird."
     wg-qa:
-      title: "Quality Assurance"
-      description: ""
+      title: "Qualitätskontrolle"
+      description: "Definieren von Qualitätsstandards, nach denen eine Node-Implementierung zertifiziert werden kann."
     wg-sidechains:
       title: "Sidechains"
-      description: ""
+      description: "Diskussion zu Sidechains auf Bitcoin Cash und Allgemeinem."
     wg-tokens:
-      title: "Tokens"
-      description: ""
+      title: "Token"
+      description: "Diskussion zu Bitcoin Cash-kompatiblen Tokens"
     wg-utxocommit-sync:
-      title: "UTXO Commitments and Syncing"
-      description: ""
+      title: "UTXO-Verpflichtungen und Synchronisierung"
+      description: "Definieren von Qualitätsstandards, nach denen eine Node-Implementierung zertifiziert werden kann."
     wg-ux:
-      title: "User Experience"
-      description: ""
+      title: "Nutzererfahrung"
+      description: "Planung und Koordination von Weiterentwicklungen bezüglich Bitcoin Cash-Wallets."
     wg-watercooler:
-      title: "Watercooler"
-      description: ""
+      title: "Allgemeine Diskussion"
+      description: "Diskussion zu Sidechains auf Bitcoin Cash und Allgemeinem."
 learn:
-  title: ""
-  description: ""
+  title: "Erlernen Sie die Bitcoin Cash-Entwicklung"
+  description: "Sammeln Sie neue Fähigkeiten, um erstaunliche Dinge zu erstellen"
   sections:
-    home: "Home"
+    home: "Startseite"
     tutorials: "Tutorials"
   tutorials:
     title: "Tutorials"
-    description: ""
+    description: "Schritt-für-Schritt-Anleitungen, um Sie von den Grundlagen zu professionellen Apps zu führen"
 specs:
-  title: ""
-  description: ""
+  title: "Bitcoin Cash-Entwicklerportal"
+  description: "Im Folgenden finden Sie eine thematische Liste der Bitcoin Cash-Entwicklungsarbeitsgruppen. Jede Gruppe sollte sich auf ein bestimmtes Thema konzentrieren. Sie können für eine begrenzte Zeit bestehen oder von anhaltendem Interesse sein."
   sections:
-    home: "Home"
+    home: "Startseite"
     workgroups: "Arbeitsgruppen"
     specifications: "Spezifikationen"
     ecosystem: "Ökosystem"
   specifications:
-    title: "Bitcoin Cash Spezifikationen"
-    description: ""
+    title: "Bitcoin Cash-Spezifikationen"
+    description: "Im Folgenden finden Sie eine Liste der bevorstehenden und früheren Bitcoin Cash-Upgrades."
   ecosystem:
-    title: "Bitcoin Cash Ökosystem"
+    title: "Bitcoin Cash-Ökosystem"
     description: ""
 tech:
-  title: ""
-  description: ""
+  title: "Offene Technik für alle"
+  description: "Geld ist für jeden auf der Welt wichtig. Bitcoin Cash ist die beste Währung, die es je gab."
   sections:
-    home: "Home"
-    foundation: ""
-    emerging: ""
+    home: "Startseite"
+    foundation: "Grundlage"
+    emerging: "Entstehend"
   foundation:
-    title: ""
-    description: ""
+    title: "Grundlagen"
+    description: "Das notwendige Wissen, um Ihre Reise zu beginnen"
   emerging:
-    title: ""
-    description: ""
+    title: "Entstehend"
+    description: "Die sich ständig verändernde und wachsende Welt von Bitcoin Cash"
 tools:
-  title: ""
-  description: ""
+  title: "Werkzeuge"
+  description: "Möchten Sie die Welt mit Bitcoin Cash verändern? Großartig, hier sind die Werkzeuge, die Sie dafür benötigen."
   sections:
-    home: "Home"
+    home: "Startseite"
     javascript: "Javascript"
   javascript:
     title: "Javascript"
@@ -200,6 +219,7 @@ misc:
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
+  home: "Startseite"
   about: "Über"
   features: "Features"
   nodes: "Nodes"
@@ -208,101 +228,234 @@ sections:
   services: "Dienste"
   projects: "Projekte"
   exchanges: "Börsen"
-  graphics: "Logos / Grafik"
-  developers: ""
+  graphics: "Logos"
+  developers: "Entwicklerportal"
   learn: "Lernen"
-  specs: ""
+  specs: "Spez. Dokumente"
   tech: "Technologie"
   tools: "Werkzeuge"
   workgroups: "Arbeitsgruppen"
-  faq: "FAQ"
+  faq: "Über Bitcoin Cash"
+  starthere: "Beginnen Sie hier"
 layout:
   bitcoin_cash: "Bitcoin Cash"
-  lead: "Eine elektronische Peer-to-Peer Währung"
-  loading: "Lädt..."
+  lead: "Eine elektronische Peer-to-Peer-Währung"
+  leadsubtitle: "Ermöglichung von Transaktionen mit niedrigen Gebühren, umfangreichen Geschäftstransaktionen und Ausgaben ohne Zustimmung für neue Ökonomien."
+  herobutton_one: "Fangen Sie an"
+  herobutton_two: "Eine Wallet herunterladen"
+  loading: "Lädt …"
 features:
   - title: "Schnell"
-    description: ""
+    description: "Schicken Sie Transaktionen in Sekunden. Erhalten Sie innerhalb von wenigen Minuten eine Bestätigung."
   - title: "Zuverlässig"
-    description: ""
+    description: "Ein Netzwerk, das ohne Überlastung läuft."
   - title: "Niedrige Gebühren"
-    description: ""
+    description: "Senden Sie Geld weltweit für ein paar Cent."
   - title: "Einfach"
-    description: ""
+    description: "Einfache Anwendung. Keine Komplikationen."
   - title: "Stabil"
-    description: ""
+    description: "Ein Zahlungssystem, das sich als Speicherort für Vermögen bewährt hat."
   - title: "Sicher"
-    description: ""
+    description: "Die weltweit robusteste Blockchain-Technologie."
 headings:
   about: "Die beste Währung der Welt"
-  developers: "Fang an"
+  community: "Schließen Sie sich der Bitcoin Cash-Community an"
+  steps: "Fangen Sie an"
+  developers: "Fangen Sie an"
   exchanges: "Börsen"
+  microeconomy: "Mikroökonomie"
   faq: "Häufig gestellte Fragen"
   news: "Nachrichten"
   nodes: "Nodes"
   projects: "Projekte"
   services: "Dienste"
   wallets: "Wallets"
-  listingrequest: ""
-  error404: ""
-  benefits: ""
-  why: ""
-  history: ""
-  development: ""
+  featured-wallets: "Empfohlene Wallets"
+  whitepaper: "Lesen Sie das Whitepaper"
+  listingrequest: "Senden Sie eine Angebotsanfrage"
+  error404: "Fehler 404"
+  benefits: "Vorteile für Händler"
+  why: "Warum Bitcoin Cash verwenden?"
+  history: "Die Geschichte von Bitcoin Cash"
+  development: "Dezentrale Entwicklung"
+networkupgrade:
+  reminder: "Erinnerung"
+  date: "15. November 2018"
+  title: "Geplantes Netzwerk-Upgrade"
+  description: "Das Bitcoin Cash-Netzwerk wird einem Protokollupgrade unterzogen. Unternehmen und Einzelpersonen, die das Bitcoin Cash-Netzwerk verwenden, sollten überprüfen, ob ihre Software mit dem Upgrade kompatibel ist."
+  compatible: "Kompatible Implementierungen"
+  additional: "Weitere Informationen"
+  testnet: "Testnet Information"
+  hfspec: "Hardfork-Spezifikation für November"
+  spec: "Spezifikation für  OP_CHECKDATASIG und OP_CHECKDATASIGVERIFY"
+  close: "Schließen"
+  upgradecomplete: "Upgrade abgeschlossen"
+  completedescription: "Das geplante Upgrade des Bitcoin Cash Netzwerks wurde erfolgreich abgeschlossen."
+whitepaper:
+  description: 'Das ursprüngliche Whitepaper wurde am 31. Oktober 2008 von Satoshi Nakamoto, dem anonymen Schöpfer der ersten Kryptowährung der Welt, veröffentlicht. Der Titel des Bitcoin-Whitepapers lautet „Bitcoin: Ein Peer-to-Peer-Electronic-Cash-System“. Bitcoin Cash möchte diese Vision weiterführen, der Welt eine stabile Währung zu bringen.'
 error404:
-  subheading: ""
-  button: ""
+  subheading: Die von Ihnen gesuchte Seite existiert nicht.
+  button: Zur Startseite wechseln
 content:
   about:
     - |
-      Bitcoin bietet der Welt eine solide Währung, die der Originalvision von Bitcoin als "Peer-to-Peer Electronic Cash" entspricht. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+      Bitcoin bietet der Welt eine stabile Währung, die der Originalvision von Bitcoin als „Peer-to-Peer-Electronic Cash“ entspricht. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Bitcoin Cash steuert dank unbegrenztem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung auf eine glänzende Zukunft zu.
     - |
+      Jeder, der bei Block 478558 Bitcoin besessen hat, erhielt ebenso automatisch Bitcoin Cash. Alle sind herzlich eingeladen, der Bitcoin Cash-Community beizutreten, während wir die stabile Währung für die gesamte Welt zugänglich zu machen.
   faq:
     - question: "Was ist Bitcoin Cash?"
       answer:
         - |
-    - question: "Ist Bitcoin Cash anders als \"Bitcoin\"?"
+          Bitcoin Cash ist ein Peer-to-Peer-Electronic Cash-System. Es handelt sich um eine zulassungsfreie, dezentralisierte Kryptowährung, die keine vertrauenswürdigen Drittparteien und keine Zentralbank erfordert.
+    - question: "Unterscheidet sich Bitcoin Cash von „Bitcoin“?"
       answer:
         - |
+          Im Jahr 2017 spalteten sich das Bitcoin-Projekt und seine Community in zwei Teile. Die am wenigsten umstrittene Art, sich auf jede Seite zu beziehen, ist vielleicht nur durch ihre jeweiligen Tickersymbole BTC und BCH. Bitcoin Cash wird normalerweise durch das BCH-Tickersymbol dargestellt und wird von seinen Unterstützern als legitime Fortführung des Bitcoin-Projekts als digitales Peer-to-Peer-Cash angesehen.
   why:
-      - benefit: ""
+      - benefit: "Versenden Sie weltweit Geld, fast kostenlos"
         descrip:
           - |
-      - benefit: ""
+            Mit Bitcoin Cash können Sie rund um die Uhr an 365 Tagen im Jahr an jeden Ort der Welt und jede Person Geld senden. Wie das Internet selbst ist das Netzwerk immer aktiv. Keine Transaktion ist zu groß oder zu klein. Und Sie benötigen niemals die Erlaubnis oder Zustimmung von jemandem.
+      - benefit: "Seien Sie einfach Ihre eigene Bank – mit voller Kontrolle über Ihr Geld"
         descrip:
           - |
+            Anhand der Beschlagnahmungen von Kapital von Kontoinhabern („Bail-Ins“), die in Zypern und fast in Griechenland aufgetreten sind, können wir erkennen, dass Bankeinlagen nur so sicher sind, wie es die politischen Führer entscheiden. Selbst unter den besten Bedingungen können Banken Fehler machen, Gelder vorenthalten, Konten einfrieren und auf andere Weise den Zugriff auf Ihr Geld verhindern.
           - |
-      - benefit: ""
+            Banken können sich auch dazu entscheiden, Ihre Transaktionen zu sperren, Gebühren zu erheben oder Ihr Konto ohne Vorwarnung zu schließen. Mit Bitcoin Cash haben Sie die volle Kontrolle über Ihre Mittel, auf die Sie von überall auf der Welt zugreifen können.
+      - benefit: "Eine begrenzte digitale Währung mit einem bekannten festen Angebot"
         descrip:
           - |
-      - benefit: ""
+            Das Bitcoin Cash-Protokoll stellt sicher, dass niemals mehr als 21 Millionen Coins vorhanden sind. Regierungen drucken ständig Geld, wodurch das Angebot endlos aufgebläht wird und alle Ersparnisse abgewertet werden. Bitcoin Cash verfügt über ein festes Angebot und ist somit eine stabile Währung.
+      - benefit: "Erhöhen Sie Ihre Privatsphäre und arbeiten Sie anonym"
         descrip:
           - |
+            Bitcoin Cash bietet mehr Privatsphäre und Anonymität als herkömmliche Zahlungssysteme als Überweisungen und Kreditkartenzahlungen, da normalerweise nicht auszumachen ist, wer eine Bitcoin-Adresse kontrolliert.
           - |
-      - benefit: ""
+            Bitcoin Cash bietet je nach Verwendung verschiedene Datenschutzstufen. Es ist wichtig, dass Sie sich gründlich informieren, bevor Sie BCH zu privaten Zwecken verwenden.
+      - benefit: "Profitieren Sie von exklusiven Rabatte"
         descrip:
           - |
-      - benefit: ""
+            Viele Händler bieten Rabatte für die Zahlung in Bitcoin Cash an, da dadurch keine Kreditkartengebühren anfallen. Somit steigt die Akzeptanz dieses neuen Zahlungssystems.
+      - benefit: "Unterstützen Sie weltweite Freiheit"
         descrip:
           - |
+            Bitcoin Cash ist ein offenes Netzwerk ohne Zugangsbeschränkung. Es befähigt Sie, sich mit Ihren Mitmenschen störungslos auseinanderzusetzen. Es ist dezentral, freiwillig und nicht zwingend. Mit zunehmender Nutzung werden alte Machtstrukturen erodieren, während neue Ideen aufblühen. Es könnte dabei helfen, die weltweit größte friedliche Revolution einzuleiten, die es jemals gab.
   benefits:
-      - benefit: ""
+      - benefit: "Sehr niedrige Gebühren"
         descrip:
           - |
-      - benefit: ""
+            Die Netzwerkgebühr für eine typische Bitcoin-Cash-Transaktion beträgt weniger als einen Cent. Wenn Sie Ihre BCH in eine Papierwährung umrechnen möchten, z. B. in US-Dollar, können Sie dies durch Händler-Bearbeiter zu einem Preis erledigen, der noch immer viel niedriger ist als Kreditkartenabwicklung.
+      - benefit: "Keine Rückbuchungen"
         descrip:
           - |
-      - benefit: ""
+            Im Gegensatz zu Kreditkarten treten niemals automatische Stornierungen, Rückerstattungen, Rückbuchungen oder andere unerwartete Gebühren auf. Ein Betrugsschutz ist in das System integriert, ohne dass der Händler dafür Kosten trägt.
+      - benefit: "Neue Kunden"
         descrip:
           - |
-      - benefit: ""
+            Immer mehr Kunden entscheiden sich für Bitcoin Cash als bevorzugte Zahlungsmethode. Sie bevorzugen Händler, die diese Zahlungsoption anbieten, und suchen diese bewusst auf.
+      - benefit: "Kostenloses Marketing und Presse"
         descrip:
           - |
+            Durch die Annahme von Bitcoin Cash können Händler kostenlose Einträge in Website- und App-Verzeichnissen erhalten, wodurch noch mehr Kunden gewonnen werden. Sie können diesen neuen Trend auch nutzen und für mediale Aufmerksamkeit für ihr Unternehmen sorgen.
   history:
       - |
+        Im Oktober 2008 veröffentlichte Satoshi Nakamoto das berühmte Whitepaper mit dem Titel <strong>„Bitcoin: Ein Peer-to-Peer-Electronic-Cash-System“</strong>. 2009 brachte er die erste Bitcoin-Software auf den Markt, mit der das Netzwerk betrieben wurde. Es lief über mehrere Jahre hinweg reibungslos mit niedrigen Gebühren und schnellen, zuverlässigen Transaktionen.
       - |
+        Leider wurde Bitcoin von 2016 bis 2017 immer unzuverlässiger und teurer. Dies lag daran, dass die Community keinen Konsens über die Erhöhung der Netzwerkkapazität erzielen konnte. Einige Entwickler haben Satoshis Plan nicht verstanden und waren nicht einverstanden mit ihm. Stattdessen war es ihnen lieber, dass Bitcoin zum Kontenausgleich genutzt wurde.
       - |
+        Bis 2017 war die Dominanz von Bitcoin als direkte Folge von Usability-Problemen von 95 % auf 40 % gefallen. Glücklicherweise glaubte ein großer Teil der Bitcoin-Community, darunter Entwickler, Investoren, Benutzer und Unternehmen, noch immer an die ursprüngliche Vision von Bitcoin – Ein kostengünstiges Peer-to-Peer-E-Cash-System, das überall auf der Welt genutzt werden kann.
       - |
+        Am 1. August 2017 haben wir den logischen Schritt unternommen, die maximale Blockgröße zu erhöhen, und Bitcoin Cash war geboren. Jeder, der zu dieser Zeit Bitcoin hielt (Block 478558), wurde Besitzer von Bitcoin Cash (BCH). Das Netzwerk unterstützt nun bis zu 32 MB Blöcke mit fortlaufender Forschung, um zukünftig massive Zuwächse zu ermöglichen.
   development:
       - |
+        Dank mehrerer unabhängiger Entwicklerteams, die Softwareimplementierungen bereitstellen, ist die Zukunft sicher. Bitcoin Cash ist resistent gegen Personen, die aus politischen oder sozialen Gründen das Eigentum auf die Protokollentwicklung beanspruchen. Keine einzelne Gruppe oder Projekt kann es alleine kontrollieren. Mehrere Implementierungen bieten auch Redundanz, um sicherzustellen, dass das Netzwerk stets in Betrieb ist.
       - |
+        Mit der <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Bitcoin-ml-Mailingliste</a> können Sie bequem Änderungsvorschläge unterbreiten, die eine Abstimmung zwischen den Entwicklungsteams erfordern. Es wurden <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">Arbeitsgruppen</a> eingerichtet, um Entwicklern bei der Koordinierung und Suche nach Peer-Review zu helfen. Für diejenigen, die Änderungen am Bitcoin Cash-Protokoll implementieren möchten, wird empfohlen, frühzeitig Peer-Reviews einzuholen und mit anderen Entwicklern in den Arbeitsgruppen zusammenzuarbeiten.
+viewmore: "Mehr anzeigen"
+gettingstarted:
+  title: "Fangen Sie an"
+  subtitle: "Was ist elektronisches Peer-to-Peer-Cash?"
+  excerpt: "Peer-to-Peer-Geld (P2P) wird einfach ausgedrückt als Online-Geld bezeichnet, das von einer Person an eine andere gesendet wird, ohne dass eine vertrauenswürdige Drittpartei gebraucht wird. Wie in dem ursprünglichen Bitcoin-Whitepaper von Satoshi Nakamoto beschrieben, verwendet P2P-Cash digitale Signaturen als Teil der Lösung. Die Hauptvorteile gehen jedoch verloren, wenn eine vertrauenswürdige Drittpartei noch gebraucht wird, um Betrug zu verhindern. Dies macht P2P-Cash zu einer vertrauenswürdigen und sicheren Möglichkeit, Transaktionen ohne Zwischenhändler durchzuführen."
+  description: "Peer-to-Peer-Geld (P2P) wird einfach ausgedrückt als Online-Geld bezeichnet, das von einer Person an eine andere gesendet wird, ohne dass eine vertrauenswürdige Drittpartei gebraucht wird. Wie in dem ursprünglichen Bitcoin-Whitepaper von Satoshi Nakamoto beschrieben, verwendet P2P-Cash digitale Signaturen als Teil der Lösung. Die Hauptvorteile gehen jedoch verloren, wenn eine vertrauenswürdige Drittpartei noch gebraucht wird, um Betrug zu verhindern. Dies macht P2P-Cash zu einer vertrauenswürdigen und sicheren Möglichkeit, Transaktionen ohne Zwischenhändler durchzuführen."
+  sidetitle: "Erfahren Sie alles über Bitcoin Cash"
+  shoponline: "Online shoppen"
+  shoponline_excerpt: "Bezahlen Sie mit Bitcoin Cash bei einigen Ihrer bevorzugten Online-Händler."
+  spendatrestaurants: "Bezahlen in Restaurants"
+  spendatrestaurants_excerpt: "Besuchen Sie Restaurants oder Cafés, die Bitcoin Cash akzeptieren."
+  shopinperson: "Persönlich einkaufen"
+  shopinperson_excerpt: "Besuchen Sie uns in über <span class='merchantCount'>192</span> physischen Standorten, wo Bitcoin Cash akzeptiert wird."
+  maptitle: "Bitcoin Cash persönlich ausgeben"
+  mapcount: "Aufgelistete Unternehmen"
+downloadwallet:
+  title: "Eine Wallet herunterladen"
+  subtitle: "Wo speichere ich mein Bitcoin Cash?"
+  excerpt: "Der Einstieg in Bitcoin Cash ist denkbar einfach. Der erste Schritt ist das Herunterladen einer Wallet, damit Sie an der Bitcoin-Wirtschaft teilnehmen können. Die meisten Wallets können kostenlos heruntergeladen werden und sind einfach zu bedienen. Sie verfügen über einige wichtige Funktionen wie Senden, Empfangen, Sicheres Speichern von Mitteln, Durchsuchen von Transaktionen und mehr."
+  description: "Der Einstieg in Bitcoin Cash ist denkbar einfach. Der erste Schritt ist das Herunterladen einer Wallet, damit Sie an der Bitcoin-Wirtschaft teilnehmen können. Die meisten Wallets können kostenlos heruntergeladen werden und sind einfach zu bedienen. Sie verfügen über einige wichtige Funktionen wie Senden, Empfangen, Sicheres Speichern von Mitteln, Durchsuchen von Transaktionen und mehr."
+  sidetitle: "Welche Wallet-Art soll ich nutzen?"
+  mobilewallet: "Mobile Wallet"
+  mobilewallet_excerpt: "Eine mobile Wallet eignet sich hervorragend zum Speichern und Ausgeben von Bitcoin Cash."
+  desktopwallet: "Desktop-Wallet"
+  desktopwallet_excerpt: "Verwenden Sie eine Desktop-Wallet, um Bitcoin Cash in Ihr Unternehmen zu integrieren."
+  hardwarewallet: "Hardware-Wallet"
+  hardwarewallet_excerpt: "Bewahren Sie Ihr Bitcoin Cash in einer sicheren Hardware-Wallet auf. Ideal für die langfristige Speicherung."
+  paperwallet: "Papier-Wallet"
+  paperwallet_excerpt: "Speichern Sie Ihr Bitcoin Cash offline in einer Papier-Wallet. Ideal für die langfristige Speicherung oder zum Verschenken an Freunde oder Familie."
+  featuredwallets: "Angebotene Wallets"
+  bitcoindotcom: "Beginnen Sie mit der Verwendung der Bitcoin.com-Wallet, um Bitcoin auf einfache und sichere Weise zu senden und zu empfangen. Die Wallet unterstützt sowohl Bitcoin Cash (BCH) als auch Bitcoin Core (BTC), sodass Benutzer problemlos zwischen den beiden Währungen wechseln können."
+  handcash: "Was entspricht mehr dem Peer-to-Peer-Gedanken als Bargeld einfach persönlich zu übergeben? Keine Adressen, keine Drittparteien nötig. Die Wallet hat diesen Prozess digitalisiert, indem Bitcoin Cash als Basis des Produkt-Ökosystems verwendet wird."
+  yenom: "Yenom ist eine einfache, anfängerfreundliche Bitcoin Cash-Wallet. Ideal für Familien oder Freunde, die zum ersten Mal Bitcoin verwenden! Dies ist der einfachste Weg, um Bitcoin zu senden oder zu empfangen. Jeder kann es einfach mit Yenom versuchen."
+  electron: "Ihre privaten Schlüssel sind chiffriert und verlassen Ihren Computer niemals. Ihre Mittel können mit einem geheimen Passwort wiederhergestellt werden. Electron Cash ist schnell, weil es Server verwendet, die die Bitcoin-Blockchain indizieren. Sie können Ihre privaten Schlüssel exportieren und in anderen Bitcoin-Clients verwenden."
+buyorearn:
+  title: "Bitcoin Cash kaufen oder verdienen"
+  subtitle: "Wie erhalte ich Bitcoin Cash?"
+  excerpt: "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen BCH, nachdem der Austausch stattgefunden hat."
+  firstparagraph: "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen BCH, nachdem der Austausch stattgefunden hat. Die andere Möglichkeit ist, Bitcoin Cash zu verdienen, indem Sie dafür arbeiten. So können Sie beispielsweise einen Job in einer Jobbörse suchen, der in Bitcoin Cash bezahlt, oder eigene Dienstleistungen anbieten (z. B. T-Shirts verkaufen) und auf diese Weise Bitcoin Cash verdienen."
+  secondparagraphtitle: "Wo kann ich Bitcoin Cash in meiner Gegend finden?"
+  secondparagraph: "In vielen Städten gibt es einen Markt für außerbörsliche (Over-The-Counter, oder OTC)-Händler, die gegen Bitcoin Cash (z. B. US-Dollar, Yen, Euro usw.) handeln. Sie können auch Ihren Arbeitgeber fragen, ob er bereit ist, eine zukunftsweisende Zahlungsmethode zu unterstützen und eine teilweise oder vollständige Zahlung in Bitcoin Cash anzubieten. In einigen größeren Städten gibt es auch Bitcoin Cash-fähige Geldautomaten, die den Umtausch von Bitcoin Cash in Papierwährung sehr einfach machen. Fragen Sie bei Ihrem nächstgelegenen <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a> nach weiteren Möglichkeiten, oder besuchen Sie Restaurants in Ihrer Stadt, in denen Sie mit <a href='../spend-bitcoin-cash'>Bitcoin Cash bezahlen</a> und sich dort erkundigen können."
+  thirdparagraphtitle: "Kann ich Bitcoin Cash online erwerben?"
+  thirdparagraph: "Bitcoin Cash online zu kaufen ist der beliebteste Weg, um Bitcoin Cash zu erhalten. Online-Börsen, die lokale Währungen und Kryptowährungen kaufen und verkaufen, ermöglichen Ihnen Banküberweisungen für den Austausch mit Bitcoin Cash. Einige akzeptieren sogar Kreditkarten zum sofortigen Kauf. Wie bei jedem Online-Kauf können Sie selbst recherchieren und sicherstellen, dass Sie Ihre eigene Wallet haben. Wir empfehlen nicht, Bitcoin Cash in Börsen zu belassen. Sie sollten Ihr Bitcoin Cash immer in Ihrer eigenen Wallet speichern, die zuverlässig gesichert wurde."
+  sidetitle: "Wo kann ich Bitcoin Cash erhalten?"
+  buyexchange: "An einer Börse kaufen"
+  buyexchange_excerpt: "Senden Sie Papierwährungen an eine vertrauenswürdige Drittanbieter-Börse und erwerben Sie Bitcoin Cash"
+  usefaucet: "Verwenden Sie einen Bitcoin-Faucet"
+  usefaucet_excerpt: "Verwenden Sie einen zuverlässigen <a href='https://free.bitcoin.com'>Bitcoin Cash-Faucet</a>, um eine kleine Menge Bitcoin Cash kostenlos zu erhalten!"
+  buyapp: "In einer App kaufen"
+  buyapp_excerpt: "Verwenden Sie eine vertrauenswürdige Drittanbieter-App, die Bitcoin Cash mit einer Kreditkarte verkauft."
+  earnonline: "Bitcoin Cash online verdienen"
+  earnonline_excerpt: "Erstellen Sie beliebte Inhalte auf <a href='https://honest.cash'>honest.cash</a>. Werden Sie aktiv auf Zensur-resistenten Social-Media-Plattformen wie <a href='http://memo.cash'>Memo.cash</a> oder <a href='https://www.mttr.app/'>Matter</a>."
+  buyatm: "BCH an einem Bitcoin Cash-Geldautomaten erwerben"
+  buyatm_excerpt: "In vielen Städten auf der ganzen Welt gibt es spezielle Bitcoin Cash-fähige Geldautomaten."
+  buyinperson: "Kaufen Sie persönlich"
+  buyinperson_excerpt: "Treten Sie in Kontakt mit Personen in Ihrer Nähe, die Bitcoin Cash verkaufen."
+  acceptbch: "Bitcoin Cash in Ihrem Unternehmen annehmen"
+  acceptbch_excerpt: "Fügen Sie in Ihrem Unternehmen Bitcoin Cash als Zahlungsmethode hinzu. Verkaufen Sie Artikel online oder persönlich für BCH."
+  getpaid: "Bitten Sie um die Zahlung in Bitcoin Cash"
+  getpaid_excerpt: "Erkundigen Sie sich bei Ihrem Arbeitgeber über die vollständige oder teilweise Bezahlung in Bitcoin Cash."
+spendbch:
+  title: "Bitcoin Cash ausgeben"
+  subtitle: "Was kann ich mit Bitcoin Cash kaufen?"
+  excerpt: "Bitcoin Cash ist nicht nur zur Spekulation gedacht. Es soll als elektronische Peer-to-Peer-Währung verwendet werden, oder anders ausgedrückt: es sollte ausgegeben werden. Mit Bitcoin Cash lässt sich schnell bezahlen, dank nahezu sofortigen Transaktionen und Transaktionsgebühren von weniger als einem Cent. Damit ist es die sicherste und am meisten verwendete digitale Währung der Welt."
+  description: "Bitcoin Cash ist nicht nur zur Spekulation gedacht. Es soll als elektronische Peer-to-Peer-Währung verwendet werden, oder anders ausgedrückt: es sollte ausgegeben werden. Mit Bitcoin Cash lässt sich schnell bezahlen, dank nahezu sofortigen Transaktionen und Transaktionsgebühren von weniger als einem Cent. Damit ist es die sicherste und am meisten verwendete digitale Währung der Welt."
+  sidetitle: "Wo kann ich mit Bitcoin Cash bezahlen"
+  shoponline: "Online shoppen"
+  shoponline_excerpt: "Bezahlen Sie mit Bitcoin Cash bei einigen Ihrer bevorzugten Online-Händler."
+  spendatrestaurants: "Bezahlen in Restaurants"
+  spendatrestaurants_excerpt: "Besuchen Sie Restaurants oder Cafés, die Bitcoin Cash akzeptieren."
+  shopinperson: "Persönlich einkaufen"
+  shopinperson_excerpt: "Besuchen Sie uns in über <span class='merchantCount'>192</span> physischen Standorten, wo Bitcoin Cash akzeptiert wird."
+  maptitle: "Bitcoin Cash persönlich ausgeben"
+  mapcount: "Aufgelistete Unternehmen"
+acceptbch:
+  title: "Bitcoin Cash annehmen"
+  subtitle: "Wie kann mein Unternehmen Bitcoin Cash verwenden?"
+  excerpt: "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Akzeptieren Sie Bitcoin Cash einfach direkt oder verwenden Sie Drittanbieter, um Bitcoin Cash über ihre Plattformen zu akzeptieren und den Erlös des Verkaufs ganz oder teilweise in lokale Papierwährung umzuwandeln."
+  description: "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Drittanbieter machen es Ihnen leicht, Bitcoin Cash über ihre Plattformen zu akzeptieren. Wenn Sie sich für eine Drittanbieterlösung für Händlerlösungen wie BitPay anmelden, richten Sie einfach Ihr Konto ein, damit Sie Bitcoin Cash erhalten und an Ihre Bitcoin-Wallet senden können. Oder Sie können Ihr Bitcoin Cash in Ihre lokale Papierwährung umwandeln. Die meisten Geschäfte machen eine Aufteilung, bei der einige Mittel zu Papierwährung liquidiert werden und andere als Kryptowährung verbleiben. Auf jeden Fall können Sie durch das Einrichten einer Anwendung für Händlerlösungen Bitcoin-Zahlungen sofort akzeptieren, ohne sich über die Komplexität der Annahme von Bitcoin Gedanken machen zu müssen."
+  sidetitle: "Wie kann ich Bitcoin Cash annehmen?"
+  acceptonline: "Bitcoin Cash-Zahlungsgateways"
+  acceptonline_excerpt: "Erhalten Sie Bitcoin Cash als Zahlungsmethode von vertrauenswürdigen Drittanbieter-Zahlungsgateways."
+  wordpress: "Bitcoin Cash in Wordpress aktivieren"
+  wordpress_excerpt: "Akzeptieren Sie Bitcoin Cash-Spenden für die Erstellung von Inhalten oder integrieren Sie sie in Ihre Wordpress-fähige E-Commerce-Plattform."
+  pos: "Point Of Sales"
+  pos_excerpt: "Versuchen Sie es mit einem der zahlreichen Bitcoin Cash-Point Of Sales (POS), um BCH in Ihrem Geschäft zu akzeptieren."
+  donations: "Spenden oder Trinkgelder annehmen"
+  donations_excerpt: "Non-Profit-Organisationen profitieren von extrem niedrigen Gebühren, wenn sie Bitcoin Cash-Spenden erhalten."

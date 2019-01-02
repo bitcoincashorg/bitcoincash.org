@@ -1,6 +1,7 @@
 ---
 layout: specification
 title: UAHF Technical Specification
+category: spec
 date: 2017-07-24
 activation: 1501590000
 version: 1.6
@@ -277,7 +278,7 @@ as "CASH" in user interfaces of some Bitcoin clients (BU, ABC).
 
 [3] [Digest for replay protected signature verification accross hard forks](replay-protected-sighash.md)
 
-[4] https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-test-plan.md
+[4] https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/uahf-test-plan.md
 
 
 END

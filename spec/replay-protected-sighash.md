@@ -1,6 +1,7 @@
 ---
 layout: specification
 title: BUIP-HF Digest for replay protected signature verification across hard forks
+category: spec
 date: 2017-07-16
 activation: 1501590000
 version: 1.2
@@ -30,7 +31,7 @@ The proposed digest algorithm is only used when the `SIGHASH_FORKID` bit in the 
 
 In presence of the `SIGHASH_FORKID` flag in the signature's sighash type, the proposed algorithm is used.
 
-Signatures using the `SIGHASH_FORKID` digest method must be rejected before [UAHF](https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md) is activated.
+Signatures using the `SIGHASH_FORKID` digest method must be rejected before [UAHF](https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/uahf-technical-spec.md) is activated.
 
 In order to ensure proper activation, the reference implementation uses the `SCRIPT_ENABLE_SIGHASH_FORKID` flag when executing `EvalScript` .
 
@@ -206,4 +207,4 @@ In that case the code can be simplified to omit the function.
 
 <a name="OP_CHECKSIG">[3]</a> https://en.bitcoin.it/wiki/OP_CHECKSIG
 
-<a name="uahfspec">[4]</a> https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md
+<a name="uahfspec">[4]</a> https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/uahf-technical-spec.md

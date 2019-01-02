@@ -1,8 +1,27 @@
 language: 繁體中文
+lang: zh_TW
 title:
   index: "比特幣現金 - 點對點數位現金"
-  graphics: "Bitcoin Cash - Logos / Graphics"
-  get-listed: "Submit a listing request"
+  graphics: "標誌/圖片 - 比特幣現金"
+  get-listed: "提交刊登要求 - 比特幣現金"
+  gettingstarted: "開始使用 - 比特幣現金"
+  starthere: "由此開始 - 比特幣現金"
+  wallets: "下載錢包 - 比特幣現金"
+  buyorearn: "購買或賺取 BCH - 比特幣現金"
+  spendbch: "支付 BCH - 比特幣現金"
+  acceptbch: "接受 BCH - 比特幣現金"
+  faq: "常見問題 - 比特幣現金"
+  nodes: "節點 - 比特幣現金"
+  services: "服務 - 比特幣現金"
+  projects: "專案 - 比特幣現金"
+  exchanges: "交易平台 - 比特幣現金"
+  developers: "開發者入口網站 - 比特幣現金"
+  workgroups: "工作群組 - 比特幣現金"
+  tools: "工具 - 比特幣現金"
+  tech: "技術 - 比特幣現金"
+  specs: "規格 - 比特幣現金"
+  learn: "進修 - 比特幣現金"
+  404: "404 找不到頁面 - 比特幣現金"
 meta:
   index:
     description: |
@@ -17,67 +36,190 @@ meta:
         比特幣現金為世界帶來一種可靠的貨幣，提供商家與使用者低手續費且可靠的交易確認。它，因其不受限制的成長、全世界的普及、無須允許的創新，以及去中心化的開發，有著極為光明的未來。
   graphics:
     description: |
-      A collection of logos and graphics for Bitcoin Cash.
+      比特幣現金的標誌和圖片。
     twitter:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "比特幣現金 - 標誌/圖片"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        比特幣現金的標誌和圖片。
     og:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "比特幣現金 - 標誌/圖片"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        比特幣現金的標誌和圖片。
 graphics:
-  title: "Promotional Graphics"
-  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-  logos: "Logos"
-  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
-  download_all: "Download All"
-  small: "Small (PNG)"
-  medium: "Medium (PNG)"
-  large: "Large (PNG)"
-  full: "Full (PNG)"
-  vector: "Vector (SVG)"
+  title: "宣傳圖片"
+  description: "這些比特幣現金標誌和品牌資產可顯示於線上服務、零售商店、新聞媒體，或因應其他宣傳目的而使用。"
+  logos: "標誌"
+  download_png_svg: "下載比特幣現金標誌的 PNG 和 SVG 檔案"
+  download_all: "全部下載"
+  small: "小 (PNG)"
+  medium: "中 (PNG)"
+  large: "大 (PNG)"
+  full: "完整 (PNG)"
+  vector: "向量 (SVG)"
   sections:
-    home: "Home"
-    logos: "Logos"
-    merchant: "Merchant"
-    donations: "Donations"
-    identity: "Identity"
+    donations: "捐款"
+    home: "首頁"
+    logos: "標誌"
+    merchant: "商家"
+    identity: "識別"
   types:
-    primary: "BCH Logo Primary"
-    white: "BCH Logo White Text"
-    mark: "BCH Logo Mark"
-    horizontal_primary: "BCH Logo Horizontal Primary"
-    horizontal_white: "BCH Logo Horizontal White"
-    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+    primary: "BCH 主要標誌"
+    white: "BCH 白字標誌"
+    mark: "BCH 圖案標誌"
+    horizontal_primary: "BCH 主要標誌 (水平)"
+    horizontal_white: "BCH 水平白字標誌"
+    wallets_exchanges: "BCH 錢包/交易平台標誌"
   merchant:
-    title: "Merchant Buttons"
-    description: "Show your customers that you accept Bitcoin Cash"
+    title: "商家按鈕"
+    description: "讓客戶知道您接受比特幣現金"
     primary: "Bitcoin Cash Accepted Here Primary"
-    orange: "Bitcoin Cash Accepted Here Orange"
+    orange: "此處接受比特幣現金 (橘色版)"
   donation:
-    title: "Donation Buttons"
-    description: "Promote the acceptance of Bitcoin Cash as a donation method."
+    title: "捐款按鈕"
+    description: "宣傳接受以比特幣現金捐款。"
     primary: "Bitcoin Cash Donations Accepted Primary"
-    orange: "Bitcoin Cash Donations Accepted Orange"
+    orange: "接受比特幣現金捐款橘色圖片"
   identity:
-    title: "Visual Identity"
-    description: "Bitcoin Cash fonts, colors, and more."
-    font: "Ubuntu Bold"
-    font_italic: "Ubuntu Bold Italic"
-    download: "Download Font"
-    orange: "Bitcoin Cash Orange"
-    grey: "Bitcoin Cash Grey"
-    white: "Bitcoin Cash White"
-    hex: "Hex"
+    title: "視覺識別"
+    description: "比特幣現金字型、顏色等。"
+    font: "Ubuntu 粗體"
+    font_italic: "Ubuntu 粗斜體"
+    download: "下載字型"
+    orange: "比特幣現金橘色"
+    grey: "比特幣現金灰色"
+    white: "比特幣現金白色"
+    hex: "十六進位"
     rgb: "RGB"
     cmyk: "CMYK"
     pantone: "Pantone"
+developers:
+  title: "使用比特幣現金打造絕佳應用程式"
+  description: "開發者製作的開發者資源。"
+  sections:
+    home: "首頁"
+    getStarted: "開始使用"
+    news: "最新消息"
+  getStarted:
+    tech:
+      title: "技術"
+      description: "所有人皆可使用的開源技術"
+    learn:
+      title: "進修"
+      description: "瞭解比特幣現金開發流程"
+    tools:
+      title: "工具"
+      description: "專案開發所需的所有工具"
+    workgroups:
+      title: "工作群組"
+      description: "社群協調"
+    specs:
+      title: "規格"
+      description: "比特幣現金詞彙與相關 API"
+workgroups:
+  title: "比特幣現金工作群組"
+  description: "技術社群通力合作"
+  sections:
+    workgroups: "工作群組"
+    home: "首頁"
+  tutorials:
+    title: "教學課程"
+    description: "從學習基本知識到打造專業級應用程式的逐步指南"
+  workgroups:
+    description: "下列是比特幣現金開發工作群組的主題清單。每個群組應專注於特定主題。群組可能只存在一段時間，或有持續關注的主題。"
+    sections:
+      communication: "通訊"
+      officers: "管理員"
+      parties: "利害關係人"
+      summaries: "摘要"
+    wg-daa:
+      title: "難度調整演算法"
+      description: "此工作群組主要研究和討論最新難度調整技術，並對比特幣現金實作。"
+    wg-blocksize:
+      title: "擴充區塊大小"
+      description: "此會議旨在探討區塊擴充的所有相關主題。"
+    wg-fungibility:
+      title: "替代性"
+      description: "此工作群組主要探討加強比特幣現金隱私保護的相關議題。"
+    wg-hardforks:
+      title: "定期硬分叉機制"
+      description: "定義比特幣現金節點實作定期執行硬分叉的規格。"
+    wg-malfix:
+      title: "延展性修正"
+      description: "修正交易延展性可啟用比特幣現金區塊鏈以外的多種技術。"
+    wg-opcodes:
+      title: "運算碼"
+      description: "提議重新啟用各種運算碼，並針對各運算碼的行為和推出事宜，建立定義明確的規格。"
+    wg-protocol-spec:
+      title: "正式通訊協定規格"
+      description: "此工作群組旨在協調開發、審閱和接受比特幣現金通訊協定的正式定義文件。最初設想範圍限於硬共識規則，但之後擴及到軟共識規則。"
+    wg-qa:
+      title: "品質保證"
+      description: "定義節點實作的認證品質標準。"
+    wg-sidechains:
+      title: "側鏈"
+      description: "說明何謂比特幣現金側鏈和一般側鏈。"
+    wg-tokens:
+      title: "Token"
+      description: "說明何謂比特幣現金 Token。"
+    wg-utxocommit-sync:
+      title: "UTXO 提交和同步"
+      description: "定義節點實作的認證品質標準。"
+    wg-ux:
+      title: "使用者體驗"
+      description: "規劃和協調比特幣現金錢包開發事宜。"
+    wg-watercooler:
+      title: "閒聊區"
+      description: "說明何謂比特幣現金側鏈和一般側鏈。"
+learn:
+  title: "瞭解比特幣現金開發流程"
+  description: "學習新技能，打造精采體驗"
+  sections:
+    home: "首頁"
+    tutorials: "教學課程"
+  tutorials:
+    title: "教學課程"
+    description: "從學習基本知識到打造專業級應用程式的逐步指南"
+specs:
+  title: "比特幣現金開發者入口網站"
+  description: "下列是比特幣現金開發工作群組的主題清單。每個群組應專注於特定主題。群組可能只存在一段時間，或有持續關注的主題。"
+  sections:
+    home: "首頁"
+    workgroups: "工作群組"
+    specifications: "規格"
+    ecosystem: "生態系"
+  specifications:
+    title: "比特幣現金規格"
+    description: "以下是近期和先前比特幣現金的升級清單。"
+  ecosystem:
+    title: "比特幣現金生態系"
+    description: ""
+tech:
+  title: "所有人皆可使用的開源技術"
+  description: "金錢與每個人息息相關，而在歷史上，比特幣堪稱最理想的貨幣。"
+  sections:
+    home: "首頁"
+    foundation: "基礎"
+    emerging: "新興"
+  foundation:
+    title: "基礎"
+    description: "開始使用時所需的一切知識"
+  emerging:
+    title: "新興"
+    description: "瞬息萬變且不斷成長的比特幣現金"
+tools:
+  title: "工具"
+  description: "想用比特幣現金改變世界？很好，實現理想所需要的工具如下。"
+  sections:
+    home: "首頁"
+    javascript: "Javascript"
+  javascript:
+    title: "Javascript"
 misc:
   logo: "標誌"
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
+  home: "首頁"
   about: "關於"
   features: "功能"
   nodes: "節點"
@@ -86,11 +228,21 @@ sections:
   services: "服務"
   projects: "相關專案"
   exchanges: "交易所"
-  graphics: "Logos / Graphics"
-  faq: "常見問題"
+  graphics: "標誌"
+  developers: "開發者入口網站"
+  learn: "進修"
+  specs: "規格文件"
+  tech: "技術"
+  tools: "工具"
+  workgroups: "工作群組"
+  faq: "關於"
+  starthere: "由此開始"
 layout:
   bitcoin_cash: "比特幣現金"
   lead: "點對點數位現金"
+  leadsubtitle: "無論是低手續費小額交易、企業鉅額交易，皆無需授權付款，全新經濟儼然成形。"
+  herobutton_one: "開始使用"
+  herobutton_two: "下載錢包"
   loading: "載入中..."
 features:
   - title: "快速"
@@ -107,77 +259,203 @@ features:
     description: "世上最強大的區塊鏈科技。"
 headings:
   about: "世上最佳的貨幣"
-  nodes: "節點"
-  wallets: "錢包"
-  services: "服務"
-  projects: "相關專案"
+  community: "加入比特幣現金社群"
+  steps: "開始使用"
+  developers: "開始使用"
   exchanges: "交易所"
+  microeconomy: "個體經濟"
   faq: "常見問題"
-  listingrequest: "Submit a listing request"
+  news: "最新消息"
+  nodes: "節點"
+  projects: "相關專案"
+  services: "服務"
+  wallets: "錢包"
+  featured-wallets: "精選錢包"
+  whitepaper: "閱讀白皮書"
+  listingrequest: "提交刊登要求"
+  error404: "錯誤 404"
+  benefits: "商家好處"
+  why: "為何選擇使用比特幣現金？"
+  history: "比特幣現金歷史沿革"
+  development: "去中心化開發"
+networkupgrade:
+  reminder: "提醒"
+  date: "2018 年 11 月 15 日"
+  title: "預定網路升級"
+  description: "比特幣現金網路會進行通訊協定升級。使用比特幣現金網路的企業和個人應確認所使用的軟體能與升級相容。"
+  compatible: "相容實作"
+  additional: "其他資訊"
+  testnet: "測試網路資訊"
+  hfspec: "11 月硬分叉規格"
+  spec: "OP_CHECKDATASIG 和 OP_CHECKDATASIGVERIFY 規格"
+  close: "關閉"
+  upgradecomplete: "升級完成"
+  completedescription: "已完成比特幣現金網路預定升級。"
+whitepaper:
+  description: '世界第一個加密貨幣的創辦人中本聰於 2008 年 10 月 31 日發表最初白皮書。這份比特幣白皮書標題為《比特幣：點對點數位現金系統》。比特幣現金目的在於延續這個願景，為世界帶來穩健的貨幣系統。'
+error404:
+  subheading: 找不到您要的頁面。
+  button: 前往首頁
 content:
   about:
     - |
       比特幣現金 (Bitcoin Cash) 為世界帶來一種可靠的貨幣，滿足原先比特幣身為「點對點數位現金」的承諾，並提供商家與使用者低手續費且可靠的交易確認。它，因其不受限制的成長、全世界的普及、無須允許的創新，以及去中心化的開發，有著極為光明的未來。
     - |
-      所有於區塊 #478558 時擁有比特幣者，也同時擁有比特幣現金。歡迎各位加入比特幣現金的行列，與我們向前邁進，推動這個全世界均可使用的可靠貨幣。
+      所有在區塊 #478558 前擁有比特幣者，也同時擁有比特幣現金。歡迎加入比特幣現金的行列，與我們向前邁進，推動這個全世界均可使用的可靠貨幣。
   faq:
     - question: "何謂比特幣現金？"
       answer:
         - |
-          比特幣現金是為網路而生的點對點數位現金。它完全去中心化，沒有中央銀行，更不需要信任任何第三者。
+          比特幣現金是一種點對點數位現金系統。這種加密貨幣無需權限，且去中心化，不需任何信賴的第三方經手交易，且無需中央銀行管控。
     - question: "比特幣現金和「比特幣」有何差異？"
       answer:
         - |
-          「比特幣現金」是比特幣專案身為點對點數位現金的延續。它是比特幣區塊鏈帳本 (ledger) 的分支，並具有升級版的共識規則，使之得以成長、擴展。
-    - question: "如果我擁有比特幣，我也會自動地得到比特幣現金嗎？"
-      answer:
-        - |
-          任何人若在比特幣現金創造之時擁有比特幣，便也會成為比特幣現金的擁有者。這代表在區塊 #478558 (2017/08/01 約略 13:16 UTC) 時的比特幣持有者會擁有相等數量的比特幣現金。若您的比特幣儲存於第三方的服務（如交易所），則您必須詢問他們關於您的比特幣現金之事宜。
-        - |
-          任何在 08/01 的分支後發生之交易則是完全獨立的。換言之，分支後您收到的比特幣不會包含比特幣現金，而比特幣現金也不會包含比特幣。
-    - question: "交易重放是如何在新舊區塊鏈間解決的？"
-      answer:
-        - |
-          比特幣現金使用了一種新的簽章雜湊算法，如旗標 SIGHASH_FORKID 所示，而這些簽章在傳統比特幣網路上並非是有效的。如此，便防止了比特幣現金的交易在比特幣區塊鏈上重放，反之亦然。
-    - question: "為何需要分支創造比特幣現金？"
-      answer:
-        - |
-          傳統比特幣的程式碼中有每區塊 1MB 的限制，約等同於每秒 3 筆交易。雖然技術上提高這個限制極為容易，但即使經過了數年的辯論，比特幣社群仍然無法達成共識。
-    - question: "這個 1MB 大小限制有對比特幣造成任何問題嗎？"
-      answer:
-        - |
-          有。2017 年時，容量達到了這個隱形的障壁。手續費直線上升，比特幣也開始變得不可靠，使得一些使用者就算經過數天的等待，仍然無法使他們的交易受確認。
-        - |
-          即便比特幣的市場價格扶搖直上，它身為貨幣的成長及實用性卻停滯不前。許多使用者、商家，甚至是投資者，離開了比特幣，開始尋找替代品，使其市占率由 95% 一落千丈至最低 40% 。
-    - question: "比特幣現金能解決這些問題嗎？"
-      answer:
-        - |
-          是的。作為鏈上擴容的方法之一，比特幣現金分支時立即將區塊大小限制提高至 8MB 。如此，便提供了每個人的交易充足的空間。
-        - |
-          隨著比特幣現金的出現，低手續費及快速的交易確認也旋即回歸。網路重新開始成長，使用者、商家、業界，和投資者也正攜手締造真正點對點現金的未來。
-    - question: "如果提高區塊大小如此簡單，為何比特幣不這麼做？"
-      answer:
-        - |
-          有些開發者無法理解與同意中本聰創立之點對點數位現金的願景。<a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">相反地，他們希望比特幣成為一個交易結算的平台。</a>
-        - |
-          許多礦工及使用者相信這些開發者，但其他人意識到他們正帶領著整個社群踏上另一條預期之外的路線。
-        - |
-          這二個截然不同的願景基本上是難以共存的，導致了社群的分裂。
-    - question: "隔離見證不是提高了區塊容量嗎？比特幣現金會擁有隔離見證嗎？"
-      answer:
-        - |
-          因為各種原因，隔離見證 (SegWit) 身為提高區塊大小的替代方案，是令人無法接受的。
-        - |
-          首先，就算使用於 100% 的交易中，它也僅等同於 1.7MB 的區塊。因此，即使在最佳狀態下，擴大的容量也是極小的，無法處理指數性的成長或全球性的普及。第二，其軟分支的實作導致了可丟棄的簽章，<a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">弱化了比特幣的安全性。</a>第三，由於網路頻寬的低效率使用及平方複雜度雜湊問題（因為攻擊者並不被強制使用隔離見證，它並未成功解決這個問題），未來的擴容反而變得更加困難。
-        - |
-          因此（以及其它原因），比特幣現金必須是隔離見證啟用前的分支，也並不會採用隔離見證。
-    - question: "哪個開發團隊管理著比特幣現金？"
-      answer:
-        - |
-          和前述比特幣的狀況不同，比特幣現金並沒有一個單一的開發團隊，取而代之的是數個獨立的開發者團體。
-        - |
-          如此的開發去中心化（以及軟體實作去中心化）是一個亟需且重要的進展。
-    - question: "比特幣現金的交易代號為何？"
-      answer:
-        - |
-          因服務和錢包為異，一些相異的代號均代表著比特幣現金。最常見的是 BCH/BCC ，而 XBC 則是用來滿足貨幣代碼的國際標準 (ISO 4217) 之需求。
+          2017 年比特幣專案和社群一分為二。指稱兩方最沒爭議的方式，或許就是依各自的幣別代號 BTC 和 BCH 加以區分。BCH 通常代表比特幣現金，其支持者認為這是比特幣點對點數位現金專案的正統延續。
+  why:
+      - benefit: "隨時隨地支付，近乎免費"
+        descrip:
+          - |
+            有了比特幣現金，您可以隨時隨地付款給世界各地的任何人。這個網路如同網際網路一樣，隨時待命，且沒有交易額過多或過少的問題，也不需任何人授權或核准。
+      - benefit: "自己就是銀行，完整掌控自有貨幣"
+        descrip:
+          - |
+            賽普勒斯和附近的希臘扣押帳戶持有人的資金 (美其名為「自救」)，即說明了銀行存款只有在政治環境穩定時安全。即便在最好的情況下，銀行也可能犯錯、不放款或凍結帳戶，不同意您動用個人持有的款項。
+          - |
+            銀行也可能決定阻擋交易、收取手續費，或無預警關閉帳戶。比特幣現金可讓您隨時隨地動用，完全掌控款項。
+      - benefit: "已知供應量固定的稀有數位貨幣"
+        descrip:
+          - |
+            比特幣現金通訊協定保證，貨幣數絕不會超過 2100 萬個。政府會持續印鈔，不斷增加供應量，使每個人的存款縮水。比特幣現金的供應量固定，是體質穩健的貨幣。
+      - benefit: "加強隱私並可匿名操作"
+        descrip:
+          - |
+            正常情況下，不可能知道比特幣地址持有人的身分，因此相較於銀行轉帳和信用卡付款等傳統支付系統，比特幣現金具有更強大的隱私和匿名性能。
+          - |
+            比特幣現金根據使用方式可提供多種隱私層級。使用 BCH 前，請務必先徹底瞭解如何維護個人隱私。
+      - benefit: "享獨家折扣"
+        descrip:
+          - |
+            許多商家提供以比特幣現金付款折扣，一來可免除信用卡手續費，二來也可促進此全新支付系統的使用率。
+      - benefit: "支持全球自由流通"
+        descrip:
+          - |
+            比特幣現金是無需權限的開源網路。您可以在不受干擾的情況下，與志同道合的夥伴互動。此系統去中心化、全自願加入，且不具侵略性。隨著使用率增加，舊有權力結構將逐漸崩解，激發出新的想法，進而開創全球有史以來最偉大的和平革命。
+  benefits:
+      - benefit: "超低手續費"
+        descrip:
+          - |
+            一般比特幣現金交易的網路手續費不到一美分。如果要將 BCH 兌換成美元等法定貨幣，您可以透過商家處理廠商加以兌換，手續費仍遠低於信用卡手續費。
+      - benefit: "無交易糾紛"
+        descrip:
+          - |
+            這不像信用卡，絕不會有自動取消、退款、交易糾紛退款或其他無預期的費用。系統內建防詐騙措施，商家不必花一毛錢。
+      - benefit: "新客戶"
+        descrip:
+          - |
+            越來越多顧客選擇使用比特幣現金付款。他們喜歡到接受此支付方式的商家消費，也會主動尋找這類商家。
+      - benefit: "免費媒體行銷"
+        descrip:
+          - |
+            只要接受比特幣現金，商家即可免費在網站和應用程式目錄中刊登廣告，吸引更多客戶。同時，商家也能運用這個新趨勢，主動創造媒體曝光機會。
+  history:
+      - |
+        2008 年 10 月，中本聰發表知名白皮書<strong>《比特幣：點對點數位現金系統》</strong>。2009 年，他發行第一款網路比特幣軟體，以低手續費且快速可靠的交易模式順利營運了數年。
+      - |
+        然而，2016 年至 2017 年期間，比特幣漸漸變得不可靠且價格昂貴。原因在於社群無法在增加網路容量的議題上達成共識。部分開發者不瞭解也不同意中本聰的計劃，希望將比特幣變成清算層。
+      - |
+        2017 年，比特幣市佔率受可用性問題直接影響，從 95% 驟跌至 40%。但大部分比特幣社群 (包含開發者、投資者、使用者和企業) 仍相信比特幣最初的願景，亦即全世界都可使用的低手續費點對點數位現金系統。
+      - |
+        2017 年 8 月 1 日，我們採取合理措施提高了區塊大小上限，比特幣現金於焉誕生。當時持有比特幣的所有人 (區塊 #478558) 也會持有比特幣現金 (BCH)。該網路目前支援最大 32 MB 的區塊，而在持續研究開發下，此規模未來可望大幅提高。
+  development:
+      - |
+        在多個獨立開發團隊協助軟體實作下，比特幣現金的未來安全無虞。比特幣現金可防止針對通訊協定開發的政治和社交攻擊。沒有任何一個團體或計畫可以控制比特幣現金。若有多個實作，系統也提供相關備援，確保網路保持 100% 正常運作。
+      - |
+        若要提出需由開發團隊協調的變更項目，<a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml 郵寄清單</a>是個很棒的管道。<a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">工作群組</a>是為協助開發者協調和尋求同儕審閱而設立。若要在比特幣現金通訊協定中實作變更項目，建議儘早尋求同儕審閱，並透過工作群組與其他開發者合作。
+viewmore: "查看更多內容"
+gettingstarted:
+  title: "開始使用"
+  subtitle: "什麼是點對點數位現金？"
+  excerpt: "簡單來說，點對點 (P2P) 數位現金就是一個人將數位貨幣直接支付給另一個人，不需由信賴的第三方經手處理。如中本聰在最初的比特幣白皮書中所述，P2P 現金使用數位簽章作為解決方案，但若仍需信賴的第三方介入以防範詐騙，這種數位貨幣的主要優勢即告喪失。因此，P2P 現金等於是不需中間人和信賴第三方的交易方式，安全有保障。"
+  description: "簡單來說，點對點 (P2P) 數位現金就是一個人將數位貨幣直接支付給另一個人，不需由信賴的第三方經手處理。如中本聰在最初的比特幣白皮書中所述，P2P 現金使用數位簽章作為解決方案，但若仍需信賴的第三方介入以防範詐騙，這種數位貨幣的主要優勢即告喪失。因此，P2P 現金等於是不需中間人和信賴第三方的交易方式，安全有保障。"
+  sidetitle: "瞭解比特幣現金所有資訊"
+  shoponline: "線上購物"
+  shoponline_excerpt: "在喜歡的線上零售商網站，以比特幣現金付款。"
+  spendatrestaurants: "在餐廳付帳"
+  spendatrestaurants_excerpt: "光臨接受比特幣現金的餐廳或咖啡廳。"
+  shopinperson: "親自購物"
+  shopinperson_excerpt: "前往超過 <span class='merchantCount'>192</span> 家接受比特幣現金的實體商店。"
+  maptitle: "親自支付比特幣現金"
+  mapcount: "家商家已刊登"
+downloadwallet:
+  title: "下載錢包"
+  subtitle: "比特幣現金會存放在哪裡？"
+  excerpt: 要開始使用比特幣現金非常簡單。首先請下載錢包，以加入比特幣經濟體。大多數錢包為免費下載，容易使用，具有付款、收款、安全存錢、交易查詢等重要功能。
+  description: 要開始使用比特幣現金非常簡單。首先請下載錢包，以加入比特幣經濟體。大多數錢包為免費下載，容易使用，具有付款、收款、安全存錢、交易查詢等重要功能。
+  sidetitle: "該使用哪種錢包？"
+  mobilewallet: "行動錢包"
+  mobilewallet_excerpt: "行動錢包非常適合存放和支付比特幣現金。"
+  desktopwallet: "桌面錢包"
+  desktopwallet_excerpt: "嘗試使用桌面錢包，將比特幣現金運用於商務上。"
+  hardwarewallet: "硬體錢包"
+  hardwarewallet_excerpt: "將比特幣現金存放於安全的硬體錢包，適合長期存放。"
+  paperwallet: "紙本錢包"
+  paperwallet_excerpt: "將比特幣現金離線存放至紙本錢包，適合長期存放或送給親朋好友。"
+  featuredwallets: "精選錢包"
+  bitcoindotcom: "開始使用 Bitcoin.com 錢包，輕鬆安全收付比特幣。此款錢包同時支援比特幣現金 (BCH) 和 Bitcoin Core (BTC)，輕鬆切換兩種貨幣無煩惱。"
+  handcash: "點對點支付比當面繳交現金多出哪些好處？點對點支付不需地址，不需由第三方經手。錢包以比特幣現金為產品生態系基礎，將收付過程數位化。"
+  yenom: "Yenom 是適合初學者的比特幣現金專屬錢包，相當容易使用，適合第一次使用比特幣的親朋好友！這是收付比特幣最簡單的方式，所有人都能透過 Yenom 輕鬆使用比特幣。"
+  electron: "私密金鑰經過加密，絕不會流出電腦。款項可透過輸入密碼復原。Electron Cash 使用為比特幣區塊鏈建立索引的伺服器，因此執行速度非常快速。您可以匯出私密金鑰，在其他比特幣用戶端使用。"
+buyorearn:
+  title: "購買或賺取比特幣現金"
+  subtitle: "如何取得比特幣現金？"
+  excerpt: 取得比特幣現金最簡單的兩種方式是購買或工作賺取。購買比特幣現金是最常用也最方便的方法，只要到比特幣交易平台註冊，然後存入款項，就能將款項兌換成比特幣現金。交易平台會在交易完成後將 BCH 傳送給您。
+  firstparagraph: "取得比特幣現金最簡單的兩種方式是購買或工作賺取。購買比特幣現金是最常用也最方便的方法，只要到比特幣交易平台註冊，然後存入款項，就能將款項兌換成比特幣現金。交易平台會在交易完成後將 BCH 傳送給您。另一種方式是靠工作賺取比特幣現金，例如在徵人廣告中尋找以比特幣現金支付薪資的工作，或自行創業 (如販售 T 恤) 賺取比特幣現金。"
+  secondparagraphtitle: "附近哪裡可以取得比特幣現金？"
+  secondparagraph: "許多城市都有場外交易 (OTC) 交易商市場，交易商會以法定貨幣 (如美元、日圓、歐元等) 兌換比特幣現金。或者，您也可以考慮詢問老闆是否願意走在貨幣市場尖端，以比特幣現金支付部分或全部薪資。部分較大城市也有比特幣現金 ATM，可輕鬆以法定貨幣兌換比特幣現金。您可以參加最近的<a href='http://events.bitcoin.com/'>比特幣現金聚會</a>，詢問取得比特幣現金的其他管道，或者考慮前往所在城市可<a href='../spend-bitcoin-cash'>以比特幣現金付款</a>的餐廳，詢問店家。"
+  thirdparagraphtitle: "可以在線上購買比特幣現金嗎？"
+  thirdparagraph: "線上購買比特幣現金是取得比特幣現金最常見的方式。透過買賣當地貨幣和加密貨幣的線上交易平台，您就可以利用銀行轉帳購買比特幣現金。有些交易平台甚至接受使用信用卡立即購買。如同所有線上交易一樣，請務必自行研究並確定擁有個人專屬錢包。不建議將比特幣現金留在交易平台，請一律將比特幣現金存放於個人錢包，並安全備份。"
+  sidetitle: "哪裡可以取得比特幣現金？"
+  buyexchange: "向交易平台購買"
+  buyexchange_excerpt: "支付法定貨幣給信賴的第三方交易平台，購買比特幣現金"
+  usefaucet: "使用比特幣現金水龍頭"
+  usefaucet_excerpt: "使用信賴的<a href='https://free.bitcoin.com'>比特幣現金水龍頭</a>，免費取得小額比特幣現金！"
+  buyapp: "應用程式內購買"
+  buyapp_excerpt: "使用信賴的第三方應用程式，以信用卡販售比特幣現金。"
+  earnonline: "線上賺取比特幣現金"
+  earnonline_excerpt: "在 <a href='https://honest.cash'>honest.cash</a> 產製熱門內容。加入 <a href='http://memo.cash'>Memo.cash</a> 或 <a href='https://www.mttr.app/'>Matter</a> 等不需審查的社群媒體平台。"
+  buyatm: "從比特幣現金 ATM 購買 BCH"
+  buyatm_excerpt: "全球許多城市都已設置專門的比特幣現金 ATM。"
+  buyinperson: "親自購買"
+  buyinperson_excerpt: "與所在地區販售比特幣現金的當地人士聯絡。"
+  acceptbch: "在您的商店接受比特幣現金"
+  acceptbch_excerpt: "將比特幣現金新增為您商店的付款方式。在線上或實體販售商品，即可賺取 BCH。"
+  getpaid: "要求以比特幣現金支付薪資"
+  getpaid_excerpt: "詢問雇主能否全部或部分以比特幣現金支付薪資。"
+spendbch:
+  title: "支付比特幣現金"
+  subtitle: "比特幣現金可以購買什麼？"
+  excerpt: 比特幣現金不是單純投機買賣，主要用途是點對點數位貨幣，亦即用於支付。比特幣現金的支付程序很快，交易近乎即時，且交易手續費不到一美分，是世上最安全且廣泛使用的數位貨幣。
+  description: 比特幣現金不是單純投機買賣，主要用途是點對點數位貨幣，亦即用於支付。比特幣現金的支付程序很快，交易近乎即時，且交易手續費不到一美分，是世上最安全且廣泛使用的數位貨幣。
+  sidetitle: "哪裡可以使用比特幣現金付款"
+  shoponline: "線上購物"
+  shoponline_excerpt: "在喜歡的線上零售商網站，以比特幣現金付款。"
+  spendatrestaurants: "在餐廳付帳"
+  spendatrestaurants_excerpt: "光臨接受比特幣現金的餐廳或咖啡廳。"
+  shopinperson: "親自購物"
+  shopinperson_excerpt: "前往超過 <span class='merchantCount'>192</span> 家接受比特幣現金的實體商店。"
+  maptitle: "親自支付比特幣現金"
+  mapcount: "家商家已刊登"
+acceptbch:
+  title: "接受比特幣現金"
+  subtitle: "我的商店要如何使用比特幣現金？"
+  excerpt: 商家的主要目標之一是盡可能快速流暢地收取及處理款項，客戶滿意之餘，商家也可順利收到款項。比特幣現金的交易快速、手續費低，不啻為理想的解決方案。隨著數位化浪潮湧現，比特幣等數位貨幣即將成為線上和零售商店的主流付款方式。您可以直接收取或透過第三方廠商的平台收取比特幣現金，再將全部或部分營業額兌換成當地法定貨幣，輕鬆便利。
+  description: 商家的主要目標之一是盡可能快速流暢地收取及處理款項，客戶滿意之餘，商家也可順利收到款項。比特幣現金的交易快速、手續費低，不啻為理想的解決方案。隨著數位化浪潮湧現，比特幣等數位貨幣即將成為線上和零售商店的主流付款方式。您可透過第三方廠商的平台，輕鬆收取比特幣現金。註冊 BitPay 等第三方商家的解決方案應用程式時，只要設定帳戶，即可收取比特幣現金，並存放至您的比特幣錢包，或者也能將比特幣現金兌換成當地法定貨幣。大多數商家會同時採用兩種方式，將部分比特幣現金換成法定貨幣，部分以加密貨幣形式存放。不論哪種方式，設定商家的解決方案應用程式，就能立即開始收取比特幣款項，過程簡單不複雜，不需擔心。
+  sidetitle: "如何收取比特幣現金"
+  acceptonline: "比特幣現金支付平台"
+  acceptonline_excerpt: "在信賴的第三方支付平台接受比特幣現金付款。"
+  wordpress: "在 Wordpress 啟用比特幣現金"
+  wordpress_excerpt: "接受比特幣現金捐款，以創作更多精采內容，或者也可將比特幣現金整合至可使用 Wordpress 的電子商務平台。"
+  pos: "銷售點"
+  pos_excerpt: "嘗試在商店使用比特幣現金銷售點 (POS)，收取 BCH。"
+  donations: "接受捐款或小費"
+  donations_excerpt: "非營利組織收到比特幣現金捐款時，可受惠於超低手續費。"
