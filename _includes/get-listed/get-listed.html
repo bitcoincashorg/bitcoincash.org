@@ -1,0 +1,29 @@
+<section class="space--xxs border-bottom" id="application-section"  data-section="application">
+    <div class="container application-section">
+        <div class="row to-animate">
+            <div class="col-xs-12 section-heading text-center">
+            <h2>{% t 'headings.listingcriteria' %}</h2>
+            </div>
+        </div>
+    	<div clas="row">
+    		<div class="col-sm-12 col-lg-8 col-lg-push-2">
+    			{% for qa in site.translations[site.lang]["content"]["criteria"] %}
+                <p class="question to-animate">{{ qa['title'] }}</p>
+                    {% for a in qa['descrip'] %}
+                    <p class='to-animate'>{{ a }}</p>
+                    {% endfor %}
+                {% endfor %}
+    		</div>
+            <div class="col-sm-12 col-lg-8 col-lg-push-2">
+                <div class="panel panel-default panel-application">
+                    <div class="panel-heading">
+                        {% t 'headings.listingrequest' %}
+                    </div>
+                    <div class="panel-body">
+                        {% include get-listed/typeform.html %}
+                    </div>
+                </div>  
+            </div>
+    	</div>
+    </div>
+</section>
