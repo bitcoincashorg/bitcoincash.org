@@ -13,7 +13,7 @@ title: title.get-listed
         </div>
     </div>
 	<div clas="row">
-		<div class="col-sm-12">
+		<div class="col-sm-12 col-lg-8 col-lg-push-2">
 			{% for qa in site.translations[site.lang]["content"]["criteria"] %}
             <p class="question to-animate">{{ qa['title'] }}</p>
                 {% for a in qa['descrip'] %}
@@ -21,7 +21,17 @@ title: title.get-listed
                 {% endfor %}
             {% endfor %}
 		</div>
+        <div class="col-sm-12 col-lg-8 col-lg-push-2">
+            <div class="panel panel-default panel-application">
+                <div class="panel-heading">
+                    {% t 'headings.listingrequest' %}
+                </div>
+                <div class="panel-body">
+                    {% include get-listed/typeform.html %}
+                </div>
+            </div>  
+        </div>
 	</div>
 </div>
 
-{% include get-listed/typeform.html %}
+

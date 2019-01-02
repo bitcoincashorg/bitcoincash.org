@@ -335,32 +335,30 @@ content:
         The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
   
   criteria:
-      - title: "Does your project use the BCH ticker?"
+      - title: "Does your project use the correct ticker?"
         descrip:
           - |
-              Your projects website must clearly define the Bitcoin Cash ticker as BCH.
-      - title: "Does your project use the full name of the currency Bitcoin Cash?"
+              Your projects website must clearly define the Bitcoin Cash ticker as <strong>BCH</strong>. Projects not using the correct ticker will be disqualified from listing.
+      - title: "Does your project use the correct name"
         descrip:
           - |
-              Your projects website must define Bitcoin Cash in it's full name.      
+              Your projects website must define Bitcoin Cash in it's full name. Projects which ammend or append additions to the name "Bitcoin Cash" will be disqualified from listing. 
+      - title: "Does your wallet provide seed type and derivation path?"
+        descrip:
+          - |
+              Bitcoin Cash wallet applications must include seed type and derivation paths. 
       - title: "Does your project clearly promote Bitcoin Cash?"
         descrip:
           - |
-              Applicants website's must clearly promote Bitcoin Cash
+              Applicants website's must clearly promote Bitcoin Cash. Adding minimal support does not guarantee listing.
       - title: "Does your project use the Bitcoin Cash logo?"
         descrip:
           - |
-            We encourage applicants to use the Bitcoin Cash logo available in our graphics section. Branding should remain consistent with bitcoincash.org. While not required, using the logos available on bitcoincash.org logo increases your chances of being listed.
+            We encourage applicants to use the Bitcoin Cash logo available in our <a href="graphics.html">graphics</a> section. Branding should remain consistent with bitcoincash.org. While not required, using the logos available on bitcoincash.org logo increases your chances of being listed.
       - title: "Does your project remain objective to the facts?"
         descrip:
           - |
             Applicants website's must remain objective. Derogotary statements against Bitcoin Cash to promote a specific agenda may lead to a declined application.
-
-      - title: "Does your project separate Bitcoin Core (BTC) from Bitcoin Cash (BCH)"
-        descrip:
-          - |
-            Applicants that clearly distinguish between Bitcoin Core (BTC) and Bitcoin Cash (BCH) will have a higher chance of being listed. We recommend using the color black for Bitcoin Core (BTC) and orange for Bitcoin Cash (BCH).
-       
       - title: "Does your project appear professional and user friendly?"
         descrip:
           - |
@@ -368,7 +366,7 @@ content:
       - title: "Is your project trusted and vetted by the Bitcoin Cash community"
         descrip:
           - |
-            Applicants should reach out to the Bitcoin Cash community via Twitter, Telegram, Reddit, or Slack. Projects that have been vetted by trusted members within the community are more likely to receive an approved application.
+            Applicants should reach out to the Bitcoin Cash community via Twitter, Telegram, Reddit, or Slack. Projects that have been vetted by trusted members within the community are more likely to receive an approved application. We receive thousands of applications, those which have a stronger online presence are more likely to be accepted.
       - title: "Workgroup's Discretion"
         descrip:
           - |
