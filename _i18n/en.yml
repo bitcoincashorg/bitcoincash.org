@@ -336,7 +336,7 @@ content:
           - |
             Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address.
           - |
-            Bitcoin Cash offers various levels of privacy depending on how it is used.  It's important to educate yourself thoroughly before using BCH for privacy purposes.
+            Bitcoin Cash offers various levels of privacy depending on how it is used.  It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes.
       - benefit: "Enjoy Exclusive Discounts"
         descrip:
           - |
@@ -350,7 +350,7 @@ content:
       - benefit: "Ultra Low Fees"
         descrip:
           - |
-            The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your BCH into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
+            The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
       - benefit: "No Chargebacks"
         descrip:
           - |
@@ -410,13 +410,13 @@ downloadwallet:
   featuredwallets: "Featured Wallets"
   bitcoindotcom: "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly. "
   handcash: "What is more peer to peer than just handing cash in person? No addresses, no third parties needed. The wallet has made that process digital by using Bitcoin Cash as the basis of the ecosystem of products. "
-  yenom: "Yenom is a simple, beginner friendly Bitcoin Cash only wallet. Great for family or friends using Bitcoin for the first time! It’s the simplest way to send or receive Bitcoin. Anyone can easily give it a try using Yenom."
-  electron: "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electrum is fast, because it uses servers that index the Bitcoin blockchain. You can export your private keys and use them in other Bitcoin clients. "
+  yenom: "Yenom is a simple, beginner friendly Bitcoin Cash only wallet. Great for family or friends using Bitcoin Cash for the first time! It’s the simplest way to send or receive Bitcoin Cash. Anyone can easily give it a try using Yenom."
+  electron: "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients. "
 buyorearn:
   title: "Buy or Earn Bitcoin Cash"
   subtitle: "How do I get Bitcoin Cash?"
-  excerpt: The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred.
-  firstparagraph: "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you BCH after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash."
+  excerpt: The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you Bitcoin Cash after the trade has occurred.
+  firstparagraph: "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you Bitcoin Cash after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash."
   secondparagraphtitle: "Where can I find Bitcoin Cash locally?"
   secondparagraph: "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a> about other options, or consider visiting restaurants in your city where you can <a href='../spend-bitcoin-cash'>spend Bitcoin Cash</a> and enquire there."
   thirdparagraphtitle: "Can I buy Bitcoin Cash Online?"
@@ -430,12 +430,12 @@ buyorearn:
   buyapp_excerpt: "Use a trusted 3rd party app that sells Bitcoin Cash with a credit card."
   earnonline: "Earn Bitcoin Cash Online"
   earnonline_excerpt: "Produce trending content on <a href='https://honest.cash'>honest.cash</a>. Participate on censorship resistant social media platforms like <a href='http://memo.cash'>Memo.cash</a> or <a href='https://www.mttr.app/'>Matter</a>."
-  buyatm: "Purchase BCH from a Bitcoin Cash ATM"
+  buyatm: "Purchase from a Bitcoin Cash ATM"
   buyatm_excerpt: "Many cities across the globe are setup with specialized Bitcoin Cash enabled ATM machines."
   buyinperson: "Buy in Person"
   buyinperson_excerpt: "Connect with locals in your area who are selling Bitcoin Cash on <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>."
   acceptbch: "Accept Bitcoin Cash at your Business "
-  acceptbch_excerpt: "Add Bitcoin Cash as a payment method to your store. Sell items online or in person for BCH."
+  acceptbch_excerpt: "Add Bitcoin Cash as a payment method to your store. Sell items online or in person for Bitcoin Cash."
   getpaid: "Ask to be paid in Bitcoin Cash"
   getpaid_excerpt: "Enquire with your job about being paid in full or partially in Bitcoin Cash."
 spendbch:
@@ -456,13 +456,13 @@ acceptbch:
   title: "Accept Bitcoin Cash"
   subtitle: "How can my business use Bitcoin Cash?"
   excerpt: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Easily accept Bitcoin Cash directly or use third-party providers to accept Bitcoin Cash using their platforms and convert all or part of the sale into local fiat currency.
-  description: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin Cash are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin payments today without worrying about the complexities of how to accept Bitcoin.
+  description: As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin Cash are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin Cash wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin Cash payments today without worrying about the complexities of how to accept Bitcoin Cash.
   sidetitle: "How can I accept Bitcoin Cash"
   acceptonline: "Bitcoin Cash Payment Gateways"
   acceptonline_excerpt: "Receive Bitcoin Cash as a payment method from trusted 3rd party Payment Gateways."
   wordpress: "Enable Bitcoin Cash on Wordpress"
   wordpress_excerpt: "Accept Bitcoin Cash donations for content creation or integrate into your Wordpress enabled ecommerce platform."
   pos: "Point Of Sales"
-  pos_excerpt: "Try one of the many Bitcoin Cash Point Of Sales (POS) to accept BCH in your store."
+  pos_excerpt: "Try one of the many Point Of Sale (POS) systems to accept Bitcoin Cash in your store."
   donations: "Accept Donations or Tips"
   donations_excerpt: "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations."

@@ -404,7 +404,7 @@ downloadwallet:
   bitcoindotcom: "Bitcoin göndermenin ve almanın basit ve güvenli bir yolu olan Bitcoin.com Cüzdanını kullanmaya başlayın. Cüzdan, hem Bitcoin Cash (BCH) hem de Bitcoin Core'u (BTC) destekleyerek kullanıcıların iki farklı para birimi arasında kolayca geçiş yapmasına olanak tanır."
   handcash: "Parayı şahsen vermekten daha kişisel ne olabilir ki? Adrese ihtiyaç yok, üçüncü tarafa ihtiyaç yok. Cüzdan, Bitcoin Cash'i ürün ekosisteminin temeli olarak kullanarak bu süreci dijital hale getirdi."
   yenom: "Yenom, yeni başlayanlar için uygun olan basit bir Bitcoin Cash cüzdanıdır. İlk kez Bitcoin kullanan aile üyeleri veya arkadaşlar için harikadır! Bitcoin göndermenin veya almanın en kolay yoludur. Herkes kolaylıkla Yenom'u kullanmayı deneyebilir."
-  electron: "Özel anahtarlarınız şifrelenir ve bilgisayarınızdan asla çıkmaz. Fonlarınız gizli bir sözcük ile kurtarılabilir. Electrum, Bitcoin blok zincirini endeksleyen sunucular kullandığı için hızlıdır. Özel anahtarlarınızı dışa aktarabilir ve bunları diğer Bitcoin istemcilerinde kullanabilirsiniz."
+  electron: "Özel anahtarlarınız şifrelenir ve bilgisayarınızdan asla çıkmaz. Fonlarınız gizli bir sözcük ile kurtarılabilir. Electron Cash, Bitcoin blok zincirini endeksleyen sunucular kullandığı için hızlıdır. Özel anahtarlarınızı dışa aktarabilir ve bunları diğer Bitcoin istemcilerinde kullanabilirsiniz."
 buyorearn:
   title: "Bitcoin Cash Satın Alın veya Kazanın"
   subtitle: "Nasıl Bitcoin Cash alırım?"
