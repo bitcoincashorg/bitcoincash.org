@@ -51,7 +51,7 @@ languages:
   # # - de-ch
   # - de
   # # - el
-  # - es
+  - es
   # - fr
   # - hi
   # - id
@@ -59,9 +59,9 @@ languages:
   # - ja
   - ko
   # - ms
-  # - nl
+  - nl
   # - pl
-  # - pt-BR
+  - pt-BR
   # - pt-PT
   # - ru
   # - sk

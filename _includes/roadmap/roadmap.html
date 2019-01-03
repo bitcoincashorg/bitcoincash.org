@@ -25,9 +25,16 @@
 
                 <p>To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.</p>
 
-
+                {% if site.lang == "es" %}
+                    <img src="/img/bitcoin-cash-protocol-roadmap_ES.png" alt="Bitcoin Cash Roadmap"/>
+                {% elsif site.lang == "pt-BR" %}
+                    <img src="/img/bitcoin-cash-protocol-roadmap_pt_BR.png" alt="Bitcoin Cash Roadmap"/>
+                {% elsif site.lang == "nl" %}
+                    <img src="/img/bitcoin-cash-protocol-roadmap_NL.png" alt="Bitcoin Cash Roadmap"/>
+                {% else %}
+                    <img src="/img/bitcoin-cash-protocol-roadmap.png" alt="Bitcoin Cash Roadmap"/>
+                {% endif %}
                 
-                <img src="/img/bitcoin-cash-protocol-roadmap.png" alt="Bitcoin Cash Roadmap"/>
             </div>
             
         </div>
