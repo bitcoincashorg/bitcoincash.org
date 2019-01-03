@@ -384,7 +384,7 @@ content:
         descrip:
           - |
               Your projects website must clearly define the Bitcoin Cash ticker as <strong>BCH</strong>. Projects not using the correct ticker will be disqualified from listing.
-      - title: "Does your project use the correct name"
+      - title: "Does your project use the correct name?"
         descrip:
           - |
               Your projects website must define Bitcoin Cash in it's full name. Projects which ammend or append additions to the name "Bitcoin Cash" will be disqualified from listing. 
@@ -408,7 +408,7 @@ content:
         descrip:
           - |
             Applicant websites must appear professional. User Interface (UI) should be simple for new users.
-      - title: "Is your project trusted and vetted by the Bitcoin Cash community"
+      - title: "Is your project trusted and vetted by the Bitcoin Cash community?"
         descrip:
           - |
             Applicants should reach out to the Bitcoin Cash community via Twitter, Telegram, Reddit, or Slack. Projects that have been vetted by trusted members within the community are more likely to receive an approved application. We receive thousands of applications, those which have a stronger online presence are more likely to be accepted.
