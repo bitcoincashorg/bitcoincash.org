@@ -378,7 +378,7 @@ content:
       - |
          With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
-        The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
+        The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
   criteria:
       - title: "Does your project use the correct ticker?"
         descrip:
@@ -392,10 +392,10 @@ content:
         descrip:
           - |
               Bitcoin Cash wallet applications must include seed type and derivation paths. 
-      - title: "Does your project clearly promote Bitcoin Cash?"
+      - title: "Does your project clearly feature Bitcoin Cash?"
         descrip:
           - |
-              Applicants website's must clearly promote Bitcoin Cash. Adding minimal support does not guarantee listing.
+              Applicants website's must clearly feature or promote Bitcoin Cash. Adding minimal support does not guarantee listing.
       - title: "Does your project use the Bitcoin Cash logo?"
         descrip:
           - |
