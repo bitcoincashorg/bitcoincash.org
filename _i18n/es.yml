@@ -404,7 +404,7 @@ downloadwallet:
   bitcoindotcom: "Empiece a usar el monedero de Bitcoin.com para disfrutar de un modo sencillo y seguro de enviar y recibir bitcoins. El monedero admite tanto Bitcoin Cash (BCH) como Bitcoin Core (BTC), lo cual permite a sus usuarios alternar entre ambas divisas sin complicaciones."
   handcash: "¿Acaso existe algo más de usuario a usuario que entregar el dinero en mano? Sin necesidad de direcciones ni de terceros. El monedero ha digitalizado todo este proceso utilizando Bitcoin Cash como base del ecosistema de productos."
   yenom: "Yenom es un monedero exclusivo de Bitcoin Cash fácil de usar y apto para principiantes. ¡Ideal para aquellos familiares y amigos que se embarcan por primera vez en el bitcoin! Es, simple y llanamente, el modo más sencillo de enviar y recibir bitcoins. Todo el mundo puede probar suerte sin problema con Yenom."
-  electron: "Sus claves privadas se hallan codificadas y no abandonan en ningún momento su ordenador. Puede recuperar sus fondos introduciendo una frase secreta. Electrum es rápido porque utiliza servidores que indexan la cadena de bloques del bitcoin. Puede exportar sus claves privadas y utilizarlas en otros clientes de Bitcoin."
+  electron: "Sus claves privadas se hallan codificadas y no abandonan en ningún momento su ordenador. Puede recuperar sus fondos introduciendo una frase secreta. Electron Cash es rápido porque utiliza servidores que indexan la cadena de bloques del bitcoin. Puede exportar sus claves privadas y utilizarlas en otros clientes de Bitcoin."
 buyorearn:
   title: "Comprar o ganar Bitcoin Cash"
   subtitle: "¿Cómo obtengo Bitcoin Cash?"

@@ -15,6 +15,8 @@ Avalanche Paper: https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwr
 
 Introductory explainer video by Decentralized Thought: https://youtu.be/3TAgLJHTYRg
 
+Chris Pacia Avalanche overview article: https://medium.com/@chrispacia/the-problems-solved-by-avalanche-5575a1b0d7bc
+
 Chris Pacia article on Avalanche for pre-consensus: https://medium.com/@chrispacia/avalanche-pre-consensus-making-zeroconf-secure-ddedec254339
 
 Antony Zegers article on Avalanche for post-consensus: https://medium.com/@Mengerian/avalanche-post-consensus-making-bitcoin-cash-indestructible-2464b1ae0382
