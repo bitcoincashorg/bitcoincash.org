@@ -6,7 +6,7 @@
   Status: WIP
   Type: Standards Track
   Created: 2018-10-21
-  Latest edit: 2018-12-24
+  Latest edit: 2019-01-05
 </pre>
 
 
@@ -26,23 +26,14 @@ We propose a dynamic limit to the block size based on the the '''largest''' numb
 
 This is a chain-based signaling mechanism that will allow miners to have certainty that the blocks they build will be accepted by the rest of the network. If wished, a majority of miners will be able to affect the limit whether upwards or downwards, with a cost over a window of time. With this BUIP in place, future hard forks related to block size should be unnecessary.
 
-
-Please note that this proposal DOES NOT propose a [[https://gist.github.com/gavinandresen/54f6e24b830781aae1f4|blended cost metric]] for transactions and blocks used for miner transaction selection. Consensus rules regarding maximum signature operations per block and maximum standard transaction signature operations should be considered separately from this consensus rule change. 
-
-
 ==Specification==
 
 * This can be implemented two ways: As a hard fork using either a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes, or as a BIP-135 voting result (see [[https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki|BIP135]] and [[https://github.com/BitcoinUnlimited/BUIP/blob/master/098.mediawiki|the corresponding BUIP]].
 
-** For either method, after the activation time the nodes will first enter a "transition period" of 12,959 blocks; during this period, the maximum blocksize remains at the pre-activation consensus limit (currently 32,000,000 bytes), but nodes both archival and pruned will record the size of each new block. 
-** After 12,959 blocks have passed since activation, maximum blocksize limit can be calculated for all nodes using median of the past 12,959 blocksizes and the pre-activation limit (see below). The network enters a "second transtion" that lasts 36,900 blocks, after which maximum blocksize can be calculated using all three criteria that now includes median blocksize of last 52,559 blocks.
-
 * The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
 
-** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively). If the latter is not available in the second transition period of the flag-date activation method, use only median of the past 12,959 blocks.
+** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively) after activation using either method. For any blocksize that is either before activation time (hence not available to some pruned nodes) or less than 3,200,000 bytes (3.2MB), it should be counted as 3,200,000 bytes for median calculation.
 ** The larger of the two medians * 10 (10 is the growth multiplier) is the new maximum block size consensus.
-** If the larger median times 10 is less than 32,000,000 bytes (or pre-activation maximum blocksize limit) or the network is in the first transition period, then 32,000,000 bytes is used as the maximum block size until next calculation. 
-
 
 ===Activation===
 Activation: By flag time or BIP135 voting, as specified above.
@@ -105,7 +96,8 @@ Within a reasonable range, the author will recommend using a long adjustment per
  
  SHORT_MEDIAN_WINDOW = 12959
  LONG_MEDIAN_WINDOW  = 52559 
- MIN_BLOCK_SIZE = 32000000
+ MULTIPLIER = 10
+ MIN_BLOCK_SIZE = 3200000
  
  def median(values):
      """ Calculate approximate median of integer values.
@@ -113,6 +105,12 @@ Within a reasonable range, the author will recommend using a long adjustment per
      # only allow odd number of values!
      assert len(values)%2 == 1
      return sorted(values)[(len(values) - 1) // 2]
+     
+ def raise_floor(past_realblocksizes):
+     """Get real blocksizes, fill in the holes and any size <3.2M with 3.2M
+     """
+     # Assume previous code fills non-available blocksizes with 0
+     return [MIN_BLOCK_SIZE for x < MIN_BLOCK_SIZE else x for x in past_realblocksizes]
  
  def allowed_blocksize(past_blocksizes):
      """Calculate allowed size for incoming block at height h, given
@@ -120,14 +118,12 @@ Within a reasonable range, the author will recommend using a long adjustment per
      blocksizes[-1] being the block size of the current chain tip, that is the
      block at height (h-1)
      """
-     if len(past_blocksizes) < SHORT_MEDIAN_WINDOW:
-         return MIN_BLOCK_SIZE
+     past_blocksizes = raise_floor(past_realblocksizes)
      median_30d = median(past_blocksizes[-SHORT_MEDIAN_WINDOW:])
      median_365d = median(past_blocksizes[-LONG_MEDIAN_WINDOW:])
     
-     return max(median_30d,
-                median_365d,
-                MIN_BLOCK_SIZE)</nowiki>
+     return max(median_30d*MULTIPLIER,
+                median_365d*MULTIPLIER,)
 
 ===FAQ===
 
