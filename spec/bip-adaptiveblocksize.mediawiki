@@ -23,8 +23,9 @@ We propose a dynamic limit to the block size based on the the '''largest''' numb
 
 ==Motivation==
 
-
 This is a chain-based signaling mechanism that will allow miners to have certainty that the blocks they build will be accepted by the rest of the network. If wished, a majority of miners will be able to affect the limit whether upwards or downwards, with a cost over a window of time. With this BUIP in place, future hard forks related to block size should be unnecessary.
+
+The mechanism is expected to accomodate increases in usage over time in a manner predictable for all network participants, while ensuring that spikes in usage rarely exceeds the upper cap at any given time. Network robustness is enhanced by the predictable and slow-moving cap that can be planned against, reducing the risk of unexpected outages and splits.
 
 ==Specification==
 
@@ -75,6 +76,8 @@ Under this BIP, by design the limit is harder to decrease than increase, with de
 
 ===Fastest Growth Scenarios===
 The maximum rate of growth is capped at the growth multiplier, which is 10. So, the fastest the limit can increase is if every block is mined to capacity continuously over time. In this case, the absolute fastest growth rate is a 10x of maximum block size every 6480 blocks (45 days). While this is a really aggressive pace of growth, it only happens when 100% of the miners participate, and decreases in speed as less miners participate.
+
+In the case of extreme growth in usage that exceeds this pace, there is a tradeoff in terms of multiplier: A higher multiplier can accomodate even faster growth as well as further improve user experience at the edge, but comes at a cost of less predictability for both network participant investments and security. 
 
 ===Mining Ramifications===
 We don’t expect this consensus rule change to impact miners who choose to mine from block headers before the full block is transferred, validated and connected to the active chain. The same behavior will be observed before and after this change. Since this consensus rule will be calculated as a precondition to adding a new block at the tip, the maximum block size rule for the next block will not be known until after the last block is connected to the main chain.
