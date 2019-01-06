@@ -30,7 +30,7 @@ This is a chain-based signaling mechanism that will allow miners to have certain
 
 * This can be implemented two ways: As a hard fork using either a flag time (see [[https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2018-nov-upgrade.md | November hard fork specs]] for reference), and can be activated with other necessary changes, or as a BIP-135 voting result (see [[https://github.com/bitcoin/bips/blob/master/bip-0135.mediawiki|BIP135]] and [[https://github.com/BitcoinUnlimited/BUIP/blob/master/098.mediawiki|the corresponding BUIP]].
 
-* The new maximum block size calculation will take place at the end of ConnectBlock(), so enforcement of the new maximum block size consensus rule will take place on the next block received.
+* The new maximum block size calculation will take place after receiving, verifying a new block and adding it to the tip. Enforcement of the new maximum block size consensus rule will take place on the next block received.
 
 ** Extract median blocksizes from the last 12,959 blocks' and 52,559 blocks' sizes (90 and 365 days of blocks respectively) after activation using either method. For any blocksize that is either before activation time (hence not available to some pruned nodes) or less than 3,200,000 bytes (3.2MB), it should be counted as 3,200,000 bytes for median calculation.
 ** The larger of the two medians * 10 (10 is the growth multiplier) is the new maximum block size consensus.
@@ -52,7 +52,7 @@ Choosing the median block size versus using an arithmetic mean is an important d
 
 We expect miners to optimize their actual mined blocksizes by weighing transaction fees from broadcasted transactions against orphan risk of larger blocks (see [[https://www.bitcoinunlimited.info/resources/feemarket.pdf | analysis]]). In the cases where the allowances of this BIP proves to be inadequate and miners collectively wish to increase or decrease blocksize limit beyond normal usage (for example, to either grow in anticipation of a large incoming usecase, or to stave off a newly discovered rare attack at the edge of the blocksize limit: 
 
-* If >51% of miners wish to increase blocksize limit, they can fill their blocks with transactions to themselves over 1/10th of their desired limit, and sustain it over a period of 3 months. This will incur a cost in orphaning risk versus their peers who do not hold such desires. 
+* If >51% of miners wish to increase blocksize limit, they can fill their blocks with transactions to themselves over 1/10th of their desired limit, and sustain it over a period of 3 months. This will incur a cost in orphaning risk versus their peers who do not hold such desires. Such a cost does not apply in case a very large miner over 51% decides to abuse it, but such a miner brings other, even more problematic risks to the network; and the long adjustment window allows other network participants to observe any potential manipulation and reach their own decisions in time. 
 
 * If >51% of miners wish to decrease blocksize limit, they can restrict their mined blocksize to below 1/10th the desired limit, and sustain it over a period of one year. This will incur a cost in giving up transaction fees.
 
@@ -77,11 +77,9 @@ Under this BIP, by design the limit is harder to decrease than increase, with de
 The maximum rate of growth is capped at the growth multiplier, which is 10. So, the fastest the limit can increase is if every block is mined to capacity continuously over time. In this case, the absolute fastest growth rate is a 10x of maximum block size every 6480 blocks (45 days). While this is a really aggressive pace of growth, it only happens when 100% of the miners participate, and decreases in speed as less miners participate.
 
 ===Mining Ramifications===
-We don’t expect this consensus rule change to impact miners who choose to mine from block headers before the full block is transferred, validated and connected to the active chain. The same behavior will be observed before and after this change. Since this consensus rule will be calculated as a precondition to ConnectBlock(), the maximum block size rule for the next block will not be known until after the last block is connected to the main chain.
+We don’t expect this consensus rule change to impact miners who choose to mine from block headers before the full block is transferred, validated and connected to the active chain. The same behavior will be observed before and after this change. Since this consensus rule will be calculated as a precondition to adding a new block at the tip, the maximum block size rule for the next block will not be known until after the last block is connected to the main chain.
 
 Since the limit moves slowly and is kept at a high multiplier above median usage, miners who wish to not accidentally exceed current limits should have ample room to safely add large number of transactions to their block - simply prepare a block targeting the limit as if the next incoming block will be empty.
-
-Should the growth rate of the block size limit greatly exceed the actual fee-paying volume of the Bitcoin Cash network, there should be an increase in the number of smaller blocks to reduce orphan rates, and in extreme cases empty blocks as a result of SPV mining.  The effect of which would be to reduce the median block size and therefore reduce the block size limit.  To the extent miners engage in restricting transactions included and SPV mining, it should have an automatic, self correcting effect on the block size limit.
 
 ===Choice of Long Adjustment timeframes and Larger Multiplier===
 There have been comments about whether to significantly shorten the increase timeframe and reduce multiplier, so that extraordinary spikes in usage can be better accomodated. 
