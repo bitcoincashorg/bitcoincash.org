@@ -1,0 +1,127 @@
+<section class="space--xxs text-center video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="card-user-profile wallet-types">
+                    <h3>{% t 'buyorearn.sidetitle' %}</h3>
+                    <div class="text-left">
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="cart"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.buyexchange' %}</h4>
+                                <p>{% t 'buyorearn.buyexchange_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="water"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.usefaucet' %}</h4>
+                                <p>{% t 'buyorearn.usefaucet_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="phone-portrait"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.buyapp' %}</h4>
+                                <p>{% t 'buyorearn.buyapp_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="wallet"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.buyatm' %}</h4>
+                                <p>{% t 'buyorearn.buyatm_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="globe"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.earnonline' %}</h4>
+                                <p>{% t 'buyorearn.earnonline_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="people"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.buyinperson' %}</h4>
+                                <p>{% t 'buyorearn.buyinperson_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="pricetags"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.acceptbch' %}</h4>
+                                <p>{% t 'buyorearn.acceptbch_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="cash"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'buyorearn.getpaid' %}</h4>
+                                <p>{% t 'buyorearn.getpaid_excerpt' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <div class="card-user-profile text-left">
+                    <img class="card-user-profile-img" src="/img/buy-bitcoin-cash.jpg" alt="{% t 'buyorearn.title' %} Bitcoin Cash Coin with Coinbase Behind" />
+                    <div class="card-user-profile-content card-section">
+                        <h3 class="card-user-profile-name">{% t 'buyorearn.subtitle' %}</h3>
+                        <h1 class="card-user-profile-status">{% t 'buyorearn.title' %}</h1>
+                        <p class="card-user-profile-info">{% t 'buyorearn.firstparagraph' %}</p>
+                        <h3 class="card-user-profile-status">{% t 'buyorearn.secondparagraphtitle' %}</h3>
+                        <p class="card-user-profile-info">{% t 'buyorearn.secondparagraph' %}</p>
+                        <h3 class="card-user-profile-status">{% t 'buyorearn.thirdparagraphtitle' %}</h3>
+                        <p class="card-user-profile-info">{% t 'buyorearn.thirdparagraph' %}</p>
+                    </div>
+                    <div class="card-user-profile-actions">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="space--xxs text-center" id="exchanges-section"  data-section="exchanges">
+    <div class="container exchanges">
+        <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+                <h2>{% t 'headings.microeconomy' %}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+                <a href="https://memo.cash/" target="_blank"><img alt="Memo.cash" src="/img/micro/memo.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+                <a href="https://free.bitcoin.com/" target="_blank"><img alt="Free Bitcoin" src="/img/micro/freebitcoin.png"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include exchanges/exchanges.html %}
+
+<div class="row text-center">
+    <a href="wallets.html" class="card-user-profile-button btn btn-secondary btn-round secondary">&laquo; {% t 'downloadwallet.title' %}</a>
+    <a href="spend-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'spendbch.title' %} &raquo;</a>
+</div>

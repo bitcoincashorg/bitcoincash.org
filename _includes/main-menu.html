@@ -6,23 +6,28 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right homepage">
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#about" data-nav-section="about" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t sections.about %}</span>
+                        <a href="index.html" class="external">
+                            <span>{% t sections.home %}</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#nodes" data-nav-section="nodes" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                        <a href="start-here.html" class="external">
+                            <span>{% t 'sections.starthere' %}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="nodes.html" class="external">
                             <span>{% t 'sections.nodes' %}</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#faq" data-nav-section="faq" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.faq' %}</span>
+                        <a href="wallets.html" class="external">
+                            <span>{% t 'sections.wallets' %}</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{% unless page.isHome %}/{%endunless%}#wallets" data-nav-section="wallets" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
-                            <span>{% t 'sections.wallets' %}</span>
+                        <a href="graphics.html" class="external">
+                            <span>{% t 'sections.graphics' %}</span>
                         </a>
                     </li>
                     <li class="dropdown">
@@ -33,27 +38,27 @@
                                     <div class="dropdown__content col-md-{%- t 'misc.dropdown_md_width' %} col-sm-{%- t 'misc.dropdown_sm_width' -%}">
                                         <ul class="menu-vertical">
                                             <li>
-                                                <a href="{% unless page.isHome %}/{%endunless%}#services" data-nav-section="services" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="services.html" class="external">
                                                     {% t 'sections.services' %}
                                                 </a>
                                             </li>
+
+
                                             <li>
-                                                <a href="{% unless page.isHome %}/{%endunless%}#projects" data-nav-section="projects" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="projects.html" class="external">
                                                     {% t 'sections.projects' %}
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="{% unless page.isHome %}/{%endunless%}#exchanges" data-nav-section="exchanges" class= {% if page.isHome %} "inner-link" {%else %} "external" {%endif%}>
+                                                <a href="exchanges.html" class="external">
                                                     {% t 'sections.exchanges' %}
                                                 </a>
                                             </li>
-                                            <!-- Disabled for renovations
-                                            <li>
+                                            <!-- <li>
                                                 <a href="developers.html" class="external">
                                                     {% t 'sections.developers' %}
                                                 </a>
-                                            </li>
-                                            -->
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -61,12 +66,12 @@
                         </div>
                     </li>
                     <li>
-                        <a href="graphics.html" class="external">
-                            {% t 'sections.graphics' %}
+                        <a href="faq.html" class="external">
+                            <span>{% t 'sections.faq' %}</span>
                         </a>
                     </li>
                     <li class="dropdown">
-                        <span class="dropdown__trigger"><i class="fa fa-globe"></i> {% t 'language' %}</span>
+                        <span class="dropdown__trigger"><ion-icon name="globe"></ion-icon> {% t 'language' %}</span>
                         <div class="dropdown__container">
                             <div class="container">
                                 <div class="row">

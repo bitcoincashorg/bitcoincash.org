@@ -1,5 +1,5 @@
 ---
-layout: spec-page
+layout: specification
 title: "Create Transactions w/ BITBOX"
 description: Create mnemonics, root seeds, master hd nodes, BIP44 accounts, external change addresss, generate cash addresses, get list of spendable utxo, create tx and send them.
 date:   2018-05-13

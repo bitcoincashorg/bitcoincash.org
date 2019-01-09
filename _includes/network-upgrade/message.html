@@ -1,0 +1,31 @@
+<section class="space--xxs" id="getStarted-section"  data-section="getStarted">
+     <div class="container">
+         <div class="row to-animate">
+             <div class="col-xs-12 section-heading ">
+                 <h3>{% t 'network-upgrade.section-title' %}</h3>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-sm-12">
+                 <h3>{% t 'network-upgrade.highlights.title' %}</h3>
+                 <ul>
+                     {% for item in site.translations[site.lang]["network-upgrade"]["highlights"]["list"] %}
+                        <li>{{ item }}</li>
+                     {% endfor %}
+                 </ul>
+                <h3>{% t 'network-upgrade.changes.title' %}</h3>
+                <p>{% t 'network-upgrade.changes.text' %}</p>
+
+                <!-- FAQ -->
+                <h3>{% t 'network-upgrade.faq-title' %}</h3>
+                {% for qa in site.translations[site.lang]["network-upgrade"]["faq"] %}
+                    <h4>{{ qa['question'] }}</h4>
+                    {% for a in qa['answer'] %}
+                        <p class='to-animate'>{{ a }}</p>
+                    {% endfor %}
+                {% endfor %}
+                <!-- /FAQ -->
+             </div>
+         </div>
+     </div>
+ </section>

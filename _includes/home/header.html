@@ -1,24 +1,24 @@
 <section id="fh5co-home" data-section="home" class="home site-header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo to-animate">
-                <img alt="{% t 'layout.bitcoin_cash' %}" src="/media-kit/2-bitcoin-cash-logo-wt.svg">
-                <p class="lead">
-                    {% t 'layout.lead' %}
-                </p>
+            <div class="hero-logo to-animate col-sm-8 col-md-9 col-lg-7">
+                <h3>{% t 'layout.lead' %}</h3>
+                <h4>{% t 'layout.leadsubtitle' %}</h4>
+
+                <a href="#step-section" class="btn btn-default inner-link" data-scroll-class="-30vh:active">{% t 'layout.herobutton_one' %}</a>
+                <a href="wallets.html" class="btn btn-default">{% t 'layout.herobutton_two' %}</a>
+
+
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 ticker text-center">
-                <span id="ticker_value" class="to-animate">{% t 'layout.loading' %}</span>
-            </div>
-            <div class="col-sm-12 text-center mt-2">
-                <h5 class="reminder"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> {% t 'networkupgrade.reminder' %}: {% t 'networkupgrade.date' %} {% t 'networkupgrade.title' %}</h5>
-            </div>
-            <div class="col-sm-12 text-center" data-toggle="modal" data-target="#hackathon">
-                <h5 class="reminder text-white mt-sm"><i class="fa fa-link" aria-hidden="true"></i> Bitcoin Cash Global Hackathon Series</h5>
-            </div>
+            <!-- <div class="col-sm-12 mt-2">
+                <h5 class="reminder">
+                    <a href="#" onclick="event.preventDefault();" data-toggle="collapse" data-target="#collapseOne"><ion-icon name="construct"></ion-icon>
+                    {% t 'networkupgrade.reminder' %}: {% t 'networkupgrade.date' %} {% t 'networkupgrade.title' %}
+                    </a>
+                </h5>
+            </div> -->
         </div>
     </div>
+    <span id="ticker_value" class="to-animate">{% t 'layout.loading' %}</span>
     <div class="slant"></div>
 </section>

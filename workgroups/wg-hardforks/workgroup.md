@@ -16,6 +16,7 @@ parties: [
 permalink: /workgroups/wg-hardforks
 group: workgroup
 workgroup: wg-hardforks
+title: workgroups.workgroups.wg-hardforks.title
 ---
 
 ### Upcoming Dates

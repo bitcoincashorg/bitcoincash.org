@@ -5,3 +5,5 @@ html/graphics/*.html
 _site
 .sass-cache
 _config.yml
+.tx/
+tx.py

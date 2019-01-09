@@ -1,25 +1,51 @@
 ---
-layout: default
+layout: page
 ---
 
-<article class="page">
-  <h1>{{ page.title }}</h1>
-  <ul>
-    <li>Time: {{page.time}}</li>
-    <li>Document Version: {{page.version}}</li>
-    {% if page.chair %}
-      <li>Chair: {{page.chair}}</li>
-    {% endif %}
-    <li>
-      Participants:
-      <ul>
-        {% for item in page.participants %}
-          <li>{{item}}</li>
-        {% endfor %}
-      </ul>
-    </li>
-  </ul>
-  <div class="entry">
-    {{ content }}
+{% include main-menu.html %}
+
+<section id="fh5co-home" data-section="home" class="site-header"  style="padding-top: 0 !important">
+  <div class="container">
+      <div class="text-wrap">
+          <div class="text-inner">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                      <h1 class="to-animate">{{page.title}}</h1>
+                      <h2 class="to-animate">{{page.time}}</h2>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-</article>
+  <div class="slant"></div>
+</section>
+
+{% include workgroups/menu.html %}
+
+<section class="space--xxs border-bottom" id="nodes-section" data-section="nodes">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ page.title }}</h1>
+        <ul>
+          <li>Time: {{page.time}}</li>
+          <li>Document Version: {{page.version}}</li>
+          {% if page.chair %}
+          <li>Chair: {{page.chair}}</li>
+          {% endif %}
+          <li>
+            Participants:
+            <ul>
+              {% for item in page.participants %}
+              <li>{{item}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

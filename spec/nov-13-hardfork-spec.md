@@ -1,13 +1,14 @@
 ---
 layout: specification
 title: November 13th Bitcoin Cash Hardfork Technical Details
+category: spec
 date: 2017-11-07
 activation: 1510600000
 version: 1.3
 ---
 
 ## Summary
- 
+
 When the median time past[1] of the most recent 11 blocks (MTP-11) is greater than or equal to UNIX timestamp 1510600000 Bitcoin Cash will execute a hardfork according to this specification. Starting from the next block these three consensus rules changes will take effect:
 
 * Enforcement of LOW_S signatures ([BIP 0146](https://github.com/bitcoin/bips/blob/master/bip-0146.mediawiki#low_s))

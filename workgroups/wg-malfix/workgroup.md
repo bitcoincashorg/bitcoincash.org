@@ -3,6 +3,7 @@ layout: workgroup
 permalink: /workgroups/wg-malfix
 group: workgroup
 workgroup: wg-malfix
+title: workgroups.workgroups.wg-malfix.title
 ---
 
 Fixes to transaction malleability to enable various other technologies on top

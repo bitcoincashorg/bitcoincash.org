@@ -1,0 +1,88 @@
+<section class="space--xxs text-center video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="card-user-profile wallet-types">
+                    <h3>{% t 'spendbch.sidetitle' %}</h3>
+                    <div class="text-left">
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="cart"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'spendbch.shoponline' %}</h4>
+                                <p>{% t 'spendbch.shoponline_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="pizza"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'spendbch.spendatrestaurants' %}</h4>
+                                <p>{% t 'spendbch.spendatrestaurants_excerpt' %}</p>
+                            </div>
+                        </div>
+                        <div class="row type">
+                            <div class="col-xs-3">
+                                <ion-icon name="gift"></ion-icon>
+                            </div>
+                            <div class="col-xs-9">
+                                <h4>{% t 'spendbch.shopinperson' %}</h4>
+                                <p>{% t 'spendbch.shopinperson_excerpt' %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-xs-12 col-md-8">
+                <div class="card-user-profile text-left">
+                        <img class="card-user-profile-img" src="/img/spend-bitcoin-cash.jpg" alt="{% t 'spendbch.title' %} - Tokyo Shibuya Crossing Bitcoin Cash" />
+                    <div class="card-user-profile-content card-section">
+                        <h3 class="card-user-profile-name">{% t 'spendbch.subtitle' %}</h3>
+                        <h1 class="card-user-profile-status">{% t 'spendbch.title' %}</h1>
+                        <p class="card-user-profile-info">{% t 'spendbch.description' %}</p>
+                    </div>
+                    <div class="card-user-profile-actions">
+
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<a id="wallets"></a>
+<section class="text-center space--none">
+    <div class="container">
+        <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+                <h2>{% t 'spendbch.maptitle' %}</h2>
+            </div>
+            <div class="col-xs-12">
+                <iframe src="https://marco-coino.firebaseapp.com/marcocoino-embed.html?lat=35.652832&long=139.839478&zoom=2&color=orange" width="500"
+                    height="500"></iframe>
+                    <h4 class="section-heading"><span class="merchantCount">192</span> {% t 'spendbch.mapcount' %} - Location data by <a href="https://www.coinline.co.nz/marco-coino/" title="Marco Coino" target="_blank">Marco Coino</a></h4>
+            </div>
+        </div>
+        <div class="row text-center">
+            <a href="buy-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">&laquo; {% t 'buyorearn.title' %}</a>
+            <a href="accept-bitcoin-cash.html" class="card-user-profile-button btn btn-secondary btn-round secondary">{% t 'acceptbch.title' %} &raquo;</a>
+        </div>
+    </div>
+</section>
+
+<script src="/js/jquery.min.js"></script>
+<script>
+
+    $.getJSON("https://us-central1-marco-coino.cloudfunctions.net/totalMerchants", function( data ) {
+      var count;
+      $.each(data, function(key, val) {
+        count = val;
+      });
+
+      $('.merchantCount').html(count);
+
+    });
+
+</script>

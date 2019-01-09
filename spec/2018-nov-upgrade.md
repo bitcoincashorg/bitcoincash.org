@@ -1,9 +1,9 @@
 ---
 layout: specification
 title: 2018 November 15 Network Upgrade Specification
-date: 2018-08-24
+date: 2018-10-10
 activation: 1542300000
-version: 0.3
+version: 0.5
 ---
 
 ## Summary
@@ -22,7 +22,7 @@ The following are not consensus changes, but are recommended changes for Bitcoin
 
 ## Canonical Transaction Order
 
-With the exception of the coinbase transaction, transactions within a block shall be sorted by Transaction ID in ascending order. The coinbase transaction shall be the first transaction in a block.
+With the exception of the coinbase transaction, transactions within a block MUST be sorted in numerically ascending order of the transaction id, interpreted as 256-bit little endian integers.  The coinbase transaction MUST be the first transaction in a block.
 
 ## OpCodes
 
@@ -34,11 +34,11 @@ Transactions that are smaller than 100 bytes shall be considered invalid. This p
 
 ## Push Only
 
-Transactions shall be considered invalid if an opcode with number greater than 96 (hex encoding 0x60) appears in a scriptSig. This is the same as Bitcoin BIP 62 rule #3 [4].
+Transactions shall be considered invalid if an opcode with number greater than 96 (hex encoding 0x60) appears in a scriptSig. This is the same as Bitcoin BIP 62 rule #2 [4].
 
 ## Clean Stack
 
-For a transaction to be valid, only a single non-zero item must remaing on the stack upon completion of Script evaluation. If any extra data elements remain on the stack, the script evaluates to false. This is the same as Bitcoin BIP 62 rule #6 [4].
+For a transaction to be valid, only a single non-zero item must remain on the stack upon completion of Script evaluation. If any extra data elements remain on the stack, the script evaluates to false. This is the same as Bitcoin BIP 62 rule #6 [4].
 
 ## Automatic Replay Protection
 
@@ -54,7 +54,7 @@ This particular consensus rule MUST NOT be implemented by Bitcoin Cash wallet so
 
 ## References
 
-[1] Median Time Past is described in [bitcoin.it wiki](https://en.bitcoin.it/wiki/Block_timestamp). It is guaranteed by consensus trules to be monotonically increasing.
+[1] Median Time Past is described in [bitcoin.it wiki](https://en.bitcoin.it/wiki/Block_timestamp). It is guaranteed by consensus rules to be monotonically increasing.
 
 [2] https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md
 

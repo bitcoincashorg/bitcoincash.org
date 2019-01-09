@@ -1,6 +1,7 @@
 ---
 layout: specification
 title: Address format for Bitcoin Cash
+category: spec
 date: 2017-10-13
 activation: 1515888000
 version: 1.0

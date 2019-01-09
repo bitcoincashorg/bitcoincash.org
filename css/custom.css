@@ -1,5 +1,9 @@
 /*! Place your custom styles here */
 
+.navbar .navbar-brand {
+  padding-top:10px;
+}
+
 .bar .logo {
   max-height: 1.3em;
 }
@@ -27,11 +31,75 @@ p.release {
 .benefits p {
   margin-bottom: 0;
 }
-
+.reminder a, .reminder a:hover, .reminder a:focus {
+  color:#fff;
+  text-decoration: none;
+}
 .reminder {
-  color: #f7941c;
-  font-size: 22px;
+  color: #fff;
   margin-top: 15px;
+}
+.reminder ion-icon {
+  color:#fff;
+}
+
+.reminder-bar .panel {
+  margin:0;
+  border-radius:0;
+}
+.reminder-bar .panel-default > .panel-heading {
+  background:#4d4d4d;
+  color:#fff;
+  border:0;
+  border-radius:0;
+}
+
+.reminder-bar .panel-body {
+  background:#4d4d4d;
+  color:#fff;
+}
+.reminder-bar .panel-body p, .reminder-bar .panel-body h3 {
+  color:#fff;
+}
+
+.reminder-bar .panel-body h4 {
+  margin:.5em 0 0;
+  font-size:20px;
+}
+.reminder-bar .panel-title {
+  padding:0.15em;
+  margin:0;
+  font-size:13px;
+}
+
+footer .social-list {
+  margin-bottom:2em;
+}
+
+.reminder-bar .panel-title ion-icon {
+  color:#fff;
+  float:left;
+  font-size:18px;
+  margin-right:5px;
+  margin-top:-3px;
+}
+
+.reminder-bar .panel-title a {
+  color:#fff;
+  display:block;
+}
+
+.reminder-bar .panel-default {
+  border:0;
+}
+
+.reminder-bar .btn ion-icon {
+  color:#fff;
+}
+
+.reminder-bar .panel-title a:hover, .reminder-bar .panel-title a:focus {
+  color:#f7f7f7;
+  text-decoration: none;
 }
 
 .panel.secondary {
@@ -40,7 +108,7 @@ p.release {
   margin: 20px 0 40px;
 }
 
-.panel.secondary p, .panel.secondary h2, .panel.secondary h2 small {
+.panel.secondary p, .panel.secondary h2 {
   color: #fff;
 }
 
@@ -53,6 +121,7 @@ p.release {
 
 .reminder-links a {
   display: block;
+  font-size:13px;
 }
 
 .fa-fw {
@@ -67,30 +136,30 @@ p.release {
 
 .site-header {
   background-color: black;
-  background-image: url(../img/background13.jpg);
+  background-image: url(../img/background16.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
+  position:relative;
 }
 
-.close-fix {
-  position: relative;
-  top: -15px;
+
+.site-header.inner {
+background-image: url(../img/background16.jpg);
+background-position:0 0;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+padding-top:2em;
 }
 
-.mt-sm {
-  margin-top: -1rem;
-}
-
-.mt-sm:hover {
-  cursor: pointer;
-}
-
-.text-white {
-  color: #ffffff !important;
-}
+/*.hero-logo h3, .hero-logo h4, .reminder a, #fh5co-home #ticker, #fh5co-home #ticker_value {
+  text-shadow:0 0 8px rgba(0,0,0,0.55);
+}*/
 
 @media only screen and (max-device-width: 1024px) {
   .site-header {
@@ -98,9 +167,26 @@ p.release {
   }
 }
 
+@media (max-width: 850px) {
+  .navbar-nav > li > .dropdown__trigger {
+    margin:0px 8px !important;
+    padding-top:15px !important;
+  }
+  .nav > li > a {
+    padding:15px 8px !important;
+  }
+}
+
 @media (max-width: 767px) {
   .dropdown .dropdown__content {
       padding: 0 1.2em .3em;
+  }
+  .navbar-nav > li > .dropdown__trigger {
+    padding-top:0 !important;
+  }
+
+  .navbar-nav > li ion-icon {
+    color:rgba(0,0,0,0.5) !important;
   }
 }
 
@@ -132,6 +218,10 @@ p.release {
   color: white;
 }
 
+section {
+  overflow:hidden;
+}
+
 section.no-bottom {
   padding-bottom: 0;
 }
@@ -141,11 +231,9 @@ section.no-top {
 }
 
 section.gray {
-  background-color: #FAFAFA;
-}
-
-section.border-bottom {
-  border-bottom: 1px solid #EAEAEA;
+      background: #fafafa;
+    background: -webkit-linear-gradient(to right, #fafafa, #f9f9f9);
+    background: linear-gradient(to right, #fafafa, #f9f9f9);
 }
 
 p.question {
@@ -161,6 +249,142 @@ p.question {
   border-bottom: 3px solid #F08B16;
 }
 
+
+.community-cta .btn{
+  margin-bottom:1em;
+}
+
+.community-cta .btn + .btn {
+  margin-left:1em;
+}
+
+/* .video-section .card-user-profile {
+  margin-top:2em;
+} */
+
+.video-section .card-user-profile-content::before {
+ content:none;
+}
+.video-section .card-user-profile-name {
+  margin-top:1.5em;
+  margin-bottom:.5em;
+  color:#ee8a2c;
+}
+.featured-wallets {
+  padding-bottom:2em;
+}
+.wallets .featured-wallets div a {
+  display:block;
+  margin:0 auto 1em;
+  position: relative;
+  color:#4d4d4d;
+  height:auto;
+}
+.featured-wallets a img {
+  display:block;
+  margin:0 auto;
+}
+.wallet-types h3 {
+  font-weight:bold;
+  color:#4d4d4d;
+  font-size:21px;
+}
+.wallet-types, .card-user-profile.wallet-types {
+  padding:1em 0.5em;
+  margin:1em 0;
+}
+
+/* @media all and (max-width: 767px) {
+    .wallet-types .type ion-icon {
+      font-size:24px;
+  }
+} */
+.wallet-types h4 {
+  margin-bottom:0.25em;
+  color:#4d4d4d;
+}
+.wallet-types .col-xs-3 {
+  text-align:right;
+}
+.wallet-types .type {
+  margin-bottom:1.1em;
+  padding-bottom:1.1em;
+  border-bottom:1px solid #eee;
+}
+.wallet-types .type:last-child {
+  border-bottom:0;
+  margin-bottom:0;
+}
+.wallet-types .type p {
+  color:#4d4d4d;
+  font-size:0.8em;
+}
+.wallet-types .type ion-icon {
+  background:#f7941c;
+  font-size:40px;
+}
+/*.wallet-types .type:nth-child(2) ion-icon{
+  background:#fe8645;
+}
+
+.wallet-types .type:nth-child(3) ion-icon{
+  background:#fe6d4a;
+}
+
+.wallet-types .type:nth-child(4) ion-icon{
+  background:#fe7b34;
+}
+
+.wallet-types .type:nth-child(5) ion-icon{
+  background:#ff584f;
+}
+
+.wallet-types .type:nth-child(6) ion-icon{
+  background:#dd4b44;
+}
+
+.wallet-types .type:nth-child(7) ion-icon{
+  background:#b93d36;
+}
+
+.wallet-types .type:nth-child(8) ion-icon{
+  background:#9e342e;
+}*/
+
+.featured-wallets a:hover, .featured-wallets a:focus {
+  text-decoration: none;
+}
+.featured-wallets a .supports {
+  position:absolute;
+  right:10px;
+  bottom:0px;
+}
+.featured-wallets ion-icon {
+  color:#4d4d4d;
+  display:inline-block;
+  font-size:20px;
+}
+.featured-wallets p {
+  font-size:16px;
+  font-weight:normal;
+  margin-top:1em;
+  
+}
+.wallet-filter {
+  min-height:400px;
+  margin-bottom:2em;
+  -webkit-transition: height 250ms ease;
+  -moz-transition: height 250ms ease;
+  -o-transition: height 250ms ease;
+  -ms-transition: height 250ms ease;
+  transition: height 250ms ease;
+}
+.wallet-filter .wallets .section-heading {
+  margin-top:2em;
+}
+.secondary-wallets {
+  margin-top:1em;
+}
 .nodes div a, .wallets div a, .services div a, .exchanges div a{
   padding: 2em;
   width: 100%;
@@ -182,7 +406,30 @@ p.question {
   margin-bottom: 1.5em;
 }
 
-.nodes div a.btn, .wallets div a.btn, .services div a.btn, .exchanges div a.btn {
+.wallets .nav-tabs > li.active > a, .wallets .nav-tabs > li.active > a:hover, .wallets .nav-tabs > li.active > a:focus {
+  background-color:#fafafa;
+}
+
+.wallet-filter .nav-tabs {
+  margin-bottom:2em;
+}
+
+.nav-tabs li a {
+  height:auto;
+  margin-bottom:0;
+  background:transparent;
+}
+.nav-tabs li {
+  margin-right:5px;
+}
+
+.nav-tabs li a:hover {
+  border-bottom:0;
+}
+.nav-tabs li.active a, .row .nav-tabs > li.active > a, .row .nav-tabs > li.active > a:hover, .row .nav-tabs > li.active > a:focus {
+  background:#fafafa;
+}
+.nodes div a.btn, .services div a.btn, .exchanges div a.btn {
   width: auto;
   padding: .8em 1em;
   display: inline-block;
@@ -193,8 +440,73 @@ p.question {
   transition-duration: 0.2s;
 }
 
+.wallets div a.btn {
+  width: auto;
+  padding: .8em 1em;
+  display: inline-block;
+  height: auto;
+  background: transparent;
+  color: #4E4E4E;
+  border: 2px solid #4E4E4E;
+  transition-duration: 0.2s;
+}
+
+.social-list a, .social-list a i, .social-list a ion-icon {
+  color:#a3a3a3;
+  font-size:24px;
+  margin-top:1em;
+}
+
+
+@media all and (max-width: 767px) {
+  .wallets div a {
+    width:90%
+  }
+}
 @media all and (min-width: 990px) {
   .menu-vertical li {
     white-space: normal;
   }
+}
+
+.specification a, .specification code, .specification p {
+  word-break: break-word;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+.pt-5 {
+  padding-top: 7rem;
+}
+
+.pointer {
+  transition-duration: .1s;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+#accordion .panel-heading a {
+  color:#4D4D4D;
+  display:block;
+}
+
+#accordion .panel-heading a:hover, #accordion .panel-heading a:focus {
+  text-decoration: none;
+}
+
+#accordion .panel h4 {
+  margin:0;
+  line-height:1.8;
+}
+
+#accordion .panel {
+  padding:1px 0;
+  border:1px solid #ddd;
+  -webkit-box-shadow:0;
+  box-shadow:0;
 }
