@@ -292,7 +292,7 @@ networkupgrade:
   upgradecomplete: "mise à niveau terminée"
   completedescription: "La mise à niveau prévue du réseau Bitcoin Cash a été réalisée avec succès."
 whitepaper:
-  description: 'Le premier whitepaper a été publié le 31 octobre 2018 par Satoshi Nakamoto, le créateur anonyme de la première cryptomonnaie au monde, sous le titre Bitcoin: A Peer to Peer Electronic Cash System (Bitcoin : un système de paiement électronique pair-à-pair). Bitcoin Cash vise à reprendre cette vision d''une nouvelle monnaie mondiale saine.'
+  description: 'Le premier whitepaper a été publié le 31 octobre 2008 par Satoshi Nakamoto, le créateur anonyme de la première cryptomonnaie au monde, sous le titre Bitcoin: A Peer to Peer Electronic Cash System (Bitcoin : un système de paiement électronique pair-à-pair). Bitcoin Cash vise à reprendre cette vision d''une nouvelle monnaie mondiale saine.'
 error404:
   subheading: La page à laquelle vous cherchez à accéder n'existe pas.
   button: Accéder à la page d'accueil
