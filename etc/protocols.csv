@@ -17,6 +17,7 @@ Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
 0x00555354,UniSOT,Stephan Nilsson,bitcoincash:qq8f2kk556x5hhdhr6fqnfdsy020yecs4y00thetwk,http://unisot.io/ust,
 0x00584350,Counterparty Cash,Counterparty Cash Association (CCA),bitcoincash:qprul4s8shr0d9sflfqtjv5y4esgg4k2dcz0eyvscy,https://counterparty.cash,
 0x00626368,BChan,BChan Developers,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://bchan.cash/spec,https://bchan.cash/txid/{txid}
+0x006d7367,Cashslide,Cashslide Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,messages.bch.sx,messages.bch.sx/message/{txid}
 0x00746C6B,Keyport,Keyport,,https://keyport.io,
 0x02446365,SatoshiDICE,Jon Bestman,bitcoincash:qz9cq5m250zxqfvvm2p5hp4yv7rung4shukgcguxjd,https://satoshidice.com,
 0x04008080,BCH-DNS,BCHDNS Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://domains.bch.sx,https://domains.bch.sx/whois/{txid}
