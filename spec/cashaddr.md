@@ -16,8 +16,8 @@ This format reuses the work done for Bech32 [[2]](#bip173) and is similar in som
 ## Specification
 
 The address is composed of
-1. A prefix indicating the purpose or network of the address for compatibility reasons.
-2. A separator, always `:`
+1. A prefix indicating the purpose or network of the address for compatibility reasons,
+2. A separator, always `:`, and
 3. A base 32 encoded payload with the destination of the address and a checksum.
 
 ### Prefix
@@ -38,7 +38,7 @@ The payload is a base 32 encoded stream of data composed of 3 elements:
 2. A variable number of bytes with address data.
 3. A 40 bits checksum.
 
-The following table is used for encoding.
+The following table is used for the encoding.
 
 |     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 | --: | - | - | - | - | - | - | - | - |
@@ -49,11 +49,11 @@ The following table is used for encoding.
 
 #### Type byte
 
-The type byte's most signficant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits) and the 3 least significant bits (size bits) specify how the data must be interpreted. The meaning of the 3 least significant bits depends on the type of address but should always allow the address to be checked for a correct length.
+The type byte's most signficant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits) and the 3 least significant bits (size bits) specify how the data must be interpreted. Although the meaning of the 3 least significant bits depends on the type of address they should always allow the address to be checked for a correct length.
 
 #### Data
 
-The data part really deserves not much explanation as its meaning is dependent on the version field. To keep within the intended uses cases, no more than 251 bytes should be encoded in the data component.
+The data part really deserves not much explanation as its meaning is dependent on the version field. To keep within the intended use cases, no more than 251 bytes should be encoded in the data component.
 
 #### Checksum
 
@@ -125,7 +125,7 @@ To allow for more secure hashes, in the future, the size bits are used to specif
 |         6 |               448 |                6 |              14 |
 |         7 |               512 |                7 |              15 |
 
-Encoding the size of the hash in the version field ensure that it is possible to check that the length of the address is correct.
+Encoding the size of the hash in the version field ensures that it is possible to check that the length of the address is correct.
 
 ## Error correction
 
