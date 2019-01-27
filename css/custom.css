@@ -510,3 +510,8 @@ ol {
   -webkit-box-shadow:0;
   box-shadow:0;
 }
+
+/* cookie consent */
+.cc-theme-classic {
+  border: 1px solid #ddd;
+}
