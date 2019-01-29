@@ -22,7 +22,7 @@ The address is composed of
 
 ### Prefix
 
-The prefix indicates the purpose or network of the address. It guides users into choosing an application and allows applications to verify support. The following prefixes are reserved for the specified address types in the three Bitcoin Cash networks:
+The prefix indicates the purpose and network of the address. It guides users into choosing an application and allows applications to ensure compatibility. The following prefixes are reserved for the specified address types in the three Bitcoin Cash networks:
 * `bitcoincash` for mainnet, 
 * `bchtest` for testnet, and 
 * `bchreg` for regtest.
@@ -55,7 +55,7 @@ The following table is used for the encoding.
 
 #### Data
 
-For three reserved prefixes, the data must encode an output hash has defined bellow (see [Address Types](#addresstypes)). For any other prefix the data component is unspecified. 
+For the three reserved prefixes, the data must encode an output hash has defined bellow (see [Address Types](#addresstypes)). For any other prefix the data component is unspecified. 
 
 To keep within the intended use cases,
 * Wallets should always be able to produce an address for one of the specified types, from the encoded data, and
@@ -63,7 +63,7 @@ To keep within the intended use cases,
 
 #### Checksum
 
-The checksum is a 40 bits BCH codes defined over GF(2^5). It ensures the detection of up to 6 errors in the address and 8 in a row. Combined with the length check, this provides very strong guarantee against errors.
+The checksum is a 40 bits BCH code defined over GF(2^5). It ensures the detection of up to 6 errors in the address and 8 in a row. Combined with the length check, this provides very strong guarantee against errors.
 
 The checksum is computed per the code below:
 
@@ -111,13 +111,16 @@ The following addresses can be used as test vectors for checksum computation sin
 The first byte of the payload is a type byte, identifying both the type of ouptut and the hash size. The payload's data is the hash of the public key, for P2KH, or the hash of the reedemScript, for P2SH.
 
 <pre>
- type     data             checksum
-+--------+------ ~ -------+---------+
-| 1 byte |    N bytes     | 8 bytes |
-+--------+------ ~ -------+---------+
+ type       data             checksum
++----------+------ ~ -------+---------+
+|  1 byte  |    N bytes     | 8 bytes |
+| 0TTTTSSS |                |         |
++----------+------ ~ -------+---------+
 </pre>
 
-The type byte's most significant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits) and the 3 least significant bits (size bits) specify the hash size.
+The type byte's most significant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits, `TTTT`) and the 3 least significant bits (size bits, `SSS`) specify the hash size.
+
+### P2PKH and P2SH
 
 The following table specifies the most significant bits of the type byte, for each form of payment, and the resulting character for easy address recognition.
 
@@ -141,17 +144,19 @@ To allow for more secure hashes, in the future, the size bits are used to specif
 
 Encoding the size of the hash in the version field ensures that it is possible to check that the length of the address is correct.
 
-## Error correction
+## Application handling
+
+### Error correction
 
 BCH codes allows for error correction. However, it is strongly advised that error correction is not done in an automatic manner as it may cause funds to be lost irrecoverably, if done incorrectly. It may however be used to hint a user at a possible error.
 
-## Uppercase/lowercase
+### Uppercase/lowercase
 
 CashAddr addresses should be displayed in lowercase, but uppercase is accepted. A mixture of lowercase and uppercase must be rejected.
 
 Allowing for uppercase ensures that the address can be encoded efficiently in QR codes using the alphanumeric mode [[3]](#alphanumqr).
 
-## Double prefix
+### Double prefix
 
 In some contexts, such as payment URLs or QR codes, the addresses are currently prefixed with a protocol like `bitcoincash:`. In these contexts, the address must not be double prefixed. Note that the protocol prefix may be different from the address prefix.
 
