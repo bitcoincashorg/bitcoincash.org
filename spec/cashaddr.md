@@ -95,8 +95,7 @@ To verify a base 32 formatted address, it is split at the colon ":" into prefix 
 If PolyMod returns non-zero, then the address was broken.
 
 The following addresses can be used as test vectors for checksum computation since they have a valid checksum but purposely do not have a valid payload:
- - prefix:x64nx6hz
- - p:gpf8m4h7
+ - bitcoincash:a5a8yrhz
  - bitcoincash:qpzry9x8gf2tvdw0s3jn54khce6mua7lcw20ayyn
  - bchtest:testnetaddress4d6njnut
  - bchreg:555555555555555555555555555555555555555555555udxmlmrz
