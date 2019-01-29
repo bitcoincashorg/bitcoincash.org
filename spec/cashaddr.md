@@ -49,7 +49,7 @@ The following table is used for the encoding.
 
 #### Type byte
 
-The type byte's most signficant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits) and the 3 least significant bits (size bits) specify how the data must be interpreted. Although the meaning of the 3 least significant bits depends on the type of address they should always allow the address to be checked for a correct length.
+The type byte's most significant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits) and the 3 least significant bits (size bits) specify how the data must be interpreted. Although the meaning of the 3 least significant bits depends on the type of address they should always allow the address to be checked for a correct length.
 
 #### Data
 
@@ -94,7 +94,7 @@ To verify a base 32 formatted address, it is split at the colon ":" into prefix 
 
 If PolyMod returns non-zero, then the address was broken.
 
-The following adresses can be used as test vector for checksum computation since they purposedly do not have a valid payload:
+The following addresses can be used as test vectors for checksum computation since they have a valid checksum but purposely do not have a valid payload:
  - prefix:x64nx6hz
  - p:gpf8m4h7
  - bitcoincash:qpzry9x8gf2tvdw0s3jn54khce6mua7lcw20ayyn
@@ -189,7 +189,7 @@ This table defines test vectors for various addresses with hashes of sizes betwe
 
 ### Undefined types
 
-The following table defines test vectors for various addresses with an undefinded type and a payload ranging from 0 to 224 bytes. These test vectors can be used to verify the handling of addresses with unspecified types or assumptions about the address length as it cannot be verified from the type byte.
+The following table defines test vectors for various addresses with an undefined type and a payload ranging from 0 to 224 bytes. These test vectors can be used to verify the handling of addresses with unspecified types or assumptions about the address length as it cannot be verified from the type byte.
 
 | Data Size (bytes) | Type | Size | CashAddr | Data (hex) |
 | :---------------- | :--- | :--- | :------- | :--------- |
