@@ -108,7 +108,7 @@ The following addresses can be used as test vectors for checksum computation sin
 
 ## <a name="addresstypes"></a>Address types
 
-The first byte of the payload is a type byte, identifying both the type of ouptut and the hash size. The payload's data is the hash of the public key, for P2KH, or the hash of the reedemScript, for P2SH.
+The first byte of the payload is a type byte, identifying both the type of ouptut and the hash size. The payload's data is the hash of the public key, for P2KH, or the hash of the redeem script, for P2SH.
 
 <pre>
  type       data             checksum
