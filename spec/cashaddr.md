@@ -44,7 +44,7 @@ The payload is a base 32 encoded stream of data composed of 2 elements:
 +------ ~ -------+--------+---------+
 </pre>
 
-Since the data is base 32 encoded, the last group of 5 bits may not be complete. In that case a padding of P zeros is used. For example, if 2 bytes of data are encoded, 4 bits of padding are added to complete the last group. The data part would be represented by 4 characters and the last character would necessarily be either _q_ or _s_.
+Since the data is base 32 encoded, the last group of 5 bits may not be complete. In that case a padding of `P` zeros is used. For example, if 2 bytes of data are encoded, 4 bits of padding are added to complete the last group. The data part would be represented by 4 characters and the last character would necessarily be either _q_ or _s_.
 
 The following table is used for the encoding.
 
@@ -110,17 +110,20 @@ The following addresses can be used as test vectors for checksum computation sin
 
 ## <a name="addresstypes"></a>Address types
 
-The first byte of the payload is a type byte, identifying both the type of output and the hash size. The remaining payload's data is the hash of the public key, for P2KH, or the hash of the redeem script, for P2SH.
+The first byte of the payload's data is a type byte, identifying both the type of output and the hash size. The remaining data is the hash of the public key, for P2KH, or the hash of the redeem script, for P2SH.
 
 <pre>
- type       data             checksum
-+----------+------ ~ -------+---------+
-|  1 byte  |    N bytes     | 8 bytes |
-| 0TTTTSSS |                |         |
-+----------+------ ~ -------+---------+
+ data
++----------------- ~ -------+
+ type       hash
++----------+------ ~ -------+
+|  1 byte  |    H bits      |
+| 0TTTTSSS |                |
++----------+------ ~ -------+
+
 </pre>
 
-The type byte's most significant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits, `TTTT`) and the 3 least significant bits (size bits, `SSS`) specify the hash size.
+The type byte's most significant bit is reserved and must be 0. The 4 next bits indicate the type of address (type bits, `TTTT`) and the 3 least significant bits (size bits, `SSS`) specify the hash size (`H`).
 
 ### P2PKH and P2SH
 
