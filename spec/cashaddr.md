@@ -38,11 +38,13 @@ The payload is a base 32 encoded stream of data composed of 2 elements:
 2. A 40 bits checksum.
 
 <pre>
- data             checksum
-+------ ~ -------+---------+
-|    N bytes     | 5 bytes |
-+------ ~ -------+---------+
+ data             padding  checksum
++------ ~ -------+--------+---------+
+|    N bytes     | P bits | 40 bits |
++------ ~ -------+--------+---------+
 </pre>
+
+Since the data is base 32 encoded, the last group of 5 bits may not be complete. In that case a padding of zeros is used. For example, if 2 bytes are encoded, 4 bits of padding are added to complete the last group and the data part would be represented by 3 characters. The last character would necessarily be either _q_ or _s_.
 
 The following table is used for the encoding.
 
