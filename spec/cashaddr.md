@@ -44,7 +44,7 @@ The payload is a base 32 encoded stream of data composed of 2 elements:
 +------ ~ -------+--------+---------+
 </pre>
 
-Since the data is base 32 encoded, the last group of 5 bits may not be complete. In that case a padding of zeros is used. For example, if 2 bytes are encoded, 4 bits of padding are added to complete the last group and the data part would be represented by 3 characters. The last character would necessarily be either _q_ or _s_.
+Since the data is base 32 encoded, the last group of 5 bits may not be complete. In that case a padding of P zeros is used. For example, if 2 bytes of data are encoded, 4 bits of padding are added to complete the last group. The data part would be represented by 4 characters and the last character would necessarily be either _q_ or _s_.
 
 The following table is used for the encoding.
 
@@ -93,7 +93,7 @@ The checksum is calculated over the following data (list of integers in range 0-
 3. The data by chunks of 5 bits. If necessary, the data is padded to the right with zero bits to complete any unfinished chunk at the end.
 4. Eight zeros as a "template" for the checksum.
 
-The 40-bit number returned by PolyMod is split into eight 5-bit numbers (msb first). The payload and the checksum are then encoded according to the provided base 32 character table (see [Payload](#payload)).
+The 40-bit number returned by PolyMod is split into eight 5-bit numbers (msb first). The data and the checksum are then encoded according to the provided base 32 character table (see [Payload](#payload)).
 
 To verify a base 32 formatted address, it is split at the colon ":" into prefix and payload. Input data (list of integers) for PolyMod function is assembled from these parts:
 1. The lower 5 bits of each characters of the prefix.
@@ -110,7 +110,7 @@ The following addresses can be used as test vectors for checksum computation sin
 
 ## <a name="addresstypes"></a>Address types
 
-The first byte of the payload is a type byte, identifying both the type of ouptut and the hash size. The payload's data is the hash of the public key, for P2KH, or the hash of the redeem script, for P2SH.
+The first byte of the payload is a type byte, identifying both the type of output and the hash size. The remaining payload's data is the hash of the public key, for P2KH, or the hash of the redeem script, for P2SH.
 
 <pre>
  type       data             checksum
@@ -179,7 +179,7 @@ The following addresses are given in the legacy and new format.
 
 ### Larger test vectors
 
-This table defines test vectors for various addresses with hashes of sizes between 160-512 bits and various prefixes. These test vectors aren't given in legacy address format because the legacy format is limited to payloads of 160 bits.
+This table defines test vectors for various addresses with hashes of sizes between 160-512 bits and various prefixes. These test vectors aren't given in legacy address format because the legacy format is limited to _payloads_ of 160 bits.
 
 | Data Size (bytes) | Type | CashAddr | Data (hex) |
 | :---------------- | :--- | :------- | :--------- |
