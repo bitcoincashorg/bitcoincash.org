@@ -18,3 +18,30 @@
         });
     });
 </script>
+
+<!-- Cookie notification -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#fcfcfc",
+      "text": "#000000"
+    },
+    "button": {
+      "background": "#f59332",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "dismiss": "OK",
+    "link": "Learn more.",
+    "href": "/privacy-policy.html",
+    "message": "We use  cookies to ensure you get the best experience on our website."
+  }
+})});
+</script>
