@@ -743,3 +743,19 @@ ol {
   left:50%;
   margin-left:-30px;
 }
+
+@media (max-width: 1199px) {
+  .rm-title:after, .roadmap .row:after, .rm-title-row:before{
+    display:none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .rm-title:after, .roadmap .row:after, .rm-title-row:before{
+    display:none !important;
+  }
+  .rm-list:before {
+    top:-60px !important;
+    height:111% !important;
+  }
+}
