@@ -557,8 +557,21 @@ ol {
   top:340px;
   left:16.5%;
 }
-.roadmap .rm-title-row:after {
+.roadmap .rm-title-row:after, .roadmap .rm-legend:after {
   display:none !important;
+}
+.rm-legend {
+  text-transform: uppercase;
+  letter-spacing:2px;
+  font-weight:600;
+  font-size:18px;
+}
+.rm-legend ion-icon {
+  font-size:36px;
+  vertical-align: middle;
+}
+.rm-legend p {
+  margin:1em 0;
 }
 .rm-title .rm-col-title {
   margin-bottom:3em;
@@ -695,13 +708,13 @@ ol {
   top:-25px;
   color:#f2a00f;
 }
-.rm-list li .complete {
+.rm-list li .complete, .rm-complete, .rm-complete .complete {
   color:#6fd38e;
 }
-.rm-list li .underway {
+.rm-list li .underway, .rm-underway, .rm-underway .underway {
   color:#70a1ff;
 }
-.rm-list li .planned {
+.rm-list li .planned, .rm-planned, .rm-planned .planned {
   color:#ff7f50;
 }
 .rm-complete {
