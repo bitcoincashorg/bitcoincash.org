@@ -668,11 +668,14 @@ ol {
   position:absolute;
   width:6px;
   background:#999999;
-  height:104.7%;
+  height:105.9%;
   top:-30px;
   left:50%;
   margin-left:-3px;
   z-index:-9;
+}
+.rm-extensibility .rm-list:before {
+  height:103.8%;
 }
 .rm-list li{
   background:#444;
@@ -696,6 +699,9 @@ ol {
   line-height:1;
   padding-bottom:0.2em;
 }
+.rm-list li.pad {
+  padding:0.8em;
+}
 .rm-list li ion-icon {
   position:absolute;
   top:-15px;
@@ -708,14 +714,20 @@ ol {
   top:-25px;
   color:#f2a00f;
 }
-.rm-list li .complete, .rm-complete, .rm-complete .complete {
+.rm-list li .complete, .lg-complete, .lg-complete .complete {
   color:#6fd38e;
 }
-.rm-list li .underway, .rm-underway, .rm-underway .underway {
+.rm-list li .underway, .lg-underway, .lg-underway .underway {
   color:#70a1ff;
 }
-.rm-list li .planned, .rm-planned, .rm-planned .planned {
+.rm-list li .planned, .lg-planned, .lg-planned .planned {
   color:#ff7f50;
+}
+.rm-usability .rm-list li {
+  margin-bottom:2.7em;
+}
+.rm-extensibility .rm-list li {
+  margin-bottom:2.9em;
 }
 .rm-complete {
 }
