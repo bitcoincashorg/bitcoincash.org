@@ -32,135 +32,134 @@
     <div class="container roadmap text-center">
         <div class="row rm-legend">
             <div class="col-sm-12 col-md-4 to-animate lg-complete">
-                <p><ion-icon class="complete" name="checkmark-circle"></ion-icon> Complete</p>
+                <p><ion-icon class="complete" name="checkmark-circle"></ion-icon> {% t 'roadmap.complete' %}</p>
             </div>
             <div class="col-sm-12 col-md-4 to-animate lg-underway">
-                <p><ion-icon class="underway" name="cog"></ion-icon> Underway</p>
+                <p><ion-icon class="underway" name="cog"></ion-icon> {% t 'roadmap.underway' %}</p>
             </div>
             <div class="col-sm-12 col-md-4 to-animate lg-planned">
-                <p><ion-icon class="planned" name="add-circle"></ion-icon> Planned</p>
+                <p><ion-icon class="planned" name="add-circle"></ion-icon> {% t 'roadmap.planned' %}</p>
             </div>
         </div>
         <div class="row rm-title-row">
             <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-title">
                 <img src="media-kit/3-bitcoin-cash-logo-ot-medium.png" alt="Bitcoin Cash roadmap">
                 <h3 class="rm-col-title">
-                    Roadmap
+                    {% t 'roadmap.roadmap' %}
                 </h3>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-4 to-animate rm-scaling">
                 <h3 class="rm-col-title">
-                    Scaling
+                    {% t 'roadmap.scaling' %}
                 </h3>
                 <ul class="rm-list">
                     <li>
-                        <h4>Can. Transaction Ordering</h4>
-                        <p>(scalable block processing)</p>
+                        <h4>{% t 'roadmap.ctor' %}</h4>
+                        <p>{% t 'roadmap.scal_block_proc' %}</p>
                         <ion-icon class="complete" name="checkmark-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>Faster Block Propagation</h4>
-                        <p>(graphene or other)</p>
+                        <h4>{% t 'roadmap.faster' %}</h4>
+                        <p>{% t 'roadmap.graphene' %}</p>
                         <ion-icon class="underway" name="cog"></ion-icon>
                     </li>
                     <li>
-                        <h4>Merklix-Metadata Tree</h4>
-                        <p>(scalable block processing)</p>
+                        <h4>{% t 'roadmap.merklix' %}</h4>
+                        <p>{% t 'roadmap.scal_block_proc' %}</p>
                         <ion-icon class="planned" name="add-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>UTXO Commitment</h4>
-                        <p>(blockchain pruning)</p>
+                        <h4>{% t 'roadmap.utxo' %}</h4>
+                        <p>{% t 'roadmap.pruning' %}</p>
                         <ion-icon class="underway" name="cog"></ion-icon>
                     </li>
                     <li>
-                        <h4>Schnorr Signatures</h4>
-                        <p>(batched signature validation)</p>
+                        <h4>{% t 'roadmap.schnorr' %}</h4>
+                        <p>{% t 'roadmap.batched' %}</p>
                         <ion-icon class="underway" name="cog"></ion-icon>
                     </li>
                     <li>
-                        <h4>Adaptive Block Size</h4>
-                        <p>(market driven growth to 1TB blocks)</p>
+                        <h4>{% t 'roadmap.adaptive' %}</h4>
+                        <p>{% t 'roadmap.1TB' %}</p>
                         <ion-icon class="planned" name="add-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>MANKIND SCALE</h4>
-                        <p>50 transactions / day for 10 billion humans</p>
+                        <h4>{% t 'roadmap.scale' %}</h4>
+                        <p>{% t 'roadmap.50tx' %}</p>
                         <ion-icon name="rocket"></ion-icon>
                     </li>
                 </ul>
             </div>
             <div class="col-sm-12 col-md-4 to-animate rm-usability">
                 <h3 class="rm-col-title">
-                    Usability
+                    {% t 'roadmap.usability' %}
                 </h3>
                 <ul class="rm-list">
                     <li>
-                        <h4>Cashaddr </h4>
-                        <p>(easier & safer to user)</p>
+                        <h4>{% t 'roadmap.CashAddr' %}</h4>
+                        <p>{% t 'roadmap.easier' %}</p>
                         <ion-icon class="complete" name="checkmark-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>Sighash</h4>
-                        <p>(hardware wallet security)</p>
+                        <h4>{% t 'roadmap.Sighash' %}</h4>
+                        <p>{% t 'roadmap.hw' %}</p>
                         <ion-icon class="complete" name="checkmark-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>Fee Improvements</h4>
-                        <p>(cheaper transactions)</p>
+                        <h4>{% t 'roadmap.fee' %}</h4>
+                        <p>{% t 'roadmap.cheaper' %}</p>
                         <ion-icon class="underway" name="cog"></ion-icon>
                     </li>
                     <li>
-                        <h4>Pre-consensus</h4>
-                        <p>(near instant security for merchants)</p>
+                        <h4>{% t 'roadmap.pre' %}</h4>
+                        <p>{% t 'roadmap.instant' %}</p>
                         <ion-icon class="underway" name="cog"></ion-icon>
                     </li>
                     <li>
-                        <h4>Fractional Satoshis</h4>
-                        <p>(fees low forever)</p>
+                        <h4>{% t 'roadmap.fract' %}</h4>
+                        <p>{% t 'roadmap.low' %}</p>
                         <ion-icon class="planned" name="add-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>BEST MONEY</h4>
-                        <p>secure within 3 seconds transaction fees forever low.</p>
+                        <h4>{% t 'roadmap.best' %}</h4>
+                        <p>{% t 'roadmap.secure_low' %}</p>
                         <ion-icon name="ribbon"></ion-icon>
                     </li>
                 </ul>
             </div>
             <div class="col-sm-12 col-md-4 to-animate rm-extensibility">
                 <h3 class="rm-col-title">
-                    Extensibility
+                    {% t 'roadmap.extensibility' %}
                 </h3>
                 <ul class="rm-list">
                     <li class="pad">
-                        <h4>Basic Opcodes
-                        </h4>
+                        <h4>{% t 'roadmap.basic' %}</h4>
                         <ion-icon class="complete" name="checkmark-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>OP_RETURN At 223 bytes</h4>
-                        <p>(social networks on chain)</p>
+                        <h4>{% t 'roadmap.223B' %}</h4>
+                        <p>{% t 'roadmap.social' %}</p>
                         <ion-icon class="complete" name="checkmark-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>OP_CHECKDATASIG</h4>
-                        <p>(oracles and advanced scripts)</p>
+                        <h4>{% t 'roadmap.cds' %}</h4>
+                        <p>{% t 'roadmap.oracles' %}</p>
                         <ion-icon class="complete" name="checkmark-circle"></ion-icon>
                     </li>
                     <li class="pad">
-                        <h4>More Basic Opcodes</h4>
+                        <h4>{% t 'roadmap.more_basic' %}</h4>
                         <ion-icon class="underway" name="cog"></ion-icon>
                     </li>
                     <li>
-                        <h4>New Transaction Format</h4>
-                        <p>(more capable, more compact)</p>
+                        <h4>{% t 'roadmap.tx_format' %}</h4>
+                        <p>{% t 'roadmap.compact' %}</p>
                         <ion-icon class="planned" name="add-circle"></ion-icon>
                     </li>
                     <li>
-                        <h4>TOKEN ECONOMY</h4>
-                        <p>all classes of assets traded on the blockchain</p>
+                        <h4>{% t 'roadmap.token' %}</h4>
+                        <p>{% t 'roadmap.traded' %}</p>
                         <ion-icon name="ribbon"></ion-icon>
                     </li>
                 </ul>
@@ -170,7 +169,7 @@
             <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-complete">
                 <h3 class="rm-col-title rm-col-title-last">
                     <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    Bitcoin Cash Protocol Complete
+                    {% t 'roadmap.protocol_complete' %}
                 </h3>
             </div>
         </div>
