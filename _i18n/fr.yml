@@ -1,7 +1,7 @@
 language: Français
-lang: en
+lang: fr
 title:
-  index: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
+  index: "Bitcoin Cash - Monnaie électronique pair-à-pair"
   graphics: "Logos/images - Bitcoin Cash"
   get-listed: "Envoyer une demande d'ajout - Bitcoin Cash"
   gettingstarted: "Premiers pas - Bitcoin Cash"
@@ -21,15 +21,16 @@ title:
   tech: "Technologie - Bitcoin Cash"
   specs: "Caractéristiques - Bitcoin Cash"
   learn: "En savoir plus - Bitcoin Cash"
+  roadmap: "Feuille de route - Bitcoin Cash"
   404: "Erreur 404 page introuvable - Bitcoin Cash"
 meta:
   index:
     description: |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûres. L'avenir s'annonce meilleur avec une croissance sans contrainte, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     twitter:
-      title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
+      title: "Bitcoin Cash - Monnaie électronique pair-à-pair"
       description: |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûres. L'avenir s'annonce meilleur avec une croissance sans contrainte, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     og:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
@@ -255,10 +256,10 @@ features:
     description: "Simple à utiliser. Sans difficulté."
   - title: "Stable"
     description: "Un système de paiement prouvé comme étant une valeur refuge."
-  - title: "Securisé"
+  - title: "Sécurisé"
     description: "La chaine de blocs la plus robuste."
 headings:
-  about: "La meilleure monnaie du Monde"
+  about: "La meilleure monnaie du monde"
   community: "Rejoindre la communauté Bitcoin Cash"
   steps: "Lancez-vous"
   developers: "Commencer"
@@ -273,11 +274,14 @@ headings:
   featured-wallets: "Portefeuilles recommandés"
   whitepaper: "Lire le whitepaper"
   listingrequest: "Envoyer une demande d'ajout"
+  listingcriteria: "Critères pour être listé"
+  getlisted: "Être listé"
   error404: "Erreur 404"
   benefits: "Avantages pour les commerçants"
   why: "Pourquoi utiliser Bitcoin Cash ?"
   history: "L'histoire de Bitcoin Cash"
   development: "Développement décentralisé"
+  roadmap: "La feuille de route de Bitcoin Cash"
 networkupgrade:
   reminder: "Rappel"
   date: "15 novembre 2018"
@@ -292,7 +296,7 @@ networkupgrade:
   upgradecomplete: "mise à niveau terminée"
   completedescription: "La mise à niveau prévue du réseau Bitcoin Cash a été réalisée avec succès."
 whitepaper:
-  description: 'Le premier whitepaper a été publié le 31 octobre 2008 par Satoshi Nakamoto, le créateur anonyme de la première cryptomonnaie au monde, sous le titre Bitcoin: A Peer to Peer Electronic Cash System (Bitcoin : un système de paiement électronique pair-à-pair). Bitcoin Cash vise à reprendre cette vision d''une nouvelle monnaie mondiale saine.'
+  description: 'Le premier whitepaper a été publié le 31 octobre 2018 par Satoshi Nakamoto, le créateur anonyme de la première cryptomonnaie au monde, sous le titre Bitcoin: A Peer to Peer Electronic Cash System (Bitcoin : un système de paiement électronique pair-à-pair). Bitcoin Cash vise à reprendre cette vision d''une nouvelle monnaie mondiale saine.'
 error404:
   subheading: La page à laquelle vous cherchez à accéder n'existe pas.
   button: Accéder à la page d'accueil
@@ -307,8 +311,9 @@ content:
       answer:
         - |
           Bitcoin Cash est un système de monnaie virtuelle pair-à-pair. Il s'agit d'une cryptomonnaie décentralisée sans permission requise qui ne nécessite ni tiers de confiance ni banque centrale.
-    - question: "Bitcoin Cash est-il différent de 'Bitcoin' ?"
+    - question: "Est-ce que Bitcoin Cash est différent de 'Bitcoin' ?"
       answer:
+        - |
           En 2017, le projet Bitcoin et sa communauté ont connu une scission. Pour évoquer les deux parties sans susciter la polémique, leurs symboles respectifs peuvent être utilisés, à savoir BTC et BCH, ce dernier représentant Bitcoin Cash. Ses adeptes le considèrent comme la continuation légitime du projet Bitcoin en tant que monnaie virtuelle pair-à-pair.
   why:
       - benefit: "Envoyer quasi gratuitement de l'argent aux quatre coins du monde"
@@ -330,7 +335,7 @@ content:
           - |
             Les transactions en Bitcoin Cash sont plus confidentielles et plus anonymes que les virements bancaires et les paiements par carte bancaire des systèmes de paiement traditionnel. Il est normalement impossible de savoir à qui appartient une adresse Bitcoin.
           - |
-            Bitcoin Cash propose différents niveaux de confidentialité selon son utilisation. Il est important de bien se familiariser avec la technologie avant d'utiliser BCH à des fins de confidentialité.
+            Bitcoin Cash propose différents niveaux de confidentialité selon son utilisation. Il est important de bien se familiariser avec la technologie avant d'utiliser Bitcoin Cash à des fins de confidentialité.
       - benefit: "Profiter de remises exclusives"
         descrip:
           - |
@@ -343,7 +348,7 @@ content:
       - benefit: "Frais infimes"
         descrip:
           - |
-            Les frais de réseau d'une transaction Bitcoin Cash sont généralement inférieurs à un centime. Si vous souhaitez convertir vos BCH en monnaie fiduciaire, tels que des dollars, vous pouvez passer par des sociétés de traitement dédiées, qui assureront la conversion à des frais bien plus faibles que pour un traitement de carte bancaire.
+            Les frais de réseau d'une transaction Bitcoin Cash sont généralement inférieurs à un centime. Si vous souhaitez convertir vos Bitcoin Cash en monnaie fiduciaire, tels que des dollars, vous pouvez passer par des sociétés de traitement dédiées, qui assureront la conversion à des frais bien plus faibles que pour un traitement de carte bancaire.
       - benefit: "Pas de rétrofacturation"
         descrip:
           - |
@@ -369,7 +374,44 @@ content:
       - |
         Plusieurs équipes indépendantes de développeurs travaillent sur les mises en œuvre logicielles de Bitcoin Cash. Son futur est donc entre de bonnes mains. Le développement du protocole Bitcoin Cash est paré contre les attaques politiques et sociales. Aucun groupe ni aucun projet ne le contrôle. Les multiples mises en œuvre fournissent également un certain niveau de redondance permettant de garantir la disponibilité permanente du réseau.
       - |
-        La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> permet d'effectuer des propositions de changements nécessitant un travail coordonné entre plusieurs équipes de développements. Les <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">groupes de travail</a> ont été créés pour aider les développeurs à coordonner leurs efforts et à faire valider leurs travaux par des pairs. Si vous souhaitez apporter des changements au protocole Bitcoin Cash, il est recommandé de faire vérifier au préalable vos modifications et de collaborer avec d'autres développeurs par l'intermédiaire de groupes de travail.
+        La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est un bon moyen de faire des propositions de changements qui nécessitent une coordination entre les <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">équipes de développement</a>. Des groupes de travail ont été mis sur pied pour aider les développeurs à coordonner et à demander un examen par les pairs. Pour ceux qui souhaitent mettre en œuvre des changements au protocole Bitcoin Cash, il est recommandé de demander une évaluation précoce par les pairs et de collaborer avec d'autres développeurs par le biais des groupes de travail.
+  criteria:
+      - title: "Votre projet utilise-t-il le bon ticker ?"
+        descrip:
+          - |
+            Le site Web de votre projet doit clairement définir le ticker Bitcoin Cash comme <strong>BCH</strong>. Les projets n'utilisant pas le bon ticker seront disqualifiés.
+      - title: "Votre projet utilise-t-il le bon nom ?"
+        descrip:
+          - |
+            Le site de vos projets doit définir Bitcoin Cash dans son nom complet. Les projets qui ajoutent ou ajoutent des ajouts au nom "Bitcoin Cash" seront disqualifiés.
+      - title: "Votre portefeuille fournit-il le type de graine et le chemin de dérivation ?"
+        descrip:
+          - |
+            Les applications de portefeuille Bitcoin Cash doivent inclure le type de graine et les chemins de dérivation.
+      - title: "Votre projet fait-il clairement la promotion de Bitcoin Cash?"
+        descrip:
+          - |
+            Le site Web des candidats doit clairement promouvoir Bitcoin Cash. L'ajout d'un support minimal ne garantit pas l'inscription.
+      - title: "Votre projet utilise-t-il le logo de Bitcoin Cash ?"
+        descrip:
+          - |
+            Nous encourageons les candidats à utiliser le logo Bitcoin Cash <a href="graphics.html">disponible dans notre section images</a>. L'image de marque doit rester compatible avec bitcoincash.org. Bien que cela ne soit pas obligatoire, l’utilisation des logos disponibles sur le logo bitcoincash.org augmente vos chances d’être répertoriée.
+      - title: "Votre projet reste-t-il objectif par rapport aux faits ?"
+        descrip:
+          - |
+            Le site des candidats doit rester objectif. Les déclarations dérogatoires contre Bitcoin Cash visant à promouvoir un agenda spécifique peuvent conduire à une demande refusée.
+      - title: "Votre projet semble-t-il professionnel et facile d'utilisation ?"
+        descrip:
+          - |
+            Les sites Web des candidats doivent sembler professionnels. L'interface utilisateur (UI) doit être simple pour les nouveaux utilisateurs.
+      - title: "Votre projet est-il validé et approuvé par la communauté de Bitcoin Cash?"
+        descrip:
+          - |
+            Les candidats doivent contacter la communauté Bitcoin Cash via Twitter, Telegram, Reddit ou Slack. Les projets approuvés par des membres de confiance au sein de la communauté sont plus susceptibles de recevoir une candidature approuvée. Nous recevons des milliers d'applications, celles qui ont une présence en ligne plus forte sont plus susceptibles d'être acceptées.
+      - title: "Discrétion du groupe de travail"
+        descrip:
+          - |
+            Nous nous réservons le droit de refuser les demandes à notre discrétion.
 viewmore: "Afficher plus"
 gettingstarted:
   title: "Commencer"
@@ -403,12 +445,12 @@ downloadwallet:
   bitcoindotcom: "Commencez à utiliser le portefeuille Bitcoin.com pour envoyer et recevoir des Bitcoin facilement et en toute sécurité. Le portefeuille prend à la fois en charge Bitcoin Cash (BCH) et Bitcoin Core (BTC), ce qui permet aux utilisateurs de procéder facilement à des échanges entre ces deux monnaies."
   handcash: "Quoi de plus « pair-à-pair » que d'échanger de l'argent en personne ? Aucune adresse ni aucun tiers de confiance requis. Grâce à Bitcoin Cash, qui constitue la base de l'écosystème de produits, le portefeuille gère désormais ce processus de façon numérique."
   yenom: "Yenom est un portefeuille facile à utiliser pour les débutants et réservé exclusivement à Bitcoin Cash. C'est le portefeuille idéal pour vos amis ou vos proches qui utilisent Bitcoin Cash pour la première fois. Yenom reste le moyen le plus simple d'envoyer ou de recevoir des Bitcoin Cash. Ce portefeuille est accessible à tous !"
-  electron: "Vos clés privées sont chiffrées et restent toujours sur votre ordinateur. Vos fonds peuvent être récupérés à l'aide d'une phrase secrète. Le portefeuille Electron Cash est rapide, car il utilise des serveurs qui indexent la blockchain Bitcoin. Vous pouvez exporter vos clés privées et les utiliser avec d'autres clients Bitcoin."
+  electron: "Vos clés privées sont chiffrées et restent toujours sur votre ordinateur. Vos fonds peuvent être récupérés à l'aide d'une phrase secrète. Le portefeuille Electron Cash est rapide, car il utilise des serveurs qui indexent la blockchain Bitcoin Cash. Vous pouvez exporter vos clés privées et les utiliser avec d'autres clients Bitcoin Cash."
 buyorearn:
   title: "Acheter ou gagner des Bitcoin Cash"
   subtitle: "Comment obtenir des Bitcoin Cash ?"
-  excerpt: "Il existe deux façons simples d'obtenir des Bitcoin Cash : en acheter, ou se faire payer en Bitcoin Cash. L'achat de Bitcoin Cash est le moyen le plus pratique et le plus utilisé. Il vous suffit de vous inscrire sur une plate-forme d'échange Bitcoin et d'y déposer des fonds, pour ensuite les convertir en Bitcoin Cash. La plate-forme d'échange vous enverra des BCH après la transaction."
-  firstparagraph: "Il existe deux façons simples d'obtenir des Bitcoin Cash : en acheter, ou se faire payer en Bitcoin Cash. L'achat de Bitcoin Cash est le moyen le plus pratique et le plus utilisé. Il vous suffit de vous inscrire sur une plate-forme d'échange Bitcoin et d'y déposer des fonds, pour ensuite les convertir en Bitcoin Cash. La plate-forme d'échange vous enverra des BCH après la transaction. L'autre solution consiste à vous faire payer en Bitcoin Cash en l'échange de services. Vous pouvez par exemple trouver un travail sur un site d'annonces d'emploi qui propose des rémunérations en Bitcoin Cash, en encore créer votre propre magasin (de vente de t-shirts par exemple) et vendre vos produits ou services en Bitcoin Cash."
+  excerpt: "Il existe deux façons simples d'obtenir des Bitcoin Cash : en acheter, ou se faire payer en Bitcoin Cash. L'achat de Bitcoin Cash est le moyen le plus pratique et le plus utilisé. Il vous suffit de vous inscrire sur une plate-forme d'échange Bitcoin et d'y déposer des fonds, pour ensuite les convertir en Bitcoin Cash. La plate-forme d'échange vous enverra des Bitcoin Cash après la transaction."
+  firstparagraph: "Il existe deux façons simples d'obtenir des Bitcoin Cash : en acheter, ou se faire payer en Bitcoin Cash. L'achat de Bitcoin Cash est le moyen le plus pratique et le plus utilisé. Il vous suffit de vous inscrire sur une plate-forme d'échange Bitcoin et d'y déposer des fonds, pour ensuite les convertir en Bitcoin Cash. La plate-forme d'échange vous enverra des Bitcoin Cash après la transaction. L'autre solution consiste à vous faire payer en Bitcoin Cash en l'échange de services. Vous pouvez par exemple trouver un travail sur un site d'annonces d'emploi qui propose des rémunérations en Bitcoin Cash, en encore créer votre propre magasin (de vente de t-shirts par exemple) et vendre vos produits ou services en Bitcoin Cash."
   secondparagraphtitle: "Où puis-je trouver des Bitcoin Cash dans ma région ?"
   secondparagraph: "Il existe dans de nombreuses villes un marché de gré-à-gré permettant à des personnes d'échanger des monnaies fiduciaires (telles que des dollars, des yens, des euros, etc.) contre des Bitcoin Cash. Vous pouvez également demander à votre employeur s'il accepte de prendre part à la révolutionnaire monétaire et de payer l'intégralité ou une partie de votre salaire en Bitcoin Cash. Certaines grandes villes sont également dotées de distributeur automatique proposant des Bitcoin Cash, ce qui vous permet de convertir facilement vos monnaies fiduciaires en BCH. Rendez-vous au <a href='http://events.bitcoin.com/'>Meetup Bitcoin Cash</a> le plus proche pour obtenir davantage d'options, ou testez les restaurants de votre ville qui acceptent les <a href='../spend-bitcoin-cash'>paiements en Bitcoin Cash</a> et demandez-leur."
   thirdparagraphtitle: "Puis-je acheter des Bitcoin Cash en ligne ?"
@@ -421,13 +463,13 @@ buyorearn:
   buyapp: "Acheter sur une app"
   buyapp_excerpt: "Utilisez une app tierce de confiance vous permettant d'acheter des Bitcoin Cash avec une carte bancaire."
   earnonline: "Obtenir des Bitcoin Cash en ligne"
-  earnonline_excerpt: "Rédigez du contenu de qualité sur le site <a href='https://honest.cash'>honest.cash</a>. Rejoignez des plates-formes de médias sociaux sans censure, telles que <a href='http://memo.cash'>Memo.cash</a> ou <a href='https://www.mttr.app/'>Matter</a>."
-  buyatm: "Acheter des BCH depuis un distributeur automatique Bitcoin Cash"
+  earnonline_excerpt: "Rédigez du contenu de qualité sur le site <a href='https://yours.org'>Yours.org</a>. Rejoignez des plates-formes de médias sociaux sans censure, telles que <a href='http://memo.cash'>Memo.cash</a> ou <a href='https://www.mttr.app/'>Matter</a>."
+  buyatm: "Acheter depuis un Bitcoin Cash ATM"
   buyatm_excerpt: "De nombreuses villes du monde entier sont dotées de distributeurs automatiques spécialisés proposant des Bitcoin Cash."
   buyinperson: "Acheter en personne"
-  buyinperson_excerpt: "Entrez en contact avec des personnes près de chez vous qui vendent des Bitcoin Cash."
+  buyinperson_excerpt: "Contactez directement des personnes près de chez vous qui vendent du Bitcoin Cash sur <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>."
   acceptbch: "Accepter les paiements en Bitcoin Cash au sein de votre entreprise"
-  acceptbch_excerpt: "Acceptez des paiements en Bitcoin Cash pour votre magasin. Échangez des articles en ligne ou en personne contre des BCH."
+  acceptbch_excerpt: "Acceptez des paiements en Bitcoin Cash pour votre magasin. Échangez des articles en ligne ou en personne contre des Bitcoin Cash."
   getpaid: "Demander à être payé en Bitcoin Cash"
   getpaid_excerpt: "Demandez à ce que salaire soit versé en intégralité ou en partie en Bitcoin Cash."
 spendbch:
@@ -448,13 +490,13 @@ acceptbch:
   title: "Accepter Bitcoin Cash"
   subtitle: "Comment mon entreprise peut-elle utiliser Bitcoin Cash ?"
   excerpt: "En tant que commerçant, vous recherchez certainement un moyen rapide et efficace d'accepter et de traiter vos paiements, afin de satisfaire vos clients et de recevoir les paiements en toute simplicité. Grâce à ses transactions rapides et à faible coût, Bitcoin Cash constitue la solution idéale. Avec le développement des modes  de paiement numérique, les monnaies virtuelles comme Bitcoin Cash deviennent le mode de paiement de référence en ligne et dans les commerces. Acceptez facilement Bitcoin Cash, que ce soit directement ou via les plates-formes de fournisseurs tiers, et convertissez l'ensemble ou une partie de vos ventes en monnaie fiduciaire locale."
-  description: "En tant que commerçant, vous recherchez certainement un moyen rapide et efficace d'accepter et de traiter les paiements, afin de satisfaire vos clients et de recevoir les paiements en toute simplicité. Grâce à ses transactions rapides et à faible coût, Bitcoin constitue la solution idéale. Avec le développement des moyens de paiement numérique, les monnaies virtuelles comme le Bitcoin deviennent le mode de paiement de référence en ligne et dans les commerces. Les fournisseurs tiers facilitent l'acceptation de Bitcoin Cash grâce à leurs plates-formes. Lorsque vous vous inscrivez à une application tierce qui fournit des solutions aux commerçants, comme BitPay, il vous suffit de configurer votre compte pour recevoir des Bitcoin Cash et faire en sorte qu'ils soient envoyés à votre portefeuille Bitcoin. Vous pouvez également convertir vos Bitcoin Cash en monnaie fiduciaire locale. La plupart des commerces adoptent les deux solutions : une partie de leurs fonds est liquidée en monnaie fiduciaire, tandis que l'autre est conservée en cryptomonnaie. Dans tous les cas, en installant une application de solutions pour commerçants, vous pouvez commencer à accepter des paiements en Bitcoin dès aujourd'hui, sans vous soucier des complexités liées à l'acceptation de Bitcoin."
+  description: "En tant que commerçant, vous recherchez certainement un moyen rapide et efficace d'accepter et de traiter les paiements, afin de satisfaire vos clients et de recevoir les paiements en toute simplicité. Grâce à ses transactions rapides et à faible coût, Bitcoin Cash constitue la solution idéale. Avec le développement des moyens de paiement numérique, les monnaies virtuelles comme le Bitcoin Cash deviennent le mode de paiement de référence en ligne et dans les commerces. Les fournisseurs tiers facilitent l'acceptation de Bitcoin Cash grâce à leurs plates-formes. Lorsque vous vous inscrivez à une application tierce qui fournit des solutions aux commerçants, comme BitPay, il vous suffit de configurer votre compte pour recevoir des Bitcoin Cash et faire en sorte qu'ils soient envoyés à votre portefeuille Bitcoin Cash. Vous pouvez également convertir vos Bitcoin Cash en monnaie fiduciaire locale. La plupart des commerces adoptent les deux solutions : une partie de leurs fonds est liquidée en monnaie fiduciaire, tandis que l'autre est conservée en cryptomonnaie. Dans tous les cas, en installant une application de solutions pour commerçants, vous pouvez commencer à accepter des paiements en Bitcoin Cash dès aujourd'hui, sans vous soucier des complexités liées à l'acceptation de Bitcoin Cash."
   sidetitle: "Comment accepter Bitcoin Cash"
   acceptonline: "Passerelles de paiement Bitcoin Cash"
   acceptonline_excerpt: "Acceptez des paiements en Bitcoin Cash depuis une passerelle de paiement tierce de confiance."
   wordpress: "Intégrer Bitcoin Cash à un Wordpress"
   wordpress_excerpt: "Acceptez les dons en Bitcoin Cash pour rémunérer les créateurs de contenu ou intégrer Bitcoin Cash à votre plate-forme de commerce en ligne Wordpress."
   pos: "Points de vente"
-  pos_excerpt: "Utilisez l'un des nombreux points de vente Bitcoin Cash afin d'accepter les paiements en BCH dans votre magasin."
+  pos_excerpt: "Essayez l'un des nombreux systèmes de point de vente pour accepter Bitcoin Cash dans votre magasin."
   donations: "Accepter des dons ou des pourboires"
   donations_excerpt: "Les organisations à but non lucratif paient uniquement des frais infimes lorsqu'elles reçoivent des dons en Bitcoin Cash."
