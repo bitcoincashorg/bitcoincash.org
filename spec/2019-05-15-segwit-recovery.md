@@ -11,10 +11,10 @@ Starting in May 2019, an exemption to the CLEANSTACK rule will be made, allowing
 ## Requirement
 A transaction input that:
 1. spends a P2SH coin; and
-1. the scriptSig contains solely the redeem script; and
-2. the redeem script is a valid witness program: a 1-byte push opcode (for 0 to 16) followed by a data push between 2 and 40 bytes in minimal form;
+2. the scriptSig only pushes the redeem script onto the stack; and
+3. the redeem script is a valid witness program: a 1-byte push opcode (for 0 to 16) followed by a data push between 2 and 40 bytes in minimal form;
 
-    shall be considered valid under the consensus rules to be activated in May 2019.
+shall be exempted from the CLEANSTACK rule under the consensus rules to be activated in May 2019.
 
 ## Examples
 
@@ -22,6 +22,6 @@ Valid scriptSig recovering a P2SH-P2WPKH coin:
 
     scriptSig='160014fcf9969ce1c98a135ed293719721fb69f0b686cb'
  
-Valid scripSig recovering a P2SH-P2WSH coin:
+Valid scriptSig recovering a P2SH-P2WSH coin:
 
     scriptSig='220020fc8b08ed636cb23afcb425ff260b3abd03380a2333b54cfa5d51ac52d803baf4'
