@@ -504,3 +504,47 @@ acceptbch:
   pos_excerpt: "Try one of the many Point Of Sale (POS) systems to accept Bitcoin Cash in your store."
   donations: "Accept Donations or Tips"
   donations_excerpt: "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations."
+roadmap:
+  complete: complete
+  underway: underway
+  planned: planned
+  roadmap: roadmap
+  scaling: scaling
+  usability: usability
+  extensibility: extensibility
+  protocol_complete: Bitcoin Cash Protocol Complete
+  ctor: Can. Transaction Ordering
+  scal_block_proc: (scalable block processing)
+  faster: Faster Block Propagation
+  graphene: (graphene or other)
+  merklix: Merklix-Metadata Tree
+  utxo: UTXO Commitment
+  pruning: (blockchain pruning)
+  schnorr: Schnorr Signatures
+  batched: (batched signature validation)
+  adaptive: Adaptive Block Size
+  1TB: (market driven growth to 1TB blocks)
+  scale: MANKIND SCALE
+  50tx: 50 transactions / day for 10 billion humans
+  CashAddr: CashAddr
+  easier: (easier & safer to user)
+  Sighash: Sighash
+  hw: (hardware wallet security)
+  fee: Fee Improvements
+  cheaper: (cheaper transactions)
+  pre: Pre-consensus
+  instant: (near instant security for merchants)
+  fract: Fractional Satoshis
+  low: (fees low forever)
+  best: BEST MONEY
+  secure_low: secure within 3 seconds - transaction fees forever low.
+  basic: Basic Opcodes
+  223B: OP_RETURN At 223 bytes
+  social: (social networks on chain)
+  cds: OP_CHECKDATASIG
+  oracles: (oracles and advanced scripts)
+  more_basic: More Basic Opcodes
+  tx_format: New Transaction Format
+  compact: (more capable, more compact)
+  token: TOKEN ECONOMY
+  traded: all classes of assets traded on the blockchain
