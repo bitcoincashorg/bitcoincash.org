@@ -1,5 +1,5 @@
-﻿language: English
-lang: de
+language: Deutsch
+lang: en
 title:
   index: "Bitcoin Cash – Eine elektronische Peer-to-Peer Währung"
   graphics: "Logos / Grafiken – Bitcoin Cash"
@@ -21,6 +21,7 @@ title:
   tech: "Tech. – Bitcoin Cash"
   specs: "Spezifikationen – Bitcoin Cash"
   learn: "Mehr Informationen – Bitcoin Cash"
+  roadmap: ""
   404: "404 – Seite nicht gefunden – Bitcoin Cash"
 meta:
   index:
@@ -273,11 +274,14 @@ headings:
   featured-wallets: "Empfohlene Wallets"
   whitepaper: "Lesen Sie das Whitepaper"
   listingrequest: "Senden Sie eine Angebotsanfrage"
+  listingcriteria: "Listungskriterien"
+  getlisted: ""
   error404: "Fehler 404"
   benefits: "Vorteile für Händler"
   why: "Warum Bitcoin Cash verwenden?"
   history: "Die Geschichte von Bitcoin Cash"
   development: "Dezentrale Entwicklung"
+  roadmap: ""
 networkupgrade:
   reminder: "Erinnerung"
   date: "15. November 2018"
@@ -331,7 +335,7 @@ content:
           - |
             Bitcoin Cash bietet mehr Privatsphäre und Anonymität als herkömmliche Zahlungssysteme als Überweisungen und Kreditkartenzahlungen, da normalerweise nicht auszumachen ist, wer eine Bitcoin-Adresse kontrolliert.
           - |
-            Bitcoin Cash bietet je nach Verwendung verschiedene Datenschutzstufen. Es ist wichtig, dass Sie sich gründlich informieren, bevor Sie BCH zu privaten Zwecken verwenden.
+            Bitcoin Cash bietet je nach Verwendung verschiedene Datenschutzstufen. Es ist wichtig, dass Sie sich gründlich informieren, bevor Sie Bitcoin Cash zu privaten Zwecken verwenden.
       - benefit: "Profitieren Sie von exklusiven Rabatte"
         descrip:
           - |
@@ -344,7 +348,7 @@ content:
       - benefit: "Sehr niedrige Gebühren"
         descrip:
           - |
-            Die Netzwerkgebühr für eine typische Bitcoin-Cash-Transaktion beträgt weniger als einen Cent. Wenn Sie Ihre BCH in eine Papierwährung umrechnen möchten, z. B. in US-Dollar, können Sie dies durch Händler-Bearbeiter zu einem Preis erledigen, der noch immer viel niedriger ist als Kreditkartenabwicklung.
+            Die Netzwerkgebühr für eine typische Bitcoin-Cash-Transaktion beträgt weniger als einen Cent. Wenn Sie Ihre Bitcoin Cash in eine Papierwährung umrechnen möchten, z. B. in US-Dollar, können Sie dies durch Händler-Bearbeiter zu einem Preis erledigen, der noch immer viel niedriger ist als Kreditkartenabwicklung.
       - benefit: "Keine Rückbuchungen"
         descrip:
           - |
@@ -369,8 +373,20 @@ content:
   development:
       - |
         Dank mehrerer unabhängiger Entwicklerteams, die Softwareimplementierungen bereitstellen, ist die Zukunft sicher. Bitcoin Cash ist resistent gegen Personen, die aus politischen oder sozialen Gründen das Eigentum auf die Protokollentwicklung beanspruchen. Keine einzelne Gruppe oder Projekt kann es alleine kontrollieren. Mehrere Implementierungen bieten auch Redundanz, um sicherzustellen, dass das Netzwerk stets in Betrieb ist.
-      - |
-        Mit der <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Bitcoin-ml-Mailingliste</a> können Sie bequem Änderungsvorschläge unterbreiten, die eine Abstimmung zwischen den Entwicklungsteams erfordern. Es wurden <a href="https://github.com/bitcoincashorg/bitcoincash.org/tree/master/workgroups" target="_blank">Arbeitsgruppen</a> eingerichtet, um Entwicklern bei der Koordinierung und Suche nach Peer-Review zu helfen. Für diejenigen, die Änderungen am Bitcoin Cash-Protokoll implementieren möchten, wird empfohlen, frühzeitig Peer-Reviews einzuholen und mit anderen Entwicklern in den Arbeitsgruppen zusammenzuarbeiten.
+  criteria:
+      - title: "Verwendet Ihr Projekt den richtigen Ticker?"
+        descrip:
+          - |
+            Ihre Projektwebseite muss den Bitcoin Cash Ticker eindeutig als <strong>bch</strong> definieren. Projekte, welche nicht den richtigen Ticker verwenden, werden von der Auflistung ausgeschlossen.
+      - title: "Verwendet Ihr Projekt den richtigen Namen?"
+        descrip:
+          - |
+            Ihre Projektwebseite muss Bitcoin Cash beim vollständigen Namen nennen. Projekte, welche Zusätze zum Namen "Bitcoin Cash" hinzufügen, werden von der Auflistung ausgeschlossen.
+      - title: "Unterstützt Ihr Projekt eindeutig Bitcoin Cash?"
+        descrip:
+          - |
+            Die Webseiten der Bewerber müssen eindeutig Bitcoin Cash unterstützen. Das Hinzufügen minimaler Unterstützung garantiert keine Auflistung.
+      - title: "Verwendet Ihr Projekt das Bitcoin Cash Logo?"
 viewmore: "Mehr anzeigen"
 gettingstarted:
   title: "Fangen Sie an"
@@ -403,13 +419,13 @@ downloadwallet:
   featuredwallets: "Angebotene Wallets"
   bitcoindotcom: "Beginnen Sie mit der Verwendung der Bitcoin.com-Wallet, um Bitcoin auf einfache und sichere Weise zu senden und zu empfangen. Die Wallet unterstützt sowohl Bitcoin Cash (BCH) als auch Bitcoin Core (BTC), sodass Benutzer problemlos zwischen den beiden Währungen wechseln können."
   handcash: "Was entspricht mehr dem Peer-to-Peer-Gedanken als Bargeld einfach persönlich zu übergeben? Keine Adressen, keine Drittparteien nötig. Die Wallet hat diesen Prozess digitalisiert, indem Bitcoin Cash als Basis des Produkt-Ökosystems verwendet wird."
-  yenom: "Yenom ist eine einfache, anfängerfreundliche Bitcoin Cash-Wallet. Ideal für Familien oder Freunde, die zum ersten Mal Bitcoin verwenden! Dies ist der einfachste Weg, um Bitcoin zu senden oder zu empfangen. Jeder kann es einfach mit Yenom versuchen."
-  electron: "Ihre privaten Schlüssel sind chiffriert und verlassen Ihren Computer niemals. Ihre Mittel können mit einem geheimen Passwort wiederhergestellt werden. Electron Cash ist schnell, weil es Server verwendet, die die Bitcoin-Blockchain indizieren. Sie können Ihre privaten Schlüssel exportieren und in anderen Bitcoin-Clients verwenden."
+  yenom: "Yenom ist eine einfache, anfängerfreundliche Bitcoin Cash-Wallet. Ideal für Familien oder Freunde, die zum ersten Mal Bitcoin Cash verwenden! Dies ist der einfachste Weg, um Bitcoin Cash zu senden oder zu empfangen. Jeder kann es einfach mit Yenom versuchen."
+  electron: "Ihre privaten Schlüssel sind chiffriert und verlassen Ihren Computer niemals. Ihre Mittel können mit einem geheimen Passwort wiederhergestellt werden. Electron Cash ist schnell, weil es Server verwendet, die die Bitcoin Cash-Blockchain indizieren. Sie können Ihre privaten Schlüssel exportieren und in anderen Bitcoin Cash-Clients verwenden."
 buyorearn:
   title: "Bitcoin Cash kaufen oder verdienen"
   subtitle: "Wie erhalte ich Bitcoin Cash?"
-  excerpt: "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen BCH, nachdem der Austausch stattgefunden hat."
-  firstparagraph: "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen BCH, nachdem der Austausch stattgefunden hat. Die andere Möglichkeit ist, Bitcoin Cash zu verdienen, indem Sie dafür arbeiten. So können Sie beispielsweise einen Job in einer Jobbörse suchen, der in Bitcoin Cash bezahlt, oder eigene Dienstleistungen anbieten (z. B. T-Shirts verkaufen) und auf diese Weise Bitcoin Cash verdienen."
+  excerpt: "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen Bitcoin Cash, nachdem der Austausch stattgefunden hat."
+  firstparagraph: "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen Bitcoin Cash, nachdem der Austausch stattgefunden hat. Die andere Möglichkeit ist, Bitcoin Cash zu verdienen, indem Sie dafür arbeiten. So können Sie beispielsweise einen Job in einer Jobbörse suchen, der in Bitcoin Cash bezahlt, oder eigene Dienstleistungen anbieten (z. B. T-Shirts verkaufen) und auf diese Weise Bitcoin Cash verdienen."
   secondparagraphtitle: "Wo kann ich Bitcoin Cash in meiner Gegend finden?"
   secondparagraph: "In vielen Städten gibt es einen Markt für außerbörsliche (Over-The-Counter, oder OTC)-Händler, die gegen Bitcoin Cash (z. B. US-Dollar, Yen, Euro usw.) handeln. Sie können auch Ihren Arbeitgeber fragen, ob er bereit ist, eine zukunftsweisende Zahlungsmethode zu unterstützen und eine teilweise oder vollständige Zahlung in Bitcoin Cash anzubieten. In einigen größeren Städten gibt es auch Bitcoin Cash-fähige Geldautomaten, die den Umtausch von Bitcoin Cash in Papierwährung sehr einfach machen. Fragen Sie bei Ihrem nächstgelegenen <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a> nach weiteren Möglichkeiten, oder besuchen Sie Restaurants in Ihrer Stadt, in denen Sie mit <a href='../spend-bitcoin-cash'>Bitcoin Cash bezahlen</a> und sich dort erkundigen können."
   thirdparagraphtitle: "Kann ich Bitcoin Cash online erwerben?"
@@ -423,12 +439,12 @@ buyorearn:
   buyapp_excerpt: "Verwenden Sie eine vertrauenswürdige Drittanbieter-App, die Bitcoin Cash mit einer Kreditkarte verkauft."
   earnonline: "Bitcoin Cash online verdienen"
   earnonline_excerpt: "Erstellen Sie beliebte Inhalte auf <a href='https://honest.cash'>honest.cash</a>. Werden Sie aktiv auf Zensur-resistenten Social-Media-Plattformen wie <a href='http://memo.cash'>Memo.cash</a> oder <a href='https://www.mttr.app/'>Matter</a>."
-  buyatm: "BCH an einem Bitcoin Cash-Geldautomaten erwerben"
+  buyatm: ""
   buyatm_excerpt: "In vielen Städten auf der ganzen Welt gibt es spezielle Bitcoin Cash-fähige Geldautomaten."
   buyinperson: "Kaufen Sie persönlich"
-  buyinperson_excerpt: "Treten Sie in Kontakt mit Personen in Ihrer Nähe, die Bitcoin Cash verkaufen."
+  buyinperson_excerpt: ""
   acceptbch: "Bitcoin Cash in Ihrem Unternehmen annehmen"
-  acceptbch_excerpt: "Fügen Sie in Ihrem Unternehmen Bitcoin Cash als Zahlungsmethode hinzu. Verkaufen Sie Artikel online oder persönlich für BCH."
+  acceptbch_excerpt: "Fügen Sie in Ihrem Unternehmen Bitcoin Cash als Zahlungsmethode hinzu. Verkaufen Sie Artikel online oder persönlich für Bitcoin Cash."
   getpaid: "Bitten Sie um die Zahlung in Bitcoin Cash"
   getpaid_excerpt: "Erkundigen Sie sich bei Ihrem Arbeitgeber über die vollständige oder teilweise Bezahlung in Bitcoin Cash."
 spendbch:
@@ -449,13 +465,13 @@ acceptbch:
   title: "Bitcoin Cash annehmen"
   subtitle: "Wie kann mein Unternehmen Bitcoin Cash verwenden?"
   excerpt: "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Akzeptieren Sie Bitcoin Cash einfach direkt oder verwenden Sie Drittanbieter, um Bitcoin Cash über ihre Plattformen zu akzeptieren und den Erlös des Verkaufs ganz oder teilweise in lokale Papierwährung umzuwandeln."
-  description: "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Drittanbieter machen es Ihnen leicht, Bitcoin Cash über ihre Plattformen zu akzeptieren. Wenn Sie sich für eine Drittanbieterlösung für Händlerlösungen wie BitPay anmelden, richten Sie einfach Ihr Konto ein, damit Sie Bitcoin Cash erhalten und an Ihre Bitcoin-Wallet senden können. Oder Sie können Ihr Bitcoin Cash in Ihre lokale Papierwährung umwandeln. Die meisten Geschäfte machen eine Aufteilung, bei der einige Mittel zu Papierwährung liquidiert werden und andere als Kryptowährung verbleiben. Auf jeden Fall können Sie durch das Einrichten einer Anwendung für Händlerlösungen Bitcoin-Zahlungen sofort akzeptieren, ohne sich über die Komplexität der Annahme von Bitcoin Gedanken machen zu müssen."
+  description: "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin Cash zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Drittanbieter machen es Ihnen leicht, Bitcoin Cash über ihre Plattformen zu akzeptieren. Wenn Sie sich für eine Drittanbieterlösung für Händlerlösungen wie BitPay anmelden, richten Sie einfach Ihr Konto ein, damit Sie Bitcoin Cash erhalten und an Ihre Bitcoin-Wallet senden können. Oder Sie können Ihr Bitcoin Cash in Ihre lokale Papierwährung umwandeln. Die meisten Geschäfte machen eine Aufteilung, bei der einige Mittel zu Papierwährung liquidiert werden und andere als Kryptowährung verbleiben. Auf jeden Fall können Sie durch das Einrichten einer Anwendung für Händlerlösungen Bitcoin Cash-Zahlungen sofort akzeptieren, ohne sich über die Komplexität der Annahme von Bitcoin Cash Gedanken machen zu müssen."
   sidetitle: "Wie kann ich Bitcoin Cash annehmen?"
   acceptonline: "Bitcoin Cash-Zahlungsgateways"
   acceptonline_excerpt: "Erhalten Sie Bitcoin Cash als Zahlungsmethode von vertrauenswürdigen Drittanbieter-Zahlungsgateways."
   wordpress: "Bitcoin Cash in Wordpress aktivieren"
   wordpress_excerpt: "Akzeptieren Sie Bitcoin Cash-Spenden für die Erstellung von Inhalten oder integrieren Sie sie in Ihre Wordpress-fähige E-Commerce-Plattform."
   pos: "Point Of Sales"
-  pos_excerpt: "Versuchen Sie es mit einem der zahlreichen Bitcoin Cash-Point Of Sales (POS), um BCH in Ihrem Geschäft zu akzeptieren."
+  pos_excerpt: ""
   donations: "Spenden oder Trinkgelder annehmen"
   donations_excerpt: "Non-Profit-Organisationen profitieren von extrem niedrigen Gebühren, wenn sie Bitcoin Cash-Spenden erhalten."
