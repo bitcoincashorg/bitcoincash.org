@@ -9,9 +9,10 @@ In November 2018, the CLEANSTACK consensus rule was activated, with the intent o
 Starting in May 2019, an exemption to the CLEANSTACK rule will be made, allowing transactions spending segwit P2SH coins to be once again included in blocks.
 
 ## Requirement
-Transaction inputs that:
+A transaction input that:
+1. spends a P2SH coin; and
 1. the scriptSig contains solely the redeem script; and
-2. the redeem script is a valid witness program: a 1-byte push opcode (for 0 to 16) followed by a data push between 2 and 40 bytes;
+2. the redeem script is a valid witness program: a 1-byte push opcode (for 0 to 16) followed by a data push between 2 and 40 bytes in minimal form;
 
     shall be considered valid under the consensus rules to be activated in May 2019.
 
