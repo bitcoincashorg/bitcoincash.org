@@ -314,9 +314,7 @@ content:
     - question: "Is Bitcoin Cash different from 'Bitcoin'?"
       answer:
         - |
-
           In 2017, the Bitcoin project and its community split in two.  Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash.
-
   why:
       - benefit: "Send Money Anywhere In the World, Almost for Free"
         descrip:
@@ -387,11 +385,11 @@ content:
       - title: "Does your project use the correct name?"
         descrip:
           - |
-              Your projects website must define Bitcoin Cash in it's full name. Projects which ammend or append additions to the name "Bitcoin Cash" will be disqualified from listing. 
+              Your projects website must define Bitcoin Cash in it's full name. Projects which ammend or append additions to the name "Bitcoin Cash" will be disqualified from listing.
       - title: "Does your wallet provide seed type and derivation path?"
         descrip:
           - |
-              Bitcoin Cash wallet applications must include seed type and derivation paths. 
+              Bitcoin Cash wallet applications must include seed type and derivation paths.
       - title: "Does your project clearly promote Bitcoin Cash?"
         descrip:
           - |
