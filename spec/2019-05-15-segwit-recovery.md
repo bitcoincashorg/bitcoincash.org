@@ -24,7 +24,7 @@ A transaction input
 
 shall be exempted from the CLEANSTACK rule under the consensus rules to be activated in May 2019.
 
-A witness program has a 1-byte push opcode (for 0 to 16) followed by a data push between 2 and 40 bytes (inclusive) in minimal form.
+A witness program has a 1-byte push opcode (for a number between 0 and 16, inclusive) followed by a data push between 2 and 40 bytes (inclusive), both in minimal form.
 Equivalently, a witness program can be identified by examining the length and the first two bytes of the redeem script:
 * The redeem script byte-length is at least 4 and at most 42.
 * The first byte is 0x00, or in the range 0x51 – 0x60. (OP_0, or OP_1 – OP_16).
