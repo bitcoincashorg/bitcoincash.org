@@ -11,6 +11,7 @@ Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
 0x00031337,GameChain,Devalbo,,https://github.com/devalbo/gamechain,
 0x00666770,OFGP,OFGP Devs,bitcoincash:qzn9zdurl5hf25h8hkjue3dtqsywl3mpesw0p08z5u,https://github.com/ofgp,
 0x00434d4C,BCML,Crypto-Steve,bitcoincash:qpz4hkg4z0xqny326k90pqvdud57h6m0agk0pj6e62,https://github.com/Cryto-Steve/BCML/,
+0x004F5243,Oracle Data,Emil Oldenburg,,https://oracle.bitcoin.com,
 0x00504642,BitcoinFiles,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8, http://bitcoinfiles.com,
 0x00504c53,Simple Ledger Protocol,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8,http://simpleledger.cash/,
 0x00544542,ChainBet,Jonald Fyookball,,https://github.com/fyookball/ChainBet,
