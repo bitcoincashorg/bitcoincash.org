@@ -9,9 +9,12 @@ Last old-rules block hash (height=1286694, mediantime=1550505775):
 First new-rules block hash (height=1286695):
 `00000000ddd282493abd33df4747ac9793851c073534dbb17d596fe184de6d32`
 
+First Schorr-containing block hash (height=1286698):
+`0000000038067b3b52bdf8f3caa578b5b892595b80703e9f0de5d0dbd4012054`
+
 ## Set up a node
 
-Run build of latest master with:
+Run Bitcoin ABC 0.19.0 with:
 `bitcoin-qt -testnet -greatwallactivationtime=1550505000 -addnode=testnet.imaginary.cash`
 
 Alternatively as bitcoin.conf file:
@@ -24,7 +27,7 @@ greatwallactivationtime=1550505000
 It is advised also run this to avoid soft-forking back onto normal testnet:
 `bitcoin-cli invalidateblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2`
 
-## Set up other services
+## Other services
 
 Miners: to `testnet.imaginary.cash:19338`
 user: (testnet address) password:(anything)

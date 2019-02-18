@@ -14,10 +14,7 @@ Discussion related to testing Bitcoin Cash, focused on Upgrades.
 # Officers
 
  * Chairperson: Antony Zegers (Mengerian)
- * Meeting Reporter:
- * Membership Coordinator:
+ * Chief Node Officer: Imaginary Username
+ * Chief Schnorr Officer: Mark B. Lundeberg
 
-# Interested Parties
 
- * Mark B. Lundeberg
- * imaginary username
