@@ -1,5 +1,5 @@
-Testnet - 2019-05-15 Upgrade
-============================
+2019-05-15 Upgrade Testnet
+==========================
 
 Fork time: 1550505000  (February 18, 2019 15:50:00 UTC)
 
@@ -15,7 +15,9 @@ First Schorr-containing block hash (height=1286698):
 ## Set up a node
 
 Run Bitcoin ABC 0.19.0 with:
-`bitcoin-qt -testnet -greatwallactivationtime=1550505000 -addnode=testnet.imaginary.cash`
+```
+bitcoin-qt -testnet -greatwallactivationtime=1550505000 -addnode=testnet.imaginary.cash
+```
 
 Alternatively as bitcoin.conf file:
 ```
@@ -24,8 +26,11 @@ addnode=testnet.imaginary.cash
 greatwallactivationtime=1550505000
 ```
 
-It is advised also run this to avoid soft-forking back onto normal testnet:
-`bitcoin-cli invalidateblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2`
+You should also run this to avoid soft-forking back onto normal testnet:
+
+```
+bitcoin-cli invalidateblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
+```
 
 ## Other services
 
@@ -36,4 +41,8 @@ Electrumx server: `testnet.imaginary.cash:50002` will follow the bitcoind.
 
 Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/tree/schnorr
 (only produces schnorr sigs)
+
+## Communication
+
+To communicate and coordinate with other Upgrade Testnet users, you can join the [Discord Group](https://discord.gg/sjncsXb).
 

@@ -17,4 +17,3 @@ Discussion related to testing Bitcoin Cash, focused on Upgrades.
  * Chief Node Officer: Imaginary Username
  * Chief Schnorr Officer: Mark B. Lundeberg
 
-
