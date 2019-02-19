@@ -1,7 +1,7 @@
 2019-05-15 Upgrade Testnet
 ==========================
 
-Fork time: 1550505000  (February 18, 2019 15:50:00 UTC)
+Fork time: `1550505000`  (February 18, 2019 15:50:00 UTC)
 
 Last old-rules block hash (height=1286694, mediantime=1550505775):
 `00000000d80feb3c564957459688819edcb499e62f584fe314327de51e1bb87e`
@@ -44,5 +44,5 @@ Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/t
 
 ## Communication
 
-To communicate and coordinate with other Upgrade Testnet users, you can join the [Discord Group](https://discord.gg/sjncsXb).
+To communicate and coordinate with other Upgrade Testnet users, you can join the [Testing Workgroup](workgroup.md) and its associated [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw).
 
