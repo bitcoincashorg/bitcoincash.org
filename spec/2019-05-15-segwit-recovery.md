@@ -3,7 +3,7 @@ layout: specification
 title: 2019-MAY-15 Segwit Recovery Specification
 date: 2019-02-13
 activation: 1557921600
-version: 0.2 DRAFT SUBJECT TO CHANGE
+version: 0.2
 ---
 
 In-Progress Segwit Recovery Draft Specification
