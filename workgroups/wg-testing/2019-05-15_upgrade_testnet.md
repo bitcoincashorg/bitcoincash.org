@@ -1,6 +1,12 @@
 2019-05-15 Upgrade Testnet
 ==========================
 
+On May 15, 2019 the Bitcoin Cash network will undergo a planned protocol upgrade, as part of a series of regularly scheduled network upgrades. The changes have been [specified](https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2019-05-15-upgrade.md) and implemented three months prior to upgrade activation in order to permit the ecosystem to prepare well in advance.
+
+To assist technical preparations for the upgrade, a testnet is available where the upgrade features can be trialed and tested. Node implementations, wallets, businesses and services built on the Bitcoin Cash network can use this testnet to ensure compatibility, or to get started building products to make use of the upgrade features. This document outlines the information needed to participate in this upgrade testnet.
+
+## Upgrade Testnet Parameters
+
 Fork time: `1550505000`  (February 18, 2019 15:50:00 UTC)
 
 Last old-rules block hash (height=1286694, mediantime=1550505775):
@@ -29,7 +35,7 @@ greatwallactivationtime=1550505000
 You should also run this to avoid soft-forking back onto normal testnet:
 
 ```
-bitcoin-cli invalidateblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
+bitcoin-cli -testnet invalidateblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
 ```
 
 ## Other services
@@ -45,4 +51,3 @@ Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/t
 ## Communication
 
 To communicate and coordinate with other Upgrade Testnet users, you can join the [Testing Workgroup](workgroup.md) and its associated [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw).
-
