@@ -48,6 +48,8 @@ Electrumx server: `testnet.imaginary.cash:50002` will follow the bitcoind.
 Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/tree/schnorr
 (only produces schnorr sigs)
 
+Insight API: http://testnet.imaginary.cash/api/BCH/testnet/ (try http://testnet.imaginary.cash/api/BCH/testnet/tx/0514a52cb921ffb9a9bc7c1060a05c12cfd3778c123073e4b8ac8ed2a72e9754 )
+
 ## Communication
 
 To communicate and coordinate with other Upgrade Testnet users, you can join the [Testing Workgroup](workgroup.md) and its associated [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw).
