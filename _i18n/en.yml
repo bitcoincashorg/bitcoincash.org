@@ -294,7 +294,9 @@ networkupgrade:
   spec: "Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY"
   close: "Close"
   upgradecomplete: "upgrade complete"
-  completedescription: "The planned upgrade of the Bitcoin Cash network has succesfully been completed."
+  completedescription: "The planned upgrade of the Bitcoin Cash network has successfully been completed."
+  date-2019-05-15: "May 15th, 2019"
+  specification: "Upgrade Specification"
 whitepaper:
   description: 'The original whitepaper was published on October 31, 2008 by Satoshi Nakamoto, the anonymous creator of the worlds first cryptocurrency. The title of the Bitcoin whitepaper is "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin Cash aims to continue this vision of bringing sound money to the world.'
 error404:
