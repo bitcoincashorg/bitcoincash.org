@@ -758,3 +758,8 @@ ol {
     height:111% !important;
   }
 }
+
+video {
+  width: 100%;
+  height: auto;
+}
