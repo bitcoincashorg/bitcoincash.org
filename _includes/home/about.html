@@ -10,17 +10,22 @@
 				<div class='col-sm-12 col-md-6 text-center'>
 					<video preload="metadata" controls>
 						<source src="bitcoincash.mp4#t=1" type="video/mp4">
-            <track src="/etc/subtitles/de.vtt" kind="subtitles" srclang="de">
-						<track src="/etc/subtitles/es.vtt" kind="subtitles" srclang="es">
-            <track src="/etc/subtitles/id.vtt" kind="subtitles" srclang="id">
-            <track src="/etc/subtitles/ja.vtt" kind="subtitles" srclang="ja">
-            <track src="/etc/subtitles/pt_BR.vtt" kind="subtitles" srclang="pt_BR">
-            <track src="/etc/subtitles/ru.vtt" kind="subtitles" srclang="ru">
-            <track src="/etc/subtitles/tr.vtt" kind="subtitles" srclang="tr">
-            <track src="/etc/subtitles/zh_CN.vtt" kind="subtitles" srclang="zh_CN">
-            <track src="/etc/subtitles/zh_TW.vtt" kind="subtitles" srclang="zh_TW">
+            <track src="/etc/subtitles/de.vtt" kind="subtitles" srclang="de" id="de">
+						<track src="/etc/subtitles/es.vtt" kind="subtitles" srclang="es" id="es">
+            <track src="/etc/subtitles/id.vtt" kind="subtitles" srclang="id" id="id">
+            <track src="/etc/subtitles/ja.vtt" kind="subtitles" srclang="ja" id="ja">
+            <track src="/etc/subtitles/pt_BR.vtt" kind="subtitles" srclang="pt-BR" id="pt">
+            <track src="/etc/subtitles/ru.vtt" kind="subtitles" srclang="ru" id="ru">
+            <track src="/etc/subtitles/tr.vtt" kind="subtitles" srclang="tr" id="tr">
+            <track src="/etc/subtitles/zh_CN.vtt" kind="subtitles" srclang="zh-CN" id="CN">
+            <track src="/etc/subtitles/zh_TW.vtt" kind="subtitles" srclang="zh-TW" id="TW">
 					</video>
 				</div>
+
+        <script>
+          var sub = document.getElementById(document.URL.slice(-3).slice(0, -1));
+          sub.setAttribute('default', '');
+        </script>
 
 				<div class='col-sm-12 col-md-6'>
 					{% for c in site.translations[site.lang]["content"]["about"] %}
