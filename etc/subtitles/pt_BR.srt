@@ -1,0 +1,93 @@
+1
+00:00:00,000 --> 00:00:01,880
+O que é Bitcoin Cash?
+
+2
+00:00:01,880 --> 00:00:06,060
+O Bitcoin Cash é uma versão aprimorada do software do Bitcoin Core.
+
+3
+00:00:06,060 --> 00:00:09,240
+Ele é mais rápido, mais barato e mais confiável.
+
+4
+00:00:09,240 --> 00:00:12,880
+O Bitcoin Cash tem muitas vantagens:
+
+5
+00:00:12,980 --> 00:00:14,540
+Em primeiro lugar, ele é conveniente.
+
+6
+00:00:14,640 --> 00:00:19,920
+Todos podem usar o Bitcoin Cash a qualquer momento e em qualquer lugar, e a tecnologia é perfeita para dispositivos móveis.
+
+7
+00:00:20,100 --> 00:00:25,640
+Você pode enviar pagamentos com valores bem baixos (como menos de R$ 0,10) para conteúdo on-line,
+
+8
+00:00:25,860 --> 00:00:30,360
+R$ 1 para uma boa causa ou quem sabe R$ 5 por um café.
+
+9
+00:00:30,520 --> 00:00:35,840
+Você pode até usá-lo para realizar grandes transações comerciais de milhões de dólares entre países diferentes.
+
+10
+00:00:36,040 --> 00:00:39,140
+Não há limites. 
+Ele é praticamente gratuito.
+
+11
+00:00:39,380 --> 00:00:43,180
+E quando houver uma taxa, o valor será tão baixo que você nem perceberá.
+
+12
+00:00:43,240 --> 00:00:46,600
+As transações com Bitcoin Cash são extremamente rápidas.
+
+13
+00:00:46,600 --> 00:00:50,400
+Para receber, é só contar "3... 2... 1..." e pronto, já chegou.
+
+14
+00:00:50,400 --> 00:00:54,360
+Com maior capacidade de transações do que o antigo software do Bitcoin Core
+
+15
+00:00:54,460 --> 00:00:57,980
+e um roteiro de upgrades regulares de rede para atender à demanda,
+
+16
+00:00:58,080 --> 00:01:00,160
+O Bitcoin Cash é confiável.
+
+17
+00:01:00,160 --> 00:01:06,260
+De manhã, à tarde, à noite em outro fuso horário... a qualquer hora!
+
+18
+00:01:06,270 --> 00:01:10,300
+E o melhor de tudo é que o Bitcoin Cash não tem complicações!
+
+19
+00:01:10,300 --> 00:01:13,860
+Isso porque ele não tem pontos centrais de autoridade.
+
+20
+00:01:13,960 --> 00:01:16,920
+Ele é rápido, barato e confiável.
+
+21
+00:01:17,080 --> 00:01:21,120
+Encare-o como um dinheiro eletrônico que você pode enviar ou receber instantaneamente.
+
+22
+00:01:21,300 --> 00:01:23,300
+O que você está esperando?
+
+23
+00:01:23,520 --> 00:01:28,380
+Simplifique já a sua vida adquirindo Bitcoin Cash!
+
