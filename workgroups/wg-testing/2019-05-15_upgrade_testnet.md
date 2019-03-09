@@ -50,6 +50,8 @@ Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/t
 
 Insight API: http://testnet.imaginary.cash/api/BCH/testnet/ (try http://testnet.imaginary.cash/api/BCH/testnet/tx/0514a52cb921ffb9a9bc7c1060a05c12cfd3778c123073e4b8ac8ed2a72e9754 )
 
+Explorer: http://testnet.imaginary.cash (try http://testnet.imaginary.cash/tx/357c349c08a0b3c4ab2bf64813bdb2e4a4219ef2cbb463abed90a8f594b88ea4 )
+
 ## Communication
 
 To communicate and coordinate with other Upgrade Testnet users, you can join the [Testing Workgroup](workgroup.md) and its associated [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw).
