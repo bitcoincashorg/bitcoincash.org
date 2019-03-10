@@ -1,177 +1,177 @@
 <a id="projects"></a>
 <section class="space--xxs border-bottom" id="projects-section"  data-section="projects">
-    <div class="container services">
-        <div class="row to-animate">
-            <div class="col-xs-12 section-heading text-center">
-                <h2>{% t 'headings.roadmap' %}</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 to-animate">
-                <p>The goal for Bitcoin Cash is to become sound money that is usable by everyone in the world. This is a civilization-changing technology which will dramatically increase human freedom and prosperity.</p>
-
-                <p>This roadmap is intended to provide high-level technical direction, and enable different technical teams to work together towards a common goal for advancing Bitcoin Cash. The role of developers in furthering this goal is to produce high-quality professional software that serves the needs of its users, miners and merchants. We strive for continuous technical improvement, to produce reliable products providing a solid foundation for Bitcoin Cash.</p>
-
-                <p>The basic design of Bitcoin Cash is sound. However, this does not mean it is perfect. It is prudent to make incremental improvements to the system with technically sound design and careful engineering. By implementing optimizations and protocol upgrades, peer-to-peer digital cash will scale many orders of magnitude beyond current limits.</p>
-
-                <p>
-                    <b>The needed technical improvements can be divided into three categories:</b>
-                    <ol>
-                        <li>Enable Bitcoin Cash to scale from ~100 Tx/s to over 5,000,000 Tx/s. Protocol improvements must be made so that mass-parallelization can enable this level of transaction processing.</li>
-                        <li>Improving the payment experience to ensure that it is instant and reliable. Transactions should be secure within three seconds.</li>
-                        <li>Make Bitcoin Cash extensible. An extensible protocol makes future improvements less disruptive, and provides a solid base for businesses and developers to build on.</li>
-                    </ol>
-                </p>
-
-                <p>To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.</p>
-            </div>
-
-        </div>
+  <div class="container services">
+    <div class="row to-animate">
+      <div class="col-xs-12 section-heading text-center">
+        <h2>{% t 'headings.roadmap' %}</h2>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 to-animate">
+        <p>{% t 'roadmap.intro.goal' %}</p>
 
-    <div class="container roadmap text-center">
-        <div class="row rm-legend">
-            <div class="col-sm-12 col-md-4 to-animate lg-complete">
-                <p><ion-icon class="complete" name="checkmark-circle"></ion-icon> {% t 'roadmap.complete' %}</p>
-            </div>
-            <div class="col-sm-12 col-md-4 to-animate lg-underway">
-                <p><ion-icon class="underway" name="cog"></ion-icon> {% t 'roadmap.underway' %}</p>
-            </div>
-            <div class="col-sm-12 col-md-4 to-animate lg-planned">
-                <p><ion-icon class="planned" name="add-circle"></ion-icon> {% t 'roadmap.planned' %}</p>
-            </div>
-        </div>
-        <div class="row rm-title-row">
-            <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-title">
-                <img src="/media-kit/3-bitcoin-cash-logo-ot-medium.png" alt="Bitcoin Cash roadmap">
-                <h3 class="rm-col-title">
-                    {% t 'roadmap.roadmap' %}
-                </h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-4 to-animate rm-scaling">
-                <h3 class="rm-col-title">
-                    {% t 'roadmap.scaling' %}
-                </h3>
-                <ul class="rm-list">
-                    <li>
-                        <h4>{% t 'roadmap.ctor' %}</h4>
-                        <p>{% t 'roadmap.scal_block_proc' %}</p>
-                        <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.faster' %}</h4>
-                        <p>{% t 'roadmap.graphene' %}</p>
-                        <ion-icon class="underway" name="cog"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.merklix' %}</h4>
-                        <p>{% t 'roadmap.scal_block_proc' %}</p>
-                        <ion-icon class="planned" name="add-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.utxo' %}</h4>
-                        <p>{% t 'roadmap.pruning' %}</p>
-                        <ion-icon class="underway" name="cog"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.schnorr' %}</h4>
-                        <p>{% t 'roadmap.batched' %}</p>
-                        <ion-icon class="underway" name="cog"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.adaptive' %}</h4>
-                        <p>{% t 'roadmap.1TB' %}</p>
-                        <ion-icon class="planned" name="add-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.scale' %}</h4>
-                        <p>{% t 'roadmap.50tx' %}</p>
-                        <ion-icon name="rocket"></ion-icon>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-12 col-md-4 to-animate rm-usability">
-                <h3 class="rm-col-title">
-                    {% t 'roadmap.usability' %}
-                </h3>
-                <ul class="rm-list">
-                    <li>
-                        <h4>{% t 'roadmap.CashAddr' %}</h4>
-                        <p>{% t 'roadmap.easier' %}</p>
-                        <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.Sighash' %}</h4>
-                        <p>{% t 'roadmap.hw' %}</p>
-                        <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.fee' %}</h4>
-                        <p>{% t 'roadmap.cheaper' %}</p>
-                        <ion-icon class="underway" name="cog"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.pre' %}</h4>
-                        <p>{% t 'roadmap.instant' %}</p>
-                        <ion-icon class="underway" name="cog"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.fract' %}</h4>
-                        <p>{% t 'roadmap.low' %}</p>
-                        <ion-icon class="planned" name="add-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.best' %}</h4>
-                        <p>{% t 'roadmap.secure_low' %}</p>
-                        <ion-icon name="ribbon"></ion-icon>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-12 col-md-4 to-animate rm-extensibility">
-                <h3 class="rm-col-title">
-                    {% t 'roadmap.extensibility' %}
-                </h3>
-                <ul class="rm-list">
-                    <li class="pad">
-                        <h4>{% t 'roadmap.basic' %}</h4>
-                        <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.223B' %}</h4>
-                        <p>{% t 'roadmap.social' %}</p>
-                        <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.cds' %}</h4>
-                        <p>{% t 'roadmap.oracles' %}</p>
-                        <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    </li>
-                    <li class="pad">
-                        <h4>{% t 'roadmap.more_basic' %}</h4>
-                        <ion-icon class="underway" name="cog"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.tx_format' %}</h4>
-                        <p>{% t 'roadmap.compact' %}</p>
-                        <ion-icon class="planned" name="add-circle"></ion-icon>
-                    </li>
-                    <li>
-                        <h4>{% t 'roadmap.token' %}</h4>
-                        <p>{% t 'roadmap.traded' %}</p>
-                        <ion-icon name="ribbon"></ion-icon>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row rm-finale">
-            <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-complete">
-                <h3 class="rm-col-title rm-col-title-last">
-                    <ion-icon class="complete" name="checkmark-circle"></ion-icon>
-                    {% t 'roadmap.protocol_complete' %}
-                </h3>
-            </div>
-        </div>
+        <p>{% t 'roadmap.intro.expl' %}</p>
+
+        <p>{% t 'roadmap.intro.design' %}</p>
+
+        <p>
+          <b>{% t 'roadmap.intro.list-title' %}</b>
+          <ol>
+            <li>{% t 'roadmap.intro.list-1' %}</li>
+            <li>{% t 'roadmap.intro.list-2' %}</li>
+            <li>{% t 'roadmap.intro.list-3' %}</li>
+          </ol>
+        </p>
+
+        <p>{% t 'roadmap.intro.end' %}</p>
+      </div>
+
     </div>
+  </div>
+
+  <div class="container roadmap text-center">
+    <div class="row rm-legend">
+      <div class="col-sm-12 col-md-4 to-animate lg-complete">
+        <p><ion-icon class="complete" name="checkmark-circle"></ion-icon> {% t 'roadmap.complete' %}</p>
+      </div>
+      <div class="col-sm-12 col-md-4 to-animate lg-underway">
+        <p><ion-icon class="underway" name="cog"></ion-icon> {% t 'roadmap.underway' %}</p>
+      </div>
+      <div class="col-sm-12 col-md-4 to-animate lg-planned">
+        <p><ion-icon class="planned" name="add-circle"></ion-icon> {% t 'roadmap.planned' %}</p>
+      </div>
+    </div>
+    <div class="row rm-title-row">
+      <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-title">
+        <img src="/media-kit/3-bitcoin-cash-logo-ot-medium.png" alt="Bitcoin Cash roadmap">
+        <h3 class="rm-col-title">
+          {% t 'roadmap.roadmap' %}
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4 to-animate rm-scaling">
+        <h3 class="rm-col-title">
+          {% t 'roadmap.scaling' %}
+        </h3>
+        <ul class="rm-list">
+          <li>
+            <h4>{% t 'roadmap.ctor' %}</h4>
+            <p>{% t 'roadmap.scal_block_proc' %}</p>
+            <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.faster' %}</h4>
+            <p>{% t 'roadmap.graphene' %}</p>
+            <ion-icon class="underway" name="cog"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.merklix' %}</h4>
+            <p>{% t 'roadmap.scal_block_proc' %}</p>
+            <ion-icon class="planned" name="add-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.utxo' %}</h4>
+            <p>{% t 'roadmap.pruning' %}</p>
+            <ion-icon class="underway" name="cog"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.schnorr' %}</h4>
+            <p>{% t 'roadmap.batched' %}</p>
+            <ion-icon class="underway" name="cog"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.adaptive' %}</h4>
+            <p>{% t 'roadmap.1TB' %}</p>
+            <ion-icon class="planned" name="add-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.scale' %}</h4>
+            <p>{% t 'roadmap.50tx' %}</p>
+            <ion-icon name="rocket"></ion-icon>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-4 to-animate rm-usability">
+        <h3 class="rm-col-title">
+          {% t 'roadmap.usability' %}
+        </h3>
+        <ul class="rm-list">
+          <li>
+            <h4>{% t 'roadmap.CashAddr' %}</h4>
+            <p>{% t 'roadmap.easier' %}</p>
+            <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.Sighash' %}</h4>
+            <p>{% t 'roadmap.hw' %}</p>
+            <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.fee' %}</h4>
+            <p>{% t 'roadmap.cheaper' %}</p>
+            <ion-icon class="underway" name="cog"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.pre' %}</h4>
+            <p>{% t 'roadmap.instant' %}</p>
+            <ion-icon class="underway" name="cog"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.fract' %}</h4>
+            <p>{% t 'roadmap.low' %}</p>
+            <ion-icon class="planned" name="add-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.best' %}</h4>
+            <p>{% t 'roadmap.secure_low' %}</p>
+            <ion-icon name="ribbon"></ion-icon>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-4 to-animate rm-extensibility">
+        <h3 class="rm-col-title">
+          {% t 'roadmap.extensibility' %}
+        </h3>
+        <ul class="rm-list">
+          <li class="pad">
+            <h4>{% t 'roadmap.basic' %}</h4>
+            <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.223B' %}</h4>
+            <p>{% t 'roadmap.social' %}</p>
+            <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.cds' %}</h4>
+            <p>{% t 'roadmap.oracles' %}</p>
+            <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          </li>
+          <li class="pad">
+            <h4>{% t 'roadmap.more_basic' %}</h4>
+            <ion-icon class="underway" name="cog"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.tx_format' %}</h4>
+            <p>{% t 'roadmap.compact' %}</p>
+            <ion-icon class="planned" name="add-circle"></ion-icon>
+          </li>
+          <li>
+            <h4>{% t 'roadmap.token' %}</h4>
+            <p>{% t 'roadmap.traded' %}</p>
+            <ion-icon name="ribbon"></ion-icon>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row rm-finale">
+      <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-complete">
+        <h3 class="rm-col-title rm-col-title-last">
+          <ion-icon class="complete" name="checkmark-circle"></ion-icon>
+          {% t 'roadmap.protocol_complete' %}
+        </h3>
+      </div>
+    </div>
+  </div>
 </section>
