@@ -295,6 +295,12 @@ networkupgrade:
   close: "Fermer"
   upgradecomplete: "mise à niveau terminée"
   completedescription: "La mise à niveau prévue du réseau Bitcoin Cash a été réalisée avec succès."
+  specification: ""
+  date-2019-05-15: "15 mai 2019"
+  date-2019-11-15: "15 novembre 2019"
+  date-2020-05-15: "15 mai 2020"
+  date-2020-11-15: "15 novembre 2020"
+  date-2021-05-15: "15 mai 2021"
 whitepaper:
   description: 'Le premier whitepaper a été publié le 31 octobre 2008 par Satoshi Nakamoto, le créateur anonyme de la première cryptomonnaie au monde, sous le titre Bitcoin: A Peer to Peer Electronic Cash System (Bitcoin : un système de paiement électronique pair-à-pair). Bitcoin Cash vise à reprendre cette vision d''une nouvelle monnaie mondiale saine.'
 error404:
@@ -387,7 +393,7 @@ content:
       - title: "Votre portefeuille fournit-il le type de graine et le chemin de dérivation ?"
         descrip:
           - |
-            Les applications de portefeuille Bitcoin Cash doivent inclure le type de graine et les chemins de dérivation.
+            Les applications de portefeuille Bitcoin Cash doivent inclure le type de graine et les chemins de dérivations.
       - title: "Votre projet fait-il clairement la promotion de Bitcoin Cash?"
         descrip:
           - |
@@ -500,3 +506,56 @@ acceptbch:
   pos_excerpt: "Essayez l'un des nombreux systèmes de point de vente pour accepter Bitcoin Cash dans votre magasin."
   donations: "Accepter des dons ou des pourboires"
   donations_excerpt: "Les organisations à but non lucratif paient uniquement des frais infimes lorsqu'elles reçoivent des dons en Bitcoin Cash."
+roadmap:
+  intro:
+    goal: Le but de Bitcoin Cash est de devenir une monnaie saine qui soit utilisable par tout le monde. Il s'agit d'une technologie bouleversant les codes civilisationnels qui augmentera considérablement la liberté et la prospérité humaines.
+    expl: "Cette feuille de route est destinée à fournir une direction technique de haut niveau et à permettre à différentes équipes techniques de travailler ensemble dans le but d'atteindre un objectif commun pour faire progresser Bitcoin Cash. Le rôle des développeurs dans la poursuite de cet objectif est de produire un logiciel professionnel de haute qualité qui répond aux besoins des utilisateurs, des mineurs et des marchands. Nous nous efforçons d'améliorer constamment notre technologie afin de produire des produits fiables offrant une base solide à Bitcoin Cash."
+    design: "La conception de base de Bitcoin Cash est saine. Cependant, cela ne signifie pas qu'elle est parfaite. Il est prudent d’améliorer progressivement le système grâce à une conception techniquement rationnelle et une ingénierie minutieuse. En implémentant des optimisations et en mettant à niveau le protocole, l'argent liquide numérique pair-à-pair pourra passer à l'échelle jusqu'à plusieurs ordres de grandeur au-delà des limites actuelles."
+    list-title: "Les améliorations techniques nécessaires peuvent être divisées en trois catégories :"
+    list-1: Permettre à Bitcoin Cash de passer d’environ 100 Tx/s à plus de 5 000 000 Tx/s. Des amélioration doivent être apportées au protocole pour que la parallélisation puisse permettre ce niveau de traitement des transactions.
+    list-2: Améliorer l'expérience de paiement pour s'assurer qu'il est instantané et fiable. Les transactions doivent être sécurisées dans les trois secondes.
+    list-3: Rendre Bitcoin Cash extensible. Un protocole extensible simplifie les améliorations futures et constitue une base solide sur laquelle les entreprises et les développeurs peuvent s'appuyer.
+    end: "Pour devenir une base solide pour le développement d’applications et l’innovation, Bitcoin Cash doit continuellement s’améliorer et être concurrentiel. En travaillant ensemble, nous pouvons créer une base technique qui permettra à Bitcoin Cash de devenir la meilleure monnaie jamais vue."
+  complete: achevé
+  underway: en cours
+  planned: planifié
+  roadmap: feuille de route
+  scaling: scaling
+  usability: utilisabilité
+  extensibility: extensibilité
+  protocol_complete: ""
+  ctor: Ordre canonique des transactions
+  scal_block_proc: (traitement scalable des blocs)
+  faster: Rapide propagation des blocs
+  graphene: (Graphene ou autre)
+  merklix: Arbres Merklix
+  utxo: Engagement des UTXO
+  pruning: (réduction de la chaîne)
+  schnorr: Signatures de Schnorr
+  batched: (validation des signatures par lots)
+  adaptive: Taille des blocs adaptative
+  1TB: (croissance tirée par le marché jusqu'aux blocs de 1 To)
+  scale: ""
+  50tx: 50 transactions par jour pour 10 milliards d'êtres humains
+  CashAddr: CashAddr
+  easier: (plus faciles et plus sûres pour l'utilisateur)
+  Sighash: Sighash
+  hw: (sécurité des portefeuilles matériels)
+  fee: Améliorations des frais
+  cheaper: (transactions moins chères)
+  pre: Pré-consensus
+  instant: (sécurité quasi instantanée pour les commerçants)
+  fract: Satoshis divisibles
+  low: (frais infimes pour toujours)
+  best: ""
+  secure_low: ""
+  basic: Opcodes basiques
+  223B: OP_RETURN à 223 octets
+  social: (réseaux sociaux on-chain)
+  cds: OP_CHECKDATASIG
+  oracles: (oracles et scripts avancés)
+  more_basic: Plus d'opcodes de base
+  tx_format: Nouveau format de transaction
+  compact: "(plus capable, plus compact)"
+  token: ""
+  traded: toutes les classes d'actifs négociées sur la chaîne
