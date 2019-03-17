@@ -1,5 +1,5 @@
 language: Deutsch
-lang: en
+lang: de
 title:
   index: "Bitcoin Cash – Eine elektronische Peer-to-Peer Währung"
   graphics: "Logos / Grafiken – Bitcoin Cash"
@@ -21,7 +21,7 @@ title:
   tech: "Tech. – Bitcoin Cash"
   specs: "Spezifikationen – Bitcoin Cash"
   learn: "Mehr Informationen – Bitcoin Cash"
-  roadmap: ""
+  roadmap: "Fahrplan - Bitcoin Cash"
   404: "404 – Seite nicht gefunden – Bitcoin Cash"
 meta:
   index:
@@ -275,13 +275,13 @@ headings:
   whitepaper: "Lesen Sie das Whitepaper"
   listingrequest: "Senden Sie eine Angebotsanfrage"
   listingcriteria: "Listungskriterien"
-  getlisted: ""
+  getlisted: "Gelistet werden"
   error404: "Fehler 404"
   benefits: "Vorteile für Händler"
   why: "Warum Bitcoin Cash verwenden?"
   history: "Die Geschichte von Bitcoin Cash"
   development: "Dezentrale Entwicklung"
-  roadmap: ""
+  roadmap: "Der Bitcoin Cash Fahrplan"
 networkupgrade:
   reminder: "Erinnerung"
   date: "15. November 2018"
@@ -295,6 +295,12 @@ networkupgrade:
   close: "Schließen"
   upgradecomplete: "Upgrade abgeschlossen"
   completedescription: "Das geplante Upgrade des Bitcoin Cash Netzwerks wurde erfolgreich abgeschlossen."
+  specification: "Spezifikation des Upgrades"
+  date-2019-05-15: "15. Mai 2019"
+  date-2019-11-15: "15. November 2019"
+  date-2020-05-15: "15. Mai 2020"
+  date-2020-11-15: "15. November 2020"
+  date-2021-05-15: "15. Mai 2021"
 whitepaper:
   description: 'Das ursprüngliche Whitepaper wurde am 31. Oktober 2008 von Satoshi Nakamoto, dem anonymen Schöpfer der ersten Kryptowährung der Welt, veröffentlicht. Der Titel des Bitcoin-Whitepapers lautet „Bitcoin: Ein Peer-to-Peer-Electronic-Cash-System“. Bitcoin Cash möchte diese Vision weiterführen, der Welt eine stabile Währung zu bringen.'
 error404:
@@ -382,11 +388,24 @@ content:
         descrip:
           - |
             Ihre Projektwebseite muss Bitcoin Cash beim vollständigen Namen nennen. Projekte, welche Zusätze zum Namen "Bitcoin Cash" hinzufügen, werden von der Auflistung ausgeschlossen.
+      - title: "Bietet Ihre Brieftasche einen Samen-Typ und einen Herleitung Pfad ?"
+        descrip:
       - title: "Unterstützt Ihr Projekt eindeutig Bitcoin Cash?"
         descrip:
           - |
             Die Webseiten der Bewerber müssen eindeutig Bitcoin Cash unterstützen. Das Hinzufügen minimaler Unterstützung garantiert keine Auflistung.
       - title: "Verwendet Ihr Projekt das Bitcoin Cash Logo?"
+        descrip:
+          - |
+            Wir empfehlen Bewerbern, das Bitcoin Cash Logo in unserem<a href="graphics.html">Grafikbereich</a> zu verwenden. Das Branding sollte einheitlich mit bitcoincash.org verbleiben. Die Verwendung der auf bitcoincash.org verfügbaren Logos erhöht Ihre Chancen gelistet zu werden, auch wenn dies nicht notwendig ist.
+      - title: ""
+        descrip:
+      - title: ""
+        descrip:
+      - title: ""
+        descrip:
+      - title: ""
+        descrip:
 viewmore: "Mehr anzeigen"
 gettingstarted:
   title: "Fangen Sie an"
@@ -439,7 +458,7 @@ buyorearn:
   buyapp_excerpt: "Verwenden Sie eine vertrauenswürdige Drittanbieter-App, die Bitcoin Cash mit einer Kreditkarte verkauft."
   earnonline: "Bitcoin Cash online verdienen"
   earnonline_excerpt: "Erstellen Sie beliebte Inhalte auf <a href='https://honest.cash'>honest.cash</a>. Werden Sie aktiv auf Zensur-resistenten Social-Media-Plattformen wie <a href='http://memo.cash'>Memo.cash</a> oder <a href='https://www.mttr.app/'>Matter</a>."
-  buyatm: ""
+  buyatm: "Bitcoin Cash an einem Geldautomaten erwerben"
   buyatm_excerpt: "In vielen Städten auf der ganzen Welt gibt es spezielle Bitcoin Cash-fähige Geldautomaten."
   buyinperson: "Kaufen Sie persönlich"
   buyinperson_excerpt: ""
@@ -475,3 +494,56 @@ acceptbch:
   pos_excerpt: ""
   donations: "Spenden oder Trinkgelder annehmen"
   donations_excerpt: "Non-Profit-Organisationen profitieren von extrem niedrigen Gebühren, wenn sie Bitcoin Cash-Spenden erhalten."
+roadmap:
+  intro:
+    goal: ""
+    expl: ""
+    design: ""
+    list-title: ""
+    list-1: ""
+    list-2: ""
+    list-3: ""
+    end: ""
+  complete: ""
+  underway: ""
+  planned: ""
+  roadmap: ""
+  scaling: ""
+  usability: ""
+  extensibility: ""
+  protocol_complete: ""
+  ctor: ""
+  scal_block_proc: ""
+  faster: ""
+  graphene: ""
+  merklix: ""
+  utxo: ""
+  pruning: ""
+  schnorr: ""
+  batched: ""
+  adaptive: ""
+  1TB: ""
+  scale: ""
+  50tx: ""
+  CashAddr: ""
+  easier: ""
+  Sighash: ""
+  hw: ""
+  fee: ""
+  cheaper: ""
+  pre: ""
+  instant: ""
+  fract: ""
+  low: ""
+  best: ""
+  secure_low: ""
+  basic: ""
+  223B: ""
+  social: ""
+  cds: ""
+  oracles: ""
+  more_basic: ""
+  tx_format: ""
+  compact: ""
+  token: ""
+  traded: ""
