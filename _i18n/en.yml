@@ -510,6 +510,8 @@ acceptbch:
   donations_excerpt: "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations."
 roadmap:
   intro:
+    home: To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.
+    btn: View The Roadmap
     goal: The goal for Bitcoin Cash is to become sound money that is usable by everyone in the world. This is a civilization-changing technology which will dramatically increase human freedom and prosperity.
     expl: This roadmap is intended to provide high-level technical direction, and enable different technical teams to work together towards a common goal for advancing Bitcoin Cash. The role of developers in furth ering this goal is to produce high-quality professional software that serves the needs of its users, miners and merchants. We strive for continuous technical improvement, to produce reliable products providing a solid foundation for Bitcoin Cash.
     design: The basic design of Bitcoin Cash is sound. However, this does not mean it is perfect. It is prudent to make incremental improvements to the system with technically sound design and careful engineering. By implementing optimizations and protocol upgrades, peer-to-peer digital cash will scale many orders of magnitude beyond current limits.
