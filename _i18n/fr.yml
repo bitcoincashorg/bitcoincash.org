@@ -295,7 +295,7 @@ networkupgrade:
   close: "Fermer"
   upgradecomplete: "mise à niveau terminée"
   completedescription: "La mise à niveau prévue du réseau Bitcoin Cash a été réalisée avec succès."
-  specification: ""
+  specification: "Caractéristiques de la Mise à Jour"
   date-2019-05-15: "15 mai 2019"
   date-2019-11-15: "15 novembre 2019"
   date-2020-05-15: "15 mai 2020"
@@ -469,7 +469,7 @@ buyorearn:
   buyapp: "Acheter sur une app"
   buyapp_excerpt: "Utilisez une app tierce de confiance vous permettant d'acheter des Bitcoin Cash avec une carte bancaire."
   earnonline: "Obtenir des Bitcoin Cash en ligne"
-  earnonline_excerpt: "Rédigez du contenu de qualité sur le site <a href='https://yours.org'>Yours.org</a>. Rejoignez des plates-formes de médias sociaux sans censure, telles que <a href='http://memo.cash'>Memo.cash</a> ou <a href='https://www.mttr.app/'>Matter</a>."
+  earnonline_excerpt: "Rédigez du contenu de qualité sur le site <a href='https://honest.cash'>honest.cash</a>. Rejoignez des plates-formes de médias sociaux sans censure, telles que <a href='http://memo.cash'>Memo.cash</a> ."
   buyatm: "Acheter depuis un Bitcoin Cash ATM"
   buyatm_excerpt: "De nombreuses villes du monde entier sont dotées de distributeurs automatiques spécialisés proposant des Bitcoin Cash."
   buyinperson: "Acheter en personne"
@@ -508,6 +508,8 @@ acceptbch:
   donations_excerpt: "Les organisations à but non lucratif paient uniquement des frais infimes lorsqu'elles reçoivent des dons en Bitcoin Cash."
 roadmap:
   intro:
+    home: "Pour devenir une base solide pour le développement d’applications et l’innovation, Bitcoin Cash doit continuellement s’améliorer et être concurrentiel. En travaillant ensemble, nous pouvons créer une base technique qui permettra à Bitcoin Cash de devenir la meilleure monnaie jamais vue."
+    btn: Voir laFeuille de Route
     goal: Le but de Bitcoin Cash est de devenir une monnaie saine qui soit utilisable par tout le monde. Il s'agit d'une technologie bouleversant les codes civilisationnels qui augmentera considérablement la liberté et la prospérité humaines.
     expl: "Cette feuille de route est destinée à fournir une direction technique de haut niveau et à permettre à différentes équipes techniques de travailler ensemble dans le but d'atteindre un objectif commun pour faire progresser Bitcoin Cash. Le rôle des développeurs dans la poursuite de cet objectif est de produire un logiciel professionnel de haute qualité qui répond aux besoins des utilisateurs, des mineurs et des marchands. Nous nous efforçons d'améliorer constamment notre technologie afin de produire des produits fiables offrant une base solide à Bitcoin Cash."
     design: "La conception de base de Bitcoin Cash est saine. Cependant, cela ne signifie pas qu'elle est parfaite. Il est prudent d’améliorer progressivement le système grâce à une conception techniquement rationnelle et une ingénierie minutieuse. En implémentant des optimisations et en mettant à niveau le protocole, l'argent liquide numérique pair-à-pair pourra passer à l'échelle jusqu'à plusieurs ordres de grandeur au-delà des limites actuelles."
@@ -523,7 +525,7 @@ roadmap:
   scaling: scaling
   usability: utilisabilité
   extensibility: extensibilité
-  protocol_complete: ""
+  protocol_complete: Protocole Bitcoin Cash finalisé
   ctor: Ordre canonique des transactions
   scal_block_proc: (traitement scalable des blocs)
   faster: Rapide propagation des blocs
@@ -535,7 +537,7 @@ roadmap:
   batched: (validation des signatures par lots)
   adaptive: Taille des blocs adaptative
   1TB: (croissance tirée par le marché jusqu'aux blocs de 1 To)
-  scale: ""
+  scale: ECHELLE HUMAINE
   50tx: 50 transactions par jour pour 10 milliards d'êtres humains
   CashAddr: CashAddr
   easier: (plus faciles et plus sûres pour l'utilisateur)
@@ -547,8 +549,8 @@ roadmap:
   instant: (sécurité quasi instantanée pour les commerçants)
   fract: Satoshis divisibles
   low: (frais infimes pour toujours)
-  best: ""
-  secure_low: ""
+  best: MEILLEURE MONNAIE
+  secure_low: sécurisé en 3 secondes - frais de transaction infimes pour toujours
   basic: Opcodes basiques
   223B: OP_RETURN à 223 octets
   social: (réseaux sociaux on-chain)
@@ -557,5 +559,5 @@ roadmap:
   more_basic: Plus d'opcodes de base
   tx_format: Nouveau format de transaction
   compact: "(plus capable, plus compact)"
-  token: ""
+  token: ECONOMIE DE TOKENS
   traded: toutes les classes d'actifs négociées sur la chaîne
