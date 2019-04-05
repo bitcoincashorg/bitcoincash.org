@@ -1,5 +1,5 @@
 language: Chinese
-lang: zh_CN
+lang: zh-CN
 title:
   index: "比特币现金 — 点对点数字现金"
   graphics: "标识 / 图形 — 比特币现金"
@@ -471,7 +471,7 @@ buyorearn:
   buyapp: "应用程序内购买"
   buyapp_excerpt: "用信用卡，向销售比特币现金的受信第三方应用程序购买比特币现金。"
   earnonline: "线上赢得比特币现金"
-  earnonline_excerpt: "在<a href='https://honest.cash'>honest.cash</a>上撰写时尚潮流文章。"
+  earnonline_excerpt: "在<a href='https://honest.cash'>honest.cash</a>上制作热门内容。使用譬如<a href='http://memo.cash'>Memo.cash</a>，抗审查的社交媒体平台"
   buyatm: "从比特币现金ATM机上购买"
   buyatm_excerpt: "全球许多城市都有支持比特币现金存取业务的专用柜员机。"
   buyinperson: "线下购买"
@@ -510,6 +510,8 @@ acceptbch:
   donations_excerpt: "非营利性组织在接受比特币现金捐款时享受超低费用。"
 roadmap:
   intro:
+    home: 要成为应用程序开发和创新的坚实基础，比特币现金必须不断改进和竞争。通过合作，我们可以建立一个技术基础平台，使比特币现金成为世界上有史以来最好的货币。
+    btn: 查看发展路线
     goal: 比特币现金的目标是成为世界上每个人都可以使用的可靠资金。 这是一项改变文明的技术，将大大提升人类的自由和繁荣程度。
     expl: 本路线图旨在提供高级技术指导，并使不同的技术团队能够协力推动比特币现金的共同目标。 开发人员在实现这一目标的职责是，产出高质量的、专业程度高的软件，以满足其用户、矿工和商家的需求。 我们致力于持续的技术改进，以产出可靠的产品，为比特币现金的发展提供坚实基础。
     design: 比特币现金的基本设计是合理的。 但是，这并不意味着它是完美的。 稳健的做法是，通过技术合理的设计和精心的工程实现，对系统逐步改进。 通过不断实现优化和协议升级，点对点数字现金的应用规模，将扩展至超出当前规模许多个数量级。
