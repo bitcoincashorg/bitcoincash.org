@@ -58,6 +58,7 @@ languages:
   - es
   - tr
   - id
+  - nl
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 

@@ -1,97 +1,249 @@
 language: Nederlands
 lang: nl
 title:
-  index: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
-  graphics: "Bitcoin Cash - Logos / Graphics"
-  get-listed: "Submit a listing request"
+  index: "Bitcoin Cash - Peer-to-Peer Digitaal Geld\n\n(peer-to-peer = persoon tot persoon)"
+  graphics: "Logo's / Afbeeldingen - Bitcoin Cash"
+  get-listed: "Vermeldingsaanvraag Indienen - Bitcoin Cash"
+  gettingstarted: "Beginnen - Bitcoin Cash"
+  starthere: "Begin Hier - Bitcoin Cash"
+  wallets: "Download een portemonnee - Bitcoin Cash"
+  buyorearn: "Koop of Verdien BCH - Bitcoin Cash"
+  spendbch: "Spendeer BCH - Bitcoin Cash"
+  acceptbch: "Accepteer BCH - Bitcoin Cash"
+  faq: "Veelgestelde vragen - Bitcoin Cash"
+  nodes: "Nodes - Bitcoin Cash"
+  services: "Diensten - Bitcoin Cash"
+  projects: "Projecten - Bitcoin Cash"
+  exchanges: "Geldmarkt - Bitcoin Cash"
+  developers: "Ontwikkelaarsportaal - Bitcoin Cash"
+  workgroups: "Werkgroepen - Bitcoin Cash"
+  tools: "Hulpmiddelen - Bitcoin Cash"
+  tech: "Technologie - Bitcoin Cash"
+  specs: "Specificaties - Bitcoin Cash"
+  learn: "Leer - Bitcoin Cash"
+  roadmap: "Stappenplan - Bitcoin Cash"
+  404: "404 Pagina niet gevonden - Bitcoin Cash"
 meta:
   index:
     description: |
-      Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
+      Bitcoin Cash biedt de wereld betrouwbaar geld aan. Verkopers en hun klanten worden bekrachtigd door minimale transactiekosten en betrouwbare betalingsbevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie,  vrije innovatie en gedecentraliseerde ontwikkeling.
     twitter:
-      title: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
+      title: "Bitcoin Cash - Persoon-tot-Persoon Digitaal Geld"
       description: |
-        Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
+        Bitcoin Cash biedt de wereld gezond geld aan. Verkopers en hun klanten worden bekrachtigd door minimale transactiekosten en betrouwbare betalingsbevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en gedecentraliseerde ontwikkeling.
     og:
       title: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
       description: |
-        Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
+        Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en gedecentraliseerde ontwikkeling.
   graphics:
     description: |
-      A collection of logos and graphics for Bitcoin Cash.
+      Een collectie van Bitcoin Cash logo's en illustraties.
     twitter:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Logo's / Illustraties"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Een collectie logos and afbeeldingen voor Bitcoin Cash
     og:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Logo's / Afbeeldingen"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Een collectie van Bitcoin Cash logo's en illustraties.
 graphics:
-  title: "Promotional Graphics"
-  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-  logos: "Logos"
-  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
-  download_all: "Download All"
-  small: "Small (PNG)"
-  medium: "Medium (PNG)"
-  large: "Large (PNG)"
-  full: "Full (PNG)"
+  title: "Promotiemateriaal"
+  description: "Deze Bitcoin Cash logo's, afbeeldingen en andere promotiematerialen kunnen gebruikt worden door online diensten, retail bedrijven, pers of voor andere doeleinden."
+  logos: "Logo's"
+  download_png_svg: "Download Bitcoin Cash logo's in PNG en SVG formaat"
+  download_all: "Download alles"
+  small: "Klein (PNG)"
+  medium: "Middelgroot (PNG)"
+  large: "Groot (PNG)"
+  full: "Volledig (PNG)"
   vector: "Vector (SVG)"
   sections:
+    donations: "Donaties"
     home: "Home"
-    logos: "Logos"
-    merchant: "Merchant"
-    donations: "Donations"
-    identity: "Identity"
+    logos: "Logo's"
+    merchant: "Winkelier"
+    identity: "Identiteit"
   types:
-    primary: "BCH Logo Primary"
-    white: "BCH Logo White Text"
+    primary: "BCH Logo Primair"
+    white: "BCH Logo Witte Text"
     mark: "BCH Logo Mark"
-    horizontal_primary: "BCH Logo Horizontal Primary"
-    horizontal_white: "BCH Logo Horizontal White"
-    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+    horizontal_primary: "BCH Logo Horizontaal Primair"
+    horizontal_white: "BCH Logo Horizontaal Wit"
+    wallets_exchanges: "BCH Logo Voor Wallets en Exchanges"
   merchant:
-    title: "Merchant Buttons"
-    description: "Show your customers that you accept Bitcoin Cash"
-    primary: "Bitcoin Cash Accepted Here Primary"
-    orange: "Bitcoin Cash Accepted Here Orange"
+    title: "Winkeliersknoppen"
+    description: "Laat uw klanten zien dat u Bitcoin Cash accepteert"
+    primary: "Bitcoin Cash Accepted Here Primair"
+    orange: "Bitcoin Cash Accepted Here Oranje"
   donation:
-    title: "Donation Buttons"
-    description: "Promote the acceptance of Bitcoin Cash as a donation method."
-    primary: "Bitcoin Cash Donations Accepted Primary"
-    orange: "Bitcoin Cash Donations Accepted Orange"
+    title: "Donatie knoppen"
+    description: "Bevorder de acceptatie van Bitcoin Cash als een donatie methode"
+    primary: "Bitcoin Cash Donations Accepted Primair"
+    orange: "Bitcoin Cash Donations Accepted Oranje"
   identity:
-    title: "Visual Identity"
-    description: "Bitcoin Cash fonts, colors, and more."
+    title: "Visuele Identiteit"
+    description: "Bitcoin Cash lettertypen, kleuren en meer."
     font: "Ubuntu Bold"
     font_italic: "Ubuntu Bold Italic"
-    download: "Download Font"
-    orange: "Bitcoin Cash Orange"
-    grey: "Bitcoin Cash Grey"
+    download: "Download Lettertype"
+    orange: "Bitcoin Cash Oranje"
+    grey: "Bitcoin Cash Grijs"
     white: "Bitcoin Cash White"
     hex: "Hex"
     rgb: "RGB"
     cmyk: "CMYK"
     pantone: "Pantone"
+developers:
+  title: "Creëer geweldige apps met Bitcoin Cash"
+  description: "Middelen voor ontwikkelaars, door ontwikkelaars."
+  sections:
+    home: "Home"
+    getStarted: "Begin"
+    news: "Nieuws"
+  getStarted:
+    tech:
+      title: "Technologie"
+      description: "Open Technologie voor Iedereen"
+    learn:
+      title: "Leer"
+      description: "Leer over Bitcoin Cash-ontwikkeling"
+    tools:
+      title: "Hulpmiddelen"
+      description: "Alles om aan de slag te gaan"
+    workgroups:
+      title: "Werkgroepen"
+      description: "Gemeenschapscoördinatie"
+    specs:
+      title: "Specificaties"
+      description: "Woordenlijst en bijbehorende API's voor Bitcoin Cash"
+workgroups:
+  title: "BITCOIN CASH WERKGROEPEN"
+  description: "Technische gemeenschap werkt samen"
+  sections:
+    workgroups: "Werkgroepen"
+    home: "Home"
+  tutorials:
+    title: "tutorials"
+    description: "Stap voor stap handleidingen om u van de basisbeginselen naar professionele apps te brengen"
+  workgroups:
+    description: "Hier volgt een actuele lijst van Bitcoin Cash Development  Werkgroepen. Elke group dient zich te focussen op een specifiek onderwerp. Ze kunnen van tijdelijke aard of van voortdurende betekenis zijn. "
+    sections:
+      communication: "Communicatie "
+      officers: "Officieren"
+      parties: "Geïnteresseerde Partijen "
+      summaries: "Samenvattingen"
+    wg-daa:
+      title: "Dificulty Adjustment Algorithm"
+      description: "Werkgroep voor het onderzoeken en bespreken van de nieuwste technologie op het gebied van Moeilijkheidsaanpassing en hoe deze te toe te passen op Bitcoin Cash"
+    wg-blocksize:
+      title: "Block Size Increases"
+      description: "Deze groep bestaat om alle onderwerpen met betrekking tot uitbreiding van de blok grootte te bespreken. "
+    wg-fungibility:
+      title: "Fungibiliteit"
+      description: "Discussie werkgroep voor problemen rond betere privacybescherming voor Bitcoin Cash."
+    wg-hardforks:
+      title: "Regelmatig Hard fork Mechanisme"
+      description: "Een specificatie definiëren voor hoe Bitcoin Cash-node-implementaties op regelmatige basis hardforks zullen uitvoeren"
+    wg-malfix:
+      title: "Malleability Fixes"
+      description: "Oplossingen tegen transactie kneedbaarheid om diverse ander technologieën bovenop de Bitcoin Cash blockchain mogelijk te maken. "
+    wg-opcodes:
+      title: "Opcodes"
+      description: "Voorstellen om verschillende opcodes weer in te schakelen en het creëren van goed gedetineerde specificaties voor het gedrag en de uitrol van elke opcode."
+    wg-protocol-spec:
+      title: "Formele Protocol Specificatie"
+      description: "Het doel van deze werkgroep is om de ontwikkeling, beoordeling and acceptatie en aanvaarding van een formeel definitie document voor het Bitcoin Cash protocol te coördineren. Aanvankelijk is het de bedoeling dat de reikwijdte wordt beperkt tot harde consensusregels, maar zich later uitbreidt tot zachte regels."
+    wg-qa:
+      title: "Quality Assurance"
+      description: "Kwaliteitsnormen definiëren waartegen een node-implementatie kan worden gecertificeerd."
+    wg-sidechains:
+      title: "Sidechains"
+      description: "Discussie aangaande sidechains voor Bitcoin Cash in het algemeen. "
+    wg-tokens:
+      title: "Tokens"
+      description: "Discussie aangaande tokens op Bitcoin Cash"
+    wg-utxocommit-sync:
+      title: "UTXO Commitments en Synchronisatie "
+      description: "Kwaliteitsnormen definiëren waartegen een node-implementatie kan worden gecertificeerd."
+    wg-ux:
+      title: "User Experience"
+      description: "Planning en coördinatie voor de vooruitgang van Bitcoin Cash-portemonnees."
+    wg-watercooler:
+      title: "Watercooler"
+      description: "Discussie gerelateerd aan Sidechains op Bitcoin Cash en in het algemeen. "
+learn:
+  title: "Leer Bitcoin Cash-ontwikkeling"
+  description: "Pak nieuwe vaardigheden op om verbluffende dingen te maken"
+  sections:
+    home: "Startpagina"
+    tutorials: "Tutorials"
+  tutorials:
+    title: "tutorials"
+    description: "Stap voor stap handleidingen om u van basisbeginselen naar professionele apps te brengen"
+specs:
+  title: "Bitcoin Cash Ontwikkelaarsportaal"
+  description: "Hier volgt een actuele lijst van Bitcoin Cash-ontwikkeling-werkgroepen. Elke group dient zich te focussen op een specifiek onderwerp. Ze kunnen van tijdelijke aard zijn of van voortdurende betekenis. "
+  sections:
+    home: "Startpagina"
+    workgroups: "werkgroepen"
+    specifications: "Specificaties"
+    ecosystem: "Ecosysteem"
+  specifications:
+    title: "Bitcoin Cash Specificaties"
+    description: "Hier volgt een lijst van toekomstige en vorige Bitcoin Cash-upgrades."
+  ecosystem:
+    title: "Bitcoin Cash-ecosysteem "
+    description: ""
+tech:
+  title: "Open Technologie voor Iedereen"
+  description: "Geld raakt iedereen op aarde. Bitcoin Cash is het beste geld in de geschiedenis."
+  sections:
+    home: "Startpagina"
+    foundation: "Fundament"
+    emerging: "Opkomende"
+  foundation:
+    title: "Fundament"
+    description: "De kennis nodig om je reis te beginnen"
+  emerging:
+    title: "Opkomende"
+    description: "De altijd veranderende en groeiende wereld van Bitcoin Cash"
+tools:
+  title: "Hulpmiddelen"
+  description: "Will je de wereld veranderen met Bitcoin Cash? Goed zo, hier zijn de hulpmiddelen die je nodig hebt om het te laten gebeuren. "
+  sections:
+    home: "Startpagina"
+    javascript: "Javascript"
+  javascript:
+    title: "Javascript"
 misc:
   logo: "logo"
   dropdown_md_width: "3"
   dropdown_sm_width: "3"
 sections:
+  home: "Startpagina"
   about: "Over"
   features: "Features"
   nodes: "Nodes"
-  wallets: "Wallets"
+  wallets: "Portemonnees"
   community: "Community"
   services: "Diensten"
   projects: "Projecten"
-  exchanges: "Exchanges"
-  graphics: "Logos / Graphics"
-  faq: "FAQ"
+  exchanges: "Valutamarkten"
+  graphics: "Logos"
+  developers: "Ontwikkelaarsportaal"
+  learn: "Leren"
+  specs: "Specificatie Documenten"
+  tech: "Technologie"
+  tools: "Gereedschappen "
+  workgroups: "Werkgroepen"
+  faq: "Over"
+  starthere: "Begin Hier"
 layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Peer-to-Peer Digitaal Geld"
+  leadsubtitle: "Nieuwe economieën mogelijk maken met goedkope micro-transacties, grote zakelijke transacties en permissieloos uitgeven.  "
+  herobutton_one: "Begin"
+  herobutton_two: "Download een Portemonnee"
   loading: "Laden..."
 features:
   - title: "Snel"
@@ -108,13 +260,52 @@ features:
     description: "'s Werelds meest robuuste blockchain-technologie."
 headings:
   about: "Het beste geld ter wereld"
-  nodes: "Nodes"
-  wallets: "Wallets"
-  services: "Diensten"
-  projects: "Projecten"
-  exchanges: "Exchanges"
+  community: "Word lid van de Bitcoin Cash-gemeenschap "
+  steps: "Beginnen"
+  developers: "Begin"
+  exchanges: "Valutamarkten"
+  microeconomy: "Micro-economie"
   faq: "Veelgestelde vragen"
-  listingrequest: "Submit a listing request"
+  news: "Nieuws"
+  nodes: "Nodes"
+  projects: "Projecten"
+  services: "Diensten"
+  wallets: "Portemonnees"
+  featured-wallets: "Uitgelichte Portemonnees"
+  whitepaper: "Lees de Whitepaper"
+  listingrequest: "vermeldingsaanvraag indienen"
+  listingcriteria: "oplijstings criteria"
+  getlisted: "word opgelijst"
+  error404: "404 foutmelding"
+  benefits: "Voordelen voor handelszaken"
+  why: "Waarom Bitcoin Cash Gebruiken"
+  history: "De Geschiedenis van Bitcoin Cash"
+  development: "Decentrale Ontwikkeling"
+  roadmap: "De Bitcoin Cash Roadmap"
+networkupgrade:
+  reminder: "Herinnering"
+  date: "15 November, 2018"
+  title: "Geplande Netwerk-Upgrade"
+  description: "Het Bitcoin Cash-netwerk zal een protocol-upgrade ondergaan. Bedrijven en individuen die het Bitcoin Cash-netwerk gebruiken dienen te controleren of hun software compatibel is met de upgrade. "
+  compatible: "Compatibele Implementaties"
+  additional: "Verdere informatie "
+  testnet: "Testnet Informatie"
+  hfspec: "November Hardfork Specificatie"
+  spec: "Specificatie voor OP_CHECKDATASIG en OP_CHECKDATASIGVERIFY"
+  close: "Sluiten"
+  upgradecomplete: "upgrade voltooid"
+  completedescription: "De geplande upgrade van het Bitcoin Cash-netwerk is succesvol afgerond. "
+  specification: "Upgrade Specificatie"
+  date-2019-05-15: "15 Mei, 2019"
+  date-2019-11-15: "15 November, 2019"
+  date-2020-05-15: "15 Mei, 2020"
+  date-2020-11-15: "15 November, 2020"
+  date-2021-05-15: "15 Mei, 2021"
+whitepaper:
+  description: 'De originele whitepaper werd op 31 oktober 2008 gepubliceerd door Satoshi Nakamoto de anonieme maker van ''s werelds eerste cryptogeld. De titel van het Bitcoin whitepaper is "Bitcoin: een peer-to-peer elektronisch-cash-systeem". Bitcoin Cash streeft ernaar deze visie voort te zetten om solide geld naar de wereld te brengen.'
+error404:
+  subheading: "De pagina die je zoekt bestaat niet. "
+  button: Ga naar de startpagina
 content:
   about:
     - |
@@ -125,60 +316,248 @@ content:
     - question: "Wat is Bitcoin Cash?"
       answer:
         - |
-          Bitcoin Cash is peer-to-peer digitaal geld voor het Internet. Het is helemaal gedecentraliseerd, zonder centrale bank en vereist geen vertrouwde derde partijen om te werken.
+          Bitcoin Cash is peer-to-peer digitaal geld-systeem. Het is vrij te gebruiken, decentraal crypto-geld  dat geen vertrouwde derde party of centrale bank nodig heeft.
     - question: "Verschilt Bitcoin Cash van 'Bitcoin'?"
       answer:
         - |
-          Ja. Bitcoin Cash is de voortzetting van het Bitcoin-project als peer-to-peer digitaal geld. Het is een afsplitsing van de Bitcoin-blockchain ledger met verbeterde consensusregels die het mogelijk maken om te groeien en te schalen.
-    - question: "Als ik Bitcoin heb, ben ik dan ook automatisch eigenaar van Bitcoin Cash?"
-      answer:
-        - |
-          Iedereen die Bitcoin had toen Bitcoin Cash werd gemaakt, bezit tevens Bitcoin Cash. Dit betekent dat Bitcoin-houders vanaf block 478558 (1 augustus 2017, rond 13.16 UTC) hetzelfde aantal Bitcoin Cash hebben dat ze op dat moment in Bitcoin hadden. Als jouw Bitcoins worden bewaard bij een derde partij zoals een exchange, dan zul je bij hen moeten informeren over je Bitcoin Cash. 
-        - |
-          Alle transacties na de afsplitsing op 1 augustus tussen Bitcoin en Bitcoin Cash zijn volledig gescheiden. Dit betekent dat elke Bitcoin die is verkregen ná de splitsing geen Bitcoin Cash bevat en Bitcoin Cash geen Bitcoin bevat.
-    - question: "Hoe wordt transactie replay afgehandeld tussen de nieuwe en de oude blockchain?"
-      answer:
-        - |
-          Bitcoin Cash transacties gebruiken een nieuw hash-algoritme voor handtekeningen dat wordt aangegeven met de vlag SIGHASH_FORKID. Deze handtekeningen zijn niet geldig op het Bitcoin Legacy-netwerk. Dit voorkomt dat Bitcoin Cash-transacties opnieuw worden afgespeeld op de Bitcoin-blockchain en omgekeerd.
-    - question: "Waarom was een afsplitsing nodig om Bitcoin Cash te ontwikkelen?"
-      answer:
-        - |
-          De oude Bitcoin code had een maximaal limiet van 1 MB aan blocksize, of ongeveer 3 transacties per seconde. Hoewel het technisch eenvoudig is om deze limiet te verhogen, kon de gemeenschap geen consensus bereiken, zelfs niet na jaren van debat.
-    - question: "Veroorzaakte de blocksize van 1 MB problemen voor Bitcoin?"
-      answer:
-        - |
-          Ja, in 2017 bereikte de capaciteit een glazen plafond. De kosten schoten omhoog en Bitcoin werd onbetrouwbaar doordat sommige gebruikers niet in staat waren om hun transacties bevestigd te krijgen, zelfs niet na dagen lang wachten.
-        - |
-          De marktprijs van Bitcoin is gestegen, maar de groei en bruikbaarheid ervan als valuta is gestagneerd. Veel gebruikers, handelaren, bedrijven en zelfs investeerders verlieten Bitcoin voor alternatieven, waardoor de dominantie daalde van 95% naar slechts 40%.
-    - question: "Lost Bitcoin Cash deze problemen op?"
-      answer:
-        - |
-          Ja. Bitcoin Cash vergrootte direct het limiet van de blocksize naar 8 MB als onderdeel van een grootschalig on-chain scaling-aanpak. Er is voldoende capaciteit voor ieders transacties.
-        - |
-          Lage transactiekosten en snelle bevestigingen zijn teruggekeerd met Bitcoin Cash. Het netwerk groeit weer. Gebruikers, handelaren, bedrijven en investeerders bouwen aan de toekomst met echt peer-to-peer digitaal geld.
-    - question: "Waarom verhoogde Bitcoin zelf niet de blocksize als dat zo makkelijk was?"
-      answer:
-        - |
-          Sommige ontwikkelaars begrepen het niet of waren het niet eens met de originele visie van digitaal geld dat Satoshi Nakamoto had gecreëerd. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">In plaats daarvan gaven ze er de voorkeur aan om Bitcoin als settlementslaag te laten worden</a>.
-        - |
-          Veel miners en gebruikers vertrouwden deze ontwikkelaars, terwijl anderen erkenden dat ze de community een andere weg lieten inslaan dan verwacht.
-        - |
-          Deze twee totaal verschillende visies voor Bitcoin zijn grotendeels onverenigbaar, wat leidde tot de vedeling van de gemeenschap.
-    - question: "Heeft SegWit de blocksize niet vergroot? Krijgt Bitcoin Cash ooit SegWit?"
-      answer:
-        - |
-          Segregated Witness of "SegWit" is een onaanvaardbare vervanging voor het vergroten van de blocksize om verschillende redenen.
-        - |
-          Ten eerste zou de toename, zelfs bij gebruik in 100% van de transacties, gelijk zijn aan 1,7 MB in blocksize. Het is dus maar een kleine verhoging van de capaciteit. Het zal niet kunnen omgaan met exponentiële groei of wereldwijd gebruik. Ten tweede resulteert de implementatie van deze soft fork in verworpen handtekeningen, wat <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">het beveiligingsmodel van Bitcoin verzwakt</a>. Ten derde maakt het toekomstige capaciteitsverhogingen moeilijker vanwege inefficiëntie van de bandbreedte en kwadratische hashing-aanvallen die SegWit niet oplost omdat een aanvaller niet gedwongen wordt om het te gebruiken.
-        - |
-          Door deze (en andere) redenen, was het nodig voor Bitcoin Cash om voor de implementatie van SegWit af te splitsen. SegWit zal niet worden geïmplementeerd.
-    - question: "Welk team van ontwikkelaars heeft de leiding over Bitcoin Cash?"
-      answer:
-        - |
-          In tegenstelling tot de vorige situatie bij Bitcoin, is er bij Bitcoin Cash niet slechts één team van ontwikkelaars. Er zijn meerdere onafhankelijke teams.
-        - |
-          Deze decentralisatie van ontwikkeling (en decentralisatie van software implementatie) is een broodnodige en belangrijke stap voorwaarts.
-    - question: "Wat is het tickersymbool van Bitcoin Cash?"
-      answer:
-        - |
-          Bitcoin Cash wordt weergegeven door een aantal verschillende tickersymbolen, afhankelijk van de service of wallet die je gebruikt. BCH en BCC zijn de meest populaire symbolen, waarbij XBC wordt gebruikt om te voldoen aan de internationale standaard voor valutacodes (ISO 4217).
+          Het Bitcoin project en zijn gemeenschap splitsten zich in 2017 in tweeën. Misschien is de minst controversiële manier om naar elke kant te verwijzen simpelweg hun respectievelijke ticker-symbolen, BTC en BCH. Bitcoin Cash wordt meestal vertegenwoordigd door het ticker-symbool BCH en wordt door zijn aanhangers beschouwd als de legitieme voortzetting van het Bitcoin-project als peer-to-peer digitaal contant geld.
+  why:
+      - benefit: "Stuur Bijna Gratis Geld Over De Hele Wereld "
+        descrip:
+          - |
+            U kunt met Bitcoin Cash 24 uur per dag geld naar iedereen overal in de wereld sturen. 365 dagen per jaar. Net als het internet zelf staat het netwerk altijd aan. Geen transactie is te groot of te klein. En u hoeft niemand ooit om toestemming of goedkeuring te vragen.
+      - benefit: "Wees Uw Eigen Bank en Heb Volle Controle Over Uw Geld"
+        descrip:
+          - |
+            De inbeslagname van vermogen van rekeninghouders ("bail-ins") welke in Cyprus en bijna in Griekenland gebeurt is, heeft laten zien dat banktegoeden slechts zo veilig zijn als politici beslissen. Zelfs onder de beste condities kunnen banken fouten maken, fondsen achter houden, rekeningen bevriezen en op andere manieren voorkomen dat u bij uw geld kunt komen.
+          - |
+            Banken kunnen ook besluiten uw betaling te blokkeren, kosten in rekening te brengen of uw rekening zonder waarschuwing op te heffen. Bitcoin Cash geeft u volledige en soevereine controle over uw vermogen over welke u vanaf elke plek in de wereld kunt beschikken.
+      - benefit: "Een Schaarse Digitale Valuta met een vaststaand aanbod"
+        descrip:
+          - |
+            Het Bitcoin Cash protocol verzekerd dat er nooit meer dan 21 miljoen munten zullen bestaan. Overheden drukken voortdurend geld, brengen eindeloos meer geld in circulatie en ontwaarden eenieders spaargeld. Bitcoin Cash heeft een vaste maximaal aanbod en is daarmee gezond geld. 
+      - benefit: "Vergroot Uw Privacy en Werk Anoniem"
+        descrip:
+          - |
+            Bitcoin Cash biedt meer privacy en anonimiteit dan traditionele betalingssystemen zoals bank overschrijvingen en credit card betalingen aangezien het normaal onmogelijk is te weten wie een Bitcoin Cash address controleert.
+          - |
+            Afhankelijk van hoe Bitcoin Cash gebruikt wordt biedt het verschillende privacy-niveaus. Het is is belangrijk om uzelf te uitgebreid te informeren alvorens u BCH voor privacy doeleinden gebruikt.
+      - benefit: "Geniet Exclusieve Kortingen"
+        descrip:
+          - |
+            Veel winkeliers bieden kortingen aan voor betalingen in Bitcoin Cash omdat het credit card kosten elimineert en de acceptatie van dit nieuwe betalingssysteem vergroot.
+      - benefit: "Steun Vrijheid Wereldwijd"
+        descrip:
+          - |
+            Bitcoin Cash is een permissieloos, open netwerk. Het stelt je in staat tot interactie met je medemensen zonder inmenging. Het is decentraal, op vrijwillige basis, en niet-agressief. Terwijl gebruik toeneemt, zullen oude matchtsstructuren verder aftakelen en nieuwe ideën openbloeien. Het heeft het potentieel de grootste vreedzame revolutie in te leiden die de wereld ooit gekend heeft.
+  benefits:
+      - benefit: "Ultra Lage Kosten"
+        descrip:
+          - |
+            De transactiekost voor een doorsnee Bitcoin Cash transactie is minder dan één cent. Als je Bitcoin Cash wil omzetten naar fiatvaluta, zoals de Euro, kan dat via een betalingssysteem voor handelszaken tegen een kost die nog steeds veel lager is dan voor creditcard verwerking.
+      - benefit: "Geen Terugvorderingen"
+        descrip:
+          - |
+            In tegenstelling tot creditcards zijn er nooit automatische refunds, chargebacks, of andere onverwachte kosten. Fraudebescherming is ingebouwd in het systeem zonder einge kost voor de winkelier.
+      - benefit: "Nieuwe Klanten"
+        descrip:
+          - |
+            Een groeiend aantal trouwe klanten kiezen Bitcoin Cash als hun geprefereerde betalingswijze. Ze verkiezen handelszaken die dit als betalingsoptie aanbeiden en zoeken er actief naar.
+      - benefit: "Gratis Marketing en Publiciteit"
+        descrip:
+          - |
+            Door Bitcoin Cash te aanvaarden, kunnen handelaars gratis opgelijst worden op websites and app-folders, om zo nog meer nieuwe klanten aan te trekken. Ze kunnen ook voordeel halen uit deze nieuwe trend en publiciteit genereren voor hun zaak.
+  history:
+      - |
+        In oktober 2008, publiceerde Satoshi Nakamoto de befaamde whitepaper genaamd <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong> . In 2009 lanceerde hij de eerste bitcoin software die het netwerk startte en het werkte vlot voor meerdere jaren met snelle, betrouwbare transacties met lage kost.
+      - |
+        Jammer genoeg, van 2016 tot 2017, werd Bitcoin steeds duurer en minder betrouwbaar. Dit was omdat de hele Bitcoin gemeenschap geen consenus kon bereiken over het vergroten van de netwerkcapaciteit. Sommige nieuwe softwareontwikkelaars begrepen  Satoshi's plan niet en stemde er niet mee in. In plaats hiervan wilden zij dat Bitcoin enkel een finalisatielaag werd.
+      - |
+        Tegen 2017, was de Bitcoin dominantie van het marktaandeel gekelderd van 95% tot zo laag als 40% als direct gevolg van de bruikbaarheid problemen. Gelukkigerwijs geloofde een groot deel van de Bitcoin gemeenschap, inclusief softwareontwikkelaars, investeerder, gebruikers en ondernemingen nog steeds in de originele versie van Bitcoin -- een goedkoop, peer to peer electronisch cash systeem dat gebruikt kan worden door alle mensen van de wereld.
+      - |
+        Op de 1e augustus 2017, namen we de logische stap om de maximum blokgrootte te verhogen en zo was Bitcoin Cash geboren. Ieder die bitcoins had toen (op blokhoogte 478558)  werd eigenaar van Bitcoin Cash (BCH). Het netwerk ondersteund nu tot 32MB bloks met lopend onderzoek om massieve verhogingen toe te laten in de toekomst.
+  development:
+      - |
+        Met meerdere zelfstandige ontwikkelingsteams die elk een eigen software-implementatie aanbieden, is de toekomst verzekerd. Bitcoin Cash is resistent tegen politieke en sociale aanvallen op protocolontwikkeling. Niet één enkele groep of project heeft er controle over. Meerdere implementaties zorgt voor redunantie wat verzekerd dat het netwerk 100% uptime behoudt. 
+      - |
+        De <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing lijst</a> is een goede plek om voorstellen te doen voor veranderingen die coördinatie over meerdere ontwikkelingsteams vereisen. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Werkgroepen </a>zijn opgezet om softwareontwikkelaars te helpen te coördineren en peer-review te zoeken. Voor zij die wensen om veranderingen te implementeren in het Bitcoin Cash protocol, is het aangeraden om vroegtijdige peer-review te zoeken en collaboratief betrokken te geraken met andere ontwikkelaars via de werkgroepen.
+  criteria:
+      - title: "Gebruikt je project het correcte tickersymbool?"
+        descrip:
+          - |
+            De website van je project moet duidelijk de ticker van Bitcoin Cash omschrijven als <strong>BCH</strong> . Projecten die niet de correcte ticker gebruiken worden zijn gediskwalificeerd van oplijsting.
+      - title: "Gebruikt uw project de correcte naam?"
+        descrip:
+          - |
+            De website van je project moet Bitcoin Cash benoemen in z'n volledige benaming. Projecten die wijzigingen aanbrengen aan de naam "Bitcoin Cash" zullen gediskwalificeerd zijn voor oplijsting.
+      - title: "Voorziet je portemonnee 'seed type' en 'derivation paths' ?"
+        descrip:
+          - |
+            Bitcoin Cash portemonnee aanvragen moeten 'seed type' en 'derivation paths' bevatten.
+      - title: "Promoot uw project duidelijk Bitcoin Cash?"
+        descrip:
+          - |
+            De website van de aanvrager moet duidelijk Bitcoin Cash promoten. Het toevoegen van minimale ondersteuning verzekerd geen oplijsting.
+      - title: "Gebruik uw project het Bitcoin Cash logo?"
+        descrip:
+          - |
+            We moedigen aanvragers aan om het Bitcoin Cash logo te gebruiken dat beschikbaar is in onze <a href="graphics.html">illustarties</a>sectie. Logokeuze zou best in lijn blijven met bitcoincash.org. Hoewel niet vereist, verhoogt het gebruik van deze logo's je kansen om opgelijst te worden.
+      - title: "Blijft je project objectief voor de feiten?"
+        descrip:
+          - |
+            De aanvragers' website moet objectief blijven. Afbreuk doende verklaringen tegen Bitcoin Cash voorom een specifieke agenda te promoten kan leiden tot een afwijzing van de aanvraag.
+      - title: "Komt je project professioneel en gebruiksvriendelijk over?"
+        descrip:
+          - |
+            Websites van aanvrager moeten er professioneel uitzien. User Interface (UI) zou eenvoudig moeten zijn voor beginnende gebruikers.
+      - title: "Is je project doorgelicht en vertrouwd door de Bitcoin Cash gemeenschap?"
+        descrip:
+          - |
+            Aanvrager zouden best uitreiken naar de Bitcoin Cash gemeenschap via Twitter, Telegram, Reddit, of Slack. Projecten die doorgelicht zijn door vertrouwde individuen in de gemeenschap zijn waarschijnlijker een goedgekeurde aanvraag te ontvangen. Wij ontvangen duizenden aanvragen, zij die een sterkere online aanwezigheid hebben hebben een grotere kans aanvaard te worden.
+      - title: "Werkgroeps discretie"
+        descrip:
+          - |
+            We behouden onszelf het recht aanvragen naar eigen goeddunken af te wijzen.
+viewmore: "Bekijk Meer"
+gettingstarted:
+  title: "Beginnen"
+  subtitle: "Wat is peer-to-peer elektronisch geld?"
+  excerpt: "Peer to peer (P2P) electronisch cash is simpel uitgelegd als online geld dat van de een persoon naar een ander gezonden kan worden zonder een vertrouwde derde partij. Zoals beschreven in de originele Bitcoin whitepaper door Satoshi Nakamoto, P2P cash maakt gebruik van digitale handtekeningen, maar de voornaamste voordelen verdwijnen als er nog steeds een vertrouwde derde partij nodig is om fraude te vermijden. Dit maakt P2P cash een vetrouwensloze en veilige manier om transacties te doen zonder de nood aan tussenpersonen."
+  description: "Peer to peer (P2P) electronisch cash is simpel uitgelegd als online geld dat van de een persoon naar een ander gezonden kan worden zonder een vertrouwde derde partij. Zoals beschreven in de originele Bitcoin whitepaper door Satoshi Nakamoto, P2P cash maakt gebruik van digitale handtekeningen, maar de voornaamste voordelen verdwijnen als er nog steeds een vertrouwde derde partij nodig is om fraude te vermijden. Dit maakt P2P cash een vetrouwensloze en veilige manier om transacties te doen zonder de nood aan tussenpersonen."
+  sidetitle: "Leer alles over Bitcoin Cash"
+  shoponline: "Winkel Online"
+  shoponline_excerpt: "Geef Bitcoin Cash uit bij sommige van uw favoriete online winkels."
+  spendatrestaurants: "Besteed in Restaurants"
+  spendatrestaurants_excerpt: "Bezoek restaurants en cafés die Bitcoin Cash accepteren. "
+  shopinperson: "Winkelen"
+  shopinperson_excerpt: "Loop binnen bij een van de<span class='merchantCount'>192</span> fysieke locaties waar Bitcoin Cash geaccepteerd wordt."
+  maptitle: "Geef Bitcoin Cash Persoonlijk Uit"
+  mapcount: "vermelde bedrijven"
+downloadwallet:
+  title: "Download een portemonnee"
+  subtitle: "Waar sla  ik mijn Bitcoin Cash op?"
+  excerpt: "Gestart geraken met Bitcoin Cash is super makkelijk. De eerste stap is het downloaden van een portemonnee zodat je kan beginnen deelnemen in de Bitcoin economie. Meeste bitcoinportemonnees zijn gratis te downloaden en gemakkelijk te gebruiken met een paar essensiële functies zoals zenden, ontvangen, veilig bewaren van fondsen, transactie lookups en meer."
+  description: "Gestart geraken met Bitcoin Cash is super makkelijk. De eerste stap is het downloaden van een portefeuille zodat je kan beginnen deelnemen in de Bitcoin economie. De meeste portemonnees zijn gratis te downloaden en gemakkelijk te gebruiken met een paar essensiële functies zoals zenden, ontvangen, veilig bewaren van fondsen, transactie lookups en meer. "
+  sidetitle: "Wat voor een portemonnee moet ik gebruiken?"
+  mobilewallet: "Telefoon-Portemonnee "
+  mobilewallet_excerpt: "Een telefoon-portemonnee is geweldig om Bitcoin Cash op te slaan en uit te geven. "
+  desktopwallet: "Computer-Portemonnee"
+  desktopwallet_excerpt: "Probeer een computer-Portemonnee te gebruiken om Bitcoin Cash in uw bedrijf te integreren. "
+  hardwarewallet: "Hardware-Portemonnee "
+  hardwarewallet_excerpt: "Bewaar uw Bitcoin Cash in een veilige hardware-portemonnee. Geweldig voor lange termijn opslag."
+  paperwallet: "Papieren-Portemonnee"
+  paperwallet_excerpt: "Bewaar uw Bitcoin Cash offline op een Papieren-portemonnee. Goed voor lange termijn opslag of om  aan vrienden of familie weg te geven. "
+  featuredwallets: "Uitgelichte Portemonnees"
+  bitcoindotcom: "Gebruik de Bitcoin.com Wallet voor een simpele, veilige manier om Bitcoin te verzenden en ontvangen. De portemonnee ondersteunt zowel Bitcoin Cash (BCH) en Bitcoin Core (BTC), zodat gebruikers moeiteloos kunnen omschakelen tussen de twee verschillende valuta's."
+  handcash: "Wat is er meer 'peer to peer' dan gewoon cash overhandigen in persoon? Geen adressen, geen derde partijen nodig. De portemonnee heeft dat proces digitaal gemaakt door Bitcoin Cash te gebruiken als basis voor  het ecosysteem van producten."
+  yenom: "Yenom is een makkelijke beginnersvriendelijke Bitcoin Cash portemonnee. Geweldig voor vrienden of familie die Bitcoin Cash voor het eerst gebruiken. Het is he meest eenvoudige manier om Bitcoin Cash te sturen of te ontvangen. Iedereen kan het eenvoudig proberen met Yenom."
+  electron: "Je geheime sleutels zijn geëncrypteerd en verlaten nooit je computer. Je fondsen kunnen gerecupereerd worden van een geime frase. Electron Cash is snel, want het gebruikt servers die de Bitcoin Cash Blockchain indexeren. Je kan je geheime sleutels exporteren en ze gebruiken in andere BIitcoin Cash portemonnees."
+buyorearn:
+  title: "Koop of Verdien Bitcoin Cash"
+  subtitle: "Hoe verkrijg ik Bitcoin Cash"
+  excerpt: De twee gemakkelijkste manieren om Bitcoin Cash te verkrijgen is om het te kopen of ervoor te werken. Het kopen van Bitcoin Cash is de meest gebruikte en meest handige manier. Alles wat je hoeft te doen is registreren voor een Bitcoin wisselbeurs en geld storten zodat je dit kan omzetten naar Bitcoin Cash. De wisselbeurs zal je de Bitcoin Cash zenden nadat de omzetting voltooid is.
+  firstparagraph: "De twee gemakkelijkste manieren om Bitcoin Cash te verkrijgen is om het te kopen of ervoor te werken. Het kopen van Bitcoin Cash is de meest gebruikte en meest handige manier. Alles wat je hoeft te doen is registreren voor een Bitcoin wisselbeurs en geld storten zodat je dit kan omzetten naar Bitcoin Cash. De wisselbeurs zal je de Bitcoin Cash zenden nadat de omzetting voltooid is. De andere optie is het verdienen van Bitcoin Cash door ervoor te werken, je kan bijvoorbeeld een baan vinden op een vacaturebank die betaalt in Bitcoin Cash of het creëren van een eigen service (zoals Tshirts verkopen) en zo Bitcoin Cash verdienen."
+  secondparagraphtitle: "Waar kan ik in de buurt Bitcoin Cash vinden?"
+  secondparagraph: "In vele steden is er een markt voor Over The Counter (OTC) verkopers die fiatgeld (zoals USD, EUR, etc) voor Bitcoin Cash. Of overweeg je wergever te vragen of ze bereid zijn aan de voorgrond van de toekomst van geld te staan en gedeeltelijke of volledige uitkeer in Bitcoin Cash aan te bieden. Sommige grotere steden zijn ook uitgerust met een Bitcoin Cash uitgeruste automaat met Bitcoin Cash wat het heel eenvoudig maakt om fiatgeld in te ruilen voor Bitcoin Cash. Vraag bij je dichtstbijzijnde <a href='http://events.bitcoin.com/'>Bitcoin Cash Meetup</a>over andere opties, of overweeg langs te gaan bij restaurants in je stad waar je <a href='../spend-bitcoin-cash'>Bitcoin Cash kan uitgeven</a> en doe er navraag.  "
+  thirdparagraphtitle: "Kan ik Bitcoin Cash online kopen?"
+  thirdparagraph: "Het online kopen van Bitcoin Cash is de meest populaire manier om Bitcoin Cash te verkrijgen. Online valutamarkten  die lokale valuta en cryptovaluta kopen en verkopen staan je toe banktransfers te doen om zo om te zetten naar Bitcoin Cash. Sommige aanvraarden zelf creditcards voor onmiddelijke aankoop. Zoals bij elke online aankoop, zoek zelf een betrouwbaar platform en verzeker dat je je eigen portemonnee hebt. We raden het niet aan om Bitcoin Cash op valutamarkten te laten staan. Je zou altijd je Bitcoin Cash moeten bewaren in je eigen portemonnee waarvan een veilige back-up is gemaakt."
+  sidetitle: "Waar kan ik Bitcoin Cash krijgen?"
+  buyexchange: "Op een Wisselbeurs Kopen"
+  buyexchange_excerpt: "Stuur Euro's naar een betrouwbare externe wisselbeurs en koop daar Bitcoin Cash"
+  usefaucet: "Een Bitcoin Cash Faucet Gebruiken"
+  usefaucet_excerpt: "Gebruik een vertrouwde <a href='https://free.bitcoin.com'>Bitcoin Cash faucet</a>om een zeer kleine hoeveelheid Bitcoin Cash gratis te ontvangen!"
+  buyapp: "Koop in een App"
+  buyapp_excerpt: "Gebruik een app van een betrouwbare derde partij die Bitcoin Cash verkoopt met creditcard betaling."
+  earnonline: "Verdien Bitcoin Cash Online"
+  earnonline_excerpt: "Schrijf zelf trending artikels op <a href='https://honest.cash'>honest.cash</a>. Neem deel aan censuur-resistente platforms voor sociale media zoals <a href='http://memo.cash'>Memo.cash</a>."
+  buyatm: "Koop bij een Bitcoin Cash PIN-automaat"
+  buyatm_excerpt: "In vele steden rond de wereld zijn gespecialiseerde voor Bitcoin Cash geschikte PIN-Automaten geplaatst. "
+  buyinperson: "Koop in Persoon"
+  buyinperson_excerpt: "Verbind met mensen in je omgeving die Bitcoin Cash verkopen op <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>"
+  acceptbch: "Accepteer Bitcoin Cash in uw Bedrijf"
+  acceptbch_excerpt: "Voeg Bitcoin Cash toe als betalingsmethode voor je winkel. Verkoop items online of in persoon voor Bitcoin Cash"
+  getpaid: "Vraag om betaald te worden in Bitcoin Cash"
+  getpaid_excerpt: "Doe navraag bij je job over gedeeltelijk of volledige uitbetaling in Bitcoin Cash."
+spendbch:
+  title: "Geef Bitcoin Cash Uit"
+  subtitle: "Wat kan ik kopen met Bitcoin Cash?"
+  excerpt: "Bitcoin Cash is niet enkel voor speculatie. Het bedoelde gebruik is als een peer to peer electronische valuta, wat betekend dat het uitgegeven moet worden. Het besteden van Bitcoin Cash is snel, met bijna onmiddeljke transacties en sub-cent transactiekosten, wat het de meest veilige en op grote schaal gebruikte digitale valuta maakt op de planeet."
+  description: "Bitcoin Cash is niet enkel voor speculatie. Het bedoelde gebruik is als een peer to peer electronische valuta, wat betekend dat het uitgegeven moet worden. Het besteden van Bitcoin Cash is snel, met bijna onmiddeljke transacties en sub-cent transactiekosten, wat het de meest veilige en op grote schaal gebruikte digitale valuta maakt op de planeet."
+  sidetitle: "Waar kan ik Bitcoin Cash uitgeven"
+  shoponline: "Winkel Online"
+  shoponline_excerpt: "Geef Bitcoin Cash uit bij één van uw favoriete online winkels."
+  spendatrestaurants: "Besteed in Restaurants"
+  spendatrestaurants_excerpt: "Bezoek restaurants en cafés die Bitcoin Cash accepteren. "
+  shopinperson: "Winkelen"
+  shopinperson_excerpt: "Spring binnen bij de over <span class='merchantCount'>192</span> fysieke locaties die Bitcoin Cash accepteren."
+  maptitle: "Geef Bitcoin Cash Persoonlijk Uit"
+  mapcount: "Vermelde bedrijven"
+acceptbch:
+  title: "Accepteer Bitcoin Cash"
+  subtitle: "Hoe kan mijn bedrijf Bitcoin Cash gebruiken?"
+  excerpt: "Als een handelszaak is het een van je belangrijkste doelen om betaling zo snel mogelijk en frictieloos te accepteren en verwerken als mogelijk, zo ben je klantvriendelijk en ontvang je betalingen zonder kopzorgen. Bitcoin Cash is de oplossing, want het heeft snelle en lage kost transacties. Terwijl de wereld digitaliseert,electronische valuta zoals Bitcoin Cash zijn de go-to methode aan het worden voor online en in retailwinkels. Ontvang Bitcoin Cash eenvoudig en rechtstreeks of gebruik een provider als derde partij om Bitcoin Cash te ontvangen via hun platform en zet de hele of gedeeltelijke verkoop om naar lokaal fiatgeld."
+  description: "Als een handelszaak is het een van je belangrijkste doelen om betaling zo snel mogelijk en frictieloos te accepteren en verwerken als mogelijk, zo ben je klantvriendelijk en ontvang je betalingen zonder kopzorgen. Bitcoin Cash is de oplossing, want het heeft snelle en lage kost transacties. Terwijl de wereld digitaliseert,electronische valuta zoals Bitcoin Cash zijn de go-to methode aan het worden voor online en in retailwinkels. Ontvang Bitcoin Cash eenvoudig en rechtstreeks of gebruik een provider als derde partij om Bitcoin Cash te ontvangen via hun platform. Zo'n providers maken het zeer eenvoudig Bitcoin Cash te ontvangen met hun platformen. Wanneer je je registreerd voor handelsoplossingen van derden zoals BitPay, zet je simpelweg je account op zodat je Bicoin Cash kan ontvangen en laat je het verder zenden naar je egen protemonnee of kan je Bitcoin Cash converteren naar je lokale fiateenheid. De meeste handelszaken voeren een splitsing uit, waarbij een deel van verkopen zijn omgezet naar fiat en een deel behouden blijft in crypto.Hoe dan ook, door het opzetten van een handelsoplossingsapplicatie kan je Bitcoin Cash-betalingen vandaag accepteren zonder zorgen te moeten maken over de complexiteiten."
+  sidetitle: "Hoe kan ik Bitcoin Cash accepteren"
+  acceptonline: "Bitcoin Cash Betalingssystemen"
+  acceptonline_excerpt: "Accepteer Bitcoin Cash als betalingsmethode met behulp van vertrouwde externe betalingssystemen."
+  wordpress: "Bitcoin Cash integreren in Wordpress"
+  wordpress_excerpt: "Accepteer Bitcoin Cash donaties voor publicaties of integreer het in je Wordpress e-commerce platform."
+  pos: "Point Of Sales"
+  pos_excerpt: "Probeer één van de vele Point Of Sale (POS) systemen om Bitcoin Cash te aanvaarden als betaalmiddel in jouw winkel."
+  donations: "Accepteer Donaties of Fooien"
+  donations_excerpt: "Non-profit organisaties halen voordeel uit de extreem lage transactiekosten wanneer ze Bitcoin Cash donaties ontvangen."
+roadmap:
+  intro:
+    home: Om een solide basis voor applicatie-ontwikkeling en innovatie te worden moet Bitcoin Cash continu verbeteren en concurreren. Samen werkend kunnen we een technisch fundament bouwen om Bitcoin Cash in staat te stellen het beste geld te zijn dat de wereld ooit gezien heeft.
+    btn: Bekijk de Roadmap
+    goal: Het doel van Bitcoin Cash is om gezond geld te worden dat bruikbaar is voor iedereen in de wereld. Dit is een beschaving veranderende technologie die de menselijke vrijheid en welvaart drastisch zal vergroten.
+    expl: "Deze roadmap is bedoeld om technische richting op hoger niveau te voorzien en wil verschillende technische teams in staat stellen samen te werken aan een gemeenschappelijk doel ter bevordering van Bitcoin Cash. De rol van ontwikkelaars bij het bevorderen van dit doel is het produceren van professionele software van hoge kwaliteit die de behoeften van zijn gebruikers, mijnwerkers en handelaars dient. We streven naar voortdurende technische verbetering, om betrouwbare producten te produceren die een solide basis bieden voor Bitcoin Cash."
+    design: "Het basisontwerp van Bitcoin Cash is solide. Dit betekend echter niet dat het perfect is. Het is verstandig om kwaliteitsverbeteringen te maken aan het systeem door middel van technisch solide ontwerpen en zorgvuldige ontwikkeling. Door implementatie van optimalisaties en protocol upgrades, zal   peer-to-peer digitaal geld ver voorbij de huidige limieten schalen."
+    list-title: "De noodzakelijke technische verbeteringen kunnen in drie categorieën verdeeld worden:"
+    list-1: Het mogelijk maken dat Bitcoin cash kan opschalen van ongeveer 100 Tx/s tot meer dan 5.000.000 Tx/s. Protocol-verbeteringen moeten gemaakt worden zodat massale parallellisaties dit niveau van transactie verwerking mogelijk maakt.
+    list-2: "De betalingsbeleving verbeteren om te verzekeren dat het direct en betrouwbaar is. Transacties zouden binnen 3 seconden zeker moeten zijn. "
+    list-3: Maak Bitcoin Cash uitbreidbaar. Een uitbreidbaar protocol maakt toekomstige verbeteringen minder verstorend en zorgt voor een solide basis waarop bedrijven en ontwikkelaars kunnen bouwen.
+    end: Om een solide basis voor applicatie-ontwikkeling en innovatie te worden moet Bitcoin Cash continu verbeteren en concurreren. Samen werkend kunnen we een technisch fundament bouwen om Bitcoin Cash in staat te stellen het beste geld te zijn dat de wereld ooit gezien heeft.
+  complete: voltooid
+  underway: in ontwikkeling
+  planned: gepland
+  roadmap: roadmap
+  scaling: schaalbaarheid
+  usability: bruikbaarheid
+  extensibility: uitbreidbaarheid
+  protocol_complete: Bitcoin Cash Protocol Voltooid
+  ctor: Alfabetische Transactievolgorde
+  scal_block_proc: (schaalbare blokverwerking)
+  faster: Snellere Blokdistributie
+  graphene: (graphene of andere)
+  merklix: Merklix-Metadata Tree
+  utxo: UTXO Commitment
+  pruning: (blockchain snoeien)
+  schnorr: Shnorr Handtekeningen
+  batched: "(gegroepeerde handtekening-validatie) "
+  adaptive: Adaptieve Blokgrootte
+  1TB: (marktgedreven groei naar 1TB blokken)
+  scale: WERELDSCHAAL
+  50tx: 50 transacties per dag voor 10 miljard mensen
+  CashAddr: CashAddr
+  easier: (makkelijker en veiliger voor gebruikers)
+  Sighash: Sighash
+  hw: (hardware-portemonnee veiligheid)
+  fee: Kostenverbetering
+  cheaper: (goedkopere transacties)
+  pre: Pre-consensus
+  instant: (bijna onmiddellijke veiligheid voor handelszaken)
+  fract: Deelbare Satoshi's
+  low: (lage kosten voor altijd)
+  best: HET BESTE GELD
+  secure_low: veilig binnen 3 seconden - transactiekosten voor altijd laag.
+  basic: Basis Opcodes
+  223B: OP_RETURN op 223 bytes
+  social: (on-chain sociale netwerken)
+  cds: OP_CHECKDATASIG
+  oracles: (orakels en geavanceerde scripts)
+  more_basic: Meer Basis Opcodes
+  tx_format: Nieuwe Transactie Opmaak
+  compact: "(meer vermogen, compacter)"
+  token: TOKEN ECONOMIE
+  traded: alle klassen van activa worden op de blockchain verhandeld
