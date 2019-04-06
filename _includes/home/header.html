@@ -1,3 +1,55 @@
+<div class="reminder-bar">
+ <div class="panel-default container">
+  <div class="row">
+  <div>
+      <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="event.preventDefault();">
+              <ion-icon name="construct"></ion-icon>
+              {% t 'networkupgrade.reminder' %}: {% t 'networkupgrade.date-2019-05-15' %} {% t 'networkupgrade.title' %}
+          </a>
+      </h4>
+  </div>
+  <div id="collapseOne" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class='col-sm-12 col-md-6'>
+          <h3>{% t 'networkupgrade.date-2019-05-15' %} {% t 'networkupgrade.title' %}</h3>
+          <p>{% t 'networkupgrade.description' %}</p>
+
+          <a href="#" class="btn btn-secondary" data-toggle="collapse" data-target="#collapseOne" onclick="event.preventDefault();"><ion-icon name="close"></ion-icon> {% t 'networkupgrade.close' %}</a>
+          <a href="roadmap.html" class="btn btn-secondary inner-link"><ion-icon name="git-merge"></ion-icon> {% t 'headings.roadmap' %}</a>
+
+      </div>
+        <div class="col-sm-12 col-md-6 text-center reminder-links">
+          <h4>{% t 'networkupgrade.compatible' %}:</h4>
+          <a href="https://download.bitcoinabc.org/0.19.2/" title="Bitcoin ABC 0.19.2" target="_blank">
+              <ion-icon name="link"></ion-icon> Bitcoin ABC 0.19.2
+          </a>
+          <a href="https://github.com/gcash/bchd/releases/tag/v0.14.0" title="BCHD 0.14.0" target="_blank">
+              <ion-icon name="link"></ion-icon> BCHD 0.14.0
+          </a>
+          <!-- <a href="https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/dev/doc/release-notes/release-notes-bucash1.5.0.1.md" title="Bitcoin Unlimited Cash Edition 1.5.0.1">
+              <ion-icon name="link"></ion-icon> Bitcoin Unlimited Cash Edition 1.5.0.1
+          </a>
+          <a href="https://github.com/bitcoinxt/bitcoinxt/releases/tag/v0.11K" title="Bitcoin XT Release K">
+              <ion-icon name="link"></ion-icon> Bitcoin XT Release K
+          </a>
+          <a href="https://github.com/bcoin-org/bcash/blob/master/CHANGELOG.md#v110" title="bcoin bcash" target="_blank">
+              <ion-icon name="link"></ion-icon> bcoin - bcash 1.1.0
+          </a> -->
+          <h4>{% t 'networkupgrade.additional' %}:</h4>
+          <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2019-05-15-upgrade.md" title="Upgrade Specification" target="_blank">
+              <ion-icon name="link"></ion-icon> {% t 'networkupgrade.specification' %}
+          </a>
+
+          <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2019-05-15_upgrade_testnet.md" title="Testnet Information" target="_blank">
+           <ion-icon name="link"></ion-icon> {% t 'networkupgrade.testnet' %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
 <section id="fh5co-home" data-section="home" class="home site-header">
   <div class="container">
     <div class="row">
@@ -20,3 +72,4 @@
   <span id="ticker_value" class="to-animate">{% t 'layout.loading' %}</span>
   <div class="slant"></div>
 </section>
+

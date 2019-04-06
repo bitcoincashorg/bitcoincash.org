@@ -42,31 +42,48 @@ p.release {
   margin-top: 15px;
 }
 .reminder ion-icon {
-  color:#fff;
+  color:#222;
+  background:#FECE00;
+  vertical-align: top;
+  padding:2px;
+  border-radius:50%;
+}
+
+.reminder-bar {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
 }
 
 .reminder-bar .panel {
   margin:0;
   border-radius:0;
 }
-.reminder-bar .panel-default > .panel-heading {
-  background:#4d4d4d;
-  color:#fff;
+.reminder-bar .panel-default > .panel-heading, .reminder-bar {
+  background:#FECE00;
+  color:#222;
   border:0;
   border-radius:0;
 }
 
 .reminder-bar .panel-body {
-  background:#4d4d4d;
-  color:#fff;
+  background:#FECE00;
+  color:#222;
 }
-.reminder-bar .panel-body p, .reminder-bar .panel-body h3 {
-  color:#fff;
+.reminder-bar .panel-body h3 {
+  color:#222;
+  margin-top:0.5em;
 }
-
+.reminder-bar .panel-body p {
+  color:#222;
+  font-size:18px;
+}
 .reminder-bar .panel-body h4 {
-  margin:.5em 0 0;
+  margin:.5em 0 .5em;
   font-size:20px;
+  color:#222;
 }
 .reminder-bar .panel-title {
   padding:0.15em;
@@ -79,7 +96,7 @@ footer .social-list {
 }
 
 .reminder-bar .panel-title ion-icon {
-  color:#fff;
+  color:#222;
   float:left;
   font-size:18px;
   margin-right:5px;
@@ -87,8 +104,13 @@ footer .social-list {
 }
 
 .reminder-bar .panel-title a {
-  color:#fff;
+  color:#444;
   display:block;
+  padding:.5em 0;
+}
+
+.reminder-bar .panel-body a {
+  color:#222;
 }
 
 .reminder-bar .panel-default {
@@ -96,16 +118,16 @@ footer .social-list {
 }
 
 .reminder-bar .btn ion-icon {
-  color:#fff;
+  color:#222;
 }
 
 .reminder-bar .panel-title a:hover, .reminder-bar .panel-title a:focus {
-  color:#f7f7f7;
+  color:#333;
   text-decoration: none;
 }
 
 .panel.secondary {
-  background: #4d4d4d;
+  background: #FECE00;
   padding: 15px;
   margin: 20px 0 40px;
 }
@@ -123,7 +145,18 @@ footer .social-list {
 
 .reminder-links a {
   display: block;
-  font-size:13px;
+  font-size:15px;
+  color:#444;
+  text-decoration: underline;
+}
+
+.reminder-links a ion-icon {
+  color:#444;
+}
+
+.reminder-bar .btn-secondary, .reminder-bar .btn.btn-secondary {
+  border:0;
+  margin-bottom:2em;
 }
 
 .fa-fw {
@@ -180,6 +213,10 @@ padding-top:2em;
 }
 
 @media (max-width: 767px) {
+  .reminder-bar {
+    top:55px;
+    z-index:55;
+  }
   .dropdown .dropdown__content {
       padding: 0 1.2em .3em;
   }
