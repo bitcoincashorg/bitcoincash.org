@@ -204,6 +204,10 @@ padding-top:2em;
 }
 
 @media (max-width: 767px) {
+  .reminder-bar {
+    top:55px;
+    z-index:55;
+  }
   .dropdown .dropdown__content {
       padding: 0 1.2em .3em;
   }

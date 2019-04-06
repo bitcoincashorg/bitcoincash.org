@@ -286,7 +286,7 @@ networkupgrade:
   reminder: "Reminder"
   date: "November 15th, 2018"
   title: "Planned Network Upgrade"
-  description: "The Bitcoin Cash network will undergo a protocol upgrade. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+  description: "The Bitcoin Cash network will undergo a protocol upgrade. Businesses and users running full nodes or who in other ways do a full validation on Bitcoin Cash transactions and blocks, should check that their software is compatible with the upgrade. <br><b>Normal wallets and users are not expected to be affected.</b>"
   compatible: "Compatible Implementations"
   additional: "Additional Information"
   testnet: "Testnet Information"
