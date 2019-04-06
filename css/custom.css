@@ -72,10 +72,14 @@ p.release {
   background:#FECE00;
   color:#222;
 }
-.reminder-bar .panel-body p, .reminder-bar .panel-body h3 {
+.reminder-bar .panel-body h3 {
   color:#222;
+  margin-top:0.5em;
 }
-
+.reminder-bar .panel-body p {
+  color:#222;
+  font-size:18px;
+}
 .reminder-bar .panel-body h4 {
   margin:.5em 0 .5em;
   font-size:20px;
@@ -84,7 +88,7 @@ p.release {
 .reminder-bar .panel-title {
   padding:0.15em;
   margin:0;
-  font-size:13px;
+  font-size:15px;
 }
 
 footer .social-list {
@@ -102,7 +106,11 @@ footer .social-list {
 .reminder-bar .panel-title a {
   color:#444;
   display:block;
-  padding:1em 0;
+  padding:.5em 0;
+}
+
+.reminder-bar .panel-body a {
+  color:#222;
 }
 
 .reminder-bar .panel-default {
@@ -148,6 +156,7 @@ footer .social-list {
 
 .reminder-bar .btn-secondary, .reminder-bar .btn.btn-secondary {
   border:0;
+  margin-bottom:2em;
 }
 
 .fa-fw {
