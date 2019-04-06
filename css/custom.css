@@ -88,7 +88,7 @@ p.release {
 .reminder-bar .panel-title {
   padding:0.15em;
   margin:0;
-  font-size:15px;
+  font-size:13px;
 }
 
 footer .social-list {
@@ -145,7 +145,7 @@ footer .social-list {
 
 .reminder-links a {
   display: block;
-  font-size:13px;
+  font-size:15px;
   color:#444;
   text-decoration: underline;
 }
