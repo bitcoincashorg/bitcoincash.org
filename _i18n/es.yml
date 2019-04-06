@@ -469,7 +469,7 @@ buyorearn:
   buyapp: "Comprar en un App"
   buyapp_excerpt: "Usar un app de terceros que venda Bitcoin Cash con una tarjeta de crédito."
   earnonline: "Ganar Bitcoin Cash Online"
-  earnonline_excerpt: "Producir contenido de tendencia en <a href='https://honest.cash'>honest.cash</a>. Participar en plataformas de medios sociales resistentes a la censura como <a href='http://memo.cash'>Memo.cash</a> o <a href='https://www.mttr.app/'>Matter</a>."
+  earnonline_excerpt: "Producir contenido de tendencia en <a href='https://honest.cash'>honest.cash</a>. Participar en plataformas de medios sociales resistentes a la censura como <a href='http://memo.cash'>Memo.cash</a>."
   buyatm: "Comprar en un cajero automático Bitcoin Cash"
   buyatm_excerpt: "Muchas ciudades alrededor del mundo cuentan con cajeros automáticos especializados para Bitcoin Cash."
   buyinperson: "Comprar en Persona"
@@ -508,6 +508,8 @@ acceptbch:
   donations_excerpt: "Organizaciones sin fines de lucro se benefician de tasas extremadamente bajas al recibir donaciones en Bitcoin Cash."
 roadmap:
   intro:
+    home: "Para convertirse en una sólida base para el desarrollo de aplicaciones e innovación, Bitcoin Cash debe mejorar y competir continuamente. Trabajando juntos, podemos construir la base fundacional técnica para hacer de Bitcoin Cash la mejor moneda que el mundo haya visto jamás."
+    btn: Ver la Hoja de Ruta
     goal: La meta de Bitcoin Cash es convertirse en dinero sólido que pueda ser utilizado por todas las personas en el mundo. Esta es una tecnología de cambio de civilización que incrementará drásticamente la libertad y la prosperidad humana.
     expl: "Esta hoja de ruta tiene la intención de proporcionar una dirección técnica general y permitir que diferentes equipos técnicos trabajen juntos hacia una meta común para el avance de Bitcoin Cash. El rol de los desarrolladores en promover este objetivo es producir software profesional de alta calidad que satisfaga las necesidades de sus usuarios, mineros y comerciantes. Nos esforzamos por un mejoramiento técnico continuo para desarrollar productos confiables brindando una sólida base fundacional para Bitcoin Cash."
     design: "El diseño básico de Bitcoin Cash es sólido. Sin embargo, esto no significa que sea perfecto. Es prudente realizar mejoras incrementales en el sistema con un diseño técnicamente sólido y una ingeniería cuidadosa. Implementando optimizaciones y actualizaciones de protocolo, el dinero digital par-a-par escalará muchos órdenes de magnitud más allá de los límites actuales."
