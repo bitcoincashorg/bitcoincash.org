@@ -24,6 +24,11 @@ ticker = function(currencies) {
 
       $.each(currencyRates, function (currency, price) {
         var sym = symbols[currency];
+        if (currency == 'JPY' || currency == 'CNY') {
+          price = Math.floor(price).toLocaleString();
+        } else {
+          price = price.toFixed(2);
+        }
         if (sym === undefined) {
           sym = "";
         }
@@ -40,4 +45,3 @@ ticker = function(currencies) {
 }
 
 ticker(ticker_currencies);
-
