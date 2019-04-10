@@ -1,5 +1,5 @@
 Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
-0x00000010,Tokeda,Joannes Vermorel,bitcoincash:qr2ymruqe22fcmg350652d3yuuk49hpqyg3j56ktrl,http://media.lokad.com/bitcoin/tokeda-2018-04-30.pdf,
+0x00000010,Tokeda,Joannes Vermorel,bitcoincash:qr2ymruqe22fcmg350652d3yuuk49hpqyg3j56ktrl,https://blog.vermorel.com/pdf/tokeda-2018-04-30.pdf,
 0x00000020,Tokenized,James Belding,bitcoincash:qq3u936pc036nyzcc2rlt280nfnk0857dc3u5vfg6y,http://tokenized.cash/,
 0x0000005C,BCHTorrents,BCHTorrent Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://torrents.bch.sx,https://torrents.bch.sx/hash/{txid}
 0x00001337,GameChain Lobby,Devalbo,,https://github.com/devalbo/gamechain-lobby,
