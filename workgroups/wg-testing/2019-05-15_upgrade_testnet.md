@@ -7,36 +7,25 @@ To assist technical preparations for the upgrade, a testnet is available where t
 
 ## Upgrade Testnet Parameters
 
-Fork time: `1550505000`  (February 18, 2019 15:50:00 UTC)
+New Activation: 1555333200
 
-Last old-rules block hash (height=1286694, mediantime=1550505775):
-`00000000d80feb3c564957459688819edcb499e62f584fe314327de51e1bb87e`
-
-First new-rules block hash (height=1286695):
-`00000000ddd282493abd33df4747ac9793851c073534dbb17d596fe184de6d32`
-
-First Schorr-containing block hash (height=1286698):
-`0000000038067b3b52bdf8f3caa578b5b892595b80703e9f0de5d0dbd4012054`
-
-## Set up a node
-
-Run Bitcoin ABC 0.19.0 with:
-```
-bitcoin-qt -testnet -greatwallactivationtime=1550505000 -addnode=testnet.imaginary.cash
-```
-
-Alternatively as bitcoin.conf file:
-```
-testnet=1
-addnode=testnet.imaginary.cash
-greatwallactivationtime=1550505000
-```
-
-You should also run this to avoid soft-forking back onto normal testnet:
+Upgrade Tesnet users please be advised: we will be doing a new upgrade activation at the MTP timestamp 1555333200. This corresponds to Monday, 15 April 2019, at 13:00:00 UTC. Mining has ceased on the previous upgrade testnet, and all participants should join the new upgrade testnet, and set a new activation time by issuing the following commands:
 
 ```
-bitcoin-cli -testnet invalidateblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
+rm ~/.bitcoin/testnet3/banlist.dat
+
+bitcoind -testnet -greatwallactivationtime=1555333200 -addnode=testnet.imaginary.cash
+
+bitcoin-cli -testnet reconsiderblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
+
+[Wait for node to sync to regular testnet chain tip]
+
+bitcoin-cli -testnet invalidateblock 0000000000000294acbf8b48cdb725053f4f375252be85717165f1fac4155a28
 ```
+
+After invalidating the block, you should check that you are synced to the correct chain tip by checking with the Upgrade Testnet explorer listed below.
+
+Further information will be added here as it becomes available
 
 ## Other services
 
