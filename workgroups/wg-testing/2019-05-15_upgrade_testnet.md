@@ -9,17 +9,25 @@ To assist technical preparations for the upgrade, a testnet is available where t
 
 New Activation: 1555333200
 
-Upgrade Tesnet users please be advised: we will be doing a new upgrade activation at the MTP timestamp 1555333200. This corresponds to Monday, 15 April 2019, at 13:00:00 UTC. Mining has ceased on the previous upgrade testnet, and all participants should join the new upgrade testnet, and set a new activation time by issuing the following commands:
+Upgrade Testnet users please be advised: we will be doing a new upgrade activation at the MTP timestamp 1555333200. This corresponds to Monday, 15 April 2019, at 13:00:00 UTC. Mining has ceased on the previous upgrade testnet, and all participants should join the new upgrade testnet, and set a new activation time by issuing the following commands:
 
 ```
 rm ~/.bitcoin/testnet3/banlist.dat
 
 bitcoind -testnet -greatwallactivationtime=1555333200 -addnode=testnet.imaginary.cash
+```
 
+Note: For Bitcoin Unlimited use `-consensus.forkMay2019Time=1555333200` rather than `-greatwallactivationtime=1555333200`
+
+```
 bitcoin-cli -testnet reconsiderblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
+```
+
+Note: `reconsiderblock` is only needed if you participated to the prev test run and you were able to sync to the tip on the forked testnet
 
 [Wait for node to sync to regular testnet chain tip]
 
+```
 bitcoin-cli -testnet invalidateblock 0000000000000294acbf8b48cdb725053f4f375252be85717165f1fac4155a28
 ```
 
