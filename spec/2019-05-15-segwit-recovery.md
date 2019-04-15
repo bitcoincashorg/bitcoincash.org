@@ -1,7 +1,7 @@
 ---
 layout: specification
 title: 2019-MAY-15 Segwit Recovery Specification
-date: 2019-04-10
+date: 2019-04-15
 activation: 1557921600
 version: 0.3
 ---
@@ -40,9 +40,9 @@ Valid scriptSigs when spending a P2SH coin:
 * `2200205a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f` (recovering v0 P2SH-P2WSH)
 * `2260205a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f` (max allowed version, v16)
 * `2a00285a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f2021222324252627` (max allowed length, 42 bytes)
-* `4e16000000001491b24bf9f5288532960ac687abb035127b1d28a5` (non-minimal push of redeemscript)
-* `0451020000` (min allowed length, 4 bytes, valid in spite of a false boolean value being left on stack)
-* `0451020080` (min allowed length, 4 bytes, valid in spite of a false boolean value being left on stack)
+* `0400025a01` (min allowed length, 4 bytes)
+* `0451020000` (valid in spite of a false boolean value being left on stack, 0)
+* `0453020080` (valid in spite of a false boolean value being left on stack, minus 0)
 
 Invalid:
 
@@ -51,8 +51,8 @@ Invalid:
 * `0016001491b24bf9f5288532960ac687abb035127b1d28a5` (scriptSig pushes two items onto the stack)
 * `1701001491b24bf9f5288532960ac687abb035127b1d28a5` (invalid witness program, non-minimal push in version field)
 * `05004c0245aa` (invalid witness program, non-minimal push in program field)
-* `0300015a` (invalid witness program, too short)
-* `2b00295a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728` (invalid witness program, too long)
+* `0300015a` (invalid witness program, too short, 3 bytes)
+* `2b00295a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728` (invalid witness program, too long, 43 bytes)
 * `224f205a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f` (invalid witness program, version -1)
 * `230111205a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f` (invalid witness program, version 17)
 * `2250205a0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f` (invalid witness program, OP_RESERVED in version field)
