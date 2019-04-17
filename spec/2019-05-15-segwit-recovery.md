@@ -56,12 +56,12 @@ This exemption should not be applied for the acceptance of transactions from net
         scriptPubKey: OP_HASH160 0x14 0x86123d8e050333a605e434ecf73128d83815b36f OP_EQUAL
 
     V6) Valid in spite of a false boolean value being left on stack, 0:
-        scriptSig: 0x04 0x51020000
-        scriptPubKey: OP_HASH160 0x14 0x4b3617b50ea16c6a75b5e7974a03da4ab894e3c6 OP_EQUAL
+        scriptSig: 0x04 0x00020000
+        scriptPubKey: OP_HASH160 0x14 0x0e01bcfe7c6f3fd2fd8f81092299369744684733 OP_EQUAL
 
     V7) Valid in spite of a false boolean value being left on stack, minus 0:
-        scriptSig: 0x04 0x51020080
-        scriptPubKey: OP_HASH160 0x14 0xb538e9b063ba9c2c53a9c378cc2eb3b3d425745d OP_EQUAL
+        scriptSig: 0x04 0x00020080
+        scriptPubKey: OP_HASH160 0x14 0x10ddc638cb26615f867dad80efacced9e73766bc OP_EQUAL
 
 #### Invalid segwit recoveries:
     I1) Non-P2SH output:
