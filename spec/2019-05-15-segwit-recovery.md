@@ -34,6 +34,8 @@ This exemption should not be applied for the acceptance of transactions from net
 
 ## Test cases
 
+(All values in hex)
+
 #### Valid segwit recoveries:
     V1) Recovering v0 P2SH-P2WPKH:
         scriptSig: 16001491b24bf9f5288532960ac687abb035127b1d28a5
@@ -64,13 +66,13 @@ This exemption should not be applied for the acceptance of transactions from net
         scriptPubKey: a914b538e9b063ba9c2c53a9c378cc2eb3b3d425745d87
 
 #### Invalid segwit recoveries:
-    I1) Wrong redeem script:
+    I1) Non-P2SH output:
+        scriptSig: 16001491b24bf9f5288532960ac687abb035127b1d28a5
+        scriptPubKey: 51
+
+    I2) Redeem script hash does not match P2SH output:
         scriptSig: 16001491b24bf9f5288532960ac687abb035127b1d28a5
         scriptPubKey: a91417a6be2f8fe8e94f033e53d17beefda0f3ac440987
-
-    I2) Non-P2SH output:
-        scriptSig: 16001491b24bf9f5288532960ac687abb035127b1d28a5
-        scriptPubKey: 01
 
     I3) scriptSig pushes two items onto the stack:
         scriptSig: 0016001491b24bf9f5288532960ac687abb035127b1d28a5
