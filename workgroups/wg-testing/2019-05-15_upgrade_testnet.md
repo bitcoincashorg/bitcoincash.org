@@ -47,7 +47,13 @@ Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/t
 
 Insight API: http://testnet.imaginary.cash/api/BCH/testnet/ 
 
-Explorer: http://testnet.imaginary.cash 
+Explorers: 
+ - http://testnet.imaginary.cash
+ - http://190.123.23.9:3001/insight/
+ 
+Transaction broadcaster: http://190.123.23.9:3001/insight/tx/send
+
+Faucet: http://190.123.23.9:3002/
 
 ## Communication
 
