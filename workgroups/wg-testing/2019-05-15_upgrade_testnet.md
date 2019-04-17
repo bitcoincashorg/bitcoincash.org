@@ -53,6 +53,8 @@ Explorers:
  
 Transaction broadcaster: http://190.123.23.9:3001/insight/tx/send
 
+Faucet: http://190.123.23.9:3002/
+
 ## Communication
 
 To communicate and coordinate with other Upgrade Testnet users, you can join the [Testing Workgroup](workgroup.md) and its associated [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw).
