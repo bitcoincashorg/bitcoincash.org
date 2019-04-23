@@ -1,5 +1,5 @@
 language: Português Brasil
-lang: pt-br
+lang: pt-BR
 title:
   index: "Bitcoin Cash - Dinheiro eletrônico par a par"
   graphics: "Logos / Gráficos - Bitcoin Cash"
@@ -295,6 +295,12 @@ networkupgrade:
   close: "Fechar"
   upgradecomplete: "atualização completa"
   completedescription: "A atualização planejada da rede Bitcoin Cash foi concluída com sucesso."
+  specification: "Especificações da Atualização"
+  date-2019-05-15: "15 de Maio de 2019"
+  date-2019-11-15: "15 de Novembro de 2019"
+  date-2020-05-15: "15 de Maio de 2020"
+  date-2020-11-15: "15 de Novembro de 2020"
+  date-2021-05-15: "15 de Maio de 2021"
 whitepaper:
   description: 'O artigo original foi publicado em 31 de Outubro de 2008 por Satoshi Nakamoto, o criador anônimo da primeira criptomoeda do mundo. O título do artigo Bitcoin é "Bitcoin: Um Sistema de Dinheiro Eletrônico Par-a-Par". Bitcoin Cash pretende continuar esta visão, de trazer uma moeda sólida para o mundo.'
 error404:
@@ -313,8 +319,7 @@ content:
           Bitcoin Cash é um sistema de dinheiro eletrônico par-a-par. É uma criptomoeda impermissionada e descentralizada que não exige nenhum terceiro confiável nem banco central.
     - question: "Bitcoin Cash é diferente de 'Bitcoin'?"
       answer:
-        - |2
-
+        - |
           Em 2017, o projeto Bitcoin e sua comunidade se dividiram em dois. Talvez a maneira menos controversa de se referir a cada lado seja simplesmente por seus respectivos símbolos ticker, BTC e BCH. O Bitcoin Cash é geralmente representado pelo símbolo BCH e é considerado pelos seus apoiantes como a continuação legítima do projeto Bitcoin como dinheiro digital par-a-par.
   why:
       - benefit: "Enviar Dinheiro Para Qualquer Lugar Do Mundo, Praticamente Sem Custo"
@@ -464,7 +469,7 @@ buyorearn:
   buyapp: "Compre em um App"
   buyapp_excerpt: "Use um app confiável de terceiros que venda Bitcoin Cash com um cartão de crédito."
   earnonline: "Ganhe Bitcoin Cash Online"
-  earnonline_excerpt: "Produza conteúdo de destaque com <a href='https://honest.cash'>honest.cash</a>. Participe de plataformas de redes sociais resistentes à censura, como o <a href='http://memo.cash'>Memo.cash</a> ou o <a href='https://www.mttr.app/'>Matter</a>."
+  earnonline_excerpt: "Produza conteúdo de destaque com <a href='https://honest.cash'>honest.cash</a>. Participe de plataformas de redes sociais resistentes à censura, como o <a href='http://memo.cash'>Memo.cash</a> ."
   buyatm: "Compre de um Caixa Automático Bitcoin Cash"
   buyatm_excerpt: "Muitas cidades do mundo possuem caixas automáticos compatíveis com operações em Bitcoin Cash."
   buyinperson: "Compre em Pessoa"
@@ -501,3 +506,58 @@ acceptbch:
   pos_excerpt: "Experimentar um dos muitos sistemas de Ponto de Venda (POS) para aceitar o Bitcoin Cash em sua loja."
   donations: "Aceite Doações ou Gorjetas"
   donations_excerpt: "Ao receber doações em Bitcoin Cash, as organizações sem fins lucrativos têm o benefício de taxas baixíssimas."
+roadmap:
+  intro:
+    home: "Para se tornar uma base sólida para o desenvolvimento de aplicativos e inovação, o Bitcoin Cash deve melhorar e competir continuamente. Trabalhando juntos, podemos construir a base técnica fundamental para fazer do Bitcoin Cash a melhor moeda que o mundo já viu."
+    btn: Ver o Roteiro
+    goal: O objetivo do Bitcoin Cash é tornar-se uma moeda sólida que possa ser usada por todas as pessoas no mundo. Esta é uma tecnologia de mudança civilizacional que aumentará drasticamente a liberdade e a prosperidade humana.
+    expl: "Este roteiro destina-se a fornecer uma orientação técnica geral e permitir que diferentes equipes técnicas trabalhem juntas em direção a um objetivo comum para o avanço do Bitcoin Cash. O papel dos desenvolvedores na procura deste objetivo é produzir software profissional de alta qualidade que atenda às necessidades de seus usuários, mineiros e comerciantes. Nós nos esforçamos por um melhoramento técnico contínua para desenvolver produtos confiáveis fornecendo uma base sólida para o Bitcoin Cash."
+    design: "O desenho básico do Bitcoin Cash é sólido. No entanto, isso não significa que seja perfeito. É prudente fazer melhorias incrementais no sistema com um desenho tecnicamente sólido e engenharia cuidadosa. Implementando otimizações e atualizações de protocolo, o dinheiro digital par-a-par escalará muitas ordens de magnitude além dos limites atuais."
+    list-title: "As melhorias técnicas necessárias podem ser divididas em três categorias:"
+    list-1: Permitir ao Bitcoin Cash escalar desde ~100 Tx/s para mais de 5.000.00 Tx/s. São necessárias melhorias ao protocolo para que o processamento paralelo em massa permita este ritmo de processamento de transações.
+    list-2: Melhorar a experiência de pagamento para garantir que seja confiável e instantâneo. As transações devem ser seguras dentro de uma margem de três segundos.
+    list-3: "Tornar o Bitcoin Cash extensível. Um protocolo extensível torna os melhoramentos futuros menos disruptivos, ao mesmo tempo que fornece uma base sólida a partir da qual empresas e desenvolvedores podem construir."
+    end: "Para se tornar uma base sólida para o desenvolvimento de aplicativos e inovação, o Bitcoin Cash deve melhorar e competir continuamente. Trabalhando juntos, podemos construir a base técnica fundamental para fazer do Bitcoin Cash a melhor moeda que o mundo já viu."
+  complete: completo
+  underway: em andamento
+  planned: planejado
+  roadmap: roteiro
+  scaling: escalabilidade
+  usability: usabilidade
+  extensibility: extensibilidade
+  protocol_complete: Protocolo Bitcoin Cash Completo
+  ctor: Ordem Canónica de Transações
+  scal_block_proc: (processamento de blocos escalável)
+  faster: Rápida Propagação de Blocos
+  graphene: (graphene ou outro)
+  merklix: Árvore  Merklix-Metadata
+  utxo: Compromisso de UTXO
+  pruning: (podado da blockchain)
+  schnorr: Assinaturas Schnorr
+  batched: (validação de assinaturas em lote)
+  adaptive: Tamanho de Bloco Adaptável
+  1TB: (crescimento guiado pelo mercado até blocos de 1TB)
+  scale: ESCALA HUMANA
+  50tx: 50 transações / dia para 10 bilhões de humanos
+  CashAddr: CashAddr
+  easier: (mais fácil & seguro para o usuário)
+  Sighash: Sighash
+  hw: (segurança de carteiras hardware)
+  fee: Melhorias das Taxas
+  cheaper: (transações mais baratas)
+  pre: Pré-consenso
+  instant: (segurança quase instantânea para comerciantes)
+  fract: Satoshis Fracionários
+  low: (taxas baixas para sempre)
+  best: MELHOR MOEDA
+  secure_low: segura em 3 segundos - taxas de transação baixas para sempre.
+  basic: Opcodes Básicos
+  223B: OP_RETURN a 223 bytes
+  social: (redes sociais on-chain)
+  cds: OP_CHECKDATASIG
+  oracles: (oracles e scripts avançados)
+  more_basic: Mais Opcodes Básicos
+  tx_format: Novo Formato de Transação
+  compact: "(mais capaz, mais compacto)"
+  token: ECONOMIA DE TOKEN
+  traded: todos tipo de ativos negociados no blockchain
