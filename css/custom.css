@@ -795,3 +795,14 @@ ol {
     height:111% !important;
   }
 }
+
+/* Developers */
+.python-bg {
+  background: url(/img/developers/python.svg) no-repeat center;
+  background-size: cover;
+}
+
+.js-bg {
+  background: url(/img/developers/javascript.svg) no-repeat center;
+  background-size: cover;
+}
