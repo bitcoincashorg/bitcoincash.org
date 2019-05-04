@@ -802,13 +802,15 @@ ol {
 }
 
 .python-bg {
-  /*background: url(/img/developers/python.jpg) no-repeat center;*/
   background-size: cover;
   min-height: 260px !important;
 }
 
 .js-bg {
-  /*background: url(/img/developers/javascript.svg) no-repeat center;*/
   background-size: cover;
   min-height: 260px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
 }
