@@ -19,7 +19,7 @@ The plan of events will be as follows:
 * May 9th ~ 23:00 UTC (Thursday afternoon PST) afternoon. Miners will invalidate a block to split from main testnet. Shortly after this happens, the block hash will be shared in this channel so all Upgrade Testnet participants can also invalidate the same block.
 * May 12 03:00 UTC (20:00 Saturday evening PST), Upgrade will activate when MTP reaches this timestamp.
 
-All participants should join the new upgrade testnet, and set a new activation time by doing the following commands:
+All participants should re-join the regular testnet, and set a new activation time by doing the following commands:
 
 ```
 rm ~/.bitcoin/testnet3/banlist.dat
