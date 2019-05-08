@@ -5,35 +5,21 @@ On May 15, 2019 the Bitcoin Cash network will undergo a planned protocol upgrade
 
 To assist technical preparations for the upgrade, a testnet is available where the upgrade features can be trialed and tested. Node implementations, wallets, businesses and services built on the Bitcoin Cash network can use this testnet to ensure compatibility, or to get started building products to make use of the upgrade features. This document outlines the information needed to participate in this upgrade testnet.
 
+To communicate and coordinate with other Upgrade Testnet participants, please join the Telgram group at: https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw
+
 ## Upgrade Testnet Parameters
 
-New Activation: 1555333200
+New Activation: 1557630000
 
-Upgrade Testnet users please be advised: we will be doing a new upgrade activation at the MTP timestamp 1555333200. This corresponds to Monday, 15 April 2019, at 13:00:00 UTC. Mining has ceased on the previous upgrade testnet, and all participants should join the new upgrade testnet, and set a new activation time by issuing the following commands:
+Upgrade Testnet users please be advised: we will be doing a new upgrade activation at the MTP timestamp 1557630000. This corresponds to Sunday, 12 May 2019, at 03:00:00 UTC, or Saturday, 11 May at 20:00 Pacific time.
 
-```
-rm ~/.bitcoin/testnet3/banlist.dat
+The plan of events will be as follows:
 
-bitcoind -testnet -greatwallactivationtime=1555333200 -addnode=testnet.imaginary.cash
-```
+* May 9th ~12:00 UTC (Thursday morning PST) - mining will cease on the Upgrade Testnet. Miners and nodes can re-sync to the regular testnet.
+* May 9th ~ 23:00 UTC (Thursday afternoon PST) afternoon. Miners will invalidate a block to split from main testnet. Shortly after this happens, the block hash will be shared in this channel so all Upgrade Testnet participants can also invalidate the same block.
+* May 12 03:00 UTC (20:00 Saturday evening PST), Upgrade will activate when MTP reaches this timestamp.
 
-Note: For Bitcoin Unlimited use `-consensus.forkMay2019Time=1555333200` rather than `-greatwallactivationtime=1555333200`
-
-```
-bitcoin-cli -testnet reconsiderblock 000000000000016b7bf51c69b14fbe0ade601186c4f15f16524598e17f4b0bc2
-```
-
-Note: `reconsiderblock` is only needed if you participated to the prev test run and you were able to sync to the tip on the forked testnet
-
-[Wait for node to sync to regular testnet chain tip]
-
-```
-bitcoin-cli -testnet invalidateblock 0000000000000294acbf8b48cdb725053f4f375252be85717165f1fac4155a28
-```
-
-After invalidating the block, you should check that you are synced to the correct chain tip by checking with the Upgrade Testnet explorer listed below.
-
-Further information will be added here as it becomes available
+Further information will be posted as it becomes available.
 
 ## Other services
 
