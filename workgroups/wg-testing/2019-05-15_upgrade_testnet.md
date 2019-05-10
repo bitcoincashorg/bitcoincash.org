@@ -29,6 +29,16 @@ bitcoind -testnet -greatwallactivationtime=1557630000 -addnode=testnet.imaginary
 bitcoin-cli -testnet reconsiderblock 0000000000000294acbf8b48cdb725053f4f375252be85717165f1fac4155a28
 ```
 
+[Wait for node to sync to regular testnet chain tip]
+
+```
+bitcoin-cli -testnet invalidateblock 00000000000000c811de2e5b1935a533197dbe0abeec0eb91ee9f7013aa2da06
+```
+
+After invalidating the block, you should check that you are synced to the correct chain tip by checking with the Upgrade Testnet explorer listed below.
+
+The last common block is `0000000000000040e2b67e0e5cf5c2477245b221549ad1531b24cac9eef8db4f` (height 1302953).
+
 Further information will be posted as it becomes available.
 
 ## Other services
