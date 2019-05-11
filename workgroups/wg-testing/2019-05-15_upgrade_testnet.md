@@ -48,15 +48,14 @@ user: (testnet address) password:(anything)
 
 Electrumx server: `testnet.imaginary.cash:50002` will follow the bitcoind.
 
-Electron Cash Schnorr edition: https://github.com/markblundeberg/Electron-Cash/tree/schnorr
-(only produces schnorr sigs)
+Electron Cash (4.0.3 dev test) with Schnorr: https://github.com/Electron-Cash/Electron-Cash/releases (must be enabled in preferences)
 
-Insight API: http://testnet.imaginary.cash/api/BCH/testnet/ 
+Insight API: http://testnet.imaginary.cash/api/BCH/testnet/
 
-Explorers: 
+Explorers:
  - http://testnet.imaginary.cash
  - http://190.123.23.9:3001/insight/
- 
+
 Transaction broadcaster: http://190.123.23.9:3001/insight/tx/send
 
 Faucet: http://190.123.23.9:3002/
