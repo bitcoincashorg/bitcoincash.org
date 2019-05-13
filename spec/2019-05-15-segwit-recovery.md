@@ -30,7 +30,7 @@ Equivalently, a witness program can be identified by examining the length and th
 * The first byte is 0x00, or in the range 0x51 – 0x60. (OP_0, or OP_1 – OP_16).
 * The second byte is equal to to the redeem script byte-length, minus two.
 
-All witness-like scripts will be considered valid, even if their execution would normally result in an invalid transaction (e.g. due to a zero value on the stack).  Note that because the witness program contains only push operations (among other restrictions), the P2SH script matching the provided hash is the only meaningful validation criteria.  The only consequence of this specification is that an intentionally unspendable script resembling a witness program may now be spendable.
+All witness-like scripts will be considered valid, even if their execution would normally result in an invalid transaction (e.g. due to a zero value on the stack). Note that because the witness program contains only push operations (among other restrictions), the P2SH script matching the provided hash is the only meaningful validation criteria. The only consequence of this specification is that an intentionally unspendable script resembling a witness program may now be spendable.
 
 This exemption should not be applied for the acceptance of transactions from network peers (i.e., only to acceptance of new blocks), so that segwit recovery transactions remain non-standard (and thus require a miner's cooperation to perform).
 
