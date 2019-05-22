@@ -1,0 +1,246 @@
+
+/***********************************************THERMOMETER STYLEs*************************************************************************/
+
+.thermometer {
+    width: 60px;
+   /* height: 250px;*/
+    margin: auto;
+  /*  margin-bottom: 20px;*/
+    box-sizing: border-box;
+  /*  background-color: pink;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.cashThermometer {
+    padding: 0px;
+    width: 100%;
+/*    background-color: green;*/
+    box-sizing: border-box;
+}
+
+
+
+/*#far {
+    border: 4px solid black;
+    height: 400px;
+    box-sizing: border-box;
+
+}*/
+
+/*#cel {
+    border: 4px solid black;
+    height: 400px;
+    box-sizing: border-box;
+
+}*/
+
+#stem {
+    width: 50px;
+    height: 400px;
+    position: relative;
+   /* left: 21px;*/
+    z-index: 1;
+    border-radius: 50px 50px 0 0;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation-name: stem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #525252;
+}
+
+#marks {
+    width: 20px;
+    height: 90px;
+    position: relative;
+  /*  bottom: 180px;*/
+ /*   left: 36px;*/
+    z-index: 40;
+    box-sizing: border-box;
+
+}
+
+
+
+#merc-stem {
+    width: 40px;
+    height: 390px;
+    /*background-color: red;*/
+    position: absolute;
+ /*   bottom: 175px;*/
+  /*  left: 25px;*/
+    box-sizing: border-box;
+    top: 5px;
+    border: 1px solid #525252;
+     border-radius: 50px 50px 0 0;
+     z-index: 20;
+     border-bottom: none;
+}
+
+#mercury {
+    /*height values start @ 10% + (0% to 230%) 
+    2.3% is 1% on the thermometer */
+    width: 100%;
+    height: 3%;
+    position: absolute;
+    bottom: 0;
+    z-index: 21;
+    background-color: #FF0000;
+    box-sizing: border-box;
+     /*border-radius: 3px 2px 0 0;*/
+}
+
+#bulb {
+    position: relative;
+    /*   overflow: hidden; */
+   /* bottom: 190px;*/
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 80px;
+    /*border: 6px solid #fff;*/
+    box-sizing: border-box;
+    margin-top: -16px;
+    border: 1px solid #525252;
+}
+
+#bulb2 {
+    position: relative;
+    /*   overflow: hidden; */
+   /* bottom: 190px;*/
+    z-index: 11;
+    width: 70px;
+    height: 70px;
+    background-color: #FF0000;
+    border-radius: 80px;
+  border: 1px solid #525252;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+#box1 {
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background-color: #fff;
+  top: 0;
+  left: 15px;
+  z-index: 60;
+}
+#box2 {
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background-color: #fff;
+  top: 0;
+  left: 57px;
+  z-index: 60;
+}
+
+
+.donation-request {
+  font-size: 20px;
+  font-weight: 700;
+  color: #FF0000;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.line1,.line2,.line3,.line4,.ln5,.ln6,.ln7,.ln8,.ln9 {
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    background-color: #525252;
+    z-index: 999;
+}
+.ln9 {
+    top: 40px;
+}
+.line1 {
+    top: 80px;
+}
+.ln5 {
+    top: 120px;
+}
+.line2 {
+    top: 160px;
+}
+.ln6 {
+    top: 200px;
+}
+.line3 {
+    top: 240px;
+}
+.ln7 {
+    top: 280px;
+}
+.line4 {
+    top: 320px;
+}
+.ln8 {
+    top: 360px;
+}
+
+
+.amountline {
+    width: 80px;
+    position: absolute;
+    height: 1px;
+    background-color: #525252;
+    z-index: 999;
+    
+}
+
+.amountlinenumber {
+    width: 100px;
+    position: absolute;
+    display: inline-block;
+    color: #525252;
+    font-size: 14px;
+    z-index: 999;
+    margin-bottom: -8px;
+    left: 90px;
+    text-align: left;
+}
+
+/*.lineamount {
+    bottom: 3%;
+    width: 100px;
+    position: absolute;
+    height: 1px;
+    background-color: blue;
+    z-index: 999;
+}
+*/
+
+
+.goal-section {
+  margin-bottom: 50px;
+}
+
+.qrcode {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.donate-address {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 14px;
+  /*background-color: #fff;*/
+/*  padding: 10px;*/
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
