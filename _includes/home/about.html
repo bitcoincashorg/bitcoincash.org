@@ -25,73 +25,65 @@
 <section class="space--xxs">
     <div class="container benefits">
         <div class="row space--xs">
-            <div class="col-sm-12 col-md-9">
-                <div class="row">
                 <div class="col-sm-12">
                     <div class="pop-shadow whitepaper-promo">
-                        <p><ion-icon name="heart" style="background-color:#FC0D1B"></ion-icon></p>
+                        <p><ion-icon name="heart" style="background-color:#4D4D4D"></ion-icon></p>
                         <p><strong>{% t 'headings.donate' %}</strong></p>
                         <p>{% t 'donate.description' %}</p>
+                        <hr>
+                        <h4 class="total-percentage">Calculating...</h4>
+                        <div class="cst-progress-bar-ctn">
+                            <div class="cst-progress-bar-bckgrd"></div>
+                            <div class="cst-progress-bar" id="total-bar"></div>
+                        </div> 
                         <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-secondary large btn-round" title="Donate" data-toggle="modal" data-target="#donateModal">
-                          {% t 'donate.button' %}
-                        </a>
-                        <div>
-                            <small><a href="bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv">bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv</a></small>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="float-left">
+                                    <a href="#" class="btn btn-secondary large btn-round" data-toggle="modal" data-target="#donateModal">
+                                        {% t 'donate.button' %}
+                                     </a>
+                                </div>
+                                <div class="float-right">
+                                    <small class="donation-address-display"><a href="bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv">bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv</a></small>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModal" aria-hidden="true">
                           <div class="modal-dialog" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">{% t 'headings.donate' %}</h4>
+                                <h5 class="modal-title" id="donateModal">{% t 'donate.description' %}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
                               </div>
                               <div class="modal-body">
-                                QR CODE HERE
-
-                                <small><a href="bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv">bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv</a></small>
-
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                QR CODE GOES HERE
+                                <a href="bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv">bitcoincash:qr9cwy7fsamcj53n47hmz6lcg0c0zye46c84r45vkv</a>
                               </div>
                             </div>
                           </div>
                         </div>
+
+                        
                     </div>
-                </div>
-                </div>
-                <div class="row">
-                <div class="col-sm-12">
-                    <div class="pop-shadow whitepaper-promo">
-                        <p><ion-icon name="document"></ion-icon></p>
-                        <p><strong>{% t 'headings.whitepaper' %}</strong></p>
-                        <p>{% t 'whitepaper.description' %}</p>
-                        <a href="bitcoin.pdf" title="Bitcoin Whitepaper" class="btn btn-secondary large btn-round">{% t 'headings.whitepaper' %}</a>
-                    </div>
-                </div>
                 </div>
             </div>
-            
-            <div class="col-sm-12 col-md-3">
-                <div class="cashThermometer">
-                  <span class="donation-request">Goal</span>
-                  <div class="thermometer">
-                  <div id="stem"></div>
-                  <div id="merc-stem"><div class="line1"></div><div class="line2"></div><div class="line3"></div><div class="line4"></div>
-                  <div class="ln5"></div><div class="ln6"></div><div class="ln7"></div><div class="ln8"></div><div class="ln9"></div>
-                  <div class="amountline"></div><div class="amountlinenumber"></div>
-                  <div id="mercury"></div>
-                  </div>
-                  <div id="bulb"><div id="box1"></div><div id="box2"></div><div id="bulb2"></div></div>
-                  </div>
+        <div class="row space--xs">
+            <div class="col-sm-12">
+                <div class="pop-shadow whitepaper-promo">
+                    <p><ion-icon name="document"></ion-icon></p>
+                    <p><strong>{% t 'headings.whitepaper' %}</strong></p>
+                    <p>{% t 'whitepaper.description' %}</p>
+                    <a href="bitcoin.pdf" title="Bitcoin Whitepaper" class="btn btn-secondary large btn-round">{% t 'headings.whitepaper' %}</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     {% include home/roadmap-cta.html %}
 
