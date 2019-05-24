@@ -309,11 +309,11 @@ error404:
 content:
   about:
     - |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie fiable au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     - |
       Tous les détenteurs de Bitcoin au bloc 478558 sont détenteurs de Bitcoin Cash. La communauté Bitcoin Cash s'efforce de continuer à créer une monnaie fiable et accessible partout dans le monde, et nous vous invitons tous à nous rejoindre.
   faq:
-    - question: "Qu'est ce que Bitcoin Cash ?"
+    - question: "Qu'est-ce que Bitcoin Cash ?"
       answer:
         - |
           Bitcoin Cash est un système de monnaie virtuelle pair-à-pair. Il s'agit d'une cryptomonnaie décentralisée sans permission requise qui ne nécessite ni tiers de confiance ni banque centrale.
@@ -339,7 +339,7 @@ content:
       - benefit: "Gagner en confidentialité et agir anonymement"
         descrip:
           - |
-            Les transactions en Bitcoin Cash sont plus confidentielles et plus anonymes que les virements bancaires et les paiements par carte bancaire des systèmes de paiement traditionnel. Il est normalement impossible de savoir à qui appartient une adresse Bitcoin.
+            Les transactions en Bitcoin Cash sont plus confidentielles et plus anonymes que les virements bancaires et les paiements par carte bancaire des systèmes de paiement traditionnels. Il est normalement impossible de savoir à qui appartient une adresse Bitcoin.
           - |
             Bitcoin Cash propose différents niveaux de confidentialité selon son utilisation. Il est important de bien se familiariser avec la technologie avant d'utiliser Bitcoin Cash à des fins de confidentialité.
       - benefit: "Profiter de remises exclusives"
@@ -371,7 +371,7 @@ content:
       - |
         En octobre 2008, Satoshi Nakamoto publie le fameux whitepaper <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong> (Bitcoin : un système de paiement électronique pair-à-pair). En 2009, il lance le premier logiciel bitcoin qui propulse le réseau. Celui-ci fonctionne parfaitement pendant plusieurs années et offre des transactions fiables, rapides et à moindre coût.
       - |
-        Malheureusement, entre 2016 et 2017, Bitcoin devient de moins en moins fiable et de plus en plus cher. La communauté Bitcoin n'est pas parvenue à un consensus en ce qui concerne l'augmentation des capacités du réseau, ce qui a entraîné ces changements. Certains développeurs ne comprenaient pas le programme de Satoshi, et le désapprouvaient. Ils ont préféré que le Bitcoin devienne une couche de règlement.
+        Malheureusement, entre 2016 et 2017, Bitcoin devient de moins en moins fiable et de plus en plus cher. La communauté Bitcoin n'est pas parvenue à un consensus en ce qui concerne l'augmentation des capacités du réseau, ce qui a entraîné ces changements. Certains développeurs ne comprenaient pas le programme de Satoshi, et le désapprouvaient. Ils ont préféré que Bitcoin devienne une couche de règlement.
       - |
         En 2017, la prédominance du Bitcoin chute de 95 % à 40 %, en raison de ses problèmes d'utilisabilité. Heureusement, une grande partie de la communauté Bitcoin, composée de développeurs, d'investisseurs, d'utilisateurs et d'entreprises, continue à croire à l'idée originale du Bitcoin : un système de monnaie électronique pair-à-pair utilisable par tous les habitants de la planète.
       - |
@@ -389,7 +389,7 @@ content:
       - title: "Votre projet utilise-t-il le bon nom ?"
         descrip:
           - |
-            Le site de vos projets doit définir Bitcoin Cash dans son nom complet. Les projets qui ajoutent ou ajoutent des ajouts au nom "Bitcoin Cash" seront disqualifiés.
+            Le site de vos projets doit définir Bitcoin Cash dans son nom complet. Les projets qui amendent ou font des ajouts au nom "Bitcoin Cash" seront disqualifiés.
       - title: "Votre portefeuille fournit-il le type de graine et le chemin de dérivation ?"
         descrip:
           - |
@@ -401,7 +401,7 @@ content:
       - title: "Votre projet utilise-t-il le logo de Bitcoin Cash ?"
         descrip:
           - |
-            Nous encourageons les candidats à utiliser le logo Bitcoin Cash <a href="graphics.html">disponible dans notre section images</a>. L'image de marque doit rester compatible avec bitcoincash.org. Bien que cela ne soit pas obligatoire, l’utilisation des logos disponibles sur le logo bitcoincash.org augmente vos chances d’être répertoriée.
+            Nous encourageons les candidats à utiliser le logo Bitcoin Cash <a href="graphics.html">disponible dans notre section images</a>. L'image de marque doit rester compatible avec bitcoincash.org. Bien que cela ne soit pas obligatoire, l’utilisation des logos disponibles sur le logo bitcoincash.org augmente vos chances d’être répertorié.
       - title: "Votre projet reste-t-il objectif par rapport aux faits ?"
         descrip:
           - |
@@ -464,7 +464,7 @@ buyorearn:
   sidetitle: "Où puis-je obtenir des Bitcoin Cash ?"
   buyexchange: "Acheter des BCH sur une plate-forme d'échange"
   buyexchange_excerpt: "Envoyer des monnaies fiduciaires à une plate-forme d'échange tierce de confiance et acheter des Bitcoin Cash"
-  usefaucet: "Utiliser un faucet BItcoin Cash"
+  usefaucet: "Utiliser un faucet Bitcoin Cash"
   usefaucet_excerpt: "Utilisez un <a href='https://free.bitcoin.com'>faucet Bitcoin Cash</a> de confiance pour recevoir gratuitement une faible quantité de Bitcoin Cash !"
   buyapp: "Acheter sur une app"
   buyapp_excerpt: "Utilisez une app tierce de confiance vous permettant d'acheter des Bitcoin Cash avec une carte bancaire."
@@ -509,7 +509,7 @@ acceptbch:
 roadmap:
   intro:
     home: "Pour devenir une base solide pour le développement d’applications et l’innovation, Bitcoin Cash doit continuellement s’améliorer et être concurrentiel. En travaillant ensemble, nous pouvons créer une base technique qui permettra à Bitcoin Cash de devenir la meilleure monnaie jamais vue."
-    btn: Voir laFeuille de Route
+    btn: Voir la Feuille de Route
     goal: Le but de Bitcoin Cash est de devenir une monnaie saine qui soit utilisable par tout le monde. Il s'agit d'une technologie bouleversant les codes civilisationnels qui augmentera considérablement la liberté et la prospérité humaines.
     expl: "Cette feuille de route est destinée à fournir une direction technique de haut niveau et à permettre à différentes équipes techniques de travailler ensemble dans le but d'atteindre un objectif commun pour faire progresser Bitcoin Cash. Le rôle des développeurs dans la poursuite de cet objectif est de produire un logiciel professionnel de haute qualité qui répond aux besoins des utilisateurs, des mineurs et des marchands. Nous nous efforçons d'améliorer constamment notre technologie afin de produire des produits fiables offrant une base solide à Bitcoin Cash."
     design: "La conception de base de Bitcoin Cash est saine. Cependant, cela ne signifie pas qu'elle est parfaite. Il est prudent d’améliorer progressivement le système grâce à une conception techniquement rationnelle et une ingénierie minutieuse. En implémentant des optimisations et en mettant à niveau le protocole, l'argent liquide numérique pair-à-pair pourra passer à l'échelle jusqu'à plusieurs ordres de grandeur au-delà des limites actuelles."
