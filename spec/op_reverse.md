@@ -101,7 +101,7 @@ Examples:
 
 ### Opcode Number
 
-OP_REVERSE proposes to replace the OP_RESERVED1 opcode with number 137 (0x89 in hex encoding). The rationale is that this opcode is in the "bit logic" group, which appears fitting, and reverse is an anagram of reserve.
+OP_REVERSE proposes to use the previously unused opcode with number 192 (0xc0 in hex encoding). The rationale is that this opcode would belong with the 0x7e - 0x82 group of opcodes related to byte manipulation, however, there's no space anymore for an additional opcode. `0xc0` leaves some space after OP_CHECKDATASIGVERIFY (`0xbb`) for additional crypto operations (e.g. ECC multiplication), which is fitting.
 
 ### Activation
 
