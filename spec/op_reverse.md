@@ -15,10 +15,10 @@ OP_REVERSE reverses the bytes of the top stackitem.
 Rationale
 ---------
 
-With the advent of SLP Tokens[1], Script becomes a lot more relevant and powerful. Various new use cases combining the power of covenants [2] and looping scripts [5] emerge, among them:
+With the advent of SLP Tokens [1], Script becomes a lot more relevant and powerful. Various new use cases combining the power of covenants [2] and looping scripts [5] emerge, among them:
 
 * Decentralized exchanges (such as SLP Agora or SLPDEX) [3] [6] [4]
-* Donation mintable coins
+* Donation mintable tokens
 * DAOs, which charge a fee for services and distribute revenue proportional to shares [7]
 * Native tokens (not yet possible)
 
@@ -47,7 +47,7 @@ OP_SPLIT       // <SLP value 1st byte> <SLP value 2nd byte> <SLP value 3rd byte>
 // results in 4-byte big endian
 OP_SWAP        // <SLP value 1st byte> <SLP value 2nd byte> <SLP value 4th byte> <SLP value 3rd byte>
 OP_CAT         // <SLP value 1st byte> <SLP value 2nd byte> <SLP value 4th, 3rd byte>
-OP_SWAP        // SLP value 1st byte> <SLP value 4th, 3rd byte> <SLP value 2nd byte>
+OP_SWAP        // <SLP value 1st byte> <SLP value 4th, 3rd byte> <SLP value 2nd byte>
 OP_CAT         // <SLP value 1st byte> <SLP value 4th, 3rd, 2nd byte>
 OP_SWAP        // <SLP value 4th, 3rd, 2nd byte> <SLP value 1st byte>
 OP_CAT         // <SLP value 4-byte big endian>
@@ -83,7 +83,7 @@ Further, there's likely many additional use cases beside encoding SLP values, as
 OP_REVERSE Specification
 -----------------------------
 
-This specification uses the same syntax as [11].
+This specification uses the same syntax for the stack/stackitems as [11].
 
 ### Semantics
 
@@ -97,11 +97,11 @@ Examples:
 
 * `{} OP_REVERSE -> {}`
 * `{0x01} OP_REVERSE -> {0x01}`
-* `{0x00, 0x00, 0x00, 0x01} OP_REVERSE -> {0x01, 0x00, 0x00, 0x00}`
+* `{0x01, 0x02, 0x03, 0x04} OP_REVERSE -> {0x04, 0x03, 0x02, 0x01}`
 
 ### Opcode Number
 
-OP_REVERSE proposes to replace the OP_RESERVED1 opcode with number 137 (0x89 in hex encoding). The rationale is that this in the "bit logic" group, which appears fitting, and reverse is an anagram of reserve.
+OP_REVERSE proposes to replace the OP_RESERVED1 opcode with number 137 (0x89 in hex encoding). The rationale is that this opcode is in the "bit logic" group, which appears fitting, and reverse is an anagram of reserve.
 
 ### Activation
 
@@ -119,13 +119,23 @@ References
 ----------
 
 [1] SLP Token specification: https://github.com/simpleledger/slp-specifications/blob/master/slp-token-type-1.md
+
 [2] Spending constraints with OP_CHECKDATASIG: https://honest.cash/pein_sama/spending-constraints-with-op_checkdatasig-172
+
 [3] SLP Agora: https://github.com/EyeOfPython/slpagora
+
 [4] Sample SLPDEX transaction: https://blockchair.com/bitcoin-cash/transaction/2e69f47a985673c5a645e20ad09025a0892321f096224679657f98e6152c845c
+
 [5] Let's play chess on the BCH Blockchain: https://tobiasruck.com/content/lets-play-chess-on-bch/
+
 [6] SLPDEX (work in progress): slpdex.cash
+
 [7] DAO: https://en.wikipedia.org/wiki/Decentralized_autonomous_organization
+
 [8] Bitcoin protocol documentation, common structures: https://en.bitcoin.it/wiki/Protocol_documentation#Common_structures
+
 [9] BIP143: https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki
+
 [10] BIP16: https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki
+
 [11] May 2018, reenabled opcodes: https://github.com/EyeOfPython/bitcoincash.org/blob/master/spec/may-2018-reenabled-opcodes.md
