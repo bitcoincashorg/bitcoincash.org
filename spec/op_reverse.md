@@ -113,6 +113,8 @@ The activation is yet to be defined; however, it is proposed to activate it on t
  - `<item> OP_REVERSE` fails if 15 November 2019 protocol upgrade is not yet activated.
  - `OP_REVERSE` fails if the stack is empty.
  - `<item> OP_REVERSE` fails if the top stack item after execution is not <item> byte-reversed.
+ - `{0x12, 0x34, 0x56} {0x56, 0x34, 0x12} OP_REVERSE OP_EQUALVERIFY` succeeds with an empty stack.
+ - `{0x02, 0x04, 0x06, 0x08, 0x0A, 0x0C} OP_DUP OP_REVERSE OP_REVERSE OP_EQUALVERIFY` succeeds with an empty stack.
  - `{0x01, 0x02, 0x03, 0x02, 0x01} OP_DUP OP_REVERSE OP_EQUALVERIFY` succeeds with an empty stack.
  - `{0x01, 0x02, 0x03, 0x01, 0x02} OP_DUP OP_REVERSE OP_EQUALVERIFY` fails.
 
