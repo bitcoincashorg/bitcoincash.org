@@ -1,97 +1,77 @@
 
 
+
 function updateCard(data) { 
-      ABC_balance = data[0].balance;
-      ABC_balance += data[0].unconfirmedBalance;
-      $("#ABC_balance").html( ABC_balance.toFixed(2) + " BCH" );
-      $("#add-abc-address").html( ABC_address );
-      var ABC_percentage = (ABC_balance / goalAmount) * 100;
-      $("#abc-bar").css("width", ABC_percentage + "%");
-      $("#abc-goal").html( ABC_percentage.toFixed(2) + "% of goal reached" );
-      $('#abc-badger').attr('data-to', ABC_address); 
-
-
-      BU_balance = data[1].balance;
-      BU_balance += data[1].unconfirmedBalance;
-      $("#BU_balance").html( BU_balance.toFixed(2) + " BCH" );
-      $("#add-bu-address").html( BU_address );
-      var BU_percentage = (BU_balance / goalAmount) * 100;
-      $("#bu-bar").css("width", BU_percentage + "%");
-      $("#bu-goal").html( BU_percentage.toFixed(2) + "% of goal reached" );
-      $('#bu-badger').attr('data-to', BU_address);
-
-
-      HD_balance = data[2].balance;
-      HD_balance += data[2].unconfirmedBalance;
-      $("#HD_balance").html( HD_balance.toFixed(2) + " BCH" );
-      $("#add-hd-address").html( HD_address );
-      var HD_percentage = (HD_balance / goalAmount) * 100;
-      $("#hd-bar").css("width", HD_percentage + "%");
-      $("#hd-goal").html( HD_percentage.toFixed(2) + "% of goal reached" );
-      $('#hd-badger').attr('data-to', HD_address); 
-
-
-      BC_balance = data[3].balance;
-      BC_balance += data[3].unconfirmedBalance;
-      $("#BC_balance").html( BC_balance.toFixed(2) + " BCH" );
-      $("#add-bc-address").html( BC_address );
-      var BC_percentage = (BC_balance / goalAmount) * 100;
-      $("#bc-bar").css("width", BC_percentage + "%");
-      $("#bc-goal").html( BC_percentage.toFixed(2) + "% of goal reached" );
-      $('#bc-badger').attr('data-to', BC_address);   
-    
-}
-
-
-function totalBalance(data) { 
-
-      for ( i=0; i<data.length; i++) {
-        total_balance += data[i].balance;
-        total_balance += data[i].unconfirmedBalance;
+    for ( i=0; i<data.length; i++) {
+        balance += data[i].balance;
+        balance += data[i].unconfirmedBalance;
+        transactions += data[i].transactions.length
       }
 
-      $(".total-dontations").html(total_balance.toFixed(2) + " BCH Total Raised");
-      var total_percentage = (total_balance / goalAmount) * 100;
-      $(".total-percentage").html(total_percentage.toFixed(0) + "% raised of " + goalAmount + "BCH Goal");
-      $("#total-bar").css("width", total_percentage + "%");
-      $("#total-goal").html( total_percentage + "% of goal reached" );
-    
+      var countDownDate = new Date("Aug 1, 2019 15:37:25").getTime();
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      $("#days-to-go").html( days );
+
+
+      $("#balance").html( balance.toFixed(2) + " BCH" );
+      $("#transactions").html( transactions );
+     
+      var balance_percentage = ( balance / goal) * 100;
+      $("#goal-bar").css("width", balance_percentage + "%");
+      $(".goal-percentage").html(balance_percentage.toFixed() + "% of goal reached");
+      
+      
 }
 
 
-// REPLACE THESE ADDRESSES BEFORE LAUNCH
-// SETUP GOAL BCH AMOUNT TO RAISE
-
-let goalAmount = .2;
-let ABC_address = "bitcoincash:qzv23kyk5nan5qgdwrml0hmld6d2eawqlgh8d4hjxv";
-let BU_address = "bitcoincash:qqge3f8vxxglxrk49gj2424tswr9gp4nf58pwrx8c3";
-let HD_address = "bitcoincash:qq0uxvqjxktfdg9h8dq9p8am9pfwg5pu3gpvk0qvzt";
-let BC_address = "bitcoincash:qqrrx43rvs8w7yet3atcwwy60gvjdtupry6ypdml8g";
-let total_balance = 0;
 
 
 
-let postingObj = {
+let goal = 800;
+let balance = 0;
+let transactions = 0;
+
+let ABC_address = "bitcoincash:qp0kctzt552fhpypt7e6v5dtk3u4qjp3pst59ct28x";
+let ABC_legacy = "19hYnDdS1hoMSxNbzLSWuso1jLSnntE3J7";
+
+let BU_address = "bitcoincash:qpe28qt72runzsru4pp9cwmf7veppx9rpva4eqv9rf";
+let BU_legacy = "1BT9uTHRJ1uxcoa9GEQctmagApwpAa1LXy";
+
+let HD_address = "bitcoincash:qrr4f95f3n682ue6wxdn03ncptyjc53k7uyxwlt2tt";
+let HD_legacy = "1KAxoTLSc8KYMucetJRBYWdK9n7yszMC3J";
+
+let BC_address = "bitcoincash:qrg06kynha5mqrey8lsvrcne2yl9c3xtfqc2nj6a5q";
+let BC_legacy = "1L433h1CWc5TQWXeYPk8cry7qDkwW7cGta";
+
+let general_address = "bitcoincash:qq29gww57twmvq07las39p3m65x8nw2ngvvuq6adpn";
+let general_legacy = "12rVQxQ31ZtpRCRKM924W7fs35GBdQm65J";
+
+
+
+let restCall = {
   "addresses": [
     ABC_address,
     BU_address,
     HD_address,
-    BC_address
+    BC_address,
+    general_address
   ]
 }
 
-let urlDos = 'https://rest.bitcoin.com/v2/address/details/'
+let url = 'https://rest.bitcoin.com/v2/address/details/'
 
 
 $.ajax({
   dataType: 'json',
   type: 'POST',
   contentType: 'application/json',
-  url: urlDos,
-  data: JSON.stringify(postingObj),
+  url: url,
+  data: JSON.stringify(restCall),
   success: function(data){    
     updateCard(data);
-    totalBalance(data);
+    console.log(data);
   },
   error: function(err) {
     console.log(err.responseJSON.error)
@@ -102,9 +82,52 @@ $.ajax({
 
 
 
+let txWatcher = new WebSocket("wss://ws.blockchain.info/bch/inv")
 
+txWatcher.onopen = event => {    
+    txWatcher.send(JSON.stringify({ "op":"addr_sub", "addr": general_legacy }))
+    console.log(`Subscribed to ${general_legacy}`)    
+  }
 
-
+  function onWatchedTx() {
+    // Code below will be entered every time a BCH tx is received by a subscribed address
+    txWatcher.onmessage = event => {
+      let tx = JSON.parse(event.data)
+      // Parse the received transaction
+      console.log(`New transaction!`)
+      console.log(tx)
+      // Get the sending address (mb you want to have a popup saying "Received x from y!")
+      console.log(`Sending Address:`)
+      let sendingAddr = tx.x.inputs[0].prev_out.addr
+      console.log(sendingAddr)
+      // Parse the transaction to figure out how much was sent and to what address
+      // First, initialize variables for this tx
+      
+      let amountGeneral = 0
+      for (let i=0; i<tx.x.out.length; i++) {
+        switch(tx.x.out[i].addr) {
+          case general_legacy:
+            amountGeneral += tx.x.out[i].value
+            break
+          default:
+            // Do nothing
+            // This case happens when the output didn't go to one of the watched addresses
+            // Means it's probably a change output, back to sender
+            //console.log(`Output not received by watched address; probably change from sender`)
+        }
+      }
+     
+      if (amountGeneral !== 0) {
+        balance += amountGeneral/1e8;
+        transactions += 1;
+        $("#balance").html( balance.toFixed(2) + " BCH" );
+        $("#transactions").html( transactions );
+        $("#thank-you-card-general").fadeIn().html("<div class='inner-thank-you'><p>New Donation Received!</p><div>" + amountGeneral/1e8.toFixed(2) + " BCH was just donated from " + "<span>" + sendingAddr + "</span>" + " <br>Thank you!</div></div>").delay(5000).fadeOut();
+      }      
+    }
+  }
+  // Call this function onLoad
+  onWatchedTx()
 
 
 

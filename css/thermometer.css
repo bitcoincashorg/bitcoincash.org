@@ -1,91 +1,138 @@
+/******************************************************* Donations Section 2 *******************************************************/
 
-/******************************************************* Donations Section *******************************************************/
-
-.donation-section {
+.donation-section2 {
   padding: 70px 0;
-  text-align: center;
   background-color: #fff;
 }
 
-.donation-section h1 {
+.donation-section2 h1 {
   color: #333;
   margin-bottom: 25px;
 }
 
-.donation-section p {
+/*.donation-section2 p {
   color: #333;
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 30px;
+}*/
+
+.donation-logo-bch {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 0 15px 0;
 }
 
-.total-donations {
-  font-weight: 700;
-  color: #333;
-  font-size: 30px;
-}
-
-.total-percentage {
-  font-weight: 700;
-  color: #333;
-  font-size: 20px;
-  margin-top: 0;
-}
-
-.dc-padding {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.donation-card {
+.donation-card2 {
   background-color: #fff;
   padding: 30px;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #e2e2e2;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
-.qr-codes {
+.donation-line {
   width: 100%;
-  max-width: 120px;
+  height: 1px;
+  background-color: #e2e2e2;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
-.dev-logos {
+.donation-card2 h2 {
+  margin: 0;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.donation-info {
+  width: 100%;
+}
+
+.donation-background {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.donation-card2 h4 {
+  margin: 0;
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.donation-card2 h5 {
+  margin: 0 0 15px 0;
+  color: #878787;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.pb-ctn {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.donation-card h4 {
-  margin: 0;
-  color: #333;
-  font-weight: 700;
-  font-size: 25px;
+.pb {
+  width: 0%;
+  background-color: #f6951c;
+  height: 10px;
+  z-index: 15;
+  display: block;
+  margin-top: -10px;
+  max-width: 100%;
+  background-size: 42.43px 42.43px;
+  /*border-radius: 0 0 5px 5px;*/
 }
 
-.donation-card h5 {
-  margin: 0 0 10px 0;
+.pb-bckgrd {
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  z-index: 10;
+  display: block;
+  background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.goal-percentage {
+  font-weight: 700;
   color: #333;
-  font-weight: 600;
+  font-size: 18px;
+  margin: 0px 0 10px 0;
+}
+
+.btn-donate-secodary {
+  color: #333;
+  font-weight: 500;
   font-size: 14px;
 }
 
-body .donation-section .donation-address {
-  color: #bebebe;
+.qr-codes {
+  width: 100%;
+  max-width: 100px;
+  margin: 0px 0 10px;
+}
+
+.donation-address {
+  color: #333;
     word-wrap: break-word;
-    font-size: 12px;
+    font-size: 13px;
     display: inline-block;
     width: 100%;
 }
 
-.donation-card button {
+.donation-card2 button {
   width: 100%;
-  max-width: 200px;
-  margin-top: 15px;
-  background-color: #717171!important;
+  max-width: 400px;
+  margin-top: 20px;
+  background-color: #f6951c!important;
   -webkit-appearance: none; /* WebKit */
   -moz-appearance: none; /* Mozilla */
   -o-appearance: none; /* Opera */
@@ -96,55 +143,77 @@ body .donation-section .donation-address {
   color: #fff;
   font-weight: 700;
   border-radius: 100px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
-.donation-address-display {
-  display:inline-block;
-  margin-top:15px;
-}
 
-.donation-card button:hover {
-  background-color: #E7A603!important;
-  transition: background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-}
-
-.cst-progress-bar-ctn {
+.thank-you-card {
+  position: absolute;
+  background-color: #f6951c;
   width: 100%;
-  margin:15px 0;
-  /*position: absolute;
-  bottom: 0;
-  padding: 0 10px;*/
+  height: 100%;
+  display: none;
+  text-align: center;
+  padding: 30px;
 }
 
-.cst-progress-bar {
-  width: 20%;
-  background-color: #F59331;
-  height: 20px;
-  z-index: 15;
-  display: block;
-  margin-top: -20px;
-  max-width: 100%;
-  background-image: linear-gradient(45deg, #F59331 25%, #4D4D4D 25%, #4D4D4D 50%, #F59331 50%, #F59331 75%, #4D4D4D 75%, #4D4D4D 100%);
-  background-size: 42.43px 42.43px;
-  /*border-radius: 0 0 5px 5px;*/
-}
-
-.cst-progress-bar-bckgrd {
-  width: 100%;
-  height: 20px;
-  bottom: 0;
-  z-index: 10;
-  display: block;
-  background-color: #f5f5f5;
-    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-}
-
-.donation-goal {
+.thank-you-card div {
+  font-size: 20px;
   color: #333;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
 }
 
-/******************************************************* End Donations Section *******************************************************/
+.thank-you-card p {
+  font-size: 30px;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.thank-you-card span {
+  word-wrap: break-word;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.inner-thank-you {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+@media (max-width: 992px) {
+
+    .donation-section2 {
+  text-align: center;
+}
+  .donation-background{
+  margin-bottom: 30px
+}
+
+
+.donation-card2 h4 {
+  font-size: 25px;
+}
+
+
+.donation-card2 button {
+ display: none;
+}
+
+.btn-donate-secodary {
+  margin-top: 30px;
+}
+
+
+}
+
+/******************************************************* END Donations Section 2 *******************************************************/
