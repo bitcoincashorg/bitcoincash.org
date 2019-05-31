@@ -569,3 +569,11 @@ roadmap:
   traded: all classes of assets traded on the blockchain
 donations:
   title: Support Economic Prosperity
+  subtitle: Help increase economic prosperity by supporting the technical development of Bitcoin Cash.
+  goal: Our goal is to raise 800 BCH by August 1st, 2019. Please help us reach our goal!
+  explanation: The developers of Bitcoin Cash need your support to build and maintain the infrastructure necessary to keep Bitcoin Cash competitive and ready for global adoption. If you are interested in future functionality, security, and the success of Bitcoin Cash, please consider contributing to the development teams working to make this a reality.
+  recipient: 100% of your donation will go to support Bitcoin Cash development, enabling sustainable development and innovation, and thereby adding value to the network and its currency.
+  percentage: \% of goal reached
+  total: donated of 800 BCH goal
+  total_tx: donations made
+  days_left: days to go

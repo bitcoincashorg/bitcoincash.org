@@ -29,13 +29,13 @@
       <div class="col-md-7">
         <h3>{% t 'donations.title' %}</h3>
 
-        <p>Help increase economic prosperity by supporting the technical development of Bitcoin Cash.</p>
+        <p>{% t 'donations.subtitle' %}</p>
 
-        <p><b>Our goal is to raise 800 BCH by August 1st, 2019. Please help us reach our goal!</b></p>
+        <p><b>{% t 'donations.goal' %}</b></p>
 
-        <p>The developers of Bitcoin Cash need your support to build and maintain the infrastructure necessary to keep Bitcoin Cash competitive and ready for global adoption. If you are interested in future functionality, security, and the success of Bitcoin Cash, please consider contributing to the development teams working to make this a reality.</p>
+        <p>{% t 'donations.explanation' %}</p>
 
-        <p>100% of your donation will go to support Bitcoin Cash development, enabling sustainable development and innovation, and thereby adding value to the network and its currency.</p>
+        <p>{% t 'donations.recipient' %}</p>
       </div>
 
       <div class="col-md-5">
@@ -44,18 +44,18 @@
         <div class="thank-you-card" id="thank-you-card-general"></div>
           <img class="donation-logo-bch pl-2 pr-2 mb-1" src="/img/bch-dev-fund.png" alt="Dev Fund">
           <div class="donation-line"></div>
-          <div class="goal-percentage">% of goal reached</div>
+          <div class="goal-percentage">{% t 'donations.percentage' %}</div>
           <div class="pb-ctn">
             <div class="pb-bckgrd"></div>
             <div class="pb" id="goal-bar" color="#fab915"></div>
           </div>
           <div class="donation-info">
           <h4 id="balance">0 BCH</h4>
-          <h5>donated of 800 BCH goal</h5>
+          <h5>{% t 'donations.total' %}</h5>
           <h4 id="transactions">0</h4>
-          <h5>donations made</h5>
+          <h5>{% t 'donations.total_tx' %}</h5>
           <h4 id="days-to-go">0</h4>
-          <h5>days to go</h5>
+          <h5>{% t 'donations.days_left' %}</h5>
           </div>
           <div class="donation-line"></div>
 
