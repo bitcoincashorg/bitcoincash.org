@@ -272,6 +272,7 @@ headings:
   services: "Diensten"
   wallets: "Portemonnees"
   featured-wallets: "Uitgelichte Portemonnees"
+  donate: "Doneer voor Bitcoin Cash-Ontwikkeling"
   whitepaper: "Lees de Whitepaper"
   listingrequest: "vermeldingsaanvraag indienen"
   listingcriteria: "oplijstings criteria"
@@ -286,7 +287,7 @@ networkupgrade:
   reminder: "Herinnering"
   date: "15 November, 2018"
   title: "Geplande Netwerk-Upgrade"
-  description: "Het Bitcoin Cash-netwerk zal een protocol-upgrade ondergaan. Bedrijven en individuen die het Bitcoin Cash-netwerk gebruiken dienen te controleren of hun software compatibel is met de upgrade. "
+  description: "Het Bitcoin Cash-netwerk zal een protocol-upgrade conform <a href='roadmap.html'>de  roadmap</a> ondergaan. Bedrijven en individuen die het Bitcoin Cash-netwerk gebruiken dienen te controleren of hun software compatibel is met de upgrade."
   compatible: "Compatibele Implementaties"
   additional: "Verdere informatie "
   testnet: "Testnet Informatie"
@@ -303,6 +304,9 @@ networkupgrade:
   date-2021-05-15: "15 Mei, 2021"
 whitepaper:
   description: 'De originele whitepaper werd op 31 oktober 2008 gepubliceerd door Satoshi Nakamoto de anonieme maker van ''s werelds eerste cryptogeld. De titel van het Bitcoin whitepaper is "Bitcoin: een peer-to-peer elektronisch-cash-systeem". Bitcoin Cash streeft ernaar deze visie voort te zetten om solide geld naar de wereld te brengen.'
+donate:
+  button: "Doneer Nu"
+  description: 'De Bitcoin Cash-ontwikkelaars hebben uw ondersteuning nodig om de software infrastructuur te bouwen die nodig is om Bitcoin Cash competitief and te houden en klaar te maken voor gebruik over de hele wereld. Het eerste doel is om 800 BCH voor het eind van dit kwartaal te halen. Dit zal een goed begin zijn op weg naar duurzame lange termijn bekostiging van Bitcoin Cash infrastructuur ontwikkeling.  '
 error404:
   subheading: "De pagina die je zoekt bestaat niet. "
   button: Ga naar de startpagina
@@ -518,7 +522,7 @@ roadmap:
     list-2: "De betalingsbeleving verbeteren om te verzekeren dat het direct en betrouwbaar is. Transacties zouden binnen 3 seconden zeker moeten zijn. "
     list-3: Maak Bitcoin Cash uitbreidbaar. Een uitbreidbaar protocol maakt toekomstige verbeteringen minder verstorend en zorgt voor een solide basis waarop bedrijven en ontwikkelaars kunnen bouwen.
     end: Om een solide basis voor applicatie-ontwikkeling en innovatie te worden moet Bitcoin Cash continu verbeteren en concurreren. Samen werkend kunnen we een technisch fundament bouwen om Bitcoin Cash in staat te stellen het beste geld te zijn dat de wereld ooit gezien heeft.
-  complete: voltooid
+  complete: Voltooid
   underway: in ontwikkeling
   planned: gepland
   roadmap: roadmap
@@ -561,3 +565,13 @@ roadmap:
   compact: "(meer vermogen, compacter)"
   token: TOKEN ECONOMIE
   traded: alle klassen van activa worden op de blockchain verhandeld
+donations:
+  title: Ondersteun Economische Voorspoed
+  subtitle: Help economische voorspoed te bevorderen door technische ontwikkeling van Bitcoin Cash te ondersteunen.
+  goal: Ons doel is om 800 BCH in te zamelen voor 1 Augustus 2019. Help ons alstublieft dit doel te behalen!
+  explanation: "De Bitcoin Cash-ontwikkelaars hebben uw ondersteuning nodig om de software infrastructuur te bouwen die nodig is om Bitcoin Cash competitief and te houden en klaar te maken voor gebruik over de hele wereld. Als de toekomstige functionaliteit, veiligheid en het succes van Bitcoin Cash belangrijk voor u zijn, alstublieft overweeg dan de ontwikkelaars te ondersteunen die eraan werken om dit te realiseren."
+  recipient: 100% van uw donatie zal naar de ondersteuning van Bitcoin Cash-ontwikkeling gaan om duurzame ontwikkeling en innovatie mogelijk te maken en daardoor waarde toevoegend aan het netwerk en zijn munt.
+  percentage: \% van het doel bereikt
+  total: gedoneerd van het 800 BCH doel
+  total_tx: gedane donaties
+  days_left: dagen te gaan
