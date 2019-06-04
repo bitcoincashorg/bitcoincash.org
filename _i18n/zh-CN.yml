@@ -1,5 +1,5 @@
 language: Chinese
-lang: zh-CN
+lang: zh_CN
 title:
   index: "比特币现金 — 点对点数字现金"
   graphics: "标识 / 图形 — 比特币现金"
@@ -272,6 +272,7 @@ headings:
   services: "服务"
   wallets: "钱包"
   featured-wallets: "特色钱包"
+  donate: "为比特币现金（BCH）的开发捐款"
   whitepaper: "阅读白皮书"
   listingrequest: "提交列表请求"
   listingcriteria: "刊登标准"
@@ -286,7 +287,7 @@ networkupgrade:
   reminder: "提醒"
   date: "2018年11月15日"
   title: "规划中的网络升级"
-  description: "比特币现金网络将进行协议升级。使用比特币现金网络的企业与个人务必确保其软件兼容新版协议。"
+  description: "比特币现金BCH网络将根据<a href='roadmap.html'>路线图</a>进行协议升级。 使用比特币现金网络的企业和个人应及时检查，以确保其软件与升级兼容。"
   compatible: "兼容实现"
   additional: "其他信息"
   testnet: "测试网信息"
@@ -303,6 +304,9 @@ networkupgrade:
   date-2021-05-15: "2021年5月15日"
 whitepaper:
   description: '初版白皮书是全球首个数字加密货币匿名创造者中本聪（Satoshi Nakamoto）在2008年10月31日发表的。比特币白皮书名为“比特币：一种点对点电子现金系统”（Bitcoin: A Peer-to-Peer Electronic Cash System）。比特币现金旨在延续这种为全球创造一种健全货币的愿景。'
+donate:
+  button: "现在捐款"
+  description: '比特币现金的开发者需要您的支持，从而建立必要的软件基础设施，以保持比特币现金为世界服务的竞争优势。 最基本的目标是到本季度末，募到800 枚BCH。 这将为实现比特币现金基础设施发展，提供可持续的、长期资金目标的良好开端。'
 error404:
   subheading: 您要找的页面不存在。
   button: 转到首页
@@ -471,7 +475,7 @@ buyorearn:
   buyapp: "应用程序内购买"
   buyapp_excerpt: "用信用卡，向销售比特币现金的受信第三方应用程序购买比特币现金。"
   earnonline: "线上赢得比特币现金"
-  earnonline_excerpt: "在<a href='https://honest.cash'>honest.cash</a>上制作热门内容。使用譬如<a href='http://memo.cash'>Memo.cash</a>，抗审查的社交媒体平台"
+  earnonline_excerpt: "在<a href='https://honest.cash'>honest.cash</a>上制作热门内容。使用譬如<a href='http://memo.cash'>Memo.cash</a>，抗审查的社交媒体平台。"
   buyatm: "从比特币现金ATM机上购买"
   buyatm_excerpt: "全球许多城市都有支持比特币现金存取业务的专用柜员机。"
   buyinperson: "线下购买"
@@ -529,37 +533,47 @@ roadmap:
   extensibility: 扩展性
   protocol_complete: 比特币现金协议完成
   ctor: 交易排序
-  scal_block_proc: 可扩容的区块处理
+  scal_block_proc: （可扩容的区块处理）
   faster: 更快的区块传输
-  graphene: 石墨烯或其他
+  graphene: （石墨烯或其他）
   merklix: Merklix元数据数
   utxo: UTXO指派
-  pruning: 区块链缩减
+  pruning: （区块链缩减）
   schnorr: Schnorr数字签名法
-  batched: 批量签名认证
+  batched: （批量签名认证）
   adaptive: 自适应区块大小
   1TB: （市场推动增至1TB的区块）
   scale: 人造规模
   50tx: 100亿人每天50次的交易量
   CashAddr: 比特币现金地址
-  easier: 对用户更加方便和安全
+  easier: （对用户更加方便和安全）
   Sighash: 签名哈希
   hw: （硬件钱包安全性）
   fee: 矿工费的改进
-  cheaper: 更便宜的交易
+  cheaper: （更便宜的交易）
   pre: 预先共识
-  instant: 对商户实现的即时安全性
+  instant: （对商户实现的即时安全性）
   fract: 部分聪
-  low: 费用永久低廉
+  low: （费用永久低廉）
   best: 最佳货币
   secure_low: 3秒内确认——交易费永久低廉
   basic: 基础操作码
   223B: 在223字节中的OP_RETURN
-  social: 链上社交网络
+  social: （链上社交网络）
   cds: OP_CHEAKDATASIG
-  oracles: 预言机和高级脚本
+  oracles: （预言机和高级脚本）
   more_basic: 更加基础的操作码
   tx_format: 新的交易格式
   compact: （更强大，更严密）
   token: 通证经济
   traded: 在区块链上交易的所有资产类型
+donations:
+  title: 支持经济繁荣
+  subtitle: 支持比特币现金技术的发展，可以推进经济繁荣。
+  goal: 我们的目标是在2019年8月1日前募集到800 BCH。请帮助我们达到目标！
+  explanation: 比特币现金的开发者需要您的支持来建立和维护必要的基础设施，从而保持比特币现金的竞争力并为全球应用做好准备。 如果您对比特币现金未来的功能，安全性以及成功感兴趣，请考虑为致力于实现这一目标的开发团队做出贡献。
+  recipient: 您的捐款，100%将用于支持比特币现金的开发，用于实现可持续发展和创新，从而提高主网价值，支撑比特币现金价格的持续增长。
+  percentage: 目标达成的百分比%
+  total: 捐赠800BCH的目标
+  total_tx: 已募捐
+  days_left: 剩余天数
