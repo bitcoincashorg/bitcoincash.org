@@ -1,5 +1,5 @@
 language: 繁體中文
-lang: zh-TW
+lang: zh_TW
 title:
   index: "比特幣現金 - 點對點數位現金"
   graphics: "標誌/圖片 - 比特幣現金"
@@ -272,6 +272,7 @@ headings:
   services: "服務"
   wallets: "錢包"
   featured-wallets: "精選錢包"
+  donate: "为比特币现金BCH开发捐款"
   whitepaper: "閱讀白皮書"
   listingrequest: "提交刊登要求"
   listingcriteria: "刊登標準"
@@ -286,7 +287,7 @@ networkupgrade:
   reminder: "提醒"
   date: "2018 年 11 月 15 日"
   title: "預定網路升級"
-  description: "比特幣現金網路會進行通訊協定升級。使用比特幣現金網路的企業和個人應確認所使用的軟體能與升級相容。"
+  description: "比特幣現金BCH網絡將根據<a href='roadmap.html'>路線圖</a>進行協議升級。使用比特幣現金網絡的企業和個人應及時檢查，以確保其軟件與升級兼容。"
   compatible: "相容實作"
   additional: "其他資訊"
   testnet: "測試網路資訊"
@@ -303,6 +304,9 @@ networkupgrade:
   date-2021-05-15: "2021年5月15日"
 whitepaper:
   description: '世界第一個加密貨幣的創辦人中本聰於 2008 年 10 月 31 日發表最初白皮書。這份比特幣白皮書標題為《比特幣：點對點數位現金系統》。比特幣現金目的在於延續這個願景，為世界帶來穩健的貨幣系統。'
+donate:
+  button: "現在捐款"
+  description: '比特幣現金的開發者需要您的支持，從而建立必要的軟件基礎設施，以保持比特幣現金為世界服務的競爭優勢。最基本的目標是到本季度末，募到800 枚BCH。這將為實現比特幣現金基礎設施發展，提供可持續的、長期資金目標的良好開端。'
 error404:
   subheading: 找不到您要的頁面。
   button: 前往首頁
@@ -561,3 +565,13 @@ roadmap:
   compact: （更強大，更嚴密）
   token: 通證經濟
   traded: 在區塊鏈上交易的所有資產類型
+donations:
+  title: 支持經濟繁榮
+  subtitle: 支持比特幣現金技術的發展，可以推進經濟繁榮。
+  goal: 我們的目標是在2019年8月1日前募集到800BCH。請幫助我們達到目標！
+  explanation: 比特幣現金的開發者需要您的支持來建立和維護必要的基礎設施，從而保持比特幣現金的競爭力並為全球應用做好準備。如果您對比特幣現金未來的功能，安全性以及成功感興趣，請考慮為致力於實現這一目標的開發團隊做出貢獻。
+  recipient: 您的捐款，100%將用於支持比特幣現金的開發，用於實現可持續發展和創新，從而提高主網價值，支撐比特幣現金價格的持續增長。
+  percentage: 目標達成的百分比%
+  total: 捐贈800BCH的目標
+  total_tx: 已募捐
+  days_left: 剩余天數

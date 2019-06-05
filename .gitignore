@@ -7,3 +7,4 @@ _site
 _config.yml
 .tx/
 tx.py
+_config-dev.yml

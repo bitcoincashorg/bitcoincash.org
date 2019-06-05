@@ -272,6 +272,7 @@ headings:
   services: "Servicios"
   wallets: "Carteras"
   featured-wallets: "Carteras Destacadas"
+  donate: "Donar para el Desarrollo de Bitcoin Cash"
   whitepaper: "Leer el Artículo"
   listingrequest: "Submitir un pedido de listado"
   listingcriteria: "Criterio de Listado"
@@ -286,7 +287,7 @@ networkupgrade:
   reminder: "Recordatorio"
   date: "15 de Noviembre de 2018"
   title: "Actualización de Red Planeada"
-  description: "La red Bitcoin Cash se someterá a una actualización de protocolo. Las empresas y las personas que utilizan la red Bitcoin Cash deben asegurarse de que su software sea compatible con la actualización."
+  description: "La red Bitcoin Cash procederá con una actualización de protocolo según <a href='roadmap.html'>La Hoja de Ruta</a>. Empresas e individuos que utilizan la red Bitcoin Cash deben asegurarse que sus programas sean compatibles con la actualización."
   compatible: "Implementaciones Compatibles"
   additional: "Información Adicional"
   testnet: "Información de Testnet"
@@ -303,6 +304,9 @@ networkupgrade:
   date-2021-05-15: "15 de Mayo de 2021"
 whitepaper:
   description: 'El artículo original fue publicado el 31 de Octubre de 2008 por Satoshi Nakamoto, el creador anónimo de la primera criptomoneda del mundo. El título del artículo de Bitcoin es "Bitcoin: Un Sistema de Dinero Electrónico Par-a-Par". Bitcoin Cash tiene el propósito de continuar esta visión, de traer una moneda sólida al mundo.'
+donate:
+  button: "Donar Ahora"
+  description: 'Los desarrolladores de Bitcoin Cash necesitan tu apoyo para construir la infraestructura necesaria para mantener Bitcoin Cash competitivo y listo para servir al mundo. La meta inicial es llegar a 800 BCH al final de este trimestre. Este será un buen comienzo en dirección a un financiamiento sustentable de largo plazo para el desarrollo de la infraestructura Bitcoin Cash.'
 error404:
   subheading: La página que estás buscando no existe.
   button: Ir a inicio
@@ -518,7 +522,7 @@ roadmap:
     list-2: Mejorar la experiencia de pago para garantizar que sea confiable e instantánea. Las transacciones deben ser seguras dentro de un margen de tres segundos.
     list-3: Hacer Bitcoin Cash extensible. Un protocolo extensible hace que las mejoras futuras sean menos disruptivas y proporciona una sólida base a partir de la cual empresas y desarrolladores pueden construir.
     end: "Para convertirse en una sólida base para el desarrollo de aplicaciones e innovación, Bitcoin Cash debe mejorar y competir continuamente. Trabajando juntos, podemos construir la base fundacional técnica para hacer de Bitcoin Cash la mejor moneda que el mundo haya visto jamás."
-  complete: completo
+  complete: Completo
   underway: en progreso
   planned: planeado
   roadmap: hoja de ruta
@@ -550,7 +554,7 @@ roadmap:
   fract: Satoshis Fraccionarios
   low: (tasas bajas para siempre)
   best: MEJOR MONEDA
-  secure_low: Segura en 3 segundos - Tazas de transacción bajas para siempre.
+  secure_low: Segura en 3 segundos - Tasas de transacción bajas para siempre.
   basic: Opcodes Básicos
   223B: OP_RETURN a 223 bytes
   social: (redes sociales on-chain)
@@ -561,3 +565,13 @@ roadmap:
   compact: (más capaz y más compacto)
   token: ECONOMIA DE TOKEN
   traded: Toda clase de activos comerciados en blockchain
+donations:
+  title: Apoyar la Prosperidad Económica
+  subtitle: Ayudar a incrementar la prosperidad económica apoyando el desarrollo técnico de Bitcoin Cash.
+  goal: "Nuestro objetivo es juntar 800 BCH al 1 de Agosto de 2019. Por favor, colaborá con nosotros!"
+  explanation: "Los desarrolladores de Bitcoin Cash necesitan tu apoyo para construir y mantener la infraestructura necesaria para mantener Bitcoin Cash competitivo y listo para la adopción global. Si estás interesado en futuras funcionalidades, seguridad y el suceso de Bitcoin Cash, por favor considerá contribuir con los equipos de desarrollo que están trabajando para hacer esto realidad."
+  recipient: "100% de tus donaciones serán para apoyar el desarrollo de Bitcoin Cash, permitiendo innovación y desarrollo sustentable, y por lo tanto agregando valor a la red y a su moneda."
+  percentage: /% de la meta alcanzada
+  total: donados de la meta de 800 BCH
+  total_tx: donaciones realizadas
+  days_left: días para finalizar
