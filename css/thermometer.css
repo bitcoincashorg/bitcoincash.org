@@ -115,9 +115,9 @@
 }
 
 .qr-codes {
-  width: 100px;
-  height: 100px;
-  margin: 0 0 10px 0;
+  width: 100%;
+  max-width: 100px;
+  margin: 0px 0 10px;
 }
 
 .donation-address {
