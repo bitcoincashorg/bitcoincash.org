@@ -3,7 +3,7 @@
 
 function updateCard(data) { 
     for ( i=0; i<data.length; i++) {
-        balance += data[i].balance;
+        balance += data[i].totalReceived;
         balance += data[i].unconfirmedBalance;
         transactions += data[i].transactions.length
       }
@@ -17,12 +17,12 @@ function updateCard(data) {
 
       $("#balance").html( balance.toFixed(2) + " BCH" );
       $("#transactions").html( transactions );
-     
-      var balance_percentage = ( balance / goal) * 100;
+
+      balance_percentage = ( balance / goal) * 100;
       $("#goal-bar").css("width", balance_percentage + "%");
-      $(".goal-percentage").html(balance_percentage.toFixed() + "% of goal reached");
-      
-      
+      $(".goal-percentage").html(balance_percentage.toFixed(2) + "% of goal reached");
+
+
 }
 
 
@@ -32,6 +32,7 @@ function updateCard(data) {
 let goal = 800;
 let balance = 0;
 let transactions = 0;
+let balance_percentage = 0;
 
 let ABC_address = "bitcoincash:qp0kctzt552fhpypt7e6v5dtk3u4qjp3pst59ct28x";
 let ABC_legacy = "19hYnDdS1hoMSxNbzLSWuso1jLSnntE3J7";
@@ -53,7 +54,6 @@ let general_legacy = "12rVQxQ31ZtpRCRKM924W7fs35GBdQm65J";
 let restCall = {
   "addresses": [
     ABC_address,
-    BU_address,
     HD_address,
     BC_address,
     general_address
@@ -102,7 +102,7 @@ txWatcher.onopen = event => {
       console.log(sendingAddr)
       // Parse the transaction to figure out how much was sent and to what address
       // First, initialize variables for this tx
-      
+
       let amountGeneral = 0
       for (let i=0; i<tx.x.out.length; i++) {
         switch(tx.x.out[i].addr) {
@@ -116,10 +116,13 @@ txWatcher.onopen = event => {
             //console.log(`Output not received by watched address; probably change from sender`)
         }
       }
-     
+
       if (amountGeneral !== 0) {
         balance += amountGeneral/1e8;
         transactions += 1;
+        balance_percentage = ( balance / goal) * 100;
+        $("#goal-bar").css("width", balance_percentage + "%");
+        $(".goal-percentage").html(balance_percentage.toFixed(2) + "% of goal reached");
         $("#balance").html( balance.toFixed(2) + " BCH" );
         $("#transactions").html( transactions );
         $("#thank-you-card-general").fadeIn().html("<div class='inner-thank-you'><p>New Donation Received!</p><div>" + amountGeneral/1e8.toFixed(2) + " BCH was just donated from " + "<span>" + sendingAddr + "</span>" + " <br>Thank you!</div></div>").delay(5000).fadeOut();
