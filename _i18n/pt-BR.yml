@@ -306,7 +306,7 @@ whitepaper:
   description: 'O artigo original foi publicado em 31 de Outubro de 2008 por Satoshi Nakamoto, o criador anônimo da primeira criptomoeda do mundo. O título do artigo Bitcoin é "Bitcoin: Um Sistema de Dinheiro Eletrônico Par-a-Par". Bitcoin Cash pretende continuar esta visão, de trazer uma moeda sólida para o mundo.'
 donate:
   button: "Doar Agora"
-  description: 'Os desenvolvedores do Bitcoin Cash precisam do seu apoio para construir a infra-estrutura necessária para manter o Bitcoin Cash competitivo e pronto para servir o mundo. A meta inicial é chegar a 800 BCH no final deste trimestre. Este será um bom começo na direção do financiamento sustentável de longo prazo para o desenvolvimento da infra-estrutura do Bitcoin Cash.'
+  description: 'Os desenvolvedores do Bitcoin Cash precisam do seu apoio para construir a infra-estrutura necessária para manter o Bitcoin Cash competitivo e pronto para servir o mundo. A meta inicial é chegar a 1600 BCH no final deste trimestre. Este será um bom começo na direção do financiamento sustentável de longo prazo para o desenvolvimento da infra-estrutura do Bitcoin Cash.'
 error404:
   subheading: A página que você está procurando não existe.
   button: Ir ao início
@@ -568,10 +568,10 @@ roadmap:
 donations:
   title: Apoiar a Prosperidade Econômica
   subtitle: Ajudar a aumentar a prosperidade econômica apoiando o desenvolvimento técnico do Bitcoin Cash.
-  goal: "Nossa meta é coletar 800 BCH até o 1º de agosto de 2019. Por favor, colabore conosco!"
+  goal: "Nossa meta é coletar 1600 BCH até o 1º de agosto de 2019. Por favor, colabore conosco!"
   explanation: "Os desenvolvedores do Bitcoin Cash precisam do seu apoio para construir e manter a infra-estrutura necessária para manter o Bitcoin Cash competitivo e pronto para adoção global. Se você estiver interessado em futuras funcionalidades, segurança e no sucesso do Bitcoin Cash, considere contribuir com as equipes de desenvolvimento que estão trabalhando para que isso aconteça."
   recipient: "100% das suas doações serão para apoiar o desenvolvimento do Bitcoin Cash, permitindo a inovação e o desenvolvimento sustentável e, portanto, agregando valor à rede e à sua moeda."
   percentage: \% da meta alcançada
-  total: doados da meta de 800 BCH
+  total: doados da meta de 1600 BCH
   total_tx: doações feitas
   days_left: dias para finalizar

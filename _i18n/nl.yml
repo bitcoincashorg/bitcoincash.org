@@ -306,7 +306,7 @@ whitepaper:
   description: 'De originele whitepaper werd op 31 oktober 2008 gepubliceerd door Satoshi Nakamoto de anonieme maker van ''s werelds eerste cryptogeld. De titel van het Bitcoin whitepaper is "Bitcoin: een peer-to-peer elektronisch-cash-systeem". Bitcoin Cash streeft ernaar deze visie voort te zetten om solide geld naar de wereld te brengen.'
 donate:
   button: "Doneer Nu"
-  description: 'De Bitcoin Cash-ontwikkelaars hebben uw ondersteuning nodig om de software infrastructuur te bouwen die nodig is om Bitcoin Cash competitief and te houden en klaar te maken voor gebruik over de hele wereld. Het eerste doel is om 800 BCH voor het eind van dit kwartaal te halen. Dit zal een goed begin zijn op weg naar duurzame lange termijn bekostiging van Bitcoin Cash infrastructuur ontwikkeling.  '
+  description: 'De Bitcoin Cash-ontwikkelaars hebben uw ondersteuning nodig om de software infrastructuur te bouwen die nodig is om Bitcoin Cash competitief and te houden en klaar te maken voor gebruik over de hele wereld. Het eerste doel is om 1600 BCH voor het eind van dit kwartaal te halen. Dit zal een goed begin zijn op weg naar duurzame lange termijn bekostiging van Bitcoin Cash infrastructuur ontwikkeling.  '
 error404:
   subheading: "De pagina die je zoekt bestaat niet. "
   button: Ga naar de startpagina
@@ -568,10 +568,10 @@ roadmap:
 donations:
   title: Ondersteun Economische Voorspoed
   subtitle: Help economische voorspoed te bevorderen door technische ontwikkeling van Bitcoin Cash te ondersteunen.
-  goal: Ons doel is om 800 BCH in te zamelen voor 1 Augustus 2019. Help ons alstublieft dit doel te behalen!
+  goal: Ons doel is om 1600 BCH in te zamelen voor 1 Augustus 2019. Help ons alstublieft dit doel te behalen!
   explanation: "De Bitcoin Cash-ontwikkelaars hebben uw ondersteuning nodig om de software infrastructuur te bouwen die nodig is om Bitcoin Cash competitief and te houden en klaar te maken voor gebruik over de hele wereld. Als de toekomstige functionaliteit, veiligheid en het succes van Bitcoin Cash belangrijk voor u zijn, alstublieft overweeg dan de ontwikkelaars te ondersteunen die eraan werken om dit te realiseren."
   recipient: 100% van uw donatie zal naar de ondersteuning van Bitcoin Cash-ontwikkeling gaan om duurzame ontwikkeling en innovatie mogelijk te maken en daardoor waarde toevoegend aan het netwerk en zijn munt.
   percentage: \% van het doel bereikt
-  total: gedoneerd van het 800 BCH doel
+  total: gedoneerd van het 1600 BCH doel
   total_tx: gedane donaties
   days_left: dagen te gaan
