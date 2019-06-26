@@ -15,7 +15,7 @@ contract BCHToken is MintableToken {
     string public symbol = "BCH";
 
     // token decimals
-    uint256 public decimals = 18;
+    uint256 public decimals = 8;
 
     /**
      * @dev Constructor
@@ -28,9 +28,9 @@ contract BCHToken is MintableToken {
     )
         MintableToken(
             _initialSupplyAddress,
-            79000000e18,            // initial supply
-            350000e18,              // first iteration max supply
-            100000000e18,           // max supply for all time
+            21e8,            // initial supply
+            21e8,              // first iteration max supply
+            21e8,           // max supply for all time
             100,                    // supply iteration every 100 blocks (17 sec per block)
             _additionalOwners,      // additional owners
             2                       // required number for a operations to be approved
