@@ -1,7 +1,7 @@
 pragma solidity ^0.4.11;
 
 
-import './MintableToken.sol';
+import './MintableToken.sol'; //myneTEC contract: 0xe9a6499D2c5C7784A2CA9332872A5e7B46d1A677
 
 
 /**
