@@ -12,6 +12,7 @@ Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
 0x00242424,Cashies,Cashies Developers,,,
 0x00666770,OFGP,OFGP Devs,bitcoincash:qzn9zdurl5hf25h8hkjue3dtqsywl3mpesw0p08z5u,https://github.com/ofgp,
 0x00434d4C,BCML,Crypto-Steve,bitcoincash:qpz4hkg4z0xqny326k90pqvdud57h6m0agk0pj6e62,https://github.com/Cryto-Steve/BCML/,
+0x0048533e,p2sh notification,Karol Trzeszczkowski,bitcoincash:qq93dq0j3uez8m995lrkx4a6n48j2fckfuwdaqeej2,https://gist.github.com/KarolTrzeszczkowski/3f7e719902e8d678efcc71875df66f21,
 0x004F5243,Oracle Data,Emil Oldenburg,,https://oracle.bitcoin.com,
 0x00504642,BitcoinFiles,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8, http://bitcoinfiles.com,
 0x00504c53,Simple Ledger Protocol,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8,http://simpleledger.cash/,
