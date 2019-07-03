@@ -22,7 +22,7 @@ contract BCHToken is MintableToken {
      * @param _initialSupplyAddress The address that will recieve the initial minted tokens.
      * @param _additionalOwners A list of owners.
      */
-    function OTNToken(
+    function BCHToken(
         address _initialSupplyAddress,
         address[] _additionalOwners
     )
