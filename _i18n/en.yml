@@ -523,6 +523,9 @@ roadmap:
     list-1: Enable Bitcoin Cash to scale from ~100 Tx/s to over 5,000,000 Tx/s. Protocol improvements must be made so that mass-parallelization can enable this level of transaction processing.
     list-2: Improving the payment experience to ensure that it is instant and reliable. Transactions should be secure within three seconds.
     list-3: Make Bitcoin Cash extensible. An extensible protocol makes future improvements less disruptive, and provides a solid base for businesses and developers to build on.
+    upgrade-schedule-1: The Bitcoin Cash network has protocol upgrades twice a year, on November 15th and May 15th. For node operators (including exchanges), these upgrades are required. They are sometimes referred to as "hard fork upgrades", but the term "scheduled protocol upgrades" is preferred.
+    upgrade-schedule-2: Rather than a specific block height, the upgrades are based on a timestamp. When the median timestamp of the most recent 11 blocks (MTP-11) is greater than or equal to UNIX timestamp of November 15th (or May 15th) 12:00:00 UTC, the new protocol rules take effect.
+    upgrade-schedule-3: Although this semi-annual upgrade schedule is not expected to continue forever, it is in place for the forseeable near-term future. Regular protocol upgrades provide a predictable cadence for the ecosystem, and are necessary to achieve the vision of the roadmap.
     end: To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.
   complete: Complete
   underway: underway
