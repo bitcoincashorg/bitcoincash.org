@@ -9,9 +9,9 @@ author: Mark B. Lundeberg
 
 # Summary
 
-In the November 2019 upgrade, it is proposed that two new consensus rules will be introduced to Bitcoin Cash:
-- during script execution, executed push opcodes will be restricted to be the minimal form for the resultant stack element.
-- during script execution, the decoding of stack elements as numbers will be restricted to only allow minimal forms, in most cases.
+In the November 2019 upgrade, two new consensus rules are introduced to Bitcoin Cash:
+- during script execution, executed push opcodes are restricted to be the minimal form for the resultant stack element.
+- during script execution, the decoding of stack elements as numbers are restricted to only allow minimal forms, in most cases.
 
 # Motivation
 
@@ -23,7 +23,7 @@ For some transactions, an additional malleability mechanism is also present:
 
 * Some smart contracts perform operations on numbers that are taken from the scriptSig, and numbers in bitcoin's Script language are allowed to have multiple representations on stack. The number -1, for example, can be represented by `{0x81}`, `{0x01, 0x80}`, `{0x01, 0x00, 0x80}`, `{0x01, 0x00, 0x00, 0x80}`.
 
-For years now, the "MINIMALDATA" flag, which restricts both of the aforementioned malleability vectors, has been active at the mempool layer of most nodes but not at the consensus layer. This document proposes to convert the MINIMALDATA rules to consensus, and contains a full specification of these rules.
+For years now, the "MINIMALDATA" flag, which restricts both of the aforementioned malleability vectors, has been active at the mempool layer of most nodes but not at the consensus layer. The upgrade converts the existing MINIMALDATA rules to consensus. For reference, this document contains a full specification of these rules.
 
 It is of course impossible to completely remove third-party malleability in bitcoin (not even using techniques like SegWit) since a transaction can be made that involves no signature or where the signing key is not a secret, or where permutations are permitted (e.g., [SINGLE|ANYONECANPAY](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki#specification)). We can however remove it for large classes of transactions, and this has been the goal of the past upgrades. Bringing MINIMALDATA to the consensus layer, along with the [dummy element restrictions in the OP_CHECKMULTISIG upgrade](2019-11-15-schnorrmultisig.md), finally achieves the goal of removing third-party malleability from the vast majority of transactions performed on BCH.
 
@@ -42,7 +42,7 @@ It is of course impossible to completely remove third-party malleability in bitc
 * Opcode 95 (OP_15) pushes the one-byte element `{0x0f}`.
 * Opcode 96 (OP_16) pushes the one-byte element `{0x10}`.
 
-It can be seen from the above list that any given byte array can be pushed in a variety of ways. However for any given byte array, there is a unique shortest possible way to push the byte array.
+It can be seen from the above list that any given byte array can be pushed in a variety of ways. However, for any given byte array there is a unique shortest possible way to push the byte array.
 
 **Number representation** — Although bitcoin's stack is just a sequence of byte arrays, there are numerous Script opcodes that expect to take integers from the stack, which means they decode the byte array to an integer before logically using the integer. The way Script represents numbers as byte arrays is using a variable-length, little-endian [sign-and-magnitude representation](https://en.wikipedia.org/wiki/Signed_number_representations#Signed_magnitude_representation_(SMR)). This is typical for a multiprecision or 'bignum' arithmetic computing environment, but may be unfamiliar for programmers who are used to 'bare-metal' integer computing that uses fixed-width two's complement (or rarely, ones' complement) representation.
 
@@ -86,7 +86,7 @@ It is worth emphasizing that the above rules only apply at the moment when push 
 
 ## Minimal number encoding
 
-It is proposed that (almost) all opcodes that take numbers from the stack shall require the stack element to be a minimally encoded representation:
+Most opcodes that take numbers from the stack shall require the stack element to be a minimally encoded representation. To be specific, these operands must be minimally encoded numbers:
 * The single operand of OP_PICK and OP_ROLL.
 * The single operand of OP_1ADD, OP_1SUB, OP_NEGATE, OP_ABS, OP_NOT, OP_0NOTEQUAL.
 * Both operands of OP_ADD, OP_SUB, OP_DIV, OP_MOD, OP_BOOLAND, OP_BOOLOR, OP_NUMEQUAL, OP_NUMEQUALVERIFY, OP_NUMNOTEQUAL, OP_LESSTHAN, OP_GREATERTHAN, OP_LESSTHANOREQUAL, OP_GREATERTHANOREQUAL, OP_MIN, OP_MAX.
@@ -100,6 +100,8 @@ However, four opcodes are special in the numeric inputs they accept:
 
 * OP_CHECKLOCKTIMEVERIFY and OP_CHECKSEQUENCEVERIFY both take up to **5-byte** numbers from the stack, a deviation from the usual 4-byte limit. Regardless, we shall require that these 5-byte numbers also be minimally encoded.
 * The first operand of OP_NUM2BIN and the single operand of OP_BIN2NUM will continue to have *no minimal encoding restrictions* and *no length restrictions* (see [their specification](may-2018-reenabled-opcodes.md) for more information).
+
+The following opcodes notably do not appear in the above lists since they do *not* decode their inputs as numbers, and thus they have no minimal number encoding rules: OP_IF, OP_NOTIF, OP_VERIFY, OP_IFDUP, OP_AND, OP_OR, OP_XOR.
 
 # Rationale and commentary on design decisions
 
