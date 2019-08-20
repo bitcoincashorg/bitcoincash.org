@@ -521,6 +521,10 @@ ol {
   padding-top: 7rem;
 }
 
+.pt-4 {
+  padding-top: 4rem;
+}
+
 .pointer {
   transition-duration: .1s;
 }
