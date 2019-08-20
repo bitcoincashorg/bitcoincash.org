@@ -1,4 +1,4 @@
-2019-05-15 Upgrade Testnet
+2019-11-15 Upgrade Testnet
 ==========================
 
 On Nov 15, 2019 the Bitcoin Cash network will undergo a planned protocol upgrade, as part of a series of regularly scheduled network upgrades. The changes have been [specified](https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/2019-11-15-upgrade.md) and implemented three months prior to upgrade activation in order to permit the ecosystem to prepare well in advance.
