@@ -799,3 +799,22 @@ ol {
     height:111% !important;
   }
 }
+
+/* Developers */
+.float-right {
+  float: right;
+}
+
+.python-bg {
+  background-size: cover;
+  min-height: 260px !important;
+}
+
+.js-bg {
+  background-size: cover;
+  min-height: 260px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
