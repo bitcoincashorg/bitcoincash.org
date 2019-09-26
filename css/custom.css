@@ -564,6 +564,8 @@ ol {
 
 .roadmap{
   position:relative;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 .roadmap .row:after {
   width:67%;
