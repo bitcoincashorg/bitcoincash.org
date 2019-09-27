@@ -303,7 +303,8 @@ networkupgrade:
   date-2020-11-15: "November 15th, 2020"
   date-2021-05-15: "May 15th, 2021"
 whitepaper:
-  description: 'The original whitepaper was published on October 31, 2008 by Satoshi Nakamoto, the anonymous creator of the worlds first cryptocurrency. The title of the Bitcoin whitepaper is "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin Cash aims to continue this vision of bringing sound money to the world.'
+  description: >
+    The original whitepaper was published on October 31, 2008 by Satoshi Nakamoto, the anonymous creator of the world's first cryptocurrency. The title of the Bitcoin whitepaper is "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin Cash aims to continue this vision of bringing sound money to the world.
 donate:
   button: "Donate Now"
   description: 'The developers of Bitcoin Cash need your support to build the software infrastructure necessary to keep Bitcoin Cash competitive and ready to serve the world. The initial goal is to reach 1600 BCH by the end of this quarter. This will be a good start towards the goal of sustainable long-term funding for Bitcoin Cash infrastructure development.'
