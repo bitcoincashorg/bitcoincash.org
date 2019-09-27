@@ -13,3 +13,5 @@ References
 
 [BIP 70 Specification](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki)
 
+[Bitpay Payment Protocol Specification](https://bitpay.com/docs/payment-protocol)
+
