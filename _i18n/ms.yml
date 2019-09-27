@@ -7,15 +7,15 @@ title:
 meta:
   index:
     description: |
-      Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
+      Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga melalui pengesahan yang dipercayai. Masa depan cerah dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
     twitter:
       title: "Bitcoin Cash - Wang elektronik langsung P2P"
       description: |
-        Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
+        Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan cerah dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
     og:
       title: "Bitcoin Cash - Wang elektronik langsung P2P"
       description: |
-        Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
+        Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan cerah dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
   graphics:
     description: |
       A collection of logos and graphics for Bitcoin Cash.
@@ -83,12 +83,12 @@ sections:
   features: "Ciri-ciri"
   nodes: "Nod"
   wallets: "Dompet"
-  community: "Masyarakat"
+  community: "Komuniti"
   services: "Perkhidmatan"
   projects: "Projek-projek"
   exchanges: "Penukar-penukar Wang"
-  graphics: "Logos / Graphics"
-  faq: "FAQ"
+  graphics: "Logo / Grafik"
+  faq: "Soalan Lazim"
 layout:
   bitcoin_cash: "Bitcoin Cash"
   lead: "Peer-to-Peer Electronic Cash"
@@ -118,9 +118,9 @@ headings:
 content:
   about:
     - |
-      Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini, memenuhi janji asal Bitcoin iaitu: "Wang Electronik P2P". Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
+      Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini, memenuhi janji asal Bitcoin iaitu: "Wang Elektronik P2P". Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan cerah dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
     - |
-      Semua yang mempunyai Bitcoin sejak blok 478558 juga mempunyai Bitcoin Cash. Kamu semua dialu-alukan untuk menyertai masyarakat Bitcoin Cash dan bergerak langsung untuk mencipta wang yang kukuh yang mudah didatangi setiap manusia di dunia ini.
+      Semua yang mempunyai Bitcoin sejak blok 478558 juga mempunyai Bitcoin Cash. Kamu semua dialu-alukan untuk menyertai komuniti Bitcoin Cash dan bergerak langsung untuk mencipta wang yang kukuh yang mudah didatangi setiap manusia di dunia ini.
   faq:
     - question: "Apakah itu Bitcoin Cash?"
       answer:

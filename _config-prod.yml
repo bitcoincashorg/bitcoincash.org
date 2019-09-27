@@ -56,8 +56,10 @@ languages:
   - pt-BR
   - ru
   - es
+  - es_419
   - tr
   - id
+  - nl
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
 

@@ -21,55 +21,18 @@
 
     </div>
 </section>
-<!-- <div class="container reminder-bar">
- <div class="panel panel-default navbar-fixed-bottom">
-  <div class="panel-heading">
-      <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="event.preventDefault();">
-              <ion-icon name="construct"></ion-icon>
-              {% t 'networkupgrade.reminder' %}: {% t 'networkupgrade.date' %} {% t 'networkupgrade.title' %}
-          </a>
-      </h4>
-  </div>
-  <div id="collapseOne" class="panel-collapse collapse">
-    <div class="panel-body">
-      <div class='col-sm-12 col-md-6'>
-          <h3>{% t 'networkupgrade.date' %} {% t 'networkupgrade.title' %}</h3>
-          <p>{% t 'networkupgrade.description' %}</p>
 
-          <a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" onclick="event.preventDefault();"><ion-icon name="close"></ion-icon> {% t 'networkupgrade.close' %}</a>
-
-      </div>
-        <div class="col-sm-12 col-md-6 text-center reminder-links">
-          <h4>{% t 'networkupgrade.compatible' %}:</h4>
-          <a href="https://download.bitcoinabc.org/0.18.3/" title="Bitcoin ABC 0.18.3" target="_blank">
-              <ion-icon name="link"></ion-icon> Bitcoin ABC 0.18.3
-          </a>
-          <a href="https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/dev/doc/release-notes/release-notes-bucash1.5.0.1.md" title="Bitcoin Unlimited Cash Edition 1.5.0.1">
-              <ion-icon name="link"></ion-icon> Bitcoin Unlimited Cash Edition 1.5.0.1
-          </a>
-          <a href="https://github.com/bitcoinxt/bitcoinxt/releases/tag/v0.11K" title="Bitcoin XT Release K">
-              <ion-icon name="link"></ion-icon> Bitcoin XT Release K
-          </a>
-          <a href="https://github.com/bcoin-org/bcash/blob/master/CHANGELOG.md#v110" title="bcoin bcash" target="_blank">
-              <ion-icon name="link"></ion-icon> bcoin - bcash 1.1.0
-          </a>
-          <h4>{% t 'networkupgrade.additional' %}:</h4>
-          <a href="https://github.com/bitcoincashorg/bitcoincash.org/pull/94/files" title="November Hardfork Spec" target="_blank">
-              <ion-icon name="link"></ion-icon> {% t 'networkupgrade.hfspec' %}
-          </a>
-          <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/op_checkdatasig.md" title="Spec for OP_CHECKDATASIG and OP_CHECKDATASIGVERIFY" target="_blank">
-              <ion-icon name="link"></ion-icon> {% t 'networkupgrade.spec' %}
-          </a>
-
-          <a href="https://docs.google.com/spreadsheets/d/1Wg2ciYk7efDFpUD9qIz2Q9-Qp4H8i0Io8ThdDbGdyPU" title="Testnet Information" target="_blank">
-           <ion-icon name="link"></ion-icon> {% t 'networkupgrade.testnet' %}
-          </a>
+<section class="space--xxs">
+    <div class="container">
+        <div class="community-cta section-heading to-animate">
+            <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
+                <img width="350" src="/img/bch-dev-fund.png" alt="Dev Fund">
+                <p class="pt-4">The campaign has successfully achieved its initial goal of raising 800 BCH. Thank you to all the contributors to the Bitcoin Cash Development Fund. We appreciate your help in supporting the technical development of Bitcoin Cash.</p>
+                <a href="fundraise-complete.html" class="btn btn-secondary large btn-round">Read more</a>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</div> -->
+</section>
 
 <section class="space--xxs">
     <div class="container benefits">
@@ -83,26 +46,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-
-    <section class="space--xxs" id="roadmap">
-        <div class="container">
-            <div class="community-cta section-heading to-animate">
-                <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
-                    <p><strong>{% t 'headings.roadmap' %}</strong></p>
-                    <p>To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.</p>
-                    
-                    <a class="btn btn-primary large btn-round" href="roadmap.html">
-                       View The Roadmap
-                    </a>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+    {% include home/roadmap-cta.html %}
 
     <section class="space--xxs no-bottom" >
         <div class="container benefits">
@@ -167,24 +114,18 @@
                     <a class="btn btn-default large round" href="http://reddit.com/r/btc" target="_blank">
                         <ion-icon name="logo-reddit"></ion-icon> /r/btc
                     </a>
-                    <a class="btn btn-default large round" href="http://reddit.com/r/bitcoincash" target="_blank">
-                        <ion-icon name="logo-reddit"></ion-icon> /r/bitcoincash
-                    </a>
-                    <a class="btn btn-default large round" href="https://btcforks.slack.com/" target="_blank">
-                        <ion-icon name="logo-slack"></ion-icon> Slack
-                    </a>
                     <a class="btn btn-default large round" href="https://www.facebook.com/bitcoincashorg/" target="_blank">
                         <ion-icon name="logo-facebook"></ion-icon> Facebook
                     </a>
                     <a class="btn btn-default large round" href="https://t.me/BitcoinCashUpdates" target="_blank">
                         <ion-icon name="paper-plane"></ion-icon> Telegram
                     </a>
-                    <a class="btn btn-default large round" href="https://bitcoincashtalk.org" target="_blank">
-                        <ion-icon name="globe" role="img" class="hydrated" aria-label="globe"></ion-icon> BitcoinCashTalk
-                    </a>
                     <a class="btn btn-default large round" href="https://github.com/bitcoincashorg/bitcoincash.org" target="_blank">
-                            <i class="socicon socicon-github"></i> GitHub
-                        </a>
+                        <i class="socicon socicon-github"></i> GitHub
+                    </a>
+                    <a class="btn btn-default large round" href="http://reddit.com/r/bitcoincash" target="_blank">
+                        <ion-icon name="logo-reddit"></ion-icon> /r/bitcoincash
+                    </a>
                 </div>
             </div>
         </div>

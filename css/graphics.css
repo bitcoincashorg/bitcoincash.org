@@ -249,6 +249,7 @@ iframe {
 
 
 
+
 body {
   font-family: "Ubuntu", Arial, sans-serif;
   font-weight: 300;
@@ -440,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   opacity: 1;
   top: 0;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width:865px) {
@@ -835,8 +836,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav > li ion-icon {
   color:#fff;
-  float: left;
   margin-right: 3px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li ion-icon {
+    float: left;
+  }
 }
 
 .navbar-fixed-top .navbar-nav > li ion-icon {
@@ -898,6 +904,25 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 101%;
 }
+
+
+@media screen and (min-width: 2300px) {
+  .slant, .slant-top {
+    transform: rotate(-1.4deg);
+    -ms-transform: rotate(-1.4deg);
+    -webkit-transform: rotate(-1.4deg);
+    -o-transform: rotate(-1.4deg);
+    -moz-transform: rotate(-1.4deg);
+  }
+}
+@media screen and (min-width: 3000px) {
+  .slant, .slant-top {
+    display:none;
+  }
+}
+
+
+
 
 #fh5co-intro {
   position: relative;

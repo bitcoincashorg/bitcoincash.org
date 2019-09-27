@@ -57,7 +57,7 @@ languages:
   # - id
   # - it
   # - ja
-  - ko
+  # - ko
   # - ms
   # - nl
   # - pl
@@ -67,7 +67,7 @@ languages:
   # - sk
   # - tr
   # - vi
-  - zh-CN
+  # - zh-CN
   # - zh-TW
 
 exclude_from_localizations: ["js", "assets", "css", "img", "fonts", "media-kit"]
