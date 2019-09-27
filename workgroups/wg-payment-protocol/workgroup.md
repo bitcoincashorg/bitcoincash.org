@@ -23,5 +23,7 @@ See [Agenda](agenda.md)
 
  * Jason Dreyzehner
  * Chris Pacia
+ * Licho
+ * bchcoffee
  
 {% include sub-list.html group='payment-protocol' %}
