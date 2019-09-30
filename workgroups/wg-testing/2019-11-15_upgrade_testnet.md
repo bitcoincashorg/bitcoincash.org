@@ -7,34 +7,29 @@ To assist technical preparations for the upgrade, a testnet is available where t
 
 ## Upgrade Testnet Parameters
 
-Fork time: `1566227700`  (August 19, 2019 15:15:00 UTC)
-
-Last old-rules block hash (height=1322706, mediantime=1566228221):
-`0000000005169def04a5f0cba7e6eadcafa361007496554e62e1cebdfb148a1a`
-
-First new-rules block hash (height=1322707):
-`000000000b1246b802e56ce28c2beb597b907ca44d983e8b0c71f7f224fd97ab`
-This block contains a Schnorr multisig transaction.
+Fork time: `1570082400`  (October 03, 2019 06:00:00 UTC)
 
 ## Set up a node
 
-Run Bitcoin ABC 0.20.0 with:
+Run Bitcoin ABC 0.20.X with:
 ```
-bitcoin-qt -testnet -gravitonactivationtime=1566227700 -addnode=testnet.imaginary.cash
+bitcoind -testnet -gravitonactivationtime=1570082400 -addnode=testnet.imaginary.cash
 ```
 
 Alternatively as bitcoin.conf file:
 ```
 testnet=1
 addnode=testnet.imaginary.cash
-gravitonactivationtime=1566227700
+gravitonactivationtime=1570082400
 ```
 
-You should also run this to avoid soft-forking back onto normal testnet:
+You should also run these commands to get from the previous upgrade testnet back onto regular testnet,
+and then from regular testnet onto the new upgrade testnet:
 
 ```
-bitcoin-cli -testnet invalidateblock 000000000000067656459385ff54b1178d985a5334f40e209c1e3580c08cc18b
-```
+bitcoin-cli -testnet reconsiderblock 000000000000067656459385ff54b1178d985a5334f40e209c1e3580c08cc18b
+bitcoin-cli -testnet invalidateblock 000000000b1246b802e56ce28c2beb597b907ca44d983e8b0c71f7f224fd97ab
+bitcoin-cli -testnet invalidateblock 000000000002364d1632d3be0744d1e4283b9a478097fb1e115ad98de94cd3a0
 
 ## Other services
 
