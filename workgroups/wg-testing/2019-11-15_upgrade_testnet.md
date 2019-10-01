@@ -23,6 +23,18 @@ addnode=testnet.imaginary.cash
 gravitonactivationtime=1570082400
 ```
 
+for Bitcoin Unlimited, run:
+```
+bitcoind -testnet -consensus.forkNov2019Time=1570082400 -addnode=testnet.imaginary.cash
+```
+
+or setup the bitcoin.conf file as:
+```
+testnet=1
+addnode=testnet.imaginary.cash
+consensus.forkNov2019Time=1570082400
+```
+
 You should also run these commands to get from the previous upgrade testnet back onto regular testnet,
 and then from regular testnet onto the new upgrade testnet:
 
@@ -30,6 +42,12 @@ and then from regular testnet onto the new upgrade testnet:
 bitcoin-cli -testnet reconsiderblock 000000000000067656459385ff54b1178d985a5334f40e209c1e3580c08cc18b
 bitcoin-cli -testnet invalidateblock 000000000b1246b802e56ce28c2beb597b907ca44d983e8b0c71f7f224fd97ab
 bitcoin-cli -testnet invalidateblock 000000000002364d1632d3be0744d1e4283b9a478097fb1e115ad98de94cd3a0
+```
+
+Or alternatively, sync testnet3 from scratch and then run
+```
+bitcoin-cli -testnet invalidateblock 000000000002364d1632d3be0744d1e4283b9a478097fb1e115ad98de94cd3a0
+```
 
 ## Other services
 
