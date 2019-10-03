@@ -15,3 +15,7 @@ References
 
 [Bitpay Payment Protocol Specification](https://bitpay.com/docs/payment-protocol)
 
+[Vin Armani's Jeton Lib - BIP 70 protocol extensions](https://github.com/jeton-tech/payment-protocol-extensions)
+
+[Developer meeting discussion of BIP 70](https://youtu.be/98Vg1HtTAec?t=1881)
+
