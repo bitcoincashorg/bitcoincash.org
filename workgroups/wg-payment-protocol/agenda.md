@@ -10,8 +10,9 @@ Aim
 The aim of the workgroup is to improve the BIP-70 specification, and develop improvements to the specification,
 and implementations of the payment protocol.
 
-Milestones
-----------
+Work Plan
+---------
+
 Suggested steps and interim goals
  - Conduct a survey of current BIP-70 implementation status, looking at the state of how it is implemented
    across wallets and merchant services.
