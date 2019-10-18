@@ -1,12 +1,9 @@
-version: '2'
-
+version: '2.4'
 services:
-    webserver:
-      context: .
-      build: ./docker
-      image: bitcoincash:latest
-      ports: 
-        - 8888:80
-      volumes:
-        - /usr/share/nginx/html/
-  
+  bitcoin-cash-org:
+    build: .
+    image: bitcoin-cash-org:latest
+    ports:
+      - '8080:80'
+    volumes:
+      - /usr/share/nginx/html/
