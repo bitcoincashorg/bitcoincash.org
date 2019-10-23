@@ -25,5 +25,6 @@ See [Agenda](agenda.md)
  * Chris Pacia
  * Licho
  * bchcoffee
+ * Julian Smith
  
 {% include sub-list.html group='payment-protocol' %}
