@@ -42,7 +42,7 @@ Mode 2 (new Schnorr support, M-of-N; consumes N+M+3 items from stack):
 
 ## Triggering and execution mechanism
 
-Whether to execute in mode 1 or mode 2 is detemined by the size of the dummy / checkbits element.
+Whether to execute in mode 1 or mode 2 is determined by the size of the dummy / checkbits element.
 * If the checkbits element is NULL (length 0), then Mode 1 is executed
 * If the checkbits element is non-NULL (length > 0), then Mode 2 is executed.
 
