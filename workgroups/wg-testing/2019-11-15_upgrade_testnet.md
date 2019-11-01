@@ -7,47 +7,49 @@ To assist technical preparations for the upgrade, a testnet is available where t
 
 ## Upgrade Testnet Parameters
 
-Fork time: `1570082400`  (October 03, 2019 06:00:00 UTC)
+Fork time: `1572850800`  (November 04, 2019 07:00:00 UTC)
 
 ## Set up a node
 
 Run Bitcoin ABC 0.20.X with:
 ```
-bitcoind -testnet -gravitonactivationtime=1570082400 -addnode=testnet.imaginary.cash
+bitcoind -testnet -gravitonactivationtime=1572850800 -addnode=testnet.imaginary.cash
 ```
 
 Alternatively as bitcoin.conf file:
 ```
 testnet=1
 addnode=testnet.imaginary.cash
-gravitonactivationtime=1570082400
+gravitonactivationtime=1572850800
 ```
 
 for Bitcoin Unlimited, run:
 ```
-bitcoind -testnet -consensus.forkNov2019Time=1570082400 -addnode=testnet.imaginary.cash
+bitcoind -testnet -consensus.forkNov2019Time=1572850800 -addnode=testnet.imaginary.cash
 ```
 
 or setup the bitcoin.conf file as:
 ```
 testnet=1
 addnode=testnet.imaginary.cash
-consensus.forkNov2019Time=1570082400
+consensus.forkNov2019Time=1572850800
 ```
 
 You should also run these commands to get from the previous upgrade testnet back onto regular testnet,
 and then from regular testnet onto the new upgrade testnet:
 
 ```
-bitcoin-cli -testnet reconsiderblock 000000000000067656459385ff54b1178d985a5334f40e209c1e3580c08cc18b
-bitcoin-cli -testnet invalidateblock 000000000b1246b802e56ce28c2beb597b907ca44d983e8b0c71f7f224fd97ab
-bitcoin-cli -testnet invalidateblock 000000000002364d1632d3be0744d1e4283b9a478097fb1e115ad98de94cd3a0
+bitcoin-cli -testnet reconsiderblock 000000000002364d1632d3be0744d1e4283b9a478097fb1e115ad98de94cd3a0
+bitcoin-cli -testnet invalidateblock 00000000566f3f20c1d6b0970b7c53bc2db993b0ec6439cee846fe42be0e2284
+bitcoin-cli -testnet invalidateblock 0000000000003ed4ec3f13b02bd08d9517ab135e249878f6c3b6b73bebde6dd2
 ```
 
 Or alternatively, sync testnet3 from scratch and then run
 ```
-bitcoin-cli -testnet invalidateblock 000000000002364d1632d3be0744d1e4283b9a478097fb1e115ad98de94cd3a0
+bitcoin-cli -testnet invalidateblock 0000000000003ed4ec3f13b02bd08d9517ab135e249878f6c3b6b73bebde6dd2
 ```
+
+After invalidating the block, the "new" block 1338207 has hash 00000000262d9b66138b58ee561959a060afa2ed6d8797e21403714935eb4a98
 
 ## Other services
 
