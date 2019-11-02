@@ -170,7 +170,7 @@ workgroups:
       description: "Planning and coordination for advancements in Bitcoin Cash Wallets."
     wg-watercooler:
       title: "Watercooler"
-      description: "Discussion related to sidechains on Bitcoin Cash and in general."
+      description: "Discussion related to Watercooler."
 learn:
   title: "Learn Bitcoin Cash development"
   description: "Pick up new skills to create amazing things"
