@@ -28,3 +28,4 @@ Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
 0x04008080,BCH-DNS,BCHDNS Devs,bitcoincash:qqcash37qskcqn2jm2qlkgts5ju7lh9ft5v59l7005,https://domains.bch.sx,https://domains.bch.sx/whois/{txid}
 0x054c5638,TokenGroups,Bitcoin Unlimited,bitcoincash:pq6snv5fcx2fp6dlzg7s0m9zs8yqh74335tzvvfcmq,,
 0x08776863,Wormhole,Wormhole developer,bitcoincash:qzp3ww6whlf8659e9wx0apw8l2m5w6nfxchyajkyx5,http://wormhole.cash,
+0x42696c61,Bitex.la,Bitex.la,,
