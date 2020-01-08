@@ -114,7 +114,7 @@ The opcode will be activated during the 15th May 2020 hardfork.
 
 ### Unit Tests
 
- - `<item> OP_BSWAP` fails if 15 November 2019 protocol upgrade is not yet activated.
+ - `<item> OP_BSWAP` fails if 15th May 2020 protocol upgrade is not yet activated.
  - `OP_BSWAP` fails if the stack is empty.
  - `<item> OP_BSWAP` fails if the top stack item after execution is not <item> byte-reversed.
  - `{0x12, 0x34, 0x56} {0x56, 0x34, 0x12} OP_BSWAP OP_EQUALVERIFY` succeeds with an empty stack.
