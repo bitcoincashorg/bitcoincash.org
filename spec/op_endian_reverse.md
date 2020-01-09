@@ -1,16 +1,16 @@
 ---
 layout: specification
-title: OP_BSWAP Specification
+title: OP_ENDIAN_REVERSE Specification
 category: spec
 date: 2019-5-29
 activation: 2020-5-15
 version: 0.2
 ---
 
-OP_BSWAP
+OP_ENDIAN_REVERSE
 ==========
 
-OP_BSWAP reverses the bytes of the top stackitem.
+OP_ENDIAN_REVERSE reverses the bytes of the top stackitem.
 
 Rationale
 ---------
@@ -54,13 +54,13 @@ OP_SWAP        // <value 4th, 3rd, 2nd byte> <value 1st byte>
 OP_CAT         // <value 4-byte big endian>
 ```
 
-However, if with OP_BSWAP, this becomes trivial:
+However, if with OP_ENDIAN_REVERSE, this becomes trivial:
 
 ```
 // convert to bytes
-PUSH 4         // <SLP value> 4
-OP_NUM2BIN     // <SLP value 4-byte little endian>
-OP_BSWAP       // <SLP value 4-byte big endian>
+PUSH 4            // <SLP value> 4
+OP_NUM2BIN        // <SLP value 4-byte little endian>
+OP_ENDIAN_REVERSE // <SLP value 4-byte big endian>
 ```
 
 That's 11 bytes (9 operations and 3 pushdata) saved. 
@@ -69,44 +69,44 @@ There are multiple reasons why the second version would be preferable:
 
 * Covenants and looping scripts usually take the script code of the preimage [9] as input, which means every operation counts twice: Once for the stack item containing the script code, and once for the P2SH script stack item [10]. For a conversion to 8-byte big-endian, this would save 32 bytes per conversion, and if there's, say, three of those conversions in a script, it would already amount to 96 bytes - a non-trivial number of bytes for a transaction.
 * The cognitive load of developing scripts using the larger snippet above is increased unnecessarily. Developing scripts, by hand or by using tools such as macros or Spedn, already puts a lot of cognitive load on developers, and errors can be devastating to the community. A prominent example of such a failure is the contentious hard-fork on the Ethereum blockchain that was caused by a bug in The DAO smart contract.
-* The first version assumes that Script uses 32-bit numbers, however, once integers with larger width are implemented, the script gets linearly longer (4 bytes/byte) with each additional byte. For 256-bit numbers, it would require a whopping 124 bytes (93 operations and 31 pushdata) to convert to big-endian. As the opcode limit currently is 201, that wouldn't leave much room for other operations. In contrast, `<N> OP_NUM2BIN OP_BSWAP` always encodes integers as N-byte big-endian number, with a constant script size independent of N.
+* The first version assumes that Script uses 32-bit numbers, however, once integers with larger width are implemented, the script gets linearly longer (4 bytes/byte) with each additional byte. For 256-bit numbers, it would require a whopping 124 bytes (93 operations and 31 pushdata) to convert to big-endian. As the opcode limit currently is 201, that wouldn't leave much room for other operations. In contrast, `<N> OP_NUM2BIN OP_ENDIAN_REVERSE` always encodes integers as N-byte big-endian number, with a constant script size independent of N.
 
-Also, suppose an oracle returns an ordered list of 1-byte items (e.g. indices), however, if the script requires the bytes to be in the reversed order, then OP_BSWAP would allow to do this trivially.
+Also, suppose an oracle returns an ordered list of 1-byte items (e.g. indices), however, if the script requires the bytes to be in the reversed order, then OP_ENDIAN_REVERSE would allow to do this trivially.
 
 ### A Note On Signs
 
 For unsigned integers, the behavior is always the expected one: the number will be encoded as unsigned big-endian integer. However, as integers in Script are encoded rather curiously, signed integers might result in unexpected behavior:
 
-`-1 4 OP_NUM2BIN OP_BSWAP -> {0x80, 0x00, 0x00, 0x01}`
+`-1 4 OP_NUM2BIN OP_ENDIAN_REVERSE -> {0x80, 0x00, 0x00, 0x01}`
 
 Here, the sign bit is the first bit of the resulting stackitem. Usually, negative numbers are encoded in two's complement, and the number should be `{0xff, 0xff, 0xff, 0xff}`. However, as long as developers are aware of this quite Script specific encoding, there's no issue at hand.
 
-OP_BSWAP Specification
+OP_ENDIAN_REVERSE Specification
 -----------------------------
 
 This specification uses the same syntax for the stack/stackitems as [11].
 
 ### Semantics
 
-`a OP_BSWAP -> b`.
+`a OP_ENDIAN_REVERSE -> b`.
 
-OP_BSWAP fails immediately if the stack is empty.
+OP_ENDIAN_REVERSE fails immediately if the stack is empty.
 
 Otherwise, the top stack item is removed from the stack, and a byte-reversed version is pushed onto the stack.
 
 Examples:
 
-* `{} OP_BSWAP -> {}`
-* `{0x01} OP_BSWAP -> {0x01}`
-* `{0x01, 0x02, 0x03, 0x04} OP_BSWAP -> {0x04, 0x03, 0x02, 0x01}`
+* `{} OP_ENDIAN_REVERSE -> {}`
+* `{0x01} OP_ENDIAN_REVERSE -> {0x01}`
+* `{0x01, 0x02, 0x03, 0x04} OP_ENDIAN_REVERSE -> {0x04, 0x03, 0x02, 0x01}`
 
 ### Opcode Number
 
-OP_BSWAP proposes to use the previously unused opcode with number 188 (0xbc in hex encoding), which comes after the most recently added opcode, `OP_CHECKDATASIGVERIFY`. 
+OP_ENDIAN_REVERSE proposes to use the previously unused opcode with number 188 (0xbc in hex encoding), which comes after the most recently added opcode, `OP_CHECKDATASIGVERIFY`. 
 
 ### Name
 
-In a previous proposal, this opcode has been named `OP_REVERSE`. A more technically accurate term is `OP_BSWAP`, which is commonly used for reversing the byteorder of integers [14] [15], therefore it is the prefered choice.
+In a previous proposal, this opcode has been named `OP_REVERSE`. After that, it has been renamed to `OP_BSWAP`, as that is a more technically accurate term, which is commonly used for reversing the byteorder of integers [14] [15]. However, after some more consideration, it has been renamed to `OP_ENDIAN_REVERSE` following Boost‘s nomenclature [16]. This is because `OP_BSWAP` is lexically very similar to the already existing `OP_SWAP` and would make Script harder to read. Also, while the technical term for the instruction is indeed `bswap`, it isn‘t well known for developers of higher level languages and could thus spark confusion that would be avoided by using the name `OP_ENDIAN_REVERSE`, which is more self-descriptive.
 
 ### Activation
 
@@ -114,13 +114,13 @@ The opcode will be activated during the 15th May 2020 hardfork.
 
 ### Unit Tests
 
- - `<item> OP_BSWAP` fails if 15th May 2020 protocol upgrade is not yet activated.
- - `OP_BSWAP` fails if the stack is empty.
- - `<item> OP_BSWAP` fails if the top stack item after execution is not <item> byte-reversed.
- - `{0x12, 0x34, 0x56} {0x56, 0x34, 0x12} OP_BSWAP OP_EQUALVERIFY` succeeds with an empty stack.
- - `{0x02, 0x04, 0x06, 0x08, 0x0A, 0x0C} OP_DUP OP_BSWAP OP_BSWAP OP_EQUALVERIFY` succeeds with an empty stack.
- - `{0x01, 0x02, 0x03, 0x02, 0x01} OP_DUP OP_BSWAP OP_EQUALVERIFY` succeeds with an empty stack.
- - `{0x01, 0x02, 0x03, 0x01, 0x02} OP_DUP OP_BSWAP OP_EQUALVERIFY` fails.
+ - `<item> OP_ENDIAN_REVERSE` fails if 15th May 2020 protocol upgrade is not yet activated.
+ - `OP_ENDIAN_REVERSE` fails if the stack is empty.
+ - `<item> OP_ENDIAN_REVERSE` fails if the top stack item after execution is not <item> byte-reversed.
+ - `{0x12, 0x34, 0x56} {0x56, 0x34, 0x12} OP_ENDIAN_REVERSE OP_EQUALVERIFY` succeeds with an empty stack.
+ - `{0x02, 0x04, 0x06, 0x08, 0x0A, 0x0C} OP_DUP OP_ENDIAN_REVERSE OP_ENDIAN_REVERSE OP_EQUALVERIFY` succeeds with an empty stack.
+ - `{0x01, 0x02, 0x03, 0x02, 0x01} OP_DUP OP_ENDIAN_REVERSE OP_EQUALVERIFY` succeeds with an empty stack.
+ - `{0x01, 0x02, 0x03, 0x01, 0x02} OP_DUP OP_ENDIAN_REVERSE OP_EQUALVERIFY` fails.
 
 References
 ----------
@@ -154,3 +154,5 @@ References
 [14] https://docs.rs/bswap/1.0.0/bswap/
 
 [15] https://www.npmjs.com/package/bswap
+
+[16] https://www.boost.org/doc/libs/1_63_0/libs/endian/doc/conversion.html#endian_reverse
