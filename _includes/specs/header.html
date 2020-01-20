@@ -1,20 +1,20 @@
 <section id="fh5co-home" data-section="home" class="site-header subpage-header">
-    <div class="container">
-        <div class="text-wrap">
-            <div class="text-inner">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="to-animate">{% t 'specs.title' %}</h1>
-                        <h2 class="to-animate">{% t 'specs.description' %}</h2>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="text-wrap">
+      <div class="text-inner">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="to-animate">{% t 'specs.specifications.title' %}</h1>
+            <h2>{% t 'specs.specifications.description' %}</h2>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="slant"></div>
+  </div>
+  <div class="slant"></div>
 </section>
 
 {% comment %}If someone knows a better way to do this, please do {% endcomment %}
 {% for menu in page.submenus %}
-    {% include {{ menu }}/menu.html %}
+  {% include {{ menu }}/menu.html %}
 {% endfor %}
