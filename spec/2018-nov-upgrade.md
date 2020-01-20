@@ -2,6 +2,7 @@
 layout: specification
 title: 2018 November 15 Network Upgrade Specification
 date: 2018-10-10
+category: spec
 activation: 1542300000
 version: 0.5
 ---
