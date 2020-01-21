@@ -2,6 +2,7 @@
 layout: specification
 title: 2019-NOV-15 minimal push and minimal number encoding rules
 date: 2019-08-11
+category: spec
 activation: 1573819200
 version: 1.0
 author: Mark B. Lundeberg

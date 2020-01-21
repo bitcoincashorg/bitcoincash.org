@@ -159,8 +159,7 @@ table,
 blockquote {
   margin-bottom: 1.85714286em;
 }
-ul,
-ol {
+.list-unstyled {
   list-style: none;
   line-height: 1.85714286em;
 }

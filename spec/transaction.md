@@ -1,6 +1,6 @@
 ---
 layout: specification
-title: Transaction Spec for Bitcoin Cash
+title: Transaction Spec for Bitcoin Cash ⚠️ out of date ⚠️
 category: spec
 date: 2017-08-26
 activation: 1515888000

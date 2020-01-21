@@ -2,6 +2,7 @@
 layout: specification
 title: 2019-MAY-15 Segwit Recovery Specification
 date: 2019-05-13
+category: spec
 activation: 1557921600
 version: 0.4
 ---
