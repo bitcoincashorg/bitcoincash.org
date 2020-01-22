@@ -271,6 +271,7 @@ headings:
   services: "Services"
   wallets: "Wallets"
   featured-wallets: "Featured Wallets"
+  featured-exchanges: "Featured Exchanges" 
   donate: "Donate to Bitcoin Cash Development"
   whitepaper: "Read the Whitepaper"
   listingrequest: "Submit a listing request"
@@ -512,6 +513,10 @@ acceptbch:
   pos_excerpt: "Try one of the many Point Of Sale (POS) systems to accept Bitcoin Cash in your store."
   donations: "Accept Donations or Tips"
   donations_excerpt: "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations."
+exchanges:
+  coinbase: "Coinbase is a digital currency exchange headquartered in San Francisco, California. They broker exchanges of Bitcoin Cash and other cryptocurrencies with fiat currencies in approximately 32 countries."
+  coinex: "CoinEx is dedicated to building a highly secure, stable and efficient digital coin exchange for global users. CoinEx now supports multiple languages and are providing global trading services in nearly 100 countries/regions."
+  kraken: "Kraken is the largest Bitcoin exchange in euro volume and liquidity and also trading Canadian dollars, US dollars, British pounds and Japanese yen. Kraken is consistently rated the best and most secure Bitcoin exchange by independent news media."
 roadmap:
   intro:
     home: To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.
