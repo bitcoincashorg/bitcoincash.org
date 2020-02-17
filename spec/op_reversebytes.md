@@ -3,8 +3,9 @@ layout: specification
 title: OP_REVERSEBYTES Specification
 category: spec
 date: 2019-5-29
-activation: 2020-5-15
+activation: 1589544000
 version: 0.2
+author: Tobias Ruck
 ---
 
 OP_REVERSEBYTES
@@ -116,13 +117,17 @@ The opcode will be activated during the 15th May 2020 hardfork.
 
 ### Unit Tests
 
- - `<item> OP_REVERSEBYTES` fails if 15th May 2020 protocol upgrade is not yet activated.
- - `OP_REVERSEBYTES` fails if the stack is empty.
- - `<item> OP_REVERSEBYTES` fails if the top stack item after execution is not <item> byte-reversed.
- - `{0x12, 0x34, 0x56} {0x56, 0x34, 0x12} OP_REVERSEBYTES OP_EQUALVERIFY` succeeds with an empty stack.
- - `{0x02, 0x04, 0x06, 0x08, 0x0A, 0x0C} OP_DUP OP_REVERSEBYTES OP_REVERSEBYTES OP_EQUALVERIFY` succeeds with an empty stack.
- - `{0x01, 0x02, 0x03, 0x02, 0x01} OP_DUP OP_REVERSEBYTES OP_EQUALVERIFY` succeeds with an empty stack.
- - `{0x01, 0x02, 0x03, 0x01, 0x02} OP_DUP OP_REVERSEBYTES OP_EQUALVERIFY` fails.
+The following unit tests are used by the ABC implementation of the opcode as of Feb 17th 2020.
+- `<item> OP_REVERSEBYTES` fails if 15th May 2020 protocol upgrade is not yet activated.
+- `OP_REVERSEBYTES` fails if the stack is empty.
+- `{} OP_REVERSEBYTES -> {}`
+- `{99} OP_REVERSEBYTES -> {99}`
+- `{0xde, 0xad} OP_REVERSEBYTES -> {0xad, 0xde}`
+- `{0xde, 0xad, 0xa1} OP_REVERSEBYTES -> {0xa1, 0xad, 0xde}`
+- `{0xde, 0xad, 0xbe, 0xef} OP_REVERSEBYTES -> {0xef, 0xbe, 0xad, 0xde}`
+- `{0x12, 0x34, 0x56} OP_REVERSEBYTES -> {0x56, 0x34, 0x12}`
+- for all n ∈ [0; 520]: `{i mod 256 | i < n} OP_REVERSEBYTES -> {(n - i - 1) mod 256 | i < n}`
+- for all n ∈ [0; 520]: `{(if (i < (n + 1) / 2) then (i) else (n - i - 1)) % 256) | i < n} OP_DUP OP_REVERSEBYTES OP_EQUAL -> OP_TRUE`
 
 References
 ----------
@@ -137,7 +142,7 @@ References
 
 [5] Let's play chess on the BCH Blockchain: https://tobiasruck.com/content/lets-play-chess-on-bch/
 
-[6] SLPDEX (work in progress): slpdex.cash
+[6] SLPDEX (discontinued): slpdex.cash
 
 [7] DAO: https://en.wikipedia.org/wiki/Decentralized_autonomous_organization
 
