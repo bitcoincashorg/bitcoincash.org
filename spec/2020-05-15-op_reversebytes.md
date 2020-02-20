@@ -2,7 +2,7 @@
 layout: specification
 title: OP_REVERSEBYTES Specification
 category: spec
-date: 2019-5-29
+date: 2019-05-29
 activation: 1589544000
 version: 0.2
 author: Tobias Ruck
