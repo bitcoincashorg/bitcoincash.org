@@ -13,11 +13,10 @@ Discussion related to testing Bitcoin Cash, focused on Upgrades.
 
 # Officers
 
- * Chairperson: Antony Zegers (Mengerian)
- * Chief Node Officer: Imaginary Username
- * Chief Schnorr Officer: Mark B. Lundeberg
+ * Chairperson: Antony Zegers (@Mengerian on Telegram)
+ * Infrastructure: Marco Costa (@Marcocosta on Telegram)
 
 # Relevant Documents
 
-Testnet Information for Nov 2019 Upgrade: [2019-11-15_upgrade_testnet.md](2019-11-15_upgrade_testnet.md)
+Testnet Information for May 2020 Upgrade: [2020-05-15_upgrade_testnet.md](2020-05-15_upgrade_testnet.md)
 
