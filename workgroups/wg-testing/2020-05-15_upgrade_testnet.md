@@ -7,20 +7,20 @@ To assist technical preparations for the upgrade, a testnet is available where t
 
 ## Upgrade Testnet Parameters
 
-Fork time: `1582729200`  (February 26, 2020 15:00:00 UTC)
+Fork time: `1583427600`  (March 05, 2020 17:00:00 UTC)
 
 ## Set up a node
 
-Run Bitcoin ABC 0.21.0 with:
+Run Bitcoin ABC 0.21.1 with:
 ```
-bitcoin-qt -testnet -phononactivationtime=1582729200 -addnode=bitcoincash.gq -enableminerfund=0
+bitcoin-qt -testnet -phononactivationtime=1583427600 -addnode=bitcoincash.gq -enableminerfund=0
 ```
 
 Alternatively as bitcoin.conf file:
 ```
 testnet=1
 addnode=bitcoincash.gq
-phononactivationtime=1582729200
+phononactivationtime=1583427600
 enableminerfund=0
 ```
 
