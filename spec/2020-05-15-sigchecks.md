@@ -1,10 +1,10 @@
 ---
 layout: specification
 title: 2020-MAY-15 script SigChecks counting and limiting specification
-date: 2020-02-10
+date: 2020-03-05
 category: spec
 activation: 1589544000
-version: 0.1 (DRAFT)
+version: 0.2 (DRAFT)
 author: Mark B. Lundeberg
 ---
 
@@ -46,6 +46,12 @@ After activation, any block where the total number of SigChecks accumulated (dur
 Here, max_Blocksize refers to the consensus limit that is enforced on the full serialized block size (including block header, transaction counter, and all serialized transaction).
 
 Currently, `max_BlockSize` = 32000000 so the maximum allowed `block_SigChecks` would be 226950 for all blocks. However, in future block size increases, it should be assumed that the SigChecks limit increases proportionally.
+
+## Per-transaction limits (consensus rule)
+
+After activation, any transaction where the total number of SigChecks accumulated (during all script executions - scriptSig, scriptPubKey, and P2SH redeemScript - in all inputs excepting coinbase) violates the following limit shall be rejected:
+
+    transaction_SigChecks <= 3000
 
 ## Per-input limitation (standardness rule)
 
@@ -152,17 +158,9 @@ The choice of 141 bytes/SigCheck for a block is ~4x times more aggressive than t
 A histogram of historical block densities is plotted below:
 ![Block sigchecks density historically (up to mid-2019)](2020-05-15-sigchecks-plotblocks.png)
 
-
-## Why no per-transaction limits?
-
-The per-block consensus limit is enough to track all validation happening in blocks, and the per-input standard limit is satisfactory for limiting mempool validation time.
-
-It was considered to use a standard per-transaction density limit *instead of* the per-input limit, however, this would have had to enforce a similar density limit anyway (~ 36 bytes/SigCheck) to support the same use cases.
-An examination of historical uses found, unsurprisingly, much more spread in the per-transaction density, as opposed to the per-input density, and it makes more sense to restrict the quantity with a smaller variance.
-One fortunate/unfortunate consequence of using a per-transaction density limit is that high-sigchecks inputs *can* be included provided that other unrelated parts of the transaction are padded.
-This would be more permissive in allowing strange inputs (like bare multisig 1-of-20 to be spent with ECDSA), but it would anyway be quite awkward for wallets to deal with not adding too many dense inputs / adding padding to compensate.
-
 # Implementation
+
+**Implementation information to be added - TBD**
 
 # Acknowledgements
 
