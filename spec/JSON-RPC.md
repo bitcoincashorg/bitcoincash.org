@@ -1,6 +1,6 @@
 ---
 layout: specification
-title: BCH JSON RPC Specification
+title: BCH JSON RPC Specification ⚠️ out of date ⚠️
 category: spec
 date: 2018-05-15
 activation: 1501590000
