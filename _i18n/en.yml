@@ -480,9 +480,9 @@ buyorearn:
   buyatm: "Purchase from a Bitcoin Cash ATM"
   buyatm_excerpt: "Many cities across the globe are setup with specialized Bitcoin Cash enabled ATM machines."
   buyinperson: "Buy in Person"
-  buyinperson_excerpt: "Connect with locals in your area who are selling Bitcoin Cash on <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>."
+  buyinperson_excerpt: "Connect with locals in your area who are selling Bitcoin Cash on <a href='https://local.bitcoin.com/'>Bitcoin.com Local</a> or <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a>."
   acceptbch: "Accept Bitcoin Cash at your Business "
-  acceptbch_excerpt: "Add Bitcoin Cash as a payment method to your store. Sell items online or in person for Bitcoin Cash."
+  acceptbch_excerpt: "Add Bitcoin Cash as a payment method to your store with the <a href='https://www.bitcoin.com/bitcoin-cash-register/'>Bitcoin Cash Register</a>. Sell items online or in person for Bitcoin Cash."
   getpaid: "Ask to be paid in Bitcoin Cash"
   getpaid_excerpt: "Enquire with your job about being paid in full or partially in Bitcoin Cash."
 spendbch:
