@@ -74,6 +74,73 @@ After the activation, nodes shall disable the all consensus rules and all standa
 - The standardness limit of 4000 sigops per transaction shall be disabled.
 - The standardness limit of 15 sigops per P2SH input shall be disabled.
 
+## RPC API changes
+
+### getblocktemplate
+
+Getblocktemplate exposes sigop information to miners so must be modified.
+
+- After the activation, the "sigoplimit" and per-transaction "sigops" fields SHOULD be removed from "getblocktemplate" RPC call replies.
+- A per-transaction "sigchecks" field MUST be added that contains the sigchecks consumed by this transaction.
+- Two per-block fields MUST be added: "sigchecklimit" and "sigchecktotal".
+  - "sigchecklimit" is analogous to "sigoplimit" and contains the total sigchecks allowed in a block (currently 226950).
+  - "sigchecktotal" contains the total number of sigchecks in this block.
+
+Non-normative example of the getblocktemplate output, post-fork:
+```bash
+/bitcoin-cli getblocktemplate
+{
+  "capabilities": [
+    "proposal"
+  ],
+  "version": 536870912,
+  "rules": [
+  ],
+  "vbavailable": {
+  },
+  "vbrequired": 0,
+  "previousblockhash": "288dbf1bffee42121def054294e70f6bdf831950d7c3bb667275a3ef79b33fe2",
+  "transactions": [
+    {
+      "data": "0100000001d494918acae19e9ef736e973e67f3dc787d6e03799961d3ecb9b8bd7e2f9d9e3000000006b483045022100c8ae90d873ba3b05dd6191d48a3f6477d8090556f7a355c501464fc849224f0b0220594710113a83914dc03a6bfdc1092f919463c1810e8c405deafd16bebf94ec2e412102e2621e6fa3277c06343ee42b23cbe4941f73ffbd1df76caf2f18a7c8a4b8fac1feffffff0200e1f505000000001976a91425a74072628487c931c78fed4862b757084dd58d88acf5c44c00010000001976a914dfa546c8be73baeedacd83295d74c73cfeb413b088ac80000000",
+      "hash": "45e94629c5030dbd653772c99d8c686069bcdc90c2f562493ad53b0ec1cdeea9",
+      "depends": [
+      ],
+      "fee": 226,
+      "sigchecks": 1
+    },
+    {
+      "data": "0100000001a9eecdc10e3bd53a4962f5c290dcbc6960688c9dc9723765bd0d03c52946e945010000006a47304402200ea9364b2e54401f3e9d5591633de9f09e67a3c5faf106bf87a8bdadd1c28b4e022003fc404744e9c8952f5ee6b1f62e23377a31b592c891f347daa03ad61cc55a1141210301eb466d45a0ce5854103338c5a5a754f8c1115d1095628242206a0bed27160bfeffffff0200e1f505000000001976a91425a74072628487c931c78fed4862b757084dd58d88ac13e356fa000000001976a914d6c3620ca60592bc261daa4df146c630749ed84788ac80000000",
+      "hash": "ec8f0c5696b1da490f720149a79fa97052b3b4a0efdb1ff7cab11bbc548e1c19",
+      "depends": [
+        1
+      ],
+      "fee": 226,
+      "sigchecks": 1
+    }
+  ],
+  "coinbaseaux": {
+    "flags": "0c2f45423130302f414431322f"
+  },
+  "coinbasevalue": 5000000452,
+  "longpollid": "288dbf1bffee42121def054294e70f6bdf831950d7c3bb667275a3ef79b33fe227",
+  "target": "7fffff0000000000000000000000000000000000000000000000000000000000",
+  "mintime": 1586801483,
+  "mutable": [
+    "time",
+    "transactions",
+    "prevblock"
+  ],
+  "noncerange": "00000000ffffffff",
+  "sigchecklimit": 226950,
+  "sigchecktotal": 2,
+  "sizelimit": 223456,
+  "curtime": 1586801527,
+  "bits": "207fffff",
+  "height": 129
+}
+```
+
 ## Notes
 
 - The question of whether all signatures are null is not precisely the inverse of whether the opcode returns true/false to stack: consider the case of 0-of-N OP_CHECKMULTISIG, which always returns true, yet also has "all null" signatures. Also, historically pre-NULLFAIL opcodes would return false for non-null invalid signatures, instead of failing.
