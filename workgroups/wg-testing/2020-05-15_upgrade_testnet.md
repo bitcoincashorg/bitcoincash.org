@@ -11,7 +11,7 @@ Fork time: `1586966400`  (April 15, 2020 16:00:00 UTC)
 
 ## Set up a node
 
-Run Bitcoin ABC 0.21.3 with:
+Run Bitcoin ABC 0.21.4 with:
 ```
 bitcoin-qt -testnet -phononactivationtime=1586966400 -addnode=bitcoincash.gq
 ```
