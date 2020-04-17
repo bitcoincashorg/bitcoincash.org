@@ -11,9 +11,11 @@ Fork time: `1586966400`  (April 15, 2020 16:00:00 UTC)
 
 ## Set up a node
 
-Run Bitcoin ABC 0.21.4 with:
+Prior to starting your node, it is suggested the you delete the ban list at `.bitcoin/testnet3/banlist.dat`
+
+Then run Bitcoin ABC 0.21.4 with:
 ```
-bitcoin-qt -testnet -phononactivationtime=1586966400 -addnode=bitcoincash.gq
+bitcoind -testnet -phononactivationtime=1586966400 -addnode=bitcoincash.gq
 ```
 
 Alternatively as bitcoin.conf file:
@@ -22,6 +24,15 @@ testnet=1
 addnode=bitcoincash.gq
 phononactivationtime=1586966400
 ```
+
+Then run these commands to ensure you do not sync to regular testnet, which may have more proof-of work,
+but instead sync to the upgrade testnet:
+
+```
+bitcoin-cli -testnet invalidateblock 0000000000000099fa31071c0794096c5a22aeb62d292495371466c0b9b2c5fe
+```
+
+After invalidating the block, the "new" block 1372808 has hash 0000000004dea8a43096a19b1bbad2e42979820fd009bf75f642576234151c89
 
 ## Other services
 
