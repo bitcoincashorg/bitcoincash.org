@@ -60,9 +60,9 @@
                 <h2>{% t 'spendbch.maptitle' %}</h2>
             </div>
             <div class="col-xs-12">
-                <iframe src="https://marco-coino.firebaseapp.com/marcocoino-embed.html?lat=35.652832&long=139.839478&zoom=2&color=orange" width="500"
+                <iframe src="https://iframe.map.bitcoin.com/" width="500"
                     height="500"></iframe>
-                    <h4 class="section-heading">Location data by <a href="https://marcocoino.bitcoin.com" title="Marco Coino" target="_blank">Marco Coino</a></h4>
+                    <h4 class="section-heading">Location data by <a href="https://map.bitcoin.com" title="Bitcoin.com Maps" target="_blank">Bitcoin.com Maps</a></h4>
             </div>
         </div>
         <div class="row text-center">
@@ -77,9 +77,10 @@
 
     $.getJSON("https://us-central1-marco-coino.cloudfunctions.net/totalMerchants", function( data ) {
       var count;
-      $.each(data, function(key, val) {
-        count = val;
-      });
+      // $.each(data, function(key, val) {
+      //   count = val;
+      // });
+      count = '5000';
 
       $('.merchantCount').html(count);
 
