@@ -283,6 +283,7 @@ headings:
   history: "The History of Bitcoin Cash"
   development: "Decentralized Development"
   roadmap: "The Bitcoin Cash Roadmap"
+  upgrade: "How to Upgrade"
 networkupgrade:
   reminder: "Reminder"
   date: "November 15th, 2018"
