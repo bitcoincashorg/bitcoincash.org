@@ -8,17 +8,6 @@
             </div>
         </div>
 		
-        <div class="row">
-            <div class="col-xs-12">
-            {% for qa in site.translations[site.lang]["content"]["faq"] %}
-            <p class="question to-animate">{{ qa['question'] }}</p>
-                {% for a in qa['answer'] %}
-                <p class='to-animate'>{{ a }}</p>
-                {% endfor %}
-            {% endfor %}
-            </div>
-        </div>
-		
 	<!-- ADAPTED FROM HEADER -->		
         <div class="row">
             <div class="col-xs-12">
@@ -43,27 +32,6 @@
         </a>
       		</div>
    	 </div>	
-
-	<!-- BANNER FROM HEADER -->
-
-         <div class="col-sm-12 col-md-6 text-center reminder-links">
-           <h4>{% t 'networkupgrade.compatible' %}:</h4>
-           <a href="https://github.com/Bitcoin-ABC/bitcoin-abc/releases/tag/v0.21.1" title="Bitcoin ABC 0.21.1" target="_blank">
-               <ion-icon name="link"></ion-icon> Bitcoin ABC 0.21.1
-           </a>
-           <h4>{% t 'networkupgrade.additional' %}:</h4>
-           <a href="https://www.bitcoincash.org/spec/2020-05-15-upgrade.html" title="Upgrade Specification" target="_blank">
-               <ion-icon name="link"></ion-icon> {% t 'networkupgrade.specification' %}
-           </a>
-          <h4>{% t 'networkupgrade.additional' %}:</h4>
-          <a href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-05-15_upgrade_testnet.md" title="Testnet Information" target="_blank">
-           <ion-icon name="link"></ion-icon> {% t 'networkupgrade.testnet' %}
-          </a>
-         </div>
-       </div>
-     </div>
-   </div>
-  </div>
 
 
     </div>
