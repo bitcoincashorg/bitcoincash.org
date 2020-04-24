@@ -491,6 +491,37 @@ p.question {
   transition-duration: 0.2s;
 }
 
+.whitepaper .card small {
+  font-size:60%;
+}
+
+.whitepaper .card small a {
+  color:#777;
+  font-weight:normal;
+  display:inline;
+}
+
+.whitepaper .card h4 {
+  margin-bottom:.5em;
+}
+
+.whitepaper .card {
+  padding: 1.5em;
+  width: 100%;
+  display: block;
+  background: white;
+  border: 1px solid #eee;
+  border-width: 1px 1px 3px 1px;
+  -webkit-transition: border-color 250ms ease;
+  -moz-transition: border-color 250ms ease;
+  -o-transition: border-color 250ms ease;
+  -ms-transition: border-color 250ms ease;
+  transition: border-color 250ms ease;
+  margin-bottom: 1.5em;
+  line-height:1;
+  min-height:135px;
+}
+
 .social-list a, .social-list a i, .social-list a ion-icon {
   color:#a3a3a3;
   font-size:24px;
