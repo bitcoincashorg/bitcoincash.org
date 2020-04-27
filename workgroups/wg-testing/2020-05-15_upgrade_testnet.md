@@ -7,7 +7,7 @@ To assist technical preparations for the upgrade, a testnet is available where t
 
 ## Upgrade Testnet Parameters
 
-Fork time: `1586966400`  (April 15, 2020 16:00:00 UTC)
+Fork time: `1588089600`  (April 28, 2020 16:00:00 UTC)
 
 ## Set up a node
 
@@ -15,24 +15,26 @@ Prior to starting your node, it is suggested the you delete the ban list at `.bi
 
 Then run Bitcoin ABC 0.21.4 with:
 ```
-bitcoind -testnet -phononactivationtime=1586966400 -addnode=bitcoincash.gq
+bitcoind -testnet -phononactivationtime=1588089600 -addnode=bitcoincash.gq
 ```
 
 Alternatively as bitcoin.conf file:
 ```
 testnet=1
 addnode=bitcoincash.gq
-phononactivationtime=1586966400
+phononactivationtime=1588089600
 ```
 
 Then run these commands to ensure you do not sync to regular testnet, which may have more proof-of work,
 but instead sync to the upgrade testnet:
 
 ```
-bitcoin-cli -testnet invalidateblock 0000000000000099fa31071c0794096c5a22aeb62d292495371466c0b9b2c5fe
+bitcoin-cli -testnet reconsiderblock 0000000000000099fa31071c0794096c5a22aeb62d292495371466c0b9b2c5fe
+bitcoin-cli -testnet invalidateblock 0000000004dea8a43096a19b1bbad2e42979820fd009bf75f642576234151c89
+bitcoin-cli -testnet invalidateblock 000000001be228c2f33f7c612bf30b8670c50ba885bc26856899424c2e8d4b0a
 ```
 
-After invalidating the block, the "new" block 1372808 has hash 0000000004dea8a43096a19b1bbad2e42979820fd009bf75f642576234151c89
+After invalidating the block, the "new" block 1374603 has hash 0000000015c702db7c97bbc63441150e3430bb787bff00abd18839d12912c0e2
 
 ## Other services
 
