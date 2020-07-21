@@ -1,0 +1,157 @@
+div {
+    color:white;
+    font-family: 'AvenirNextGEO';
+    line-height: 1.55em;
+    font-size:23px;
+}
+
+button {
+    color:white;
+    height:55px;
+    border:none;
+    width:fit-content;
+    border-radius:4px;
+    cursor: pointer;
+    padding: 0 40px;
+    margin-right:0.8em;
+    margin-left:0.8em;
+    margin-bottom:0.5em;
+    font-size:23px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }
+
+img {
+  margin-bottom:0;
+}
+
+h1 {
+    font-family: 'PlatoSans';
+    font-size:64px;
+    letter-spacing: 1px;
+    line-height: 90px;
+}
+
+h2 {
+    font-family: 'PlatoSans';
+    font-size:47px;
+    color:#313131;
+}
+
+h3 {
+  font-family: 'PlatoSans';
+  font-size: 40px;
+}
+
+@font-face {
+    font-family: 'PlatoSans';
+    src: url('../assets/fonts/PlatoSans-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AvenirNextGEO';
+    src: url('../assets/fonts/AvenirNextGEO-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AvenirNextGEO';
+    src: url('../assets/fonts/AvenirNextGEO-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @media only screen and (max-width: 1700px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 35px;
+    }
+    div {
+      font-size:20px;
+    }
+    button {
+      font-size:20px;
+    }
+  }
+
+  @media only screen and (max-width: 1653px) {
+    button {
+      font-size:17px;
+    }
+  }
+
+  @media only screen and (max-width: 1450px) {
+    h1 {
+      font-size:35px;
+      line-height: 35px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 1275px) {
+    h1 {
+      font-size:33px;
+      line-height: 33px;
+    }
+    h2 {
+      font-size:29px;
+    }
+    div {
+      font-size:17px;
+    }
+  }
+
+  @media only screen and (max-width: 1145px) {
+    h1 {
+      font-size:35px;
+    }
+    h2 {
+      font-size:27px
+    }
+    h3 {
+      font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+  div {
+    font-size:17px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  h1 {
+    font-size:30px;
+    line-height: 1.20em;
+  }
+  .heroTitle {
+    padding-right:21px;
+  }
+  h2 {
+    font-size:26px
+  }
+  h3 {
+    font-size: 21px;
+  }
+  div {
+    font-size:16px;
+  }
+}

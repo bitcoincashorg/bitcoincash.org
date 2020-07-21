@@ -1,0 +1,56 @@
+.featureBackgroundContainer {
+    display:flex;
+    padding: 8% 5%;
+}
+
+.featureContainer {
+    display:flex;
+}
+
+.featureContainer.reverse{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.featureContainer div {
+    color:black;
+}
+
+.featureBodyText {
+    width:90%;
+}
+
+.featureImageContainer {
+    width:100%;
+    flex:5;
+}
+
+.featureBodyContainer {
+    display:flex;
+    flex-direction: column;
+    padding-left:50px;
+    flex:5;
+}
+
+.featureTitle {
+    padding-right: 5%;
+}
+
+.featureButton {
+    padding-top:30px;
+}
+
+.featureIconContainer {
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 915px) {
+    .featureContainer {
+        flex-direction: column-reverse !important;
+        align-items:center;
+    }
+    .featureImageContainer {
+        text-align: center;
+        padding-top:50px;
+    }
+}
