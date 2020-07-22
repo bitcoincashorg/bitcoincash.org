@@ -4,6 +4,7 @@ import dropdownStyles from './dropdown.module.css';
 import headerStyles from '../header/header.module.css';
 import communityDropdownStyles from './community-dropdown.module.css';
 import { useStaticQuery, graphql} from "gatsby";
+import Link from '../../global/link';
 import ResizeObserver from 'resize-observer-polyfill';
 
 const CommunityDropdownContent = ({layerSide, arrowStyle, links}) => {
@@ -32,7 +33,7 @@ const theme = data.site.siteMetadata.themeColours;
             backgroundColor={theme.primary_dark}
           />}
           {links.map(dropdownLink => { 
-            return <a className={communityDropdownStyles.link} style={{backgroundColor: theme.primary_dark, borderBottom: `1px solid ${theme.primary_dark}`}} href={dropdownLink.href}>{dropdownLink.text}</a>
+            return <Link className={communityDropdownStyles.link} style={{backgroundColor: theme.primary_dark, borderBottom: `1px solid ${theme.primary_dark}`}} to={dropdownLink.href}>{dropdownLink.text}</Link>
           })}
     </div>
   )

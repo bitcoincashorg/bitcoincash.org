@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import exploreBannerStyles from './explore-banner.module.css';
+import Link from '../global/link';
 
 const ExploreBanner = ({bannerText, bannerIcon, href}) => {
     const data = useStaticQuery(graphql`
@@ -19,7 +20,7 @@ const ExploreBanner = ({bannerText, bannerIcon, href}) => {
   const theme = data.site.siteMetadata.themeColours;
 
     return (
-      <a href={href}>
+      <Link to={href}>
         <div className={exploreBannerStyles.bannerContainer} style={{
             background: `linear-gradient(270deg, ${theme.primary_dark} 0%, ${theme.primary_light} 100%)`
           }}>
@@ -30,7 +31,7 @@ const ExploreBanner = ({bannerText, bannerIcon, href}) => {
             {bannerIcon}
         </div>
         </div>
-        </a>
+        </Link>
     )
 
 }

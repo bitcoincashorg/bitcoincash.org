@@ -13,7 +13,7 @@ const StoreSecurelyFeature = () => {
             featureIcon={<Store></Store>}
             featureImage={<img src={storeSecurely} alt="bch-store-secure"></img>}
             noPaddingTop={true}
-            btnHref={"https://www.bitcoincash.org/wallets.html"}>
+            btnHref={"/wallets.html"}>
         </Feature>
     )
 }

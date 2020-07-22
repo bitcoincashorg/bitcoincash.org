@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from "react"
 import logo from '../../assets/images/bitcoin-cash-logo-white-small.png';
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.css"
 import navBarItems from './navBarItems';
 import hamburger from '../../assets/lib/hamburgers.min.css';
 import axios from 'axios';
 import LivePriceWidget from "../liveprice/live-price-widget";
+import Link from '../../global/link';
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 if (typeof window !== 'undefined') {
@@ -25,17 +26,17 @@ window.onscroll = function() {
 }
 
 const externalLink = (i, linkText, href) => {
-  return <a data-sal="slide-down"
+  return <Link data-sal="slide-down"
             data-sal-delay={100 + (i * 100)}
             data-sal-duration="1000"
             data-sal-easing="ease"
             className={headerStyles.link}
-            href={href}>{linkText}</a>
+            to={href}>{linkText}</Link>
 }
 
 
 const MobileHeaderLink = ({text, href}) => {
-  return <a className={headerStyles.mobileNavLink} href={href}>{text}</a>
+  return <Link className={headerStyles.mobileNavLink} to={href}>{text}</Link>
 }
 
 const Header = () => {

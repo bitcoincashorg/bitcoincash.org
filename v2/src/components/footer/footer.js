@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import footerStyles from "./footer.module.css"
 import { EN_COPYRIGHT } from "../../global/strings"
 import {footerItems} from '../header/navBarItems';
@@ -9,6 +9,7 @@ import Reddit from '../../assets/icons/social/reddit.svg';
 import Telegram from '../../assets/icons/social/telegram.svg';
 import Twitter from '../../assets/icons/social/twitter.svg';
 import Instagram from '../../assets/icons/social/instagram.svg';
+import Link from '../../global/link';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -30,7 +31,7 @@ return (
       <div></div>
       <div className={footerStyles.footerLinks}>
         {footerItems.map(footerLink => {
-            return <a href={footerLink.href}>{footerLink.text}</a>
+            return <Link to={footerLink.href}>{footerLink.text}</Link>
           })}
       </div>
       <div className={footerStyles.lowerFooter}>

@@ -1,6 +1,7 @@
 import primBtnStyles from './primary-button.module.css';
 import React from 'react';
 import { useStaticQuery, graphql } from "gatsby"
+import Link from '../../global/link';
 
 const PrimaryButton = ({buttonText, href, noMarginLeft}) => {
     const data = useStaticQuery(graphql`
@@ -19,11 +20,11 @@ const PrimaryButton = ({buttonText, href, noMarginLeft}) => {
     `)
     const theme = data.site.siteMetadata.themeColours;
     return (
-        <a href={href}>
+        <Link to={href}>
         <button className={`${noMarginLeft ? primBtnStyles.noMarginLeft : ''} ${primBtnStyles.primBtn}`} style={{backgroundImage: `linear-gradient(270deg, ${theme.secondary_light} 0%, ${theme.secondary_dark} 100%)`}}>
             {buttonText}
         </button>
-        </a>
+        </Link>
     )
 }
 export default PrimaryButton;

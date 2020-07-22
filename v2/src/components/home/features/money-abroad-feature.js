@@ -13,7 +13,7 @@ const MoneyAbroadFeature = () => {
             featureIcon={<Send></Send>}
             featureImage={<img src={moneyAbroad} alt="bch-abroad"></img>}
             noPaddingTop={true}
-            btnHref={"https://www.bitcoincash.org/wallets.html"}>
+            btnHref={"/wallets.html"}>
         </Feature>
     )
 }

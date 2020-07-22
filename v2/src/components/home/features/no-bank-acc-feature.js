@@ -14,7 +14,7 @@ const NoBankAccFeature = () => {
             isReversed={true}
             isDarkBg={true}
             featureImage={<img src={cafe} alt="bch-no-bank"></img>}
-            btnHref={"https://www.bitcoincash.org/start-here.html"}>
+            btnHref={"/start-here.html"}>
         </Feature>
     )
 }

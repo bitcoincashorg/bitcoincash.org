@@ -15,7 +15,7 @@ const FromPhoneFeature = () => {
             isReversed={true}
             isDarkBg={true}
             featureImage={<img src={cafe} alt="bch-cafe"></img>}
-            btnHref={"https://www.bitcoincash.org/spend-bitcoin-cash.html"}>
+            btnHref={"/spend-bitcoin-cash.html"}>
         </Feature>
     )
 }

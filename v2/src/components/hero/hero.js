@@ -40,8 +40,8 @@ return (
             {EN_HERO_BODY}
         </div>
         <div className={heroStyles.heroBtnBar}>
-          <PrimaryButton noMarginLeft={true} buttonText={EN_HERO_BTN_PRIMARY} href={"https://www.bitcoincash.org/start-here.html"}></PrimaryButton>
-          <SecondaryButton noMarginLeft={true} buttonText={EN_HERO_BTN_SECONDARY} href={"https://www.bitcoincash.org/roadmap.html"}></SecondaryButton>
+          <PrimaryButton noMarginLeft={true} buttonText={EN_HERO_BTN_PRIMARY} href={"/start-here.html"}></PrimaryButton>
+          <SecondaryButton noMarginLeft={true} buttonText={EN_HERO_BTN_SECONDARY} href={"/roadmap.html"}></SecondaryButton>
         </div>
     </div>
     <div 

@@ -12,7 +12,7 @@ const PayFriendsFeature = () => {
             featureButtonText={EN_PAY_FRIENDS_FEATURE_BTN} 
             featureIcon={<div style={{position:'relative', left:'-50px'}}><Spend></Spend></div>}
             featureImage={<img src={friends} alt="bch-cafe"></img>}
-            btnHref={"https://www.bitcoincash.org/wallets.html"}>
+            btnHref={"/wallets.html"}>
         </Feature>
     )
 }
