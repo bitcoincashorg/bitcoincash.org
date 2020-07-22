@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "bitcoincash.org",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Money built for you, not banks",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Open Source",
   "dependencies": {
     "axios": "^0.19.2",
     "gatsby": "^2.23.12",
