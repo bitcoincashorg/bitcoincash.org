@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/hero/hero"
 import FromPhoneFeature from "../components/home/features/from-phone-feature"
@@ -26,12 +24,12 @@ const IndexPage = () => {
       </div>
       <FromPhoneFeature></FromPhoneFeature>
     </div>
-    <ExploreBanner bannerText={EN_BANNER_ONE_TEXT} bannerIcon={<Arrow></Arrow>} href={"https://www.bitcoincash.org/buy-bitcoin-cash.html"}></ExploreBanner>
+    <ExploreBanner bannerText={EN_BANNER_ONE_TEXT} bannerIcon={<Arrow></Arrow>} href={"/buy-bitcoin-cash.html"}></ExploreBanner>
     <div>
       <MoneyAbroadFeature></MoneyAbroadFeature>
       <NoBankAccFeature></NoBankAccFeature>
     </div>
-    <ExploreBanner bannerText={EN_BANNER_TWO_TEXT} bannerIcon={<Arrow></Arrow>} href={"https://www.bitcoincash.org/spend-bitcoin-cash.html"}></ExploreBanner>
+    <ExploreBanner bannerText={EN_BANNER_TWO_TEXT} bannerIcon={<Arrow></Arrow>} href={"/spend-bitcoin-cash.html"}></ExploreBanner>
     <div>
       <StoreSecurelyFeature></StoreSecurelyFeature>
       <MoneyPrivateFeature></MoneyPrivateFeature>

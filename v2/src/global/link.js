@@ -7,9 +7,10 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
   // Tailor the following test to your environment.
   // This example assumes that any internal link (intended for Gatsby)
   // will start with exactly one slash, and that anything else is external.
+
   const internal = /^\/(?!\/)/.test(to)
   // Use Gatsby Link for internal links, and <a> for others
-  if (internal) {
+  if (internal && process.env.NODE_ENV !== 'development') {
     return (
       <GatsbyLink
         to={to}
@@ -20,6 +21,9 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
         {children}
       </GatsbyLink>
     )
+  }
+  if (process.env.NODE_ENV === 'development') {
+      to = `https://www.bitcoincash.org${to}` // tempoary move away from internal links on dev until full site is gastby.
   }
   return (
     <a href={to} {...other}>
