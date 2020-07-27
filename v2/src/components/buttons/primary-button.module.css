@@ -1,0 +1,17 @@
+
+
+.primBtn {
+    transition: all 0.5s ease;
+    background-size: 200% auto;
+}
+
+.primBtn:hover {
+    background-position: right center;
+    -webkit-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+}  
+
+.noMarginLeft {
+    margin-left:0px;
+}

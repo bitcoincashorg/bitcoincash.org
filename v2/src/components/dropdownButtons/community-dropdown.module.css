@@ -1,0 +1,28 @@
+.dropdown-container {
+    background: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.mainNavLink {
+    margin-right:30px;
+}
+
+.link {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    font-size:14px;
+    background-color: '#f9f9f9';
+    color:white;
+}
+
+.link a {
+    color:black !important;
+}
+
+ a:visited.link { text-decoration: none; color:white !important;  }
+ a:hover.link { text-decoration: none; color:white !important; background-color: rgb(255,141,0) !important ;}
+ a:focus.link { text-decoration: none; color:white; }
+ a:hover.link, a:active.link { text-decoration: none; color:white }

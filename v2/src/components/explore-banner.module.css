@@ -1,0 +1,30 @@
+.bannerContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:120px;
+    cursor: pointer;
+    padding: 0 5%;
+}
+
+.bannerText {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.bannerText h3 {
+    margin-bottom: 0;
+}
+
+.icon {
+    padding-left:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    width:50px;
+}

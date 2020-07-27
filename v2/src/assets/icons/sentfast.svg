@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="66px" viewBox="0 0 118 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 25</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orange" transform="translate(-1171.000000, -6193.000000)">
+            <g id="Group-10-Copy" transform="translate(1069.000000, 6194.703125)">
+                <g id="Group-9" transform="translate(102.000000, 0.000000)">
+                    <g id="Group-11" transform="translate(0.742188, 0.000000)">
+                        <g id="Group-12" transform="translate(0.757812, 0.000000)">
+                            <g id="Group-25">
+                                <rect id="Rectangle-Copy-19" stroke="#F59332" stroke-width="2.16216216" x="60.5" y="8" width="54" height="54" rx="27"></rect>
+                                <rect id="Rectangle-Copy-19" stroke="#F59332" stroke-width="2.16216216" x="84.5" y="32" width="6" height="6" rx="3"></rect>
+                                <line x1="49.4296875" y1="35" x2="0" y2="35" id="Path-12" stroke="#F19031" stroke-width="4" stroke-dasharray="7"></line>
+                                <line x1="49.4296875" y1="53.296875" x2="24.7148437" y2="53.296875" id="Path-12-Copy" stroke="#F19031" stroke-width="4" stroke-dasharray="7"></line>
+                                <line x1="49.4296875" y1="16.703125" x2="24.7148437" y2="16.703125" id="Path-12-Copy-2" stroke="#F19031" stroke-width="4" stroke-dasharray="7"></line>
+                                <line x1="85.5" y1="33.796875" x2="72" y2="20.796875" id="Path-18" stroke="#F59332" stroke-width="2.16216216"></line>
+                                <line x1="87.5" y1="8" x2="87.5" y2="0.686523438" id="Path-19" stroke="#F59332" stroke-width="2.16216216"></line>
+                                <line x1="93.9575195" y1="0.686523438" x2="81.0424805" y2="0.686523438" id="Path-20" stroke="#F59332" stroke-width="2.16216216"></line>
+                                <line x1="87.5" y1="14.703125" x2="87.5" y2="20.796875" id="Path-21" stroke="#F59332" stroke-width="2.16216216"></line>
+                                <line x1="87.5" y1="50.796875" x2="87.5" y2="56.890625" id="Path-21-Copy" stroke="#F59332" stroke-width="2.16216216"></line>
+                                <line x1="106.453125" y1="33.65625" x2="106.453125" y2="39.75" id="Path-21" stroke="#F59332" stroke-width="2.16216216" transform="translate(106.453125, 36.703125) rotate(-270.000000) translate(-106.453125, -36.703125) "></line>
+                                <line x1="70.359375" y1="33.65625" x2="70.359375" y2="39.75" id="Path-21-Copy" stroke="#F59332" stroke-width="2.16216216" transform="translate(70.359375, 36.703125) rotate(-270.000000) translate(-70.359375, -36.703125) "></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
