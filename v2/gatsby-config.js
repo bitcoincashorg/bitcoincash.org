@@ -4,8 +4,8 @@ module.exports = {
     description: `Money built for you—not banks`,
     author: `@gatsbyjs`,
     themeColours: {
-      primary_dark: `#10243f`,
-      primary_light: `#225293`,
+      primary_dark: `#040c3c`,
+      primary_light: `#212c6e`,
       secondary_dark: `#bb5a00`,
       secondary_light: `#ff8d00`,
       background_dark: `#f3f3f3`

@@ -31,12 +31,13 @@ const externalLink = (i, linkText, href) => {
             data-sal-duration="1000"
             data-sal-easing="ease"
             className={headerStyles.link}
+            key={i}
             to={href}>{linkText}</Link>
 }
 
 
-const MobileHeaderLink = ({text, href}) => {
-  return <Link className={headerStyles.mobileNavLink} to={href}>{text}</Link>
+const MobileHeaderLink = ({text, href, id}) => {
+  return <Link className={headerStyles.mobileNavLink} key={id} to={href}>{text}</Link>
 }
 
 const Header = () => {
@@ -46,7 +47,7 @@ const Header = () => {
   const updateBchPrice = () => {
     axios.get(bchPriceApi).then((response) =>
     {
-      if (response.data) {
+      if (response.data && response.data.USD) {
         setCurrentUSDPrice(response.data.USD);
       }
     });
@@ -86,7 +87,7 @@ return (
     <div className={headerStyles.headerBar}>
       <div className={headerStyles.headerStart}>
         <img src={logo} className={headerStyles.logo} alt="bitcoincashlogo"></img>
-        <LivePriceWidget currentPrice={"$" + currentUSDPrice} ticker={"USD"} url={"https://www.bitcoincash.org/buy-bitcoin-cash.html"}></LivePriceWidget>
+        <LivePriceWidget currentPrice={"$" + currentUSDPrice} ticker={"USD"} url={"/buy-bitcoin-cash.html"}></LivePriceWidget>
       </div>
 
       <div className={`${headerStyles.headerLinks} topBotomBordersOut`}>
@@ -109,7 +110,7 @@ return (
       <div className={headerStyles.mobileNavLinks}>
         {navBarItems.map(headerLink => {
           return headerLink.href ? 
-            <MobileHeaderLink text={headerLink.text} href={headerLink.href}></MobileHeaderLink> : headerLink.mobileDropdown
+            <MobileHeaderLink text={headerLink.text} href={headerLink.href} key={headerLink.text} id={headerLink.index}></MobileHeaderLink> : headerLink.mobileDropdown
         })}
       </div>}
     </div>

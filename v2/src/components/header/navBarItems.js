@@ -13,7 +13,7 @@ const communityDropdownLinks = [
 const navBarItems =[{index:1, text:"Get started", href:"/start-here.html"},
      {index:2, text:"Wallets", href:"/wallets.html"},
      {index:3, text:"Logos", href:"/graphics.html"},
-     {dropdown: <CommunityDropdown links={communityDropdownLinks} index={4} text={"Community"}></CommunityDropdown>, mobileDropdown: <MobileCommunityDropdown links={communityDropdownLinks} text={"Community"}></MobileCommunityDropdown>},
+     {dropdown: <CommunityDropdown links={communityDropdownLinks} index={4} key={4} text={"Community"}></CommunityDropdown>, mobileDropdown: <MobileCommunityDropdown links={communityDropdownLinks} text={"Community"} key={4}></MobileCommunityDropdown>},
      {index:5, text:"About", href:"/faq.html"}];
 
 export const footerItems = [

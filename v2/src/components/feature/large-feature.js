@@ -35,8 +35,8 @@ return (
     </div>
 
     <div className={largeFeatureStyles.featuredPoints}>
-        {featuredPoints && featuredPoints.map(point => {
-            return (<IconTextTile icon={point.icon} text={point.text}></IconTextTile>)
+        {featuredPoints && featuredPoints.map((point, i) => {
+            return (<IconTextTile icon={point.icon} text={point.text} key={i}></IconTextTile>)
         })}
     </div>
 

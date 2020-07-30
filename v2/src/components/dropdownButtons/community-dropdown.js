@@ -33,7 +33,7 @@ const theme = data.site.siteMetadata.themeColours;
             backgroundColor={theme.primary_dark}
           />}
           {links.map(dropdownLink => { 
-            return <Link className={communityDropdownStyles.link} style={{backgroundColor: theme.primary_dark, borderBottom: `1px solid ${theme.primary_dark}`}} to={dropdownLink.href}>{dropdownLink.text}</Link>
+            return <Link className={communityDropdownStyles.link} key={dropdownLink.text} style={{backgroundColor: theme.primary_dark, borderBottom: `1px solid ${theme.primary_dark}`}} to={dropdownLink.href}>{dropdownLink.text}</Link>
           })}
     </div>
   )

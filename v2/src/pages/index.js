@@ -19,9 +19,7 @@ const IndexPage = () => {
   <Layout>
     <Hero></Hero>
     <div>
-      <div style={{paddingTop:'50px'}}>
-        <PayFriendsFeature></PayFriendsFeature>
-      </div>
+      <PayFriendsFeature></PayFriendsFeature>
       <FromPhoneFeature></FromPhoneFeature>
     </div>
     <ExploreBanner bannerText={EN_BANNER_ONE_TEXT} bannerIcon={<Arrow></Arrow>} href={"/buy-bitcoin-cash.html"}></ExploreBanner>

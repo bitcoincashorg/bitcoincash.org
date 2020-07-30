@@ -10,7 +10,7 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
 
   const internal = /^\/(?!\/)/.test(to)
   // Use Gatsby Link for internal links, and <a> for others
-  if (internal && process.env.NODE_ENV !== 'development') {
+  if (internal) {
     return (
       <GatsbyLink
         to={to}
@@ -22,9 +22,7 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
       </GatsbyLink>
     )
   }
-  if (process.env.NODE_ENV === 'development') {
-      to = `https://www.bitcoincash.org${to}` // tempoary move away from internal links on dev until full site is gastby.
-  }
+ 
   return (
     <a href={to} {...other}>
       {children}
