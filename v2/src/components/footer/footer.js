@@ -30,8 +30,8 @@ return (
   <footer className={footerStyles.footerContainer} style={{background: theme.primary_dark}}>
       <div></div>
       <div className={footerStyles.footerLinks}>
-        {footerItems.map(footerLink => {
-            return <Link to={footerLink.href}>{footerLink.text}</Link>
+        {footerItems.map((footerLink, i) => {
+            return <Link to={footerLink.href} key={i}>{footerLink.text}</Link>
           })}
       </div>
       <div className={footerStyles.lowerFooter}>
