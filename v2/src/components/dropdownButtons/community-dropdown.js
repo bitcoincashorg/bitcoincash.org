@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHover, useToggleLayer, Arrow } from "react-laag";
 import dropdownStyles from './dropdown.module.css';
-import headerStyles from '../header/header.module.css';
+import headerStyles from '../header/header.module.scss';
 import communityDropdownStyles from './community-dropdown.module.css';
 import { useStaticQuery, graphql} from "gatsby";
 import Link from '../../global/link';
@@ -42,13 +42,11 @@ const theme = data.site.siteMetadata.themeColours;
 function MobileCommunityDropdown({links, text}) {
   const [expanded, setExpanded] = useState(false);
   return (
-    <>
     <div onClick={() => setExpanded(!expanded)}>
       <div className={headerStyles.mobileNavLink}>{text}</div>
       {expanded && <div><CommunityDropdownContent links={links}></CommunityDropdownContent></div>}
     </div>
-  </>
-);
+  );
 }
 
 function CommunityDropdown({links, index, text}) {
