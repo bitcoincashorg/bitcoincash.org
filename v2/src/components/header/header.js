@@ -61,9 +61,11 @@ const communityDropdownLinks = [
   { text: "Projects", href: "/projects.html" },
   { text: "Exchanges", href: "/exchanges.html" },
   { text: "Nodes", href: "/nodes.html" },
+  { text: "Logos", href: "/graphics.html" },
   { text: "Developer Portal", href: "/developers.html" },
   { text: "Whitepaper", href: "/bitcoin.pdf" },
 ]
+
 const languageDropdownLinks = [
   { text: "English", href: "/" },
   { text: "Deutsch Deutschland", href: "/de/" },
@@ -91,7 +93,7 @@ const languageDropdown = (
 const navBarItems = [
   { text: "Get started", href: "/start-here.html" },
   { text: "Wallets", href: "/wallets.html" },
-  { text: "Logos", href: "/graphics.html" },
+  { text: "Explorer", href: "https://explorer.bitcoincash.org/" },
   { text: "Community", links: communityDropdownLinks },
   { text: "About", href: "/faq.html" },
   { text: languageDropdown, links: languageDropdownLinks },
