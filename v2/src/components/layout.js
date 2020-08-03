@@ -7,8 +7,8 @@
 
 import React from "react"
 import Header from "./header/header"
-import "./layout.css"
-import "../global/global.css";
+import "./layout.scss"
+import "../global/global.scss";
 import Footer from "./footer/footer";
 
 const Layout = ({ children }) => {
