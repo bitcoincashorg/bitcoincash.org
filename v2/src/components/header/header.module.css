@@ -96,6 +96,7 @@ header {
     padding-left:15px;
     color:white;
     border-bottom: 1px solid #ffffff20;
+    display:flex;
 }
 
 

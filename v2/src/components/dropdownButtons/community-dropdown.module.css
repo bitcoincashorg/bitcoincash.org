@@ -6,6 +6,9 @@
 
 .mainNavLink {
     margin-right:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
@@ -16,6 +19,7 @@
     font-size:14px;
     background-color: '#f9f9f9';
     color:white;
+    border-bottom: 1px solid #ffffff20;
 }
 
 .link a {
