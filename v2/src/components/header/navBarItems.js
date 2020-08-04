@@ -12,6 +12,7 @@ const communityDropdownLinks = [
      {text: "Whitepaper", href:"/bitcoin.pdf"}
 ]
 const languageDropdownLinks = [
+     {text: "English", href:"/"},
      {text: "Deutsch Deutschland", href:"/de"},
      {text: "Español", href:"/es"},
      {text: "Français", href:"/fr"},
