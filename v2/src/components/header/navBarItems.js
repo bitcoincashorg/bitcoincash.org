@@ -28,7 +28,7 @@ const languageDropdownLinks = [
      {text: "繁體中文", href:"/zh-TW"}
 ]
 
-const languageDropdown =(<><World></World><div style={{paddingLeft:'5px'}}>Language</div></>);
+const languageDropdown =(<><World></World><span style={{paddingLeft:'5px'}}>Language</span></>);
 
 const navBarItems =[{index:1, text:"Get started", href:"/start-here.html"},
      {index:2, text:"Wallets", href:"/wallets.html"},

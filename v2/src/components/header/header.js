@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import logo from '../../assets/images/bitcoin-cash-logo-white-small.png';
 import { useStaticQuery, graphql } from "gatsby"
-import headerStyles from "./header.module.css"
+import headerStyles from "./header.module.scss"
 import navBarItems from './navBarItems';
 import hamburger from '../../assets/lib/hamburgers.min.css';
 import axios from 'axios';
