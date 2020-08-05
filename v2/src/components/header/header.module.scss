@@ -85,12 +85,22 @@ header {
     position:absolute;
     z-index:1;
     display:none;
+    overflow:scroll;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+   &::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .mobileNavLinks {
     color:white;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 

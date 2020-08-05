@@ -105,7 +105,7 @@ return (
       </div>
     </div>
     </div>
-    <div className={headerStyles.mobileMenu} style={isActive ? {height:'auto', backgroundColor: theme.primary_dark} : null}>
+    <div className={headerStyles.mobileMenu} style={isActive ? {height:'calc(100vh - 100px)', backgroundColor: theme.primary_dark} : null}>
     {isActive &&
       <div className={headerStyles.mobileNavLinks}>
         {navBarItems.map(headerLink => {
