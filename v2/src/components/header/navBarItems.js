@@ -13,19 +13,19 @@ const communityDropdownLinks = [
 ]
 const languageDropdownLinks = [
      {text: "English", href:"/"},
-     {text: "Deutsch Deutschland", href:"/de/"},
-     {text: "Español", href:"/es/"},
-     {text: "Français", href:"/fr/"},
-     {text: "日本語", href:"/ja/"},
-     {text: "Nederlands", href:"/nl/"},
-     {text: "Русский", href:"/ru/"},
-     {text: "简体中文", href:"/zh-CN/"},
-     {text: "Español Latin América", href:"/es_419/"},
-     {text: "Bahasa Indonesia", href:"/id/"},
-     {text: "한국어", href:"/ko/"},
-     {text: "Português Brasil", href:"/pt-BR/"},
-     {text: "Türkçe", href:"/tr/"},
-     {text: "繁體中文", href:"/zh-TW/"}
+     {text: "Deutsch Deutschland", href:"https://www.bitcoincash.org/de/"},
+     {text: "Español", href:"https://www.bitcoincash.org/es/"},
+     {text: "Français", href:"https://www.bitcoincash.org/fr/"},
+     {text: "日本語", href:"https://www.bitcoincash.org/ja/"},
+     {text: "Nederlands", href:"https://www.bitcoincash.org/nl/"},
+     {text: "Русский", href:"https://www.bitcoincash.org/ru/"},
+     {text: "简体中文", href:"https://www.bitcoincash.org/zh-CN/"},
+     {text: "Español Latin América", href:"https://www.bitcoincash.org/es_419/"},
+     {text: "Bahasa Indonesia", href:"https://www.bitcoincash.org/id/"},
+     {text: "한국어", href:"https://www.bitcoincash.org/ko/"},
+     {text: "Português Brasil", href:"https://www.bitcoincash.org/pt-BR/"},
+     {text: "Türkçe", href:"https://www.bitcoincash.org/tr/"},
+     {text: "繁體中文", href:"https://www.bitcoincash.org/zh-TW/"}
 ]
 
 const languageDropdown =(<><World></World><span style={{paddingLeft:'5px'}}>Language</span></>);
