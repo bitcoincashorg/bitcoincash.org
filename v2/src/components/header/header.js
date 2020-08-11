@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
 import navBarItems from './navBarItems';
 import axios from 'axios';
+import '../../assets/lib/hamburgers.min.css';
 import LivePriceWidget from "../liveprice/live-price-widget";
 import Link from '../../global/link';
 
