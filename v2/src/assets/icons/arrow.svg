@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group 29</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="orange" transform="translate(-1150.000000, -2794.000000)" stroke="#FFFFFF" stroke-width="4">
-            <g id="Group-5" transform="translate(401.500000, 2796.273438)">
-                <g id="Group-4" transform="translate(751.000000, 0.000000)">
-                    <g id="Group-29">
-                        <circle id="Oval" cx="32.66" cy="32.66" r="32.66"></circle>
-                        <polyline id="Path-5" stroke-linecap="round" stroke-linejoin="round" points="36.2898828 20.66 47.7898828 32.66 36.2898828 44.66"></polyline>
-                        <line x1="47.7898828" y1="32.66" x2="15.7597656" y2="32.66" id="Path-6" stroke-linecap="round"></line>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="71" version="1.1" viewBox="0 0 71 71"><title>Group 29</title><g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="orange" stroke="#FFF" stroke-width="4" transform="translate(-1150.000000, -2794.000000)"><g id="Group-5" transform="translate(401.500000, 2796.273438)"><g id="Group-4" transform="translate(751.000000, 0.000000)"><g id="Group-29"><circle id="Oval" cx="32.66" cy="32.66" r="32.66"/><polyline id="Path-5" stroke-linecap="round" stroke-linejoin="round" points="36.29 20.66 47.79 32.66 36.29 44.66"/><line id="Path-6" x1="47.79" x2="15.76" y1="32.66" y2="32.66" stroke-linecap="round"/></g></g></g></g></g></svg>
