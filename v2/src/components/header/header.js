@@ -3,7 +3,6 @@ import logo from '../../assets/images/bitcoin-cash-logo-white-small.png';
 import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
 import navBarItems from './navBarItems';
-import hamburger from '../../assets/lib/hamburgers.min.css';
 import axios from 'axios';
 import LivePriceWidget from "../liveprice/live-price-widget";
 import Link from '../../global/link';
@@ -15,10 +14,10 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (currentScrollPos <= 1000) return;
   if (prevScrollpos > currentScrollPos) {
-    var navBar = document.getElementById("navbar")
+    let navBar = document.getElementById("navbar")
     if (navBar) navBar.style.top = "0";
   } else {
-    var navBar = document.getElementById("navbar")
+    let navBar = document.getElementById("navbar")
     if (navBar) navBar.style.top = "-100px";
   }
   prevScrollpos = currentScrollPos;
@@ -91,9 +90,9 @@ return (
       </div>
 
       <div className={`${headerStyles.headerLinks} topBotomBordersOut`}>
-        {navBarItems.map(headerLink => {
+        {navBarItems.map((headerLink, index) => {
           return headerLink.href ? 
-            externalLink(headerLink.index, headerLink.text, headerLink.href) : headerLink.dropdown
+            externalLink(index, headerLink.text, headerLink.href) : headerLink.dropdown
         })}
       </div>
 

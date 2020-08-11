@@ -4,12 +4,12 @@ import LanguageDropdown from '../dropdownButtons/language-dropdown';
 import World from '../../assets/icons/world.svg';
 
 const communityDropdownLinks = [
-     {text:"Services", href:"/services.html"},
-     {text:"Projects", href:"/projects.html"},
-     {text:"Exchanges", href:"/exchanges.html"},
-     {text:"Nodes", href:"/nodes.html"},
-     {text:"Developer Portal", href:"/developers.html"},
-     {text: "Whitepaper", href:"/bitcoin.pdf"}
+    {text:"Services", href:"/services.html"},
+    {text:"Projects", href:"/projects.html"},
+    {text:"Exchanges", href:"/exchanges.html"},
+    {text:"Nodes", href:"/nodes.html"},
+    {text:"Developer Portal", href:"/developers.html"},
+    {text: "Whitepaper", href:"/bitcoin.pdf"},
 ]
 const languageDropdownLinks = [
      {text: "English", href:"/"},
@@ -30,18 +30,20 @@ const languageDropdownLinks = [
 
 const languageDropdown =(<><World></World><span style={{paddingLeft:'5px'}}>Language</span></>);
 
-const navBarItems =[{index:1, text:"Get started", href:"/start-here.html"},
-     {index:2, text:"Wallets", href:"/wallets.html"},
-     {index:3, text:"Logos", href:"/graphics.html"},
-     {dropdown: <CommunityDropdown links={communityDropdownLinks} index={4} key={4} text={"Community"}></CommunityDropdown>, mobileDropdown: <MobileCommunityDropdown links={communityDropdownLinks} text={"Community"} key={4}></MobileCommunityDropdown>},
-     {index:5, text:"About", href:"/faq.html"},
-     {dropdown: <LanguageDropdown links={languageDropdownLinks} index={6} key={6} text={languageDropdown}></LanguageDropdown>, mobileDropdown: <MobileCommunityDropdown links={languageDropdownLinks} text={languageDropdown} key={6}></MobileCommunityDropdown>}];
+const navBarItems =[
+    {text:"Get started", href:"/start-here.html"},
+    {text:"Wallets", href:"/wallets.html"},
+    {text:"Logos", href:"/graphics.html"},
+    {dropdown: <CommunityDropdown links={communityDropdownLinks} index={4} key={4} text={"Community"}></CommunityDropdown>, mobileDropdown: <MobileCommunityDropdown links={communityDropdownLinks} text={"Community"} key={4}></MobileCommunityDropdown>},
+    {text:"About", href:"/faq.html"},
+    {dropdown: <LanguageDropdown links={languageDropdownLinks} index={6} key={6} text={languageDropdown}></LanguageDropdown>, mobileDropdown: <MobileCommunityDropdown links={languageDropdownLinks} text={languageDropdown} key={6}></MobileCommunityDropdown>},
+];
 
 export const footerItems = [
-     {text: "Get Listed", href:"/get-listed.html"},
-     {text: "Privacy Policy", href: "/privacy-policy.html"},
-     {text: "Legal", href:"/legal.html"}
+    {text: "Get Listed", href:"/get-listed.html"},
+    {text: "Privacy Policy", href: "/privacy-policy.html"},
+    {text: "Legal", href:"/legal.html"},
 ]
 
-
 export default navBarItems;
+
