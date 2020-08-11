@@ -13,19 +13,19 @@ const communityDropdownLinks = [
 ]
 const languageDropdownLinks = [
      {text: "English", href:"/"},
-     {text: "Deutsch Deutschland", href:"/de"},
-     {text: "Español", href:"/es"},
-     {text: "Français", href:"/fr"},
-     {text: "日本語", href:"/ja"},
-     {text: "Nederlands", href:"/nl"},
-     {text: "Русский", href:"/ru"},
-     {text: "简体中文", href:"/zh-CN"},
-     {text: "Español Latin América", href:"/es_419"},
-     {text: "Bahasa Indonesia", href:"/id"},
-     {text: "한국어", href:"/ko"},
-     {text: "Português Brasil", href:"/pt-BR"},
-     {text: "Türkçe", href:"/tr"},
-     {text: "繁體中文", href:"/zh-TW"}
+     {text: "Deutsch Deutschland", href:"/de/"},
+     {text: "Español", href:"/es/"},
+     {text: "Français", href:"/fr/"},
+     {text: "日本語", href:"/ja/"},
+     {text: "Nederlands", href:"/nl/"},
+     {text: "Русский", href:"/ru/"},
+     {text: "简体中文", href:"/zh-CN/"},
+     {text: "Español Latin América", href:"/es_419/"},
+     {text: "Bahasa Indonesia", href:"/id/"},
+     {text: "한국어", href:"/ko/"},
+     {text: "Português Brasil", href:"/pt-BR/"},
+     {text: "Türkçe", href:"/tr/"},
+     {text: "繁體中文", href:"/zh-TW/"}
 ]
 
 const languageDropdown =(<><World></World><span style={{paddingLeft:'5px'}}>Language</span></>);
