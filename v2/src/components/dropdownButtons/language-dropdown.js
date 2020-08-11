@@ -7,9 +7,9 @@ import { useStaticQuery, graphql} from "gatsby";
 import Link from '../../global/link';
 import ResizeObserver from 'resize-observer-polyfill';
 
-const CommunityDropdownContent = ({layerSide, arrowStyle, links}) => {
+const LanguageDropdownContent = ({layerSide, arrowStyle, links}) => {
   const data = useStaticQuery(graphql`
-  query CommunityDropdownThemeQuery {
+  query LanguageDropdownThemeQuery {
     site {
       siteMetadata {
         themeColours {
@@ -39,25 +39,25 @@ const theme = data.site.siteMetadata.themeColours;
   )
 }
 
-function MobileCommunityDropdown({links, text}) {
+function MobileLanguageDropdown({links, text}) {
   const [expanded, setExpanded] = useState(false);
   return (
     <>
     <div onClick={() => setExpanded(!expanded)}>
       <div className={headerStyles.mobileNavLink}>{text}</div>
-      {expanded && <div><CommunityDropdownContent links={links}></CommunityDropdownContent></div>}
+      {expanded && <div><LanguageDropdownContent links={links}></LanguageDropdownContent></div>}
     </div>
   </>
 );
 }
 
-function CommunityDropdown({links, index, text}) {
+function LanguageDropdown({links, index, text}) {
   const triggerRef = React.useRef();
   const [element, toggleLayerProps] = useToggleLayer(
     ({ isOpen, layerProps, layerSide, arrowStyle }) => 
       isOpen &&
         <div {...layerProps} className={dropdownStyles.dropdownContent}>
-          <CommunityDropdownContent layerSide={layerSide} arrowStyle={arrowStyle} links={links}></CommunityDropdownContent>
+          <LanguageDropdownContent layerSide={layerSide} arrowStyle={arrowStyle} links={links}></LanguageDropdownContent>
         </div>,  
         {
         ResizeObserver,
@@ -97,5 +97,5 @@ function CommunityDropdown({links, index, text}) {
   );
 }
 
-export default CommunityDropdown;
-export { MobileCommunityDropdown };
+export default LanguageDropdown;
+export { MobileLanguageDropdown };

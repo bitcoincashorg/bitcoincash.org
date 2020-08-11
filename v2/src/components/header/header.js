@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from "react"
 import logo from '../../assets/images/bitcoin-cash-logo-white-small.png';
 import { useStaticQuery, graphql } from "gatsby"
-import headerStyles from "./header.module.css"
+import headerStyles from "./header.module.scss"
 import navBarItems from './navBarItems';
 import axios from 'axios';
+import '../../assets/lib/hamburgers.min.css';
 import LivePriceWidget from "../liveprice/live-price-widget";
 import Link from '../../global/link';
 
@@ -104,7 +105,7 @@ return (
       </div>
     </div>
     </div>
-    <div className={headerStyles.mobileMenu} style={isActive ? {height:'auto', backgroundColor: theme.primary_dark} : null}>
+    <div className={headerStyles.mobileMenu} style={isActive ? {height:'calc(100vh - 100px)', backgroundColor: theme.primary_dark} : null}>
     {isActive &&
       <div className={headerStyles.mobileNavLinks}>
         {navBarItems.map(headerLink => {
