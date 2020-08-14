@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="63px" height="78px" viewBox="0 0 63 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group 27</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="orange" transform="translate(-141.000000, -3937.000000)">
-            <g id="Group-27" transform="translate(143.000000, 3939.000000)">
-                <g id="Group-17" stroke="#F59332" stroke-width="2.25">
-                    <rect id="Rectangle" x="0" y="28.0851064" width="59.3617021" height="45.9574468" rx="3.6036036"></rect>
-                    <path d="M30,0 C38.1080102,-1.4894173e-15 44.6808511,6.57284091 44.6808511,14.6808511 L44.6808511,28.0851064 L44.6808511,28.0851064 L15.3191489,28.0851064 L15.3191489,14.6808511 C15.3191489,6.57284091 21.8919898,1.4894173e-15 30,0 Z" id="Rectangle"></path>
-                </g>
-                <g id="Group-18" transform="translate(23.680851, 41.407227)" fill="#F59332">
-                    <circle id="Oval" cx="6" cy="6" r="6"></circle>
-                    <polygon id="Rectangle" points="4 4.75 8 4.75 10 19.25 2 19.25"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="78" version="1.1" viewBox="0 0 63 78"><title>Group 27</title><g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="orange" transform="translate(-141.000000, -3937.000000)"><g id="Group-27" transform="translate(143.000000, 3939.000000)"><g id="Group-17" stroke="#F59332" stroke-width="2.25"><rect id="Rectangle" width="59.362" height="45.957" x="0" y="28.085" rx="3.604"/><path id="Rectangle" d="M30,0 C38.1080102,-1.4894173e-15 44.6808511,6.57284091 44.6808511,14.6808511 L44.6808511,28.0851064 L44.6808511,28.0851064 L15.3191489,28.0851064 L15.3191489,14.6808511 C15.3191489,6.57284091 21.8919898,1.4894173e-15 30,0 Z"/></g><g id="Group-18" fill="#F59332" transform="translate(23.680851, 41.407227)"><circle id="Oval" cx="6" cy="6" r="6"/><polygon id="Rectangle" points="4 4.75 8 4.75 10 19.25 2 19.25"/></g></g></g></g></svg>

@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="63px" height="84px" viewBox="0 0 63 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group 31</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="orange" transform="translate(-810.000000, -1173.000000)" stroke="#F59332" stroke-width="2.16216216">
-            <g id="Group-16" transform="translate(812.000000, 1174.000000)">
-                <g id="Group-31" transform="translate(0.000000, 0.369369)">
-                    <rect id="Rectangle" x="0" y="20.8382529" width="37.4774775" height="59.0990991" rx="3.6036036"></rect>
-                    <line x1="0" y1="31.6279488" x2="37.4774775" y2="31.6279488" id="Path-14"></line>
-                    <line x1="0" y1="68.42412" x2="37.4774775" y2="68.42412" id="Path-14-Copy"></line>
-                    <path d="M49.5977654,24.720228 C49.5977654,20.0039619 45.7744764,16.1806729 41.0582103,16.1806729 C36.3419442,16.1806729 32.5186551,20.0039619 32.5186551,24.720228" id="Oval" transform="translate(41.058210, 20.450450) rotate(-300.000000) translate(-41.058210, -20.450450) "></path>
-                    <path d="M59.796949,25.1351351 C59.796949,16.7762308 53.0207182,10 44.6618139,10 C36.3029095,10 29.5266787,16.7762308 29.5266787,25.1351351" id="Oval" transform="translate(44.661814, 17.567568) rotate(-300.000000) translate(-44.661814, -17.567568) "></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="84" version="1.1" viewBox="0 0 63 84"><title>Group 31</title><g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="orange" stroke="#F59332" stroke-width="2.162" transform="translate(-810.000000, -1173.000000)"><g id="Group-16" transform="translate(812.000000, 1174.000000)"><g id="Group-31" transform="translate(0.000000, 0.369369)"><rect id="Rectangle" width="37.477" height="59.099" x="0" y="20.838" rx="3.604"/><line id="Path-14" x1="0" x2="37.477" y1="31.628" y2="31.628"/><line id="Path-14-Copy" x1="0" x2="37.477" y1="68.424" y2="68.424"/><path id="Oval" d="M49.5977654,24.720228 C49.5977654,20.0039619 45.7744764,16.1806729 41.0582103,16.1806729 C36.3419442,16.1806729 32.5186551,20.0039619 32.5186551,24.720228" transform="translate(41.058210, 20.450450) rotate(-300.000000) translate(-41.058210, -20.450450)"/><path id="Oval" d="M59.796949,25.1351351 C59.796949,16.7762308 53.0207182,10 44.6618139,10 C36.3029095,10 29.5266787,16.7762308 29.5266787,25.1351351" transform="translate(44.661814, 17.567568) rotate(-300.000000) translate(-44.661814, -17.567568)"/></g></g></g></g></svg>
