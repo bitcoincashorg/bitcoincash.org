@@ -13,6 +13,7 @@
     "gatsby-plugin-offline": "^3.2.13",
     "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-scroll-reveal": "0.0.7",
     "gatsby-plugin-sharp": "^2.6.14",

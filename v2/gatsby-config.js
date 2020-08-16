@@ -14,6 +14,7 @@ module.exports = {
   assetPrefix: '/v2',
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-resolve-src',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
