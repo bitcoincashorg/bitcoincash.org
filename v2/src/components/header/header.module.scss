@@ -90,14 +90,12 @@ header {
     flex-direction: column;
 }
 
-
 .mobileNavLink {
     padding:5px;
     padding-left:15px;
     color:white;
     border-bottom: 1px solid #ffffff20;
 }
-
 
 @media only screen and (max-width: 1100px) {
     .headerLinks {

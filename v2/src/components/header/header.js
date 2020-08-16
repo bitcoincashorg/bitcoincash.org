@@ -4,8 +4,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
 import axios from 'axios';
 import LivePriceWidget from "../liveprice/live-price-widget";
+import Dropdown, { MobileDropdown } from "../dropdownButtons/dropdown";
 import Link from '../../global/link';
-import CommunityDropdown, { MobileCommunityDropdown } from "../dropdownButtons/community-dropdown";
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 if (typeof window !== 'undefined') {
@@ -32,12 +32,14 @@ if (typeof window !== 'undefined') {
 
 const externalLink = (i, linkText, href) => {
   return <Link data-sal="slide-down"
-            data-sal-delay={100 + (i * 100)}
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-            className={headerStyles.link}
-            key={i}
-            to={href}>{linkText}</Link>
+    data-sal-delay={100 + (i * 100)}
+    data-sal-duration="1000"
+    data-sal-easing="ease"
+    className={headerStyles.link}
+    key={i}
+    to={href}>
+    {linkText}
+  </Link>
 }
 
 const MobileHeaderLink = ({text, href, id}) => {
@@ -113,7 +115,7 @@ const Header = () => {
           {navBarItems.map((headerLink, index) => {
             return headerLink.href
               ? externalLink(index, headerLink.text, headerLink.href)
-              : <CommunityDropdown text={headerLink.name} links={headerLink.links} index={index} key={index} />
+              : <Dropdown text={headerLink.name} links={headerLink.links} index={index} key={index} />
           })}
         </div>
 
@@ -130,7 +132,7 @@ const Header = () => {
             {navBarItems.map((headerLink, index) => {
               return headerLink.href
                 ? <MobileHeaderLink text={headerLink.text} href={headerLink.href} key={headerLink.text} id={headerLink.index} />
-                : <MobileCommunityDropdown text={headerLink.name} links={headerLink.links} key={index} />
+                : <MobileDropdown text={headerLink.name} links={headerLink.links} key={index} navLinkClass={headerStyles.mobileNavLink} />
             })}
           </div>}
         </div>
