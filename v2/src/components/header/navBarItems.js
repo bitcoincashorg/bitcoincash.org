@@ -1,7 +1,7 @@
 import React from 'react';
 import CommunityDropdown, { MobileCommunityDropdown } from "../dropdownButtons/community-dropdown";
 import LanguageDropdown from '../dropdownButtons/language-dropdown';
-import World from '../../assets/icons/world.svg';
+import World from 'assets/icons/world.svg';
 
 const communityDropdownLinks = [
     {text:"Services", href:"/services.html"},
