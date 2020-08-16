@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import fbt from "fbt"
 import footerStyles from "./footer.module.css"
-import { EN_COPYRIGHT } from "global/strings"
 import Github from "assets/icons/social/github.svg"
 import Facebook from "assets/icons/social/facebook.svg"
 import Reddit from "assets/icons/social/reddit.svg"
@@ -80,7 +80,13 @@ const Footer = () => {
             <Github />
           </a>
         </div>
-        <div className={footerStyles.copyright}>{EN_COPYRIGHT}</div>
+        <div className={footerStyles.copyright}>
+          <fbt desc="Copyright footer">
+            <fbt:param name="current year">
+              {new Date().getFullYear()}
+            </fbt:param>, All Rights Reserved
+          </fbt>
+        </div>
       </div>
     </footer>
   )

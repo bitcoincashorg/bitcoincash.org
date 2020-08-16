@@ -1,3 +1,7 @@
 {
-  "presets": ["gatsby"]
+  "presets": ["gatsby"],
+  "plugins": [
+    ["babel-plugin-fbt", { "extraOptions": { "__self": true } }],
+    "babel-plugin-fbt-runtime"
+  ]
 }
