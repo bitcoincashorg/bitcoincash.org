@@ -65,5 +65,12 @@ public
 yarn-error.log
 .pnp/
 .pnp.js
+
 # Yarn Integrity file
 .yarn-integrity
+
+# fbt
+.enum_manifest.json
+.src_manifest.json
+.source_strings.json
+

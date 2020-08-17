@@ -78,6 +78,4 @@ export const EN_LARGE_FEATURE_CTA_BTN = "See the roadmap"
 export const EN_SUBSCRIBE_CTA_TEXT =
   "Subscribe for Bitcoin Cash news, guides, and more."
 export const EN_SUBSCRIBE_BTN_TEXT = "Coming soon"
-//---------Subscribe CTA---------//
-export const EN_COPYRIGHT = "2020, All Rights Reserved"
 //---------------------Homepage---------------------//

@@ -11,6 +11,20 @@ import "../global/global.scss"
 import Header from "./header/header"
 import Footer from "./footer/footer"
 
+import { IntlVariations, init } from "fbt"
+
+const viewerContext = {
+  GENDER: IntlVariations.GENDER_UNKNOWN,
+  locale: "en_US",
+}
+
+init({
+  translations: {},
+  hooks: {
+    getViewerContext: () => viewerContext,
+  },
+})
+
 const Layout = ({ children }) => {
   return (
     <>

@@ -7,7 +7,11 @@
   "dependencies": {
     "@babel/node": "^7.10.5",
     "axios": "^0.19.2",
+    "babel-plugin-fbt": "^0.15.1",
+    "babel-plugin-fbt-runtime": "^0.9.12",
     "babel-preset-gatsby": "^0.5.5",
+    "fb-tiger-hash": "^0.1.6",
+    "fbt": "^0.15.0",
     "gatsby": "^2.24.47",
     "gatsby-image": "^2.4.16",
     "gatsby-plugin-asset-path": "^3.0.2",
@@ -39,11 +43,13 @@
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss}\" .babelrc",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "fbt-manifest": "babel-node node_modules/.bin/fbt-manifest --src src",
+    "fbt-collect": "babel-node node_modules/.bin/fbt-collect --pretty --hash-module 'fb-tiger-hash/src/hashPhrases' --manifest < .src_manifest.json > .source_strings.json"
   },
   "repository": {
     "type": "git",
