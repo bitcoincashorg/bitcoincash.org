@@ -50,34 +50,34 @@ const Footer = () => {
             className={footerStyles.socialIcon}
             href="https://twitter.com/bitcoincashorg"
           >
-            <Twitter></Twitter>
+            <Twitter />
           </a>
           <a className={footerStyles.socialIcon} href="https://t.me/BCHUpdates">
-            <Telegram></Telegram>
+            <Telegram />
           </a>
           <a
             className={footerStyles.socialIcon}
             href="https://www.instagram.com/bitcoincashorg/"
           >
-            <Instagram></Instagram>
+            <Instagram />
           </a>
           <a
             className={footerStyles.socialIcon}
             href="https://www.facebook.com/bitcoincashorg/"
           >
-            <Facebook></Facebook>
+            <Facebook />
           </a>
           <a
             className={footerStyles.socialIcon}
             href="https://reddit.com/r/bitcoincash"
           >
-            <Reddit></Reddit>
+            <Reddit />
           </a>
           <a
             className={footerStyles.socialIcon}
             href="https://github.com/bitcoincashorg/bitcoincash.org"
           >
-            <Github></Github>
+            <Github />
           </a>
         </div>
         <div className={footerStyles.copyright}>{EN_COPYRIGHT}</div>
