@@ -10,6 +10,7 @@ import "./layout.scss"
 import "../global/global.scss"
 import Header from "./header/header"
 import Footer from "./footer/footer"
+import translations from "i18n/translations.json"
 
 import { IntlVariations, init } from "fbt"
 
@@ -19,7 +20,7 @@ const viewerContext = {
 }
 
 init({
-  translations: {},
+  translations: translations,
   hooks: {
     getViewerContext: () => viewerContext,
   },

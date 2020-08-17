@@ -25,6 +25,7 @@
     "gatsby-plugin-sharp": "^2.6.27",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-transformer-sharp": "^2.5.13",
+    "node-fetch": "^2.6.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -49,7 +50,10 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "fbt-manifest": "babel-node node_modules/.bin/fbt-manifest --src src",
-    "fbt-collect": "babel-node node_modules/.bin/fbt-collect --pretty --hash-module 'fb-tiger-hash/src/hashPhrases' --manifest < .src_manifest.json > .source_strings.json"
+    "fbt-collect": "babel-node node_modules/.bin/fbt-collect --pretty --hash-module 'fb-tiger-hash/src/hashPhrases' --manifest < .src_manifest.json > .source_strings.json",
+    "fbt-transifex": "npm run fbt-manifest && npm run fbt-collect && bin/fbt-generate-transifex.bin.js",
+    "fbt-translate": "rm src/i18n/translations.json; node node_modules/babel-plugin-fbt/bin/translate.js --pretty --jenkins --translations src/i18n/locales/*.json > src/i18n/translations.json",
+    "fbt-fetch": "bin/fbt-fetch-transifex.bin.js && npm run fbt-translate"
   },
   "repository": {
     "type": "git",
