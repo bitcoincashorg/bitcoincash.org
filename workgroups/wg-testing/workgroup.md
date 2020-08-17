@@ -18,5 +18,5 @@ Discussion related to testing Bitcoin Cash, focused on Upgrades.
 
 # Relevant Documents
 
-Testnet Information for May 2020 Upgrade: [2020-05-15_upgrade_testnet.md](2020-05-15_upgrade_testnet.md)
+Testnet Information for Nov 2020 Upgrade: [2020-11-15_upgrade_testnet.md](2020-11-15_upgrade_testnet.md)
 
