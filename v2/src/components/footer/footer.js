@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import footerStyles from "./footer.module.css"
 import { EN_COPYRIGHT } from 'global/strings'
-import {footerItems} from '../header/navBarItems';
 import Github from 'assets/icons/social/github.svg';
 import Facebook from 'assets/icons/social/facebook.svg';
 import Reddit from 'assets/icons/social/reddit.svg';
@@ -10,6 +9,12 @@ import Telegram from 'assets/icons/social/telegram.svg';
 import Twitter from 'assets/icons/social/twitter.svg';
 import Instagram from 'assets/icons/social/instagram.svg';
 import Link from 'global/link';
+
+const footerItems = [
+    {text: "Get Listed", href:"/get-listed.html"},
+    {text: "Privacy Policy", href: "/privacy-policy.html"},
+    {text: "Legal", href:"/legal.html"},
+]
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
