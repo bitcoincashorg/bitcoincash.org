@@ -1,7 +1,6 @@
 import livePricingStyles from './live-price-widget.module.css';
 import React from 'react';
-import { useStaticQuery } from 'gatsby';
-
+import { graphql, useStaticQuery } from 'gatsby';
 
 const LivePriceWidget = ({currentPrice, ticker, url}) => {
 
