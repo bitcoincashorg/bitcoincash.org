@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 import { Link as GatsbyLink } from "gatsby"
 
 // Since DOM elements <a> cannot receive activeClassName
@@ -23,7 +23,7 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
       </GatsbyLink>
     )
   }
- 
+
   return (
     <a href={to} {...other}>
       {children}
@@ -32,4 +32,3 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
 }
 
 export default Link
-
