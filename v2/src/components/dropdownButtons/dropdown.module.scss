@@ -1,3 +1,7 @@
+.dropdownContent {
+    z-index:3;
+}
+
 .dropdown-container {
     background: white;
     display:flex;
@@ -26,7 +30,7 @@
     color:black !important;
 }
 
- a:visited.link { text-decoration: none; color:white !important;  }
- a:hover.link { text-decoration: none; color:white !important; background-color: rgb(255,141,0) !important ;}
- a:focus.link { text-decoration: none; color:white; }
- a:hover.link, a:active.link { text-decoration: none; color:white }
+a:visited.link { text-decoration: none; color:white !important;  }
+a:hover.link { text-decoration: none; color:white !important; background-color: rgb(255,141,0) !important ;}
+a:focus.link { text-decoration: none; color:white; }
+a:hover.link, a:active.link { text-decoration: none; color:white }
