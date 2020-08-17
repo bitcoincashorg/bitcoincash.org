@@ -1,36 +1,50 @@
 .dropdownContent {
-    z-index:3;
+  z-index: 3;
 }
 
 .dropdown-container {
-    background: white;
-    display:flex;
-    flex-direction: column;
+  background: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainNavLink {
-    margin-right:30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 20px;
-    font-size:14px;
-    background-color: '#f9f9f9';
-    color:white;
-    border-bottom: 1px solid #ffffff20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 14px;
+  background-color: "#f9f9f9";
+  color: white;
+  border-bottom: 1px solid #ffffff20;
 }
 
 .link a {
-    color:black !important;
+  color: black !important;
 }
 
-a:visited.link { text-decoration: none; color:white !important;  }
-a:hover.link { text-decoration: none; color:white !important; background-color: rgb(255,141,0) !important ;}
-a:focus.link { text-decoration: none; color:white; }
-a:hover.link, a:active.link { text-decoration: none; color:white }
+a:visited.link {
+  text-decoration: none;
+  color: white !important;
+}
+a:hover.link {
+  text-decoration: none;
+  color: white !important;
+  background-color: rgb(255, 141, 0) !important ;
+}
+a:focus.link {
+  text-decoration: none;
+  color: white;
+}
+a:hover.link,
+a:active.link {
+  text-decoration: none;
+  color: white;
+}

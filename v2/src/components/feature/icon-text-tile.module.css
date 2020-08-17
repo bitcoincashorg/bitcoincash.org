@@ -1,16 +1,16 @@
 .tileContainer {
-    display:flex;
-    flex-direction: column;
-    width:250px;
-    justify-content: space-evenly;
-    margin: 0 40px;
-    align-items: center;
-    text-align: center;
-    height:250px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: space-evenly;
+  margin: 0 40px;
+  align-items: center;
+  text-align: center;
+  height: 250px;
 }
 
 @media only screen and (max-width: 1300px) {
-    .tileContainer {
-        margin: 0 23px;
-    } 
+  .tileContainer {
+    margin: 0 23px;
+  }
 }

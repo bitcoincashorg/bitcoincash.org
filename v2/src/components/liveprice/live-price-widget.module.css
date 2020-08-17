@@ -1,25 +1,25 @@
 .widgetContainer {
-    display:flex;
-    border: 1px solid white;
-    border-radius:5px;
-    justify-content: space-around;
-    align-items: center;
-    padding:5px;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
 }
 
 .currentPrice {
-    padding-right:5px;
+  padding-right: 5px;
 }
 
 .tickerContainer {
-    background-color:white;
-    border-radius:40%;    
-    margin-left:7px;
+  background-color: white;
+  border-radius: 40%;
+  margin-left: 7px;
 }
 
 .ticker {
-    color:transparent;
-    font-size:12px;
-    font-weight: 800;
-    padding:5px;
+  color: transparent;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 5px;
 }

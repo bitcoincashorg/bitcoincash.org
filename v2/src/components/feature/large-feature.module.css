@@ -1,35 +1,35 @@
 .largeFeatureContainer {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
 }
 
 .titles {
-    display:flex;
-    flex-direction: column;
-    margin-bottom:50px;
-    text-align:center;
-    padding:0 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0 5%;
 }
 
 .featuredPoints {
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap:wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .ctaContainer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top:100px;
-    text-align:center;
-    padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  text-align: center;
+  padding: 0 5%;
 }
 
 .ctaButtons {
-    padding-top:50px;
+  padding-top: 50px;
 }

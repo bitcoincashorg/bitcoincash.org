@@ -1,60 +1,66 @@
 header {
   position: sticky;
-  top:0;
-  width:100%;
-  z-index:1;
-  transition: top 0.4s ease; 
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition: top 0.4s ease;
 }
 
 .logo {
-  width:40%;
-  height:40%;
-  margin-right:25px;
+  width: 40%;
+  height: 40%;
+  margin-right: 25px;
 }
 
 .headerStart {
-  display:flex;
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .headerBar {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  align-items:center;
-  height:100px;
-}
-
-.headerLinks {
-  display:flex;
   align-items: center;
-  padding-right:60px;
+  height: 100px;
 }
 
 .headerLinks {
-  a:before, div:before, a:after, div:after {
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.headerLinks {
+  a:before,
+  div:before,
+  a:after,
+  div:after {
     position: absolute;
     left: 0px;
     width: 100%;
     height: 2px;
-    background: rgb(255,141,0);
+    background: rgb(255, 141, 0);
     content: "";
     opacity: 0;
     transition: all 0.3s;
   }
 
-  a:after, div:after {
+  a:after,
+  div:after {
     bottom: 0px;
     transform: translateY(-10px);
   }
 
-  a:hover:after, div:hover:after {
+  a:hover:after,
+  div:hover:after {
     opacity: 1;
     transform: translateY(0px);
   }
 
-  a, div {
-    position:relative;
+  a,
+  div {
+    position: relative;
     z-index: 0;
     cursor: pointer;
     padding: 5px 0px;
@@ -67,63 +73,63 @@ header {
 }
 
 .link {
-  margin-right:30px;
+  margin-right: 30px;
 }
 
 .mobileHeaderLinks {
-  display:none;
+  display: none;
 }
 
 .mobileMenu {
   transition: all 0.5s ease;
-  width:100%;
-  left:0;
-  top:100px;
-  height:0%;
-  display:flex;
-  position:absolute;
-  z-index:1;
-  display:none;
-  overflow:scroll;
+  width: 100%;
+  left: 0;
+  top: 100px;
+  height: 0%;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  overflow: scroll;
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
-      display: none;
+    display: none;
   }
 
   /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .mobileNavLinks {
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   flex-direction: column;
   cursor: pointer;
 }
 
 .mobileNavLink {
-  padding:5px;
-  padding-left:15px;
-  color:white;
+  padding: 5px;
+  padding-left: 15px;
+  color: white;
   border-bottom: 1px solid #ffffff20;
-  display:flex;
+  display: flex;
 }
 
 @media only screen and (max-width: 1100px) {
   .headerLinks {
-      display:none;
+    display: none;
   }
   .mobileHeaderLinks {
-      display:block;
+    display: block;
   }
   .mobileMenu {
-      display:block;
+    display: block;
   }
 }
 
 @media only screen and (max-width: 631px) {
   .logo {
-      margin-right:14px;
+    margin-right: 14px;
   }
 }
