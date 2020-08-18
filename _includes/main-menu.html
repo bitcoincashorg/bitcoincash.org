@@ -86,7 +86,7 @@
                   <div class="dropdown__content lang-menu">
                     <ul class="menu-vertical">
                       {% for item in site.data.languages[] %}
-                        <li><a class="external" href="/{% unless item[0] == 'en' %}{{ item[0] }}{% endunless %}">{{ item[1] }}</a></li>
+                        <li><a class="external" href="/{% if item[0] != 'en' %}{{ item[0] }}/{% endif %}">{{ item[1] }}</a></li>
                       {% endfor %}
                     </ul>
                   </div>
