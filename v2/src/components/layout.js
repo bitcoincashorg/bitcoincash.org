@@ -7,32 +7,18 @@
 
 import React from "react"
 import "./layout.scss"
-import "../global/global.scss"
+import "global/global.scss"
 import Header from "./header/header"
 import Footer from "./footer/footer"
-import translations from "i18n/translations.json"
+import LocaleProvider from "i18n/provider"
 
-import { IntlVariations, init } from "fbt"
-
-const viewerContext = {
-  GENDER: IntlVariations.GENDER_UNKNOWN,
-  locale: "en_US",
-}
-
-init({
-  translations: translations,
-  hooks: {
-    getViewerContext: () => viewerContext,
-  },
-})
-
-const Layout = ({ children }) => {
+const Layout = ({ children, pageContext }) => {
   return (
-    <>
+    <LocaleProvider locale={pageContext.locale}>
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </LocaleProvider>
   )
 }
 
