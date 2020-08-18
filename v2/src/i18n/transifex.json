@@ -1,7 +1,22 @@
 {
+  "657e00afe7a9a198d37ecf94de9045b9": {
+    "string": "Get Listed",
+    "developer_comment": "footer link to get listed",
+    "context": "src/components/footer/footer.js:30:30"
+  },
+  "800d353888445f1d8db4c8bd3bf28370": {
+    "string": "Privacy Policy",
+    "developer_comment": "footer link to the privacy policy",
+    "context": "src/components/footer/footer.js:34:34"
+  },
+  "7537888e67bacb91f04990e4fc0f4f13": {
+    "string": "Legal",
+    "developer_comment": "footer link to legalese",
+    "context": "src/components/footer/footer.js:38:38"
+  },
   "db0346f3743397bf7921c7738231a228": {
     "string": "{current year}, All Rights Reserved",
     "developer_comment": "Copyright footer",
-    "context": "src/components/footer/footer.js:84:88"
+    "context": "src/components/footer/footer.js:93:97"
   }
 }

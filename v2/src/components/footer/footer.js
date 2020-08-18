@@ -10,12 +10,6 @@ import Twitter from "assets/icons/social/twitter.svg"
 import Instagram from "assets/icons/social/instagram.svg"
 import Link from "global/link"
 
-const footerItems = [
-  { text: "Get Listed", href: "/get-listed.html" },
-  { text: "Privacy Policy", href: "/privacy-policy.html" },
-  { text: "Legal", href: "/legal.html" },
-]
-
 const Footer = () => {
   const data = useStaticQuery(graphql`
     query FooterThemeQuery {
@@ -30,6 +24,21 @@ const Footer = () => {
   `)
 
   const theme = data.site.siteMetadata.themeColours
+
+  const footerItems = [
+    {
+      text: <fbt desc="footer link to get listed">Get Listed</fbt>,
+      href: "/get-listed.html",
+    },
+    {
+      text: <fbt desc="footer link to the privacy policy">Privacy Policy</fbt>,
+      href: "/privacy-policy.html",
+    },
+    {
+      text: <fbt desc="footer link to legalese">Legal</fbt>,
+      href: "/legal.html",
+    },
+  ]
 
   return (
     <footer
