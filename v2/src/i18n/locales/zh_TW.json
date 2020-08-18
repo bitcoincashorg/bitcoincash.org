@@ -1,6 +1,27 @@
 {
   "fb-locale": "zh_TW",
   "translations": {
+    "657e00afe7a9a198d37ecf94de9045b9": {
+      "translations": [
+        {
+          "translation": "刊登"
+        }
+      ]
+    },
+    "800d353888445f1d8db4c8bd3bf28370": {
+      "translations": [
+        {
+          "translation": "Privacy Policy"
+        }
+      ]
+    },
+    "7537888e67bacb91f04990e4fc0f4f13": {
+      "translations": [
+        {
+          "translation": "Legal"
+        }
+      ]
+    },
     "db0346f3743397bf7921c7738231a228": {
       "translations": [
         {
