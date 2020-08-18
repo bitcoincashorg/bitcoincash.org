@@ -1,0 +1,7 @@
+{
+  "db0346f3743397bf7921c7738231a228": {
+    "string": "{current year}, All Rights Reserved",
+    "developer_comment": "Copyright footer",
+    "context": "src/components/footer/footer.js:84:88"
+  }
+}
