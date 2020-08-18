@@ -42,7 +42,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby telemetry --disable && gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss}\" .babelrc",
     "start": "npm run develop",
