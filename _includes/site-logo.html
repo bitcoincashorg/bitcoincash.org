@@ -1,6 +1,10 @@
 <div class="navbar-header">
+  {% assign langPrefix = "" %}
+  {% if site.lang != "en" %}
+    {% capture langPrefix %}/{{ site.lang }}{% endcapture %}
+  {% endif %}
   <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-  <a class="navbar-brand" href="index.html">
+  <a class="navbar-brand" href="{{ langPrefix }}/index.html">
     <img src="/img/bitcoin-cash-logo-white-small.png" alt="Bitcoin Cash" class="lightit">
     <img src="/media-kit/6-bitcoin-cash-logo-horizontal-small.png" alt="Bitcoin Cash" class="darkit">
   </a>
