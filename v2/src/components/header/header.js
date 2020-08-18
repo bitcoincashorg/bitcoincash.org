@@ -8,6 +8,7 @@ import World from "assets/icons/world.svg"
 import "assets/lib/hamburgers.min.css"
 import LivePriceWidget from "../liveprice/live-price-widget"
 import Link from "global/link"
+import locales from "i18n/locales"
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 if (typeof window !== "undefined") {
@@ -66,22 +67,14 @@ const communityDropdownLinks = [
   { text: "Whitepaper", href: "/bitcoin.pdf" },
 ]
 
-const languageDropdownLinks = [
-  { text: "English", href: "/" },
-  { text: "Deutsch Deutschland", href: "/de/" },
-  { text: "Español", href: "/es/" },
-  { text: "Français", href: "/fr/" },
-  { text: "日本語", href: "/ja/" },
-  { text: "Nederlands", href: "/nl/" },
-  { text: "Русский", href: "/ru/" },
-  { text: "简体中文", href: "/zh-CN/" },
-  { text: "Español Latin América", href: "/es_419/" },
-  { text: "Bahasa Indonesia", href: "/id/" },
-  { text: "한국어", href: "/ko/" },
-  { text: "Português Brasil", href: "/pt-BR/" },
-  { text: "Türkçe", href: "/tr/" },
-  { text: "繁體中文", href: "/zh-TW/" },
-]
+const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
+  let link = "/"
+  if (locale.slug) {
+    link += locale.slug + "/"
+  }
+
+  return { text: locale.displayName, href: link }
+})
 
 const languageDropdown = (
   <>

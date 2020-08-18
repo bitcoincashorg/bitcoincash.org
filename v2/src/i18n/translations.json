@@ -1,8 +1,44 @@
 {
+  "de_DE": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
   "en_US": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "es_419": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "es_ES": {
     "3DtzHu": "{current year}, All Rights Reserved"
   },
   "fr_FR": {
     "3DtzHu": "{current year}, Tous droits réservés"
+  },
+  "id_ID": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "ja_JP": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "ko_KR": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "nl_NL": {
+    "3DtzHu": "{current year}, Alle Rechten Voorbehouden"
+  },
+  "pt_BR": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "ru_RU": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "tr_TR": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "zh_CN": {
+    "3DtzHu": "{current year}, All Rights Reserved"
+  },
+  "zh_TW": {
+    "3DtzHu": "{current year}, All Rights Reserved"
   }
 }
