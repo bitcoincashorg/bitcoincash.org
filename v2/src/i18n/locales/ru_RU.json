@@ -28,6 +28,97 @@
           "translation": "{current year}, All Rights Reserved"
         }
       ]
+    },
+    "3b00a84e9b38df9824ab753e721807b6": {
+      "translations": [
+        {
+          "translation": "Сервисы"
+        }
+      ]
+    },
+    "6882f0ffb5df9595d1dbc175701289e9": {
+      "translations": [
+        {
+          "translation": "Проекты"
+        }
+      ]
+    },
+    "ae62d55d07578ce94ad52c099cd48b9e": {
+      "translations": [
+        {
+          "translation": "Биржи"
+        }
+      ]
+    },
+    "3cdee003d2b686c00ea1853d5bd32023": {
+      "translations": [
+        {
+          "translation": "Ноды"
+        }
+      ]
+    },
+    "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
+      "translations": [
+        {
+          "translation": "Логотипы"
+        }
+      ]
+    },
+    "55b0de754d987246a9b7d7482d7410f7": {
+      "translations": [
+        {
+          "translation": "Портал разработчиков"
+        }
+      ]
+    },
+    "99fcf7d982fd20949b1656a13cd00125": {
+      "translations": [
+        {
+          "translation": "Whitepaper"
+        }
+      ]
+    },
+    "74427e34a61a4e369a9d3056792a9765": {
+      "translations": [
+        {
+          "translation": "Get started"
+        }
+      ]
+    },
+    "4dd64805e4c4cc68ed73dd4f3873ea71": {
+      "translations": [
+        {
+          "translation": "Кошельки"
+        }
+      ]
+    },
+    "6e149233a553b9376f9867d91685881e": {
+      "translations": [
+        {
+          "translation": "Explorer"
+        }
+      ]
+    },
+    "54db38e3c5c78056e098061871c6cb0f": {
+      "translations": [
+        {
+          "translation": "Сообщество"
+        }
+      ]
+    },
+    "734a1c5c0d8e3243e25047d98fb384c2": {
+      "translations": [
+        {
+          "translation": "О BCH"
+        }
+      ]
+    },
+    "13d6385a443edc6624f3455e5e477637": {
+      "translations": [
+        {
+          "translation": "Language"
+        }
+      ]
     }
   }
 }
