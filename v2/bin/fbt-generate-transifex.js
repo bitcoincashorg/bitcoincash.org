@@ -37,8 +37,9 @@ const { phrases } = sourceStrings
 
 let transifex = {}
 phrases.forEach(phrase => {
-  let desc = phrase.desc
-  let context = phrase.filepath + ":" + phrase.line_beg + ":" + phrase.line_end
+  const desc = phrase.desc
+  const context =
+    phrase.filepath + ":" + phrase.line_beg + ":" + phrase.line_end
 
   Object.entries(phrase.hashToText).forEach(([hash, text]) => {
     transifex[hash] = {
