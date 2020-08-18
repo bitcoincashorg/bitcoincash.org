@@ -4,6 +4,7 @@
 # casual contributors.
 
 APP_ENV = dev
+APP_VERSION = 1
 PORT ?= 8080
 TAG = bitcoin-cash-org
 
@@ -21,7 +22,7 @@ dev: _config.yml
 
 .PHONY: container
 container:
-	docker build --build-arg APP_ENV=$(APP_ENV) -t $(TAG) .
+	docker build --build-arg APP_ENV=$(APP_ENV) --build-arg APP_VERSION=$(APP_VERSION) -t $(TAG) .
 
 .PHONY: run
 run: container

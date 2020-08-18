@@ -25,6 +25,9 @@ make serve
 
 # or test the Docker container with:
 make run
+
+# or test the v2 build with:
+make run APP_VERSION=2
 ```
 
 Open a browser to `localhost:4000` or `localhost:8080` respectively.
