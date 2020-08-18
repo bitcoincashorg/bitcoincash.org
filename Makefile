@@ -3,9 +3,9 @@
 # goal of this makefile is to avoid needing to install a ruby toolchain for
 # casual contributors.
 
-PROJECT ?=
+APP_ENV = dev
 PORT ?= 8080
-APP_ENV=dev
+TAG = bitcoin-cash-org
 
 default: container
 
@@ -21,11 +21,11 @@ dev: _config.yml
 
 .PHONY: container
 container:
-	docker build --build-arg APP_ENV=$(APP_ENV) -t $(PROJECT)bitcoincashorg .
+	docker build --build-arg APP_ENV=$(APP_ENV) -t $(TAG) .
 
 .PHONY: run
 run: container
-	docker run -it -p $(PORT):80 $(PROJECT)bitcoincashorg:latest
+	docker run -it -p $(PORT):80 $(TAG)
 
 serve: _config.yml
 	bundle exec jekyll serve
