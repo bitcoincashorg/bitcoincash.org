@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
 import Dropdown, { MobileDropdown } from "components/dropdownButtons/dropdown"
 import axios from "axios"
+import fbt from "fbt"
 import World from "assets/icons/world.svg"
 import "assets/lib/hamburgers.min.css"
 import LivePriceWidget from "../liveprice/live-price-widget"
@@ -33,40 +34,6 @@ if (typeof window !== "undefined") {
   }
 }
 
-const externalLink = (i, linkText, href) => {
-  return (
-    <Link
-      data-sal="slide-down"
-      data-sal-delay={100 + i * 100}
-      data-sal-duration="1000"
-      data-sal-easing="ease"
-      className={headerStyles.link}
-      key={i}
-      to={href}
-    >
-      {linkText}
-    </Link>
-  )
-}
-
-const MobileHeaderLink = ({ children, href, id }) => {
-  return (
-    <Link className={headerStyles.mobileNavLink} key={id} to={href}>
-      {children}
-    </Link>
-  )
-}
-
-const communityDropdownLinks = [
-  { text: "Services", href: "/services.html" },
-  { text: "Projects", href: "/projects.html" },
-  { text: "Exchanges", href: "/exchanges.html" },
-  { text: "Nodes", href: "/nodes.html" },
-  { text: "Logos", href: "/graphics.html" },
-  { text: "Developer Portal", href: "/developers.html" },
-  { text: "Whitepaper", href: "/bitcoin.pdf" },
-]
-
 const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
   let link = "/"
   if (locale.slug) {
@@ -76,23 +43,73 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
   return { text: locale.displayName, href: link }
 })
 
-const languageDropdown = (
-  <>
-    <World />
-    <span style={{ paddingLeft: "5px" }}>Language</span>
-  </>
-)
-
-const navBarItems = [
-  { text: "Get started", href: "/start-here.html" },
-  { text: "Wallets", href: "/wallets.html" },
-  { text: "Explorer", href: "https://explorer.bitcoincash.org/" },
-  { text: "Community", links: communityDropdownLinks },
-  { text: "About", href: "/faq.html" },
-  { text: languageDropdown, links: languageDropdownLinks },
-]
-
 const Header = () => {
+  const communityDropdownLinks = [
+    {
+      text: <fbt desc="Communty menu 'services' link">Services</fbt>,
+      href: "/services.html",
+    },
+    {
+      text: <fbt desc="Communty menu 'projects' link">Projects</fbt>,
+      href: "/projects.html",
+    },
+    {
+      text: <fbt desc="Communty menu 'exchanges' link">Exchanges</fbt>,
+      href: "/exchanges.html",
+    },
+    {
+      text: <fbt desc="Communty menu 'nodes' link">Nodes</fbt>,
+      href: "/nodes.html",
+    },
+    {
+      text: <fbt desc="Communty menu 'logos' link">Logos</fbt>,
+      href: "/graphics.html",
+    },
+    {
+      text: (
+        <fbt desc="Communty menu 'developper portal' link">
+          Developer Portal
+        </fbt>
+      ),
+      href: "/developers.html",
+    },
+    {
+      text: <fbt desc="Communty menu 'whitepaper' link">Whitepaper</fbt>,
+      href: "/bitcoin.pdf",
+    },
+  ]
+
+  const navBarItems = [
+    {
+      text: <fbt desc="Top 'get started' link">Get started</fbt>,
+      href: "/start-here.html",
+    },
+    {
+      text: <fbt desc="Top 'wallets' link">Wallets</fbt>,
+      href: "/wallets.html",
+    },
+    {
+      text: <fbt desc="Link to the block explorer">Explorer</fbt>,
+      href: "https://explorer.bitcoincash.org/",
+    },
+    {
+      text: <fbt desc="Commnity menu">Community</fbt>,
+      links: communityDropdownLinks,
+    },
+    { text: <fbt desc="Top 'about' link">About</fbt>, href: "/faq.html" },
+    {
+      text: (
+        <>
+          <World />
+          <span style={{ paddingLeft: "5px" }}>
+            <fbt desc="Language selector menu">Language</fbt>
+          </span>
+        </>
+      ),
+      links: languageDropdownLinks,
+    },
+  ]
+
   const bchPriceApi =
     "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
   const [isActive, setIsActive] = useState(false)
@@ -153,7 +170,17 @@ const Header = () => {
           <div className={`${headerStyles.headerLinks} topBotomBordersOut`}>
             {navBarItems.map((headerLink, index) =>
               headerLink.href ? (
-                externalLink(index, headerLink.text, headerLink.href)
+                <Link
+                  data-sal="slide-down"
+                  data-sal-delay={100 + index * 100}
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  className={headerStyles.link}
+                  key={index}
+                  to={headerLink.href}
+                >
+                  {headerLink.text}
+                </Link>
               ) : (
                 <Dropdown links={headerLink.links} index={index} key={index}>
                   {headerLink.text}
@@ -189,13 +216,13 @@ const Header = () => {
               <div className={headerStyles.mobileNavLinks}>
                 {navBarItems.map((headerLink, index) =>
                   headerLink.href ? (
-                    <MobileHeaderLink
-                      href={headerLink.href}
-                      key={headerLink.text}
-                      id={headerLink.index}
+                    <Link
+                      className={headerStyles.mobileNavLink}
+                      key={headerLink.index}
+                      to={headerLink.href}
                     >
                       {headerLink.text}
-                    </MobileHeaderLink>
+                    </Link>
                   ) : (
                     <MobileDropdown
                       links={headerLink.links}
