@@ -1,4 +1,24 @@
 {
+  "47472eacd56067e2fab3cbd8bf61b690": {
+    "string": "Money built for you, not banks",
+    "developer_comment": "Title of the hero section",
+    "context": "src/components/hero/hero.js:41:43"
+  },
+  "3cd02bb6af846d2f2e2ec39b510e7bfb": {
+    "string": "Bitcoin Cash makes money work for you. Pay people fast, send money abroad basically for free, and store savings securely—all without middlemen controlling your funds.",
+    "developer_comment": "Body of the hero section",
+    "context": "src/components/hero/hero.js:47:51"
+  },
+  "a93ad13582036c6c06c4ddffba43018b": {
+    "string": "Get started",
+    "developer_comment": "Primary button of the hero section",
+    "context": "src/components/hero/hero.js:56:59"
+  },
+  "0c996a190077b39e16d6026c2e5b07c4": {
+    "string": "See roadmap",
+    "developer_comment": "Secondary button of the hero section",
+    "context": "src/components/hero/hero.js:64:67"
+  },
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
     "developer_comment": "footer link to get listed",
@@ -47,41 +67,41 @@
   "55b0de754d987246a9b7d7482d7410f7": {
     "string": "Developer Portal",
     "developer_comment": "Communty menu 'developper portal' link",
-    "context": "src/layout/header.js:70:72"
+    "context": "src/layout/header.js:69:69"
   },
   "99fcf7d982fd20949b1656a13cd00125": {
     "string": "Whitepaper",
     "developer_comment": "Communty menu 'whitepaper' link",
-    "context": "src/layout/header.js:77:77"
+    "context": "src/layout/header.js:73:73"
   },
   "74427e34a61a4e369a9d3056792a9765": {
     "string": "Get started",
     "developer_comment": "Top 'get started' link",
-    "context": "src/layout/header.js:84:84"
+    "context": "src/layout/header.js:81:81"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/layout/header.js:88:88"
+    "context": "src/layout/header.js:85:85"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/layout/header.js:92:92"
+    "context": "src/layout/header.js:89:89"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/layout/header.js:96:96"
+    "context": "src/layout/header.js:93:93"
   },
   "734a1c5c0d8e3243e25047d98fb384c2": {
     "string": "About",
     "developer_comment": "Top 'about' link",
-    "context": "src/layout/header.js:99:99"
+    "context": "src/layout/header.js:96:96"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/layout/header.js:105:105"
+    "context": "src/layout/header.js:102:102"
   }
 }
