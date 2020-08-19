@@ -22,10 +22,6 @@ export const EN_MONEY_ABROAD_FEATURE_BODY =
 export const EN_MONEY_ABROAD_FEATURE_BTN = "Send Bitcoin Cash"
 //---------MoneyAboardFeature---------//
 
-//---------Banner---------//
-export const EN_BANNER_ONE_TEXT = "Easy ways to buy Bitcoin Cash"
-//---------Banner---------//
-
 //---------NoBankAccFeature---------//
 export const EN_NO_BANK_ACC_FEATURE_TITLE = "Pay online without a bank account"
 export const EN_NO_BANK_ACC_FEATURE_BODY =
@@ -39,10 +35,6 @@ export const EN_STORE_SECURELY_FEATURE_BODY =
   "Scammers can pretend to be your bank, using scare tactics to trick you into sending them money. Bitcoin Cash fixes this trust issue by removing third parties altogether."
 export const EN_STORE_SECURELY_FEATURE_BTN = "Choose a wallet"
 //---------StoreSecurelyFeature---------//
-
-//---------Banner---------//
-export const EN_BANNER_TWO_TEXT = "Where to spend Bitcoin Cash"
-//---------Banner---------//
 
 //---------MoneyPrivateFeature---------//
 export const EN_MONEY_PRIVATE_FEATURE_TITLE = "Pay with the privacy of cash"
@@ -66,8 +58,4 @@ export const EN_LARGE_FEATURE_CTA_BODY =
 export const EN_LARGE_FEATURE_CTA_BTN = "See the roadmap"
 //---------LargeFeature---------//
 
-//---------Subscribe CTA---------//
-export const EN_SUBSCRIBE_CTA_TEXT =
-  "Subscribe for Bitcoin Cash news, guides, and more."
-export const EN_SUBSCRIBE_BTN_TEXT = "Coming soon"
 //---------------------Homepage---------------------//
