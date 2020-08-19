@@ -1,13 +1,5 @@
 //---------------------Homepage---------------------//
 
-//---------Hero---------//
-export const EN_HERO_TITLE = "Money built for you, not banks"
-export const EN_HERO_BODY =
-  "Bitcoin Cash makes money work for you. Pay people fast, send money abroad basically for free, and store savings securely—all without middlemen controlling your funds."
-export const EN_HERO_BTN_PRIMARY = "Get started"
-export const EN_HERO_BTN_SECONDARY = "See roadmap"
-//---------Hero---------//
-
 //---------PayFriends---------//
 export const EN_PAY_FRIENDS_FEATURE_TITLE = "Pay your friends directly"
 export const EN_PAY_FRIENDS_FEATURE_BODY =

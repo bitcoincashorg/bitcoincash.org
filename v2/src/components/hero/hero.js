@@ -1,15 +1,10 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import fbt from "fbt"
 import heroStyles from "./hero.module.css"
-import {
-  EN_HERO_TITLE,
-  EN_HERO_BODY,
-  EN_HERO_BTN_PRIMARY,
-  EN_HERO_BTN_SECONDARY,
-} from "../../global/strings"
 import PrimaryButton from "../buttons/primary-button"
 import SecondaryButton from "../buttons/secondary-button"
-import heroImage from "../../assets/images/hero.png"
+import heroImage from "assets/images/hero.png"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -42,20 +37,36 @@ const Hero = () => {
         className={heroStyles.heroText}
       >
         <div className={heroStyles.heroTitle}>
-          <h1>{EN_HERO_TITLE}</h1>
+          <h1>
+            <fbt desc="Title of the hero section">
+              Money built for you, not banks
+            </fbt>
+          </h1>
         </div>
-        <div className={heroStyles.heroBody}>{EN_HERO_BODY}</div>
+        <div className={heroStyles.heroBody}>
+          <fbt desc="Body of the hero section">
+            Bitcoin Cash makes money work for you. Pay people fast, send money
+            abroad basically for free, and store savings securely—all without
+            middlemen controlling your funds.
+          </fbt>
+        </div>
         <div className={heroStyles.heroBtnBar}>
           <PrimaryButton
             noMarginLeft={true}
-            buttonText={EN_HERO_BTN_PRIMARY}
+            buttonText={fbt(
+              "Get started",
+              "Primary button of the hero section"
+            )}
             href={"/start-here.html"}
-          ></PrimaryButton>
+          />
           <SecondaryButton
             noMarginLeft={true}
-            buttonText={EN_HERO_BTN_SECONDARY}
+            buttonText={fbt(
+              "See roadmap",
+              "Secondary button of the hero section"
+            )}
             href={"/roadmap.html"}
-          ></SecondaryButton>
+          />
         </div>
       </div>
       <div
@@ -65,7 +76,7 @@ const Hero = () => {
         data-sal-easing="ease"
         className={heroStyles.heroImageContainer}
       >
-        <img src={heroImage} className={heroStyles.heroImg} alt="hero"></img>
+        <img src={heroImage} className={heroStyles.heroImg} alt="hero" />
       </div>
     </div>
   )
