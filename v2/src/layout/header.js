@@ -40,7 +40,7 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
     link += locale.slug + "/"
   }
 
-  return { text: locale.displayName, href: link }
+  return { text: locale.displayName, href: link, localize: false }
 })
 
 const Header = () => {
@@ -72,6 +72,7 @@ const Header = () => {
     {
       text: fbt("Whitepaper", "Communty menu 'whitepaper' link"),
       href: "/bitcoin.pdf",
+      localize: false,
     },
   ]
 

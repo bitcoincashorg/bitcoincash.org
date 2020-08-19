@@ -11,8 +11,11 @@ import "./global.scss"
 import Header from "./header"
 import Footer from "./footer"
 import LocaleProvider from "i18n/provider"
+import initLocale from "i18n/init"
 
 const Page = ({ children, context }) => {
+  initLocale(context.locale)
+
   return (
     <LocaleProvider locale={context.locale}>
       <Header />

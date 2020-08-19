@@ -1,21 +1,16 @@
 import React from "react"
-import translations from "i18n/translations.json"
-import { IntlVariations, init } from "fbt"
+import locales from "i18n/locales"
+
+const LocaleContext = React.createContext({})
 
 const LocaleProvider = ({ children, locale }) => {
-  const viewerContext = {
-    GENDER: IntlVariations.GENDER_UNKNOWN,
-    locale: locale,
-  }
-
-  init({
-    translations: translations,
-    hooks: {
-      getViewerContext: () => viewerContext,
-    },
-  })
-
-  return <>{children}</>
+  return (
+    <LocaleContext.Provider value={locales[locale]}>
+      {children}
+    </LocaleContext.Provider>
+  )
 }
 
 export default LocaleProvider
+
+export const useLocaleContext = () => React.useContext(LocaleContext)

@@ -38,6 +38,7 @@ const DropdownContent = ({ layerSide, arrowStyle, links }) => {
           key={dropdownLink.text}
           style={{ backgroundColor: theme.primary_dark }}
           to={dropdownLink.href}
+          localize={dropdownLink.localize}
         >
           {dropdownLink.text}
         </Link>
