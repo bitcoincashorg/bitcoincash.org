@@ -6,15 +6,15 @@
  */
 
 import React from "react"
-import "./layout.scss"
-import "global/global.scss"
-import Header from "./header/header"
-import Footer from "./footer/footer"
+import "./page.scss"
+import "./global.scss"
+import Header from "./header"
+import Footer from "./footer"
 import LocaleProvider from "i18n/provider"
 
-const Layout = ({ children, pageContext }) => {
+const Page = ({ children, context }) => {
   return (
-    <LocaleProvider locale={pageContext.locale}>
+    <LocaleProvider locale={context.locale}>
       <Header />
       <main>{children}</main>
       <Footer />
@@ -22,4 +22,4 @@ const Layout = ({ children, pageContext }) => {
   )
 }
 
-export default Layout
+export default Page

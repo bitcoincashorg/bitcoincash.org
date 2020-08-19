@@ -1,10 +1,10 @@
 import React from "react"
-import Layout from "components/layout"
+import Page from "layout/page"
 
 export const wrapRootElement = ({ element }) => {
   return <>{element}</>
 }
 
 export const wrapPageElement = ({ element, props }) => {
-  return <Layout pageContext={props.pageContext}>{element}</Layout>
+  return <Page context={props.pageContext}>{element}</Page>
 }

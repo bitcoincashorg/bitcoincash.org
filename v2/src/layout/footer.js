@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import fbt from "fbt"
-import footerStyles from "./footer.module.css"
+import footerStyles from "./footer.module.scss"
 import Github from "assets/icons/social/github.svg"
 import Facebook from "assets/icons/social/facebook.svg"
 import Reddit from "assets/icons/social/reddit.svg"
