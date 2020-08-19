@@ -1,6 +1,6 @@
-import livePricingStyles from "./live-price-widget.module.css"
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import livePricingStyles from "./live-price-widget.module.css"
 
 const LivePriceWidget = ({ currentPrice, ticker, url }) => {
   const data = useStaticQuery(graphql`
