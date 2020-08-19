@@ -5,13 +5,13 @@ import PrimaryButton from "../buttons/primary-button"
 
 const Feature = ({
   featureTitle,
-  featureBodyText,
   featureButtonText,
   featureIcon,
   featureImage,
   isReversed,
   btnHref,
   isDarkBg,
+  children,
 }) => {
   const data = useStaticQuery(graphql`
     query FeatureThemeQuery {
@@ -54,13 +54,13 @@ const Feature = ({
             {featureIcon}
           </div>
           <h2 className={featureStyles.featureTitle}>{featureTitle}</h2>
-          <div className={featureStyles.featureBodyText}>{featureBodyText}</div>
+          <div className={featureStyles.featureBodyText}>{children}</div>
           <div className={featureStyles.featureButton}>
             <PrimaryButton
               buttonText={featureButtonText}
               href={btnHref}
               noMarginLeft={true}
-            ></PrimaryButton>
+            />
           </div>
         </div>
       </div>
