@@ -46,57 +46,53 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
 const Header = () => {
   const communityDropdownLinks = [
     {
-      text: <fbt desc="Communty menu 'services' link">Services</fbt>,
+      text: fbt("Services", "Communty menu 'services' link"),
       href: "/services.html",
     },
     {
-      text: <fbt desc="Communty menu 'projects' link">Projects</fbt>,
+      text: fbt("Projects", "Communty menu 'projects' link"),
       href: "/projects.html",
     },
     {
-      text: <fbt desc="Communty menu 'exchanges' link">Exchanges</fbt>,
+      text: fbt("Exchanges", "Communty menu 'exchanges' link"),
       href: "/exchanges.html",
     },
     {
-      text: <fbt desc="Communty menu 'nodes' link">Nodes</fbt>,
+      text: fbt("Nodes", "Communty menu 'nodes' link"),
       href: "/nodes.html",
     },
     {
-      text: <fbt desc="Communty menu 'logos' link">Logos</fbt>,
+      text: fbt("Logos", "Communty menu 'logos' link"),
       href: "/graphics.html",
     },
     {
-      text: (
-        <fbt desc="Communty menu 'developper portal' link">
-          Developer Portal
-        </fbt>
-      ),
+      text: fbt("Developer Portal", "Communty menu 'developper portal' link"),
       href: "/developers.html",
     },
     {
-      text: <fbt desc="Communty menu 'whitepaper' link">Whitepaper</fbt>,
+      text: fbt("Whitepaper", "Communty menu 'whitepaper' link"),
       href: "/bitcoin.pdf",
     },
   ]
 
   const navBarItems = [
     {
-      text: <fbt desc="Top 'get started' link">Get started</fbt>,
+      text: fbt("Get started", "Top 'get started' link"),
       href: "/start-here.html",
     },
     {
-      text: <fbt desc="Top 'wallets' link">Wallets</fbt>,
+      text: fbt("Wallets", "Top 'wallets' link"),
       href: "/wallets.html",
     },
     {
-      text: <fbt desc="Link to the block explorer">Explorer</fbt>,
+      text: fbt("Explorer", "Link to the block explorer"),
       href: "https://explorer.bitcoincash.org/",
     },
     {
-      text: <fbt desc="Commnity menu">Community</fbt>,
+      text: fbt("Community", "Commnity menu"),
       links: communityDropdownLinks,
     },
-    { text: <fbt desc="Top 'about' link">About</fbt>, href: "/faq.html" },
+    { text: fbt("About", "Top 'about' link"), href: "/faq.html" },
     {
       text: (
         <>
