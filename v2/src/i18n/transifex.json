@@ -103,5 +103,25 @@
     "string": "Language",
     "developer_comment": "Language selector menu",
     "context": "src/layout/header.js:102:102"
+  },
+  "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
+    "string": "Easy ways to buy Bitcoin Cash",
+    "developer_comment": "first banner on the homepage",
+    "context": "src/pages/index.js:25:28"
+  },
+  "677ea18ec8c7f2e5a0e4698cb6b7a17f": {
+    "string": "Where to spend Bitcoin Cash",
+    "developer_comment": "second banner on the homepage",
+    "context": "src/pages/index.js:37:40"
+  },
+  "ae7690a0d139cdb70a3a17affefb6326": {
+    "string": "Subscribe for Bitcoin Cash news, guides, and more.",
+    "developer_comment": "Subscribe call to action",
+    "context": "src/pages/index.js:50:53"
+  },
+  "f779d907ef682a079c34a0b3453261c8": {
+    "string": "Coming soon.",
+    "developer_comment": "Subscribe call to action button",
+    "context": "src/pages/index.js:54:54"
   }
 }
