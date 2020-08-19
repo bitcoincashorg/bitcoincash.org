@@ -1,24 +1,31 @@
 import React from "react"
-import Feature from "../../../components/feature/feature"
-import moneyAbroad from "../../../assets/images/home/features/moneyAbroad.png"
-import {
-  EN_MONEY_ABROAD_FEATURE_TITLE,
-  EN_MONEY_ABROAD_FEATURE_BODY,
-  EN_MONEY_ABROAD_FEATURE_BTN,
-} from "../../../global/strings"
-import Send from "../../../assets/icons/send.svg"
+import fbt from "fbt"
+import Feature from "components/feature/feature"
+import moneyAbroad from "assets/images/home/features/moneyAbroad.png"
+import Send from "assets/icons/send.svg"
 
 const MoneyAbroadFeature = () => {
   return (
     <Feature
-      featureTitle={EN_MONEY_ABROAD_FEATURE_TITLE}
-      featureBodyText={EN_MONEY_ABROAD_FEATURE_BODY}
-      featureButtonText={EN_MONEY_ABROAD_FEATURE_BTN}
+      featureTitle={fbt(
+        "Send money abroad basically for free",
+        "'send money abroad' feature's title"
+      )}
+      featureButtonText={fbt(
+        "Send Bitcoin Cash",
+        "Call to action for the 'send money abroad' feature"
+      )}
       featureIcon={<Send></Send>}
-      featureImage={<img src={moneyAbroad} alt="bch-abroad"></img>}
+      featureImage={<img src={moneyAbroad} alt="bch-abroad" />}
       noPaddingTop={true}
       btnHref={"/wallets.html"}
-    ></Feature>
+    >
+      <fbt desc="'send money abroad' feature's body">
+        On average, banks take a 6.8% cut out of the money you send home.
+        Bitcoin Cash is much cheaper—and faster, too. Use it to send remittances
+        for less than a cent.
+      </fbt>
+    </Feature>
   )
 }
 

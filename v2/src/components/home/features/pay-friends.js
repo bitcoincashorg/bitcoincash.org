@@ -1,27 +1,34 @@
 import React from "react"
-import Feature from "../../feature/feature"
-import {
-  EN_PAY_FRIENDS_FEATURE_TITLE,
-  EN_PAY_FRIENDS_FEATURE_BODY,
-  EN_PAY_FRIENDS_FEATURE_BTN,
-} from "../../../global/strings"
-import friends from "../../../assets/images/home/features/payFriends.png"
-import Spend from "../../../assets/icons/pay_friends.svg"
+import fbt from "fbt"
+import Feature from "components/feature/feature"
+import friends from "assets/images/home/features/payFriends.png"
+import Spend from "assets/icons/pay_friends.svg"
 
 const PayFriendsFeature = () => {
   return (
     <Feature
-      featureTitle={EN_PAY_FRIENDS_FEATURE_TITLE}
-      featureBodyText={EN_PAY_FRIENDS_FEATURE_BODY}
-      featureButtonText={EN_PAY_FRIENDS_FEATURE_BTN}
+      featureTitle={fbt(
+        "Pay your friends directly",
+        "'pay friend directly' feature's title"
+      )}
+      featureButtonText={fbt(
+        "Pay with Bitcoin Cash",
+        "Call to action for the 'pay friend directly' feature"
+      )}
       featureIcon={
         <div style={{ position: "relative", left: "-50px" }}>
-          <Spend></Spend>
+          <Spend />
         </div>
       }
-      featureImage={<img src={friends} alt="bch-cafe"></img>}
+      featureImage={<img src={friends} alt="bch-cafe" />}
       btnHref={"/wallets.html"}
-    ></Feature>
+    >
+      <fbt desc="'pay friend directly' feature's body">
+        Splitting the bill? Send money to your friend's wallet or have them send
+        it to yours instead. Payments are fast and go directly between the two
+        of you—no banks needed.
+      </fbt>
+    </Feature>
   )
 }
 
