@@ -2,86 +2,86 @@
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
     "developer_comment": "footer link to get listed",
-    "context": "src/components/footer/footer.js:30:30"
+    "context": "src/layout/footer.js:30:30"
   },
   "800d353888445f1d8db4c8bd3bf28370": {
     "string": "Privacy Policy",
     "developer_comment": "footer link to the privacy policy",
-    "context": "src/components/footer/footer.js:34:34"
+    "context": "src/layout/footer.js:34:34"
   },
   "7537888e67bacb91f04990e4fc0f4f13": {
     "string": "Legal",
     "developer_comment": "footer link to legalese",
-    "context": "src/components/footer/footer.js:38:38"
+    "context": "src/layout/footer.js:38:38"
   },
   "db0346f3743397bf7921c7738231a228": {
     "string": "{current year}, All Rights Reserved",
     "developer_comment": "Copyright footer",
-    "context": "src/components/footer/footer.js:93:97"
+    "context": "src/layout/footer.js:93:97"
   },
   "3b00a84e9b38df9824ab753e721807b6": {
     "string": "Services",
     "developer_comment": "Communty menu 'services' link",
-    "context": "src/components/header/header.js:49:49"
+    "context": "src/layout/header.js:49:49"
   },
   "6882f0ffb5df9595d1dbc175701289e9": {
     "string": "Projects",
     "developer_comment": "Communty menu 'projects' link",
-    "context": "src/components/header/header.js:53:53"
+    "context": "src/layout/header.js:53:53"
   },
   "ae62d55d07578ce94ad52c099cd48b9e": {
     "string": "Exchanges",
     "developer_comment": "Communty menu 'exchanges' link",
-    "context": "src/components/header/header.js:57:57"
+    "context": "src/layout/header.js:57:57"
   },
   "3cdee003d2b686c00ea1853d5bd32023": {
     "string": "Nodes",
     "developer_comment": "Communty menu 'nodes' link",
-    "context": "src/components/header/header.js:61:61"
+    "context": "src/layout/header.js:61:61"
   },
   "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
     "string": "Logos",
     "developer_comment": "Communty menu 'logos' link",
-    "context": "src/components/header/header.js:65:65"
+    "context": "src/layout/header.js:65:65"
   },
   "55b0de754d987246a9b7d7482d7410f7": {
     "string": "Developer Portal",
     "developer_comment": "Communty menu 'developper portal' link",
-    "context": "src/components/header/header.js:70:72"
+    "context": "src/layout/header.js:70:72"
   },
   "99fcf7d982fd20949b1656a13cd00125": {
     "string": "Whitepaper",
     "developer_comment": "Communty menu 'whitepaper' link",
-    "context": "src/components/header/header.js:77:77"
+    "context": "src/layout/header.js:77:77"
   },
   "74427e34a61a4e369a9d3056792a9765": {
     "string": "Get started",
     "developer_comment": "Top 'get started' link",
-    "context": "src/components/header/header.js:84:84"
+    "context": "src/layout/header.js:84:84"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/components/header/header.js:88:88"
+    "context": "src/layout/header.js:88:88"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/components/header/header.js:92:92"
+    "context": "src/layout/header.js:92:92"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/components/header/header.js:96:96"
+    "context": "src/layout/header.js:96:96"
   },
   "734a1c5c0d8e3243e25047d98fb384c2": {
     "string": "About",
     "developer_comment": "Top 'about' link",
-    "context": "src/components/header/header.js:99:99"
+    "context": "src/layout/header.js:99:99"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/components/header/header.js:105:105"
+    "context": "src/layout/header.js:105:105"
   }
 }
