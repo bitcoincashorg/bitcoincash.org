@@ -113,11 +113,7 @@ const Header = () => {
       href: "/roadmap.html",
     },
     {
-      text: (
-        <>
-          <World />
-        </>
-      ),
+      text: <World />,
       links: languageDropdownLinks,
     },
   ]
