@@ -10,15 +10,6 @@ header {
   width: 40%;
   height: 40%;
   margin-right: 25px;
-  display: flex;
-}
-
-.divider {
-  width: 1px;
-  height: 50px;
-  margin-right: 25px;
-  display: flex;
-  background-color: #fff;
 }
 
 .headerStart {
@@ -138,12 +129,7 @@ header {
 }
 
 @media only screen and (max-width: 631px) {
-  .logo,
-  .divider {
-    margin-right: 14px;
-  }
-
   .logo {
-    width: 50%;
+    margin-right: 14px;
   }
 }
