@@ -140,9 +140,6 @@ const Header = () => {
       text: (
         <>
           <World />
-          {/* <span style={{ paddingLeft: "5px" }}>
-            <fbt desc="Language selector menu">Language</fbt>
-          </span> */}
         </>
       ),
       links: languageDropdownLinks,
@@ -153,7 +150,7 @@ const Header = () => {
     {
       text: fbt("Logo Link", "Top 'logo' link"),
       href: "/",
-    }
+    },
   ]
 
   const bchPriceApi =
@@ -201,21 +198,18 @@ const Header = () => {
       >
         <div className={headerStyles.headerBar}>
           <div className={headerStyles.headerStart}>
-            {logoLink.map((logoLink) =>
-                <Link
-                  data-sal="slide-down"
-                  data-sal-delay={200}
-                  data-sal-duration="1000"
-                  data-sal-easing="ease"
-                  className={headerStyles.logo}
-                  to={logoLink.href}
-                >
-                  <img
-                    src={logo}
-                    alt="bitcoincashlogo"
-                  />
-                </Link>
-            )}
+            {logoLink.map(logoLink => (
+              <Link
+                data-sal="slide-down"
+                data-sal-delay={200}
+                data-sal-duration="1000"
+                data-sal-easing="ease"
+                className={headerStyles.logo}
+                to={logoLink.href}
+              >
+                <img src={logo} alt="bitcoincashlogo" />
+              </Link>
+            ))}
             <div className={headerStyles.divider}></div>
             <LivePriceWidget
               currentPrice={"$" + currentUSDPrice}
