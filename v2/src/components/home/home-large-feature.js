@@ -30,7 +30,7 @@ const HomeLargeFeature = () => {
         title: EN_LARGE_FEATURE_CTA_TITLE,
         body: EN_LARGE_FEATURE_CTA_BODY,
         buttonText: EN_LARGE_FEATURE_CTA_BTN,
-        btnHref: "/roadmap.html",
+        btnHref: "/roadmap/",
       }}
     ></LargeFeature>
   )
