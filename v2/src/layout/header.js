@@ -46,31 +46,70 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
 const Header = () => {
   const communityDropdownLinks = [
     {
-      text: fbt("Services", "Communty menu 'services' link"),
+      text: fbt("r/BTC", "Communty menu 'rBTC' link"),
+      href: "https://www.reddit.com/r/btc/",
+    },
+    {
+      text: fbt("r/BitcoinCash", "Communty menu 'rBitcoinCash' link"),
+      href: "https://www.reddit.com/r/Bitcoincash/",
+    },
+    {
+      text: fbt("Telegram", "Communty menu 'relegram' link"),
+      href: "https://t.me/BitcoinCashUpdates",
+    },
+    {
+      text: fbt("Facebook", "Communty menu 'facebook' link"),
+      href: "https://www.facebook.com/bitcoincashorg/",
+    },
+    {
+      text: fbt("Twitter", "Communty menu 'twitter' link"),
+      href: "https://twitter.com/Bitcoin_ABC",
+    },
+    {
+      text: fbt("Github", "Communty menu 'github' link"),
+      href: "https://github.com/bitcoincashorg/bitcoincash.org",
+    },
+  ]
+
+  const resourcesDropdownLinks = [
+    {
+      text: fbt("Get Started", "Resources menu 'Get started' link"),
+      href: "/start-here.html",
+    },
+    {
+      text: fbt("History", "Resources menu 'History' link"),
       href: "/services.html",
     },
     {
-      text: fbt("Projects", "Communty menu 'projects' link"),
+      text: fbt("Services", "Resources menu 'services' link"),
+      href: "/services.html",
+    },
+    {
+      text: fbt("Projects", "Resources menu 'projects' link"),
       href: "/projects.html",
     },
     {
-      text: fbt("Exchanges", "Communty menu 'exchanges' link"),
+      text: fbt("Exchanges", "Resources menu 'exchanges' link"),
       href: "/exchanges.html",
     },
     {
-      text: fbt("Nodes", "Communty menu 'nodes' link"),
+      text: fbt("Explorer", "Resources menu 'block explorer' link"),
+      href: "https://explorer.bitcoincash.org/",
+    },
+    {
+      text: fbt("Nodes", "Resources menu 'nodes' link"),
       href: "/nodes.html",
     },
     {
-      text: fbt("Logos", "Communty menu 'logos' link"),
-      href: "/graphics.html",
-    },
-    {
-      text: fbt("Developer Portal", "Communty menu 'developper portal' link"),
+      text: fbt("Developer Portal", "Resources menu 'developper portal' link"),
       href: "/developers.html",
     },
     {
-      text: fbt("Whitepaper", "Communty menu 'whitepaper' link"),
+      text: fbt("Logos", "Resources menu 'logos' link"),
+      href: "/graphics.html",
+    },
+    {
+      text: fbt("Whitepaper", "Resources menu 'whitepaper' link"),
       href: "/bitcoin.pdf",
       localize: false,
     },
@@ -78,33 +117,43 @@ const Header = () => {
 
   const navBarItems = [
     {
-      text: fbt("Get started", "Top 'get started' link"),
-      href: "/start-here.html",
+      text: fbt("Resources", "Top 'resources' link"),
+      links: resourcesDropdownLinks,
     },
     {
       text: fbt("Wallets", "Top 'wallets' link"),
       href: "/wallets.html",
     },
     {
-      text: fbt("Explorer", "Link to the block explorer"),
-      href: "https://explorer.bitcoincash.org/",
+      text: fbt("Buy", "Top 'buy' link"),
+      href: "/buy-bitcoin-cash.html",
     },
     {
       text: fbt("Community", "Commnity menu"),
       links: communityDropdownLinks,
     },
-    { text: fbt("About", "Top 'about' link"), href: "/faq.html" },
+    {
+      text: fbt("Roadmap", "Top 'roadmap' link"),
+      href: "/roadmap.html",
+    },
     {
       text: (
         <>
           <World />
-          <span style={{ paddingLeft: "5px" }}>
+          {/* <span style={{ paddingLeft: "5px" }}>
             <fbt desc="Language selector menu">Language</fbt>
-          </span>
+          </span> */}
         </>
       ),
       links: languageDropdownLinks,
     },
+  ]
+
+  const logoLink = [
+    {
+      text: fbt("Logo Link", "Top 'logo' link"),
+      href: "/",
+    }
   ]
 
   const bchPriceApi =
@@ -152,11 +201,22 @@ const Header = () => {
       >
         <div className={headerStyles.headerBar}>
           <div className={headerStyles.headerStart}>
-            <img
-              src={logo}
-              className={headerStyles.logo}
-              alt="bitcoincashlogo"
-            />
+            {logoLink.map((logoLink) =>
+                <Link
+                  data-sal="slide-down"
+                  data-sal-delay={200}
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  className={headerStyles.logo}
+                  to={logoLink.href}
+                >
+                  <img
+                    src={logo}
+                    alt="bitcoincashlogo"
+                  />
+                </Link>
+            )}
+            <div className={headerStyles.divider}></div>
             <LivePriceWidget
               currentPrice={"$" + currentUSDPrice}
               ticker={"USD"}
