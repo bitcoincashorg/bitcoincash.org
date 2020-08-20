@@ -65,14 +65,6 @@ const Header = () => {
 
   const resourcesDropdownLinks = [
     {
-      text: fbt("Get Started", "Resources menu 'Get started' link"),
-      href: "/start-here.html",
-    },
-    {
-      text: fbt("History", "Resources menu 'History' link"),
-      href: "/bitcoin-cash-history.html",
-    },
-    {
       text: fbt("Services", "Resources menu 'services' link"),
       href: "/services.html",
     },
@@ -96,6 +88,10 @@ const Header = () => {
   ]
 
   const navBarItems = [
+    {
+      text: fbt("Get Started", "Top 'Get started' link"),
+      href: "/start-here.html",
+    },
     {
       text: fbt("Resources", "Top 'resources' link"),
       links: resourcesDropdownLinks,
