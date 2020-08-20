@@ -21,7 +21,14 @@ const LivePriceWidget = ({ currentPrice, ticker, url }) => {
   return (
     <a className={livePricingStyles.widgetContainer} href={url}>
       <div className={livePricingStyles.currentPrice}>{currentPrice}</div>
-      <div className={livePricingStyles.ticker}>{ticker}</div>
+      <div className={livePricingStyles.tickerContainer}>
+        <div
+          className={livePricingStyles.ticker}
+          style={{ color: theme.primary_dark }}
+        >
+          {ticker}
+        </div>
+      </div>
     </a>
   )
 }
