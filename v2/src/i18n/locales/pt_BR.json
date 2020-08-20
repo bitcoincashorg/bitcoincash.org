@@ -1,6 +1,160 @@
 {
   "fb-locale": "pt_BR",
   "translations": {
+    "47472eacd56067e2fab3cbd8bf61b690": {
+      "translations": [
+        {
+          "translation": "Money built for you, not banks"
+        }
+      ]
+    },
+    "3cd02bb6af846d2f2e2ec39b510e7bfb": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash makes money work for you. Pay people fast, send money abroad basically for free, and store savings securely—all without middlemen controlling your funds."
+        }
+      ]
+    },
+    "a93ad13582036c6c06c4ddffba43018b": {
+      "translations": [
+        {
+          "translation": "Get started"
+        }
+      ]
+    },
+    "0c996a190077b39e16d6026c2e5b07c4": {
+      "translations": [
+        {
+          "translation": "See roadmap"
+        }
+      ]
+    },
+    "033c866e409e7a0f4a9e1026aa15a486": {
+      "translations": [
+        {
+          "translation": "Spend straight from your phone"
+        }
+      ]
+    },
+    "18233739ba6722328e10e915aee4e31d": {
+      "translations": [
+        {
+          "translation": "Gastar Bitcoin Cash"
+        }
+      ]
+    },
+    "d4a3c5e1ce22110c4456a05a3e8b40de": {
+      "translations": [
+        {
+          "translation": "Coffee to go? Time for a new laptop? Get it with Bitcoin Cash at an increasing number of participating websites and stores. Simply scan to check out, just like Google Pay."
+        }
+      ]
+    },
+    "2830fdff024a8df7092f940add52d98d": {
+      "translations": [
+        {
+          "translation": "Send money abroad basically for free"
+        }
+      ]
+    },
+    "28fb543692f582d63dbf7a591ac93f5b": {
+      "translations": [
+        {
+          "translation": "Send Bitcoin Cash"
+        }
+      ]
+    },
+    "0d34277d3cb1b937f8467106579c155f": {
+      "translations": [
+        {
+          "translation": "On average, banks take a 6.8% cut out of the money you send home. Bitcoin Cash is much cheaper—and faster, too. Use it to send remittances for less than a cent."
+        }
+      ]
+    },
+    "e90ea55000f507da66e6ae827ad62775": {
+      "translations": [
+        {
+          "translation": "Pay with the privacy of cash"
+        }
+      ]
+    },
+    "3d65dbf9cddca9e877ad9fea43f29e2f": {
+      "translations": [
+        {
+          "translation": "Pay privately"
+        }
+      ]
+    },
+    "1de5d67777a77620f0927972c8c58392": {
+      "translations": [
+        {
+          "translation": "Since a bank account is tied to your identity, your transaction history is, too. Bitcoin Cash is the opposite: nobody knows who you are and payments can be sent privately."
+        }
+      ]
+    },
+    "53991ca9a39cc4478c77f393388aa482": {
+      "translations": [
+        {
+          "translation": "Pay online without a bank account"
+        }
+      ]
+    },
+    "15822f7cae3c9ac02127674ab19397a3": {
+      "translations": [
+        {
+          "translation": "Get set up"
+        }
+      ]
+    },
+    "fd01af7df67ffebb8dee09e313fb4a96": {
+      "translations": [
+        {
+          "translation": "Too far away? Too many fees? Whatever your reason for not owning a bank account, Bitcoin Cash can help. Use it to pay and get paid online without the need for banks."
+        }
+      ]
+    },
+    "6cedf08807f584880ac5121fcd7fd32b": {
+      "translations": [
+        {
+          "translation": "Pay your friends directly"
+        }
+      ]
+    },
+    "b410d412e2ab6f26936b286fedce5b53": {
+      "translations": [
+        {
+          "translation": "Pay with Bitcoin Cash"
+        }
+      ]
+    },
+    "b40dafc1e3655d2e5cbac924ac784083": {
+      "translations": [
+        {
+          "translation": "Splitting the bill? Send money to your friend's wallet or have them send it to yours instead. Payments are fast and go directly between the two of you—no banks needed."
+        }
+      ]
+    },
+    "a3598cd85f5fe560d14f10ecc7cfe1b5": {
+      "translations": [
+        {
+          "translation": "Store savings in a safer place"
+        }
+      ]
+    },
+    "79c193971b8973d7146a9bf0aaa22ca6": {
+      "translations": [
+        {
+          "translation": "Choose a wallet"
+        }
+      ]
+    },
+    "2a944fd5c6bd0c6d8b1fcf70b4463fa7": {
+      "translations": [
+        {
+          "translation": "Scammers can pretend to be your bank, using scare tactics to trick you into sending them money. Bitcoin Cash fixes this trust issue by removing third parties altogether."
+        }
+      ]
+    },
     "657e00afe7a9a198d37ecf94de9045b9": {
       "translations": [
         {
@@ -117,6 +271,34 @@
       "translations": [
         {
           "translation": "Language"
+        }
+      ]
+    },
+    "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
+      "translations": [
+        {
+          "translation": "Easy ways to buy Bitcoin Cash"
+        }
+      ]
+    },
+    "677ea18ec8c7f2e5a0e4698cb6b7a17f": {
+      "translations": [
+        {
+          "translation": "Where to spend Bitcoin Cash"
+        }
+      ]
+    },
+    "ae7690a0d139cdb70a3a17affefb6326": {
+      "translations": [
+        {
+          "translation": "Subscribe for Bitcoin Cash news, guides, and more."
+        }
+      ]
+    },
+    "f779d907ef682a079c34a0b3453261c8": {
+      "translations": [
+        {
+          "translation": "Coming soon."
         }
       ]
     }
