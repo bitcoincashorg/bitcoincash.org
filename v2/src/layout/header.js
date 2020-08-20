@@ -151,19 +151,16 @@ const Header = () => {
         }}
       >
         <div className={headerStyles.headerBar}>
-          <div 
-            className={headerStyles.headerStart} 
+          <div
+            className={headerStyles.headerStart}
             data-sal="slide-down"
             data-sal-delay={200}
             data-sal-duration="1000"
             data-sal-easing="ease"
           >
-            <Link
-              className={headerStyles.logo}
-              to="/"
-            >
+            <Link className={headerStyles.logo} to="/">
               <img src={logo} alt="bitcoincashlogo" />
-            </Link>        
+            </Link>
             <div className={headerStyles.divider} />
             <LivePriceWidget
               currentPrice={"$" + currentUSDPrice}
