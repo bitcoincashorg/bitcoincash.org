@@ -126,13 +126,6 @@ const Header = () => {
     },
   ]
 
-  const logoLink = [
-    {
-      text: fbt("Logo Link", "Top 'logo' link"),
-      href: "/",
-    },
-  ]
-
   const bchPriceApi =
     "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
   const [isActive, setIsActive] = useState(false)
@@ -178,18 +171,16 @@ const Header = () => {
       >
         <div className={headerStyles.headerBar}>
           <div className={headerStyles.headerStart}>
-            {logoLink.map(logoLink => (
               <Link
                 data-sal="slide-down"
                 data-sal-delay={200}
                 data-sal-duration="1000"
                 data-sal-easing="ease"
                 className={headerStyles.logo}
-                to={logoLink.href}
+                to="/"
               >
                 <img src={logo} alt="bitcoincashlogo" />
-              </Link>
-            ))}
+              </Link>        
             <div className={headerStyles.divider}></div>
             <LivePriceWidget
               currentPrice={"$" + currentUSDPrice}
