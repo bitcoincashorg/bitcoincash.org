@@ -65,7 +65,7 @@ const Hero = () => {
               "See roadmap",
               "Secondary button of the hero section"
             )}
-            href={"/roadmap.html"}
+            href={"/roadmap/"}
           />
         </div>
       </div>

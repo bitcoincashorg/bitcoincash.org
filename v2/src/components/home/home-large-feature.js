@@ -47,7 +47,7 @@ const HomeLargeFeature = () => {
           "'does what banks can't do' homepage feature's CTA text"
         ),
         buttonText: fbt("See the roadmap", "'does what banks can't do' homepage feature's CTA button text"),
-        btnHref: "/roadmap.html",
+        btnHref: "/roadmap/",
       }}
     ></LargeFeature>
   )
