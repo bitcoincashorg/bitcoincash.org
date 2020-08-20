@@ -1,15 +1,6 @@
 import React from "react"
 import LargeFeature from "../feature/large-feature"
-import {
-  EN_LARGE_FEATURE_CTA_TITLE,
-  EN_LARGE_FEATURE_POINTONE,
-  EN_LARGE_FEATURE_POINTTWO,
-  EN_LARGE_FEATURE_POINTTHREE,
-  EN_LARGE_FEATURE_CTA_BODY,
-  EN_LARGE_FEATURE_CTA_BTN,
-  EN_LARGE_FEATURE_SUBTITLE,
-  EN_LARGE_FEATURE_TITLE,
-} from "../../global/strings"
+import fbt from "fbt"
 import PhoneIcon from "../../assets/icons/directpayment.svg"
 import TinyFees from "../../assets/icons/tinyfees.svg"
 import SentFast from "../../assets/icons/sentfast.svg"
@@ -18,18 +9,44 @@ import Anywhere from "../../assets/icons/anywhere.svg"
 const HomeLargeFeature = () => {
   return (
     <LargeFeature
-      featureTitle={EN_LARGE_FEATURE_TITLE}
-      featureSubtitle={EN_LARGE_FEATURE_SUBTITLE}
+      featureTitle={fbt(
+        "Bitcoin Cash does what banks can't do",
+        "Large feature's title"
+      )}
       featuredPoints={[
-        { icon: <PhoneIcon></PhoneIcon>, text: EN_LARGE_FEATURE_POINTONE },
-        { icon: <TinyFees></TinyFees>, text: EN_LARGE_FEATURE_POINTTWO },
-        { icon: <SentFast></SentFast>, text: EN_LARGE_FEATURE_POINTTHREE },
+        {
+          icon: <PhoneIcon />,
+          text: fbt(
+            "Payments go directly from one person to another.",
+            "Large feature's point one"
+          ),
+        },
+        {
+          icon: <TinyFees />,
+          text: fbt(
+            "No matter how much you send, fees are always tiny.",
+            "Large feature's point two"
+          ),
+        },
+        {
+          icon: <SentFast />,
+          text: fbt(
+            "Money is sent and received fast—no delays, no limits.",
+            "Large feature's point three"
+          ),
+        },
       ]}
       CTA={{
-        icon: <Anywhere></Anywhere>,
-        title: EN_LARGE_FEATURE_CTA_TITLE,
-        body: EN_LARGE_FEATURE_CTA_BODY,
-        buttonText: EN_LARGE_FEATURE_CTA_BTN,
+        icon: <Anywhere />,
+        title: fbt(
+          "And everyone, everywhere can use it",
+          "Large feature's CTA title"
+        ),
+        body: fbt(
+          "Bitcoin Cash is sound money for the world. To meet growing demand, developers are always scaling the Bitcoin Cash network.",
+          "Large feature's CTA text"
+        ),
+        buttonText: fbt("See the roadmap", "Large feature's CTA button text"),
         btnHref: "/roadmap.html",
       }}
     ></LargeFeature>
