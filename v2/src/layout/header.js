@@ -44,29 +44,21 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
 })
 
 const Header = () => {
-  const communityDropdownLinks = [
+  const developersDropdownLinks = [
     {
-      text: fbt("r/BTC", "Communty menu 'rBTC' link"),
-      href: "https://www.reddit.com/r/btc/",
+      text: fbt("Developer Portal", "Developer menu 'developper portal' link"),
+      href: "/developers.html",
     },
     {
-      text: fbt("r/BitcoinCash", "Communty menu 'rBitcoinCash' link"),
-      href: "https://www.reddit.com/r/Bitcoincash/",
+      text: fbt("Nodes", "Developer menu 'nodes' link"),
+      href: "/nodes.html",
     },
     {
-      text: fbt("Telegram", "Communty menu 'relegram' link"),
-      href: "https://t.me/BitcoinCashUpdates",
+      text: fbt("Projects", "Developer menu 'projects' link"),
+      href: "/projects.html",
     },
     {
-      text: fbt("Facebook", "Communty menu 'facebook' link"),
-      href: "https://www.facebook.com/bitcoincashorg/",
-    },
-    {
-      text: fbt("Twitter", "Communty menu 'twitter' link"),
-      href: "https://twitter.com/Bitcoin_ABC",
-    },
-    {
-      text: fbt("Github", "Communty menu 'github' link"),
+      text: fbt("Github", "Developer menu 'github' link"),
       href: "https://github.com/bitcoincashorg/bitcoincash.org",
     },
   ]
@@ -78,15 +70,11 @@ const Header = () => {
     },
     {
       text: fbt("History", "Resources menu 'History' link"),
-      href: "/services.html",
+      href: "/bitcoin-cash-history.html",
     },
     {
       text: fbt("Services", "Resources menu 'services' link"),
       href: "/services.html",
-    },
-    {
-      text: fbt("Projects", "Resources menu 'projects' link"),
-      href: "/projects.html",
     },
     {
       text: fbt("Exchanges", "Resources menu 'exchanges' link"),
@@ -95,14 +83,6 @@ const Header = () => {
     {
       text: fbt("Explorer", "Resources menu 'block explorer' link"),
       href: "https://explorer.bitcoincash.org/",
-    },
-    {
-      text: fbt("Nodes", "Resources menu 'nodes' link"),
-      href: "/nodes.html",
-    },
-    {
-      text: fbt("Developer Portal", "Resources menu 'developper portal' link"),
-      href: "/developers.html",
     },
     {
       text: fbt("Logos", "Resources menu 'logos' link"),
@@ -129,8 +109,8 @@ const Header = () => {
       href: "/buy-bitcoin-cash.html",
     },
     {
-      text: fbt("Community", "Commnity menu"),
-      links: communityDropdownLinks,
+      text: fbt("Developers", "Developers menu"),
+      links: developersDropdownLinks,
     },
     {
       text: fbt("Roadmap", "Top 'roadmap' link"),
