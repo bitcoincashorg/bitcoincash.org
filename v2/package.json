@@ -53,7 +53,7 @@
     "fbt-collect": "babel-node node_modules/.bin/fbt-collect --pretty --hash-module 'fb-tiger-hash/src/hashPhrases' --manifest < .src_manifest.json > .source_strings.json",
     "fbt-transifex": "npm run fbt-manifest && npm run fbt-collect && bin/fbt-generate-transifex.bin.js",
     "fbt-translate": "rm src/i18n/translations.json; node node_modules/babel-plugin-fbt/bin/translate.js --pretty --jenkins --translations src/i18n/locales/*.json > src/i18n/translations.json",
-    "fbt-fetch": "bin/fbt-fetch-transifex.bin.js && npm run fbt-translate"
+    "fbt-fetch": "npm run fbt-manifest && npm run fbt-collect && bin/fbt-fetch-transifex.bin.js && npm run fbt-translate"
   },
   "repository": {
     "type": "git",
