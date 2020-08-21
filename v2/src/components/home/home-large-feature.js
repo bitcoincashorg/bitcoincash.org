@@ -1,10 +1,10 @@
 import React from "react"
 import LargeFeature from "../feature/large-feature"
 import fbt from "fbt"
-import PhoneIcon from "../../assets/icons/directpayment.svg"
-import TinyFees from "../../assets/icons/tinyfees.svg"
-import SentFast from "../../assets/icons/sentfast.svg"
-import Anywhere from "../../assets/icons/anywhere.svg"
+import PhoneIcon from "assets/icons/directpayment.svg"
+import TinyFees from "assets/icons/tinyfees.svg"
+import SentFast from "assets/icons/sentfast.svg"
+import Anywhere from "assets/icons/anywhere.svg"
 
 const HomeLargeFeature = () => {
   return (
