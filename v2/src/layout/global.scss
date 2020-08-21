@@ -1,8 +1,18 @@
-div {
-  color: white;
+body {
   font-family: "AvenirNextGEO";
+  background-color: #fff;
+}
+
+.template-container {
+  min-height: 80vh;
+  display: flex;
+  width: 100%;
+  padding: 100px 10%;
+  justify-content: space-between;
+}
+
+div {
   line-height: 1.55em;
-  font-size: 23px;
 }
 
 button {
@@ -59,13 +69,21 @@ h1 {
   font-family: "PlatoSans";
   font-size: 64px;
   letter-spacing: 1px;
-  line-height: 90px;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.45rem;
+  text-rendering: optimizeLegibility;
 }
 
 h2 {
   font-family: "PlatoSans";
   font-size: 47px;
   color: #313131;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.45rem;
+  line-height: 1.3em;
 }
 
 h3 {
