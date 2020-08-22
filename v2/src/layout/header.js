@@ -44,25 +44,6 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
 })
 
 const Header = () => {
-  const developersDropdownLinks = [
-    {
-      text: fbt("Developer Portal", "Developer menu 'developper portal' link"),
-      href: "/developers.html",
-    },
-    {
-      text: fbt("Nodes", "Developer menu 'nodes' link"),
-      href: "/nodes.html",
-    },
-    {
-      text: fbt("Projects", "Developer menu 'projects' link"),
-      href: "/projects.html",
-    },
-    {
-      text: fbt("Github", "Developer menu 'github' link"),
-      href: "https://github.com/bitcoincashorg/bitcoincash.org",
-    },
-  ]
-
   const resourcesDropdownLinks = [
     {
       text: fbt("Services", "Resources menu 'services' link"),
@@ -84,6 +65,25 @@ const Header = () => {
       text: fbt("Whitepaper", "Resources menu 'whitepaper' link"),
       href: "/bitcoin.pdf",
       localize: false,
+    },
+  ]
+  
+  const developersDropdownLinks = [
+    {
+      text: fbt("Developer Portal", "Developer menu 'developper portal' link"),
+      href: "/developers.html",
+    },
+    {
+      text: fbt("Nodes", "Developer menu 'nodes' link"),
+      href: "/nodes.html",
+    },
+    {
+      text: fbt("Projects", "Developer menu 'projects' link"),
+      href: "/projects.html",
+    },
+    {
+      text: fbt("Github", "Developer menu 'github' link"),
+      href: "https://github.com/bitcoincashorg/bitcoincash.org",
     },
   ]
 
