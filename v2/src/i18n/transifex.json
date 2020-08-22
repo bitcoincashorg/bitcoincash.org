@@ -142,7 +142,7 @@
   "58600d07c3ef680e2dc727d0d10d4070": {
     "string": "See the roadmap",
     "developer_comment": "'does what banks can't do' homepage feature's CTA button text",
-    "context": "src/components/home/home-large-feature.js:49:49"
+    "context": "src/components/home/home-large-feature.js:49:52"
   },
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
