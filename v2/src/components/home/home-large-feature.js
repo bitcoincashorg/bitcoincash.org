@@ -46,7 +46,10 @@ const HomeLargeFeature = () => {
           "Bitcoin Cash is sound money for the world. To meet growing demand, developers are always scaling the Bitcoin Cash network.",
           "'does what banks can't do' homepage feature's CTA text"
         ),
-        buttonText: fbt("See the roadmap", "'does what banks can't do' homepage feature's CTA button text"),
+        buttonText: fbt(
+          "See the roadmap",
+          "'does what banks can't do' homepage feature's CTA button text"
+        ),
         btnHref: "/roadmap/",
       }}
     ></LargeFeature>
