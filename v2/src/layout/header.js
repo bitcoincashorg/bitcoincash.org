@@ -44,76 +44,64 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
 })
 
 const Header = () => {
-  const resourcesDropdownLinks = [
+  const communityDropdownLinks = [
     {
-      text: fbt("Services", "Resources menu 'services' link"),
+      text: fbt("Services", "Community menu 'services' link"),
       href: "/services.html",
     },
     {
-      text: fbt("Exchanges", "Resources menu 'exchanges' link"),
-      href: "/exchanges.html",
-    },
-    {
-      text: fbt("Explorer", "Resources menu 'block explorer' link"),
-      href: "https://explorer.bitcoincash.org/",
-    },
-    {
-      text: fbt("Logos", "Resources menu 'logos' link"),
-      href: "/graphics.html",
-    },
-    {
-      text: fbt("Whitepaper", "Resources menu 'whitepaper' link"),
-      href: "/bitcoin.pdf",
-      localize: false,
-    },
-  ]
-  
-  const developersDropdownLinks = [
-    {
-      text: fbt("Developer Portal", "Developer menu 'developper portal' link"),
-      href: "/developers.html",
-    },
-    {
-      text: fbt("Nodes", "Developer menu 'nodes' link"),
-      href: "/nodes.html",
-    },
-    {
-      text: fbt("Projects", "Developer menu 'projects' link"),
+      text: fbt("Projects", "Community menu 'projects' link"),
       href: "/projects.html",
     },
     {
-      text: fbt("Github", "Developer menu 'github' link"),
-      href: "https://github.com/bitcoincashorg/bitcoincash.org",
+      text: fbt("Exchanges", "Community menu 'exchanges' link"),
+      href: "/exchanges.html",
+    },
+    {
+      text: fbt("Nodes", "Community menu 'nodes' link"),
+      href: "/nodes.html",
+    },
+    {
+      text: fbt("Logos", "Community menu 'logos' link"),
+      href: "/graphics.html",
+    },
+    {
+      text: fbt("Developer Portal", "Community menu 'developper portal' link"),
+      href: "/developers.html",
     },
   ]
 
   const navBarItems = [
     {
-      text: fbt("Get Started", "Top 'Get started' link"),
-      href: "/start-here.html",
+      text: fbt("Home", "Top 'home' link"),
+      href: "/",
     },
     {
-      text: fbt("Resources", "Top 'resources' link"),
-      links: resourcesDropdownLinks,
+      text: fbt("Start Here", "Top 'Start here' link"),
+      href: "/start-here.html",
     },
     {
       text: fbt("Wallets", "Top 'wallets' link"),
       href: "/wallets.html",
     },
     {
-      text: fbt("Buy", "Top 'buy' link"),
-      href: "/buy-bitcoin-cash.html",
+      text: fbt("Logos", "Top 'logos' link"),
+      href: "/graphics.html",
     },
     {
-      text: fbt("Developers", "Developers menu"),
-      links: developersDropdownLinks,
+      text: fbt("Community", "Commnity menu"),
+      links: communityDropdownLinks,
     },
+    { text: fbt("About", "Top 'about' link"), href: "/faq.html" },
     {
-      text: fbt("Roadmap", "Top 'roadmap' link"),
-      href: "/roadmap.html",
-    },
-    {
-      text: <World />,
+      text: (
+        <>
+          <World />
+          <span style={{ paddingLeft: "5px" }}>
+            <fbt desc="Language selector menu">Language</fbt>
+          </span>
+        </>
+      ),
       links: languageDropdownLinks,
     },
   ]
