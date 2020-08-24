@@ -155,6 +155,55 @@
         }
       ]
     },
+    "d09ba9299507646e8d228883cedc134b": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash does what banks can't do"
+        }
+      ]
+    },
+    "47b79c719bdf0fe859ba03b10fe7b5fd": {
+      "translations": [
+        {
+          "translation": "Payments go directly from one person to another."
+        }
+      ]
+    },
+    "7bf01da9afe61530d41015f688cdee3f": {
+      "translations": [
+        {
+          "translation": "No matter how much you send, fees are always tiny."
+        }
+      ]
+    },
+    "4a38eb153d7be4a3cc8bda9f8341d3fe": {
+      "translations": [
+        {
+          "translation": "Money is sent and received fast—no delays, no limits."
+        }
+      ]
+    },
+    "98462725924a06d5b90e074a20713534": {
+      "translations": [
+        {
+          "translation": "And everyone, everywhere can use it"
+        }
+      ]
+    },
+    "0ff49d81ba079631db188d0707041556": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash is sound money for the world. To meet growing demand, developers are always scaling the Bitcoin Cash network."
+        }
+      ]
+    },
+    "58600d07c3ef680e2dc727d0d10d4070": {
+      "translations": [
+        {
+          "translation": "See the roadmap"
+        }
+      ]
+    },
     "657e00afe7a9a198d37ecf94de9045b9": {
       "translations": [
         {
@@ -299,6 +348,377 @@
       "translations": [
         {
           "translation": "Coming soon."
+        }
+      ]
+    },
+    "d74b66d8afcffeb2cf7b4c7f5848e22f": {
+      "translations": [
+        {
+          "translation": "トランザクション格納方式（CTOR）"
+        }
+      ]
+    },
+    "de78c72984a1db2439de0c93b90f7f0f": {
+      "translations": [
+        {
+          "translation": "（拡張可能ブロック処理）"
+        }
+      ]
+    },
+    "f42b22638fe3189bafb4aaa20015143d": {
+      "translations": [
+        {
+          "translation": "ブロック伝播の効率化"
+        }
+      ]
+    },
+    "6f297b182748a3d753f7e815ad8e8fa8": {
+      "translations": [
+        {
+          "translation": "(グラフェンその他)"
+        }
+      ]
+    },
+    "2b7d19f35c712e8a70ec7c74aee63cb4": {
+      "translations": [
+        {
+          "translation": "メルクリックスメタデータツリー"
+        }
+      ]
+    },
+    "94e6f38059317000f2018ee6cea4954c": {
+      "translations": [
+        {
+          "translation": "（拡張可能ブロック処理）"
+        }
+      ]
+    },
+    "d3197aa026de8266870fa7e95620437d": {
+      "translations": [
+        {
+          "translation": "UTXOコミットメント　"
+        }
+      ]
+    },
+    "c8e1c0e560dac971a40a0fe2280b8daf": {
+      "translations": [
+        {
+          "translation": "(ブロックチェーン剪定)"
+        }
+      ]
+    },
+    "9f2f94996c5fa9bcc7c945c8200997d3": {
+      "translations": [
+        {
+          "translation": "シュノア署名"
+        }
+      ]
+    },
+    "eae6be17343c05ce1b36367adc3a5af1": {
+      "translations": [
+        {
+          "translation": "（署名検証のバッチ処理）"
+        }
+      ]
+    },
+    "5a8ab17357d9b2a86e57f42ef66ccae5": {
+      "translations": [
+        {
+          "translation": "順応性のあるブロック・サイズ"
+        }
+      ]
+    },
+    "cc0aa9ea6d5a1484bbb753196ac79503": {
+      "translations": [
+        {
+          "translation": "（1TBブロックまでの成長は市場主導）"
+        }
+      ]
+    },
+    "375a4d3f546905e096f415172142b301": {
+      "translations": [
+        {
+          "translation": "Mankind Scale"
+        }
+      ]
+    },
+    "32ab79127cc82627d4736f926503d70a": {
+      "translations": [
+        {
+          "translation": "100億人一人当たり一日50取引"
+        }
+      ]
+    },
+    "cefac769976f276c1490c7f5899773eb": {
+      "translations": [
+        {
+          "translation": "（ユーザーにより簡単でより安全）"
+        }
+      ]
+    },
+    "c2405a77eeb1af62efdb24cf4cb91d88": {
+      "translations": [
+        {
+          "translation": "（ハードウェア・ウォレット・セキュリティ）"
+        }
+      ]
+    },
+    "c681801595f881e98c5ca32dd88c979b": {
+      "translations": [
+        {
+          "translation": "送金料の改善"
+        }
+      ]
+    },
+    "96ef736993f49b36292d0c721df0c853": {
+      "translations": [
+        {
+          "translation": "（より安い手数料）"
+        }
+      ]
+    },
+    "aca4dc88192cbdd2a892c2338bfc7486": {
+      "translations": [
+        {
+          "translation": "事前合意形成"
+        }
+      ]
+    },
+    "d25159772bc79174dd0214b6f1c63372": {
+      "translations": [
+        {
+          "translation": "（ベンダー側のほぼ即時セキュリティ）"
+        }
+      ]
+    },
+    "79ed2bb0c565f6faf9de9692e4c203b8": {
+      "translations": [
+        {
+          "translation": "分数のサトシ"
+        }
+      ]
+    },
+    "ca5b1b6881c58cfd52dff4639289f34b": {
+      "translations": [
+        {
+          "translation": "（常に低い送金手数料）"
+        }
+      ]
+    },
+    "c24baa1861abf22a2912d20c0663c1dd": {
+      "translations": [
+        {
+          "translation": "Best Money"
+        }
+      ]
+    },
+    "cd210324da87d96a9e423660ca217086": {
+      "translations": [
+        {
+          "translation": "secure within 3 seconds - transaction fees forever low"
+        }
+      ]
+    },
+    "6c3f3599a0148d9d16b9bd7effa395c3": {
+      "translations": [
+        {
+          "translation": "一般的なオペコード"
+        }
+      ]
+    },
+    "23165aa168bfd7ac050c04372baa1c57": {
+      "translations": [
+        {
+          "translation": "223 bytes OP_RETURN"
+        }
+      ]
+    },
+    "7b9d072d52c96d51448b5b5e905eabc4": {
+      "translations": [
+        {
+          "translation": "(オンチェーンソーシャルネットワーク)"
+        }
+      ]
+    },
+    "a5ef59a8e963e23249c53d12d54bbef6": {
+      "translations": [
+        {
+          "translation": "（オラクルと高度なスクリプト）"
+        }
+      ]
+    },
+    "0e9a114bd595f515028b2a4ec7b350a5": {
+      "translations": [
+        {
+          "translation": "さらに多くのベーシックオペコード"
+        }
+      ]
+    },
+    "845d958e800ceda2abedfbf6006e964b": {
+      "translations": [
+        {
+          "translation": "新しいトランザクション形式"
+        }
+      ]
+    },
+    "3644ef85d8fdd32158007da43173480d": {
+      "translations": [
+        {
+          "translation": "(更にコンパクト、より高性能に)"
+        }
+      ]
+    },
+    "a7a952fcc2bbfc00828dffc793130c11": {
+      "translations": [
+        {
+          "translation": "Token Economy"
+        }
+      ]
+    },
+    "218c4e7212c5447ad5cc3e10dca733f4": {
+      "translations": [
+        {
+          "translation": "ブロックチェーン上様々なアセットクラスが取引出来る様になります。"
+        }
+      ]
+    },
+    "023ec8be209391d9d6e25c15ffd90b03": {
+      "translations": [
+        {
+          "translation": "開発完了"
+        }
+      ]
+    },
+    "4e911c96b6738781fcfb52d827e2a82c": {
+      "translations": [
+        {
+          "translation": "Underway"
+        }
+      ]
+    },
+    "c322ae2380b4baec92a70aa1ebbe22e7": {
+      "translations": [
+        {
+          "translation": "Planned"
+        }
+      ]
+    },
+    "f8587b3a18c163825d78472b397c218d": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
+    "833f50b83778189d804f395a6d5e8b95": {
+      "translations": [
+        {
+          "translation": "Scaling"
+        }
+      ]
+    },
+    "668e0a0074ecef56d93bffc3eaf7334f": {
+      "translations": [
+        {
+          "translation": "Usability"
+        }
+      ]
+    },
+    "c33868c5aba6a5a196423b57167950a1": {
+      "translations": [
+        {
+          "translation": "Extensibility"
+        }
+      ]
+    },
+    "437d1a5b9bb5b5b0daef16d25f95d784": {
+      "translations": [
+        {
+          "translation": "ビットコインキャッシュ・プロトコル完了"
+        }
+      ]
+    },
+    "db0474a08f0ea607a9dce3710b680bae": {
+      "translations": [
+        {
+          "translation": "ビットコインキャッシュのロードマップ"
+        }
+      ]
+    },
+    "b1841b456ae95d47de5ecdb526454689": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cashの目的は、世界中の誰もが使える健全なお金になることです。これは人類の自由と繁栄を高めて文明を変えられる画期的な技術です。"
+        }
+      ]
+    },
+    "dab8f9be958f8dd4ef7a76f7d090bcaa": {
+      "translations": [
+        {
+          "translation": "ロードマップは高度な技術的目標を提示する為のもので、これによってそれぞれのチームがビットコインキャッシュを最良の物とする為、同じ目標に向かって協力する事ができます。"
+        }
+      ]
+    },
+    "edc3324962ef645e29c41016fd5d6233": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cashの基本的なデザインは健全です。 しかし、完璧であるという意味ではありません。 技術的に健全な設計と慎重なエンジニアリングにより、システムを段階的に改善することが賢明です。 最適化とプロトコルのアップグレードを実施することによって、ピア・ツー・ピアの電子マネーは現在の限界を超えて何桁も拡大するでしょう。"
+        }
+      ]
+    },
+    "bc1c733635a1765e925baad759278729": {
+      "translations": [
+        {
+          "translation": "必要な技術的改善は3つのカテゴリに分けられます。"
+        }
+      ]
+    },
+    "330fc806c5c3793a47a237ab77f659c4": {
+      "translations": [
+        {
+          "translation": "ビットコインキャッシュを100 Tx/sから5,000,000 Tx/s以上へスケーリングする為にはプロトコルの改善は必須です。これによって大規模な並列化が可能になり沢山のトランザクションの処理が可能になります。"
+        }
+      ]
+    },
+    "b49cd263cfb4e543f3db1e2ff5c764b9": {
+      "translations": [
+        {
+          "translation": "支払い体験を改善し即時性と信頼性を向上します。トランザクションは3秒以内に確定されます。"
+        }
+      ]
+    },
+    "580458ef8a82dc6d1ad48aaf4cec2b90": {
+      "translations": [
+        {
+          "translation": "ビットコインキャッシュを拡張可能に。拡張可能なプロトコルにより、将来の改善の際の混乱を少なくし、企業や開発者の為の強靭な基礎を提供します。"
+        }
+      ]
+    },
+    "ede0f6a38233fccc685c47f6c138e5a3": {
+      "translations": [
+        {
+          "translation": "ビットコインキャシュネットワークは半年に一度、11月15日と5月15日にプロトコルのアップグレードを行います。これらのアップグレードは全てのノード運営者が必須となります。時折「ハードフォークアップグレード」と呼ばれる事もありますが、正しくは「定期プロトコルアップグレード」と呼ぶ方が適切です。"
+        }
+      ]
+    },
+    "d55f7f676c1f2e9a8dfbe41fbbb2253d": {
+      "translations": [
+        {
+          "translation": "アップグレードは特定のブロック高では無く、タイムスタンプによって決められます。直近の11ブロック(MTP-11) の中央値がUNIXタイムスタンプの11月15日 (もしくは 5月15日)の 12:00:00 UTCと同等、もしくは大きくなると新しいプロトコルルールが有効となります。これによりビジネスは特定の推定時間プラス/マイナス数時間でアップグレードの準備をすることができます。"
+        }
+      ]
+    },
+    "1ec31f9ea0456c8381e204f776ef28bc": {
+      "translations": [
+        {
+          "translation": "半年毎のアップグレードは永遠に続くものではありませんが、近い将来のアップグレードは予定されています。定期的なアップグレードはエコシステムが予測可能でありロードマップのビジョンを達成する為に必要なものです。"
+        }
+      ]
+    },
+    "6e59af9a2000ad59bc5cb5b47a17c2c7": {
+      "translations": [
+        {
+          "translation": "アプリケーション開発とイノベーションのための強い基盤をなるには、Bitcoin Cashネットワークは継続的に改善し、競争力を高めなければいけない。 力を合わせば、技術的基盤を構築し、Bitcoin Cashが世界の最高の「お金」になるように実現できます。"
         }
       ]
     }

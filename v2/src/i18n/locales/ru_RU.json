@@ -155,6 +155,55 @@
         }
       ]
     },
+    "d09ba9299507646e8d228883cedc134b": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash does what banks can't do"
+        }
+      ]
+    },
+    "47b79c719bdf0fe859ba03b10fe7b5fd": {
+      "translations": [
+        {
+          "translation": "Payments go directly from one person to another."
+        }
+      ]
+    },
+    "7bf01da9afe61530d41015f688cdee3f": {
+      "translations": [
+        {
+          "translation": "No matter how much you send, fees are always tiny."
+        }
+      ]
+    },
+    "4a38eb153d7be4a3cc8bda9f8341d3fe": {
+      "translations": [
+        {
+          "translation": "Money is sent and received fast—no delays, no limits."
+        }
+      ]
+    },
+    "98462725924a06d5b90e074a20713534": {
+      "translations": [
+        {
+          "translation": "And everyone, everywhere can use it"
+        }
+      ]
+    },
+    "0ff49d81ba079631db188d0707041556": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash is sound money for the world. To meet growing demand, developers are always scaling the Bitcoin Cash network."
+        }
+      ]
+    },
+    "58600d07c3ef680e2dc727d0d10d4070": {
+      "translations": [
+        {
+          "translation": "See the roadmap"
+        }
+      ]
+    },
     "657e00afe7a9a198d37ecf94de9045b9": {
       "translations": [
         {
@@ -299,6 +348,377 @@
       "translations": [
         {
           "translation": "Coming soon."
+        }
+      ]
+    },
+    "d74b66d8afcffeb2cf7b4c7f5848e22f": {
+      "translations": [
+        {
+          "translation": "Можно. Заказ транзакции"
+        }
+      ]
+    },
+    "de78c72984a1db2439de0c93b90f7f0f": {
+      "translations": [
+        {
+          "translation": "(убыстрённая обработка блоков)"
+        }
+      ]
+    },
+    "f42b22638fe3189bafb4aaa20015143d": {
+      "translations": [
+        {
+          "translation": "Ускорение распространения блока"
+        }
+      ]
+    },
+    "6f297b182748a3d753f7e815ad8e8fa8": {
+      "translations": [
+        {
+          "translation": "(graphene или другие)"
+        }
+      ]
+    },
+    "2b7d19f35c712e8a70ec7c74aee63cb4": {
+      "translations": [
+        {
+          "translation": "Merklix данные метаданных"
+        }
+      ]
+    },
+    "94e6f38059317000f2018ee6cea4954c": {
+      "translations": [
+        {
+          "translation": "(убыстрённая обработка блоков)"
+        }
+      ]
+    },
+    "d3197aa026de8266870fa7e95620437d": {
+      "translations": [
+        {
+          "translation": "Обязательства UTXO и синхронизация"
+        }
+      ]
+    },
+    "c8e1c0e560dac971a40a0fe2280b8daf": {
+      "translations": [
+        {
+          "translation": "(сжатие блокчейна)"
+        }
+      ]
+    },
+    "9f2f94996c5fa9bcc7c945c8200997d3": {
+      "translations": [
+        {
+          "translation": "Подписи Шнорра"
+        }
+      ]
+    },
+    "eae6be17343c05ce1b36367adc3a5af1": {
+      "translations": [
+        {
+          "translation": "(пакетная проверка подписи)"
+        }
+      ]
+    },
+    "5a8ab17357d9b2a86e57f42ef66ccae5": {
+      "translations": [
+        {
+          "translation": "Адаптивный размер блока"
+        }
+      ]
+    },
+    "cc0aa9ea6d5a1484bbb753196ac79503": {
+      "translations": [
+        {
+          "translation": "（рост рынка до 1 ТБ блоков）"
+        }
+      ]
+    },
+    "375a4d3f546905e096f415172142b301": {
+      "translations": [
+        {
+          "translation": "Mankind Scale"
+        }
+      ]
+    },
+    "32ab79127cc82627d4736f926503d70a": {
+      "translations": [
+        {
+          "translation": "50 транзакций в день для 10 миллиардов человек"
+        }
+      ]
+    },
+    "cefac769976f276c1490c7f5899773eb": {
+      "translations": [
+        {
+          "translation": "（проще и безопаснее для пользователя）"
+        }
+      ]
+    },
+    "c2405a77eeb1af62efdb24cf4cb91d88": {
+      "translations": [
+        {
+          "translation": "техниногоческий кошелек безопасности"
+        }
+      ]
+    },
+    "c681801595f881e98c5ca32dd88c979b": {
+      "translations": [
+        {
+          "translation": "Улучшения комиссии"
+        }
+      ]
+    },
+    "96ef736993f49b36292d0c721df0c853": {
+      "translations": [
+        {
+          "translation": "(более дешевые транзакции)"
+        }
+      ]
+    },
+    "aca4dc88192cbdd2a892c2338bfc7486": {
+      "translations": [
+        {
+          "translation": "Заблаговременный консенсус"
+        }
+      ]
+    },
+    "d25159772bc79174dd0214b6f1c63372": {
+      "translations": [
+        {
+          "translation": "(почти мгновенная безопасность для торговцев)"
+        }
+      ]
+    },
+    "79ed2bb0c565f6faf9de9692e4c203b8": {
+      "translations": [
+        {
+          "translation": "Дробные части сатоши"
+        }
+      ]
+    },
+    "ca5b1b6881c58cfd52dff4639289f34b": {
+      "translations": [
+        {
+          "translation": "(низкие комиссии навсегда)"
+        }
+      ]
+    },
+    "c24baa1861abf22a2912d20c0663c1dd": {
+      "translations": [
+        {
+          "translation": "Best Money"
+        }
+      ]
+    },
+    "cd210324da87d96a9e423660ca217086": {
+      "translations": [
+        {
+          "translation": "secure within 3 seconds - transaction fees forever low"
+        }
+      ]
+    },
+    "6c3f3599a0148d9d16b9bd7effa395c3": {
+      "translations": [
+        {
+          "translation": "Основные коды операций"
+        }
+      ]
+    },
+    "23165aa168bfd7ac050c04372baa1c57": {
+      "translations": [
+        {
+          "translation": "223 bytes OP_RETURN"
+        }
+      ]
+    },
+    "7b9d072d52c96d51448b5b5e905eabc4": {
+      "translations": [
+        {
+          "translation": "(социальные сети на блок цепь)"
+        }
+      ]
+    },
+    "a5ef59a8e963e23249c53d12d54bbef6": {
+      "translations": [
+        {
+          "translation": "(оракулы и продвинутые сценарии)"
+        }
+      ]
+    },
+    "0e9a114bd595f515028b2a4ec7b350a5": {
+      "translations": [
+        {
+          "translation": "более базовые коды операций"
+        }
+      ]
+    },
+    "845d958e800ceda2abedfbf6006e964b": {
+      "translations": [
+        {
+          "translation": "Новый формат для транзакций"
+        }
+      ]
+    },
+    "3644ef85d8fdd32158007da43173480d": {
+      "translations": [
+        {
+          "translation": "более способный, более компактный"
+        }
+      ]
+    },
+    "a7a952fcc2bbfc00828dffc793130c11": {
+      "translations": [
+        {
+          "translation": "Token Economy"
+        }
+      ]
+    },
+    "218c4e7212c5447ad5cc3e10dca733f4": {
+      "translations": [
+        {
+          "translation": "все классы активов торгуются на блокчейне"
+        }
+      ]
+    },
+    "023ec8be209391d9d6e25c15ffd90b03": {
+      "translations": [
+        {
+          "translation": "Выполнено"
+        }
+      ]
+    },
+    "4e911c96b6738781fcfb52d827e2a82c": {
+      "translations": [
+        {
+          "translation": "Underway"
+        }
+      ]
+    },
+    "c322ae2380b4baec92a70aa1ebbe22e7": {
+      "translations": [
+        {
+          "translation": "Planned"
+        }
+      ]
+    },
+    "f8587b3a18c163825d78472b397c218d": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
+    "833f50b83778189d804f395a6d5e8b95": {
+      "translations": [
+        {
+          "translation": "Scaling"
+        }
+      ]
+    },
+    "668e0a0074ecef56d93bffc3eaf7334f": {
+      "translations": [
+        {
+          "translation": "Usability"
+        }
+      ]
+    },
+    "c33868c5aba6a5a196423b57167950a1": {
+      "translations": [
+        {
+          "translation": "Extensibility"
+        }
+      ]
+    },
+    "437d1a5b9bb5b5b0daef16d25f95d784": {
+      "translations": [
+        {
+          "translation": "Протокол Bitcoin Cash Завершен"
+        }
+      ]
+    },
+    "db0474a08f0ea607a9dce3710b680bae": {
+      "translations": [
+        {
+          "translation": "Дорожная карта Bitcoin Cash"
+        }
+      ]
+    },
+    "b1841b456ae95d47de5ecdb526454689": {
+      "translations": [
+        {
+          "translation": "Цель Bitcoin Cash стать надежными деньгами, которыми могут пользоваться во всём мире. Это технология изменяющая мир к лучшему, которая освобождает человека и ведёт его к процветанию."
+        }
+      ]
+    },
+    "dab8f9be958f8dd4ef7a76f7d090bcaa": {
+      "translations": [
+        {
+          "translation": "Эта Дорожная карта предназначена для обеспечения высокого уровня технического направления  и позволяет различным техническим командам работать вместе над общей целью продвижения Bitcoin Cash. Роль разработчиков в достижении этой цели заключается в создании высококачественного профессионального программного обеспечения, которое удовлетворяет потребностям пользователей, майнеров и мерчантов. Мы стремимся к постоянному техническому совершенствованию, производству надежных продуктов, обеспечивающих прочную основу для Bitcoin Cash."
+        }
+      ]
+    },
+    "edc3324962ef645e29c41016fd5d6233": {
+      "translations": [
+        {
+          "translation": "Основной дизайн Bitcoin Cash-это звук. Однако, это не означает, что она совершенна. Благоразумно сделать инкрементные улучшения к системе с технически ядровым дизайном и тщательным инженерством. Реализуя оптимизацию и обновление протоколов, peer-to-peer digital cash будет масштабироваться на многие порядки за пределами текущих ограничений."
+        }
+      ]
+    },
+    "bc1c733635a1765e925baad759278729": {
+      "translations": [
+        {
+          "translation": "Необходимые технические усовершенствования можно разделить на три категории:"
+        }
+      ]
+    },
+    "330fc806c5c3793a47a237ab77f659c4": {
+      "translations": [
+        {
+          "translation": "Включите Bitcoin Cash для масштабирования от ~100 Tx/s до более чем 5,000,000 Tx / s. Необходимо усовершенствовать протокол, чтобы массовое распараллеливание могло обеспечить такой уровень обработки транзакций."
+        }
+      ]
+    },
+    "b49cd263cfb4e543f3db1e2ff5c764b9": {
+      "translations": [
+        {
+          "translation": "Улучшение опыта оплаты, чтобы гарантировать, что он является мгновенным и надежным. Транзакции должны быть защищены в течение трех секунд."
+        }
+      ]
+    },
+    "580458ef8a82dc6d1ad48aaf4cec2b90": {
+      "translations": [
+        {
+          "translation": "Сделайте Bitcoin Cash расширяемым. Расширяемый протокол делает будущие улучшения менее разрушительными и обеспечивает прочную основу для бизнеса и разработчиков."
+        }
+      ]
+    },
+    "ede0f6a38233fccc685c47f6c138e5a3": {
+      "translations": [
+        {
+          "translation": "Сеть   обновляет протоколы дважды в год, 15 ноября и 15 мая. Эти обновления требуются для всех аппаратных узлов. Их иногда называют «аппаратными обновлениями», но термин «запланированные обновления протокола» является предпочтительным."
+        }
+      ]
+    },
+    "d55f7f676c1f2e9a8dfbe41fbbb2253d": {
+      "translations": [
+        {
+          "translation": "Обновления основаны не на определенной высоте блока, а на временной отметке. Когда медианная отметка времени последних 11 блоков (MTP-11) больше или равна отметке времени UNIX от 15 ноября (или 15 мая) 12:00:00 UTC, вступают в силу новые правила протокола. Это позволит вашей компании подготовиться к обновлению в определенное время, плюс или минус несколько часов."
+        }
+      ]
+    },
+    "1ec31f9ea0456c8381e204f776ef28bc": {
+      "translations": [
+        {
+          "translation": "Хотя ожидается, что этот график полугодового обновления не будет длиться вечно, он существует в обозримом ближайшем будущем. Регулярные обновления протоколов обеспечивают предсказуемую частоту для экосистемы и необходимы для достижения видения, изложенного в дорожной карте."
+        }
+      ]
+    },
+    "6e59af9a2000ad59bc5cb5b47a17c2c7": {
+      "translations": [
+        {
+          "translation": "Чтобы стать прочной базой для разработки приложений и инноваций, Bitcoin Cash должен постоянно совершенствоваться и конкурировать. Работая вместе, мы можем создать техническую основу для расширения возможностей Bitcoin Cash, чтобы стать лучшими деньгами, которые когда-либо видел мир."
         }
       ]
     }

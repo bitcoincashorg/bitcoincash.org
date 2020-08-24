@@ -155,6 +155,55 @@
         }
       ]
     },
+    "d09ba9299507646e8d228883cedc134b": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash does what banks can't do"
+        }
+      ]
+    },
+    "47b79c719bdf0fe859ba03b10fe7b5fd": {
+      "translations": [
+        {
+          "translation": "Payments go directly from one person to another."
+        }
+      ]
+    },
+    "7bf01da9afe61530d41015f688cdee3f": {
+      "translations": [
+        {
+          "translation": "No matter how much you send, fees are always tiny."
+        }
+      ]
+    },
+    "4a38eb153d7be4a3cc8bda9f8341d3fe": {
+      "translations": [
+        {
+          "translation": "Money is sent and received fast—no delays, no limits."
+        }
+      ]
+    },
+    "98462725924a06d5b90e074a20713534": {
+      "translations": [
+        {
+          "translation": "And everyone, everywhere can use it"
+        }
+      ]
+    },
+    "0ff49d81ba079631db188d0707041556": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash is sound money for the world. To meet growing demand, developers are always scaling the Bitcoin Cash network."
+        }
+      ]
+    },
+    "58600d07c3ef680e2dc727d0d10d4070": {
+      "translations": [
+        {
+          "translation": "See the roadmap"
+        }
+      ]
+    },
     "657e00afe7a9a198d37ecf94de9045b9": {
       "translations": [
         {
@@ -299,6 +348,377 @@
       "translations": [
         {
           "translation": "Coming soon."
+        }
+      ]
+    },
+    "d74b66d8afcffeb2cf7b4c7f5848e22f": {
+      "translations": [
+        {
+          "translation": "Orden Canónico de Transacciones"
+        }
+      ]
+    },
+    "de78c72984a1db2439de0c93b90f7f0f": {
+      "translations": [
+        {
+          "translation": "(procesamiento escalable de bloque)"
+        }
+      ]
+    },
+    "f42b22638fe3189bafb4aaa20015143d": {
+      "translations": [
+        {
+          "translation": "Rápida Propagación de Bloques"
+        }
+      ]
+    },
+    "6f297b182748a3d753f7e815ad8e8fa8": {
+      "translations": [
+        {
+          "translation": "(Graphene u otro)"
+        }
+      ]
+    },
+    "2b7d19f35c712e8a70ec7c74aee63cb4": {
+      "translations": [
+        {
+          "translation": "Arbol Merklix-Metadata"
+        }
+      ]
+    },
+    "94e6f38059317000f2018ee6cea4954c": {
+      "translations": [
+        {
+          "translation": "(procesamiento escalable de bloque)"
+        }
+      ]
+    },
+    "d3197aa026de8266870fa7e95620437d": {
+      "translations": [
+        {
+          "translation": "Compromiso de UTXO"
+        }
+      ]
+    },
+    "c8e1c0e560dac971a40a0fe2280b8daf": {
+      "translations": [
+        {
+          "translation": "(podado de blockchain)"
+        }
+      ]
+    },
+    "9f2f94996c5fa9bcc7c945c8200997d3": {
+      "translations": [
+        {
+          "translation": "Firmas Schnorr"
+        }
+      ]
+    },
+    "eae6be17343c05ce1b36367adc3a5af1": {
+      "translations": [
+        {
+          "translation": "(validación de firma por lote)"
+        }
+      ]
+    },
+    "5a8ab17357d9b2a86e57f42ef66ccae5": {
+      "translations": [
+        {
+          "translation": "Tamaño de Bloque Adaptable"
+        }
+      ]
+    },
+    "cc0aa9ea6d5a1484bbb753196ac79503": {
+      "translations": [
+        {
+          "translation": "(crecimiento impulsado por mercado hacia bloques de 1TB)"
+        }
+      ]
+    },
+    "375a4d3f546905e096f415172142b301": {
+      "translations": [
+        {
+          "translation": "Escala Humana"
+        }
+      ]
+    },
+    "32ab79127cc82627d4736f926503d70a": {
+      "translations": [
+        {
+          "translation": "50 transacciones / día para 10 billones de humanos"
+        }
+      ]
+    },
+    "cefac769976f276c1490c7f5899773eb": {
+      "translations": [
+        {
+          "translation": "(más simple y segura para el usuario)"
+        }
+      ]
+    },
+    "c2405a77eeb1af62efdb24cf4cb91d88": {
+      "translations": [
+        {
+          "translation": "(seguridad de cartera hardware)"
+        }
+      ]
+    },
+    "c681801595f881e98c5ca32dd88c979b": {
+      "translations": [
+        {
+          "translation": "Mejoras de Tasa"
+        }
+      ]
+    },
+    "96ef736993f49b36292d0c721df0c853": {
+      "translations": [
+        {
+          "translation": "(transacciones más baratas)"
+        }
+      ]
+    },
+    "aca4dc88192cbdd2a892c2338bfc7486": {
+      "translations": [
+        {
+          "translation": "Pre-concenso"
+        }
+      ]
+    },
+    "d25159772bc79174dd0214b6f1c63372": {
+      "translations": [
+        {
+          "translation": "(seguridad casi instantánea para comerciantes)"
+        }
+      ]
+    },
+    "79ed2bb0c565f6faf9de9692e4c203b8": {
+      "translations": [
+        {
+          "translation": "Satoshis Fraccionarios"
+        }
+      ]
+    },
+    "ca5b1b6881c58cfd52dff4639289f34b": {
+      "translations": [
+        {
+          "translation": "(tasas bajas para siempre)"
+        }
+      ]
+    },
+    "c24baa1861abf22a2912d20c0663c1dd": {
+      "translations": [
+        {
+          "translation": "Mejor Moneda"
+        }
+      ]
+    },
+    "cd210324da87d96a9e423660ca217086": {
+      "translations": [
+        {
+          "translation": "segura en 3 segundos - tasas de transacción bajas para siempre"
+        }
+      ]
+    },
+    "6c3f3599a0148d9d16b9bd7effa395c3": {
+      "translations": [
+        {
+          "translation": "Opcodes Básicos"
+        }
+      ]
+    },
+    "23165aa168bfd7ac050c04372baa1c57": {
+      "translations": [
+        {
+          "translation": "223 bytes OP_RETURN"
+        }
+      ]
+    },
+    "7b9d072d52c96d51448b5b5e905eabc4": {
+      "translations": [
+        {
+          "translation": "(redes sociales on-chain)"
+        }
+      ]
+    },
+    "a5ef59a8e963e23249c53d12d54bbef6": {
+      "translations": [
+        {
+          "translation": "(oracles y scripts avanzados)"
+        }
+      ]
+    },
+    "0e9a114bd595f515028b2a4ec7b350a5": {
+      "translations": [
+        {
+          "translation": "Más Opcodes Básicos"
+        }
+      ]
+    },
+    "845d958e800ceda2abedfbf6006e964b": {
+      "translations": [
+        {
+          "translation": "Nuevo Formato de Transacción"
+        }
+      ]
+    },
+    "3644ef85d8fdd32158007da43173480d": {
+      "translations": [
+        {
+          "translation": "(más capaz y más compacto)"
+        }
+      ]
+    },
+    "a7a952fcc2bbfc00828dffc793130c11": {
+      "translations": [
+        {
+          "translation": "Economía de Token"
+        }
+      ]
+    },
+    "218c4e7212c5447ad5cc3e10dca733f4": {
+      "translations": [
+        {
+          "translation": "toda clase de activos comerciados en blockchain"
+        }
+      ]
+    },
+    "023ec8be209391d9d6e25c15ffd90b03": {
+      "translations": [
+        {
+          "translation": "Completo"
+        }
+      ]
+    },
+    "4e911c96b6738781fcfb52d827e2a82c": {
+      "translations": [
+        {
+          "translation": "En Progreso"
+        }
+      ]
+    },
+    "c322ae2380b4baec92a70aa1ebbe22e7": {
+      "translations": [
+        {
+          "translation": "Planeado"
+        }
+      ]
+    },
+    "f8587b3a18c163825d78472b397c218d": {
+      "translations": [
+        {
+          "translation": "Hoja de Ruta"
+        }
+      ]
+    },
+    "833f50b83778189d804f395a6d5e8b95": {
+      "translations": [
+        {
+          "translation": "Escalado"
+        }
+      ]
+    },
+    "668e0a0074ecef56d93bffc3eaf7334f": {
+      "translations": [
+        {
+          "translation": "Usabilidad"
+        }
+      ]
+    },
+    "c33868c5aba6a5a196423b57167950a1": {
+      "translations": [
+        {
+          "translation": "Extensibilidad"
+        }
+      ]
+    },
+    "437d1a5b9bb5b5b0daef16d25f95d784": {
+      "translations": [
+        {
+          "translation": "Protocolo Bitcoin Cash Completo"
+        }
+      ]
+    },
+    "db0474a08f0ea607a9dce3710b680bae": {
+      "translations": [
+        {
+          "translation": "Hoja de Ruta de Bitcoin Cash"
+        }
+      ]
+    },
+    "b1841b456ae95d47de5ecdb526454689": {
+      "translations": [
+        {
+          "translation": "La meta de Bitcoin Cash es convertirse en dinero sólido que pueda ser utilizado por todas las personas en el mundo. Esta es una tecnología de cambio de civilización que incrementará drásticamente la libertad y la prosperidad humana."
+        }
+      ]
+    },
+    "dab8f9be958f8dd4ef7a76f7d090bcaa": {
+      "translations": [
+        {
+          "translation": "Esta hoja de ruta tiene la intención de proporcionar una dirección técnica general y permitir que diferentes equipos técnicos trabajen juntos hacia una meta común para el avance de Bitcoin Cash. El rol de los desarrolladores en promover este objetivo es producir software profesional de alta calidad que satisfaga las necesidades de sus usuarios, mineros y comerciantes. Nos esforzamos por un mejoramiento técnico continuo para desarrollar productos confiables brindando una sólida base fundacional para Bitcoin Cash."
+        }
+      ]
+    },
+    "edc3324962ef645e29c41016fd5d6233": {
+      "translations": [
+        {
+          "translation": "El diseño básico de Bitcoin Cash es sólido. Sin embargo, esto no significa que sea perfecto. Es prudente realizar mejoras incrementales en el sistema con un diseño técnicamente sólido y una ingeniería cuidadosa. Implementando optimizaciones y actualizaciones de protocolo, el dinero digital par-a-par escalará muchos órdenes de magnitud más allá de los límites actuales."
+        }
+      ]
+    },
+    "bc1c733635a1765e925baad759278729": {
+      "translations": [
+        {
+          "translation": "Las mejoras técnicas necesarias pueden ser divididas en tres categorías:"
+        }
+      ]
+    },
+    "330fc806c5c3793a47a237ab77f659c4": {
+      "translations": [
+        {
+          "translation": "Habilitar Bitcoin Cash a escalar de ~100 Tx/s a más de 5,000,000 Tx/s. Mejoras de protocolo deben ser realizadas en orden de que una paralelización masiva pueda permitir este nivel de procesamiento de transacciones."
+        }
+      ]
+    },
+    "b49cd263cfb4e543f3db1e2ff5c764b9": {
+      "translations": [
+        {
+          "translation": "Mejorar la experiencia de pago para garantizar que sea confiable e instantánea. Las transacciones deben ser seguras dentro de un margen de tres segundos."
+        }
+      ]
+    },
+    "580458ef8a82dc6d1ad48aaf4cec2b90": {
+      "translations": [
+        {
+          "translation": "Hacer Bitcoin Cash extensible. Un protocolo extensible hace que las mejoras futuras sean menos disruptivas y proporciona una sólida base a partir de la cual empresas y desarrolladores pueden construir."
+        }
+      ]
+    },
+    "ede0f6a38233fccc685c47f6c138e5a3": {
+      "translations": [
+        {
+          "translation": "La red Bitcoin Cash cuenta con dos actualizaciones de protocolo por año, el 15 de Noviembre y el 15 de Mayo. Estas actualizaciones son necesarias para todos los operadores de nodo. Si bien a veces son referidas como \"actualizaciones hard fork\", el término \"actualizaciones de protocolo programadas\" es preferido."
+        }
+      ]
+    },
+    "d55f7f676c1f2e9a8dfbe41fbbb2253d": {
+      "translations": [
+        {
+          "translation": "En lugar de una altura de bloque específica, las actualizaciones estan basadas en una marca de tiempo. Cuando la mediana de la marca de tiempo de los 11 bloques más recientes (MTP-11) es mayor o igual que la marca de tiempo UNIX del 15 de Noviembre (o 15 de Mayo) 12:00:00 UTC, las nuevas reglas de protocolo entran en vigencia. Esto permite que tu negocio o projecto esté mejor preparado para la actualización según un tiempo estimado particular, más o menos unas pocas horas."
+        }
+      ]
+    },
+    "1ec31f9ea0456c8381e204f776ef28bc": {
+      "translations": [
+        {
+          "translation": "Aunque no se espera que este cronograma de actualización semestral continúe para siempre, está vigente para el futuro pronosticable a corto plazo. Las actualizaciones regulares de protocolo proporcionan una cadencia predecible para el ecosistema y son necesarias para lograr la visión establecida en la hoja de ruta."
+        }
+      ]
+    },
+    "6e59af9a2000ad59bc5cb5b47a17c2c7": {
+      "translations": [
+        {
+          "translation": "Para convertirse en una sólida base para el desarrollo de aplicaciones e innovación, Bitcoin Cash debe mejorar y competir continuamente. Trabajando juntos, podemos construir la base fundacional técnica para hacer de Bitcoin Cash la mejor moneda que el mundo haya visto jamás."
         }
       ]
     }
