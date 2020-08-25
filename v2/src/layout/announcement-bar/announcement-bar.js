@@ -1,10 +1,11 @@
 import React, { useState, useRef } from "react"
 import fbt from "fbt"
 import S from "./announcement-bar.module.scss"
-import DismissBtn from "assets/images/close.png"
-import PrimaryButton from "../buttons/primary-button"
+import DismissButton from "assets/images/close.png"
+import PrimaryButton from "components/buttons/primary-button"
+import Link from "global/link"
 
-function Accordion() {
+const Accordion = () => {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const [setRotate, setRotateState] = useState(`${S.accordionIcon}`)
@@ -22,7 +23,7 @@ function Accordion() {
     )
   }
 
-  function closeAccordion() {
+  const closeAccordion = () => {
     setActiveState(setActive === "" ? "active" : "")
     setDismissState(setDismiss === "active" ? "0px" : "none")
   }
@@ -40,7 +41,7 @@ function Accordion() {
         </div>
 
         <img
-          src={DismissBtn}
+          src={DismissButton}
           className={`${setRotate} ${S.dismiss}`}
           alt="close"
           onClick={closeAccordion}
@@ -75,9 +76,9 @@ function Accordion() {
               )}
               href={"/roadmap"}
             />
-            <a className={S.panelButton} onClick={toggleAccordion}>
+            <button className={S.panelButton} onClick={toggleAccordion}>
               <fbt desc="close button">Close</fbt>
-            </a>
+            </button>
           </div>
           <div className={`${S.annoucementPanelInner} ${S.centerPanel}`}>
             <h4>
@@ -85,26 +86,30 @@ function Accordion() {
                 Compatible Implementations:
               </fbt>
             </h4>
-            <a
-              className={S.panelButton2}
+            <Link
+              className={S.panelLink}
               href="https://www.bitcoinabc.org/2020-08-18-bitcoin-abc-0-22-0/"
             >
               Bitcoin ABC 0.22.x
-            </a>
-            <h4>Additional Information:</h4>
-            <a className={S.panelButton2} href="/spec/2020-11-15-upgrade.html">
+            </Link>
+            <h4>
+              <fbt desc="Annoucement bar 'Additional Information:'">
+                Additional Information:
+              </fbt>
+            </h4>
+            <Link className={S.panelLink} href="/spec/2020-11-15-upgrade.html">
               <fbt desc="Annoucement bar 'Upgrade Specification'">
                 Upgrade Specification
               </fbt>
-            </a>
-            <a
-              className={S.panelButton2}
+            </Link>
+            <Link
+              className={S.panelLink}
               href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-11-15_upgrade_testnet.md"
             >
               <fbt desc="Annoucement bar 'Testnet Information'">
                 Testnet Information
               </fbt>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
