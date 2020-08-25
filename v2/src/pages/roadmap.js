@@ -1,7 +1,7 @@
 import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
-import "./roadmap.scss"
+import roadmapStyle from "./roadmap.module.scss"
 
 const RoadmapItem = ({ state, title, children }) => {
   let icon = ""
@@ -37,9 +37,9 @@ const RoadmapItem = ({ state, title, children }) => {
 
 const RoadmapColumn = ({ className, title, items }) => {
   return (
-    <div class={"col-sm-12 col-md-4 to-animate " + className}>
-      <h3 class="rm-col-title">{title}</h3>
-      <ul class="rm-list">
+    <div className={className}>
+      <h3 className={roadmapStyle.coltitle}>{title}</h3>
+      <ul class={roadmapStyle.list}>
         {items.map(item => (
           <RoadmapItem title={item.title} state={item.state}>
             {item.content}
@@ -235,59 +235,59 @@ const Roadmap = () => {
 
   return (
     <>
-      <div class="container roadmap text-center">
-        <div class="row rm-legend">
-          <div class="col-sm-12 col-md-4 to-animate lg-complete">
+      <div className={roadmapStyle.roadmap}>
+        <div className={`${roadmapStyle.row} ${roadmapStyle.legend}`}>
+          <div className={roadmapStyle.complete}>
             <p>
               <ion-icon class="complete" name="checkmark-circle" />
               <fbt desc="Complete icon on the roadmap legend">Complete</fbt>
             </p>
           </div>
-          <div class="col-sm-12 col-md-4 to-animate lg-underway">
+          <div className={roadmapStyle.underway}>
             <p>
               <ion-icon class="underway" name="cog" />
               <fbt desc="Underway icon on the roadmap legend">Underway</fbt>
             </p>
           </div>
-          <div class="col-sm-12 col-md-4 to-animate lg-planned">
+          <div className={roadmapStyle.planned}>
             <p>
               <ion-icon class="planned" name="add-circle" />
               <fbt desc="Planed icon on the roadmap legend">Planned</fbt>
             </p>
           </div>
         </div>
-        <div class="row rm-title-row">
-          <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-title">
+        <div class={`${roadmapStyle.row} ${roadmapStyle.title}`}>
+          <div>
             <img
               src="/media-kit/3-bitcoin-cash-logo-ot-medium.png"
               alt="Bitcoin Cash roadmap"
             />
-            <h3 class="rm-col-title">
+            <h3>
               <fbt desc="Top roadmap item">Roadmap</fbt>
             </h3>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div className={roadmapStyle.row}>
         <RoadmapColumn
           title={fbt("Scaling", "Roadmap scaling section title")}
-          className="rm-scaling"
+          className={roadmapStyle.scaling}
           items={sclaingItems}
         />
         <RoadmapColumn
           title={fbt("Usability", "Roadmap usability section title")}
-          className="rm-usability"
+          className={roadmapStyle.usability}
           items={usabilityItems}
         />
         <RoadmapColumn
           title={fbt("Extensibility", "Roadmap extensibility section title")}
-          className="rm-extensibility"
+          className={roadmapStyle.extensibility}
           items={extensibilityItems}
         />
       </div>
-      <div class="row rm-finale">
-        <div class="col-sm-12 col-md-4 to-animate col-md-push-4 rm-complete">
-          <h3 class="rm-col-title rm-col-title-last">
+      <div className={roadmapStyle.row}>
+        <div className={roadmapStyle.complete}>
+          <h3 class={roadmapStyle.coltitle}>
             <ion-icon class="complete" name="checkmark-circle" />
             <fbt desc="Bottom roadmap item">Bitcoin Cash Protocol Complete</fbt>
           </h3>
