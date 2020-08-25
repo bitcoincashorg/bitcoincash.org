@@ -62,12 +62,12 @@ const Header = () => {
       href: "/nodes.html",
     },
     {
-      text: fbt("Logos", "Community menu 'logos' link"),
-      href: "/graphics.html",
-    },
-    {
       text: fbt("Developer Portal", "Community menu 'developper portal' link"),
       href: "/developers.html",
+    },
+    {
+      text: fbt("Logos", "Community menu 'logos' link"),
+      href: "/graphics.html",
     },
     {
       text: fbt("Whitepaper", "Community menu 'whitepaper' link"),
