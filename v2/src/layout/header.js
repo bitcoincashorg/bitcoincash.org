@@ -69,6 +69,11 @@ const Header = () => {
       text: fbt("Developer Portal", "Community menu 'developper portal' link"),
       href: "/developers.html",
     },
+    {
+      text: fbt("Whitepaper", "Community menu 'whitepaper' link"),
+      href: "/bitcoin.pdf",
+      localize: false,
+    },
   ]
 
   const navBarItems = [
@@ -85,8 +90,8 @@ const Header = () => {
       href: "/wallets.html",
     },
     {
-      text: fbt("Logos", "Top 'logos' link"),
-      href: "/graphics.html",
+      text: fbt("Explorer", "Link to the block explorer"),
+      href: "https://explorer.bitcoincash.org/",
     },
     {
       text: fbt("Community", "Commnity menu"),
