@@ -5,7 +5,7 @@ import DismissButton from "assets/images/close.png"
 import PrimaryButton from "components/buttons/primary-button"
 import Link from "global/link"
 
-const Accordion = () => {
+function Accordion() {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const [setRotate, setRotateState] = useState(`${S.accordionIcon}`)
@@ -23,7 +23,7 @@ const Accordion = () => {
     )
   }
 
-  const closeAccordion = () => {
+  function closeAccordion() {
     setActiveState(setActive === "" ? "active" : "")
     setDismissState(setDismiss === "active" ? "0px" : "none")
   }
