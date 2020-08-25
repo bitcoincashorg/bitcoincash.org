@@ -104,7 +104,6 @@
 }
 
 @media (max-width: 960px) {
-
   .annoucementPanel {
     flex-direction: column;
     text-align: center;
@@ -127,7 +126,21 @@
     width: 100%;
   }
 
+  .annoucementPanelInner p {
+    margin-bottom: 30px;
+  }
+
   .centerPanel {
     padding-left: 0;
+  }
+
+  .panelButton {
+    width: 188px;
+    margin: 10px 0 50px 0;
+    display: inline-block;
+  }
+
+  .annoucementPanelInner button {
+    margin-right: 0;
   }
 }

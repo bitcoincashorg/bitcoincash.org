@@ -34,12 +34,17 @@ function Accordion() {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path d="M186.301 339.893L96 249.461l-32 30.507L186.301 402 448 140.506 416 110z"></path>
           </svg>
-          <fbt desc="Annoucement bar reminder headline">Reminder: November 15th, 2020 Planned Network Upgrade</fbt>
+          <fbt desc="Annoucement bar reminder headline">
+            Reminder: November 15th, 2020 Planned Network Upgrade
+          </fbt>
         </div>
-        
-        <img src={DismissBtn} className={`${setRotate} ${S.dismiss}`} alt="close" onClick={closeAccordion} />
-       
 
+        <img
+          src={DismissBtn}
+          className={`${setRotate} ${S.dismiss}`}
+          alt="close"
+          onClick={closeAccordion}
+        />
       </div>
       <div
         ref={content}
@@ -48,30 +53,38 @@ function Accordion() {
       >
         <div className={S.annoucementPanel}>
           <div className={S.annoucementPanelInner}>
-            <h4><fbt desc="Annoucement bar inner headline">November 15th, 2020 Planned Network Upgrade</fbt></h4>
+            <h4>
+              <fbt desc="Annoucement bar inner headline">
+                November 15th, 2020 Planned Network Upgrade
+              </fbt>
+            </h4>
             <p>
-            <fbt desc="Annoucement bar paragraph">
-            The Bitcoin Cash network will undergo a protocol upgrade as per
-              the roadmap. Businesses and individuals who use the Bitcoin Cash
-              network should check to ensure that their software is compatible
-              with the upgrade.
-          </fbt>
-              
+              <fbt desc="Annoucement bar paragraph">
+                The Bitcoin Cash network will undergo a protocol upgrade as per
+                the roadmap. Businesses and individuals who use the Bitcoin Cash
+                network should check to ensure that their software is compatible
+                with the upgrade.
+              </fbt>
             </p>
             <PrimaryButton
               noMarginLeft={true}
+              className={S.primaryButton}
               buttonText={fbt(
                 "See Roadmap",
-                "Primary button of the annoucement bar"
+                "'See Roadmap' button of the annoucement bar"
               )}
               href={"/roadmap"}
             />
             <a className={S.panelButton} onClick={toggleAccordion}>
-            <fbt desc="close button">Close</fbt>
+              <fbt desc="close button">Close</fbt>
             </a>
           </div>
           <div className={`${S.annoucementPanelInner} ${S.centerPanel}`}>
-            <h4><fbt desc="Annoucement bar 'Compatible Implementations'">Compatible Implementations:</fbt></h4>
+            <h4>
+              <fbt desc="Annoucement bar 'Compatible Implementations'">
+                Compatible Implementations:
+              </fbt>
+            </h4>
             <a
               className={S.panelButton2}
               href="https://www.bitcoinabc.org/2020-08-18-bitcoin-abc-0-22-0/"
@@ -80,13 +93,17 @@ function Accordion() {
             </a>
             <h4>Additional Information:</h4>
             <a className={S.panelButton2} href="/spec/2020-11-15-upgrade.html">
-            <fbt desc="Annoucement bar 'Upgrade Specification'">Upgrade Specification</fbt>
+              <fbt desc="Annoucement bar 'Upgrade Specification'">
+                Upgrade Specification
+              </fbt>
             </a>
             <a
               className={S.panelButton2}
               href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-11-15_upgrade_testnet.md"
             >
-              <fbt desc="Annoucement bar 'Testnet Information'">Testnet Information</fbt>
+              <fbt desc="Annoucement bar 'Testnet Information'">
+                Testnet Information
+              </fbt>
             </a>
           </div>
         </div>
