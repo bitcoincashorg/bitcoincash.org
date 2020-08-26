@@ -251,7 +251,7 @@ const Roadmap = () => {
         <div className={roadmapStyle.toplegendcontainer}>
           <div className={roadmapStyle.toplegendcol}>
             <div className={roadmapStyle.completetop}>
-              {<Check />}
+              <Check />
               <div className={roadmapStyle.completetoptext}>
                 <fbt desc="Complete icon on the roadmap legend">Complete</fbt>
               </div>
@@ -259,7 +259,7 @@ const Roadmap = () => {
           </div>
           <div className={roadmapStyle.toplegendcol}>
             <div className={roadmapStyle.underwaytop}>
-              {<Underway />}
+              <Underway />
               <div>
                 <fbt desc="Underway icon on the roadmap legend">Underway</fbt>
               </div>
@@ -267,36 +267,12 @@ const Roadmap = () => {
           </div>
           <div className={roadmapStyle.toplegendcol}>
             <div className={roadmapStyle.plannedtop}>
-              {<Planned />}
+              <Planned />
               <div>
                 <fbt desc="Planed icon on the roadmap legend">Planned</fbt>
               </div>
             </div>
           </div>
-          {/* <div className={roadmapStyle.toplegendcol}>
-           
-              <div className={roadmapStyle.completetop}>{<Check />}</div>
-              <fbt desc="Complete icon on the roadmap legend">Complete</fbt>
-           
-          </div>
-          <div className={roadmapStyle.toplegendcol}>
-           
-              <div className={roadmapStyle.completetop}>{<Check />}</div>
-              <fbt desc="Complete icon on the roadmap legend">Complete</fbt>
-           
-          </div> */}
-          {/* <div className={roadmapStyle.underway}>
-            <p>
-              <div className={roadmapStyle.legendicon}>{<Check />}</div>
-              <fbt desc="Underway icon on the roadmap legend">Underway</fbt>
-            </p>
-          </div>
-          <div className={roadmapStyle.planned}>
-            <p>
-              <ion-icon class="planned" name="add-circle" />
-              <fbt desc="Planed icon on the roadmap legend">Planned</fbt>
-            </p>
-          </div> */}
         </div>
         <div className={roadmapStyle.roadmapRow}>
           <div className={roadmapStyle.logosection}>
@@ -385,7 +361,7 @@ const RoadmapPage = () => {
         </div>
 
         <Roadmap />
-        <div className={roadmapStyle.topSection}>
+        <div className={roadmapStyle.bottomSection}>
           <p>
             <b>
               <fbt desc="Technical need for the roadmap">

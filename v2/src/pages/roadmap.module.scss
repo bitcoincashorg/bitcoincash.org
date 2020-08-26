@@ -3,7 +3,7 @@
   padding: 0 10%;
 }
 
-.topSection {
+.topSection, .bottomSection {
   padding: 100px 10%;
 }
 
@@ -431,7 +431,7 @@ ul {
 }
 
 @media (max-width: 960px) {
-  .topSection {
+  .topSection, .bottomSection {
     padding: 60px 0;
   }
 
