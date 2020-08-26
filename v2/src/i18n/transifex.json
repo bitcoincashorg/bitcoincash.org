@@ -159,10 +159,10 @@
     "developer_comment": "footer link to legalese",
     "context": "src/layout/footer.js:38:38"
   },
-  "db0346f3743397bf7921c7738231a228": {
-    "string": "{current year}, All Rights Reserved",
+  "9554f6fa69616c126bb310c63587cbaa": {
+    "string": "© {current year}, All Rights Reserved",
     "developer_comment": "Copyright footer",
-    "context": "src/layout/footer.js:93:97"
+    "context": "src/layout/footer.js:93:98"
   },
   "3c23e7392e65bfad89a895ad789ade46": {
     "string": "Services",
