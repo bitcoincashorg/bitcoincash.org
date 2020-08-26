@@ -5,32 +5,32 @@ import DismissButton from "assets/images/close.png"
 import PrimaryButton from "components/buttons/primary-button"
 import Link from "global/link"
 
-function Accordion() {
-  const [setActive, setActiveState] = useState("")
-  const [setHeight, setHeightState] = useState("0px")
-  const [setRotate, setRotateState] = useState(`${S.accordionIcon}`)
-  const [setDismiss, setDismissState] = useState("")
+const Accordion = () => {
+  const [State, setState] = useState("")
+  const [Height, setHeight] = useState("0px")
+  const [Rotation, applyRotation] = useState("")
+  const [DismissStyle, setDismiss] = useState("")
 
   const content = useRef(null)
 
   function toggleAccordion() {
-    setActiveState(setActive === "" ? "active" : "")
-    setHeightState(
-      setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
+    setState(State === "" ? "active" : "")
+    setHeight(
+      State === "active" ? "0px" : `${content.current.scrollHeight}px`
     )
-    setRotateState(
-      setActive === "active" ? `${S.dismiss}` : `${S.dismiss} ${S.rotate}`
+    applyRotation(
+      State === "active" ? "" : `${S.rotateX}`
     )
   }
 
-  function closeAccordion() {
-    setActiveState(setActive === "" ? "active" : "")
-    setDismissState(setDismiss === "active" ? "0px" : "none")
+  function dismissAccordion() {
+    setState(State === "" ? "active" : "")
+    setDismiss(DismissStyle === "active" ? "0px" : "none")
   }
 
   return (
-    <div className={S.accordionSection} style={{ display: `${setDismiss}` }}>
-      <div className={`${S.accordion} ${setActive}`} onClick={toggleAccordion}>
+    <div className={S.accordionSection} style={{ display: `${DismissStyle}` }}>
+      <div className={S.accordion} onClick={toggleAccordion}>
         <div className={S.accordionTitle}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path d="M186.301 339.893L96 249.461l-32 30.507L186.301 402 448 140.506 416 110z"></path>
@@ -42,14 +42,14 @@ function Accordion() {
 
         <img
           src={DismissButton}
-          className={`${setRotate} ${S.dismiss}`}
+          className={`${Rotation} ${S.dismiss}`}
           alt="close"
-          onClick={closeAccordion}
+          onClick={dismissAccordion}
         />
       </div>
       <div
         ref={content}
-        style={{ maxHeight: `${setHeight}` }}
+        style={{ maxHeight: `${Height}` }}
         className={S.accordionContent}
       >
         <div className={S.annoucementPanel}>
