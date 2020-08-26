@@ -91,6 +91,7 @@ const Footer = () => {
         </div>
         <div className={footerStyles.copyright}>
           <fbt desc="Copyright footer">
+            &#169;
             <fbt:param name="current year">
               {new Date().getFullYear()}
             </fbt:param>, All Rights Reserved
