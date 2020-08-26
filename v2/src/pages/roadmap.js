@@ -7,6 +7,7 @@ import Underway from "assets/icons/underway.svg"
 import Planned from "assets/icons/planned.svg"
 import Rocket from "assets/icons/rocket.svg"
 import Ribbon from "assets/icons/ribbon.svg"
+import Logo from "assets/images/bitcoin-cash-logo-medium.png"
 
 const RoadmapItem = ({ state, title, children }) => {
   let icon = ""
@@ -45,7 +46,11 @@ const RoadmapItem = ({ state, title, children }) => {
 const RoadmapColumn = ({ className, title, items }) => {
   return (
     <div className={className}>
-      <h3 className={roadmapStyle.coltitle}>{title}</h3>
+      <h3
+        className={`${roadmapStyle.grayHeaders} ${roadmapStyle.grayHeadersmargin}`}
+      >
+        {title}
+      </h3>
       <ul class={roadmapStyle.list}>
         {items.map(item => (
           <RoadmapItem title={item.title} state={item.state}>
@@ -245,31 +250,28 @@ const Roadmap = () => {
       <div className={roadmapStyle.roadmap}>
         <div className={roadmapStyle.toplegendcontainer}>
           <div className={roadmapStyle.toplegendcol}>
-           
-              <div className={roadmapStyle.completetop}>{<Check />}
+            <div className={roadmapStyle.completetop}>
+              {<Check />}
               <div className={roadmapStyle.completetoptext}>
-              <fbt desc="Complete icon on the roadmap legend">Complete</fbt>
+                <fbt desc="Complete icon on the roadmap legend">Complete</fbt>
               </div>
-              </div>
-           
+            </div>
           </div>
           <div className={roadmapStyle.toplegendcol}>
-           
-              <div className={roadmapStyle.underwaytop}>{<Underway />}
+            <div className={roadmapStyle.underwaytop}>
+              {<Underway />}
               <div>
-              <fbt desc="Underway icon on the roadmap legend">Underway</fbt>
+                <fbt desc="Underway icon on the roadmap legend">Underway</fbt>
               </div>
-              </div>
-           
+            </div>
           </div>
           <div className={roadmapStyle.toplegendcol}>
-           
-              <div className={roadmapStyle.plannedtop}>{<Planned />}
+            <div className={roadmapStyle.plannedtop}>
+              {<Planned />}
               <div>
-              <fbt desc="Planed icon on the roadmap legend">Planned</fbt>
+                <fbt desc="Planed icon on the roadmap legend">Planned</fbt>
               </div>
-              </div>
-           
+            </div>
           </div>
           {/* <div className={roadmapStyle.toplegendcol}>
            
@@ -296,39 +298,43 @@ const Roadmap = () => {
             </p>
           </div> */}
         </div>
-        <div class={`${roadmapStyle.row} ${roadmapStyle.title}`}>
-          <div>
-            <img
-              src="/media-kit/3-bitcoin-cash-logo-ot-medium.png"
-              alt="Bitcoin Cash roadmap"
-            />
-            <h3>
+        <div className={roadmapStyle.roadmapRow}>
+          <div className={roadmapStyle.logosection}>
+            <img src={Logo} alt="Bitcoin Cash roadmap" />
+            <h3 className={roadmapStyle.grayHeaders}>
               <fbt desc="Top roadmap item">Roadmap</fbt>
             </h3>
           </div>
         </div>
       </div>
-      <div className={roadmapStyle.row}>
+      <div className={roadmapStyle.roadmapRow2}>
+        <div className={roadmapStyle.roadmapHorizontalBar}></div>
+      </div>
+      <div className={roadmapStyle.roadmapRow}>
         <RoadmapColumn
           title={fbt("Scaling", "Roadmap scaling section title")}
-          className={roadmapStyle.scaling}
+          className={`${roadmapStyle.roadmapCol} ${roadmapStyle.scaling}`}
           items={sclaingItems}
         />
         <RoadmapColumn
           title={fbt("Usability", "Roadmap usability section title")}
-          className={roadmapStyle.usability}
+          className={`${roadmapStyle.roadmapCol} ${roadmapStyle.usability}`}
           items={usabilityItems}
         />
         <RoadmapColumn
           title={fbt("Extensibility", "Roadmap extensibility section title")}
-          className={roadmapStyle.extensibility}
+          className={`${roadmapStyle.roadmapCol} ${roadmapStyle.extensibility}`}
           items={extensibilityItems}
         />
       </div>
-      <div className={roadmapStyle.row}>
-        <div className={roadmapStyle.complete}>
-          <h3 class={roadmapStyle.coltitle}>
-            <ion-icon class="complete" name="checkmark-circle" />
+      <div className={roadmapStyle.roadmapRow3}>
+        <div className={roadmapStyle.roadmapHorizontalBar}></div>
+        <div className={roadmapStyle.roadmapverticalBar}></div>
+        <div className={roadmapStyle.roadmapverticalBar2}></div>
+      </div>
+      <div className={roadmapStyle.roadmapRow}>
+        <div className={roadmapStyle.completeSection}>
+          <h3 className={roadmapStyle.grayHeaders}>
             <fbt desc="Bottom roadmap item">Bitcoin Cash Protocol Complete</fbt>
           </h3>
         </div>
@@ -379,74 +385,76 @@ const RoadmapPage = () => {
         </div>
 
         <Roadmap />
-
-        <p>
-          <b>
-            <fbt desc="Technical need for the roadmap">
-              The needed technical improvements can be divided into three
-              categories:
+        <div className={roadmapStyle.topSection}>
+          <p>
+            <b>
+              <fbt desc="Technical need for the roadmap">
+                The needed technical improvements can be divided into three
+                categories:
+              </fbt>
+            </b>
+            <ol>
+              <li>
+                <fbt desc="Roadmap 1st technical">
+                  Enable Bitcoin Cash to scale from ~100 Tx/s to over 5,000,000
+                  Tx/s. Protocol improvements must be made so that
+                  mass-parallelization can enable this level of transaction
+                  processing.
+                </fbt>
+              </li>
+              <li>
+                <fbt desc="Roadmap 2nd technical">
+                  Improving the payment experience to ensure that it is instant
+                  and reliable. Transactions should be secure within three
+                  seconds.
+                </fbt>
+              </li>
+              <li>
+                <fbt desc="Roadmap 3rd technical">
+                  Make Bitcoin Cash extensible. An extensible protocol makes
+                  future improvements less disruptive, and provides a solid base
+                  for businesses and developers to build on.
+                </fbt>
+              </li>
+            </ol>
+          </p>
+          <p>
+            <fbt desc="Roadmap's protocol upgrade explaination">
+              The Bitcoin Cash network has protocol upgrades twice a year, on
+              November 15th and May 15th. These upgrades are required for all
+              node operators. They are sometimes referred to as "hard fork
+              upgrades", but the term "scheduled protocol upgrades" is
+              preferred.
             </fbt>
-          </b>
-          <ol>
-            <li>
-              <fbt desc="Roadmap 1st technical">
-                Enable Bitcoin Cash to scale from ~100 Tx/s to over 5,000,000
-                Tx/s. Protocol improvements must be made so that
-                mass-parallelization can enable this level of transaction
-                processing.
-              </fbt>
-            </li>
-            <li>
-              <fbt desc="Roadmap 2nd technical">
-                Improving the payment experience to ensure that it is instant
-                and reliable. Transactions should be secure within three
-                seconds.
-              </fbt>
-            </li>
-            <li>
-              <fbt desc="Roadmap 3rd technical">
-                Make Bitcoin Cash extensible. An extensible protocol makes
-                future improvements less disruptive, and provides a solid base
-                for businesses and developers to build on.
-              </fbt>
-            </li>
-          </ol>
-        </p>
-        <p>
-          <fbt desc="Roadmap's protocol upgrade explaination">
-            The Bitcoin Cash network has protocol upgrades twice a year, on
-            November 15th and May 15th. These upgrades are required for all node
-            operators. They are sometimes referred to as "hard fork upgrades",
-            but the term "scheduled protocol upgrades" is preferred.
-          </fbt>
-        </p>
-        <p>
-          <fbt desc="Roadmap's upgrade activation explaination">
-            Rather than a specific block height, the upgrades are based on a
-            timestamp. When the median timestamp of the most recent 11 blocks
-            (MTP-11) is greater than or equal to UNIX timestamp of November 15th
-            (or May 15th) 12:00:00 UTC, the new protocol rules take effect. This
-            better enables your business to prepare for the upgrade at a
-            particular estimated time, plus or minus a few hours.
-          </fbt>
-        </p>
-        <p>
-          <fbt desc="Roadmap upgrade future expectation">
-            Although this semi-annual upgrade schedule is not expected to
-            continue forever, it is in place for the forseeable near-term
-            future. Regular protocol upgrades provide a predictable cadence for
-            the ecosystem, and are necessary to achieve the vision set forth in
-            the roadmap.
-          </fbt>
-        </p>
-        <p>
-          <fbt desc="Roadmap conclusion">
-            To become a solid base for application development and innovation,
-            Bitcoin Cash must continuously improve and compete. Working
-            together, we can build a technical foundation to empower Bitcoin
-            Cash to be the best money the world has ever seen.
-          </fbt>
-        </p>
+          </p>
+          <p>
+            <fbt desc="Roadmap's upgrade activation explaination">
+              Rather than a specific block height, the upgrades are based on a
+              timestamp. When the median timestamp of the most recent 11 blocks
+              (MTP-11) is greater than or equal to UNIX timestamp of November
+              15th (or May 15th) 12:00:00 UTC, the new protocol rules take
+              effect. This better enables your business to prepare for the
+              upgrade at a particular estimated time, plus or minus a few hours.
+            </fbt>
+          </p>
+          <p>
+            <fbt desc="Roadmap upgrade future expectation">
+              Although this semi-annual upgrade schedule is not expected to
+              continue forever, it is in place for the forseeable near-term
+              future. Regular protocol upgrades provide a predictable cadence
+              for the ecosystem, and are necessary to achieve the vision set
+              forth in the roadmap.
+            </fbt>
+          </p>
+          <p>
+            <fbt desc="Roadmap conclusion">
+              To become a solid base for application development and innovation,
+              Bitcoin Cash must continuously improve and compete. Working
+              together, we can build a technical foundation to empower Bitcoin
+              Cash to be the best money the world has ever seen.
+            </fbt>
+          </p>
+        </div>
       </div>
     </>
   )
