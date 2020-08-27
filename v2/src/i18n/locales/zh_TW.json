@@ -225,66 +225,73 @@
         }
       ]
     },
-    "db0346f3743397bf7921c7738231a228": {
+    "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "{current year}, All Rights Reserved"
+          "translation": "© {current year}, All Rights Reserved"
         }
       ]
     },
-    "3b00a84e9b38df9824ab753e721807b6": {
+    "3c23e7392e65bfad89a895ad789ade46": {
       "translations": [
         {
           "translation": "服務"
         }
       ]
     },
-    "6882f0ffb5df9595d1dbc175701289e9": {
+    "d2701e551c3b1087e38cf994996ccead": {
       "translations": [
         {
           "translation": "相關專案"
         }
       ]
     },
-    "ae62d55d07578ce94ad52c099cd48b9e": {
+    "58f3f371a60f2403eaaee09bbcb2c45d": {
       "translations": [
         {
           "translation": "交易所"
         }
       ]
     },
-    "3cdee003d2b686c00ea1853d5bd32023": {
+    "7d337ea26e78f2a65804aba296a7cee4": {
       "translations": [
         {
           "translation": "節點"
         }
       ]
     },
-    "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
-      "translations": [
-        {
-          "translation": "標誌"
-        }
-      ]
-    },
-    "55b0de754d987246a9b7d7482d7410f7": {
+    "ba4d0b9ed25b52c797f59d2016874f3b": {
       "translations": [
         {
           "translation": "開發者入口網站"
         }
       ]
     },
-    "99fcf7d982fd20949b1656a13cd00125": {
+    "84642b7d94ceb4a405027dbb91dca1ba": {
+      "translations": [
+        {
+          "translation": "標誌"
+        }
+      ]
+    },
+    "702b2d4ddf76ff77afac3095e972f5ea": {
       "translations": [
         {
           "translation": "Whitepaper"
         }
       ]
     },
-    "74427e34a61a4e369a9d3056792a9765": {
+    "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "首頁"
+        }
+      ]
+    },
+    "ca0099c6a546b549832b8813418d99cf": {
+      "translations": [
+        {
+          "translation": "由此開始"
         }
       ]
     },
