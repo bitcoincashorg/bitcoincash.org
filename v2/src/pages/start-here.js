@@ -18,9 +18,9 @@ const StartHerePage = () => {
       <Container>
         <Row>
           <Col md={12}>
-            <fbt desc="Getting Started Header">
-              <h1 className={S.headeralign}>Getting Started</h1>
-            </fbt>
+            <h1 className={S.headeralign}>
+              <fbt desc="Getting Started Header">Getting Started</fbt>
+            </h1>
           </Col>
         </Row>
         <Row>
@@ -34,16 +34,20 @@ const StartHerePage = () => {
                 />
               </Link>
               <div className={S.cardContent}>
-                <fbt desc="Getting Started Card 'What is' subtitle">
-                  <p className={S.cardSubtitle}>
-                    What is peer to peer electronic cash?
-                  </p>
-                </fbt>
-                <fbt desc="Getting Started Card 'What is' title">
-                  <p className={S.cardTitle}>1. Getting Started</p>
-                </fbt>
-                <fbt desc="Getting Started Card 'What is' content">
-                  <p className={S.cardParagraph}>
+                <p className={S.cardSubtitle}>
+                  <fbt desc="Getting Started Card 'What is' subtitle">
+                    What is peer to peer electronic cash?{" "}
+                  </fbt>
+                </p>
+
+                <p className={S.cardTitle}>
+                  <fbt desc="Getting Started Card 'What is' title">
+                    1. Getting Started
+                  </fbt>
+                </p>
+
+                <p className={S.cardParagraph}>
+                  <fbt desc="Getting Started Card 'What is' content">
                     Peer to peer (P2P) electronic cash is simply described as
                     online money sent from one person to another without the
                     need for a trusted third-party. As described in the original
@@ -52,8 +56,8 @@ const StartHerePage = () => {
                     benefits are lost if a trusted third party is still required
                     to prevent fraud. This makes P2P cash a trustless and safe
                     way to transact without the need of intermediaries.
-                  </p>
-                </fbt>
+                  </fbt>
+                </p>
               </div>
 
               <div className={S.cardButtonContainer}>
@@ -75,19 +79,29 @@ const StartHerePage = () => {
                 />
               </Link>
               <div className={S.cardContent}>
-                <fbt desc="Getting Started Card 'Wallets' subtitle">
-                  <p className={S.cardSubtitle}>
+                <p className={S.cardSubtitle}>
+                  <fbt desc="Getting Started Card 'Wallets' subtitle">
                     Where do I store my Bitcoin Cash?
-                  </p>
-                </fbt>
-                <fbt desc="Getting Started Card 'Wallets' title">
-                  <p className={S.cardTitle}>2. Download a wallet</p>
-                </fbt>
-                <fbt desc="Getting Started Card 'Wallets' content">
-                  <p className={S.cardParagraph}>
-                  Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.
-                  </p>
-                </fbt>
+                  </fbt>
+                </p>
+
+                <p className={S.cardTitle}>
+                  {" "}
+                  <fbt desc="Getting Started Card 'Wallets' title">
+                    2. Download a wallet
+                  </fbt>
+                </p>
+
+                <p className={S.cardParagraph}>
+                  <fbt desc="Getting Started Card 'Wallets' content">
+                    Getting started with Bitcoin Cash is super easy. The first
+                    step is to download a wallet so that you can begin
+                    participating in the Bitcoin economy. Most wallets are free
+                    to download and are easy to use that have a few key features
+                    such as sending, receiving, storing funds securely,
+                    transaction lookups, and more.
+                  </fbt>
+                </p>
               </div>
 
               <div className={S.cardButtonContainer}>
@@ -101,29 +115,35 @@ const StartHerePage = () => {
           </Col>
         </Row>
         <Row>
-        <Col md={6}>
+          <Col md={6}>
             <div className={S.card}>
               <Link to="buy-bitcoin-cash.html">
-                <img
-                  className={S.cardImg}
-                  src={Buy}
-                  alt="Buy Bitcoin Cash"
-                />
+                <img className={S.cardImg} src={Buy} alt="Buy Bitcoin Cash" />
               </Link>
               <div className={S.cardContent}>
-                <fbt desc="Getting Started Card 'Buy' subtitle">
-                  <p className={S.cardSubtitle}>
+                <p className={S.cardSubtitle}>
+                  <fbt desc="Getting Started Card 'Buy' subtitle">
                     How do I get Bitcoin Cash?
-                  </p>
-                </fbt>
-                <fbt desc="Getting Started Card 'Buy' title">
-                  <p className={S.cardTitle}>3. Buy or Earn Bitcoin Cash</p>
-                </fbt>
-                <fbt desc="Getting Started Card 'Buy' content">
-                  <p className={S.cardParagraph}>
-                  The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you Bitcoin Cash after the trade has occurred.
-                  </p>
-                </fbt>
+                  </fbt>
+                </p>
+
+                <p className={S.cardTitle}>
+                  <fbt desc="Getting Started Card 'Buy' title">
+                    3. Buy or Earn Bitcoin Cash
+                  </fbt>
+                </p>
+
+                <p className={S.cardParagraph}>
+                  {" "}
+                  <fbt desc="Getting Started Card 'Buy' content">
+                    The two easiest ways to get Bitcoin Cash is to buy or work
+                    for it. Buying Bitcoin Cash is the most used and convenient
+                    way, where all you have to do is sign up for a Bitcoin
+                    exchange and deposit funds so you can convert it to Bitcoin
+                    Cash. The exchange will send you Bitcoin Cash after the
+                    trade has occurred.
+                  </fbt>
+                </p>
               </div>
 
               <div className={S.cardButtonContainer}>
@@ -145,19 +165,29 @@ const StartHerePage = () => {
                 />
               </Link>
               <div className={S.cardContent}>
-                <fbt desc="Getting Started Card 'Spend' subtitle">
-                  <p className={S.cardSubtitle}>
+                <p className={S.cardSubtitle}>
+                  <fbt desc="Getting Started Card 'Spend' subtitle">
                     What can I buy with Bitcoin Cash?
-                  </p>
-                </fbt>
-                <fbt desc="Getting Started Card 'Spend' title">
-                  <p className={S.cardTitle}>4. Spend Bitcoin Cash</p>
-                </fbt>
-                <fbt desc="Getting Started Card 'Spend' content">
-                  <p className={S.cardParagraph}>
-                  Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.
-                  </p>
-                </fbt>
+                  </fbt>
+                </p>
+
+                <p className={S.cardTitle}>
+                  {" "}
+                  <fbt desc="Getting Started Card 'Spend' title">
+                    4. Spend Bitcoin Cash
+                  </fbt>
+                </p>
+
+                <p className={S.cardParagraph}>
+                  <fbt desc="Getting Started Card 'Spend' content">
+                    Bitcoin Cash isn’t just for speculation. It’s intended usage
+                    is a peer to peer electronic currency, which means, it
+                    should be spent. Spending Bitcoin Cash is fast, with
+                    near-instant transactions and sub-cent transaction fees,
+                    making it the most secure and widely used digital currency
+                    on the planet.
+                  </fbt>
+                </p>
               </div>
 
               <div className={S.cardButtonContainer}>
@@ -173,37 +203,50 @@ const StartHerePage = () => {
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <div className={S.card}>
-                <Link to="accept-bitcoin-cash.html">
-                  <img
-                    className={S.cardImg}
-                    src={Accept}
-                    alt="Accept Bitcoin Cash"
-                  />
-                </Link>
-                <div className={S.cardContent}>
+              <Link to="accept-bitcoin-cash.html">
+                <img
+                  className={S.cardImg}
+                  src={Accept}
+                  alt="Accept Bitcoin Cash"
+                />
+              </Link>
+              <div className={S.cardContent}>
+                <p className={S.cardSubtitle}>
                   <fbt desc="Getting Started Card 'Accept' subtitle">
-                    <p className={S.cardSubtitle}>
-                      How can my business use Bitcoin Cash?
-                    </p>
+                    How can my business use Bitcoin Cash?
                   </fbt>
-                  <fbt desc="Getting Started Card 'Accept' title">
-                    <p className={S.cardTitle}>5. Accept Bitcoin Cash</p>
-                  </fbt>
-                  <fbt desc="Getting Started Card 'Accept' content">
-                    <p className={S.cardParagraph}>
-                    As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Easily accept Bitcoin Cash directly or use third-party providers to accept Bitcoin Cash using their platforms and convert all or part of the sale into local fiat currency.
-                    </p>
-                  </fbt>
-                </div>
+                </p>
 
-                <div className={S.cardButtonContainer}>
-                  <PrimaryButton
-                    noMarginLeft={true}
-                    buttonText={fbt("View More", "'View More' button")}
-                    href={"/accept-bitcoin-cash.html"}
-                  />
-                </div>
+                <p className={S.cardTitle}>
+                  <fbt desc="Getting Started Card 'Accept' title">
+                    5. Accept Bitcoin Cash
+                  </fbt>
+                </p>
+
+                <p className={S.cardParagraph}>
+                  <fbt desc="Getting Started Card 'Accept' content">
+                    As a merchant one of your main goals is to be able to accept
+                    and process payments as quickly and seamlessly as possible
+                    so you can make your customers happy and receive payments
+                    without any headaches. Bitcoin Cash is the solution, as it
+                    has fast and low-cost transactions. As the world goes
+                    digital, electronic currencies such as Bitcoin are becoming
+                    the go-to method for paying online and in retail shops.
+                    Easily accept Bitcoin Cash directly or use third-party
+                    providers to accept Bitcoin Cash using their platforms and
+                    convert all or part of the sale into local fiat currency.
+                  </fbt>
+                </p>
               </div>
+
+              <div className={S.cardButtonContainer}>
+                <PrimaryButton
+                  noMarginLeft={true}
+                  buttonText={fbt("View More", "'View More' button")}
+                  href={"/accept-bitcoin-cash.html"}
+                />
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
