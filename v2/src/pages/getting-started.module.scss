@@ -24,19 +24,20 @@
 }
 
 .cardIcon {
-  width: 100%;
   text-align: center;
 }
 
 .cardIcon svg {
-  fill: red;
+  fill: #f7941c;
+  stroke: #f7941c;
+  width: 100%;
+  max-width: 50px;
 }
 
 .cardIconRow {
   margin: 20px 0;
   border-bottom: 1px solid #e2e2e2;
   padding: 30px 0;
-  // background: red;
 }
 
 .card h3 {

@@ -2,9 +2,8 @@ import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
 import { Container, Row, Col } from "react-bootstrap"
-// import Link from "global/link.js"
+import Link from "global/link.js"
 import S from "./getting-started.module.scss"
-import Buy from "assets/images/hero.png"
 import Fast from "assets/icons/getting-started/speedometer.svg"
 
 
@@ -17,62 +16,17 @@ const GettingStartedPage = () => {
               <Col md={4} className={S.card}>
                  
                       <h3>Learn all about Bitcoin Cash</h3>
-                      {/* <div className={S.iconRows}> */}
+                      
                       <Row className={S.cardIconRow}>
                             <Col xs={3} className={S.cardIcon}>
-                                {Fast}
+                                  <Fast />
                             </Col>
                             <Col xs={9} className={S.cardIconText}>
-                                <h4>Fast</h4>
+                                <h4><fbt desc="Getting Started Card 'Accept' content">Fast</fbt></h4>
                                 <p>Transact in seconds. Get confirmed in minutes.</p>
                             </Col>
                         </Row>
-                          {/* </div>
-                          <div class="row type">
-                              <div class="col-xs-3">
-                                  <ion-icon name="cog"></ion-icon>
-                              </div>
-                              <div class="col-xs-9">
-                                  <h4>Reliable</h4>
-                                  <p>A network that runs without congestion.</p>
-                              </div>
-                          </div>
-                          <div class="row type">
-                              <div class="col-xs-3">
-                                  <ion-icon name="arrow-down"></ion-icon>
-                              </div>
-                              <div class="col-xs-9">
-                                  <h4>Low Fees</h4>
-                                  <p>Send money globally for pennies.</p>
-                              </div>
-                          </div>
-                          <div class="row type">
-                              <div class="col-xs-3">
-                                  <ion-icon name="ios-cafe"></ion-icon>
-                              </div>
-                              <div class="col-xs-9">
-                                  <h4>Simple</h4>
-                                  <p>Easy to use. No hassles.</p>
-                              </div>
-                          </div>
-                          <div class="row type">
-                              <div class="col-xs-3">
-                                  <ion-icon name="business"></ion-icon>
-                              </div>
-                              <div class="col-xs-9">
-                                  <h4>Stable</h4>
-                                  <p>A payment system that's a proven store of value.</p>
-                              </div>
-                          </div>
-                          <div class="row type">
-                              <div class="col-xs-3">
-                                  <ion-icon name="lock"></ion-icon>
-                              </div>
-                              <div class="col-xs-9">
-                                  <h4>Secure</h4>
-                                  <p>World's most robust blockchain technology.</p>
-                              </div>
-                          </div> */}
+                          
                      
               </Col>
               <Col md={8}>
