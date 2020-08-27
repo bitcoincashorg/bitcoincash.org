@@ -1,0 +1,52 @@
+.card {
+  border-radius: 7px;
+  background: #fff;
+  color: #444;
+
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06),
+    0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06), 0 2px 14px 6px rgba(0, 0, 0, 0.04);
+
+  padding: 20px 10px;
+}
+
+.cardIcon {
+  text-align: center;
+}
+
+.cardIcon svg {
+  fill: #f7941c;
+  stroke: #f7941c;
+  width: 100%;
+  max-width: 50px;
+}
+
+.cardIconRow {
+  margin: 15px 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 15px 0;
+}
+
+.cardIconRow:nth-child(7) {
+  border-bottom: none;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cardIconText h4 {
+  margin: 0 0 7px 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.cardIconText p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+  font-size: 16px;
+}
