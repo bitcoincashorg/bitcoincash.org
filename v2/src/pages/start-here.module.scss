@@ -1,115 +1,61 @@
-.carduserprofile {
-    position: relative;
-    z-index: 0;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 1em 1em;
-    border: 0;
-    border-radius: 5px;
-    background: #fefefe;
-    box-shadow: none;
-    overflow: hidden;
-    color: #0a0a0a;
-    -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
-      box-shadow: 0 3px 4px rgba(0,0,0,.06), 0 2px 14px 6px rgba(0,0,0,.04);
-      -webkit-backface-visibility: hidden;
-  
-  }
-  
-  .carduserprofile ion-icon {
-    background:#4d4d4d;
-    color:#fff;
-    border-radius:50px;
-    box-shadow:0 0 15px rgba(10, 10, 10, 0.3);
-    padding:8px;
-    font-size:42px;
-    margin-left:.2em;
-  }
-  
-  .carduserprofile > :last-child {
-    margin-bottom: 0;
-  }
-  .carduserprofileimg {
-    -webkit-backface-visibility: hidden;
-  }
-  .carduserprofile:hover .carduserprofile-img {
-    opacity: 1;
-  }
-  
-  .carduserprofilecontent {
-    position: relative;
-    padding:0 1em;
-  }
-  
-  .carduserprofilecontent::before {
-    position: absolute;
-    content: '';
-    top: -3.4375rem;
-    left: -1.875rem;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2em 0 0 30em;
-    z-index: 0;
-    border-color: transparent transparent transparent #fefefe;
-  }
-  
-  .carduserprofileactions {
-    padding: .5em 1em 1em;
-  }
-  
-  .carduserprofileactions > :last-child {
-    margin-bottom: 0;
-  }
-  
-  .carduserprofile-mg {
-    min-width: 100%;
-    opacity: 0.85;
-    transition: all 0.25s ease;
-  }
-  
-  .carduserprofileavatar {
-    position: absolute;
-    bottom: 100%;
-    left: 1rem;
-    z-index: 2;
-    max-width: 5.625rem;
-  }
-  
-  .carduserprofileavatar img {
-    border-radius: 50%;
-    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
-  }
-  
-  .carduserprofilename {
-    margin-bottom: 0;
-    font-weight: 300;
-    font-size: 1.5rem;
-    margin-top:.5em;
-    color:#777;
-  }
-  
-  .carduserprofilebutton {
-    margin-bottom: 0;
-  
-  }
-  
-  .cardsection .carduserprofileinfo {
-    font-size: 15px;
-    margin-bottom:.5em;
-    letter-spacing:1px;
-  }
-  
-  .carduserprofilestatus {
-    font-weight:bold;
-    color:#4d4d4d;
-    margin-bottom:.5em;
-  }
-  
-  .cardsection .btn {
-    margin-bottom:1em;
-  }
+.card {
+  position: relative;
+  z-index: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 30px 0;
+  border: 0;
+  border-radius: 7px;
+  background: #fff;
+  color: #0a0a0a;
+  overflow: hidden;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06),
+    0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06), 0 2px 14px 6px rgba(0, 0, 0, 0.04);
+}
+
+.headeralign {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.cardImg {
+width: 100%;
+opacity: 0.85;
+transition: all 0.25s ease;
+}
+
+.card:hover .cardImg {
+  opacity: 1;
+}
+
+.cardContent {
+  position: relative;
+  padding: 30px;
+}
+
+.cardButtonContainer {
+  margin: auto;
+}
+
+.cardButtonContainer button {
+  margin: 0 0 50px 0;
+}
+
+.cardSubtitle {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 0;
+  color: #444;
+}
+
+.cardTitle {
+  font-weight: bold;
+  color: #4d4d4d;
+  margin-bottom: 0.5em;
+}
