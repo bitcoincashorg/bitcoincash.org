@@ -22,12 +22,10 @@ UTC.
 
 ## Other services
 
-Miners: to `bitcoincash.gq:19338`
-user: (testnet address) password:(anything)
+Regular Testnet:
 
-Electrumx server: `fulcrum.bitcoincash.gq:60002` will follow the bitcoind.
-
-Explorer: http://bitcoincash.gq:3002
+- ElectrumX server: `electrum.bitcoincash.org:60002`
+- Testnet Explorer: `texplorer.bitcoincash.org`
 
 ## Communication
 
