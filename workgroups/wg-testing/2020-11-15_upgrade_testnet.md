@@ -9,14 +9,13 @@ or check the [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw) for 
 
 ## Other services
 
-Miners: to `bitcoincash.gq:19338`
-user: (testnet address) password:(anything)
+Miners: to `stratum+tcp://electrum.bitcoincash.org:19340`
+user: (testnet address) password: (anything)
 
-Electrumx server: `fulcrum.bitcoincash.gq:60002` will follow the bitcoind.
+ElectrumX server: `electrum.bitcoincash.org:60002` will follow the bitcoind.
 
-Explorer: http://bitcoincash.gq:3002
+Explorer: [texplorer.bitcoincash.org](https://texplorer.bitcoincash.org)
 
 ## Communication
 
 To communicate and coordinate with other Upgrade Testnet users, you can join the [Testing Workgroup](workgroup.md) and its associated [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw).
-
