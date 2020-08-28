@@ -63,7 +63,10 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
+                  buttonText={fbt(
+                    "View More",
+                    "'View More' button on start here page to see more content"
+                  )}
                   href={"/getting-started.html"}
                 />
               </div>
@@ -106,7 +109,10 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
+                  buttonText={fbt(
+                    "View More",
+                    "'View More' button on start here page to see more content"
+                  )}
                   href={"/wallets.html"}
                 />
               </div>
@@ -147,7 +153,10 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
+                  buttonText={fbt(
+                    "View More",
+                    "'View More' button on start here page to see more content"
+                  )}
                   href={"/buy-bitcoin-cash.html"}
                 />
               </div>
@@ -190,7 +199,10 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
+                  buttonText={fbt(
+                    "View More",
+                    "'View More' button on start here page to see more content"
+                  )}
                   href={"/spend-bitcoin-cash.html"}
                 />
               </div>
@@ -239,7 +251,10 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
+                  buttonText={fbt(
+                    "View More",
+                    "'View More' button on start here page to see more content"
+                  )}
                   href={"/accept-bitcoin-cash.html"}
                 />
               </div>
