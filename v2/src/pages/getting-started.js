@@ -1,11 +1,15 @@
 import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row } from "react-bootstrap"
 import Sidebar from "components/sidebar/sidebar.js"
-import S from "./getting-started.module.scss"
+import LargeTile from "components/large-tile/large-tile.js"
 import Fast from "assets/icons/getting-started/speedometer.svg"
 import Cog from "assets/icons/getting-started/cog.svg"
+import Arrow from "assets/icons/getting-started/arrow-down.svg"
+import Simple from "assets/icons/getting-started/cafe.svg"
+import Stable from "assets/icons/getting-started/business.svg"
+import Secure from "assets/icons/getting-started/lock.svg"
 
 const GettingStartedPage = () => {
   const sideBarContent = [
@@ -37,7 +41,7 @@ const GettingStartedPage = () => {
         "Send money globally for pennies.",
         "Getting started page learn column 'Low fees' paragraph"
       ),
-      icon: <Fast />,
+      icon: <Arrow />,
     },
     {
       title: fbt("Simple", "Getting started page learn column 'simple' title"),
@@ -45,7 +49,7 @@ const GettingStartedPage = () => {
         "Easy to use. No hassles.",
         "Getting started page learn column 'simple' paragraph"
       ),
-      icon: <Fast />,
+      icon: <Simple />,
     },
     {
       title: fbt("Stable", "Getting started page learn column 'stable' title"),
@@ -53,7 +57,7 @@ const GettingStartedPage = () => {
         "A payment system that's a proven store of value.",
         "Getting started page learn column 'stable' paragraph"
       ),
-      icon: <Fast />,
+      icon: <Stable />,
     },
     {
       title: fbt("Secure", "Getting started page learn column 'secure' title"),
@@ -61,14 +65,28 @@ const GettingStartedPage = () => {
         "World's most robust blockchain technology.",
         "Getting started page learn column 'secure' paragraph"
       ),
-      icon: <Fast />,
+      icon: <Secure />,
+    },
+  ]
+
+  const largeTileContent = [
+    {
+      subtitle: fbt(
+        "What is peer to peer electronic cash?",
+        "Getting started page subtitle"
+      ),
+      title: fbt("Getting Started", "Getting started page title"),
+      paragraph: fbt(
+        "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.",
+        "Getting started page main paragraph"
+      ),
     },
   ]
 
   return (
     <>
       <SEO title="Getting Started" />
-      <Container className={S.containerPadding}>
+      <Container>
         <Row>
           <Sidebar
             content={sideBarContent}
@@ -77,49 +95,12 @@ const GettingStartedPage = () => {
               "sidebar title 'getting started' page"
             )}
           />
-
-          <Col md={8}>
-            <div class="card-user-profile text-left">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube-nocookie.com/embed/OE3QTbgh-p8?rel=0"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-              ></iframe>
-              <div class="card-user-profile-content card-section">
-                <h3 class="card-user-profile-name">
-                  What is peer to peer electronic cash?
-                </h3>
-                <h1 class="card-user-profile-status">Getting Started</h1>
-                <p class="card-user-profile-info">
-                  Peer to peer (P2P) electronic cash is simply described as
-                  online money sent from one person to another without the need
-                  for a trusted third-party. As described in the original
-                  Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of
-                  digital signatures as part of the solution, but the main
-                  benefits are lost if a trusted third party is still required
-                  to prevent fraud. This makes P2P cash a trustless and safe way
-                  to transact without the need of intermediaries.
-                </p>
-              </div>
-              <div class="card-user-profile-actions">
-                <a href="faq.html" class="btn btn-primary btn-round">
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </Col>
+          <LargeTile
+            content={largeTileContent}
+            video={true}
+            buttontext={fbt("Learn more", "learn more button")}
+          />
         </Row>
-        <div class="row text-center">
-          <a
-            href="wallets.html"
-            class="card-user-profile-button btn btn-secondary btn-round secondary"
-          >
-            Download a wallet &raquo;
-          </a>
-        </div>
       </Container>
     </>
   )
