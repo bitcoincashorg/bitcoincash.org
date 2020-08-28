@@ -4,7 +4,6 @@ import Sidebarstyle from "./sidebar.module.css"
 
 const Sidebar = ({ content, title }) => {
   return (
-    <>
       <Col md={4}>
         <div className={Sidebarstyle.card}>
           <h3>{title}</h3>
@@ -23,7 +22,6 @@ const Sidebar = ({ content, title }) => {
           })}
         </div>
       </Col>
-    </>
   )
 }
 
