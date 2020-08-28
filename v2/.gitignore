@@ -74,3 +74,6 @@ yarn-error.log
 .src_manifest.json
 .source_strings.json
 
+# .ds_store
+.DS_Store
+

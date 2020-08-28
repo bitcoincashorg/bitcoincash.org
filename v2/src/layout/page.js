@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./page.scss"
 import "./global.scss"
 import Header from "./header"
