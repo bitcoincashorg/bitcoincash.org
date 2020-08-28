@@ -257,266 +257,266 @@
   "d74b66d8afcffeb2cf7b4c7f5848e22f": {
     "string": "Can. Transaction Ordering",
     "developer_comment": "Roadmap scaling item: Canonical transaction ordering",
-    "context": "src/pages/roadmap.js:56:59"
+    "context": "src/pages/roadmap.js:68:71"
   },
   "de78c72984a1db2439de0c93b90f7f0f": {
     "string": "(scalable block processing)",
     "developer_comment": "Roadmap scaling description: Canonical transaction ordering",
-    "context": "src/pages/roadmap.js:60:63"
+    "context": "src/pages/roadmap.js:72:75"
   },
   "f42b22638fe3189bafb4aaa20015143d": {
     "string": "Faster Block Propagation",
     "developer_comment": "Roadmap scaling item: Faster block propagation",
-    "context": "src/pages/roadmap.js:67:70"
+    "context": "src/pages/roadmap.js:79:82"
   },
   "6f297b182748a3d753f7e815ad8e8fa8": {
     "string": "(graphene or other)",
     "developer_comment": "Roadmap scaling description: Faster block propagation",
-    "context": "src/pages/roadmap.js:71:74"
+    "context": "src/pages/roadmap.js:83:86"
   },
   "2b7d19f35c712e8a70ec7c74aee63cb4": {
     "string": "Merklix-Metadata Tree",
     "developer_comment": "Roadmap scaling item: Merklix",
-    "context": "src/pages/roadmap.js:78:78"
+    "context": "src/pages/roadmap.js:90:90"
   },
   "94e6f38059317000f2018ee6cea4954c": {
     "string": "(scalable block processing)",
     "developer_comment": "Roadmap scaling description: Merklix",
-    "context": "src/pages/roadmap.js:79:82"
+    "context": "src/pages/roadmap.js:91:94"
   },
   "d3197aa026de8266870fa7e95620437d": {
     "string": "UTXO Commitment",
     "developer_comment": "Roadmap scaling item: UTXO Commitment",
-    "context": "src/pages/roadmap.js:86:86"
+    "context": "src/pages/roadmap.js:98:98"
   },
   "c8e1c0e560dac971a40a0fe2280b8daf": {
     "string": "(blockchain pruning)",
     "developer_comment": "Roadmap scaling description: UTXO Commitment",
-    "context": "src/pages/roadmap.js:87:90"
+    "context": "src/pages/roadmap.js:99:102"
   },
   "9f2f94996c5fa9bcc7c945c8200997d3": {
     "string": "Schnorr Signatures",
     "developer_comment": "Roadmap scaling item: Schnorr Signatures",
-    "context": "src/pages/roadmap.js:94:97"
+    "context": "src/pages/roadmap.js:106:109"
   },
   "eae6be17343c05ce1b36367adc3a5af1": {
     "string": "(batched signature validation)",
     "developer_comment": "Roadmap scaling description: Schnorr Signatures",
-    "context": "src/pages/roadmap.js:98:101"
+    "context": "src/pages/roadmap.js:110:113"
   },
   "5a8ab17357d9b2a86e57f42ef66ccae5": {
     "string": "Adaptive Block Size",
     "developer_comment": "Roadmap scaling item: Adaptive Block Size",
-    "context": "src/pages/roadmap.js:105:108"
+    "context": "src/pages/roadmap.js:117:120"
   },
   "cc0aa9ea6d5a1484bbb753196ac79503": {
     "string": "(market driven growth to 1TB blocks)",
     "developer_comment": "Roadmap scaling description: Adaptive Block Size",
-    "context": "src/pages/roadmap.js:109:112"
+    "context": "src/pages/roadmap.js:121:124"
   },
   "375a4d3f546905e096f415172142b301": {
     "string": "Mankind Scale",
     "developer_comment": "Roadmap scaling conclusion item",
-    "context": "src/pages/roadmap.js:116:116"
+    "context": "src/pages/roadmap.js:128:128"
   },
   "32ab79127cc82627d4736f926503d70a": {
     "string": "50 transactions / day for 10 billion humans",
     "developer_comment": "Roadmap scaling conclusion description",
-    "context": "src/pages/roadmap.js:117:120"
+    "context": "src/pages/roadmap.js:129:132"
   },
   "cefac769976f276c1490c7f5899773eb": {
     "string": "(easier & safer to user)",
     "developer_comment": "Roadmap usability description: CashAddr",
-    "context": "src/pages/roadmap.js:128:131"
+    "context": "src/pages/roadmap.js:140:143"
   },
   "c2405a77eeb1af62efdb24cf4cb91d88": {
     "string": "(hardware wallet security)",
     "developer_comment": "Roadmap usability description: Sighash",
-    "context": "src/pages/roadmap.js:136:139"
+    "context": "src/pages/roadmap.js:148:151"
   },
   "c681801595f881e98c5ca32dd88c979b": {
     "string": "Fee Improvements",
     "developer_comment": "Roadmap usability item: Fee Improvements",
-    "context": "src/pages/roadmap.js:143:146"
+    "context": "src/pages/roadmap.js:155:158"
   },
   "96ef736993f49b36292d0c721df0c853": {
     "string": "(cheaper transactions)",
     "developer_comment": "Roadmap usability description: Fee Improvements",
-    "context": "src/pages/roadmap.js:147:150"
+    "context": "src/pages/roadmap.js:159:162"
   },
   "aca4dc88192cbdd2a892c2338bfc7486": {
     "string": "Pre-consensus",
     "developer_comment": "Roadmap usability item: Pre-consensus",
-    "context": "src/pages/roadmap.js:154:154"
+    "context": "src/pages/roadmap.js:166:166"
   },
   "d25159772bc79174dd0214b6f1c63372": {
     "string": "(near instant security for merchants)",
     "developer_comment": "Roadmap usability description: Pre-consensus",
-    "context": "src/pages/roadmap.js:155:158"
+    "context": "src/pages/roadmap.js:167:170"
   },
   "79ed2bb0c565f6faf9de9692e4c203b8": {
     "string": "Fractional Satoshis",
     "developer_comment": "Roadmap usability item: Fractional Satoshis",
-    "context": "src/pages/roadmap.js:162:165"
+    "context": "src/pages/roadmap.js:174:177"
   },
   "ca5b1b6881c58cfd52dff4639289f34b": {
     "string": "(fees low forever)",
     "developer_comment": "Roadmap usability description: Fractional Satoshis",
-    "context": "src/pages/roadmap.js:166:169"
+    "context": "src/pages/roadmap.js:178:181"
   },
   "c24baa1861abf22a2912d20c0663c1dd": {
     "string": "Best Money",
     "developer_comment": "Roadmap usability conclusion item",
-    "context": "src/pages/roadmap.js:173:173"
+    "context": "src/pages/roadmap.js:185:185"
   },
   "cd210324da87d96a9e423660ca217086": {
     "string": "secure within 3 seconds - transaction fees forever low",
     "developer_comment": "Roadmap usability conclusion description",
-    "context": "src/pages/roadmap.js:174:177"
+    "context": "src/pages/roadmap.js:186:189"
   },
   "6c3f3599a0148d9d16b9bd7effa395c3": {
     "string": "Basic Opcodes",
     "developer_comment": "Roadmap extensibility item: Basic Opcodes",
-    "context": "src/pages/roadmap.js:184:184"
+    "context": "src/pages/roadmap.js:196:196"
   },
   "23165aa168bfd7ac050c04372baa1c57": {
     "string": "223 bytes OP_RETURN",
     "developer_comment": "Roadmap extensibility item: OP_RETURN",
-    "context": "src/pages/roadmap.js:189:192"
+    "context": "src/pages/roadmap.js:201:204"
   },
   "7b9d072d52c96d51448b5b5e905eabc4": {
     "string": "(social networks on chain)",
     "developer_comment": "Roadmap extensibility description: OP_RETURN",
-    "context": "src/pages/roadmap.js:193:196"
+    "context": "src/pages/roadmap.js:205:208"
   },
   "a5ef59a8e963e23249c53d12d54bbef6": {
     "string": "(oracles and advanced scripts)",
     "developer_comment": "Roadmap extensibility description: OP_CHECKDATASIG",
-    "context": "src/pages/roadmap.js:201:204"
+    "context": "src/pages/roadmap.js:213:216"
   },
   "0e9a114bd595f515028b2a4ec7b350a5": {
     "string": "More Basic Opcodes",
     "developer_comment": "Roadmap extensibility item: More Basic Opcodes",
-    "context": "src/pages/roadmap.js:208:211"
+    "context": "src/pages/roadmap.js:220:223"
   },
   "845d958e800ceda2abedfbf6006e964b": {
     "string": "New Transaction Format",
     "developer_comment": "Roadmap extensibility item: New Transaction Format",
-    "context": "src/pages/roadmap.js:216:219"
+    "context": "src/pages/roadmap.js:228:231"
   },
   "3644ef85d8fdd32158007da43173480d": {
     "string": "(more capable, more compact)",
     "developer_comment": "Roadmap extensibility description: New Transaction Format",
-    "context": "src/pages/roadmap.js:220:223"
+    "context": "src/pages/roadmap.js:232:235"
   },
   "a7a952fcc2bbfc00828dffc793130c11": {
     "string": "Token Economy",
     "developer_comment": "Roadmap usability conclusion item",
-    "context": "src/pages/roadmap.js:227:227"
+    "context": "src/pages/roadmap.js:239:239"
   },
   "218c4e7212c5447ad5cc3e10dca733f4": {
     "string": "all classes of assets traded on the blockchain",
     "developer_comment": "Roadmap usability conclusion description",
-    "context": "src/pages/roadmap.js:228:231"
+    "context": "src/pages/roadmap.js:240:243"
   },
   "023ec8be209391d9d6e25c15ffd90b03": {
     "string": "Complete",
     "developer_comment": "Complete icon on the roadmap legend",
-    "context": "src/pages/roadmap.js:243:243"
+    "context": "src/pages/roadmap.js:256:256"
   },
   "4e911c96b6738781fcfb52d827e2a82c": {
     "string": "Underway",
     "developer_comment": "Underway icon on the roadmap legend",
-    "context": "src/pages/roadmap.js:249:249"
+    "context": "src/pages/roadmap.js:264:264"
   },
   "c322ae2380b4baec92a70aa1ebbe22e7": {
     "string": "Planned",
     "developer_comment": "Planed icon on the roadmap legend",
-    "context": "src/pages/roadmap.js:255:255"
+    "context": "src/pages/roadmap.js:272:272"
   },
   "f8587b3a18c163825d78472b397c218d": {
     "string": "Roadmap",
     "developer_comment": "Top roadmap item",
-    "context": "src/pages/roadmap.js:266:266"
+    "context": "src/pages/roadmap.js:281:281"
   },
   "833f50b83778189d804f395a6d5e8b95": {
     "string": "Scaling",
     "developer_comment": "Roadmap scaling section title",
-    "context": "src/pages/roadmap.js:273:273"
+    "context": "src/pages/roadmap.js:291:291"
   },
   "668e0a0074ecef56d93bffc3eaf7334f": {
     "string": "Usability",
     "developer_comment": "Roadmap usability section title",
-    "context": "src/pages/roadmap.js:278:278"
+    "context": "src/pages/roadmap.js:296:296"
   },
   "c33868c5aba6a5a196423b57167950a1": {
     "string": "Extensibility",
     "developer_comment": "Roadmap extensibility section title",
-    "context": "src/pages/roadmap.js:283:283"
+    "context": "src/pages/roadmap.js:301:301"
   },
   "437d1a5b9bb5b5b0daef16d25f95d784": {
     "string": "Bitcoin Cash Protocol Complete",
     "developer_comment": "Bottom roadmap item",
-    "context": "src/pages/roadmap.js:292:292"
+    "context": "src/pages/roadmap.js:314:314"
   },
   "db0474a08f0ea607a9dce3710b680bae": {
     "string": "The Bitcoin Cash Roadmap",
     "developer_comment": "Title of the roadmap page",
-    "context": "src/pages/roadmap.js:305:305"
+    "context": "src/pages/roadmap.js:329:329"
   },
   "b1841b456ae95d47de5ecdb526454689": {
     "string": "The goal for Bitcoin Cash is to become sound money that is usable by everyone in the world. This is a civilization-changing technology which will dramatically increase human freedom and prosperity.",
     "developer_comment": "Goal of the roadmap",
-    "context": "src/pages/roadmap.js:308:312"
+    "context": "src/pages/roadmap.js:332:337"
   },
   "dab8f9be958f8dd4ef7a76f7d090bcaa": {
     "string": "This roadmap is intended to provide high-level technical direction, and enable different technical teams to work together towards a common goal for advancing Bitcoin Cash. The role of developers in furth ering this goal is to produce high-quality professional software that serves the needs of its users, miners and merchants. We strive for continuous technical improvement, to produce reliable products providing a solid foundation for Bitcoin Cash.",
     "developer_comment": "Explaination of the roadmap",
-    "context": "src/pages/roadmap.js:315:323"
+    "context": "src/pages/roadmap.js:340:349"
   },
   "edc3324962ef645e29c41016fd5d6233": {
     "string": "The basic design of Bitcoin Cash is sound. However, this does not mean it is perfect. It is prudent to make incremental improvements to the system with technically sound design and careful engineering. By implementing optimizations and protocol upgrades, peer-to-peer digital cash will scale many orders of magnitude beyond current limits.",
     "developer_comment": "Design of the roadmap",
-    "context": "src/pages/roadmap.js:326:332"
+    "context": "src/pages/roadmap.js:352:359"
   },
   "bc1c733635a1765e925baad759278729": {
     "string": "The needed technical improvements can be divided into three categories:",
     "developer_comment": "Technical need for the roadmap",
-    "context": "src/pages/roadmap.js:342:345"
+    "context": "src/pages/roadmap.js:367:370"
   },
   "330fc806c5c3793a47a237ab77f659c4": {
     "string": "Enable Bitcoin Cash to scale from ~100 Tx/s to over 5,000,000 Tx/s. Protocol improvements must be made so that mass-parallelization can enable this level of transaction processing.",
     "developer_comment": "Roadmap 1st technical",
-    "context": "src/pages/roadmap.js:349:354"
+    "context": "src/pages/roadmap.js:374:379"
   },
   "b49cd263cfb4e543f3db1e2ff5c764b9": {
     "string": "Improving the payment experience to ensure that it is instant and reliable. Transactions should be secure within three seconds.",
     "developer_comment": "Roadmap 2nd technical",
-    "context": "src/pages/roadmap.js:357:361"
+    "context": "src/pages/roadmap.js:382:386"
   },
   "580458ef8a82dc6d1ad48aaf4cec2b90": {
     "string": "Make Bitcoin Cash extensible. An extensible protocol makes future improvements less disruptive, and provides a solid base for businesses and developers to build on.",
     "developer_comment": "Roadmap 3rd technical",
-    "context": "src/pages/roadmap.js:364:368"
+    "context": "src/pages/roadmap.js:389:393"
   },
   "ede0f6a38233fccc685c47f6c138e5a3": {
     "string": "The Bitcoin Cash network has protocol upgrades twice a year, on November 15th and May 15th. These upgrades are required for all node operators. They are sometimes referred to as \"hard fork upgrades\", but the term \"scheduled protocol upgrades\" is preferred.",
     "developer_comment": "Roadmap's protocol upgrade explaination",
-    "context": "src/pages/roadmap.js:373:379"
+    "context": "src/pages/roadmap.js:398:404"
   },
   "d55f7f676c1f2e9a8dfbe41fbbb2253d": {
     "string": "Rather than a specific block height, the upgrades are based on a timestamp. When the median timestamp of the most recent 11 blocks (MTP-11) is greater than or equal to UNIX timestamp of November 15th (or May 15th) 12:00:00 UTC, the new protocol rules take effect. This better enables your business to prepare for the upgrade at a particular estimated time, plus or minus a few hours.",
     "developer_comment": "Roadmap's upgrade activation explaination",
-    "context": "src/pages/roadmap.js:382:390"
+    "context": "src/pages/roadmap.js:407:414"
   },
   "1ec31f9ea0456c8381e204f776ef28bc": {
     "string": "Although this semi-annual upgrade schedule is not expected to continue forever, it is in place for the forseeable near-term future. Regular protocol upgrades provide a predictable cadence for the ecosystem, and are necessary to achieve the vision set forth in the roadmap.",
     "developer_comment": "Roadmap upgrade future expectation",
-    "context": "src/pages/roadmap.js:393:399"
+    "context": "src/pages/roadmap.js:417:423"
   },
   "6e59af9a2000ad59bc5cb5b47a17c2c7": {
     "string": "To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.",
     "developer_comment": "Roadmap conclusion",
-    "context": "src/pages/roadmap.js:402:407"
+    "context": "src/pages/roadmap.js:426:431"
   }
 }
