@@ -26,7 +26,7 @@ const StartHerePage = () => {
         <Row>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="getting-started.html">
+              <Link to="/getting-started.html">
                 <img
                   className={S.cardImg}
                   src={GetStarted}
@@ -36,7 +36,7 @@ const StartHerePage = () => {
               <div className={S.cardContent}>
                 <p className={S.cardSubtitle}>
                   <fbt desc="Getting Started Card 'What is' subtitle">
-                    What is peer to peer electronic cash?{" "}
+                    What is peer to peer electronic cash?
                   </fbt>
                 </p>
 
@@ -63,7 +63,7 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button")}
+                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
                   href={"/getting-started.html"}
                 />
               </div>
@@ -71,7 +71,7 @@ const StartHerePage = () => {
           </Col>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="wallets.html">
+              <Link to="/wallets.html">
                 <img
                   className={S.cardImg}
                   src={Store}
@@ -86,7 +86,6 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  {" "}
                   <fbt desc="Getting Started Card 'Wallets' title">
                     2. Download a wallet
                   </fbt>
@@ -107,7 +106,7 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button")}
+                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
                   href={"/wallets.html"}
                 />
               </div>
@@ -117,7 +116,7 @@ const StartHerePage = () => {
         <Row>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="buy-bitcoin-cash.html">
+              <Link to="/buy-bitcoin-cash.html">
                 <img className={S.cardImg} src={Buy} alt="Buy Bitcoin Cash" />
               </Link>
               <div className={S.cardContent}>
@@ -134,7 +133,6 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardParagraph}>
-                  {" "}
                   <fbt desc="Getting Started Card 'Buy' content">
                     The two easiest ways to get Bitcoin Cash is to buy or work
                     for it. Buying Bitcoin Cash is the most used and convenient
@@ -149,7 +147,7 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button")}
+                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
                   href={"/buy-bitcoin-cash.html"}
                 />
               </div>
@@ -157,7 +155,7 @@ const StartHerePage = () => {
           </Col>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="spend-bitcoin-cash.html">
+              <Link to="/spend-bitcoin-cash.html">
                 <img
                   className={S.cardImg}
                   src={Spend}
@@ -172,7 +170,6 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  {" "}
                   <fbt desc="Getting Started Card 'Spend' title">
                     4. Spend Bitcoin Cash
                   </fbt>
@@ -193,7 +190,7 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button")}
+                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
                   href={"/spend-bitcoin-cash.html"}
                 />
               </div>
@@ -203,7 +200,7 @@ const StartHerePage = () => {
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <div className={S.card}>
-              <Link to="accept-bitcoin-cash.html">
+              <Link to="/accept-bitcoin-cash.html">
                 <img
                   className={S.cardImg}
                   src={Accept}
@@ -242,7 +239,7 @@ const StartHerePage = () => {
               <div className={S.cardButtonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
-                  buttonText={fbt("View More", "'View More' button")}
+                  buttonText={fbt("View More", "'View More' button on start here page to see more content")}
                   href={"/accept-bitcoin-cash.html"}
                 />
               </div>
