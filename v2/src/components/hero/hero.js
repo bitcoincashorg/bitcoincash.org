@@ -57,7 +57,7 @@ const Hero = () => {
               "Get started",
               "Primary button of the hero section"
             )}
-            href={"/start-here.html"}
+            href={"/start-here"}
           />
           <SecondaryButton
             noMarginLeft={true}
@@ -65,7 +65,7 @@ const Hero = () => {
               "See roadmap",
               "Secondary button of the hero section"
             )}
-            href={"/roadmap/"}
+            href={"/roadmap"}
           />
         </div>
       </div>

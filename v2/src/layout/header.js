@@ -74,6 +74,10 @@ const Header = () => {
       href: "/bitcoin.pdf",
       localize: false,
     },
+    {
+      text: fbt("Roadmap", "Community menu 'roadmap' link"),
+      href: "/roadmap",
+    },
   ]
 
   const navBarItems = [
@@ -83,7 +87,7 @@ const Header = () => {
     },
     {
       text: fbt("Start Here", "Top 'Start here' link"),
-      href: "/start-here.html",
+      href: "/start-here",
     },
     {
       text: fbt("Wallets", "Top 'wallets' link"),
