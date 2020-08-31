@@ -16,7 +16,7 @@ if (typeof window !== "undefined") {
   var prevScrollpos = window.pageYOffset
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset
-    if (currentScrollPos <= 200) {
+    if (currentScrollPos <= 1000) {
       return
     }
     if (prevScrollpos > currentScrollPos) {
