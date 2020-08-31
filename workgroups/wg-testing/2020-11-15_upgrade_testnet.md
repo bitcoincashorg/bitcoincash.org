@@ -4,17 +4,30 @@
 The Nov 15, 2020 Bitcoin Cash will undergo a planned network upgrade.
 The purpose of this upgrade testnet will be for testing of the upgrade activation and features.
 
-The upgrade testnet is not yet operational, please check back again later, 
-or check the [Telegram Group](https://t.me/joinchat/DUeWWkYZbVMjvwMTRFlRhw) for news and updates.
+## Scheduled Activation Testnet
 
-## Other services
+In order for businesses and services to test activation of the new rules, a Scheduled Activation
+Testnet is available which forks off from the regular testnet on a daily basis. It performs a test
+activation every day when a block of median time past (MTP) 12:00 UTC is mined.
 
-Miners: to `stratum+tcp://electrum.bitcoincash.org:19340`
-user: (testnet address) password: (anything)
+To join the next day's activation, go to [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org), copy **tomorrow's**
+activation timestamp, set your node's <em>axionactivationtime</em> to that and restart it.
 
-ElectrumX server: `electrum.bitcoincash.org:60002` will follow the bitcoind.
+Miners: to `stratum+tcp://electrum.bitcoincash.org:19340` user: (address) password: (anything)
 
-Explorer: [texplorer.bitcoincash.org](https://texplorer.bitcoincash.org)
+ElectrumX Server: `electrum.bitcoincash.org:60004`
+
+Block Explorer: [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org)
+
+## Regular Testnet
+
+The testnet that follows the same consensus rules as the main Bitcoin Cash network.
+
+Miners: to `stratum+tcp://electrum.bitcoincash.org:19338` user: (address) password: (anything)
+
+ElectrumX server: `electrum.bitcoincash.org:60002`
+
+Block Explorer: [texplorer.bitcoincash.org](https://texplorer.bitcoincash.org)
 
 ## Communication
 
