@@ -19,14 +19,15 @@ ElectrumX Server: `electrum.bitcoincash.org:60004`
 
 Block Explorer: [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org)
 
-## Other services
+## Regular Testnet
 
-Miners: to `stratum+tcp://electrum.bitcoincash.org:19338`
-user: (testnet address) password: (anything)
+The testnet that follows the same consensus rules as the main Bitcoin Cash network.
 
-ElectrumX server: `electrum.bitcoincash.org:60002` will follow the bitcoind.
+Miners: to `stratum+tcp://electrum.bitcoincash.org:19338` user: (address) password: (anything)
 
-Explorer: [texplorer.bitcoincash.org](https://texplorer.bitcoincash.org)
+ElectrumX server: `electrum.bitcoincash.org:60002`
+
+Block Explorer: [texplorer.bitcoincash.org](https://texplorer.bitcoincash.org)
 
 ## Communication
 
