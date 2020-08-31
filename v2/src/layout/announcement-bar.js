@@ -4,15 +4,14 @@ import S from "./announcement-bar.module.scss"
 import PrimaryButton from "components/buttons/primary-button"
 import Link from "global/link"
 import { Accordion } from "react-bootstrap"
+import Checkmark from "assets/icons/checkmark.svg"
 
-const AccordionComponent = () => {
+const AnnouncementBar = () => {
   return (
     <Accordion className={S.accordionSection}>
       <Accordion.Toggle as={S.accordionSection} eventKey="0">
         <div className={S.accordionTitle}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path d="M186.301 339.893L96 249.461l-32 30.507L186.301 402 448 140.506 416 110z"></path>
-          </svg>
+          <Checkmark />
           <fbt desc="Annoucement bar reminder headline">
             Reminder: November 15th, 2020 Planned Network Upgrade
           </fbt>
@@ -43,12 +42,12 @@ const AccordionComponent = () => {
                     "See Roadmap",
                     "'See Roadmap' button of the annoucement bar"
                   )}
-                  href={"/roadmap"}
+                  href={"/roadmap/"}
                 />
               </Accordion.Toggle>
               <Accordion.Toggle as={S.panelButton}>
                 <button className={S.panelButton}>
-                  <fbt desc="close button">Close</fbt>
+                  <fbt desc="'close' button on announcement bar at top of page to close the bar">Close</fbt>
                 </button>
               </Accordion.Toggle>
             </div>
@@ -93,4 +92,4 @@ const AccordionComponent = () => {
   )
 }
 
-export default AccordionComponent
+export default AnnouncementBar
