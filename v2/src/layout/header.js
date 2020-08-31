@@ -76,7 +76,7 @@ const Header = () => {
     },
     {
       text: fbt("Roadmap", "Community menu 'roadmap' link"),
-      href: "/roadmap",
+      href: "/roadmap/",
     },
   ]
 
@@ -87,7 +87,7 @@ const Header = () => {
     },
     {
       text: fbt("Start Here", "Top 'Start here' link"),
-      href: "/start-here",
+      href: "/start-here/",
     },
     {
       text: fbt("Wallets", "Top 'wallets' link"),
