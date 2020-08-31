@@ -97,9 +97,17 @@ const GettingStartedPage = () => {
           />
           <LargeTile
             content={largeTileContent}
-            video={true}
             buttontext={fbt("Learn more", "learn more button")}
-          />
+            href={"/faq.html"}
+          >
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/OE3QTbgh-p8?rel=0"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="What is Bitcoin Cash"
+            ></iframe>
+          </LargeTile>
         </Row>
       </Container>
     </>
