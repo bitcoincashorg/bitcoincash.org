@@ -46,31 +46,31 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
 const Header = () => {
   const communityDropdownLinks = [
     {
-      text: fbt("Services", "Communty menu 'services' link"),
+      text: fbt("Services", "Community menu 'services' link"),
       href: "/services.html",
     },
     {
-      text: fbt("Projects", "Communty menu 'projects' link"),
+      text: fbt("Projects", "Community menu 'projects' link"),
       href: "/projects.html",
     },
     {
-      text: fbt("Exchanges", "Communty menu 'exchanges' link"),
+      text: fbt("Exchanges", "Community menu 'exchanges' link"),
       href: "/exchanges.html",
     },
     {
-      text: fbt("Nodes", "Communty menu 'nodes' link"),
+      text: fbt("Nodes", "Community menu 'nodes' link"),
       href: "/nodes.html",
     },
     {
-      text: fbt("Logos", "Communty menu 'logos' link"),
-      href: "/graphics.html",
-    },
-    {
-      text: fbt("Developer Portal", "Communty menu 'developper portal' link"),
+      text: fbt("Developer Portal", "Community menu 'developper portal' link"),
       href: "/developers.html",
     },
     {
-      text: fbt("Whitepaper", "Communty menu 'whitepaper' link"),
+      text: fbt("Logos", "Community menu 'logos' link"),
+      href: "/graphics.html",
+    },
+    {
+      text: fbt("Whitepaper", "Community menu 'whitepaper' link"),
       href: "/bitcoin.pdf",
       localize: false,
     },
@@ -78,7 +78,11 @@ const Header = () => {
 
   const navBarItems = [
     {
-      text: fbt("Get started", "Top 'get started' link"),
+      text: fbt("Home", "Top 'home' link"),
+      href: "/",
+    },
+    {
+      text: fbt("Start Here", "Top 'Start here' link"),
       href: "/start-here.html",
     },
     {

@@ -225,66 +225,73 @@
         }
       ]
     },
-    "db0346f3743397bf7921c7738231a228": {
+    "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "{current year}, All Rights Reserved"
+          "translation": "© {current year}, All Rights Reserved"
         }
       ]
     },
-    "3b00a84e9b38df9824ab753e721807b6": {
+    "3c23e7392e65bfad89a895ad789ade46": {
       "translations": [
         {
           "translation": "服务"
         }
       ]
     },
-    "6882f0ffb5df9595d1dbc175701289e9": {
+    "d2701e551c3b1087e38cf994996ccead": {
       "translations": [
         {
           "translation": "项目"
         }
       ]
     },
-    "ae62d55d07578ce94ad52c099cd48b9e": {
+    "58f3f371a60f2403eaaee09bbcb2c45d": {
       "translations": [
         {
           "translation": "交易所"
         }
       ]
     },
-    "3cdee003d2b686c00ea1853d5bd32023": {
+    "7d337ea26e78f2a65804aba296a7cee4": {
       "translations": [
         {
           "translation": "节点"
         }
       ]
     },
-    "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
-      "translations": [
-        {
-          "translation": "标识"
-        }
-      ]
-    },
-    "55b0de754d987246a9b7d7482d7410f7": {
+    "ba4d0b9ed25b52c797f59d2016874f3b": {
       "translations": [
         {
           "translation": "开发人员门户"
         }
       ]
     },
-    "99fcf7d982fd20949b1656a13cd00125": {
+    "84642b7d94ceb4a405027dbb91dca1ba": {
+      "translations": [
+        {
+          "translation": "标识"
+        }
+      ]
+    },
+    "702b2d4ddf76ff77afac3095e972f5ea": {
       "translations": [
         {
           "translation": "Whitepaper"
         }
       ]
     },
-    "74427e34a61a4e369a9d3056792a9765": {
+    "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "首页"
+        }
+      ]
+    },
+    "ca0099c6a546b549832b8813418d99cf": {
+      "translations": [
+        {
+          "translation": "点击这里开始"
         }
       ]
     },
@@ -719,6 +726,125 @@
       "translations": [
         {
           "translation": "要成为应用程序开发和创新的坚实基础，比特币现金必须不断改进和竞争。通过合作，我们可以建立一个技术基础平台，使比特币现金成为世界上有史以来最好的货币。"
+        }
+      ]
+    },
+    "24f1ac1047df047c2b018b64f48e4f8f": {
+      "translations": [
+        {
+          "translation": "开始"
+        }
+      ]
+    },
+    "a2cd44265bdf4d6283b2c218339f7f3d": {
+      "translations": [
+        {
+          "translation": "何为点对点数字现金？"
+        }
+      ]
+    },
+    "d8f620476ca093a80da86c579a69b6c8": {
+      "translations": [
+        {
+          "translation": "1. Getting Started"
+        }
+      ]
+    },
+    "db4a06c9ac83047222695fdeab7a53f5": {
+      "translations": [
+        {
+          "translation": "简单地说，点对点（P2P）电子现金是无需受信的第三方，由一个人发送给另一个人的网上资金。正如中本聪在初版比特币白皮书中描述的，P2P现金采用数字签名作为部分解决方案。但如果依然需要由受信第三方来防止欺诈，比特币现金的主要优势也就荡然无存了。这使得P2P现金成为一种无需受信又安全的交易方式，也无需中介。"
+        }
+      ]
+    },
+    "b3ca007f1440b18c2a9414c45aa30930": {
+      "translations": [
+        {
+          "translation": "阅读更多内容"
+        }
+      ]
+    },
+    "370fcbf712cd27345ee3cb129882bb72": {
+      "translations": [
+        {
+          "translation": "比特币现金存放在哪里？"
+        }
+      ]
+    },
+    "845b05a96ec8b6c25363b06bcf45fda8": {
+      "translations": [
+        {
+          "translation": "2. Download a wallet"
+        }
+      ]
+    },
+    "39686bb0751adc2ea460e16907764f21": {
+      "translations": [
+        {
+          "translation": "比特币现金消费超简单，很容易上手。第一步是下载钱包，成为比特币经济圈的一员。大多数钱包都是免费下载的，也易于使用，主要功能有付款、收款、安全存放资金、交易查询等等。"
+        }
+      ]
+    },
+    "a52662521b616cc5e743a013fab56c13": {
+      "translations": [
+        {
+          "translation": "如何挣比特币现金？"
+        }
+      ]
+    },
+    "1ed9e1ac18f92875704872c620123199": {
+      "translations": [
+        {
+          "translation": "3. Buy or Earn Bitcoin Cash"
+        }
+      ]
+    },
+    "b3fb242ac070953d5104c4f2363bb244": {
+      "translations": [
+        {
+          "translation": "获得比特币现金的两种最简单的方法是购买或赚取。 购买是最常用、最便捷的方式，你只需要在比特币交易所注册并存入资金，即可转换为比特币现金。交易完成后，交易所将给你发送比特币现金。"
+        }
+      ]
+    },
+    "2ad3d93815fbfa52ab4a6a7824e72e46": {
+      "translations": [
+        {
+          "translation": "能用比特币现金买什么？"
+        }
+      ]
+    },
+    "75c015aeff2c97fb2e49287637e054ea": {
+      "translations": [
+        {
+          "translation": "4. Spend Bitcoin Cash"
+        }
+      ]
+    },
+    "e3976450a07e4c3c1be22c6b4047ac80": {
+      "translations": [
+        {
+          "translation": "比特币现金不只是一种投机货币。它的初衷是一种点对点电子货币，也就是说是要花出去的。使用比特币现金方便快捷，几乎是即时的，交易费都不到一分钱，成为全球最安全和广泛应用的电子货币。"
+        }
+      ]
+    },
+    "43e340303ba59891b094e701ae8a5219": {
+      "translations": [
+        {
+          "translation": "如何将比特币现金应用于我的业务？"
+        }
+      ]
+    },
+    "c0773f2b3d250c425648a076dd98f11d": {
+      "translations": [
+        {
+          "translation": "5. Accept Bitcoin Cash"
+        }
+      ]
+    },
+    "aab54798d448c24c51e5bb9f65c12fac": {
+      "translations": [
+        {
+          "translation": "作为商户，您的主要目标之一是尽可能快速无缝地接受付款和处理付款，让顾客开心，也让自己轻松收款。比特币现金能够帮助您实现目标，因为它可以实现快速低成本的交易。随着全球的数字化转型，诸如比特币之类的电子货币成为线上线下零售付款方式。直接轻松接受比特币现金付款，或通过第三方供应商平台接受比特币现金付款，并将部分或全部销售额转换为本地法定货币。"
         }
       ]
     }

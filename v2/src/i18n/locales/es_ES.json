@@ -18,7 +18,7 @@
     "a93ad13582036c6c06c4ddffba43018b": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "Comenzar"
         }
       ]
     },
@@ -225,66 +225,73 @@
         }
       ]
     },
-    "db0346f3743397bf7921c7738231a228": {
+    "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "{current year}, All Rights Reserved"
+          "translation": "© {current year}, All Rights Reserved"
         }
       ]
     },
-    "3b00a84e9b38df9824ab753e721807b6": {
+    "3c23e7392e65bfad89a895ad789ade46": {
       "translations": [
         {
           "translation": "Servicios"
         }
       ]
     },
-    "6882f0ffb5df9595d1dbc175701289e9": {
+    "d2701e551c3b1087e38cf994996ccead": {
       "translations": [
         {
           "translation": "Proyectos"
         }
       ]
     },
-    "ae62d55d07578ce94ad52c099cd48b9e": {
+    "58f3f371a60f2403eaaee09bbcb2c45d": {
       "translations": [
         {
           "translation": "Plataformas de Cambio"
         }
       ]
     },
-    "3cdee003d2b686c00ea1853d5bd32023": {
+    "7d337ea26e78f2a65804aba296a7cee4": {
       "translations": [
         {
           "translation": "Nodos"
         }
       ]
     },
-    "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
-      "translations": [
-        {
-          "translation": "Logos"
-        }
-      ]
-    },
-    "55b0de754d987246a9b7d7482d7410f7": {
+    "ba4d0b9ed25b52c797f59d2016874f3b": {
       "translations": [
         {
           "translation": "Portal Desarrollador"
         }
       ]
     },
-    "99fcf7d982fd20949b1656a13cd00125": {
+    "84642b7d94ceb4a405027dbb91dca1ba": {
+      "translations": [
+        {
+          "translation": "Logos"
+        }
+      ]
+    },
+    "702b2d4ddf76ff77afac3095e972f5ea": {
       "translations": [
         {
           "translation": "Whitepaper"
         }
       ]
     },
-    "74427e34a61a4e369a9d3056792a9765": {
+    "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "Inicio"
+        }
+      ]
+    },
+    "ca0099c6a546b549832b8813418d99cf": {
+      "translations": [
+        {
+          "translation": "Comenzar Aquí"
         }
       ]
     },
@@ -333,7 +340,7 @@
     "677ea18ec8c7f2e5a0e4698cb6b7a17f": {
       "translations": [
         {
-          "translation": "Where to spend Bitcoin Cash"
+          "translation": "Dónde puedo usar Bitcoin Cash"
         }
       ]
     },
@@ -719,6 +726,125 @@
       "translations": [
         {
           "translation": "Para convertirse en una sólida base para el desarrollo de aplicaciones e innovación, Bitcoin Cash debe mejorar y competir continuamente. Trabajando juntos, podemos construir la base fundacional técnica para hacer de Bitcoin Cash la mejor moneda que el mundo haya visto jamás."
+        }
+      ]
+    },
+    "24f1ac1047df047c2b018b64f48e4f8f": {
+      "translations": [
+        {
+          "translation": "Comenzar"
+        }
+      ]
+    },
+    "a2cd44265bdf4d6283b2c218339f7f3d": {
+      "translations": [
+        {
+          "translation": "Qué es el dinero electrónico par a par?"
+        }
+      ]
+    },
+    "d8f620476ca093a80da86c579a69b6c8": {
+      "translations": [
+        {
+          "translation": "1. Getting Started"
+        }
+      ]
+    },
+    "db4a06c9ac83047222695fdeab7a53f5": {
+      "translations": [
+        {
+          "translation": "El dinero electrónico par a par (P2P) se describe simplemente como dinero online enviado de una persona a otra sin la necesidad de terceros de confianza. Como se describe en el artículo original de Bitcoin de Satoshi Nakamoto, el dinero P2P hace uso de firmas digitales como parte de la solución, pero los beneficios principales se pierden si un tercero de confianza es aún requerido para prevenir fraude. Esto hace del dinero P2P una forma que sin basarse en confianza es segura para realizar transacciones sin la necesidad de intermediarios."
+        }
+      ]
+    },
+    "b3ca007f1440b18c2a9414c45aa30930": {
+      "translations": [
+        {
+          "translation": "Ver Más"
+        }
+      ]
+    },
+    "370fcbf712cd27345ee3cb129882bb72": {
+      "translations": [
+        {
+          "translation": "Dónde guardar mis Bitcoin Cash?"
+        }
+      ]
+    },
+    "845b05a96ec8b6c25363b06bcf45fda8": {
+      "translations": [
+        {
+          "translation": "2. Download a wallet"
+        }
+      ]
+    },
+    "39686bb0751adc2ea460e16907764f21": {
+      "translations": [
+        {
+          "translation": "Comenzar con Bitcoin Cash es super fácil. El primer paso es descargar una cartera para poder comenzar a participar en la economía Bitcoin Cash. La mayoría de las carteras son de descarga gratuita y son fáciles de usar por tener unas pocas funcionalidades clave como enviar, recibir, guardar fondos de forma segura, buscar transacciones y más."
+        }
+      ]
+    },
+    "a52662521b616cc5e743a013fab56c13": {
+      "translations": [
+        {
+          "translation": "Cómo conseguir BitcoinCash?"
+        }
+      ]
+    },
+    "1ed9e1ac18f92875704872c620123199": {
+      "translations": [
+        {
+          "translation": "3. Buy or Earn Bitcoin Cash"
+        }
+      ]
+    },
+    "b3fb242ac070953d5104c4f2363bb244": {
+      "translations": [
+        {
+          "translation": "Las dos formas más fáciles de obtener Bitcoin Cash es comprarlo o trabajar por él. Comprar Bitcoin Cash es la forma más utilizada y conveniente, donde todo lo que tienes que hacer es subscribirte a una plataforma de cambio y depositar fondos para poder convertirlo a Bitcoin Cash. La plataforma de cambio enviará Bitcoin Cash después del intercambio haber ocurrido."
+        }
+      ]
+    },
+    "2ad3d93815fbfa52ab4a6a7824e72e46": {
+      "translations": [
+        {
+          "translation": "Qué puedo comprar con Bitcoin Cash?"
+        }
+      ]
+    },
+    "75c015aeff2c97fb2e49287637e054ea": {
+      "translations": [
+        {
+          "translation": "4. Spend Bitcoin Cash"
+        }
+      ]
+    },
+    "e3976450a07e4c3c1be22c6b4047ac80": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash no es solo para especulación. Su uso previsto es de moneda electrónica par a par, lo que significa que debe ser gastado. Gastar Bitcoin Cash es un proceso rápido, con transacciones casi instantáneas y tasas de transacción sub-centavo, lo que lo convierte en la moneda digital más segura y más utilizada del planeta."
+        }
+      ]
+    },
+    "43e340303ba59891b094e701ae8a5219": {
+      "translations": [
+        {
+          "translation": "Cómo mi negocio puede usar Bitcoin Cash?"
+        }
+      ]
+    },
+    "c0773f2b3d250c425648a076dd98f11d": {
+      "translations": [
+        {
+          "translation": "5. Accept Bitcoin Cash"
+        }
+      ]
+    },
+    "aab54798d448c24c51e5bb9f65c12fac": {
+      "translations": [
+        {
+          "translation": "Como comerciante, uno de tus objetivos principales es poder aceptar y procesar pagos de la manera más rápida y perfecta posible para hacer tus clientes felices y recibir pagos sin ningún problema. Bitcoin Cash es la solución, ya que tiene transacciones rápidas y de bajo costo. A medida que el mundo se vuelve digital, las monedas electrónicas como Bitcoin Cash se están convirtiendo en el método a seguir para realizar pagos online y en tiendas minoristas. Fácilmente acepta Bitcoin Cash de forma directa o utilizando proveedores de terceros para aceptar Bitcoin Cash usando sus plataformas y convierte toda o parte de la venta en moneda fiat local."
         }
       ]
     }

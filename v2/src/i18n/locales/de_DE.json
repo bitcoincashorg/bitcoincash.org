@@ -225,66 +225,73 @@
         }
       ]
     },
-    "db0346f3743397bf7921c7738231a228": {
+    "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "{current year}, All Rights Reserved"
+          "translation": "© {current year}, All Rights Reserved"
         }
       ]
     },
-    "3b00a84e9b38df9824ab753e721807b6": {
+    "3c23e7392e65bfad89a895ad789ade46": {
       "translations": [
         {
           "translation": "Dienste"
         }
       ]
     },
-    "6882f0ffb5df9595d1dbc175701289e9": {
+    "d2701e551c3b1087e38cf994996ccead": {
       "translations": [
         {
           "translation": "Projekte"
         }
       ]
     },
-    "ae62d55d07578ce94ad52c099cd48b9e": {
+    "58f3f371a60f2403eaaee09bbcb2c45d": {
       "translations": [
         {
           "translation": "Börsen"
         }
       ]
     },
-    "3cdee003d2b686c00ea1853d5bd32023": {
+    "7d337ea26e78f2a65804aba296a7cee4": {
       "translations": [
         {
           "translation": "Nodes"
         }
       ]
     },
-    "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
-      "translations": [
-        {
-          "translation": "Logos"
-        }
-      ]
-    },
-    "55b0de754d987246a9b7d7482d7410f7": {
+    "ba4d0b9ed25b52c797f59d2016874f3b": {
       "translations": [
         {
           "translation": "Entwicklerportal"
         }
       ]
     },
-    "99fcf7d982fd20949b1656a13cd00125": {
+    "84642b7d94ceb4a405027dbb91dca1ba": {
+      "translations": [
+        {
+          "translation": "Logos"
+        }
+      ]
+    },
+    "702b2d4ddf76ff77afac3095e972f5ea": {
       "translations": [
         {
           "translation": "Whitepaper"
         }
       ]
     },
-    "74427e34a61a4e369a9d3056792a9765": {
+    "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "Startseite"
+        }
+      ]
+    },
+    "ca0099c6a546b549832b8813418d99cf": {
+      "translations": [
+        {
+          "translation": "Beginnen Sie hier"
         }
       ]
     },
@@ -719,6 +726,125 @@
       "translations": [
         {
           "translation": "To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen."
+        }
+      ]
+    },
+    "24f1ac1047df047c2b018b64f48e4f8f": {
+      "translations": [
+        {
+          "translation": "Fangen Sie an"
+        }
+      ]
+    },
+    "a2cd44265bdf4d6283b2c218339f7f3d": {
+      "translations": [
+        {
+          "translation": "Was ist elektronisches Peer-to-Peer-Cash?"
+        }
+      ]
+    },
+    "d8f620476ca093a80da86c579a69b6c8": {
+      "translations": [
+        {
+          "translation": "1. Getting Started"
+        }
+      ]
+    },
+    "db4a06c9ac83047222695fdeab7a53f5": {
+      "translations": [
+        {
+          "translation": "Peer-to-Peer-Geld (P2P) wird einfach ausgedrückt als Online-Geld bezeichnet, das von einer Person an eine andere gesendet wird, ohne dass eine vertrauenswürdige Drittpartei gebraucht wird. Wie in dem ursprünglichen Bitcoin-Whitepaper von Satoshi Nakamoto beschrieben, verwendet P2P-Cash digitale Signaturen als Teil der Lösung. Die Hauptvorteile gehen jedoch verloren, wenn eine vertrauenswürdige Drittpartei noch gebraucht wird, um Betrug zu verhindern. Dies macht P2P-Cash zu einer vertrauenswürdigen und sicheren Möglichkeit, Transaktionen ohne Zwischenhändler durchzuführen."
+        }
+      ]
+    },
+    "b3ca007f1440b18c2a9414c45aa30930": {
+      "translations": [
+        {
+          "translation": "Mehr anzeigen"
+        }
+      ]
+    },
+    "370fcbf712cd27345ee3cb129882bb72": {
+      "translations": [
+        {
+          "translation": "Wo speichere ich mein Bitcoin Cash?"
+        }
+      ]
+    },
+    "845b05a96ec8b6c25363b06bcf45fda8": {
+      "translations": [
+        {
+          "translation": "2. Download a wallet"
+        }
+      ]
+    },
+    "39686bb0751adc2ea460e16907764f21": {
+      "translations": [
+        {
+          "translation": "Der Einstieg in Bitcoin Cash ist denkbar einfach. Der erste Schritt ist das Herunterladen einer Wallet, damit Sie an der Bitcoin-Wirtschaft teilnehmen können. Die meisten Wallets können kostenlos heruntergeladen werden und sind einfach zu bedienen. Sie verfügen über einige wichtige Funktionen wie Senden, Empfangen, Sicheres Speichern von Mitteln, Durchsuchen von Transaktionen und mehr."
+        }
+      ]
+    },
+    "a52662521b616cc5e743a013fab56c13": {
+      "translations": [
+        {
+          "translation": "Wie erhalte ich Bitcoin Cash?"
+        }
+      ]
+    },
+    "1ed9e1ac18f92875704872c620123199": {
+      "translations": [
+        {
+          "translation": "3. Buy or Earn Bitcoin Cash"
+        }
+      ]
+    },
+    "b3fb242ac070953d5104c4f2363bb244": {
+      "translations": [
+        {
+          "translation": "Am einfachsten erhalten Sie Bitcoin Cash, indem Sie es entweder kaufen oder dafür arbeiten. Der Kauf von Bitcoin Cash ist die am häufigsten verwendete und bequemste Methode. Sie müssen sich nur an einer Bitcoin-Börse anmelden und Geld einzahlen, um es in Bitcoin Cash umzutauschen. Die Börse schickt Ihnen Bitcoin Cash, nachdem der Austausch stattgefunden hat."
+        }
+      ]
+    },
+    "2ad3d93815fbfa52ab4a6a7824e72e46": {
+      "translations": [
+        {
+          "translation": "Was kann ich mit Bitcoin Cash kaufen?"
+        }
+      ]
+    },
+    "75c015aeff2c97fb2e49287637e054ea": {
+      "translations": [
+        {
+          "translation": "4. Spend Bitcoin Cash"
+        }
+      ]
+    },
+    "e3976450a07e4c3c1be22c6b4047ac80": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash ist nicht nur zur Spekulation gedacht. Es soll als elektronische Peer-to-Peer-Währung verwendet werden, oder anders ausgedrückt: es sollte ausgegeben werden. Mit Bitcoin Cash lässt sich schnell bezahlen, dank nahezu sofortigen Transaktionen und Transaktionsgebühren von weniger als einem Cent. Damit ist es die sicherste und am meisten verwendete digitale Währung der Welt."
+        }
+      ]
+    },
+    "43e340303ba59891b094e701ae8a5219": {
+      "translations": [
+        {
+          "translation": "Wie kann mein Unternehmen Bitcoin Cash verwenden?"
+        }
+      ]
+    },
+    "c0773f2b3d250c425648a076dd98f11d": {
+      "translations": [
+        {
+          "translation": "5. Accept Bitcoin Cash"
+        }
+      ]
+    },
+    "aab54798d448c24c51e5bb9f65c12fac": {
+      "translations": [
+        {
+          "translation": "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Akzeptieren Sie Bitcoin Cash einfach direkt oder verwenden Sie Drittanbieter, um Bitcoin Cash über ihre Plattformen zu akzeptieren und den Erlös des Verkaufs ganz oder teilweise in lokale Papierwährung umzuwandeln."
         }
       ]
     }

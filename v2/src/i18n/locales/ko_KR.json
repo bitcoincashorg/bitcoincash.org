@@ -225,66 +225,73 @@
         }
       ]
     },
-    "db0346f3743397bf7921c7738231a228": {
+    "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "{current year}, All Rights Reserved"
+          "translation": "© {current year}, All Rights Reserved"
         }
       ]
     },
-    "3b00a84e9b38df9824ab753e721807b6": {
+    "3c23e7392e65bfad89a895ad789ade46": {
       "translations": [
         {
           "translation": "서비스"
         }
       ]
     },
-    "6882f0ffb5df9595d1dbc175701289e9": {
+    "d2701e551c3b1087e38cf994996ccead": {
       "translations": [
         {
           "translation": "프로젝트"
         }
       ]
     },
-    "ae62d55d07578ce94ad52c099cd48b9e": {
+    "58f3f371a60f2403eaaee09bbcb2c45d": {
       "translations": [
         {
           "translation": "거래소"
         }
       ]
     },
-    "3cdee003d2b686c00ea1853d5bd32023": {
+    "7d337ea26e78f2a65804aba296a7cee4": {
       "translations": [
         {
           "translation": "노드"
         }
       ]
     },
-    "8a6aa6d98ca6fdec2d07ad6cfd67b1ce": {
-      "translations": [
-        {
-          "translation": "로고"
-        }
-      ]
-    },
-    "55b0de754d987246a9b7d7482d7410f7": {
+    "ba4d0b9ed25b52c797f59d2016874f3b": {
       "translations": [
         {
           "translation": "개발자 포털"
         }
       ]
     },
-    "99fcf7d982fd20949b1656a13cd00125": {
+    "84642b7d94ceb4a405027dbb91dca1ba": {
+      "translations": [
+        {
+          "translation": "로고"
+        }
+      ]
+    },
+    "702b2d4ddf76ff77afac3095e972f5ea": {
       "translations": [
         {
           "translation": "Whitepaper"
         }
       ]
     },
-    "74427e34a61a4e369a9d3056792a9765": {
+    "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "홈"
+        }
+      ]
+    },
+    "ca0099c6a546b549832b8813418d99cf": {
+      "translations": [
+        {
+          "translation": "여기서 시작하기"
         }
       ]
     },
@@ -719,6 +726,125 @@
       "translations": [
         {
           "translation": "비트코인 캐시는 끊임없이 발전하고 경쟁해야 합니다. 그래야만 발전과 창의성의 굳건한 베이스로 성장할 수 있기 때문입니다. 함께라면 비트코인 캐시가 최고의 화폐로 거듭나기 위해 필요한 기술적 기반을 지을 수 있을 것입니다."
+        }
+      ]
+    },
+    "24f1ac1047df047c2b018b64f48e4f8f": {
+      "translations": [
+        {
+          "translation": "시작하기"
+        }
+      ]
+    },
+    "a2cd44265bdf4d6283b2c218339f7f3d": {
+      "translations": [
+        {
+          "translation": "피어-투-피어 전자 현금이란 무엇인가요?"
+        }
+      ]
+    },
+    "d8f620476ca093a80da86c579a69b6c8": {
+      "translations": [
+        {
+          "translation": "1. Getting Started"
+        }
+      ]
+    },
+    "db4a06c9ac83047222695fdeab7a53f5": {
+      "translations": [
+        {
+          "translation": "P2P(피어-투-피어) 전자 현금이란 간단히 말해 신뢰할 수 있는 제3자 없이 한 사람이 다른 사람에게 보낼 수 있는 온라인 화폐라고 설명할 수 있습니다. Satoshi Nakamoto가 작성한 비트코인 백서 원본에 설명된 바와 같이 P2P 현금은 솔루션의 일부로 디지털 서명을 사용합니다. 하지만 사기 행위를 방지하기 위해 여전히 신뢰할 수 있는 제3자가 필요하다면 이는 P2P 현금의 주된 이점이 사라지는 것과 같습니다. 그렇기 때문에 P2P 현금은 중개 기관 없이도 신뢰가 필요하지 않은 안전한 거래를 가능하게 합니다."
+        }
+      ]
+    },
+    "b3ca007f1440b18c2a9414c45aa30930": {
+      "translations": [
+        {
+          "translation": "더 보기"
+        }
+      ]
+    },
+    "370fcbf712cd27345ee3cb129882bb72": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 어디에 저장해야 하나요?"
+        }
+      ]
+    },
+    "845b05a96ec8b6c25363b06bcf45fda8": {
+      "translations": [
+        {
+          "translation": "2. Download a wallet"
+        }
+      ]
+    },
+    "39686bb0751adc2ea460e16907764f21": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 시작하는 방법은 정말 간단합니다. 첫 번째 단계는 비트코인 경제에 참여하기 시작할 수 있도록 지갑을 다운로드하는 것입니다. 대부분의 지갑은 다운로드가 무료이며, 보내기, 받기, 안전하게 자금 보관하기, 거래 검색 등 몇 가지 주요 기능만 담고 있기 때문에 사용이 간편합니다."
+        }
+      ]
+    },
+    "a52662521b616cc5e743a013fab56c13": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 얻으려면 어떻게 해야 하나요?"
+        }
+      ]
+    },
+    "1ed9e1ac18f92875704872c620123199": {
+      "translations": [
+        {
+          "translation": "3. Buy or Earn Bitcoin Cash"
+        }
+      ]
+    },
+    "b3fb242ac070953d5104c4f2363bb244": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 얻는 가장 쉬운 두 가지 방법은 구매하거나 일을 하는 것입니다. 비트코인 캐시를 구매하는 것은 가장 편리하고 많이 사용되는 방식으로, 비트코인 거래소에 가입하고 자금을 입금하여 이를 비트코인 캐시로 변환할 수 있도록 하기만 하면 됩니다. 거래가 발생하고 나면 거래소에서 BCH를 송금하게 됩니다."
+        }
+      ]
+    },
+    "2ad3d93815fbfa52ab4a6a7824e72e46": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시로 무엇을 구입할 수 있나요?"
+        }
+      ]
+    },
+    "75c015aeff2c97fb2e49287637e054ea": {
+      "translations": [
+        {
+          "translation": "4. Spend Bitcoin Cash"
+        }
+      ]
+    },
+    "e3976450a07e4c3c1be22c6b4047ac80": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시는 투기 수단이 아닙니다. 비트코인 캐시의 원래 용도는 바로 피어-투-피어 전자 화폐입니다. 즉, 보유하는 것이 아니라 사용해야 하는 것입니다. 비트코인 캐시 사용은 빠르고, 거의 즉시 거래가 이루어지며, 거래 수수료가 1센트도 되지 않습니다. 이러한 이유로 비트코인 캐시는 전 세계에서 가장 안전하고 널리 쓰이는 디지털 화폐가 되었습니다."
+        }
+      ]
+    },
+    "43e340303ba59891b094e701ae8a5219": {
+      "translations": [
+        {
+          "translation": "어떻게 비즈니스에서 비트코인 캐시를 사용할 수 있나요?"
+        }
+      ]
+    },
+    "c0773f2b3d250c425648a076dd98f11d": {
+      "translations": [
+        {
+          "translation": "5. Accept Bitcoin Cash"
+        }
+      ]
+    },
+    "aab54798d448c24c51e5bb9f65c12fac": {
+      "translations": [
+        {
+          "translation": "판매자로서 여러분의 주된 목표 중 하나는 바로 결제를 최대한 빠르고 원활하게 처리하여 고객 만족을 이끌어내고 골치 아픈 일 없이 결제된 금액을 받을 수 있도록 하는 것입니다. 그렇다면 적은 비용으로 신속한 거래가 가능한 비트코인 캐시가 해결책이 될 수 있습니다. 전 세계가 디지털화되어 가면서 비트코인과 같은 전자 화폐가 온라인 및 소매점 지불을 위한 새로운 방법으로 떠오르고 있습니다. 손쉽게 직접 비트코인 캐시를 받을 수도 있고, 제3자 공급업체의 플랫폼을 사용하여 비트코인 캐시를 받고 해당 매출의 전체 또는 일부를 현지 법정 화폐로 변환할 수도 있습니다."
         }
       ]
     }
