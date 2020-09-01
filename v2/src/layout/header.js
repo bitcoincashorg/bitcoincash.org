@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import logo from "assets/images/bitcoin-cash-logo-white-small.png"
 import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
+import AnnouncementBar from "./announcement-bar.js"
 import Dropdown, { MobileDropdown } from "components/dropdownButtons/dropdown"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import axios from "axios"
@@ -152,6 +153,7 @@ const Header = () => {
 
   return (
     <>
+      <AnnouncementBar />
       <header
         id={isActive ? "navbar-mobile" : "navbar"}
         style={{
