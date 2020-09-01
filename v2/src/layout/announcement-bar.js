@@ -47,7 +47,9 @@ const AnnouncementBar = () => {
               </Accordion.Toggle>
               <Accordion.Toggle as={S.panelButton}>
                 <button className={S.panelButton}>
-                  <fbt desc="'close' button on announcement bar at top of page to close the bar">Close</fbt>
+                  <fbt desc="'close' button on announcement bar at top of page to close the bar">
+                    Close
+                  </fbt>
                 </button>
               </Accordion.Toggle>
             </div>
