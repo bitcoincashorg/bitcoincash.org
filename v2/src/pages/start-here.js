@@ -41,7 +41,7 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  1.&nbsp;
+                  1.{" "}
                   <fbt desc="Getting Started Card 'What is' title">
                     Getting Started
                   </fbt>
@@ -90,7 +90,7 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  2.&nbsp;
+                  2.{" "}
                   <fbt desc="Getting Started Card 'Wallets' title">
                     Download a wallet
                   </fbt>
@@ -135,7 +135,7 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  3.&nbsp;
+                  3.{" "}
                   <fbt desc="Getting Started Card 'Buy' title">
                     Buy or Earn Bitcoin Cash
                   </fbt>
@@ -182,7 +182,7 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  4.&nbsp;
+                  4.{" "}
                   <fbt desc="Getting Started Card 'Spend' title">
                     Spend Bitcoin Cash
                   </fbt>
@@ -231,7 +231,7 @@ const StartHerePage = () => {
                 </p>
 
                 <p className={S.cardTitle}>
-                  5.&nbsp;
+                  5.{" "}
                   <fbt desc="Getting Started Card 'Accept' title">
                     Accept Bitcoin Cash
                   </fbt>
