@@ -83,6 +83,15 @@ h3 {
   font-size: 40px;
 }
 
+h4 {
+  font-family: "PlatoSans";
+  font-size: 23px;
+}
+
+.container {
+  padding: 100px 0;
+}
+
 @font-face {
   font-family: "PlatoSans";
   src: url("../assets/fonts/PlatoSans-Medium.ttf") format("truetype");
@@ -185,5 +194,8 @@ h3 {
   }
   div {
     font-size: 16px;
+  }
+  .container {
+    padding: 50px 0;
   }
 }
