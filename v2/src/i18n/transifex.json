@@ -284,6 +284,91 @@
     "developer_comment": "Language selector menu",
     "context": "src/layout/header.js:111:111"
   },
+  "bc2a94069c0682096a036ae4bfe47966": {
+    "string": "Fast",
+    "developer_comment": "Getting started page learn column 'Fast' title",
+    "context": "src/pages/getting-started.js:17:17"
+  },
+  "cea1b70397c856ef9033230be855aafb": {
+    "string": "Transact in seconds. Get confirmed in minutes.",
+    "developer_comment": "Getting started page learn column 'Fast' paragraph",
+    "context": "src/pages/getting-started.js:18:21"
+  },
+  "a5ea8bb8ac0333e2b9a8aac4df35cb6d": {
+    "string": "Reliable",
+    "developer_comment": "Getting started page learn column 'Reliable' title",
+    "context": "src/pages/getting-started.js:25:28"
+  },
+  "185e84a8cb98aad8226c397633405b0c": {
+    "string": "A network that runs without congestion.",
+    "developer_comment": "Getting started page learn column 'Reliable' paragraph",
+    "context": "src/pages/getting-started.js:29:32"
+  },
+  "23c6951e6d0cb0f8f7da0d8b6006e58c": {
+    "string": "Low Fees",
+    "developer_comment": "Getting started page learn column 'low fees' title",
+    "context": "src/pages/getting-started.js:36:39"
+  },
+  "ac54594862788301bee5473e9924dec6": {
+    "string": "Send money globally for pennies.",
+    "developer_comment": "Getting started page learn column 'Low fees' paragraph",
+    "context": "src/pages/getting-started.js:40:43"
+  },
+  "f872dffed933d04614d85218b1ea8a15": {
+    "string": "Simple",
+    "developer_comment": "Getting started page learn column 'simple' title",
+    "context": "src/pages/getting-started.js:47:47"
+  },
+  "c211f266d9aa6f58007a3aca110c2812": {
+    "string": "Easy to use. No hassles.",
+    "developer_comment": "Getting started page learn column 'simple' paragraph",
+    "context": "src/pages/getting-started.js:48:51"
+  },
+  "becd88f5f74b21dd6cffae03425e6e49": {
+    "string": "Stable",
+    "developer_comment": "Getting started page learn column 'stable' title",
+    "context": "src/pages/getting-started.js:55:55"
+  },
+  "aaa4a9e97069dbad1ea138b9d5e7d2aa": {
+    "string": "A payment system that's a proven store of value.",
+    "developer_comment": "Getting started page learn column 'stable' paragraph",
+    "context": "src/pages/getting-started.js:56:59"
+  },
+  "1050da8542264daa24090d19102cf0fa": {
+    "string": "Secure",
+    "developer_comment": "Getting started page learn column 'secure' title",
+    "context": "src/pages/getting-started.js:63:63"
+  },
+  "e4a99b023e70371a6d899e2d639df78c": {
+    "string": "World's most robust blockchain technology.",
+    "developer_comment": "Getting started page learn column 'secure' paragraph",
+    "context": "src/pages/getting-started.js:64:67"
+  },
+  "7c9139df0e638be3a4f293fa554a5baf": {
+    "string": "What is peer to peer electronic cash?",
+    "developer_comment": "Getting started page subtitle",
+    "context": "src/pages/getting-started.js:74:77"
+  },
+  "fa9b0e6cc62ecc4e479a5b9d9ada597b": {
+    "string": "Getting Started",
+    "developer_comment": "Getting started page title",
+    "context": "src/pages/getting-started.js:78:78"
+  },
+  "534d068868f1f9725a105bc39d264f66": {
+    "string": "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.",
+    "developer_comment": "Getting started page main paragraph",
+    "context": "src/pages/getting-started.js:80:88"
+  },
+  "320884bf7d995a7c5f6ed2b50f3280b5": {
+    "string": "Learn all about Bitcoin Cash",
+    "developer_comment": "sidebar title 'getting started' page",
+    "context": "src/pages/getting-started.js:100:103"
+  },
+  "0f429e8d8d54f67ce44b262f7d9b3eb4": {
+    "string": "Learn more",
+    "developer_comment": "learn more button",
+    "context": "src/pages/getting-started.js:107:107"
+  },
   "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
     "string": "Easy ways to buy Bitcoin Cash",
     "developer_comment": "first banner on the homepage",
