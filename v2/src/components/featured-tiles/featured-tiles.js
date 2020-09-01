@@ -1,16 +1,17 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import tilesStyles from "./tiles.module.css"
+import tilesStyles from "./featured-tiles.module.css"
 import Link from "global/link.js"
 
-const TilesComponent = ({ tiles, md }) => {
+const FeaturedTiles = ({ tiles, md }) => {
   return (
     <Container>
-      <Row>
+      <Row className={tilesStyles.tilesectionpadding}>
         {tiles.map(item => (
           <Col md={md} className={tilesStyles.tile}>
             <Link to={item.link} target="_blank" rel="noreferrer">
               <img src={item.img} alt={item.alt} />
+              <p>{item.text}</p>
             </Link>
           </Col>
         ))}
@@ -19,4 +20,4 @@ const TilesComponent = ({ tiles, md }) => {
   )
 }
 
-export default TilesComponent
+export default FeaturedTiles
