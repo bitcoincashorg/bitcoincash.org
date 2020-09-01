@@ -76,9 +76,16 @@ const GettingStartedPage = () => {
         "Getting started page subtitle"
       ),
       title: fbt("Getting Started", "Getting started page title"),
-      paragraph: fbt(
-        "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.",
-        "Getting started page main paragraph"
+      paragraph: (
+        <fbt desc="Getting started page main paragraph">
+          Peer to peer (P2P) electronic cash is simply described as online money
+          sent from one person to another without the need for a trusted
+          third-party. As described in the original Bitcoin whitepaper by
+          Satoshi Nakamoto, P2P cash makes use of digital signatures as part of
+          the solution, but the main benefits are lost if a trusted third party
+          is still required to prevent fraud. This makes P2P cash a trustless
+          and safe way to transact without the need of intermediaries.
+        </fbt>
       ),
     },
   ]
@@ -106,7 +113,7 @@ const GettingStartedPage = () => {
               allow="autoplay; encrypted-media"
               allowfullscreen
               title="What is Bitcoin Cash"
-            ></iframe>
+            />
           </LargeTile>
         </Row>
       </Container>
