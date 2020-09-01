@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import logo from "assets/images/bitcoin-cash-logo-white-small.png"
 import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
+import AnnouncementBar from "./announcement-bar.js"
 import Dropdown, { MobileDropdown } from "components/dropdownButtons/dropdown"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import axios from "axios"
@@ -16,7 +17,7 @@ if (typeof window !== "undefined") {
   var prevScrollpos = window.pageYOffset
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset
-    if (currentScrollPos <= 1000) {
+    if (currentScrollPos <= 200) {
       return
     }
     if (prevScrollpos > currentScrollPos) {
@@ -152,6 +153,7 @@ const Header = () => {
 
   return (
     <>
+      <AnnouncementBar />
       <header
         id={isActive ? "navbar-mobile" : "navbar"}
         style={{
@@ -230,6 +232,7 @@ const Header = () => {
                       className={headerStyles.mobileNavLink}
                       key={headerLink.index}
                       to={headerLink.href}
+                      onClick={() => setIsActive(!isActive)}
                     >
                       {headerLink.text}
                     </Link>

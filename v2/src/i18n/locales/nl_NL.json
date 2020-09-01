@@ -281,6 +281,13 @@
         }
       ]
     },
+    "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
     "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
@@ -746,7 +753,7 @@
     "d8f620476ca093a80da86c579a69b6c8": {
       "translations": [
         {
-          "translation": "1. Getting Started"
+          "translation": "1. Beginnen"
         }
       ]
     },
@@ -774,7 +781,7 @@
     "845b05a96ec8b6c25363b06bcf45fda8": {
       "translations": [
         {
-          "translation": "2. Download a wallet"
+          "translation": "2. Download een portemonnee"
         }
       ]
     },
@@ -795,7 +802,7 @@
     "1ed9e1ac18f92875704872c620123199": {
       "translations": [
         {
-          "translation": "3. Buy or Earn Bitcoin Cash"
+          "translation": "3. Koop of Verdien Bitcoin Cash"
         }
       ]
     },
@@ -816,7 +823,7 @@
     "75c015aeff2c97fb2e49287637e054ea": {
       "translations": [
         {
-          "translation": "4. Spend Bitcoin Cash"
+          "translation": "4. Geef Bitcoin Cash Uit"
         }
       ]
     },
@@ -837,7 +844,7 @@
     "c0773f2b3d250c425648a076dd98f11d": {
       "translations": [
         {
-          "translation": "5. Accept Bitcoin Cash"
+          "translation": "5. Accepteer Bitcoin Cash"
         }
       ]
     },

@@ -18,7 +18,7 @@
     "a93ad13582036c6c06c4ddffba43018b": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "Começar"
         }
       ]
     },
@@ -214,7 +214,7 @@
     "800d353888445f1d8db4c8bd3bf28370": {
       "translations": [
         {
-          "translation": "Privacy Policy"
+          "translation": "Política de Privacidade"
         }
       ]
     },
@@ -228,7 +228,7 @@
     "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "© {current year}, All Rights Reserved"
+          "translation": "© {current year}, Todos Os Direitos Reservados"
         }
       ]
     },
@@ -281,6 +281,13 @@
         }
       ]
     },
+    "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+      "translations": [
+        {
+          "translation": "Roteiro"
+        }
+      ]
+    },
     "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
@@ -305,7 +312,7 @@
     "6e149233a553b9376f9867d91685881e": {
       "translations": [
         {
-          "translation": "Explorer"
+          "translation": "Explorador"
         }
       ]
     },
@@ -326,7 +333,7 @@
     "13d6385a443edc6624f3455e5e477637": {
       "translations": [
         {
-          "translation": "Language"
+          "translation": "Idioma"
         }
       ]
     },
@@ -354,7 +361,7 @@
     "f779d907ef682a079c34a0b3453261c8": {
       "translations": [
         {
-          "translation": "Coming soon."
+          "translation": "Em breve"
         }
       ]
     },
@@ -522,7 +529,7 @@
     "cd210324da87d96a9e423660ca217086": {
       "translations": [
         {
-          "translation": "secure within 3 seconds - transaction fees forever low"
+          "translation": "segura em 3 segundos - taxas de transação baixas para sempre"
         }
       ]
     },
@@ -746,7 +753,7 @@
     "d8f620476ca093a80da86c579a69b6c8": {
       "translations": [
         {
-          "translation": "1. Getting Started"
+          "translation": "1. Começar"
         }
       ]
     },
@@ -774,7 +781,7 @@
     "845b05a96ec8b6c25363b06bcf45fda8": {
       "translations": [
         {
-          "translation": "2. Download a wallet"
+          "translation": "2. Baixar uma carteira"
         }
       ]
     },
@@ -795,7 +802,7 @@
     "1ed9e1ac18f92875704872c620123199": {
       "translations": [
         {
-          "translation": "3. Buy or Earn Bitcoin Cash"
+          "translation": "3. Comprar ou Ganhar Bitcoin Cash"
         }
       ]
     },
@@ -816,7 +823,7 @@
     "75c015aeff2c97fb2e49287637e054ea": {
       "translations": [
         {
-          "translation": "4. Spend Bitcoin Cash"
+          "translation": "4. Gastar Bitcoin Cash"
         }
       ]
     },
@@ -837,7 +844,7 @@
     "c0773f2b3d250c425648a076dd98f11d": {
       "translations": [
         {
-          "translation": "5. Accept Bitcoin Cash"
+          "translation": "5. Aceitar o Bitcoin Cash"
         }
       ]
     },

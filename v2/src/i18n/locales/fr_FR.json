@@ -18,14 +18,14 @@
     "a93ad13582036c6c06c4ddffba43018b": {
       "translations": [
         {
-          "translation": "Commencez"
+          "translation": "Lancez-vous"
         }
       ]
     },
     "0c996a190077b39e16d6026c2e5b07c4": {
       "translations": [
         {
-          "translation": "Voir la roadmap"
+          "translation": "Voir la feuille de route"
         }
       ]
     },
@@ -200,7 +200,7 @@
     "58600d07c3ef680e2dc727d0d10d4070": {
       "translations": [
         {
-          "translation": "Voir la roadmap"
+          "translation": "Voir la feuille de route"
         }
       ]
     },
@@ -278,6 +278,13 @@
       "translations": [
         {
           "translation": "Whitepaper"
+        }
+      ]
+    },
+    "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+      "translations": [
+        {
+          "translation": "Feuille de route"
         }
       ]
     },
@@ -445,7 +452,7 @@
     "375a4d3f546905e096f415172142b301": {
       "translations": [
         {
-          "translation": "À l'échelle humaine"
+          "translation": "À l'échelle planétaire"
         }
       ]
     },

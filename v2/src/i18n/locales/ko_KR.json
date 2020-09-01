@@ -18,7 +18,7 @@
     "a93ad13582036c6c06c4ddffba43018b": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "시작하기"
         }
       ]
     },
@@ -281,6 +281,13 @@
         }
       ]
     },
+    "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+      "translations": [
+        {
+          "translation": "로드맵"
+        }
+      ]
+    },
     "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
@@ -522,7 +529,7 @@
     "cd210324da87d96a9e423660ca217086": {
       "translations": [
         {
-          "translation": "secure within 3 seconds - transaction fees forever low"
+          "translation": "영원히 낮은 수수료 - 3초 내로 완료되는 트랜잭션"
         }
       ]
     },

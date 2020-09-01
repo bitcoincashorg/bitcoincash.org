@@ -48,3 +48,11 @@ a:active.link {
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 1100px) {
+  .link {
+    padding: 20px 40px;
+    justify-content: left;
+    align-items: left;
+  }
+}

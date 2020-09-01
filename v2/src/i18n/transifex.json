@@ -144,6 +144,51 @@
     "developer_comment": "'does what banks can't do' homepage feature's CTA button text",
     "context": "src/components/home/home-large-feature.js:49:52"
   },
+  "cfce7f318ae20404ef612bf056dba732": {
+    "string": "Reminder: November 15th, 2020 Planned Network Upgrade",
+    "developer_comment": "Annoucement bar reminder headline",
+    "context": "src/layout/announcement-bar.js:15:17"
+  },
+  "ff7e316c73d0dfcd7d0d32a8339e1efc": {
+    "string": "November 15th, 2020 Planned Network Upgrade",
+    "developer_comment": "Annoucement bar inner headline",
+    "context": "src/layout/announcement-bar.js:25:27"
+  },
+  "60fc904396840c992f474ecda2da39ca": {
+    "string": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
+    "developer_comment": "Annoucement bar paragraph",
+    "context": "src/layout/announcement-bar.js:30:35"
+  },
+  "d770c97de5c52bd8109e39c140e62bab": {
+    "string": "See Roadmap",
+    "developer_comment": "'See Roadmap' button of the annoucement bar",
+    "context": "src/layout/announcement-bar.js:41:44"
+  },
+  "a47ca8d131e17fdd59a17e6deab246f1": {
+    "string": "Close",
+    "developer_comment": "'close' button on announcement bar at top of page to close the bar",
+    "context": "src/layout/announcement-bar.js:50:52"
+  },
+  "c7953645d1fdc6c8e72e1ad2fe573a5f": {
+    "string": "Compatible Implementations:",
+    "developer_comment": "Annoucement bar 'Compatible Implementations'",
+    "context": "src/layout/announcement-bar.js:58:60"
+  },
+  "4b0b3d5f8d03531c1cfe320e2883e0fd": {
+    "string": "Additional Information:",
+    "developer_comment": "Annoucement bar 'Additional Information:'",
+    "context": "src/layout/announcement-bar.js:69:71"
+  },
+  "2a854a9d90f8402de7ce2e1f5fb71596": {
+    "string": "Upgrade Specification",
+    "developer_comment": "Annoucement bar 'Upgrade Specification'",
+    "context": "src/layout/announcement-bar.js:77:79"
+  },
+  "41dd1d8d417e0a4239a6ae6bdff85146": {
+    "string": "Testnet Information",
+    "developer_comment": "Annoucement bar 'Testnet Information'",
+    "context": "src/layout/announcement-bar.js:85:87"
+  },
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
     "developer_comment": "footer link to get listed",
@@ -167,77 +212,162 @@
   "3c23e7392e65bfad89a895ad789ade46": {
     "string": "Services",
     "developer_comment": "Community menu 'services' link",
-    "context": "src/layout/header.js:49:49"
+    "context": "src/layout/header.js:50:50"
   },
   "d2701e551c3b1087e38cf994996ccead": {
     "string": "Projects",
     "developer_comment": "Community menu 'projects' link",
-    "context": "src/layout/header.js:53:53"
+    "context": "src/layout/header.js:54:54"
   },
   "58f3f371a60f2403eaaee09bbcb2c45d": {
     "string": "Exchanges",
     "developer_comment": "Community menu 'exchanges' link",
-    "context": "src/layout/header.js:57:57"
+    "context": "src/layout/header.js:58:58"
   },
   "7d337ea26e78f2a65804aba296a7cee4": {
     "string": "Nodes",
     "developer_comment": "Community menu 'nodes' link",
-    "context": "src/layout/header.js:61:61"
+    "context": "src/layout/header.js:62:62"
   },
   "ba4d0b9ed25b52c797f59d2016874f3b": {
     "string": "Developer Portal",
     "developer_comment": "Community menu 'developper portal' link",
-    "context": "src/layout/header.js:65:65"
+    "context": "src/layout/header.js:66:66"
   },
   "84642b7d94ceb4a405027dbb91dca1ba": {
     "string": "Logos",
     "developer_comment": "Community menu 'logos' link",
-    "context": "src/layout/header.js:69:69"
+    "context": "src/layout/header.js:70:70"
   },
   "702b2d4ddf76ff77afac3095e972f5ea": {
     "string": "Whitepaper",
     "developer_comment": "Community menu 'whitepaper' link",
-    "context": "src/layout/header.js:73:73"
+    "context": "src/layout/header.js:74:74"
   },
   "fc31a7564465e7ea5b18f3d42d8b5d6c": {
     "string": "Roadmap",
     "developer_comment": "Community menu 'roadmap' link",
-    "context": "src/layout/header.js:78:78"
+    "context": "src/layout/header.js:79:79"
   },
   "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
     "string": "Home",
     "developer_comment": "Top 'home' link",
-    "context": "src/layout/header.js:85:85"
+    "context": "src/layout/header.js:86:86"
   },
   "ca0099c6a546b549832b8813418d99cf": {
     "string": "Start Here",
     "developer_comment": "Top 'Start here' link",
-    "context": "src/layout/header.js:89:89"
+    "context": "src/layout/header.js:90:90"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/layout/header.js:93:93"
+    "context": "src/layout/header.js:94:94"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/layout/header.js:97:97"
+    "context": "src/layout/header.js:98:98"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/layout/header.js:101:101"
+    "context": "src/layout/header.js:102:102"
   },
   "734a1c5c0d8e3243e25047d98fb384c2": {
     "string": "About",
     "developer_comment": "Top 'about' link",
-    "context": "src/layout/header.js:104:104"
+    "context": "src/layout/header.js:105:105"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/layout/header.js:110:110"
+    "context": "src/layout/header.js:111:111"
+  },
+  "bc2a94069c0682096a036ae4bfe47966": {
+    "string": "Fast",
+    "developer_comment": "Getting started page learn column 'Fast' title",
+    "context": "src/pages/getting-started.js:17:17"
+  },
+  "cea1b70397c856ef9033230be855aafb": {
+    "string": "Transact in seconds. Get confirmed in minutes.",
+    "developer_comment": "Getting started page learn column 'Fast' paragraph",
+    "context": "src/pages/getting-started.js:18:21"
+  },
+  "a5ea8bb8ac0333e2b9a8aac4df35cb6d": {
+    "string": "Reliable",
+    "developer_comment": "Getting started page learn column 'Reliable' title",
+    "context": "src/pages/getting-started.js:25:28"
+  },
+  "185e84a8cb98aad8226c397633405b0c": {
+    "string": "A network that runs without congestion.",
+    "developer_comment": "Getting started page learn column 'Reliable' paragraph",
+    "context": "src/pages/getting-started.js:29:32"
+  },
+  "23c6951e6d0cb0f8f7da0d8b6006e58c": {
+    "string": "Low Fees",
+    "developer_comment": "Getting started page learn column 'low fees' title",
+    "context": "src/pages/getting-started.js:36:39"
+  },
+  "ac54594862788301bee5473e9924dec6": {
+    "string": "Send money globally for pennies.",
+    "developer_comment": "Getting started page learn column 'Low fees' paragraph",
+    "context": "src/pages/getting-started.js:40:43"
+  },
+  "f872dffed933d04614d85218b1ea8a15": {
+    "string": "Simple",
+    "developer_comment": "Getting started page learn column 'simple' title",
+    "context": "src/pages/getting-started.js:47:47"
+  },
+  "c211f266d9aa6f58007a3aca110c2812": {
+    "string": "Easy to use. No hassles.",
+    "developer_comment": "Getting started page learn column 'simple' paragraph",
+    "context": "src/pages/getting-started.js:48:51"
+  },
+  "becd88f5f74b21dd6cffae03425e6e49": {
+    "string": "Stable",
+    "developer_comment": "Getting started page learn column 'stable' title",
+    "context": "src/pages/getting-started.js:55:55"
+  },
+  "aaa4a9e97069dbad1ea138b9d5e7d2aa": {
+    "string": "A payment system that's a proven store of value.",
+    "developer_comment": "Getting started page learn column 'stable' paragraph",
+    "context": "src/pages/getting-started.js:56:59"
+  },
+  "1050da8542264daa24090d19102cf0fa": {
+    "string": "Secure",
+    "developer_comment": "Getting started page learn column 'secure' title",
+    "context": "src/pages/getting-started.js:63:63"
+  },
+  "e4a99b023e70371a6d899e2d639df78c": {
+    "string": "World's most robust blockchain technology.",
+    "developer_comment": "Getting started page learn column 'secure' paragraph",
+    "context": "src/pages/getting-started.js:64:67"
+  },
+  "7c9139df0e638be3a4f293fa554a5baf": {
+    "string": "What is peer to peer electronic cash?",
+    "developer_comment": "Getting started page subtitle",
+    "context": "src/pages/getting-started.js:74:77"
+  },
+  "fa9b0e6cc62ecc4e479a5b9d9ada597b": {
+    "string": "Getting Started",
+    "developer_comment": "Getting started page title",
+    "context": "src/pages/getting-started.js:78:78"
+  },
+  "534d068868f1f9725a105bc39d264f66": {
+    "string": "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.",
+    "developer_comment": "Getting started page main paragraph",
+    "context": "src/pages/getting-started.js:80:88"
+  },
+  "320884bf7d995a7c5f6ed2b50f3280b5": {
+    "string": "Learn all about Bitcoin Cash",
+    "developer_comment": "sidebar title 'getting started' page",
+    "context": "src/pages/getting-started.js:100:103"
+  },
+  "0f429e8d8d54f67ce44b262f7d9b3eb4": {
+    "string": "Learn more",
+    "developer_comment": "learn more button",
+    "context": "src/pages/getting-started.js:107:107"
   },
   "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
     "string": "Easy ways to buy Bitcoin Cash",
