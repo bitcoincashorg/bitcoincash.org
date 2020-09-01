@@ -281,6 +281,13 @@
         }
       ]
     },
+    "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+      "translations": [
+        {
+          "translation": "路线图"
+        }
+      ]
+    },
     "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
       "translations": [
         {
@@ -522,7 +529,7 @@
     "cd210324da87d96a9e423660ca217086": {
       "translations": [
         {
-          "translation": "secure within 3 seconds - transaction fees forever low"
+          "translation": "3秒内确认——交易费永久低廉"
         }
       ]
     },
@@ -599,42 +606,42 @@
     "4e911c96b6738781fcfb52d827e2a82c": {
       "translations": [
         {
-          "translation": "Underway"
+          "translation": "进行中"
         }
       ]
     },
     "c322ae2380b4baec92a70aa1ebbe22e7": {
       "translations": [
         {
-          "translation": "Planned"
+          "translation": "计划的"
         }
       ]
     },
     "f8587b3a18c163825d78472b397c218d": {
       "translations": [
         {
-          "translation": "Roadmap"
+          "translation": "路线图"
         }
       ]
     },
     "833f50b83778189d804f395a6d5e8b95": {
       "translations": [
         {
-          "translation": "Scaling"
+          "translation": "扩容性"
         }
       ]
     },
     "668e0a0074ecef56d93bffc3eaf7334f": {
       "translations": [
         {
-          "translation": "Usability"
+          "translation": "可用性"
         }
       ]
     },
     "c33868c5aba6a5a196423b57167950a1": {
       "translations": [
         {
-          "translation": "Extensibility"
+          "translation": "扩展性"
         }
       ]
     },
