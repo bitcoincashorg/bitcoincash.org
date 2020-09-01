@@ -68,7 +68,7 @@ const StartHerePage = () => {
                     "View More",
                     "'View More' button on start here page to see more content"
                   )}
-                  href={"/getting-started.html"}
+                  href={"/getting-started/"}
                 />
               </div>
             </div>
