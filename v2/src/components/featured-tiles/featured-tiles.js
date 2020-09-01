@@ -6,7 +6,7 @@ import Link from "global/link.js"
 const FeaturedTiles = ({ tiles, md }) => {
   return (
     <Container>
-      <Row className={tilesStyles.tilesectionpadding}>
+      <Row>
         {tiles.map(item => (
           <Col md={md} className={tilesStyles.tile}>
             <Link to={item.link} target="_blank" rel="noreferrer">
