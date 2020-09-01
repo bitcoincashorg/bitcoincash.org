@@ -199,40 +199,45 @@
     "developer_comment": "Community menu 'whitepaper' link",
     "context": "src/layout/header.js:73:73"
   },
+  "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+    "string": "Roadmap",
+    "developer_comment": "Community menu 'roadmap' link",
+    "context": "src/layout/header.js:78:78"
+  },
   "9a0f1b9e1bb9cfc74b2d98b9b2a8fcd0": {
     "string": "Home",
     "developer_comment": "Top 'home' link",
-    "context": "src/layout/header.js:81:81"
+    "context": "src/layout/header.js:85:85"
   },
   "ca0099c6a546b549832b8813418d99cf": {
     "string": "Start Here",
     "developer_comment": "Top 'Start here' link",
-    "context": "src/layout/header.js:85:85"
+    "context": "src/layout/header.js:89:89"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/layout/header.js:89:89"
+    "context": "src/layout/header.js:93:93"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/layout/header.js:93:93"
+    "context": "src/layout/header.js:97:97"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/layout/header.js:97:97"
+    "context": "src/layout/header.js:101:101"
   },
   "734a1c5c0d8e3243e25047d98fb384c2": {
     "string": "About",
     "developer_comment": "Top 'about' link",
-    "context": "src/layout/header.js:100:100"
+    "context": "src/layout/header.js:104:104"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/layout/header.js:106:106"
+    "context": "src/layout/header.js:110:110"
   },
   "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
     "string": "Easy ways to buy Bitcoin Cash",
