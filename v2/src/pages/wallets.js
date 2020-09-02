@@ -12,6 +12,8 @@ import Hardware from "assets/icons/wallets/hardware-wallet.svg"
 import Paper from "assets/icons/wallets/paper-wallet.svg"
 import Wallet from "assets/images/get-started/bitcoin-cash-wallet.jpg"
 
+import Bitcoindotcom from "assets/images/wallets/bitcoindotcom.png"
+
 const WalletsPage = () => {
   const sideBarContent = [
     {
@@ -113,7 +115,7 @@ const WalletsPage = () => {
     {
       link: "https://wallet.bitcoin.com",
       alt: "Bitcoin.com Wallet",
-      img: "/images/wallets/bitcoindotcom.png",
+      img: <Bitcoindotcom />,
       android: true,
       ios: true,
       windows: true,
