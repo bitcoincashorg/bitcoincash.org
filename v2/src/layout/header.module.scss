@@ -10,10 +10,12 @@ header {
   width: 40%;
   margin-right: 25px;
   display: flex;
+  align-items: flex-start;
 }
 
 .logo img {
   width: 100%;
+  height: auto;
 }
 
 .divider {
