@@ -11,8 +11,25 @@ import Desktop from "assets/icons/wallets/desktop-wallet.svg"
 import Hardware from "assets/icons/wallets/hardware-wallet.svg"
 import Paper from "assets/icons/wallets/paper-wallet.svg"
 import Wallet from "assets/images/get-started/bitcoin-cash-wallet.jpg"
-
 import Bitcoindotcom from "assets/images/wallets/bitcoindotcom.png"
+import Electroncash from "assets/images/wallets/electroncash.png"
+import Bread from "assets/images/wallets/bread.png"
+import Copay from "assets/images/wallets/copay.png"
+import Jaxx from "assets/images/wallets/jaxx.png"
+import Edge from "assets/images/wallets/edge.png"
+import Coinbase from "assets/images/wallets/coinbase.png"
+import Mobi from "assets/images/wallets/mobi.png"
+import Bitpay from "assets/images/wallets/bitpay.png"
+import Strongcoin from "assets/images/wallets/strongcoin.png"
+import Ifwallet from "assets/images/wallets/ifwallet.png"
+import Gemini from "assets/images/wallets/gemini.png"
+import Exodus from "assets/images/wallets/exodus.png"
+import Badger from "assets/images/wallets/badger.jpg"
+import Ledger from "assets/images/wallets/ledger.png"
+import Trezor from "assets/images/wallets/trezor.png"
+import Coldlar from "assets/images/wallets/coldlar.png"
+import Cashaddress from "assets/images/wallets/cashaddress.png"
+import Bitcoincashnotes from "assets/images/wallets/bitcoincashnotes.png"
 
 const WalletsPage = () => {
   const sideBarContent = [
@@ -84,7 +101,7 @@ const WalletsPage = () => {
   const featuredTiles = [
     {
       link: "https://wallet.bitcoin.com",
-      img: "/images/wallets/bitcoindotcom.png",
+      img: Bitcoindotcom,
       alt: "bitcoin.com wallet",
       text: (
         <fbt desc="Wallets page Bitcoin.com featured wallet text">
@@ -97,7 +114,7 @@ const WalletsPage = () => {
     },
     {
       link: "https://electroncash.org/",
-      img: "/images/wallets/electroncash.png",
+      img: Electroncash,
       alt: "electroncash wallet",
       text: (
         <fbt desc="Wallets page ElectronCash featured wallet text">
@@ -115,7 +132,7 @@ const WalletsPage = () => {
     {
       link: "https://wallet.bitcoin.com",
       alt: "Bitcoin.com Wallet",
-      img: <Bitcoindotcom />,
+      img: Bitcoindotcom,
       android: true,
       ios: true,
       windows: true,
@@ -123,13 +140,13 @@ const WalletsPage = () => {
     {
       link: "https://paperwallet.bitcoin.com",
       alt: "Bitcoin.com Paper Wallet",
-      img: "/images/wallets/bitcoindotcom.png",
+      img: Bitcoindotcom,
       paper: true,
     },
     {
       link: "https://electroncash.org",
       alt: "Electron Cash Wallet",
-      img: "/images/wallets/electroncash.png",
+      img: Electroncash,
       android: true,
       ios: true,
       windows: true,
@@ -137,49 +154,49 @@ const WalletsPage = () => {
     {
       link: "https://breadapp.com/",
       alt: "Bread",
-      img: "/images/wallets/bread.png",
+      img: Bread,
       android: true,
       ios: true,
     },
     {
       link: "https://blog.bitpay.com/bitcoin-cash-wallet-beta/",
       alt: "Copay",
-      img: "/images/wallets/copay.png",
+      img: Copay,
       android: true,
       ios: true,
     },
     {
       link: "https://jaxx.io/",
       alt: "Jaxx",
-      img: "/images/wallets/jaxx.png",
+      img: Jaxx,
       android: true,
       ios: true,
     },
     {
       link: "https://edgesecure.co/",
       alt: "Edge",
-      img: "/images/wallets/edge.png",
+      img: Edge,
       android: true,
       ios: true,
     },
     {
       link: "https://www.coinbase.com/",
       alt: "Coinbase",
-      img: "/images/wallets/coinbase.png",
+      img: Coinbase,
       android: true,
       ios: true,
     },
     {
       link: "https://www.mobi.me/",
       alt: "Mobi",
-      img: "/images/wallets/mobi.png",
+      img: Mobi,
       android: true,
       ios: true,
     },
     {
       link: "https://bitpay.com/wallet",
       alt: "Bitpay Wallet",
-      img: "/images/wallets/bitpay.png",
+      img: Bitpay,
       android: true,
       ios: true,
       windows: true,
@@ -187,63 +204,63 @@ const WalletsPage = () => {
     {
       link: "https://strongcoin.com/",
       alt: "StrongCoin",
-      img: "/images/wallets/strongcoin.png",
+      img: Strongcoin,
       ios: true,
     },
     {
       link: "https://www.ifwallet.com",
       alt: "ifwallet.com",
-      img: "/images/wallets/ifwallet.png",
+      img: Ifwallet,
       android: true,
       ios: true,
     },
     {
       link: "https://gemini.com/wallet",
       alt: "Gemini Wallet",
-      img: "/images/wallets/gemini.png",
+      img: Gemini,
       android: true,
       ios: true,
     },
     {
       link: "https://www.exodus.io/",
       alt: "Exodus Wallet",
-      img: "/images/wallets/exodus.png",
+      img: Exodus,
       windows: true,
     },
     {
       link: "https://badger.bitcoin.com",
       alt: "Badger Wallet",
-      img: "/images/wallets/badger.jpg",
+      img: Badger,
       windows: true,
     },
     {
       link: "https://www.ledger.com/",
       alt: "Ledger Wallet",
-      img: "/images/wallets/ledger.png",
+      img: Ledger,
       hardware: true,
     },
     {
       link: "https://wallet.trezor.io/#/",
       alt: "Trezor Wallet",
-      img: "/images/wallets/trezor.png",
+      img: Trezor,
       hardware: true,
     },
     {
       link: "https://www.coldlar.com/",
       alt: "Coldlar Wallet",
-      img: "/images/wallets/coldlar.png",
+      img: Coldlar,
       hardware: true,
     },
     {
       link: "https://cashaddress.org/",
       alt: "Cashaddress Wallet",
-      img: "/images/wallets/cashaddress.png",
+      img: Cashaddress,
       paper: true,
     },
     {
       link: "https://bitcoincashnotes.com/",
       alt: "Bitcoincash Notes Wallet",
-      img: "/images/wallets/bitcoincashnotes.png",
+      img: Bitcoincashnotes,
       paper: true,
     },
   ]
