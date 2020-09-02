@@ -8,7 +8,7 @@ const TilesComponent = ({ tiles, md }) => {
       {tiles.map(item => (
         <Col md={md} className={tilesStyles.tile}>
           <a href={item.link} target="_blank" rel="noreferrer">
-            <img src={item.img} alt={item.alt}/>
+            <img src={item.img} alt={item.alt} />
           </a>
         </Col>
       ))}

@@ -289,9 +289,8 @@ const WalletsPage = () => {
       </Container>
       <Container>
         <h2 className="centerh2">
-          Mobile{" "}
-          <fbt desc="the word 'Wallets' on the wallets page titles">
-            Wallets
+          <fbt desc="Wallets page wallet list 'Mobile wallets' header">
+            Mobile Wallets
           </fbt>
         </h2>
         <Tabs defaultActiveKey="android">
@@ -305,9 +304,8 @@ const WalletsPage = () => {
       </Container>
       <Container>
         <h2 className="centerh2">
-          Desktop{" "}
-          <fbt desc="the word 'Wallets' on the wallets page titles">
-            Wallets
+          <fbt desc="Wallets page wallet list 'Desktop wallets' header">
+            Desktop Wallets
           </fbt>
         </h2>
         <Tabs defaultActiveKey="windows">
@@ -324,18 +322,16 @@ const WalletsPage = () => {
       </Container>
       <Container>
         <h2 className="centerh2">
-          Hardware{" "}
-          <fbt desc="the word 'Wallets' on the wallets page titles">
-            Wallets
+          <fbt desc="Wallets page wallet list 'Hardware wallets' header">
+            Hardware Wallets
           </fbt>
         </h2>
         <Tiles tiles={hardwareWallets} md={4} />
       </Container>
       <Container>
         <h2 className="centerh2">
-          Paper{" "}
-          <fbt desc="the word 'Wallets' on the wallets page titles">
-            Wallets
+          <fbt desc="Wallets page wallet list 'Paper wallets' header">
+            Paper Wallets
           </fbt>
         </h2>
         <Tiles tiles={paperWallets} md={4} />
