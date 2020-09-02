@@ -204,6 +204,69 @@
         }
       ]
     },
+    "cfce7f318ae20404ef612bf056dba732": {
+      "translations": [
+        {
+          "translation": "Reminder: November 15th, 2020 Planned Network Upgrade"
+        }
+      ]
+    },
+    "ff7e316c73d0dfcd7d0d32a8339e1efc": {
+      "translations": [
+        {
+          "translation": "November 15th, 2020 Planned Network Upgrade"
+        }
+      ]
+    },
+    "60fc904396840c992f474ecda2da39ca": {
+      "translations": [
+        {
+          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+        }
+      ]
+    },
+    "d770c97de5c52bd8109e39c140e62bab": {
+      "translations": [
+        {
+          "translation": "See Roadmap"
+        }
+      ]
+    },
+    "a47ca8d131e17fdd59a17e6deab246f1": {
+      "translations": [
+        {
+          "translation": "Schließen"
+        }
+      ]
+    },
+    "c7953645d1fdc6c8e72e1ad2fe573a5f": {
+      "translations": [
+        {
+          "translation": "Compatible Implementations:"
+        }
+      ]
+    },
+    "4b0b3d5f8d03531c1cfe320e2883e0fd": {
+      "translations": [
+        {
+          "translation": "Additional Information:"
+        }
+      ]
+    },
+    "2a854a9d90f8402de7ce2e1f5fb71596": {
+      "translations": [
+        {
+          "translation": "Spezifikation des Upgrades"
+        }
+      ]
+    },
+    "41dd1d8d417e0a4239a6ae6bdff85146": {
+      "translations": [
+        {
+          "translation": "Testnet Information"
+        }
+      ]
+    },
     "657e00afe7a9a198d37ecf94de9045b9": {
       "translations": [
         {
@@ -334,6 +397,125 @@
       "translations": [
         {
           "translation": "Language"
+        }
+      ]
+    },
+    "bc2a94069c0682096a036ae4bfe47966": {
+      "translations": [
+        {
+          "translation": "Schnell"
+        }
+      ]
+    },
+    "cea1b70397c856ef9033230be855aafb": {
+      "translations": [
+        {
+          "translation": "Schicken Sie Transaktionen in Sekunden. Erhalten Sie innerhalb von wenigen Minuten eine Bestätigung."
+        }
+      ]
+    },
+    "a5ea8bb8ac0333e2b9a8aac4df35cb6d": {
+      "translations": [
+        {
+          "translation": "Zuverlässig"
+        }
+      ]
+    },
+    "185e84a8cb98aad8226c397633405b0c": {
+      "translations": [
+        {
+          "translation": "Ein Netzwerk, das ohne Überlastung läuft."
+        }
+      ]
+    },
+    "23c6951e6d0cb0f8f7da0d8b6006e58c": {
+      "translations": [
+        {
+          "translation": "Niedrige Gebühren"
+        }
+      ]
+    },
+    "ac54594862788301bee5473e9924dec6": {
+      "translations": [
+        {
+          "translation": "Senden Sie Geld weltweit für ein paar Cent."
+        }
+      ]
+    },
+    "f872dffed933d04614d85218b1ea8a15": {
+      "translations": [
+        {
+          "translation": "Einfach"
+        }
+      ]
+    },
+    "c211f266d9aa6f58007a3aca110c2812": {
+      "translations": [
+        {
+          "translation": "Einfache Anwendung. Keine Komplikationen."
+        }
+      ]
+    },
+    "becd88f5f74b21dd6cffae03425e6e49": {
+      "translations": [
+        {
+          "translation": "Stabil"
+        }
+      ]
+    },
+    "aaa4a9e97069dbad1ea138b9d5e7d2aa": {
+      "translations": [
+        {
+          "translation": "Ein Zahlungssystem, das sich als Speicherort für Vermögen bewährt hat."
+        }
+      ]
+    },
+    "1050da8542264daa24090d19102cf0fa": {
+      "translations": [
+        {
+          "translation": "Sicher"
+        }
+      ]
+    },
+    "e4a99b023e70371a6d899e2d639df78c": {
+      "translations": [
+        {
+          "translation": "Die weltweit robusteste Blockchain-Technologie."
+        }
+      ]
+    },
+    "7c9139df0e638be3a4f293fa554a5baf": {
+      "translations": [
+        {
+          "translation": "Was ist elektronisches Peer-to-Peer-Cash?"
+        }
+      ]
+    },
+    "fa9b0e6cc62ecc4e479a5b9d9ada597b": {
+      "translations": [
+        {
+          "translation": "Fangen Sie an"
+        }
+      ]
+    },
+    "534d068868f1f9725a105bc39d264f66": {
+      "translations": [
+        {
+          "translation": "Peer-to-Peer-Geld (P2P) wird einfach ausgedrückt als Online-Geld bezeichnet, das von einer Person an eine andere gesendet wird, ohne dass eine vertrauenswürdige Drittpartei gebraucht wird. Wie in dem ursprünglichen Bitcoin-Whitepaper von Satoshi Nakamoto beschrieben, verwendet P2P-Cash digitale Signaturen als Teil der Lösung. Die Hauptvorteile gehen jedoch verloren, wenn eine vertrauenswürdige Drittpartei noch gebraucht wird, um Betrug zu verhindern. Dies macht P2P-Cash zu einer vertrauenswürdigen und sicheren Möglichkeit, Transaktionen ohne Zwischenhändler durchzuführen."
+        }
+      ]
+    },
+    "320884bf7d995a7c5f6ed2b50f3280b5": {
+      "translations": [
+        {
+          "translation": "Erfahren Sie alles über Bitcoin Cash"
+        }
+      ]
+    },
+    "0f429e8d8d54f67ce44b262f7d9b3eb4": {
+      "translations": [
+        {
+          "translation": "Learn more"
         }
       ]
     },
@@ -750,10 +932,10 @@
         }
       ]
     },
-    "d8f620476ca093a80da86c579a69b6c8": {
+    "3e410384adbd12a4d1b45b21aebbf2ad": {
       "translations": [
         {
-          "translation": "1. Getting Started"
+          "translation": "Fangen Sie an"
         }
       ]
     },
@@ -778,10 +960,10 @@
         }
       ]
     },
-    "845b05a96ec8b6c25363b06bcf45fda8": {
+    "1db14774316202bab757eeb0c713df38": {
       "translations": [
         {
-          "translation": "2. Download a wallet"
+          "translation": "Eine Wallet herunterladen"
         }
       ]
     },
@@ -799,10 +981,10 @@
         }
       ]
     },
-    "1ed9e1ac18f92875704872c620123199": {
+    "6643a872c9b0fa37db7d39081471b16a": {
       "translations": [
         {
-          "translation": "3. Buy or Earn Bitcoin Cash"
+          "translation": "Bitcoin Cash kaufen oder verdienen"
         }
       ]
     },
@@ -820,10 +1002,10 @@
         }
       ]
     },
-    "75c015aeff2c97fb2e49287637e054ea": {
+    "3dd3da825840d16a076e537d527ba830": {
       "translations": [
         {
-          "translation": "4. Spend Bitcoin Cash"
+          "translation": "Bitcoin Cash ausgeben"
         }
       ]
     },
@@ -841,10 +1023,10 @@
         }
       ]
     },
-    "c0773f2b3d250c425648a076dd98f11d": {
+    "baa4ef6f10ee3273f568e30e99973c46": {
       "translations": [
         {
-          "translation": "5. Accept Bitcoin Cash"
+          "translation": "Bitcoin Cash annehmen"
         }
       ]
     },

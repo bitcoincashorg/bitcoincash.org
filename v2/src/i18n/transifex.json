@@ -664,79 +664,79 @@
     "developer_comment": "Getting Started Card 'What is' subtitle",
     "context": "src/pages/start-here.js:38:40"
   },
-  "d8f620476ca093a80da86c579a69b6c8": {
-    "string": "1. Getting Started",
+  "3e410384adbd12a4d1b45b21aebbf2ad": {
+    "string": "Getting Started",
     "developer_comment": "Getting Started Card 'What is' title",
-    "context": "src/pages/start-here.js:44:46"
+    "context": "src/pages/start-here.js:45:47"
   },
   "db4a06c9ac83047222695fdeab7a53f5": {
     "string": "Peer to peer (P2P) electronic cash is simply described as online money sent from one person to another without the need for a trusted third-party. As described in the original Bitcoin whitepaper by Satoshi Nakamoto, P2P cash makes use of digital signatures as part of the solution, but the main benefits are lost if a trusted third party is still required to prevent fraud. This makes P2P cash a trustless and safe way to transact without the need of intermediaries.",
     "developer_comment": "Getting Started Card 'What is' content",
-    "context": "src/pages/start-here.js:50:59"
+    "context": "src/pages/start-here.js:51:60"
   },
   "b3ca007f1440b18c2a9414c45aa30930": {
     "string": "View More",
     "developer_comment": "'View More' button on start here page to see more content",
-    "context": "src/pages/start-here.js:254:257"
+    "context": "src/pages/start-here.js:259:262"
   },
   "370fcbf712cd27345ee3cb129882bb72": {
     "string": "Where do I store my Bitcoin Cash?",
     "developer_comment": "Getting Started Card 'Wallets' subtitle",
-    "context": "src/pages/start-here.js:86:88"
+    "context": "src/pages/start-here.js:87:89"
   },
-  "845b05a96ec8b6c25363b06bcf45fda8": {
-    "string": "2. Download a wallet",
+  "1db14774316202bab757eeb0c713df38": {
+    "string": "Download a wallet",
     "developer_comment": "Getting Started Card 'Wallets' title",
-    "context": "src/pages/start-here.js:92:94"
+    "context": "src/pages/start-here.js:94:96"
   },
   "39686bb0751adc2ea460e16907764f21": {
     "string": "Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.",
     "developer_comment": "Getting Started Card 'Wallets' content",
-    "context": "src/pages/start-here.js:98:105"
+    "context": "src/pages/start-here.js:100:107"
   },
   "a52662521b616cc5e743a013fab56c13": {
     "string": "How do I get Bitcoin Cash?",
     "developer_comment": "Getting Started Card 'Buy' subtitle",
-    "context": "src/pages/start-here.js:130:132"
+    "context": "src/pages/start-here.js:132:134"
   },
-  "1ed9e1ac18f92875704872c620123199": {
-    "string": "3. Buy or Earn Bitcoin Cash",
+  "6643a872c9b0fa37db7d39081471b16a": {
+    "string": "Buy or Earn Bitcoin Cash",
     "developer_comment": "Getting Started Card 'Buy' title",
-    "context": "src/pages/start-here.js:136:138"
+    "context": "src/pages/start-here.js:139:141"
   },
   "b3fb242ac070953d5104c4f2363bb244": {
     "string": "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you Bitcoin Cash after the trade has occurred.",
     "developer_comment": "Getting Started Card 'Buy' content",
-    "context": "src/pages/start-here.js:142:149"
+    "context": "src/pages/start-here.js:145:152"
   },
   "2ad3d93815fbfa52ab4a6a7824e72e46": {
     "string": "What can I buy with Bitcoin Cash?",
     "developer_comment": "Getting Started Card 'Spend' subtitle",
-    "context": "src/pages/start-here.js:176:178"
+    "context": "src/pages/start-here.js:179:181"
   },
-  "75c015aeff2c97fb2e49287637e054ea": {
-    "string": "4. Spend Bitcoin Cash",
+  "3dd3da825840d16a076e537d527ba830": {
+    "string": "Spend Bitcoin Cash",
     "developer_comment": "Getting Started Card 'Spend' title",
-    "context": "src/pages/start-here.js:182:184"
+    "context": "src/pages/start-here.js:186:188"
   },
   "e3976450a07e4c3c1be22c6b4047ac80": {
     "string": "Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.",
     "developer_comment": "Getting Started Card 'Spend' content",
-    "context": "src/pages/start-here.js:188:195"
+    "context": "src/pages/start-here.js:192:199"
   },
   "43e340303ba59891b094e701ae8a5219": {
     "string": "How can my business use Bitcoin Cash?",
     "developer_comment": "Getting Started Card 'Accept' subtitle",
-    "context": "src/pages/start-here.js:224:226"
+    "context": "src/pages/start-here.js:228:230"
   },
-  "c0773f2b3d250c425648a076dd98f11d": {
-    "string": "5. Accept Bitcoin Cash",
+  "baa4ef6f10ee3273f568e30e99973c46": {
+    "string": "Accept Bitcoin Cash",
     "developer_comment": "Getting Started Card 'Accept' title",
-    "context": "src/pages/start-here.js:230:232"
+    "context": "src/pages/start-here.js:235:237"
   },
   "aab54798d448c24c51e5bb9f65c12fac": {
     "string": "As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin are becoming the go-to method for paying online and in retail shops. Easily accept Bitcoin Cash directly or use third-party providers to accept Bitcoin Cash using their platforms and convert all or part of the sale into local fiat currency.",
     "developer_comment": "Getting Started Card 'Accept' content",
-    "context": "src/pages/start-here.js:236:247"
+    "context": "src/pages/start-here.js:241:252"
   }
 }

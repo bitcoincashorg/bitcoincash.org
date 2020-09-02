@@ -204,6 +204,69 @@
         }
       ]
     },
+    "cfce7f318ae20404ef612bf056dba732": {
+      "translations": [
+        {
+          "translation": "Reminder: November 15th, 2020 Planned Network Upgrade"
+        }
+      ]
+    },
+    "ff7e316c73d0dfcd7d0d32a8339e1efc": {
+      "translations": [
+        {
+          "translation": "November 15th, 2020 Planned Network Upgrade"
+        }
+      ]
+    },
+    "60fc904396840c992f474ecda2da39ca": {
+      "translations": [
+        {
+          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+        }
+      ]
+    },
+    "d770c97de5c52bd8109e39c140e62bab": {
+      "translations": [
+        {
+          "translation": "See Roadmap"
+        }
+      ]
+    },
+    "a47ca8d131e17fdd59a17e6deab246f1": {
+      "translations": [
+        {
+          "translation": "閉じる"
+        }
+      ]
+    },
+    "c7953645d1fdc6c8e72e1ad2fe573a5f": {
+      "translations": [
+        {
+          "translation": "Compatible Implementations:"
+        }
+      ]
+    },
+    "4b0b3d5f8d03531c1cfe320e2883e0fd": {
+      "translations": [
+        {
+          "translation": "Additional Information:"
+        }
+      ]
+    },
+    "2a854a9d90f8402de7ce2e1f5fb71596": {
+      "translations": [
+        {
+          "translation": "アップグレード仕様"
+        }
+      ]
+    },
+    "41dd1d8d417e0a4239a6ae6bdff85146": {
+      "translations": [
+        {
+          "translation": "Testnet 情報"
+        }
+      ]
+    },
     "657e00afe7a9a198d37ecf94de9045b9": {
       "translations": [
         {
@@ -334,6 +397,125 @@
       "translations": [
         {
           "translation": "Language"
+        }
+      ]
+    },
+    "bc2a94069c0682096a036ae4bfe47966": {
+      "translations": [
+        {
+          "translation": "速い"
+        }
+      ]
+    },
+    "cea1b70397c856ef9033230be855aafb": {
+      "translations": [
+        {
+          "translation": "数秒で処理され、数分でブロックに取り込まれます。"
+        }
+      ]
+    },
+    "a5ea8bb8ac0333e2b9a8aac4df35cb6d": {
+      "translations": [
+        {
+          "translation": "信頼性"
+        }
+      ]
+    },
+    "185e84a8cb98aad8226c397633405b0c": {
+      "translations": [
+        {
+          "translation": "誰にも遮断することのできない強靭なネットワーク。"
+        }
+      ]
+    },
+    "23c6951e6d0cb0f8f7da0d8b6006e58c": {
+      "translations": [
+        {
+          "translation": "手数料が安い"
+        }
+      ]
+    },
+    "ac54594862788301bee5473e9924dec6": {
+      "translations": [
+        {
+          "translation": "世界中のどこにでも1円以下で送金できます。"
+        }
+      ]
+    },
+    "f872dffed933d04614d85218b1ea8a15": {
+      "translations": [
+        {
+          "translation": "シンプル"
+        }
+      ]
+    },
+    "c211f266d9aa6f58007a3aca110c2812": {
+      "translations": [
+        {
+          "translation": "誰でも迷うことなく簡単に使えます。"
+        }
+      ]
+    },
+    "becd88f5f74b21dd6cffae03425e6e49": {
+      "translations": [
+        {
+          "translation": "安定性"
+        }
+      ]
+    },
+    "aaa4a9e97069dbad1ea138b9d5e7d2aa": {
+      "translations": [
+        {
+          "translation": "価値の保存に適すことが証明された安定した決済システム。"
+        }
+      ]
+    },
+    "1050da8542264daa24090d19102cf0fa": {
+      "translations": [
+        {
+          "translation": "セキュリティ"
+        }
+      ]
+    },
+    "e4a99b023e70371a6d899e2d639df78c": {
+      "translations": [
+        {
+          "translation": "世界でもっとも頑健なブロックチェーンテクノロジー。"
+        }
+      ]
+    },
+    "7c9139df0e638be3a4f293fa554a5baf": {
+      "translations": [
+        {
+          "translation": "P2P電子通貨とは？"
+        }
+      ]
+    },
+    "fa9b0e6cc62ecc4e479a5b9d9ada597b": {
+      "translations": [
+        {
+          "translation": "はじめに"
+        }
+      ]
+    },
+    "534d068868f1f9725a105bc39d264f66": {
+      "translations": [
+        {
+          "translation": "P2P（ピアツーピア）電子通貨は単純に、信頼できる第三者機関を介することなく個人間で行われるオンライン送金と定義されています。ナカモトサトシ氏によるオリジナルのビットコインホワイトペーパーで記述されるように、P2P マネーはソリューションの一部としてデジタル署名を使用しますが、不正防止の目的で信頼できる第三者機関を必要とするのなら主なメリットはなくなります。そのため P2P マネーは仲介人無しで管理者による承認を必要としない安全な取引方法となります。"
+        }
+      ]
+    },
+    "320884bf7d995a7c5f6ed2b50f3280b5": {
+      "translations": [
+        {
+          "translation": "ビットコイン キャッシュについて学ぶ"
+        }
+      ]
+    },
+    "0f429e8d8d54f67ce44b262f7d9b3eb4": {
+      "translations": [
+        {
+          "translation": "Learn more"
         }
       ]
     },
@@ -750,10 +932,10 @@
         }
       ]
     },
-    "d8f620476ca093a80da86c579a69b6c8": {
+    "3e410384adbd12a4d1b45b21aebbf2ad": {
       "translations": [
         {
-          "translation": "1. Getting Started"
+          "translation": "はじめに"
         }
       ]
     },
@@ -778,10 +960,10 @@
         }
       ]
     },
-    "845b05a96ec8b6c25363b06bcf45fda8": {
+    "1db14774316202bab757eeb0c713df38": {
       "translations": [
         {
-          "translation": "2. Download a wallet"
+          "translation": "ウォレットをダウンロード"
         }
       ]
     },
@@ -799,10 +981,10 @@
         }
       ]
     },
-    "1ed9e1ac18f92875704872c620123199": {
+    "6643a872c9b0fa37db7d39081471b16a": {
       "translations": [
         {
-          "translation": "3. Buy or Earn Bitcoin Cash"
+          "translation": "ビットコイン キャッシュの購入または獲得"
         }
       ]
     },
@@ -820,10 +1002,10 @@
         }
       ]
     },
-    "75c015aeff2c97fb2e49287637e054ea": {
+    "3dd3da825840d16a076e537d527ba830": {
       "translations": [
         {
-          "translation": "4. Spend Bitcoin Cash"
+          "translation": "ビットコイン キャッシュを使う"
         }
       ]
     },
@@ -841,10 +1023,10 @@
         }
       ]
     },
-    "c0773f2b3d250c425648a076dd98f11d": {
+    "baa4ef6f10ee3273f568e30e99973c46": {
       "translations": [
         {
-          "translation": "5. Accept Bitcoin Cash"
+          "translation": "ビットコイン キャッシュ決済対応"
         }
       ]
     },
