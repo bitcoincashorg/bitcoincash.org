@@ -158,7 +158,7 @@ const WalletsPage = () => {
     {
       link: "https://www.coinbase.com/",
       alt: "Coinbase",
-      img: "/images/exchanges/coinbase.png",
+      img: "/images/wallets/coinbase.png",
       android: true,
       ios: true,
     },
