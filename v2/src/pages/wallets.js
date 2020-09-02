@@ -109,6 +109,153 @@ const WalletsPage = () => {
     },
   ]
 
+  const wallets = [
+    {
+      link: "https://wallet.bitcoin.com",
+      alt: "Bitcoin.com Wallet",
+      img: "/images/wallets/bitcoindotcom.png",
+      android: true,
+      ios: true,
+      windows: true,
+      paper: true,
+    },
+    {
+      link: "https://electroncash.org",
+      alt: "Electron Cash Wallet",
+      img: "/images/wallets/electroncash.png",
+      android: true,
+      ios: true,
+      windows: true,
+    },
+    {
+      link: "https://breadapp.com/",
+      alt: "Bread",
+      img: "/images/wallets/bread.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://blog.bitpay.com/bitcoin-cash-wallet-beta/",
+      alt: "Copay",
+      img: "/images/wallets/copay.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://jaxx.io/",
+      alt: "Jaxx",
+      img: "/images/wallets/jaxx.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://edgesecure.co/",
+      alt: "Edge",
+      img: "/images/wallets/edge.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://www.coinbase.com/",
+      alt: "Coinbase",
+      img: "/images/exchanges/coinbase.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://www.mobi.me/",
+      alt: "Mobi",
+      img: "/images/wallets/mobi.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://bitpay.com/wallet",
+      alt: "Bitpay Wallet",
+      img: "/images/wallets/bitpay.png",
+      android: true,
+      ios: true,
+      windows: true,
+    },
+    {
+      link: "https://strongcoin.com/",
+      alt: "StrongCoin",
+      img: "/images/wallets/strongcoin.png",
+      ios: true,
+    },
+    {
+      link: "https://www.ifwallet.com",
+      alt: "ifwallet.com",
+      img: "/images/wallets/ifwallet.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://gemini.com/wallet",
+      alt: "Gemini Wallet",
+      img: "/images/wallets/gemini.png",
+      android: true,
+      ios: true,
+    },
+    {
+      link: "https://www.exodus.io/",
+      alt: "Exodus Wallet",
+      img: "/images/wallets/exodus.png",
+      windows: true,
+    },
+    {
+      link: "https://badger.bitcoin.com",
+      alt: "Badger Wallet",
+      img: "/images/wallets/badger.png",
+      windows: true,
+    },
+    {
+      link: "https://www.ledger.com/",
+      alt: "Ledger Wallet",
+      img: "/images/wallets/ledger.png",
+      hardware: true,
+    },
+    {
+      link: "https://wallet.trezor.io/#/",
+      alt: "Trezor Wallet",
+      img: "/images/wallets/trezor.png",
+      hardware: true,
+    },
+    {
+      link: "https://www.coldlar.com/",
+      alt: "Coldlar Wallet",
+      img: "/images/wallets/coldlar.png",
+      hardware: true,
+    },
+    {
+      link: "https://cashaddress.org/",
+      alt: "Cashaddress Wallet",
+      img: "/images/wallets/cashaddress.png",
+      paper: true,
+    },
+    {
+      link: "https://bitcoincashnotes.com/",
+      alt: "Bitcoincash Notes Wallet",
+      img: "/images/wallets/bitcoincashnotes.png",
+      paper: true,
+    },
+  ]
+
+  const filterWalletTypes = (array, property) => {
+    return array.reduce(function (newarray, obj) {
+      let key = obj[property]
+      if (key) {
+        newarray.push(obj)
+      }
+      return newarray
+    }, [])
+  }
+
+  let androidWallets = filterWalletTypes(wallets, "android")
+  let iosWallets = filterWalletTypes(wallets, "ios")
+  let desktopWallets = filterWalletTypes(wallets, "windows")
+  let hardwareWallets = filterWalletTypes(wallets, "hardware")
+  let paperWallets = filterWalletTypes(wallets, "paper")
 
   return (
     <>
@@ -127,15 +274,67 @@ const WalletsPage = () => {
           </LargeTile>
         </Row>
       </Container>
-      <FeaturedTiles tiles={featuredTiles} md={6} />
-      <Tabs defaultActiveKey="android">
-        <Tab eventKey="android" title="Android">
-          <Tiles tiles={wallets} md={3} />
-        </Tab>
-        <Tab eventKey="ios" title="iOS">
-          Yo yo
-        </Tab>
-      </Tabs>
+      <Container>
+        <h2 className="centerh2">
+          <fbt desc="'featured wallets' heading on wallets page">
+            Featured Wallets
+          </fbt>
+        </h2>
+        <FeaturedTiles tiles={featuredTiles} md={6} />
+      </Container>
+      <Container>
+        <h2 className="centerh2">
+          Mobile{" "}
+          <fbt desc="the word 'Wallets' on the wallets page titles">
+            Wallets
+          </fbt>
+        </h2>
+        <Tabs defaultActiveKey="android">
+          <Tab eventKey="android" title="Android">
+            <Tiles tiles={androidWallets} md={3} />
+          </Tab>
+          <Tab eventKey="ios" title="iOS">
+            <Tiles tiles={iosWallets} md={3} />
+          </Tab>
+        </Tabs>
+      </Container>
+      <Container>
+        <h2 className="centerh2">
+          Desktop{" "}
+          <fbt desc="the word 'Wallets' on the wallets page titles">
+            Wallets
+          </fbt>
+        </h2>
+        <Tabs defaultActiveKey="windows">
+          <Tab eventKey="windows" title="Windows">
+            <Tiles tiles={desktopWallets} md={3} />
+          </Tab>
+          <Tab eventKey="mac" title="macOS">
+            <Tiles tiles={desktopWallets} md={3} />
+          </Tab>
+          <Tab eventKey="linux" title="Linux">
+            <Tiles tiles={desktopWallets} md={3} />
+          </Tab>
+        </Tabs>
+      </Container>
+      <Container>
+        <h2 className="centerh2">
+          Hardware{" "}
+          <fbt desc="the word 'Wallets' on the wallets page titles">
+            Wallets
+          </fbt>
+        </h2>
+        <Tiles tiles={hardwareWallets} md={4} />
+      </Container>
+      <Container>
+        <h2 className="centerh2">
+          Paper{" "}
+          <fbt desc="the word 'Wallets' on the wallets page titles">
+            Wallets
+          </fbt>
+        </h2>
+        <Tiles tiles={paperWallets} md={4} />
+      </Container>
     </>
   )
 }
