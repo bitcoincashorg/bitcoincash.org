@@ -117,6 +117,11 @@ const WalletsPage = () => {
       android: true,
       ios: true,
       windows: true,
+    },
+    {
+      link: "https://paperwallet.bitcoin.com",
+      alt: "Bitcoin.com Paper Wallet",
+      img: "/images/wallets/bitcoindotcom.png",
       paper: true,
     },
     {
