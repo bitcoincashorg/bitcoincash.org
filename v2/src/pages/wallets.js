@@ -206,7 +206,7 @@ const WalletsPage = () => {
     {
       link: "https://badger.bitcoin.com",
       alt: "Badger Wallet",
-      img: "/images/wallets/badger.png",
+      img: "/images/wallets/badger.jpg",
       windows: true,
     },
     {

@@ -33,4 +33,5 @@
 
 .tile img {
   vertical-align: middle;
+  max-height: 90px;
 }
