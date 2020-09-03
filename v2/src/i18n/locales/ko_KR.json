@@ -1036,6 +1036,139 @@
           "translation": "판매자로서 여러분의 주된 목표 중 하나는 바로 결제를 최대한 빠르고 원활하게 처리하여 고객 만족을 이끌어내고 골치 아픈 일 없이 결제된 금액을 받을 수 있도록 하는 것입니다. 그렇다면 적은 비용으로 신속한 거래가 가능한 비트코인 캐시가 해결책이 될 수 있습니다. 전 세계가 디지털화되어 가면서 비트코인과 같은 전자 화폐가 온라인 및 소매점 지불을 위한 새로운 방법으로 떠오르고 있습니다. 손쉽게 직접 비트코인 캐시를 받을 수도 있고, 제3자 공급업체의 플랫폼을 사용하여 비트코인 캐시를 받고 해당 매출의 전체 또는 일부를 현지 법정 화폐로 변환할 수도 있습니다."
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "모바일 지갑"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "모바일 지갑은 비트코인 캐시를 저장하고 사용하기에 좋은 도구입니다."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "데스크톱 지갑"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "데스크톱 지갑을 사용하여 비즈니스에 비트코인 캐시를 도입해보세요."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "하드웨어 지갑"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 안전한 하드웨어 지갑에 보관하세요. 장기간 보관 시 좋습니다."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "종이 지갑"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 오프라인에서 종이 지갑에 보관해보세요. 장기간 보관 시, 또는 친구나 가족에게 선물하는 경우에 좋습니다."
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 어디에 저장해야 하나요?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "지갑 다운로드"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 시작하는 방법은 정말 간단합니다. 첫 번째 단계는 비트코인 경제에 참여하기 시작할 수 있도록 지갑을 다운로드하는 것입니다. 대부분의 지갑은 다운로드가 무료이며, 보내기, 받기, 안전하게 자금 보관하기, 거래 검색 등 몇 가지 주요 기능만 담고 있기 때문에 사용이 간편합니다."
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "어떤 종류의 지갑을 사용해야 하나요?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "추천 지갑"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }

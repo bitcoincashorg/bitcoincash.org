@@ -1036,6 +1036,139 @@
           "translation": "En tant que commerçant, vous recherchez certainement un moyen rapide et efficace d'accepter et de traiter vos paiements, afin de satisfaire vos clients et de recevoir les paiements en toute simplicité. Grâce à ses transactions rapides et à faible coût, Bitcoin Cash constitue la solution idéale. Avec le développement des modes  de paiement numérique, les monnaies virtuelles comme Bitcoin Cash deviennent le mode de paiement de référence en ligne et dans les commerces. Acceptez facilement Bitcoin Cash, que ce soit directement ou via les plates-formes de fournisseurs tiers, et convertissez l'ensemble ou une partie de vos ventes en monnaie fiduciaire locale."
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "Portefeuille mobile"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "Un portefeuille mobile est un excellent moyen de stocker et de dépenser des Bitcoin Cash."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "Portefeuille sur ordinateur"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "Testez un portefeuille sur ordinateur pour intégrer Bitcoin Cash à votre entreprise."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "Portefeuille physique"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "Stockez vos Bitcoin Cash dans un portefeuille physique sécurisé. Idéal pour un stockage à long terme."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "Portefeuille papier"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "Stockez vos Bitcoin Cash hors ligne, dans un portefeuille papier. Idéal pour un stockage à long terme ou pour offrir des Bitcoin Cash à des amis ou des proches."
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "Où puis-je stocker mes Bitcoin Cash ?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "Télécharger un portefeuille"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "Il est très simple d'adopter Bitcoin Cash. La première étape consiste à télécharger un portefeuille afin de commencer à prendre part à l'économie Bitcoin Cash. La plupart des portefeuilles peuvent être téléchargés gratuitement. Ils sont faciles à utiliser et disposent de quelques fonctionnalités clés vous permettant notamment d'envoyer, de recevoir ou de stocker des fonds en toute sécurité, de consulter des transactions, et plus encore."
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "Quel type de portefeuille dois-je utiliser ?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "Portefeuilles recommandés"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }

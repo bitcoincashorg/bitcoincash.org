@@ -1036,6 +1036,139 @@
           "translation": "商家的主要目標之一是盡可能快速流暢地收取及處理款項，客戶滿意之餘，商家也可順利收到款項。比特幣現金的交易快速、手續費低，不啻為理想的解決方案。隨著數位化浪潮湧現，比特幣等數位貨幣即將成為線上和零售商店的主流付款方式。您可以直接收取或透過第三方廠商的平台收取比特幣現金，再將全部或部分營業額兌換成當地法定貨幣，輕鬆便利。"
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "行動錢包"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "行動錢包非常適合存放和支付比特幣現金。"
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "桌面錢包"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "嘗試使用桌面錢包，將比特幣現金運用於商務上。"
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "硬體錢包"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "將比特幣現金存放於安全的硬體錢包，適合長期存放。"
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "紙本錢包"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "將比特幣現金離線存放至紙本錢包，適合長期存放或送給親朋好友。"
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "比特幣現金會存放在哪裡？"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "下載錢包"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "要開始使用比特幣現金非常簡單。首先請下載錢包，以加入比特幣經濟體。大多數錢包為免費下載，容易使用，具有付款、收款、安全存錢、交易查詢等重要功能。"
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "該使用哪種錢包？"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "精選錢包"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }

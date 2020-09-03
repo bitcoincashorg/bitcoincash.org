@@ -1036,6 +1036,139 @@
           "translation": "Sebagai merchant, salah satu tujuan utama Anda adalah mampu menerima dan memproses pembayaran secepat dan selancar mungkin agar Anda dapat membuat pelanggan Anda senang dan menerima pembayaran tanpa keruwetan. Bitcoin Cash adalah solusinya, karena ia memiliki transaksi cepat dan berbiaya rendah. Selagi dunia menjadi digital, mata uang elektronik seperti Bitcoin Cash menjadi metode tren untuk membayar online dan membayar di toko retail. Terima Bitcoin Cash dengan mudah dan langsung atau gunakan penyedia pihak ketiga untuk meneria Bitcoin Cash menggunakan platform mereka dan mengkonversikan semua atau sebagian dari penjualan ke mata uang fiat lokal. "
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "Dompet Seluler"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "Dompet seluler itu baik untuk menyimpan dan membelanjakan Bitcoin Cash."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "Dompet Desktop"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "Cobalah menggunakan Dompet Desktop untuk membawa Bitcoin Cash ke dalam bisnis Anda."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "Dompet Perangkat Keras"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "Taruh Bitcoin Cash Anda di domplet perangkat lunak aman. Baik untuk penyimpanan jangka panjang."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "Dompet Kertas"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "Simpan Bitcoin Cash Anda secara online di Dompet Kertas. Baik untuk penyimpanan jangka panjang atau sebagai kado untuk teman atau keluarga. "
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "Di mana saya menyimpan Bitcoin Cash saya?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "Unduh dompet"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "Memulai Bitcoin Cash sangat mudah. Langkah pertama adalah mengunduh dompet agar Anda dapat mulai berpartisipasi dalam ekonomi Bitcoin. Kebanyakan dompet dapat diunduh gratis dan mudah digunakan, serta memiliki fitur utama seperti mengirim, menerima, menyimpan dana secara aman, dan pencarian transaksi."
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "Dompet jenis apa yang sebaiknya saya gunakan?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "Dompet yang Dikedepankan"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }

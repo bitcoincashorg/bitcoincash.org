@@ -1036,6 +1036,139 @@
           "translation": "Bir satıcı olarak ana hedeflerinizden biri, müşterilerinizi mutlu edebilmek ve başınız ağrımadan ödeme alabilmek için ödemeleri mümkün olduğunca çabuk ve sorunsuz bir şekilde kabul edip işlemektir. Bunun çözümü, işlemlerin hızlı ve düşük maliyetli olduğu Bitcoin Cash'tir. Dünya dijitalleştikçe, Bitcoin gibi elektronik para birimleri çevrimiçi ve perakende mağazalarda ödeme yapmak için tercih edilen yöntem haline gelmektedir. Bitcoin Cash'i doğrudan kolaylıkla kabul edin veya üçüncü taraf sağlayıcıların platformlarını kullanarak Bitcoin Cash'i kabul edin ve satışın tamamını veya bir kısmını yerel itibari para birimine dönüştürün."
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "Mobil Cüzdan"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "Mobil bir cüzdan, Bitcoin Cash'i saklamak ve harcamak için harikadır."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "Masaüstü Cüzdanı"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'i işletmenize getirmek için bir Masaüstü Cüzdan kullanmayı deneyin."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "Donanım Cüzdanı"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'inizi güvenli bir donanım cüzdanında saklayın. Uzun süreli saklama için idealdir."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "Kağıt Cüzdan"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'inizi çevrimdışı bir Kağıt Cüzdanda saklayın. Uzun süreli saklamak veya arkadaşlarınıza veya ailenize hediye etmek için mükemmeldir."
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'imi nerede saklarım?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "Bir cüzdan indir"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'e başlamak çok kolaydır. İlk adım, Bitcoin ekonomisine katılmaya başlayabilmeniz için bir cüzdan indirmektir. Çoğu cüzdanı indirmek ücretsizdir; bu cüzdanların fon gönderme, alma, güvenle saklama, işlem arama gibi birkaç temel özelliği ve diğer farklı özellikleri vardır ve bunların kullanımı kolaydır."
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "Ne tür cüzdan kullanmalıyım?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "Öne Çıkan Cüzdanlar"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }

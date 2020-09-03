@@ -1036,6 +1036,139 @@
           "translation": "Como comerciante, uno de tus objetivos principales es poder aceptar y procesar pagos de la manera más rápida y perfecta posible para hacer tus clientes felices  y recibir pagos sin ningún problema. Bitcoin Cash es la solución, ya que tiene transacciones rápidas y de bajo costo. A medida que el mundo se vuelve digital, las monedas electrónicas como Bitcoin Cash se están convirtiendo en el método a seguir para realizar pagos online y en tiendas minoristas. Fácilmente aceptá Bitcoin Cash de forma directa o utilizando proveedores de terceros para aceptar Bitcoin Cash usando sus plataformas y convertí toda o parte de la venta en moneda fiat local."
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "Cartera Móvil"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "La cartera móvil es excelente para guardar y gastar Bitcoin Cash."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "Cartera Desktop"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "Se recomienda usar Cartera Desktop para incorporar Bitcoin Cash a los negocios."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "Cartera Hardware"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "Mantener Bitcoin Cash en una cartera hardware segura. Excelente para almacenamiento de largo plazo."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "Cartera Papel"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "Guardar Bitcoin Cash offline en una Cartera Papel. Excelente para almacenado de largo plazo o para dar de regalo a familia y amigos."
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "Dónde guardar mis Bitcoin Cash?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "Descargar una cartera"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "Comenzar con Bitcoin Cash es super fácil. El primer paso es descargar una cartera para poder comenzar a participar en la economía Bitcoin Cash. La mayoría de las carteras son de descarga gratuita y son fáciles de usar por tener unas pocas funcionalidades importantes como enviar, recibir, guardar fondos de forma segura, buscar transacciones y más."
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "Qué tipo de cartera usar?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "Carteras Destacadas"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }

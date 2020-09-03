@@ -1036,6 +1036,139 @@
           "translation": "Als Händler ist eines Ihrer Hauptziele, Zahlungen so schnell und nahtlos wie möglich annehmen und verarbeiten zu können, damit Sie Ihre Kunden glücklich machen und Zahlungen ohne Umstände erhalten können. Bitcoin Cash ist die Lösung, da es schnelle und kostengünstige Transaktionen bietet. Im Zuge der globalen Digitalisierung werden elektronische Währungen wie Bitcoin zum bevorzugten Zahlungsmittel für Online- und Einzelhandelsgeschäfte. Akzeptieren Sie Bitcoin Cash einfach direkt oder verwenden Sie Drittanbieter, um Bitcoin Cash über ihre Plattformen zu akzeptieren und den Erlös des Verkaufs ganz oder teilweise in lokale Papierwährung umzuwandeln."
         }
       ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "Mobile Wallet"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "Eine mobile Wallet eignet sich hervorragend zum Speichern und Ausgeben von Bitcoin Cash."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "Desktop-Wallet"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "Verwenden Sie eine Desktop-Wallet, um Bitcoin Cash in Ihr Unternehmen zu integrieren."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "Hardware-Wallet"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "Bewahren Sie Ihr Bitcoin Cash in einer sicheren Hardware-Wallet auf. Ideal für die langfristige Speicherung."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "Papier-Wallet"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "Speichern Sie Ihr Bitcoin Cash offline in einer Papier-Wallet. Ideal für die langfristige Speicherung oder zum Verschenken an Freunde oder Familie."
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "Wo speichere ich mein Bitcoin Cash?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "Eine Wallet herunterladen"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "Der Einstieg in Bitcoin Cash ist denkbar einfach. Der erste Schritt ist das Herunterladen einer Wallet, damit Sie an der Bitcoin-Wirtschaft teilnehmen können. Die meisten Wallets können kostenlos heruntergeladen werden und sind einfach zu bedienen. Sie verfügen über einige wichtige Funktionen wie Senden, Empfangen, Sicheres Speichern von Mitteln, Durchsuchen von Transaktionen und mehr."
+        }
+      ]
+    },
+    "49440f77671864785f39105fb2f38bc7": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "37cbba2fb53c609ac63f557fe351427c": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "Welche Wallet-Art soll ich nutzen?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "Empfohlene Wallets"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Mobile Wallets"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Desktop Wallets"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Hardware Wallets"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Paper Wallets"
+        }
+      ]
     }
   }
 }
