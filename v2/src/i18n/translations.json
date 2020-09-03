@@ -839,10 +839,10 @@
     "44TTIq": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients.",
     "yxToC": "Quel type de portefeuille dois-je utiliser ?",
     "39KqoA": "Portefeuilles recommandés",
-    "yaKDO": "Mobile Wallets",
-    "1ujbyw": "Desktop Wallets",
-    "37JJGr": "Hardware Wallets",
-    "rw9Qd": "Paper Wallets"
+    "yaKDO": "Portefeuilles Mobiles",
+    "1ujbyw": "Portefeuilles pour Ordinateur",
+    "37JJGr": "Portefeuilles Matériels",
+    "rw9Qd": "Portefeuilles Papier"
   },
   "id_ID": {
     "2CdpUR": "Money built for you, not banks",

@@ -1145,28 +1145,28 @@
     "b4556aebb796f5e71f4eb77b1bc26fab": {
       "translations": [
         {
-          "translation": "Mobile Wallets"
+          "translation": "Portefeuilles Mobiles"
         }
       ]
     },
     "1c909027e6efdfefa39b3d92aa688a48": {
       "translations": [
         {
-          "translation": "Desktop Wallets"
+          "translation": "Portefeuilles pour Ordinateur"
         }
       ]
     },
     "a0369d50befc901a9fcfc65aa7b4a3aa": {
       "translations": [
         {
-          "translation": "Hardware Wallets"
+          "translation": "Portefeuilles Matériels"
         }
       ]
     },
     "ea4656f2a09327677744603e8d6b86d8": {
       "translations": [
         {
-          "translation": "Paper Wallets"
+          "translation": "Portefeuilles Papier"
         }
       ]
     }
