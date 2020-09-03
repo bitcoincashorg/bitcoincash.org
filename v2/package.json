@@ -9,6 +9,7 @@
     "axios": "^0.19.2",
     "babel-plugin-fbt": "^0.15.1",
     "babel-plugin-fbt-runtime": "^0.9.12",
+    "babel-plugin-import-glob": "^2.0.0",
     "babel-preset-gatsby": "^0.5.8",
     "bootstrap": "^4.5.2",
     "fb-tiger-hash": "^0.1.6",

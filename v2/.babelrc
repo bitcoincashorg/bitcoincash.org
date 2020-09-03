@@ -1,6 +1,7 @@
 {
   "presets": ["gatsby"],
   "plugins": [
+    "import-glob",
     ["babel-plugin-fbt", { "extraOptions": { "__self": true } }],
     "babel-plugin-fbt-runtime"
   ]
