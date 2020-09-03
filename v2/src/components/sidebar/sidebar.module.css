@@ -25,7 +25,7 @@
   padding: 15px 0;
 }
 
-.cardIconRow:nth-child(7) {
+.cardIconRow:last-child {
   border-bottom: none;
 }
 
