@@ -21,7 +21,7 @@ const PayFriendsFeature = () => {
         </div>
       }
       featureImage={<img src={friends} alt="bch-cafe" />}
-      btnHref={"/wallets.html"}
+      btnHref={"/wallets/"}
     >
       <fbt desc="'pay friend directly' feature's body">
         Splitting the bill? Send money to your friend's wallet or have them send

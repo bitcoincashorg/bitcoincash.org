@@ -75,7 +75,7 @@ const StartHerePage = () => {
           </Col>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="/wallets.html">
+              <Link to="/wallets/">
                 <img
                   className={S.cardImg}
                   src={Store}
@@ -115,7 +115,7 @@ const StartHerePage = () => {
                     "View More",
                     "'View More' button on start here page to see more content"
                   )}
-                  href={"/wallets.html"}
+                  href={"/wallets/"}
                 />
               </div>
             </div>

@@ -18,7 +18,7 @@ const StoreSecurelyFeature = () => {
       featureIcon={<Store></Store>}
       featureImage={<img src={storeSecurely} alt="bch-store-secure" />}
       noPaddingTop={true}
-      btnHref={"/wallets.html"}
+      btnHref={"/wallets/"}
     >
       <fbt desc="'store securely' feature's body">
         Scammers can pretend to be your bank, using scare tactics to trick you

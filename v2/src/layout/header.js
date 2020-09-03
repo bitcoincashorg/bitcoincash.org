@@ -92,7 +92,7 @@ const Header = () => {
     },
     {
       text: fbt("Wallets", "Top 'wallets' link"),
-      href: "/wallets.html",
+      href: "/wallets/",
     },
     {
       text: fbt("Explorer", "Link to the block explorer"),

@@ -18,7 +18,7 @@ const MoneyAbroadFeature = () => {
       featureIcon={<Send></Send>}
       featureImage={<img src={moneyAbroad} alt="bch-abroad" />}
       noPaddingTop={true}
-      btnHref={"/wallets.html"}
+      btnHref={"/wallets/"}
     >
       <fbt desc="'send money abroad' feature's body">
         On average, banks take a 6.8% cut out of the money you send home.
