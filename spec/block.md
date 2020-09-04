@@ -9,11 +9,11 @@ version: 1.0
 
 This section of the Bitcoin Cash (BCH) specification ("spec") documents the **block data structure** for implementing a compatible BCH client, including the block header, block serialization, and coinbase transaction formats.
 
-This spec is based on the Bitcoin ABC implementation of the [Bitcoin Cash](https://www.bitcoincash.org/) protocol. 
+This spec is based on the Bitcoin ABC implementation of the [Bitcoin Cash](https://www.bitcoincash.org/) protocol.
 
 Developer resources:
-- Bitcoin ABC source code: https://github.com/Bitcoin-ABC/bitcoin-abc/tree/master/src.
-- Bitcoin ABC developer documentation: http://doc.bitcoinabc.org/index.html.
+- [Bitcoin ABC source code](https://github.com/Bitcoin-ABC/bitcoin-abc)
+- [Bitcoin ABC developer documentation](https://www.bitcoinabc.org/doc/dev/)
 
 # Block
 A **block** is one of the two base primitives in the BCH system, the other being a **transaction**. Primitive in this context means it is one of the data structures for which the BCH software provides built-in support. 
