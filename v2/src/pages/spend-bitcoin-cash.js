@@ -2,11 +2,12 @@ import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
 import { Container, Row } from "react-bootstrap"
+import S from "./spend-bitcoin-cash.module.scss"
 import Sidebar from "components/sidebar/sidebar.js"
 import LargeTile from "components/large-tile/large-tile.js"
-import Cart from "assets/icons/spend/cart.svg"
-import Pizza from "assets/icons/spend/pizza.svg"
-import Gift from "assets/icons/spend/gift.svg"
+import Cart from "assets/icons/cart.svg"
+import Pizza from "assets/icons/pizza.svg"
+import Gift from "assets/icons/gift.svg"
 import SpendImg from "assets/images/get-started/spend-bitcoin-cash.jpg"
 
 const SpendPage = () => {
@@ -88,9 +89,9 @@ const SpendPage = () => {
             title="Spend Bitcoin Cash Map"
             width="500"
             height="500"
-            className="spendmap"
+            className={S.spendmap}
           />
-          <h4 className="centerh4">
+          <h4 className={S.centerh4}>
             Location data by{" "}
             <a href="https://map.bitcoin.com" target="_blank" rel="noreferrer">
               Bitcoin.com Maps
