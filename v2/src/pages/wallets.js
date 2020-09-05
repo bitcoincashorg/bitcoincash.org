@@ -2,6 +2,7 @@ import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
 import { Container, Row, Tab, Tabs } from "react-bootstrap"
+
 import Sidebar from "components/sidebar/sidebar.js"
 import LargeTile from "components/large-tile/large-tile.js"
 import FeaturedTiles from "components/featured-tiles/featured-tiles.js"
@@ -11,25 +12,7 @@ import Desktop from "assets/icons/wallets/desktop-wallet.svg"
 import Hardware from "assets/icons/wallets/hardware-wallet.svg"
 import Paper from "assets/icons/wallets/paper-wallet.svg"
 import Wallet from "assets/images/get-started/bitcoin-cash-wallet.jpg"
-import Bitcoindotcom from "assets/images/wallets/bitcoindotcom.png"
-import Electroncash from "assets/images/wallets/electroncash.png"
-import Bread from "assets/images/wallets/bread.png"
-import Copay from "assets/images/wallets/copay.png"
-import Jaxx from "assets/images/wallets/jaxx.png"
-import Edge from "assets/images/wallets/edge.png"
-import Coinbase from "assets/images/wallets/coinbase.png"
-import Mobi from "assets/images/wallets/mobi.png"
-import Bitpay from "assets/images/wallets/bitpay.png"
-import Strongcoin from "assets/images/wallets/strongcoin.png"
-import Ifwallet from "assets/images/wallets/ifwallet.png"
-import Gemini from "assets/images/wallets/gemini.png"
-import Exodus from "assets/images/wallets/exodus.png"
-import Badger from "assets/images/wallets/badger.jpg"
-import Ledger from "assets/images/wallets/ledger.png"
-import Trezor from "assets/images/wallets/trezor.png"
-import Coldlar from "assets/images/wallets/coldlar.png"
-import Cashaddress from "assets/images/wallets/cashaddress.png"
-import Bitcoincashnotes from "assets/images/wallets/bitcoincashnotes.png"
+import * as AllWallets from "../partners/wallets/*.js"
 
 const WalletsPage = () => {
   const sideBarContent = [
@@ -98,173 +81,6 @@ const WalletsPage = () => {
     },
   ]
 
-  const featuredTiles = [
-    {
-      link: "https://wallet.bitcoin.com",
-      img: Bitcoindotcom,
-      alt: "bitcoin.com wallet",
-      text: (
-        <fbt desc="Wallets page Bitcoin.com featured wallet text">
-          Start using the Bitcoin.com Wallet for a simple, secure way to send
-          and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and
-          Bitcoin Core (BTC), allowing users to switch between the two different
-          currencies effortlessly.
-        </fbt>
-      ),
-    },
-    {
-      link: "https://electroncash.org/",
-      img: Electroncash,
-      alt: "electroncash wallet",
-      text: (
-        <fbt desc="Wallets page ElectronCash featured wallet text">
-          Your private keys are encrypted and never leave your computer. Your
-          funds can be recovered from a secret phrase. Electron Cash is fast,
-          because it uses servers that index the Bitcoin Cash blockchain. You
-          can export your private keys and use them in other Bitcoin Cash
-          clients.
-        </fbt>
-      ),
-    },
-  ]
-
-  const wallets = [
-    {
-      link: "https://wallet.bitcoin.com",
-      alt: "Bitcoin.com Wallet",
-      img: Bitcoindotcom,
-      android: true,
-      ios: true,
-      windows: true,
-    },
-    {
-      link: "https://paperwallet.bitcoin.com",
-      alt: "Bitcoin.com Paper Wallet",
-      img: Bitcoindotcom,
-      paper: true,
-    },
-    {
-      link: "https://electroncash.org",
-      alt: "Electron Cash Wallet",
-      img: Electroncash,
-      android: true,
-      ios: true,
-      windows: true,
-    },
-    {
-      link: "https://breadapp.com/",
-      alt: "Bread",
-      img: Bread,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://blog.bitpay.com/bitcoin-cash-wallet-beta/",
-      alt: "Copay",
-      img: Copay,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://jaxx.io/",
-      alt: "Jaxx",
-      img: Jaxx,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://edgesecure.co/",
-      alt: "Edge",
-      img: Edge,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://www.coinbase.com/",
-      alt: "Coinbase",
-      img: Coinbase,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://www.mobi.me/",
-      alt: "Mobi",
-      img: Mobi,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://bitpay.com/wallet",
-      alt: "Bitpay Wallet",
-      img: Bitpay,
-      android: true,
-      ios: true,
-      windows: true,
-    },
-    {
-      link: "https://strongcoin.com/",
-      alt: "StrongCoin",
-      img: Strongcoin,
-      ios: true,
-    },
-    {
-      link: "https://www.ifwallet.com",
-      alt: "ifwallet.com",
-      img: Ifwallet,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://gemini.com/wallet",
-      alt: "Gemini Wallet",
-      img: Gemini,
-      android: true,
-      ios: true,
-    },
-    {
-      link: "https://www.exodus.io/",
-      alt: "Exodus Wallet",
-      img: Exodus,
-      windows: true,
-    },
-    {
-      link: "https://badger.bitcoin.com",
-      alt: "Badger Wallet",
-      img: Badger,
-      windows: true,
-    },
-    {
-      link: "https://www.ledger.com/",
-      alt: "Ledger Wallet",
-      img: Ledger,
-      hardware: true,
-    },
-    {
-      link: "https://wallet.trezor.io/#/",
-      alt: "Trezor Wallet",
-      img: Trezor,
-      hardware: true,
-    },
-    {
-      link: "https://www.coldlar.com/",
-      alt: "Coldlar Wallet",
-      img: Coldlar,
-      hardware: true,
-    },
-    {
-      link: "https://cashaddress.org/",
-      alt: "Cashaddress Wallet",
-      img: Cashaddress,
-      paper: true,
-    },
-    {
-      link: "https://bitcoincashnotes.com/",
-      alt: "Bitcoincash Notes Wallet",
-      img: Bitcoincashnotes,
-      paper: true,
-    },
-  ]
-
   const filterWalletTypes = (array, property) => {
     return array.reduce(function (newarray, obj) {
       let key = obj[property]
@@ -275,11 +91,13 @@ const WalletsPage = () => {
     }, [])
   }
 
-  let androidWallets = filterWalletTypes(wallets, "android")
-  let iosWallets = filterWalletTypes(wallets, "ios")
-  let desktopWallets = filterWalletTypes(wallets, "windows")
-  let hardwareWallets = filterWalletTypes(wallets, "hardware")
-  let paperWallets = filterWalletTypes(wallets, "paper")
+  const wallets = Object.values(AllWallets).map(getWallet => getWallet())
+  const featuredWallets = filterWalletTypes(wallets, "featured")
+  const androidWallets = filterWalletTypes(wallets, "android")
+  const iosWallets = filterWalletTypes(wallets, "ios")
+  const desktopWallets = filterWalletTypes(wallets, "windows")
+  const hardwareWallets = filterWalletTypes(wallets, "hardware")
+  const paperWallets = filterWalletTypes(wallets, "paper")
 
   return (
     <>
@@ -304,7 +122,7 @@ const WalletsPage = () => {
             Featured Wallets
           </fbt>
         </h2>
-        <FeaturedTiles tiles={featuredTiles} md={6} />
+        <FeaturedTiles tiles={featuredWallets} md={6} />
       </Container>
       <Container>
         <h2 className="centerh2">
