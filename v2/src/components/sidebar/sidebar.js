@@ -2,7 +2,7 @@ import React from "react"
 import { Row, Col } from "react-bootstrap"
 import Sidebarstyle from "./sidebar.module.css"
 
-const Sidebar = ({ content, title, link }) => {
+const Sidebar = ({ content, title }) => {
   return (
     <Col md={4}>
       <div className={Sidebarstyle.card}>
