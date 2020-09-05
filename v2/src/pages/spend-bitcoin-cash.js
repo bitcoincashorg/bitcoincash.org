@@ -78,7 +78,7 @@ const SpendPage = () => {
         </Row>
       </Container>
       <Container>
-        <h2 className="centerh2">
+        <h2 className={S.center}>
           <fbt desc="Spend page spend map header">
             Spend Bitcoin Cash in Person
           </fbt>
@@ -91,7 +91,7 @@ const SpendPage = () => {
             height="500"
             className={S.spendmap}
           />
-          <h4 className={S.centerh4}>
+          <h4 className={S.center}>
             Location data by{" "}
             <a href="https://map.bitcoin.com" target="_blank" rel="noreferrer">
               Bitcoin.com Maps
