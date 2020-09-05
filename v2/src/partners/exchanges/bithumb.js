@@ -1,4 +1,5 @@
 import BithumbLogo from "./images/bithumb.png"
+
 const Bithumb = () => ({
   link: "https://www.bithumb.com/",
   alt: "Bithumb",

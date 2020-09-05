@@ -1,4 +1,5 @@
 import SideshiftLogo from "./images/sideshift.png"
+
 const Sideshift = () => ({
   link: "https://sideshift.ai/",
   alt: "Sideshift",
