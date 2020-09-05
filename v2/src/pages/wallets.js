@@ -116,7 +116,6 @@ const WalletsPage = () => {
               "What kind of wallet should I use?",
               "sidebar title 'wallets' page"
             )}
-            link={true}
           />
           <LargeTile content={largeTileContent}>
             <img src={Wallet} alt="Bitcoin Cash wallets" />
@@ -132,7 +131,7 @@ const WalletsPage = () => {
         <FeaturedTiles tiles={featuredWallets} md={6} />
       </Container>
       <Container>
-        <h2 className="centerh2" id={"mobile-wallets"}>
+        <h2 className="centerh2" id="mobile-wallets">
           <fbt desc="Wallets page wallet list 'Mobile wallets' header">
             Mobile Wallets
           </fbt>
@@ -147,7 +146,7 @@ const WalletsPage = () => {
         </Tabs>
       </Container>
       <Container>
-        <h2 className="centerh2" id={"desktop-wallets"}>
+        <h2 className="centerh2" id="desktop-wallets">
           <fbt desc="Wallets page wallet list 'Desktop wallets' header">
             Desktop Wallets
           </fbt>
@@ -165,7 +164,7 @@ const WalletsPage = () => {
         </Tabs>
       </Container>
       <Container>
-        <h2 className="centerh2" id={"hardware-wallets"}>
+        <h2 className="centerh2" id="hardware-wallets">
           <fbt desc="Wallets page wallet list 'Hardware wallets' header">
             Hardware Wallets
           </fbt>
@@ -173,7 +172,7 @@ const WalletsPage = () => {
         <Tiles tiles={hardwareWallets} md={4} />
       </Container>
       <Container>
-        <h2 className="centerh2" id={"paper-wallets"}>
+        <h2 className="centerh2" id="paper-wallets">
           <fbt desc="Wallets page wallet list 'Paper wallets' header">
             Paper Wallets
           </fbt>
