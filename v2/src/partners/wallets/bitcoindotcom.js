@@ -18,6 +18,8 @@ const BitcoinDotCom = () => ({
   android: true,
   ios: true,
   windows: true,
+  mac: true,
+  linux: true,
 })
 
 export default BitcoinDotCom

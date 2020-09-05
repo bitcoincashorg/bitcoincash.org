@@ -5,6 +5,8 @@ const Exodus = () => ({
   alt: "Exodus Wallet",
   img: ExodusLogo,
   windows: true,
+  mac: true,
+  linux: true,
 })
 
 export default Exodus
