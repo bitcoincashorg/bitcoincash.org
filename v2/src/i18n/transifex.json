@@ -742,96 +742,96 @@
   "08a7f009c75e4115810b529774fffec0": {
     "string": "Mobile Wallet",
     "developer_comment": "Wallets page side column 'Mobile wallet' header",
-    "context": "src/pages/wallets.js:37:40"
+    "context": "src/pages/wallets.js:20:23"
   },
   "67d997bd9cd69eeffb06ed1d005309ff": {
     "string": "A mobile wallet is great for storing and spending Bitcoin Cash.",
     "developer_comment": "Wallets page side column 'Mobile wallet' paragraph",
-    "context": "src/pages/wallets.js:41:44"
+    "context": "src/pages/wallets.js:24:27"
   },
   "16980a9bc5d08afe0da623c931f51ecf": {
     "string": "Desktop Wallet",
     "developer_comment": "Wallets page side column 'desktop wallet' header",
-    "context": "src/pages/wallets.js:48:51"
+    "context": "src/pages/wallets.js:31:34"
   },
   "640155cd0a4887eea9f0fe40f50ad963": {
     "string": "Try using a Desktop Wallet to bring Bitcoin Cash into your business.",
     "developer_comment": "Wallets page side column 'desktop wallet' paragraph",
-    "context": "src/pages/wallets.js:52:55"
+    "context": "src/pages/wallets.js:35:38"
   },
   "e3c62508c40c90b8d19f3f5fac9cdda5": {
     "string": "Hardware Wallet",
     "developer_comment": "Wallets page side column 'hardware wallet' header",
-    "context": "src/pages/wallets.js:59:62"
+    "context": "src/pages/wallets.js:42:45"
   },
   "3cb92d5d743af70b83a16a08f06b75f3": {
     "string": "Keep your Bitcoin Cash in a secure hardware wallet. Great for long term storage.",
     "developer_comment": "Wallets page side column 'hardware wallet' paragraph",
-    "context": "src/pages/wallets.js:63:66"
+    "context": "src/pages/wallets.js:46:49"
   },
   "9117e8e169b255f9f63bad8dfde070b3": {
     "string": "Paper Wallet",
     "developer_comment": "Wallets page side column 'paper wallet' header",
-    "context": "src/pages/wallets.js:70:73"
+    "context": "src/pages/wallets.js:53:56"
   },
   "51521f79cbb79b97064d91f1d1eb1827": {
     "string": "Store your Bitcoin Cash offline on a Paper Wallet. Great for long term storage or gifting to friends or family.",
     "developer_comment": "Wallets page side column 'paper wallet' paragraph",
-    "context": "src/pages/wallets.js:74:77"
+    "context": "src/pages/wallets.js:57:60"
   },
   "060de5230589d7d89e81bae0b9c16db1": {
     "string": "Where do I store my Bitcoin Cash?",
     "developer_comment": "Wallets page subtitle",
-    "context": "src/pages/wallets.js:84:87"
+    "context": "src/pages/wallets.js:67:70"
   },
   "2d184de27e52fabbdf34a967cccf3871": {
     "string": "Download a wallet",
     "developer_comment": "Wallets page title",
-    "context": "src/pages/wallets.js:88:88"
+    "context": "src/pages/wallets.js:71:71"
   },
   "4ad17239834721a38e7451a5550156db": {
     "string": "Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.",
     "developer_comment": "Wallets page main paragraph",
-    "context": "src/pages/wallets.js:90:96"
-  },
-  "49440f77671864785f39105fb2f38bc7": {
-    "string": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly.",
-    "developer_comment": "Wallets page Bitcoin.com featured wallet text",
-    "context": "src/pages/wallets.js:107:112"
-  },
-  "37cbba2fb53c609ac63f557fe351427c": {
-    "string": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients.",
-    "developer_comment": "Wallets page ElectronCash featured wallet text",
-    "context": "src/pages/wallets.js:120:126"
+    "context": "src/pages/wallets.js:73:79"
   },
   "30b0917c156050f542833475f6942bc3": {
     "string": "What kind of wallet should I use?",
     "developer_comment": "sidebar title 'wallets' page",
-    "context": "src/pages/wallets.js:291:294"
+    "context": "src/pages/wallets.js:109:112"
   },
   "58ca67104a66a37f98a3f7f7b0f91e4b": {
     "string": "Featured Wallets",
     "developer_comment": "'featured wallets' heading on wallets page",
-    "context": "src/pages/wallets.js:303:305"
+    "context": "src/pages/wallets.js:121:123"
   },
   "b4556aebb796f5e71f4eb77b1bc26fab": {
     "string": "Mobile Wallets",
     "developer_comment": "Wallets page wallet list 'Mobile wallets' header",
-    "context": "src/pages/wallets.js:311:313"
+    "context": "src/pages/wallets.js:129:131"
   },
   "1c909027e6efdfefa39b3d92aa688a48": {
     "string": "Desktop Wallets",
     "developer_comment": "Wallets page wallet list 'Desktop wallets' header",
-    "context": "src/pages/wallets.js:326:328"
+    "context": "src/pages/wallets.js:144:146"
   },
   "a0369d50befc901a9fcfc65aa7b4a3aa": {
     "string": "Hardware Wallets",
     "developer_comment": "Wallets page wallet list 'Hardware wallets' header",
-    "context": "src/pages/wallets.js:344:346"
+    "context": "src/pages/wallets.js:162:164"
   },
   "ea4656f2a09327677744603e8d6b86d8": {
     "string": "Paper Wallets",
     "developer_comment": "Wallets page wallet list 'Paper wallets' header",
-    "context": "src/pages/wallets.js:352:354"
+    "context": "src/pages/wallets.js:170:172"
+  },
+  "13691ba4252beb6502e8bf9a91778aab": {
+    "string": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly.",
+    "developer_comment": "Bitcoin.com featured wallet text",
+    "context": "src/partners/wallets/bitcoindotcom.js:10:15"
+  },
+  "1c4c29060f6485fde9f4f8ed8757b5d6": {
+    "string": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients.",
+    "developer_comment": "ElectronCash featured wallet text",
+    "context": "src/partners/wallets/electroncash.js:10:15"
   }
 }
