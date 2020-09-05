@@ -400,6 +400,90 @@
         }
       ]
     },
+    "af628dc79f6691cc1586247dad63e5aa": {
+      "translations": [
+        {
+          "translation": "比特币现金支付网关"
+        }
+      ]
+    },
+    "515b07a736581e3adebaeca21b03d6b5": {
+      "translations": [
+        {
+          "translation": "从受信第三方支付网关，作为一种支付方式接受比特币现金付款。"
+        }
+      ]
+    },
+    "0fb809663df85f4b316cebb3629c4a99": {
+      "translations": [
+        {
+          "translation": "在Wordpress中启用比特币现金功能"
+        }
+      ]
+    },
+    "6f261976607f8924861f751eee0ba621": {
+      "translations": [
+        {
+          "translation": "接受比特币现金捐款作为内容创作的报酬，或者集成到启用了Wordpress的商务平台。"
+        }
+      ]
+    },
+    "c683f92b550235be638ade07679e48e1": {
+      "translations": [
+        {
+          "translation": "销售点"
+        }
+      ]
+    },
+    "f82e2dc2e16d56016c303a5c3b20568f": {
+      "translations": [
+        {
+          "translation": "在你的商店中尝试使用众多POS系统，来接收比特币现金。"
+        }
+      ]
+    },
+    "c35657c89197e0ac4fac4c6e4a81e428": {
+      "translations": [
+        {
+          "translation": "接受捐款或赏钱"
+        }
+      ]
+    },
+    "94b673455fb4d40692c6405ac8baac96": {
+      "translations": [
+        {
+          "translation": "非营利性组织在接受比特币现金捐款时享受超低费用。"
+        }
+      ]
+    },
+    "6066503799cce63c9d917321fa976676": {
+      "translations": [
+        {
+          "translation": "如何将比特币现金应用于我的业务？"
+        }
+      ]
+    },
+    "bd5e4e095c8597658a4da3852f708bb5": {
+      "translations": [
+        {
+          "translation": "接受比特币现金付款"
+        }
+      ]
+    },
+    "6bb5f8c640b64c0c0be50526d4779fb1": {
+      "translations": [
+        {
+          "translation": "商家的主要目标之一是，尽可能快速、无缝地接收和处理付款，以使得消费者愉悦，同时商家自己无后顾之忧。比特币现金交易快速、费用低，是个不错的方案。随着世界的日益数字化，如比特币现金这样的电子货币正成为线上及零售实体店的首选支付方式。第三方供应商可轻松地使用其平台接收比特币现金。注册第三方商家解决方案的应用（如BitPay），你只需设置好帐户，收取比特币现金，使其（代指“第三方商家解决方案”）发送到你的比特币现金钱包，或转换为你当地的法币。大多数商店会将资金分为两种方式处理：转换一部分为法币，继续持有一部分数字货币。无论哪种方式，通过建立商家解决方案的应用，你可以立即开始接收比特币现金的支付，而无需担心其复杂性。"
+        }
+      ]
+    },
+    "60b71435a466bbacb718ab4d64221ffb": {
+      "translations": [
+        {
+          "translation": "如何接受比特币现金？"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -1114,20 +1198,6 @@
         }
       ]
     },
-    "49440f77671864785f39105fb2f38bc7": {
-      "translations": [
-        {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
-        }
-      ]
-    },
-    "37cbba2fb53c609ac63f557fe351427c": {
-      "translations": [
-        {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
-        }
-      ]
-    },
     "30b0917c156050f542833475f6942bc3": {
       "translations": [
         {
@@ -1167,6 +1237,20 @@
       "translations": [
         {
           "translation": "Paper Wallets"
+        }
+      ]
+    },
+    "13691ba4252beb6502e8bf9a91778aab": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "1c4c29060f6485fde9f4f8ed8757b5d6": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
         }
       ]
     }

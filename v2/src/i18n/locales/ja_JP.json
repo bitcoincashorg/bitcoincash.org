@@ -400,6 +400,90 @@
         }
       ]
     },
+    "af628dc79f6691cc1586247dad63e5aa": {
+      "translations": [
+        {
+          "translation": "ビットコイン キャッシュ 決済ゲートウェイ"
+        }
+      ]
+    },
+    "515b07a736581e3adebaeca21b03d6b5": {
+      "translations": [
+        {
+          "translation": "信頼できる第三者機関の決済ゲートウェイからビットコイン キャッシュで支払いを受け取る"
+        }
+      ]
+    },
+    "0fb809663df85f4b316cebb3629c4a99": {
+      "translations": [
+        {
+          "translation": "Wordpressでビットコイン キャッシュを有効にする"
+        }
+      ]
+    },
+    "6f261976607f8924861f751eee0ba621": {
+      "translations": [
+        {
+          "translation": "コンテンツ制作に対する寄付をビットコイン キャッシュで受け取ったり、Wordpress に対応する eコマースプラットフォームに組み込む。"
+        }
+      ]
+    },
+    "c683f92b550235be638ade07679e48e1": {
+      "translations": [
+        {
+          "translation": "POS（販売時点情報管理）"
+        }
+      ]
+    },
+    "f82e2dc2e16d56016c303a5c3b20568f": {
+      "translations": [
+        {
+          "translation": "経営している小売店舗でBitcoin Cashを受け入れるために多くのPOS（Point of Sale）システムの1つを試してください。"
+        }
+      ]
+    },
+    "c35657c89197e0ac4fac4c6e4a81e428": {
+      "translations": [
+        {
+          "translation": "寄付またはチップ"
+        }
+      ]
+    },
+    "94b673455fb4d40692c6405ac8baac96": {
+      "translations": [
+        {
+          "translation": "ビットコインキャッシュによる寄付は非常に手数料が低いため、非営利団体にとって大きなメリットがあります。"
+        }
+      ]
+    },
+    "6066503799cce63c9d917321fa976676": {
+      "translations": [
+        {
+          "translation": "ビットコイン キャッシュはビジネスでどう利用できますか？"
+        }
+      ]
+    },
+    "bd5e4e095c8597658a4da3852f708bb5": {
+      "translations": [
+        {
+          "translation": "ビットコイン キャッシュ決済対応"
+        }
+      ]
+    },
+    "6bb5f8c640b64c0c0be50526d4779fb1": {
+      "translations": [
+        {
+          "translation": "店側のメインゴールは、支払いをできるだけ早くシームレスに受け付けて処理することです。それにより、顧客も喜び、支払いも簡単に受け取ることができます。高速かつ低い取引手数料を誇るビットコイン キャッシュはソリューションとなります。世の中がデジタル化に向かう中、ビットコイン キャッシュのような電子通貨はオンラインショップや実店舗での決済方法の主力になりつつあります。第三者プロバイダは独自のプラットフォームを使いビットコイン キャッシュでの支払いを容易にしました。BitPay などの第三者の加盟店ソリューション アプリケーションに登録すると、アカウントが作られるので、ビットコイン キャッシュを受け取り、ビットコイン ウォレットに送金したり現地の法定通貨に交換することができます。ほとんどのお店は、一部の資金を法定通貨にし、残りを仮想通貨で保有します。いずれにせよ、加盟店ソリューション アプリケーションを設定することで、ビットコインの受け取り方法の複雑さに煩わされることなく、今すぐビットコインでの決済を始めることができます。"
+        }
+      ]
+    },
+    "60b71435a466bbacb718ab4d64221ffb": {
+      "translations": [
+        {
+          "translation": "ビットコイン キャッシュに対応するには"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -1114,20 +1198,6 @@
         }
       ]
     },
-    "49440f77671864785f39105fb2f38bc7": {
-      "translations": [
-        {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
-        }
-      ]
-    },
-    "37cbba2fb53c609ac63f557fe351427c": {
-      "translations": [
-        {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
-        }
-      ]
-    },
     "30b0917c156050f542833475f6942bc3": {
       "translations": [
         {
@@ -1167,6 +1237,20 @@
       "translations": [
         {
           "translation": "Paper Wallets"
+        }
+      ]
+    },
+    "13691ba4252beb6502e8bf9a91778aab": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "1c4c29060f6485fde9f4f8ed8757b5d6": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
         }
       ]
     }

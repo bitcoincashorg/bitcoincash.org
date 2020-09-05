@@ -400,6 +400,90 @@
         }
       ]
     },
+    "af628dc79f6691cc1586247dad63e5aa": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Betalingssystemen"
+        }
+      ]
+    },
+    "515b07a736581e3adebaeca21b03d6b5": {
+      "translations": [
+        {
+          "translation": "Accepteer Bitcoin Cash als betalingsmethode met behulp van vertrouwde externe betalingssystemen."
+        }
+      ]
+    },
+    "0fb809663df85f4b316cebb3629c4a99": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash integreren in Wordpress"
+        }
+      ]
+    },
+    "6f261976607f8924861f751eee0ba621": {
+      "translations": [
+        {
+          "translation": "Accepteer Bitcoin Cash donaties voor publicaties of integreer het in je Wordpress e-commerce platform."
+        }
+      ]
+    },
+    "c683f92b550235be638ade07679e48e1": {
+      "translations": [
+        {
+          "translation": "Point Of Sales"
+        }
+      ]
+    },
+    "f82e2dc2e16d56016c303a5c3b20568f": {
+      "translations": [
+        {
+          "translation": "Probeer één van de vele Point Of Sale (POS) systemen om Bitcoin Cash te aanvaarden als betaalmiddel in jouw winkel."
+        }
+      ]
+    },
+    "c35657c89197e0ac4fac4c6e4a81e428": {
+      "translations": [
+        {
+          "translation": "Accepteer Donaties of Fooien"
+        }
+      ]
+    },
+    "94b673455fb4d40692c6405ac8baac96": {
+      "translations": [
+        {
+          "translation": "Non-profit organisaties halen voordeel uit de extreem lage transactiekosten wanneer ze Bitcoin Cash donaties ontvangen."
+        }
+      ]
+    },
+    "6066503799cce63c9d917321fa976676": {
+      "translations": [
+        {
+          "translation": "Hoe kan mijn bedrijf Bitcoin Cash gebruiken?"
+        }
+      ]
+    },
+    "bd5e4e095c8597658a4da3852f708bb5": {
+      "translations": [
+        {
+          "translation": "Accepteer Bitcoin Cash"
+        }
+      ]
+    },
+    "6bb5f8c640b64c0c0be50526d4779fb1": {
+      "translations": [
+        {
+          "translation": "Als een handelszaak is het een van je belangrijkste doelen om betaling zo snel mogelijk en frictieloos te accepteren en verwerken als mogelijk, zo ben je klantvriendelijk en ontvang je betalingen zonder kopzorgen. Bitcoin Cash is de oplossing, want het heeft snelle en lage kost transacties. Terwijl de wereld digitaliseert,electronische valuta zoals Bitcoin Cash zijn de go-to methode aan het worden voor online en in retailwinkels. Ontvang Bitcoin Cash eenvoudig en rechtstreeks of gebruik een provider als derde partij om Bitcoin Cash te ontvangen via hun platform. Zo'n providers maken het zeer eenvoudig Bitcoin Cash te ontvangen met hun platformen. Wanneer je je registreerd voor handelsoplossingen van derden zoals BitPay, zet je simpelweg je account op zodat je Bicoin Cash kan ontvangen en laat je het verder zenden naar je egen protemonnee of kan je Bitcoin Cash converteren naar je lokale fiateenheid. De meeste handelszaken voeren een splitsing uit, waarbij een deel van verkopen zijn omgezet naar fiat en een deel behouden blijft in crypto.Hoe dan ook, door het opzetten van een handelsoplossingsapplicatie kan je Bitcoin Cash-betalingen vandaag accepteren zonder zorgen te moeten maken over de complexiteiten."
+        }
+      ]
+    },
+    "60b71435a466bbacb718ab4d64221ffb": {
+      "translations": [
+        {
+          "translation": "Hoe kan ik Bitcoin Cash accepteren"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -1114,20 +1198,6 @@
         }
       ]
     },
-    "49440f77671864785f39105fb2f38bc7": {
-      "translations": [
-        {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
-        }
-      ]
-    },
-    "37cbba2fb53c609ac63f557fe351427c": {
-      "translations": [
-        {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
-        }
-      ]
-    },
     "30b0917c156050f542833475f6942bc3": {
       "translations": [
         {
@@ -1167,6 +1237,20 @@
       "translations": [
         {
           "translation": "Paper Wallets"
+        }
+      ]
+    },
+    "13691ba4252beb6502e8bf9a91778aab": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "1c4c29060f6485fde9f4f8ed8757b5d6": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
         }
       ]
     }

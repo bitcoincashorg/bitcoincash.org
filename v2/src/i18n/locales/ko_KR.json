@@ -400,6 +400,90 @@
         }
       ]
     },
+    "af628dc79f6691cc1586247dad63e5aa": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시 결제 중계 업체"
+        }
+      ]
+    },
+    "515b07a736581e3adebaeca21b03d6b5": {
+      "translations": [
+        {
+          "translation": "신뢰할 수 있는 제3자 결제 중계 업체에서 결제 방법으로 비트코인 캐시를 받으세요."
+        }
+      ]
+    },
+    "0fb809663df85f4b316cebb3629c4a99": {
+      "translations": [
+        {
+          "translation": "Wordpress에서 비트코인 캐시 사용하기"
+        }
+      ]
+    },
+    "6f261976607f8924861f751eee0ba621": {
+      "translations": [
+        {
+          "translation": "콘텐츠 생성에 대해 비트코인 캐시 기부를 받거나 Wordpress로 운영되는 전자상거래 플랫폼에 통합하세요."
+        }
+      ]
+    },
+    "c683f92b550235be638ade07679e48e1": {
+      "translations": [
+        {
+          "translation": "판매 지점"
+        }
+      ]
+    },
+    "f82e2dc2e16d56016c303a5c3b20568f": {
+      "translations": [
+        {
+          "translation": "여러 비트코인 캐시 판매 지점(POS) 중 한 곳에서 여러분의 매장으로 BCH를 받아보세요."
+        }
+      ]
+    },
+    "c35657c89197e0ac4fac4c6e4a81e428": {
+      "translations": [
+        {
+          "translation": "기부 또는 팁 받기"
+        }
+      ]
+    },
+    "94b673455fb4d40692c6405ac8baac96": {
+      "translations": [
+        {
+          "translation": "비영리 단체는 비트코인 캐시 기부를 받을 때 매우 낮은 수수료의 혜택을 받습니다."
+        }
+      ]
+    },
+    "6066503799cce63c9d917321fa976676": {
+      "translations": [
+        {
+          "translation": "어떻게 비즈니스에서 비트코인 캐시를 사용할 수 있나요?"
+        }
+      ]
+    },
+    "bd5e4e095c8597658a4da3852f708bb5": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시 받기"
+        }
+      ]
+    },
+    "6bb5f8c640b64c0c0be50526d4779fb1": {
+      "translations": [
+        {
+          "translation": "판매자로서 여러분의 주된 목표 중 하나는 바로 결제를 최대한 빠르고 원활하게 처리하여 고객 만족을 이끌어내고 골치 아픈 일 없이 결제된 금액을 받을 수 있도록 하는 것입니다. 이에 저비용으로 신속한 거래가 가능한 비트코인 캐시가 해결책이 될 수 있습니다. 전 세계가 디지털화되어 가면서 비트코인 캐시와 같은 전자 화폐가 온라인 및 소매점 지불을 위한 새로운 방법으로 떠오르고 있습니다. 제3자 공급업체에서는 플랫폼을 사용하여 비트코인 캐시를 더욱 쉽게 받을 수 있도록 해줍니다. BitPay와 같은 제3자 판매자 솔루션 애플리케이션에 가입할 때 간단히 계정을 설정하면 비트코인 캐시를 받아 이를 비트코인 지갑으로 보낼 수도 있고 이를 현지 법정 통화로 변환할 수도 있습니다. 대부분의 상점에서는 자금을 나누어 일부는 법정 통화로 현금화하고 일부는 암호화된 상태로 두는 방식을 사용하고 있습니다. 어떤 방식을 사용하든지 판매자 솔루션 애플리케이션을 설치하면 비트코인을 받는 일이 얼마나 복잡한지 걱정할 필요 없이 오늘 바로 비트코인 결제를 받기 시작할 수 있습니다."
+        }
+      ]
+    },
+    "60b71435a466bbacb718ab4d64221ffb": {
+      "translations": [
+        {
+          "translation": "비트코인 캐시를 받는 방법"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -1114,20 +1198,6 @@
         }
       ]
     },
-    "49440f77671864785f39105fb2f38bc7": {
-      "translations": [
-        {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
-        }
-      ]
-    },
-    "37cbba2fb53c609ac63f557fe351427c": {
-      "translations": [
-        {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
-        }
-      ]
-    },
     "30b0917c156050f542833475f6942bc3": {
       "translations": [
         {
@@ -1167,6 +1237,20 @@
       "translations": [
         {
           "translation": "Paper Wallets"
+        }
+      ]
+    },
+    "13691ba4252beb6502e8bf9a91778aab": {
+      "translations": [
+        {
+          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+        }
+      ]
+    },
+    "1c4c29060f6485fde9f4f8ed8757b5d6": {
+      "translations": [
+        {
+          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
         }
       ]
     }
