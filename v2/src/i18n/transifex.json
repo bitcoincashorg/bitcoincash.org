@@ -284,6 +284,66 @@
     "developer_comment": "Language selector menu",
     "context": "src/layout/header.js:111:111"
   },
+  "af628dc79f6691cc1586247dad63e5aa": {
+    "string": "Bitcoin Cash Payment Gateways",
+    "developer_comment": "Accept page side column 'payment gateways' header",
+    "context": "src/pages/accept-bitcoin-cash.js:16:19"
+  },
+  "515b07a736581e3adebaeca21b03d6b5": {
+    "string": "Receive Bitcoin Cash as a payment method from trusted 3rd party Payment Gateways.",
+    "developer_comment": "Accept page side column 'payment gateways' paragraph",
+    "context": "src/pages/accept-bitcoin-cash.js:20:23"
+  },
+  "0fb809663df85f4b316cebb3629c4a99": {
+    "string": "Enable Bitcoin Cash on Wordpress",
+    "developer_comment": "Accept page side column 'wordpress' header",
+    "context": "src/pages/accept-bitcoin-cash.js:27:30"
+  },
+  "6f261976607f8924861f751eee0ba621": {
+    "string": "Accept Bitcoin Cash donations for content creation or integrate into your Wordpress enabled ecommerce platform.",
+    "developer_comment": "Accept page side column 'wordpress' paragraph",
+    "context": "src/pages/accept-bitcoin-cash.js:31:34"
+  },
+  "c683f92b550235be638ade07679e48e1": {
+    "string": "Point Of Sales",
+    "developer_comment": "Accept page side column 'Point Of Sales' header",
+    "context": "src/pages/accept-bitcoin-cash.js:38:41"
+  },
+  "f82e2dc2e16d56016c303a5c3b20568f": {
+    "string": "Try one of the many Point Of Sale (POS) systems to accept Bitcoin Cash in your store.",
+    "developer_comment": "Accept page side column 'Point Of Sales' paragraph",
+    "context": "src/pages/accept-bitcoin-cash.js:42:45"
+  },
+  "c35657c89197e0ac4fac4c6e4a81e428": {
+    "string": "Accept Donations or Tips",
+    "developer_comment": "Accept page side column 'Accept Donations or Tips' header",
+    "context": "src/pages/accept-bitcoin-cash.js:49:52"
+  },
+  "94b673455fb4d40692c6405ac8baac96": {
+    "string": "Non-profit organizations benefit from extremely low fees when receiving Bitcoin Cash donations.",
+    "developer_comment": "Accept page side column 'Accept Donations or Tips' paragraph",
+    "context": "src/pages/accept-bitcoin-cash.js:53:56"
+  },
+  "6066503799cce63c9d917321fa976676": {
+    "string": "How can my business use Bitcoin Cash?",
+    "developer_comment": "Accept page subtitle",
+    "context": "src/pages/accept-bitcoin-cash.js:63:66"
+  },
+  "bd5e4e095c8597658a4da3852f708bb5": {
+    "string": "Accept Bitcoin Cash",
+    "developer_comment": "Accept page title",
+    "context": "src/pages/accept-bitcoin-cash.js:67:67"
+  },
+  "6bb5f8c640b64c0c0be50526d4779fb1": {
+    "string": "As a merchant one of your main goals is to be able to accept and process payments as quickly and seamlessly as possible so you can make your customers happy and receive payments without any headaches. Bitcoin Cash is the solution, as it has fast and low-cost transactions. As the world goes digital, electronic currencies such as Bitcoin Cash are becoming the go-to method for paying online and in retail shops. Third-party providers make it easy to accept Bitcoin Cash using their platforms. When you sign up for a third-party merchant solutions application such as BitPay, you simply setup your account so that you can receive Bitcoin Cash and have it sent to your Bitcoin Cash wallet or you can convert your Bitcoin Cash to your local fiat currency. Most shops do a split where some funds are liquidated to fiat and some are held in crypto. Either way, by setting up a merchant solutions application you can begin accepting Bitcoin Cash payments today without worrying about the complexities of how to accept Bitcoin Cash.",
+    "developer_comment": "Accept page main paragraph",
+    "context": "src/pages/accept-bitcoin-cash.js:69:86"
+  },
+  "60b71435a466bbacb718ab4d64221ffb": {
+    "string": "How can I accept Bitcoin Cash",
+    "developer_comment": "sidebar title 'accept' page",
+    "context": "src/pages/accept-bitcoin-cash.js:98:101"
+  },
   "bc2a94069c0682096a036ae4bfe47966": {
     "string": "Fast",
     "developer_comment": "Getting started page learn column 'Fast' title",
