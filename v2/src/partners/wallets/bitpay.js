@@ -7,6 +7,8 @@ const Bitpay = () => ({
   android: true,
   ios: true,
   windows: true,
+  mac: true,
+  linux: true,
 })
 
 export default Bitpay

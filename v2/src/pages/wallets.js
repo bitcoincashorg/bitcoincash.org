@@ -26,6 +26,7 @@ const WalletsPage = () => {
         "Wallets page side column 'Mobile wallet' paragraph"
       ),
       icon: <Mobile />,
+      link: "#mobile-wallets",
     },
     {
       title: fbt(
@@ -37,6 +38,7 @@ const WalletsPage = () => {
         "Wallets page side column 'desktop wallet' paragraph"
       ),
       icon: <Desktop />,
+      link: "#desktop-wallets",
     },
     {
       title: fbt(
@@ -48,6 +50,7 @@ const WalletsPage = () => {
         "Wallets page side column 'hardware wallet' paragraph"
       ),
       icon: <Hardware />,
+      link: "#hardware-wallets",
     },
     {
       title: fbt(
@@ -59,6 +62,7 @@ const WalletsPage = () => {
         "Wallets page side column 'paper wallet' paragraph"
       ),
       icon: <Paper />,
+      link: "#paper-wallets",
     },
   ]
 
@@ -95,7 +99,9 @@ const WalletsPage = () => {
   const featuredWallets = filterWalletTypes(wallets, "featured")
   const androidWallets = filterWalletTypes(wallets, "android")
   const iosWallets = filterWalletTypes(wallets, "ios")
-  const desktopWallets = filterWalletTypes(wallets, "windows")
+  const windowsWallets = filterWalletTypes(wallets, "windows")
+  const macWallets = filterWalletTypes(wallets, "mac")
+  const linuxWallets = filterWalletTypes(wallets, "linux")
   const hardwareWallets = filterWalletTypes(wallets, "hardware")
   const paperWallets = filterWalletTypes(wallets, "paper")
 
@@ -125,7 +131,7 @@ const WalletsPage = () => {
         <FeaturedTiles tiles={featuredWallets} md={6} />
       </Container>
       <Container>
-        <h2 className="centerh2">
+        <h2 className="centerh2" id="mobile-wallets">
           <fbt desc="Wallets page wallet list 'Mobile wallets' header">
             Mobile Wallets
           </fbt>
@@ -140,25 +146,25 @@ const WalletsPage = () => {
         </Tabs>
       </Container>
       <Container>
-        <h2 className="centerh2">
+        <h2 className="centerh2" id="desktop-wallets">
           <fbt desc="Wallets page wallet list 'Desktop wallets' header">
             Desktop Wallets
           </fbt>
         </h2>
         <Tabs defaultActiveKey="windows">
           <Tab eventKey="windows" title="Windows">
-            <Tiles tiles={desktopWallets} md={3} />
+            <Tiles tiles={windowsWallets} md={3} />
           </Tab>
           <Tab eventKey="mac" title="macOS">
-            <Tiles tiles={desktopWallets} md={3} />
+            <Tiles tiles={macWallets} md={3} />
           </Tab>
           <Tab eventKey="linux" title="Linux">
-            <Tiles tiles={desktopWallets} md={3} />
+            <Tiles tiles={linuxWallets} md={3} />
           </Tab>
         </Tabs>
       </Container>
       <Container>
-        <h2 className="centerh2">
+        <h2 className="centerh2" id="hardware-wallets">
           <fbt desc="Wallets page wallet list 'Hardware wallets' header">
             Hardware Wallets
           </fbt>
@@ -166,7 +172,7 @@ const WalletsPage = () => {
         <Tiles tiles={hardwareWallets} md={4} />
       </Container>
       <Container>
-        <h2 className="centerh2">
+        <h2 className="centerh2" id="paper-wallets">
           <fbt desc="Wallets page wallet list 'Paper wallets' header">
             Paper Wallets
           </fbt>

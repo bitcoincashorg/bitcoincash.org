@@ -18,6 +18,8 @@ const ElectronCash = () => ({
   android: true,
   ios: true,
   windows: true,
+  mac: true,
+  linux: true,
 })
 
 export default ElectronCash

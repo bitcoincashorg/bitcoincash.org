@@ -8,6 +8,18 @@
   padding: 20px 10px;
 }
 
+.card a,
+.card a:visited,
+.card a:active {
+  display: flex;
+  color: #444;
+  transition: all 300ms;
+}
+
+.card a:hover {
+  transform: scale(1.04);
+}
+
 .cardIcon {
   text-align: center;
 }

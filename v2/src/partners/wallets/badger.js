@@ -5,6 +5,8 @@ const Badger = () => ({
   alt: "Badger Wallet",
   img: BadgerLogo,
   windows: true,
+  mac: true,
+  linux: true,
 })
 
 export default Badger
