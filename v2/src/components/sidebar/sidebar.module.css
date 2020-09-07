@@ -25,8 +25,8 @@
 }
 
 .cardIcon svg {
-  fill: #f7941c;
-  stroke: #f7941c;
+  fill: #ff8d00;
+  stroke: #ff8d00;
   width: 100%;
   max-width: 50px;
 }
@@ -59,4 +59,13 @@
   padding: 0;
   line-height: 1.2em;
   font-size: 16px;
+}
+
+.cardIconText a,
+.cardIconText a:visited {
+  color: #ff8d00;
+}
+
+.cardIconText a:hover {
+  text-decoration: underline;
 }
