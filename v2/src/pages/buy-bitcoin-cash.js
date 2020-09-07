@@ -2,6 +2,7 @@ import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
 import { Container, Row } from "react-bootstrap"
+import Link from "global/link.js"
 import Sidebar from "components/sidebar/sidebar.js"
 import LargeTile from "components/large-tile/large-tile.js"
 import FeaturedTiles from "components/featured-tiles/featured-tiles.js"
@@ -39,8 +40,8 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column faucet paragraph">
           Use a trusted{" "}
-          <a href="https://free.bitcoin.com/">Bitcoin Cash faucet</a> to receive
-          a tiny amount of Bitcoin Cash for free!
+          <Link href="https://free.bitcoin.com/">Bitcoin Cash faucet</Link> to
+          receive a tiny amount of Bitcoin Cash for free!
         </fbt>
       ),
       icon: <Faucet />,
@@ -75,7 +76,7 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column 'Earn' paragraph">
           Participate on censorship resistant social media platforms like{" "}
-          <a href="https://memo.cash/">Memo.cash</a>.
+          <Link href="https://memo.cash/">Memo.cash</Link>.
         </fbt>
       ),
       icon: <Globe />,
@@ -88,8 +89,8 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column 'Buy in person' paragraph">
           Connect with locals in your area who are selling Bitcoin Cash on{" "}
-          <a href="https://local.bitcoin.com/">Bitcoin.com Local</a> or{" "}
-          <a href="https://localbitcoincash.org/">LocalBitcoinCash.org</a>.
+          <Link href="https://local.bitcoin.com/">Bitcoin.com Local</Link> or{" "}
+          <Link href="https://localbitcoincash.org/">LocalBitcoinCash.org</Link>.
         </fbt>
       ),
       icon: <People />,
@@ -102,9 +103,9 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column 'Accept at you business' paragraph">
           Add Bitcoin Cash as a payment method to your store with the{" "}
-          <a href="https://www.bitcoin.com/bitcoin-cash-register/">
+          <Link href="https://www.bitcoin.com/bitcoin-cash-register/">
             Bitcoin Cash Register
-          </a>. Sell items online or in person for Bitcoin Cash.
+          </Link>. Sell items online or in person for Bitcoin Cash.
         </fbt>
       ),
       icon: <Business />,
@@ -155,13 +156,11 @@ const BuyPage = () => {
           Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash
           enabled ATM machine which make it very easy to trade in fiat for
           Bitcoin Cash. Ask at your nearest{" "}
-          <a href="https://events.bitcoin.com/">Bitcoin Cash Meetup</a> about
-          other options, or consider visiting restaurants in your city where you
-          can{" "}
-          <a href="https://www.bitcoincash.org/spend-bitcoin-cash.html">
-            spend Bitcoin Cash
-          </a>{" "}
-          and enquire there.
+          <Link href="https://events.bitcoin.com/">Bitcoin Cash Meetup</Link>{" "}
+          about other options, or consider visiting restaurants in your city
+          where you can{" "}
+          <Link href="/spend-bitcoin-cash/">spend Bitcoin Cash</Link> and
+          enquire there.
         </fbt>
       ),
     },
