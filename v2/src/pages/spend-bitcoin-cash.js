@@ -92,10 +92,16 @@ const SpendPage = () => {
             className={S.spendmap}
           />
           <h4 className={S.center}>
-            Location data by{" "}
-            <a href="https://map.bitcoin.com" target="_blank" rel="noreferrer">
-              Bitcoin.com Maps
-            </a>
+            <fbt desc="Spend page spend map disclaimer">
+              Location data by{" "}
+              <a
+                href="https://map.bitcoin.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Bitcoin.com Maps
+              </a>
+            </fbt>
           </h4>
         </div>
       </Container>
