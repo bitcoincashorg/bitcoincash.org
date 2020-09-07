@@ -344,6 +344,176 @@
     "developer_comment": "sidebar title 'accept' page",
     "context": "src/pages/accept-bitcoin-cash.js:98:101"
   },
+  "f537ed3014650f05a3141b9a1c65ee1e": {
+    "string": "Buy from an Exchange",
+    "developer_comment": "Buy page side column 'Buy from an Exchange' header",
+    "context": "src/pages/buy-bitcoin-cash.js:25:28"
+  },
+  "1419e05c21231ca8536d6d2ba88434e7": {
+    "string": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash.",
+    "developer_comment": "Buy page side column 'Buy from an Exchange' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:29:32"
+  },
+  "946b7f71c084f038de0f64f6e942500c": {
+    "string": "Use a Bitcoin Cash Faucet",
+    "developer_comment": "Buy page side column 'Use a Bitcoin Cash Faucet' header",
+    "context": "src/pages/buy-bitcoin-cash.js:36:39"
+  },
+  "c32d07c9f1ec7e029145acba7847810d": {
+    "string": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!",
+    "developer_comment": "Buy page side column faucet paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:41:45"
+  },
+  "cda264ce502bf19e3c87800b415f9aa9": {
+    "string": "Bitcoin Cash faucet",
+    "developer_comment": "In the phrase: \"Use a trusted{=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!\"",
+    "context": "src/pages/buy-bitcoin-cash.js:43:43"
+  },
+  "3e6f9417b6a5be2631b3a0f556c13400": {
+    "string": "Purchase in an App",
+    "developer_comment": "Buy page side column 'Purchase in app' header",
+    "context": "src/pages/buy-bitcoin-cash.js:50:53"
+  },
+  "fd8c42fbfa37cf603ea8e8d1373d4cb7": {
+    "string": "Use a trusted 3rd party app that sells Bitcoin Cash with a credit card.",
+    "developer_comment": "Buy page side column 'Purchase in app' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:54:57"
+  },
+  "b5321ec2e671b07dc291a915c0f8b5b9": {
+    "string": "Purchase from a Bitcoin Cash ATM",
+    "developer_comment": "Buy page side column 'ATM' header",
+    "context": "src/pages/buy-bitcoin-cash.js:61:64"
+  },
+  "48e09dead605d913993faf1087c33d3b": {
+    "string": "Many cities across the globe are setup with specialized Bitcoin Cash enabled ATM machines.",
+    "developer_comment": "Buy page side column 'ATM' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:65:68"
+  },
+  "d0ad6dc2ab651537723b959bac4f304b": {
+    "string": "Earn Bitcoin Cash Online",
+    "developer_comment": "Buy page side column 'Earn' header",
+    "context": "src/pages/buy-bitcoin-cash.js:72:75"
+  },
+  "6054437c3668b07a834dc86969cf86ce": {
+    "string": "Participate on censorship resistant social media platforms like {=Memo.cash}.",
+    "developer_comment": "Buy page side column 'Earn' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:77:80"
+  },
+  "55f273c5a8d86eb747161961fffafbe6": {
+    "string": "Memo.cash",
+    "developer_comment": "In the phrase: \"Participate on censorship resistant social media platforms like{=Memo.cash}.\"",
+    "context": "src/pages/buy-bitcoin-cash.js:79:79"
+  },
+  "9918a68b339e663705a987418e79c911": {
+    "string": "Buy in Person",
+    "developer_comment": "Buy page side column 'Buy in Person' header",
+    "context": "src/pages/buy-bitcoin-cash.js:85:88"
+  },
+  "578e1c24c06339241dd1f563459cdc38": {
+    "string": "Connect with locals in your area who are selling Bitcoin Cash on {=Bitcoin.com Local} or {=LocalBitcoinCash.org}.",
+    "developer_comment": "Buy page side column 'Buy in person' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:90:94"
+  },
+  "8f6a34e4e79b161e1cb2df8456865e7a": {
+    "string": "Bitcoin.com Local",
+    "developer_comment": "In the phrase: \"Connect with locals in your area who are selling Bitcoin Cash on{=Bitcoin.com Local} or{=LocalBitcoinCash.org}.\"",
+    "context": "src/pages/buy-bitcoin-cash.js:92:92"
+  },
+  "492a45a6c0f304b65954242800998b1b": {
+    "string": "LocalBitcoinCash.org",
+    "developer_comment": "In the phrase: \"Connect with locals in your area who are selling Bitcoin Cash on{=Bitcoin.com Local} or{=LocalBitcoinCash.org}.\"",
+    "context": "src/pages/buy-bitcoin-cash.js:93:93"
+  },
+  "7bca5f561da7058a2446053e3757a05b": {
+    "string": "Accept Bitcoin Cash at your Business",
+    "developer_comment": "Buy page side column 'Accept at you business' header",
+    "context": "src/pages/buy-bitcoin-cash.js:99:102"
+  },
+  "7141839018849626169161d6569e181c": {
+    "string": "Add Bitcoin Cash as a payment method to your store with the {=Bitcoin Cash Register}. Sell items online or in person for Bitcoin Cash.",
+    "developer_comment": "Buy page side column 'Accept at you business' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:104:109"
+  },
+  "dd0178697fea3f95cdf0bd9ca0fec8a8": {
+    "string": "Bitcoin Cash Register",
+    "developer_comment": "In the phrase: \"Add Bitcoin Cash as a payment method to your store with the{=Bitcoin Cash Register}. Sell items online or in person for Bitcoin Cash.\"",
+    "context": "src/pages/buy-bitcoin-cash.js:106:108"
+  },
+  "20a138f2e25ac2165f861890316a0010": {
+    "string": "Ask to be paid in Bitcoin Cash",
+    "developer_comment": "Buy page side column 'paid' header",
+    "context": "src/pages/buy-bitcoin-cash.js:114:117"
+  },
+  "7bda0a55ca7995abf7df27cfc48fba5e": {
+    "string": "Enquire with your job about being paid in full or partially in Bitcoin Cash.",
+    "developer_comment": "Buy page side column 'paid' paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:119:122"
+  },
+  "2cfcc5a7f9bcff424fc9b19fa98364a8": {
+    "string": "How do I get Bitcoin Cash?",
+    "developer_comment": "Buy page subtitle",
+    "context": "src/pages/buy-bitcoin-cash.js:130:130"
+  },
+  "3039f47c3861beec0825d81ceee8c820": {
+    "string": "Buy or Earn Bitcoin Cash",
+    "developer_comment": "Buy page title",
+    "context": "src/pages/buy-bitcoin-cash.js:131:131"
+  },
+  "9e3e4814a10e465c3e2fd236e96dd1ac": {
+    "string": "The two easiest ways to get Bitcoin Cash is to buy or work for it. Buying Bitcoin Cash is the most used and convenient way, where all you have to do is sign up for a Bitcoin exchange and deposit funds so you can convert it to Bitcoin Cash. The exchange will send you Bitcoin Cash after the trade has occurred. The other option is to earn Bitcoin Cash by working for it, for example finding a job on a job board that pays in Bitcoin Cash or creating your own service (selling t-shirts for example) and earning Bitcoin Cash.",
+    "developer_comment": "Buy page main paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:133:142"
+  },
+  "bcbcf60faa6551cde4df015110ba931d": {
+    "string": "Where can I find Bitcoin Cash locally?",
+    "developer_comment": "Buy page subtitle for finding bitcoin cash locally",
+    "context": "src/pages/buy-bitcoin-cash.js:146:149"
+  },
+  "4fe3626b7a5a84066dc77dc4b0bc6724": {
+    "string": "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest {=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can {=spend Bitcoin Cash} and enquire there.",
+    "developer_comment": "Buy page find locally paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:151:164"
+  },
+  "d19057e75b57b87372167e8b3060d0b0": {
+    "string": "Bitcoin Cash Meetup",
+    "developer_comment": "In the phrase: \"In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest{=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can{=spend Bitcoin Cash} and enquire there.\"",
+    "context": "src/pages/buy-bitcoin-cash.js:159:159"
+  },
+  "38445241b155405218c4a57740299045": {
+    "string": "spend Bitcoin Cash",
+    "developer_comment": "In the phrase: \"In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest{=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can{=spend Bitcoin Cash} and enquire there.\"",
+    "context": "src/pages/buy-bitcoin-cash.js:162:162"
+  },
+  "9c21db44d680bc24b4cc2626bc7fa6d1": {
+    "string": "Can I buy Bitcoin Cash Online?",
+    "developer_comment": "Buy page subtitle for buying bitcoin cash online",
+    "context": "src/pages/buy-bitcoin-cash.js:168:171"
+  },
+  "d8e0edb9fb1d10c788250d72528da332": {
+    "string": "Buying Bitcoin Cash online is the most popular way to receive Bitcoin Cash. Online Exchanges which buy and sell local currency and cryptocurrencies allow you to perform bank transfers to trade for Bitcoin Cash. Some even accept credit card for immediate purchase. As with any online purchase, do your own research and ensure you have a your own wallet. We do not recommend leaving any Bitcoin Cash on exchanges. You should always store your Bitcoin Cash on your own wallet that's been safely backed up.",
+    "developer_comment": "Buy page buy online paragraph",
+    "context": "src/pages/buy-bitcoin-cash.js:173:182"
+  },
+  "e3f34224a984c5401b8ea0ee050da8df": {
+    "string": "Where can I get Bitcoin Cash?",
+    "developer_comment": "sidebar title 'buy' page",
+    "context": "src/pages/buy-bitcoin-cash.js:212:215"
+  },
+  "03fe2735053d17e8d3f29270870f5a0e": {
+    "string": "Featured Exchanges",
+    "developer_comment": "'featured exchanges' heading on exchanges page",
+    "context": "src/pages/buy-bitcoin-cash.js:224:226"
+  },
+  "4837a19183ddf0da2f82270761af7e80": {
+    "string": "Exchanges",
+    "developer_comment": "Buy page exchange list header",
+    "context": "src/pages/buy-bitcoin-cash.js:232:232"
+  },
+  "8ab51c66ad74ae76e00f84af22cb69b6": {
+    "string": "Microeconomy",
+    "developer_comment": "Buy page microeconomy list header",
+    "context": "src/pages/buy-bitcoin-cash.js:238:238"
+  },
   "bc2a94069c0682096a036ae4bfe47966": {
     "string": "Fast",
     "developer_comment": "Getting started page learn column 'Fast' title",
@@ -948,6 +1118,21 @@
     "string": "Paper Wallets",
     "developer_comment": "Wallets page wallet list 'Paper wallets' header",
     "context": "src/pages/wallets.js:176:178"
+  },
+  "cf5bfb3a954b0cc97a5ad1b0df312858": {
+    "string": "Coinbase is a digital currency exchange headquartered in San Francisco, California. They broker exchanges of Bitcoin Cash and other cryptocurrencies with fiat currencies in approximately 32 countries.",
+    "developer_comment": "Coinbase featured exchange text",
+    "context": "src/partners/exchanges/coinbase.js:10:14"
+  },
+  "52f47801fe8849adcf8e14a4d6ce4529": {
+    "string": "CoinEx is dedicated to building a highly secure, stable and efficient digital coin exchange for global users. CoinEx now supports multiple languages and are providing global trading services in nearly 100 countries/regions.",
+    "developer_comment": "Coinex featured exchange text",
+    "context": "src/partners/exchanges/coinex.js:10:15"
+  },
+  "45f8bafd7d930fd1492accec3dee96b5": {
+    "string": "Kraken is the largest Bitcoin exchange in euro volume and liquidity and also trading Canadian dollars, US dollars, British pounds and Japanese yen. Kraken is consistently rated the best and most secure Bitcoin exchange by independent news media.",
+    "developer_comment": "Kraken featured exchange text",
+    "context": "src/partners/exchanges/kraken.js:10:15"
   },
   "13691ba4252beb6502e8bf9a91778aab": {
     "string": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly.",
