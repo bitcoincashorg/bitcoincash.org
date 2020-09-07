@@ -1,4 +1,4 @@
-import SideshiftLogo from "./images/sideshift.png"
+import SideshiftLogo from "./sideshift.png"
 
 const Sideshift = () => ({
   link: "https://sideshift.ai/",

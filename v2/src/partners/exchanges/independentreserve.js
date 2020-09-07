@@ -1,4 +1,4 @@
-import IndependentreserveLogo from "./images/independentreserve.png"
+import IndependentreserveLogo from "./independentreserve.png"
 
 const Independentreserve = () => ({
   link: "https://www.independentreserve.com/",

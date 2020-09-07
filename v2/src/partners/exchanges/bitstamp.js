@@ -1,4 +1,4 @@
-import BitstampLogo from "./images/bitstamp.png"
+import BitstampLogo from "./bitstamp.png"
 
 const Bitstamp = () => ({
   link: "https://www.bitstamp.net/",

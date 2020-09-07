@@ -1,6 +1,6 @@
 import React from "react"
 import fbt from "fbt"
-import CoinexLogo from "./images/coinex.png"
+import CoinexLogo from "./coinex.png"
 
 const Coinex = () => ({
   link: "https://www.coinex.com/",

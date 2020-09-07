@@ -1,4 +1,4 @@
-import CexioLogo from "./images/cexio.png"
+import CexioLogo from "./cexio.png"
 
 const Cexio = () => ({
   link: "https://cex.io/",

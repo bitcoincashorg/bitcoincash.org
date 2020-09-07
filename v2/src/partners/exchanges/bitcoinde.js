@@ -1,4 +1,4 @@
-import BitcoindeLogo from "./images/bitcoinde.png"
+import BitcoindeLogo from "./bitcoinde.png"
 
 const Bitcoinde = () => ({
   link: "https://www.bitcoin.de/",

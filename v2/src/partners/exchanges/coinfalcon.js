@@ -1,4 +1,4 @@
-import CoinfalconLogo from "./images/coinfalcon.png"
+import CoinfalconLogo from "./coinfalcon.png"
 
 const Coinfalcon = () => ({
   link: "https://coinfalcon.com",

@@ -1,4 +1,4 @@
-import GeminiLogo from "./images/gemini.png"
+import GeminiLogo from "./gemini.png"
 
 const Gemini = () => ({
   link: "https://gemini.com/exchange",

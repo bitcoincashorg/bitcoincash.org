@@ -1,4 +1,4 @@
-import LocalbitcoincashLogo from "./images/localbitcoincash.png"
+import LocalbitcoincashLogo from "./localbitcoincash.png"
 
 const Localbitcoincash = () => ({
   link: "https://www.localbitcoincash.org/",

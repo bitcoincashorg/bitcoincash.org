@@ -1,4 +1,4 @@
-import ReadCashLogo from "./images/readcash.png"
+import ReadCashLogo from "./readcash.png"
 
 const ReadCash = () => ({
   link: "https://read.cash/",

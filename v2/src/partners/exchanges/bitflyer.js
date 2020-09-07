@@ -1,4 +1,4 @@
-import BitflyerLogo from "./images/bitflyer.png"
+import BitflyerLogo from "./bitflyer.png"
 
 const Bitflyer = () => ({
   link: "https://bitflyer.jp/",

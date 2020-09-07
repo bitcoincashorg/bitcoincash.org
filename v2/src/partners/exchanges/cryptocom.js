@@ -1,4 +1,4 @@
-import CryptocomLogo from "./images/cryptocom.png"
+import CryptocomLogo from "./cryptocom.png"
 
 const Cryptocom = () => ({
   link: "https://crypto.com/exchange",

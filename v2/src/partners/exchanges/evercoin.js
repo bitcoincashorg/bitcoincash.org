@@ -1,4 +1,4 @@
-import EvercoinLogo from "./images/evercoin.png"
+import EvercoinLogo from "./evercoin.png"
 
 const Evercoin = () => ({
   link: "https://evercoin.com/",

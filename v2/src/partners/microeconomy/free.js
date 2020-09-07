@@ -1,4 +1,4 @@
-import FreeLogo from "./images/freebitcoin.png"
+import FreeLogo from "./freebitcoin.png"
 
 const Free = () => ({
   link: "https://free.bitcoin.com/",

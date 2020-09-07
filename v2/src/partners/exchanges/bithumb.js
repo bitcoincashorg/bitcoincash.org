@@ -1,4 +1,4 @@
-import BithumbLogo from "./images/bithumb.png"
+import BithumbLogo from "./bithumb.png"
 
 const Bithumb = () => ({
   link: "https://www.bithumb.com/",

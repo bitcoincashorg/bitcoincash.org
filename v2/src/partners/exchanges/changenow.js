@@ -1,4 +1,4 @@
-import ChangenowLogo from "./images/changenow.png"
+import ChangenowLogo from "./changenow.png"
 
 const Changenow = () => ({
   link: "https://changenow.io/",

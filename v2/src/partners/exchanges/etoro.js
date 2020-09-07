@@ -1,4 +1,4 @@
-import EtoroLogo from "./images/etoro.png"
+import EtoroLogo from "./etoro.png"
 
 const Etoro = () => ({
   link: "https://www.etoro.com/",

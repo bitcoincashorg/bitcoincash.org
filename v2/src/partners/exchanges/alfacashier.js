@@ -1,4 +1,4 @@
-import AlfacashierLogo from "./images/alfacashier.png"
+import AlfacashierLogo from "./alfacashier.png"
 
 const Alfacashier = () => ({
   link: "https://www.alfacashier.com/",

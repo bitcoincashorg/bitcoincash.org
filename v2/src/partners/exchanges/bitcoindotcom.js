@@ -1,4 +1,4 @@
-import BitcoindotcomLogo from "./images/bitcoindotcom.png"
+import BitcoindotcomLogo from "./bitcoindotcom.png"
 
 const Bitcoindotcom = () => ({
   link: "https://exchange.bitcoin.com",

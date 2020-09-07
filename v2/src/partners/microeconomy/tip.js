@@ -1,4 +1,4 @@
-import TipLogo from "./images/tipbitcoin.png"
+import TipLogo from "./tipbitcoin.png"
 
 const Tip = () => ({
   link: "https://tipbitcoin.cash/",

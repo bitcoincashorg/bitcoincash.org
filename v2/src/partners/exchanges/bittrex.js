@@ -1,4 +1,4 @@
-import BittrexLogo from "./images/bittrex.png"
+import BittrexLogo from "./bittrex.png"
 
 const Bittrex = () => ({
   link: "https://bittrex.com/",

@@ -1,4 +1,4 @@
-import MemoLogo from "./images/memo.png"
+import MemoLogo from "./memo.png"
 
 const Memo = () => ({
   link: "https://memo.cash/",

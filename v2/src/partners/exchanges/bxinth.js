@@ -1,4 +1,4 @@
-import BxinthLogo from "./images/bxinth.png"
+import BxinthLogo from "./bxinth.png"
 
 const Bxinth = () => ({
   link: "https://bx.in.th/THB/BCH/",

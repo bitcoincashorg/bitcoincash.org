@@ -1,4 +1,4 @@
-import BestrateLogo from "./images/bestrate.png"
+import BestrateLogo from "./bestrate.png"
 
 const Bestrate = () => ({
   link: "https://bestrate.org/",

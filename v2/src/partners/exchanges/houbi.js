@@ -1,9 +1,9 @@
-import HoubiLogo from "./images/houbi.png"
+import HuobiLogo from "./huobi.png"
 
 const Houbi = () => ({
   link: "https://huobi.com",
-  alt: "Houbi",
-  img: HoubiLogo,
+  alt: "Huobi",
+  img: HuobiLogo,
 })
 
-export default Houbi
+export default Huobi

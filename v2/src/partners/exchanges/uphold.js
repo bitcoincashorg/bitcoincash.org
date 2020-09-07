@@ -1,4 +1,4 @@
-import UpholdLogo from "./images/uphold.png"
+import UpholdLogo from "./uphold.png"
 
 const Uphold = () => ({
   link: "https://uphold.com",

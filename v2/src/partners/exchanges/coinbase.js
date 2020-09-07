@@ -1,6 +1,6 @@
 import React from "react"
 import fbt from "fbt"
-import CoinbaseLogo from "./images/coinbase.png"
+import CoinbaseLogo from "./coinbase.png"
 
 const Coinbase = () => ({
   link: "https://www.coinbase.com/",

@@ -1,6 +1,6 @@
 import React from "react"
 import fbt from "fbt"
-import KrakenLogo from "./images/kraken.png"
+import KrakenLogo from "./kraken.png"
 
 const Kraken = () => ({
   link: "https://www.kraken.com/",

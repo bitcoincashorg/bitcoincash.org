@@ -1,4 +1,4 @@
-import GodexLogo from "./images/godex.png"
+import GodexLogo from "./godex.png"
 
 const Godex = () => ({
   link: "https://godex.io",
