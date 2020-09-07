@@ -714,6 +714,71 @@
     "developer_comment": "Roadmap conclusion",
     "context": "src/pages/roadmap.js:426:431"
   },
+  "f6c44097c03448faa1d1d4cd3a7b8a9e": {
+    "string": "Shop Online",
+    "developer_comment": "Spend page side column 'Shop online' header",
+    "context": "src/pages/spend-bitcoin-cash.js:16:16"
+  },
+  "0c7a4eafd2714cafe162617f567d94c6": {
+    "string": "Spend Bitcoin Cash at some of your favourite online retailers.",
+    "developer_comment": "Spend page side column 'shop online' paragraph",
+    "context": "src/pages/spend-bitcoin-cash.js:17:20"
+  },
+  "a975d19dcd192c56716c068e8244d26e": {
+    "string": "Spend at Restaurants",
+    "developer_comment": "Spend page side column 'Shop restaurants' header",
+    "context": "src/pages/spend-bitcoin-cash.js:24:27"
+  },
+  "8ab082f16c6dbc55a408fae29a05f625": {
+    "string": "Visit restaurants or cafes that accept Bitcoin Cash.",
+    "developer_comment": "Spend page side column 'Shop restaurants' paragraph",
+    "context": "src/pages/spend-bitcoin-cash.js:28:31"
+  },
+  "8b08668323fc878fc4c870760dcc43f3": {
+    "string": "Shop in Person",
+    "developer_comment": "Spend page side column 'Shop in person' header",
+    "context": "src/pages/spend-bitcoin-cash.js:35:38"
+  },
+  "5abcdb390d40e4a8776b54d56d642d05": {
+    "string": "Drop in to over 5000 physical locations accepting Bitcoin Cash.",
+    "developer_comment": "Spend page side column 'Shop in person' paragraph",
+    "context": "src/pages/spend-bitcoin-cash.js:39:42"
+  },
+  "b7c1d3ad85e85435585dd5a42bd3e0fc": {
+    "string": "What can I buy with Bitcoin Cash?",
+    "developer_comment": "Spend page subtitle",
+    "context": "src/pages/spend-bitcoin-cash.js:49:49"
+  },
+  "b71f4d4822b332fdd741f15c787a1c45": {
+    "string": "Spend Bitcoin Cash",
+    "developer_comment": "Spend page title",
+    "context": "src/pages/spend-bitcoin-cash.js:50:50"
+  },
+  "8bd6057443fb796c6ec1f3181dc8c7ec": {
+    "string": "Getting stBitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.",
+    "developer_comment": "Spend page main paragraph",
+    "context": "src/pages/spend-bitcoin-cash.js:52:58"
+  },
+  "98de1bb9fab11d069ecb356b5da29844": {
+    "string": "Where can I spend Bitcoin Cash?",
+    "developer_comment": "sidebar title 'spend' page",
+    "context": "src/pages/spend-bitcoin-cash.js:70:73"
+  },
+  "acc1d2044652d38249f3ad8e4d4a2aac": {
+    "string": "Spend Bitcoin Cash in Person",
+    "developer_comment": "Spend page spend map header",
+    "context": "src/pages/spend-bitcoin-cash.js:82:84"
+  },
+  "7a350b47bb5227b22b2e3181d50bcba4": {
+    "string": "Location data by {=Bitcoin.com Maps}",
+    "developer_comment": "Spend page spend map disclaimer",
+    "context": "src/pages/spend-bitcoin-cash.js:95:104"
+  },
+  "96595f0244e74d9bdcc717f7604c7ff7": {
+    "string": "Bitcoin.com Maps",
+    "developer_comment": "In the phrase: \"Location data by{=Bitcoin.com Maps}\"",
+    "context": "src/pages/spend-bitcoin-cash.js:97:103"
+  },
   "24f1ac1047df047c2b018b64f48e4f8f": {
     "string": "Getting Started",
     "developer_comment": "Getting Started Header",
