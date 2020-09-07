@@ -52,10 +52,11 @@
   padding: 0;
 }
 
-.cardcontentcontainer a, .cardcontentcontainer a:visited  {
+.cardcontentcontainer a,
+.cardcontentcontainer a:visited {
   color: #ff8d00;
 }
 
-.cardcontentcontainer a:hover  {
+.cardcontentcontainer a:hover {
   text-decoration: underline;
 }

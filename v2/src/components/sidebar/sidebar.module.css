@@ -49,10 +49,11 @@
   font-size: 16px;
 }
 
-.cardIconText a, .cardIconText a:visited  {
+.cardIconText a,
+.cardIconText a:visited {
   color: #ff8d00;
 }
 
-.cardIconText a:hover  {
+.cardIconText a:hover {
   text-decoration: underline;
 }
