@@ -39,10 +39,8 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column faucet paragraph">
           Use a trusted{" "}
-          <a href="https://free.bitcoin.com/" style={{ color: "#f7941c" }}>
-            Bitcoin Cash faucet
-          </a>{" "}
-          to receive a tiny amount of Bitcoin Cash for free!
+          <a href="https://free.bitcoin.com/">Bitcoin Cash faucet</a> to receive
+          a tiny amount of Bitcoin Cash for free!
         </fbt>
       ),
       icon: <Faucet />,
@@ -77,9 +75,7 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column 'Earn' paragraph">
           Participate on censorship resistant social media platforms like{" "}
-          <a href="https://memo.cash/" style={{ color: "#f7941c" }}>
-            Memo.cash
-          </a>.
+          <a href="https://memo.cash/">Memo.cash</a>.
         </fbt>
       ),
       icon: <Globe />,
@@ -92,13 +88,8 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column 'Buy in person' paragraph">
           Connect with locals in your area who are selling Bitcoin Cash on{" "}
-          <a href="https://local.bitcoin.com/" style={{ color: "#f7941c" }}>
-            Bitcoin.com Local
-          </a>{" "}
-          or{" "}
-          <a href="https://localbitcoincash.org/" style={{ color: "#f7941c" }}>
-            LocalBitcoinCash.org
-          </a>.
+          <a href="https://local.bitcoin.com/">Bitcoin.com Local</a> or{" "}
+          <a href="https://localbitcoincash.org/">LocalBitcoinCash.org</a>.
         </fbt>
       ),
       icon: <People />,
@@ -111,10 +102,7 @@ const BuyPage = () => {
       paragraph: (
         <fbt desc="Buy page side column 'Accept at you business' paragraph">
           Add Bitcoin Cash as a payment method to your store with the{" "}
-          <a
-            href="https://www.bitcoin.com/bitcoin-cash-register/"
-            style={{ color: "#f7941c" }}
-          >
+          <a href="https://www.bitcoin.com/bitcoin-cash-register/">
             Bitcoin Cash Register
           </a>. Sell items online or in person for Bitcoin Cash.
         </fbt>
@@ -167,15 +155,10 @@ const BuyPage = () => {
           Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash
           enabled ATM machine which make it very easy to trade in fiat for
           Bitcoin Cash. Ask at your nearest{" "}
-          <a href="https://events.bitcoin.com/" style={{ color: "#f7941c" }}>
-            Bitcoin Cash Meetup
-          </a>{" "}
-          about other options, or consider visiting restaurants in your city
-          where you can{" "}
-          <a
-            href="https://www.bitcoincash.org/spend-bitcoin-cash.html"
-            style={{ color: "#f7941c" }}
-          >
+          <a href="https://events.bitcoin.com/">Bitcoin Cash Meetup</a> about
+          other options, or consider visiting restaurants in your city where you
+          can{" "}
+          <a href="https://www.bitcoincash.org/spend-bitcoin-cash.html">
             spend Bitcoin Cash
           </a>{" "}
           and enquire there.

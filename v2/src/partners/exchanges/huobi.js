@@ -1,6 +1,6 @@
 import HuobiLogo from "./huobi.png"
 
-const Houbi = () => ({
+const Huobi = () => ({
   link: "https://huobi.com",
   alt: "Huobi",
   img: HuobiLogo,

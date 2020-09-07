@@ -37,7 +37,7 @@
   margin: 0 0 10px 0;
   padding: 0;
   font-size: 18px;
-  color: #f7941c;
+  color: #ff8d00;
 }
 
 .card h3 {
@@ -50,4 +50,12 @@
 .card p {
   margin: 0 0 30px 0;
   padding: 0;
+}
+
+.cardcontentcontainer a, .cardcontentcontainer a:visited  {
+  color: #ff8d00;
+}
+
+.cardcontentcontainer a:hover  {
+  text-decoration: underline;
 }
