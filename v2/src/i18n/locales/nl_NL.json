@@ -494,7 +494,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "Stuur Euro's naar een vertrouwd wisselkantoor en koop daar Bitcoin Cash."
         }
       ]
     },
@@ -508,14 +508,14 @@
     "c32d07c9f1ec7e029145acba7847810d": {
       "translations": [
         {
-          "translation": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!"
+          "translation": "Gebruik een vertrouwde {=Bitcoin Cash faucet} om een kleine hoeveelheid Bitcoin Cash gratis te ontvangen!"
         }
       ]
     },
     "cda264ce502bf19e3c87800b415f9aa9": {
       "translations": [
         {
-          "translation": "Bitcoin Cash faucet"
+          "translation": "Bitcoin Cash faucet"
         }
       ]
     },
