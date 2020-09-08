@@ -26,7 +26,7 @@ const StartHerePage = () => {
         <Row>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="/getting-started.html">
+              <Link to="/getting-started/">
                 <img
                   className={S.cardImg}
                   src={GetStarted}
@@ -124,7 +124,7 @@ const StartHerePage = () => {
         <Row>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="/buy-bitcoin-cash.html">
+              <Link to="/buy-bitcoin-cash/">
                 <img className={S.cardImg} src={Buy} alt="Buy Bitcoin Cash" />
               </Link>
               <div className={S.cardContent}>
@@ -160,14 +160,14 @@ const StartHerePage = () => {
                     "View More",
                     "'View More' button on start here page to see more content"
                   )}
-                  href={"/buy-bitcoin-cash.html"}
+                  href={"/buy-bitcoin-cash/"}
                 />
               </div>
             </div>
           </Col>
           <Col md={6}>
             <div className={S.card}>
-              <Link to="/spend-bitcoin-cash.html">
+              <Link to="/spend-bitcoin-cash/">
                 <img
                   className={S.cardImg}
                   src={Spend}
@@ -207,7 +207,7 @@ const StartHerePage = () => {
                     "View More",
                     "'View More' button on start here page to see more content"
                   )}
-                  href={"/spend-bitcoin-cash.html"}
+                  href={"/spend-bitcoin-cash/"}
                 />
               </div>
             </div>
@@ -216,7 +216,7 @@ const StartHerePage = () => {
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <div className={S.card}>
-              <Link to="/accept-bitcoin-cash.html">
+              <Link to="/accept-bitcoin-cash/">
                 <img
                   className={S.cardImg}
                   src={Accept}
@@ -260,7 +260,7 @@ const StartHerePage = () => {
                     "View More",
                     "'View More' button on start here page to see more content"
                   )}
-                  href={"/accept-bitcoin-cash.html"}
+                  href={"/accept-bitcoin-cash/"}
                 />
               </div>
             </div>

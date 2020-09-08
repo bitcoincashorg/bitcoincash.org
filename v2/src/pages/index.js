@@ -27,7 +27,7 @@ const IndexPage = () => {
           "first banner on the homepage"
         )}
         bannerIcon={<Arrow />}
-        href={"/buy-bitcoin-cash.html"}
+        href={"/buy-bitcoin-cash/"}
       />
       <div>
         <MoneyAbroadFeature />
@@ -39,7 +39,7 @@ const IndexPage = () => {
           "second banner on the homepage"
         )}
         bannerIcon={<Arrow />}
-        href={"/spend-bitcoin-cash.html"}
+        href={"/spend-bitcoin-cash/"}
       />
       <div>
         <StoreSecurelyFeature />

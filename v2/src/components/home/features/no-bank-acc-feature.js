@@ -19,7 +19,7 @@ const NoBankAccFeature = () => {
       isReversed={true}
       isDarkBg={true}
       featureImage={<img src={cafe} alt="bch-no-bank" />}
-      btnHref={"/start-here.html"}
+      btnHref={"/start-here/"}
     >
       <fbt desc="'no bank needed' feature's body">
         Too far away? Too many fees? Whatever your reason for not owning a bank
