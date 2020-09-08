@@ -20,7 +20,7 @@ const FromPhoneFeature = () => {
       isReversed={true}
       isDarkBg={true}
       featureImage={<img src={cafe} alt="bch-cafe" />}
-      btnHref={"/spend-bitcoin-cash.html"}
+      btnHref={"/spend-bitcoin-cash/"}
     >
       <fbt desc="'spend from your phone' feature's body">
         Coffee to go? Time for a new laptop? Get it with Bitcoin Cash at an

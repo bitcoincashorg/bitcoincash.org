@@ -175,7 +175,7 @@ const Header = () => {
             <LivePriceWidget
               currentPrice={"$" + currentUSDPrice}
               ticker={"USD"}
-              url={"/buy-bitcoin-cash.html"}
+              url={"/buy-bitcoin-cash/"}
             />
           </div>
 
