@@ -662,7 +662,7 @@
     "4fe3626b7a5a84066dc77dc4b0bc6724": {
       "translations": [
         {
-          "translation": "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest {=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can {=spend Bitcoin Cash} and enquire there."
+          "translation": "In vele steden is er een markt voor Over The Counter (OTC) verkopers die fiatgeld (zoals USD, EUR, etc) voor Bitcoin Cash. Of overweeg je werkgever te vragen of ze bereid zijn aan de voorgrond van de toekomst van geld te staan en gedeeltelijke of volledige betaling in Bitcoin Cash aan te bieden. Sommige grotere steden zijn ook uitgerust met een PINautomaat  met Bitcoin Cash mogelijkheid die het heel eenvoudig maakt om fiatgeld in te ruilen voor Bitcoin Cash. Vraag bij je dichtstbijzijnde {=Bitcoin Cash Meetup} over andere opties, of overweeg langs te gaan bij restaurants in je stad waar je {=spend Bitcoin Cash} en doe er navraag.  "
         }
       ]
     },
@@ -676,7 +676,7 @@
     "38445241b155405218c4a57740299045": {
       "translations": [
         {
-          "translation": "spend Bitcoin Cash"
+          "translation": "Bitcoin Cash kan uitgeven"
         }
       ]
     },
@@ -1306,14 +1306,14 @@
     "98de1bb9fab11d069ecb356b5da29844": {
       "translations": [
         {
-          "translation": "Where can I spend Bitcoin Cash?"
+          "translation": "Waar kan ik Bitcoin Cash uitgeven?"
         }
       ]
     },
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "Geef Bitcoin Cash Persoonlijk Uit"
         }
       ]
     },
