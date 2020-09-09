@@ -29,11 +29,14 @@ exports.onCreatePage = async ({
   await deletePage(page)
 
   // Create one page for each locale
-  await forEachLocale(page, (page, context, localizationParams, localizedPath) => {
-    createPage({
-      ...page,
-      path: localizedPath,
-      context,
-    })
-  })
+  await forEachLocale(
+    page,
+    (page, context, localizationParams, localizedPath) => {
+      createPage({
+        ...page,
+        path: localizedPath,
+        context,
+      })
+    }
+  )
 }

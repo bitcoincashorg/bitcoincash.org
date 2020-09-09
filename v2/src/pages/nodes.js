@@ -11,7 +11,7 @@ const NodesPage = () => {
   return (
     <>
       <SEO title="Bitcoin Cash Nodes" />
-      <Container style={{padding: "130px 0"}}>
+      <Container style={{ padding: "130px 0" }}>
         <h2 className="centerh2">
           <fbt desc="'Nodes' heading on nodes page">Nodes</fbt>
         </h2>
