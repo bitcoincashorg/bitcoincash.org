@@ -1,5 +1,26 @@
 const locales = require("./src/i18n/locales")
 
+// Execute some function for each locale of a given page
+const forEachLocale = async (page, fn) => {
+  await Promise.all(
+    Object.entries(locales).map(async ([locale, localizationParams]) => {
+      const originalPath = page.path
+      const context = {
+        ...page.context,
+        originalPath,
+        locale,
+      }
+
+      let localizedPath = originalPath
+      if (localizationParams.slug) {
+        localizedPath = "/" + localizationParams.slug + localizedPath
+      }
+
+      await fn(page, context, localizationParams, localizedPath)
+    })
+  )
+}
+
 exports.onCreatePage = async ({
   page,
   actions: { createPage, deletePage },
@@ -8,24 +29,11 @@ exports.onCreatePage = async ({
   await deletePage(page)
 
   // Create one page for each locale
-  await Promise.all(
-    Object.entries(locales).map(async ([locale, params]) => {
-      const originalPath = page.path
-
-      let localizedPath = originalPath
-      if (params.slug) {
-        localizedPath = "/" + params.slug + localizedPath
-      }
-
-      await createPage({
-        ...page,
-        path: localizedPath,
-        context: {
-          ...page.context,
-          originalPath,
-          locale,
-        },
-      })
+  await forEachLocale(page, (page, context, localizationParams, localizedPath) => {
+    createPage({
+      ...page,
+      path: localizedPath,
+      context,
     })
-  )
+  })
 }
