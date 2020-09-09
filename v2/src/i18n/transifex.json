@@ -1089,8 +1089,8 @@
     "developer_comment": "Spend page title",
     "context": "src/pages/spend-bitcoin-cash.js:50:50"
   },
-  "8bd6057443fb796c6ec1f3181dc8c7ec": {
-    "string": "Getting stBitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.",
+  "edc46b4fa2ee1daf88fc0635ca52ae30": {
+    "string": "Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.",
     "developer_comment": "Spend page main paragraph",
     "context": "src/pages/spend-bitcoin-cash.js:52:58"
   },
