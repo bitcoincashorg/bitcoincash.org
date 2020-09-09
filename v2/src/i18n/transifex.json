@@ -169,50 +169,50 @@
     "developer_comment": "'does what banks can't do' homepage feature's CTA button text",
     "context": "src/components/home/home-large-feature.js:49:52"
   },
-  "cfce7f318ae20404ef612bf056dba732": {
-    "string": "Reminder: November 15th, 2020 Planned Network Upgrade",
+  "a7430462af5cba62b3f993c0b544b345": {
+    "string": "Reminder: {upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar reminder headline",
-    "context": "src/layout/announcement-bar.js:15:17"
+    "context": "src/layout/announcement-bar.js:27:33"
   },
-  "ff7e316c73d0dfcd7d0d32a8339e1efc": {
-    "string": "November 15th, 2020 Planned Network Upgrade",
+  "c896f27be5c90b6872cb876ce31ecfe3": {
+    "string": "{upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar inner headline",
-    "context": "src/layout/announcement-bar.js:25:27"
+    "context": "src/layout/announcement-bar.js:41:46"
   },
   "60fc904396840c992f474ecda2da39ca": {
     "string": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
     "developer_comment": "Annoucement bar paragraph",
-    "context": "src/layout/announcement-bar.js:30:35"
+    "context": "src/layout/announcement-bar.js:49:54"
   },
   "d770c97de5c52bd8109e39c140e62bab": {
     "string": "See Roadmap",
     "developer_comment": "'See Roadmap' button of the annoucement bar",
-    "context": "src/layout/announcement-bar.js:41:44"
+    "context": "src/layout/announcement-bar.js:60:63"
   },
   "a47ca8d131e17fdd59a17e6deab246f1": {
     "string": "Close",
     "developer_comment": "'close' button on announcement bar at top of page to close the bar",
-    "context": "src/layout/announcement-bar.js:50:52"
+    "context": "src/layout/announcement-bar.js:69:71"
   },
   "c7953645d1fdc6c8e72e1ad2fe573a5f": {
     "string": "Compatible Implementations:",
     "developer_comment": "Annoucement bar 'Compatible Implementations'",
-    "context": "src/layout/announcement-bar.js:58:60"
+    "context": "src/layout/announcement-bar.js:77:79"
   },
   "4b0b3d5f8d03531c1cfe320e2883e0fd": {
     "string": "Additional Information:",
     "developer_comment": "Annoucement bar 'Additional Information:'",
-    "context": "src/layout/announcement-bar.js:69:71"
+    "context": "src/layout/announcement-bar.js:88:90"
   },
   "2a854a9d90f8402de7ce2e1f5fb71596": {
     "string": "Upgrade Specification",
     "developer_comment": "Annoucement bar 'Upgrade Specification'",
-    "context": "src/layout/announcement-bar.js:77:79"
+    "context": "src/layout/announcement-bar.js:96:98"
   },
   "41dd1d8d417e0a4239a6ae6bdff85146": {
     "string": "Testnet Information",
     "developer_comment": "Annoucement bar 'Testnet Information'",
-    "context": "src/layout/announcement-bar.js:85:87"
+    "context": "src/layout/announcement-bar.js:104:106"
   },
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
