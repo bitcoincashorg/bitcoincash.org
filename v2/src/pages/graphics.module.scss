@@ -1,0 +1,133 @@
+.topSection {
+  width: 100%;
+  padding: 60px 0;
+  background: rgb(243, 243, 243);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.topSectionBar {
+  width: 100%;
+  padding: 10px 0;
+  background: rgb(247, 247, 247);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.topSection p {
+  max-width: 750px;
+  display: inline-block;
+  margin: 0;
+}
+
+.topContainer {
+  padding: 0;
+}
+
+.topNav {
+  justify-content: center;
+}
+
+.topSectionBar a {
+  color: #444;
+}
+
+.topSectionBar a:hover {
+  color: #ff8d00;
+}
+
+.titleContianer {
+  text-align: center;
+}
+
+.titleContianer a {
+  color: #ff8d00;
+}
+
+.titleContianer a svg {
+  fill: #ff8d00;
+  stroke: #ff8d00;
+  width: 30px;
+  height: 30px;
+  margin-top: -10px;
+}
+
+.titleContianer a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+.visualID h3 {
+  font-family: "Ubuntu", Arial, sans-serif;
+  margin: 0 0 10px 0;
+}
+
+.visualID p {
+  font-family: "Ubuntu", Arial, sans-serif;
+  margin: 0 0 20px 0;
+}
+
+.visualID {
+  margin-bottom: 40px;
+}
+
+.colorctn {
+  text-align: center;
+}
+
+.colorinfoctn h4 {
+  color: #444;
+  margin: 0 0 15px 0;
+}
+
+.colorinfoctn p {
+  margin: 0;
+}
+
+.boxcolor {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.rowpadding {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 762px) {
+  .visualIDCtn {
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .colorctnpadding {
+    padding: 0 30px;
+  }
+
+  .boxcolor {
+    width: 80px;
+    height: 80px;
+  }
+
+  .visualID p {
+    font-size: 10px;
+  }
+
+  .visualID:last-child {
+    margin-bottom: 100px;
+  }
+  body,
+  html {
+    overflow-x: hidden;
+  }
+}

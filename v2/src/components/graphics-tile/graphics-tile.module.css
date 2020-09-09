@@ -1,0 +1,56 @@
+.logoCard {
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06),
+    0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06), 0 2px 14px 6px rgba(0, 0, 0, 0.04);
+}
+
+.logoCard img {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.logoCard a {
+  background: #fff;
+  color: #444;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+  transition: all 300ms ease-in-out;
+}
+
+.logoCard a:visited {
+  color: #444;
+}
+
+.logoCard a:hover {
+  background: #444;
+  color: #fff;
+}
+
+.logoCard h4 {
+  color: #444;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 765px) {
+  .logoCard img {
+    max-width: 300px;
+  }
+
+  .logoCard h5 {
+    font-size: 14px;
+  }
+}
