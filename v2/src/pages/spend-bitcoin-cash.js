@@ -50,11 +50,11 @@ const SpendPage = () => {
       title: fbt("Spend Bitcoin Cash", "Spend page title"),
       paragraph: (
         <fbt desc="Spend page main paragraph">
-          Getting stBitcoin Cash isn’t just for speculation. It’s intended usage
-          is a peer to peer electronic currency, which means, it should be
-          spent. Spending Bitcoin Cash is fast, with near-instant transactions
-          and sub-cent transaction fees, making it the most secure and widely
-          used digital currency on the planet.
+          Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer
+          to peer electronic currency, which means, it should be spent. Spending
+          Bitcoin Cash is fast, with near-instant transactions and sub-cent
+          transaction fees, making it the most secure and widely used digital
+          currency on the planet.
         </fbt>
       ),
     },
