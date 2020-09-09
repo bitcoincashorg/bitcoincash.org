@@ -36,9 +36,11 @@ const SpendPage = () => {
         "Shop in Person",
         "Spend page side column 'Shop in person' header"
       ),
-      paragraph: fbt(
-        "Drop in to over 5000 physical locations accepting Bitcoin Cash.",
-        "Spend page side column 'Shop in person' paragraph"
+      paragraph: (
+        <fbt desc="Spend page side column 'Shop in person' paragraph">
+          Drop in to over <fbt:param name="shop count">{5000}</fbt:param>
+          physical locations accepting Bitcoin Cash.
+        </fbt>
       ),
       icon: <Gift />,
     },
