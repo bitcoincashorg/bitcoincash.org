@@ -21,7 +21,7 @@ import DownloadIcon from "assets/icons/download.svg"
 const GraphicsPage = () => {
   return (
     <>
-      <SEO title="Bitcoin Cash Wallets" />
+      <SEO title="Logos and Graphics" />
       <div className={S.topSection}>
         <Container className={S.topContainer}>
           <h1>

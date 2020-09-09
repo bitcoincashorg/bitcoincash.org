@@ -39,7 +39,7 @@ module.exports = {
         theme_color: "#10243f",
         display: "minimal-ui",
         // This path is relative to the root of the site.
-        icon: "src/assets/images/bitcoin-cash-logo-white-small.png",
+        icon: "src/assets/images/favicon-32x32.png",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
