@@ -60,7 +60,7 @@ const Header = () => {
     },
     {
       text: fbt("Nodes", "Community menu 'nodes' link"),
-      href: "/nodes.html",
+      href: "/nodes/",
     },
     {
       text: fbt("Developer Portal", "Community menu 'developper portal' link"),
