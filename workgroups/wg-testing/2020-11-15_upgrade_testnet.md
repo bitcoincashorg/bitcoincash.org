@@ -16,9 +16,9 @@ using the command-line:
 
 >bitcoind -testnet -axionactivationtime=<em>activationtimestamp</em>
 
-Miners: to `stratum+tcp://electrum.bitcoincash.org:19340` user: (address) password: (anything)
+Miners: `stratum+tcp://tpool.bitcoincash.org:19340` user: (address) password: (anything)
 
-ElectrumX Server: `electrum.bitcoincash.org:60004`
+Electrum Server: `telectrum.bitcoincash.org:60004`
 
 Block Explorer: [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org)
 
@@ -26,9 +26,9 @@ Block Explorer: [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitc
 
 The testnet that follows the same consensus rules as the main Bitcoin Cash network.
 
-Miners: to `stratum+tcp://electrum.bitcoincash.org:19338` user: (address) password: (anything)
+Miners: `stratum+tcp://tpool.bitcoincash.org:19338` user: (address) password: (anything)
 
-ElectrumX server: `electrum.bitcoincash.org:60002`
+Electrum server: `telectrum.bitcoincash.org:60002`
 
 Block Explorer: [texplorer.bitcoincash.org](https://texplorer.bitcoincash.org)
 
