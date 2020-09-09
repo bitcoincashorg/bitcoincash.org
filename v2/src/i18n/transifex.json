@@ -784,6 +784,16 @@
     "developer_comment": "Subscribe call to action button",
     "context": "src/pages/index.js:54:54"
   },
+  "0b70238c1ec446e023d6d616d39b20d1": {
+    "string": "Nodes",
+    "developer_comment": "'Nodes' heading on nodes page",
+    "context": "src/pages/nodes.js:16:16"
+  },
+  "50706fdb25734791332d2d12fa387980": {
+    "string": "Projects",
+    "developer_comment": "'Projects' heading on projects page",
+    "context": "src/pages/projects.js:16:16"
+  },
   "d74b66d8afcffeb2cf7b4c7f5848e22f": {
     "string": "Can. Transaction Ordering",
     "developer_comment": "Roadmap scaling item: Canonical transaction ordering",
@@ -1048,6 +1058,11 @@
     "string": "To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.",
     "developer_comment": "Roadmap conclusion",
     "context": "src/pages/roadmap.js:426:431"
+  },
+  "a6bb7cf37ec7fac947cd70e77df6e70c": {
+    "string": "Services",
+    "developer_comment": "'Services' heading on services page",
+    "context": "src/pages/services.js:16:16"
   },
   "f6c44097c03448faa1d1d4cd3a7b8a9e": {
     "string": "Shop Online",
