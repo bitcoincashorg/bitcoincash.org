@@ -1074,45 +1074,45 @@
     "developer_comment": "Spend page side column 'Shop in person' header",
     "context": "src/pages/spend-bitcoin-cash.js:35:38"
   },
-  "5abcdb390d40e4a8776b54d56d642d05": {
-    "string": "Drop in to over 5000 physical locations accepting Bitcoin Cash.",
+  "e0846cb7cefedbbe5c94c635c95a6cd3": {
+    "string": "Drop in to over {shop count} physical locations accepting Bitcoin Cash.",
     "developer_comment": "Spend page side column 'Shop in person' paragraph",
-    "context": "src/pages/spend-bitcoin-cash.js:39:42"
+    "context": "src/pages/spend-bitcoin-cash.js:40:43"
   },
   "b7c1d3ad85e85435585dd5a42bd3e0fc": {
     "string": "What can I buy with Bitcoin Cash?",
     "developer_comment": "Spend page subtitle",
-    "context": "src/pages/spend-bitcoin-cash.js:49:49"
+    "context": "src/pages/spend-bitcoin-cash.js:51:51"
   },
   "b71f4d4822b332fdd741f15c787a1c45": {
     "string": "Spend Bitcoin Cash",
     "developer_comment": "Spend page title",
-    "context": "src/pages/spend-bitcoin-cash.js:50:50"
+    "context": "src/pages/spend-bitcoin-cash.js:52:52"
   },
   "edc46b4fa2ee1daf88fc0635ca52ae30": {
     "string": "Bitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet.",
     "developer_comment": "Spend page main paragraph",
-    "context": "src/pages/spend-bitcoin-cash.js:52:58"
+    "context": "src/pages/spend-bitcoin-cash.js:54:60"
   },
   "98de1bb9fab11d069ecb356b5da29844": {
     "string": "Where can I spend Bitcoin Cash?",
     "developer_comment": "sidebar title 'spend' page",
-    "context": "src/pages/spend-bitcoin-cash.js:70:73"
+    "context": "src/pages/spend-bitcoin-cash.js:72:75"
   },
   "acc1d2044652d38249f3ad8e4d4a2aac": {
     "string": "Spend Bitcoin Cash in Person",
     "developer_comment": "Spend page spend map header",
-    "context": "src/pages/spend-bitcoin-cash.js:82:84"
+    "context": "src/pages/spend-bitcoin-cash.js:84:86"
   },
   "7a350b47bb5227b22b2e3181d50bcba4": {
     "string": "Location data by {=Bitcoin.com Maps}",
     "developer_comment": "Spend page spend map disclaimer",
-    "context": "src/pages/spend-bitcoin-cash.js:95:104"
+    "context": "src/pages/spend-bitcoin-cash.js:97:106"
   },
   "96595f0244e74d9bdcc717f7604c7ff7": {
     "string": "Bitcoin.com Maps",
     "developer_comment": "In the phrase: \"Location data by{=Bitcoin.com Maps}\"",
-    "context": "src/pages/spend-bitcoin-cash.js:97:103"
+    "context": "src/pages/spend-bitcoin-cash.js:99:105"
   },
   "24f1ac1047df047c2b018b64f48e4f8f": {
     "string": "Getting Started",
