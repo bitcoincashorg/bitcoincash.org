@@ -292,7 +292,7 @@ const GraphicsPage = () => {
                 <span
                   className={S.boxcolor}
                   style={{ background: "#F59332" }}
-                ></span>
+                />
               </Col>
               <Col xs={8} className={S.colorinfoctn}>
                 <h4>
@@ -315,7 +315,7 @@ const GraphicsPage = () => {
                 <span
                   className={S.boxcolor}
                   style={{ background: "#4D4D4D" }}
-                ></span>
+                />
               </Col>
               <Col xs={8} className={S.colorinfoctn}>
                 <h4>
@@ -339,7 +339,7 @@ const GraphicsPage = () => {
                 <span
                   className={S.boxcolor}
                   style={{ background: "#fff", border: "1px solid #444" }}
-                ></span>
+                />
               </Col>
               <Col xs={8} className={S.colorinfoctn}>
                 <h4>
