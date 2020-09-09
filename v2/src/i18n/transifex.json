@@ -1,4 +1,29 @@
 {
+  "c32a47702314288748528182343dbf7e": {
+    "string": "Small (PNG)",
+    "developer_comment": "Logos page button text for small version of image",
+    "context": "src/components/graphics-tile/graphics-tile.js:23:25"
+  },
+  "de4ffad01b09bc738beb4080a067c0cd": {
+    "string": "Medium (PNG)",
+    "developer_comment": "Logos page button text for medium version of image",
+    "context": "src/components/graphics-tile/graphics-tile.js:28:30"
+  },
+  "a4ec98df5f3661dbe19ccff2b338bf0f": {
+    "string": "Large (PNG)",
+    "developer_comment": "Logos page button text for large version of image",
+    "context": "src/components/graphics-tile/graphics-tile.js:33:35"
+  },
+  "b69596e272e62147e0bc4eea23caa7d3": {
+    "string": "Full (PNG)",
+    "developer_comment": "Logos page button text for full version of image",
+    "context": "src/components/graphics-tile/graphics-tile.js:38:40"
+  },
+  "110b13e07a85c7f9323dbbd55fb4e5a7": {
+    "string": "Vector (SVG)",
+    "developer_comment": "Logos page button text for vector version of image",
+    "context": "src/components/graphics-tile/graphics-tile.js:43:45"
+  },
   "47472eacd56067e2fab3cbd8bf61b690": {
     "string": "Money built for you, not banks",
     "developer_comment": "Title of the hero section",
@@ -598,6 +623,146 @@
     "string": "Learn more",
     "developer_comment": "learn more button",
     "context": "src/pages/getting-started.js:107:107"
+  },
+  "0bdb5cc778529a751ce847821fbb380f": {
+    "string": "Promotional Graphics",
+    "developer_comment": "Graphics page, main title",
+    "context": "src/pages/graphics.js:28:28"
+  },
+  "fcc6b19fd36d70f22e1c37ec1ae46588": {
+    "string": "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes.",
+    "developer_comment": "Graphics page, top paragraph",
+    "context": "src/pages/graphics.js:31:35"
+  },
+  "01e5129ee43c81bb40d23ebb75c8b952": {
+    "string": "Logos",
+    "developer_comment": "Graphics page, 'Logos' link",
+    "context": "src/pages/graphics.js:44:44"
+  },
+  "54df59bc53fe878368559b3baf50326a": {
+    "string": "Merchant",
+    "developer_comment": "Graphics page, 'Logos' link",
+    "context": "src/pages/graphics.js:49:49"
+  },
+  "efb2e8f30e7aa4a40f3bc3b28ca507a4": {
+    "string": "Donations",
+    "developer_comment": "Graphics page, 'Logos' link",
+    "context": "src/pages/graphics.js:54:54"
+  },
+  "ccc13a4a21de21a34f35a6bf9251a918": {
+    "string": "Identity",
+    "developer_comment": "Graphics page, 'Logos' link",
+    "context": "src/pages/graphics.js:59:59"
+  },
+  "49ba50d46717dd924c32041821c02df4": {
+    "string": "Logos",
+    "developer_comment": "Graphics page, merchant buttons title",
+    "context": "src/pages/graphics.js:68:68"
+  },
+  "961425b84c3449c2b50206ebb7ffe721": {
+    "string": "Download Bitcoin Cash logos in PNG and SVG",
+    "developer_comment": "Graphics page, merchant buttons description",
+    "context": "src/pages/graphics.js:71:73"
+  },
+  "36d096e2ebba9cfe0b7b4e15e383534f": {
+    "string": "Download All",
+    "developer_comment": "Graphics page, merchant buttons description",
+    "context": "src/pages/graphics.js:77:79"
+  },
+  "b5ed4befc88fad82974ae25d62f5afb5": {
+    "string": "BCH Logo Primary",
+    "developer_comment": "graphics page primary logo title",
+    "context": "src/pages/graphics.js:85:85"
+  },
+  "ad4619083b1e0c1494fc798b1af6c411": {
+    "string": "BCH Logo White Text",
+    "developer_comment": "graphics page white text logo title",
+    "context": "src/pages/graphics.js:95:98"
+  },
+  "8b43892f1a488d7322e73817391ddedd": {
+    "string": "BCH Logo Mark",
+    "developer_comment": "graphics page logo mark title",
+    "context": "src/pages/graphics.js:108:108"
+  },
+  "86cec04116b985eed4a835c2afb045a9": {
+    "string": "BCH Logo Horizontal Primary",
+    "developer_comment": "graphics page horizontal primary logo title",
+    "context": "src/pages/graphics.js:118:121"
+  },
+  "79d95ed6fe1d8fdcd85372e3d814f09d": {
+    "string": "BCH Logo Horizontal White",
+    "developer_comment": "graphics page horizontal white logo title",
+    "context": "src/pages/graphics.js:131:134"
+  },
+  "60928de020253ea9547062977142eb1a": {
+    "string": "BCH Logo For Wallets / Exchanges",
+    "developer_comment": "graphics page horizontal white logo title",
+    "context": "src/pages/graphics.js:144:147"
+  },
+  "18306e40bc88d5c5eb9175a6cc099381": {
+    "string": "Merchant Buttons",
+    "developer_comment": "Graphics page, merchant buttons title",
+    "context": "src/pages/graphics.js:160:162"
+  },
+  "f3b3af61fd7572678c1877cb9e7e5d36": {
+    "string": "Show your customers that you accept Bitcoin Cash",
+    "developer_comment": "Graphics page, merchant buttons description",
+    "context": "src/pages/graphics.js:165:167"
+  },
+  "373827f745776da7188dc66914854af4": {
+    "string": "Bitcoin Cash Accepted Here Primary",
+    "developer_comment": "graphics page BCH accepted here primary logo title",
+    "context": "src/pages/graphics.js:186:189"
+  },
+  "3a170406037e416ee1b6247b0f99e48d": {
+    "string": "Donation Buttons",
+    "developer_comment": "Graphics page, donation buttons title",
+    "context": "src/pages/graphics.js:203:205"
+  },
+  "d22af408b48273c23b759453d44ed300": {
+    "string": "Promote the acceptance of Bitcoin Cash as a donation method.",
+    "developer_comment": "Graphics page, donations buttons description",
+    "context": "src/pages/graphics.js:208:210"
+  },
+  "ab820d85dd149c4c7df1cf35bda3a605": {
+    "string": "Bitcoin Cash Donations Accepted Primary",
+    "developer_comment": "graphics page BCH donations primary logo title",
+    "context": "src/pages/graphics.js:216:219"
+  },
+  "9695c1eddcbaea744d00bd63ff4db5d9": {
+    "string": "Bitcoin Cash Donations Accepted Orange",
+    "developer_comment": "graphics page BCH donations orange logo title",
+    "context": "src/pages/graphics.js:229:232"
+  },
+  "820ab18eb2dcca03990266cb6fae9bb7": {
+    "string": "Visual Identity",
+    "developer_comment": "Graphics page, visual identity title",
+    "context": "src/pages/graphics.js:246:246"
+  },
+  "ca8e7b49a0d5ea599e34aa5908a5698d": {
+    "string": "Bitcoin Cash fonts, colors, and more.",
+    "developer_comment": "Graphics page, visual identity description",
+    "context": "src/pages/graphics.js:249:251"
+  },
+  "10d6c98143016d27f15f237db409ef0d": {
+    "string": "Download Font",
+    "developer_comment": "Download font button on graphics page",
+    "context": "src/pages/graphics.js:279:282"
+  },
+  "344fce672d7d60460534511b30b59c0e": {
+    "string": "Bitcoin Cash Orange",
+    "developer_comment": "Graphics page, visual identity color description orange",
+    "context": "src/pages/graphics.js:299:301"
+  },
+  "89d14c96821ed1b03ddd3ae98a829559": {
+    "string": "Bitcoin Cash Grey",
+    "developer_comment": "Graphics page, visual identity color description grey",
+    "context": "src/pages/graphics.js:322:324"
+  },
+  "b51bfa6d95943ccf8cea143aa7352664": {
+    "string": "Bitcoin Cash White",
+    "developer_comment": "Graphics page, visual identity color description white",
+    "context": "src/pages/graphics.js:346:348"
   },
   "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
     "string": "Easy ways to buy Bitcoin Cash",
