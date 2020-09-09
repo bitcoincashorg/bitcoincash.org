@@ -539,6 +539,11 @@
     "developer_comment": "Buy page microeconomy list header",
     "context": "src/pages/buy-bitcoin-cash.js:238:238"
   },
+  "678465bc79271d7b1c4c4ea5ec0da06b": {
+    "string": "Featured Exchanges",
+    "developer_comment": "'Exchanges' heading on Exchanges page",
+    "context": "src/pages/exchanges.js:30:32"
+  },
   "bc2a94069c0682096a036ae4bfe47966": {
     "string": "Fast",
     "developer_comment": "Getting started page learn column 'Fast' title",
