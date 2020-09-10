@@ -165,7 +165,7 @@
     "47b79c719bdf0fe859ba03b10fe7b5fd": {
       "translations": [
         {
-          "translation": "Payments go directly from one person to another."
+          "translation": "Les payements sont effectués directement d'une personne à l'autre."
         }
       ]
     },
@@ -508,14 +508,14 @@
     "c32d07c9f1ec7e029145acba7847810d": {
       "translations": [
         {
-          "translation": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!"
+          "translation": "Utilisez un  {=Bitcoin Cash faucet} de confiance pour recevoir gratuitement une faible quantité de Bitcoin Cash !"
         }
       ]
     },
     "cda264ce502bf19e3c87800b415f9aa9": {
       "translations": [
         {
-          "translation": "Bitcoin Cash faucet"
+          "translation": "faucet BItcoin Cash"
         }
       ]
     },
