@@ -524,6 +524,61 @@
     "developer_comment": "Buy page microeconomy list header",
     "context": "src/pages/buy-bitcoin-cash.js:247:247"
   },
+  "4cd11a2d59ce3b8d1db9aa9efaf25cd0": {
+    "string": "Create amazing apps with Bitcoin Cash",
+    "developer_comment": "Developers page, main title",
+    "context": "src/pages/developers.js:20:22"
+  },
+  "8369cbce0cd83f40e6aa0dae19bb0d36": {
+    "string": "Resources for developers, by developers.",
+    "developer_comment": "Developers page, top paragraph",
+    "context": "src/pages/developers.js:26:28"
+  },
+  "be8e33683aa11aa3f6de5dc80441f0bc": {
+    "string": "Libraries",
+    "developer_comment": "Developers page, Libraries title",
+    "context": "src/pages/developers.js:35:35"
+  },
+  "212e15c413bacd57f3d1c626aa8b90e6": {
+    "string": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use.",
+    "developer_comment": "Developers page, BitCash description",
+    "context": "src/pages/developers.js:48:51"
+  },
+  "8666c3469b291e614df874173d1358a9": {
+    "string": "View More",
+    "developer_comment": "View more button on developers page",
+    "context": "src/pages/developers.js:155:158"
+  },
+  "4b0ef5afb7eba267fa7d56c9a83c9e44": {
+    "string": "Fully featured, powerful javascript framework for Bitcoin Cash.",
+    "developer_comment": "Developers page, BitBox description",
+    "context": "src/pages/developers.js:71:74"
+  },
+  "4d7ab3b98c6b501998627b98ff9053e2": {
+    "string": "Resources",
+    "developer_comment": "Developers page, Resources title",
+    "context": "src/pages/developers.js:91:91"
+  },
+  "dfcc2a008c444cfb38d45449e05783d0": {
+    "string": "Specs",
+    "developer_comment": "Developers page, Specs title",
+    "context": "src/pages/developers.js:102:102"
+  },
+  "8b3cf2dc9d41f4eefa1dd4a239e0f0c8": {
+    "string": "Vocabulary and associated APIs for Bitcoin Cash",
+    "developer_comment": "Developers page, BitCash description",
+    "context": "src/pages/developers.js:105:107"
+  },
+  "b25bc666e4b746b02c7ab8fccf604fb9": {
+    "string": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID.",
+    "developer_comment": "Developers page, Badger SDK description",
+    "context": "src/pages/developers.js:126:130"
+  },
+  "68e28bba2482472a7b1481cdabecbbec": {
+    "string": "Simple Tokens - Secure Tokens on Bitcoin Cash",
+    "developer_comment": "Developers page, SLP SDK description",
+    "context": "src/pages/developers.js:149:151"
+  },
   "678465bc79271d7b1c4c4ea5ec0da06b": {
     "string": "Featured Exchanges",
     "developer_comment": "'Exchanges' heading on Exchanges page",
