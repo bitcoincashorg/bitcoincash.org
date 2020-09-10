@@ -102,7 +102,7 @@ const Header = () => {
       text: fbt("Community", "Commnity menu"),
       links: communityDropdownLinks,
     },
-    { text: fbt("About", "Top 'about' link"), href: "/faq.html" },
+    { text: fbt("About", "Top 'about' link"), href: "/faq/" },
     {
       text: (
         <>

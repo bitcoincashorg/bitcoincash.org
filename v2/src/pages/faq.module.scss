@@ -1,0 +1,94 @@
+.titleContianer {
+  text-align: center;
+  padding: 80px 0 0 0;
+}
+
+.titleContianer h2 {
+  margin: 0 0 30px 0;
+}
+
+.accordionTitle {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  max-width: 750px;
+  text-align: left;
+  color: #444;
+  transition: all 300ms ease-in-out;
+  height: unset;
+  border-radius: 7px;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06),
+    0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06), 0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  margin-top: 30px;
+}
+
+.accordionTitle:focus {
+  outline: none;
+}
+
+.accordionTitle h4 {
+  margin: 0;
+  line-height: 1.4em;
+}
+
+.accordionTitle:hover {
+  color: #ff8d00;
+}
+
+.accordionBody p {
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+  padding: 30px 30px 0 30px;
+  max-width: 750px;
+  text-align: left;
+  color: #444;
+  display: inline-block;
+}
+
+.roadmapContianer {
+  text-align: center;
+  padding: 80px 0;
+  background: #f3f3f3;
+  margin: 80px 0 0 0;
+}
+
+.roadmapContianer p {
+  max-width: 750px;
+  display: inline-block;
+}
+
+.roadmapContianer a {
+  display: block;
+}
+
+.roadmapContianer a button {
+  margin-bottom: 0;
+}
+
+@media (max-width: 762px) {
+  .accordionTitle h4 {
+    font-size: 18px;
+  }
+
+  .accordionTitle {
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .titleContianer {
+    padding: 50px 5%;
+  }
+
+  .accordionBody p {
+    padding: 15px;
+  }
+
+  .roadmapContianer {
+    margin: 40px 0 0 0;
+    padding: 40px 0;
+  }
+}
