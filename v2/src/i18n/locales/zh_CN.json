@@ -1,6 +1,41 @@
 {
   "fb-locale": "zh_CN",
   "translations": {
+    "c32a47702314288748528182343dbf7e": {
+      "translations": [
+        {
+          "translation": "小标识（PNG）"
+        }
+      ]
+    },
+    "de4ffad01b09bc738beb4080a067c0cd": {
+      "translations": [
+        {
+          "translation": "中型标识（PNG）"
+        }
+      ]
+    },
+    "a4ec98df5f3661dbe19ccff2b338bf0f": {
+      "translations": [
+        {
+          "translation": "大型标识（PNG）"
+        }
+      ]
+    },
+    "b69596e272e62147e0bc4eea23caa7d3": {
+      "translations": [
+        {
+          "translation": "完整（PNG）"
+        }
+      ]
+    },
+    "110b13e07a85c7f9323dbbd55fb4e5a7": {
+      "translations": [
+        {
+          "translation": "向量（SVG）"
+        }
+      ]
+    },
     "47472eacd56067e2fab3cbd8bf61b690": {
       "translations": [
         {
@@ -204,17 +239,17 @@
         }
       ]
     },
-    "cfce7f318ae20404ef612bf056dba732": {
+    "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: November 15th, 2020 Planned Network Upgrade"
+          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
         }
       ]
     },
-    "ff7e316c73d0dfcd7d0d32a8339e1efc": {
+    "c896f27be5c90b6872cb876ce31ecfe3": {
       "translations": [
         {
-          "translation": "November 15th, 2020 Planned Network Upgrade"
+          "translation": "{upgrade activation time} Planned Network Upgrade"
         }
       ]
     },
@@ -722,6 +757,13 @@
         }
       ]
     },
+    "678465bc79271d7b1c4c4ea5ec0da06b": {
+      "translations": [
+        {
+          "translation": "Featured Exchanges"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -841,6 +883,202 @@
         }
       ]
     },
+    "0bdb5cc778529a751ce847821fbb380f": {
+      "translations": [
+        {
+          "translation": "促销图片"
+        }
+      ]
+    },
+    "fcc6b19fd36d70f22e1c37ec1ae46588": {
+      "translations": [
+        {
+          "translation": "这些比特币现金标识与品牌资产可以用于网上服务的展示、零售店、发布会或其他促销活动。"
+        }
+      ]
+    },
+    "01e5129ee43c81bb40d23ebb75c8b952": {
+      "translations": [
+        {
+          "translation": "标识"
+        }
+      ]
+    },
+    "54df59bc53fe878368559b3baf50326a": {
+      "translations": [
+        {
+          "translation": "商户"
+        }
+      ]
+    },
+    "efb2e8f30e7aa4a40f3bc3b28ca507a4": {
+      "translations": [
+        {
+          "translation": "捐款"
+        }
+      ]
+    },
+    "ccc13a4a21de21a34f35a6bf9251a918": {
+      "translations": [
+        {
+          "translation": "识别"
+        }
+      ]
+    },
+    "49ba50d46717dd924c32041821c02df4": {
+      "translations": [
+        {
+          "translation": "标识"
+        }
+      ]
+    },
+    "961425b84c3449c2b50206ebb7ffe721": {
+      "translations": [
+        {
+          "translation": "下载PNG格式与SVG格式的比特币现金标识"
+        }
+      ]
+    },
+    "36d096e2ebba9cfe0b7b4e15e383534f": {
+      "translations": [
+        {
+          "translation": "全部下载"
+        }
+      ]
+    },
+    "b5ed4befc88fad82974ae25d62f5afb5": {
+      "translations": [
+        {
+          "translation": "主要的BCH标识"
+        }
+      ]
+    },
+    "ad4619083b1e0c1494fc798b1af6c411": {
+      "translations": [
+        {
+          "translation": "白字BCH标识"
+        }
+      ]
+    },
+    "8b43892f1a488d7322e73817391ddedd": {
+      "translations": [
+        {
+          "translation": "BCH标识"
+        }
+      ]
+    },
+    "86cec04116b985eed4a835c2afb045a9": {
+      "translations": [
+        {
+          "translation": "主要的BCH水平标识"
+        }
+      ]
+    },
+    "79d95ed6fe1d8fdcd85372e3d814f09d": {
+      "translations": [
+        {
+          "translation": "水平白字BCH标识"
+        }
+      ]
+    },
+    "60928de020253ea9547062977142eb1a": {
+      "translations": [
+        {
+          "translation": "钱包 / 交易所所用的BCH标识"
+        }
+      ]
+    },
+    "18306e40bc88d5c5eb9175a6cc099381": {
+      "translations": [
+        {
+          "translation": "商户按钮"
+        }
+      ]
+    },
+    "f3b3af61fd7572678c1877cb9e7e5d36": {
+      "translations": [
+        {
+          "translation": "摆出标识，让顾客知道你接受比特币现金付款"
+        }
+      ]
+    },
+    "373827f745776da7188dc66914854af4": {
+      "translations": [
+        {
+          "translation": "这里主要接受比特币现金付款"
+        }
+      ]
+    },
+    "3a170406037e416ee1b6247b0f99e48d": {
+      "translations": [
+        {
+          "translation": "捐款按钮"
+        }
+      ]
+    },
+    "d22af408b48273c23b759453d44ed300": {
+      "translations": [
+        {
+          "translation": "推动商户接受比特币现金捐款方式。"
+        }
+      ]
+    },
+    "ab820d85dd149c4c7df1cf35bda3a605": {
+      "translations": [
+        {
+          "translation": "主要接受比特币现金捐款"
+        }
+      ]
+    },
+    "9695c1eddcbaea744d00bd63ff4db5d9": {
+      "translations": [
+        {
+          "translation": "接受比特币现金捐款（橙色）"
+        }
+      ]
+    },
+    "820ab18eb2dcca03990266cb6fae9bb7": {
+      "translations": [
+        {
+          "translation": "视觉识别"
+        }
+      ]
+    },
+    "ca8e7b49a0d5ea599e34aa5908a5698d": {
+      "translations": [
+        {
+          "translation": "比特币现金字体、颜色等等。"
+        }
+      ]
+    },
+    "10d6c98143016d27f15f237db409ef0d": {
+      "translations": [
+        {
+          "translation": "下载字体"
+        }
+      ]
+    },
+    "344fce672d7d60460534511b30b59c0e": {
+      "translations": [
+        {
+          "translation": "比特币现金（橙色）"
+        }
+      ]
+    },
+    "89d14c96821ed1b03ddd3ae98a829559": {
+      "translations": [
+        {
+          "translation": "比特币现金（灰色）"
+        }
+      ]
+    },
+    "b51bfa6d95943ccf8cea143aa7352664": {
+      "translations": [
+        {
+          "translation": "比特币现金（白色）"
+        }
+      ]
+    },
     "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
       "translations": [
         {
@@ -866,6 +1104,20 @@
       "translations": [
         {
           "translation": "Coming soon."
+        }
+      ]
+    },
+    "0b70238c1ec446e023d6d616d39b20d1": {
+      "translations": [
+        {
+          "translation": "节点"
+        }
+      ]
+    },
+    "50706fdb25734791332d2d12fa387980": {
+      "translations": [
+        {
+          "translation": "项目"
         }
       ]
     },
@@ -1240,6 +1492,13 @@
         }
       ]
     },
+    "a6bb7cf37ec7fac947cd70e77df6e70c": {
+      "translations": [
+        {
+          "translation": "服务"
+        }
+      ]
+    },
     "f6c44097c03448faa1d1d4cd3a7b8a9e": {
       "translations": [
         {
@@ -1275,10 +1534,10 @@
         }
       ]
     },
-    "5abcdb390d40e4a8776b54d56d642d05": {
+    "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over 5000 physical locations accepting Bitcoin Cash."
+          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
         }
       ]
     },
@@ -1296,10 +1555,10 @@
         }
       ]
     },
-    "8bd6057443fb796c6ec1f3181dc8c7ec": {
+    "edc46b4fa2ee1daf88fc0635ca52ae30": {
       "translations": [
         {
-          "translation": "Getting stBitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet."
+          "translation": "比特币现金不只是一种投机货币。它的初衷是一种点对点电子货币，也就是说是要花出去的。使用比特币现金方便快捷，几乎是即时的，交易费都不到一分钱，成为全球最安全和广泛应用的电子货币。"
         }
       ]
     },

@@ -1,6 +1,41 @@
 {
   "fb-locale": "tr_TR",
   "translations": {
+    "c32a47702314288748528182343dbf7e": {
+      "translations": [
+        {
+          "translation": "Küçük (PNG)"
+        }
+      ]
+    },
+    "de4ffad01b09bc738beb4080a067c0cd": {
+      "translations": [
+        {
+          "translation": "Orta (PNG)"
+        }
+      ]
+    },
+    "a4ec98df5f3661dbe19ccff2b338bf0f": {
+      "translations": [
+        {
+          "translation": "Büyük (PNG)"
+        }
+      ]
+    },
+    "b69596e272e62147e0bc4eea23caa7d3": {
+      "translations": [
+        {
+          "translation": "Tam (PNG)"
+        }
+      ]
+    },
+    "110b13e07a85c7f9323dbbd55fb4e5a7": {
+      "translations": [
+        {
+          "translation": "Vektör (SVG)"
+        }
+      ]
+    },
     "47472eacd56067e2fab3cbd8bf61b690": {
       "translations": [
         {
@@ -204,17 +239,17 @@
         }
       ]
     },
-    "cfce7f318ae20404ef612bf056dba732": {
+    "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: November 15th, 2020 Planned Network Upgrade"
+          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
         }
       ]
     },
-    "ff7e316c73d0dfcd7d0d32a8339e1efc": {
+    "c896f27be5c90b6872cb876ce31ecfe3": {
       "translations": [
         {
-          "translation": "November 15th, 2020 Planned Network Upgrade"
+          "translation": "{upgrade activation time} Planned Network Upgrade"
         }
       ]
     },
@@ -722,6 +757,13 @@
         }
       ]
     },
+    "678465bc79271d7b1c4c4ea5ec0da06b": {
+      "translations": [
+        {
+          "translation": "Featured Exchanges"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -841,6 +883,202 @@
         }
       ]
     },
+    "0bdb5cc778529a751ce847821fbb380f": {
+      "translations": [
+        {
+          "translation": "Tanıtım Grafikleri"
+        }
+      ]
+    },
+    "fcc6b19fd36d70f22e1c37ec1ae46588": {
+      "translations": [
+        {
+          "translation": "Bu Bitcoin Cash logoları ve marka varlıkları; çevrimiçi hizmetler, perakende satış kuruluşları, basın veya diğer tanıtım amaçları doğrultusunda kullanılabilir."
+        }
+      ]
+    },
+    "01e5129ee43c81bb40d23ebb75c8b952": {
+      "translations": [
+        {
+          "translation": "Logolar"
+        }
+      ]
+    },
+    "54df59bc53fe878368559b3baf50326a": {
+      "translations": [
+        {
+          "translation": "Satıcı"
+        }
+      ]
+    },
+    "efb2e8f30e7aa4a40f3bc3b28ca507a4": {
+      "translations": [
+        {
+          "translation": "Bağışlar"
+        }
+      ]
+    },
+    "ccc13a4a21de21a34f35a6bf9251a918": {
+      "translations": [
+        {
+          "translation": "Kimlik"
+        }
+      ]
+    },
+    "49ba50d46717dd924c32041821c02df4": {
+      "translations": [
+        {
+          "translation": "Logolar"
+        }
+      ]
+    },
+    "961425b84c3449c2b50206ebb7ffe721": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash logolarını PNG ve SVG formatında indirin"
+        }
+      ]
+    },
+    "36d096e2ebba9cfe0b7b4e15e383534f": {
+      "translations": [
+        {
+          "translation": "Tümünü İndir"
+        }
+      ]
+    },
+    "b5ed4befc88fad82974ae25d62f5afb5": {
+      "translations": [
+        {
+          "translation": "BCH Logosu Birincil"
+        }
+      ]
+    },
+    "ad4619083b1e0c1494fc798b1af6c411": {
+      "translations": [
+        {
+          "translation": "BCH Logosu Beyaz Metin"
+        }
+      ]
+    },
+    "8b43892f1a488d7322e73817391ddedd": {
+      "translations": [
+        {
+          "translation": "BCH Logo İşareti"
+        }
+      ]
+    },
+    "86cec04116b985eed4a835c2afb045a9": {
+      "translations": [
+        {
+          "translation": "BCH Logosu Yatay Birincil"
+        }
+      ]
+    },
+    "79d95ed6fe1d8fdcd85372e3d814f09d": {
+      "translations": [
+        {
+          "translation": "BCH Logosu Yatay Beyaz"
+        }
+      ]
+    },
+    "60928de020253ea9547062977142eb1a": {
+      "translations": [
+        {
+          "translation": "Cüzdanlar / Takas Merkezleri için BCH Logosu"
+        }
+      ]
+    },
+    "18306e40bc88d5c5eb9175a6cc099381": {
+      "translations": [
+        {
+          "translation": "Satıcı Düğmeleri"
+        }
+      ]
+    },
+    "f3b3af61fd7572678c1877cb9e7e5d36": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'i kabul ettiğinizi müşterilerinize gösterin"
+        }
+      ]
+    },
+    "373827f745776da7188dc66914854af4": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Accepted Here Primary"
+        }
+      ]
+    },
+    "3a170406037e416ee1b6247b0f99e48d": {
+      "translations": [
+        {
+          "translation": "Bağış Düğmeleri"
+        }
+      ]
+    },
+    "d22af408b48273c23b759453d44ed300": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash'in bağış yöntemi olarak kabulünü teşvik edin."
+        }
+      ]
+    },
+    "ab820d85dd149c4c7df1cf35bda3a605": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Donations Accepted Primary"
+        }
+      ]
+    },
+    "9695c1eddcbaea744d00bd63ff4db5d9": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Bağışları Kabul Edilir Turuncu"
+        }
+      ]
+    },
+    "820ab18eb2dcca03990266cb6fae9bb7": {
+      "translations": [
+        {
+          "translation": "Görsel Kimlik"
+        }
+      ]
+    },
+    "ca8e7b49a0d5ea599e34aa5908a5698d": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash yazı tipleri, renkleri ve daha fazlası."
+        }
+      ]
+    },
+    "10d6c98143016d27f15f237db409ef0d": {
+      "translations": [
+        {
+          "translation": "Yazı Tipini İndir"
+        }
+      ]
+    },
+    "344fce672d7d60460534511b30b59c0e": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Turuncu"
+        }
+      ]
+    },
+    "89d14c96821ed1b03ddd3ae98a829559": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Gri"
+        }
+      ]
+    },
+    "b51bfa6d95943ccf8cea143aa7352664": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Beyaz"
+        }
+      ]
+    },
     "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
       "translations": [
         {
@@ -866,6 +1104,20 @@
       "translations": [
         {
           "translation": "Coming soon."
+        }
+      ]
+    },
+    "0b70238c1ec446e023d6d616d39b20d1": {
+      "translations": [
+        {
+          "translation": "Ağ Noktaları"
+        }
+      ]
+    },
+    "50706fdb25734791332d2d12fa387980": {
+      "translations": [
+        {
+          "translation": "Projeler"
         }
       ]
     },
@@ -1240,6 +1492,13 @@
         }
       ]
     },
+    "a6bb7cf37ec7fac947cd70e77df6e70c": {
+      "translations": [
+        {
+          "translation": "Hizmetler"
+        }
+      ]
+    },
     "f6c44097c03448faa1d1d4cd3a7b8a9e": {
       "translations": [
         {
@@ -1275,10 +1534,10 @@
         }
       ]
     },
-    "5abcdb390d40e4a8776b54d56d642d05": {
+    "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over 5000 physical locations accepting Bitcoin Cash."
+          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
         }
       ]
     },
@@ -1296,10 +1555,10 @@
         }
       ]
     },
-    "8bd6057443fb796c6ec1f3181dc8c7ec": {
+    "edc46b4fa2ee1daf88fc0635ca52ae30": {
       "translations": [
         {
-          "translation": "Getting stBitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet."
+          "translation": "Bitcoin Cash sadece spekülasyon amaçlı değildir. Amacı, kişiler arası elektronik para birimi olarak kullanımdır, yani harcanması gereklidir. Bitcoin Cash, neredeyse anlık işlemler ve cüzi işlem ücretleri ile hızla harcanabilir; bu da onu dünyadaki en güvenli ve yaygın olarak kullanılan dijital para birimi haline getirir."
         }
       ]
     },

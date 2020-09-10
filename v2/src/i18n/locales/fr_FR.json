@@ -1,6 +1,41 @@
 {
   "fb-locale": "fr_FR",
   "translations": {
+    "c32a47702314288748528182343dbf7e": {
+      "translations": [
+        {
+          "translation": "Petite taille (PNG)"
+        }
+      ]
+    },
+    "de4ffad01b09bc738beb4080a067c0cd": {
+      "translations": [
+        {
+          "translation": "Taille moyenne (PNG)"
+        }
+      ]
+    },
+    "a4ec98df5f3661dbe19ccff2b338bf0f": {
+      "translations": [
+        {
+          "translation": "Grande taille (PNG)"
+        }
+      ]
+    },
+    "b69596e272e62147e0bc4eea23caa7d3": {
+      "translations": [
+        {
+          "translation": "Taille d'origine (PNG)"
+        }
+      ]
+    },
+    "110b13e07a85c7f9323dbbd55fb4e5a7": {
+      "translations": [
+        {
+          "translation": "Image vectorielle (SVG)"
+        }
+      ]
+    },
     "47472eacd56067e2fab3cbd8bf61b690": {
       "translations": [
         {
@@ -204,17 +239,17 @@
         }
       ]
     },
-    "cfce7f318ae20404ef612bf056dba732": {
+    "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: November 15th, 2020 Planned Network Upgrade"
+          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
         }
       ]
     },
-    "ff7e316c73d0dfcd7d0d32a8339e1efc": {
+    "c896f27be5c90b6872cb876ce31ecfe3": {
       "translations": [
         {
-          "translation": "November 15th, 2020 Planned Network Upgrade"
+          "translation": "{upgrade activation time} Planned Network Upgrade"
         }
       ]
     },
@@ -722,6 +757,13 @@
         }
       ]
     },
+    "678465bc79271d7b1c4c4ea5ec0da06b": {
+      "translations": [
+        {
+          "translation": "Featured Exchanges"
+        }
+      ]
+    },
     "bc2a94069c0682096a036ae4bfe47966": {
       "translations": [
         {
@@ -841,6 +883,202 @@
         }
       ]
     },
+    "0bdb5cc778529a751ce847821fbb380f": {
+      "translations": [
+        {
+          "translation": "Images promotionnelles"
+        }
+      ]
+    },
+    "fcc6b19fd36d70f22e1c37ec1ae46588": {
+      "translations": [
+        {
+          "translation": "Ces ressources de marque et logos Bitcoin Cash peuvent être utilisés à des fins d'affichage pour les services en ligne, dans les points de vente au détail, dans la presse ou à d'autres fins promotionnelles."
+        }
+      ]
+    },
+    "01e5129ee43c81bb40d23ebb75c8b952": {
+      "translations": [
+        {
+          "translation": "Logos"
+        }
+      ]
+    },
+    "54df59bc53fe878368559b3baf50326a": {
+      "translations": [
+        {
+          "translation": "Commerçant"
+        }
+      ]
+    },
+    "efb2e8f30e7aa4a40f3bc3b28ca507a4": {
+      "translations": [
+        {
+          "translation": "Dons"
+        }
+      ]
+    },
+    "ccc13a4a21de21a34f35a6bf9251a918": {
+      "translations": [
+        {
+          "translation": "Identité"
+        }
+      ]
+    },
+    "49ba50d46717dd924c32041821c02df4": {
+      "translations": [
+        {
+          "translation": "Logos"
+        }
+      ]
+    },
+    "961425b84c3449c2b50206ebb7ffe721": {
+      "translations": [
+        {
+          "translation": "Télécharger les logos Bitcoin Cash au format PNG et SVG"
+        }
+      ]
+    },
+    "36d096e2ebba9cfe0b7b4e15e383534f": {
+      "translations": [
+        {
+          "translation": "Télécharger le pack"
+        }
+      ]
+    },
+    "b5ed4befc88fad82974ae25d62f5afb5": {
+      "translations": [
+        {
+          "translation": "Logo BCH principal"
+        }
+      ]
+    },
+    "ad4619083b1e0c1494fc798b1af6c411": {
+      "translations": [
+        {
+          "translation": "Logo BCH texte blanc"
+        }
+      ]
+    },
+    "8b43892f1a488d7322e73817391ddedd": {
+      "translations": [
+        {
+          "translation": "Logo marque BCH"
+        }
+      ]
+    },
+    "86cec04116b985eed4a835c2afb045a9": {
+      "translations": [
+        {
+          "translation": "Logo BCH principal horizontal"
+        }
+      ]
+    },
+    "79d95ed6fe1d8fdcd85372e3d814f09d": {
+      "translations": [
+        {
+          "translation": "Logo BCH horizontal blanc"
+        }
+      ]
+    },
+    "60928de020253ea9547062977142eb1a": {
+      "translations": [
+        {
+          "translation": "Logo BCH pour portefeuilles/plates-formes d'échange"
+        }
+      ]
+    },
+    "18306e40bc88d5c5eb9175a6cc099381": {
+      "translations": [
+        {
+          "translation": "Boutons pour commerçants"
+        }
+      ]
+    },
+    "f3b3af61fd7572678c1877cb9e7e5d36": {
+      "translations": [
+        {
+          "translation": "Montrez à vos clients que vous acceptez Bitcoin Cash."
+        }
+      ]
+    },
+    "373827f745776da7188dc66914854af4": {
+      "translations": [
+        {
+          "translation": "Image principale Bitcoin Cash Accepted Here"
+        }
+      ]
+    },
+    "3a170406037e416ee1b6247b0f99e48d": {
+      "translations": [
+        {
+          "translation": "Boutons pour dons"
+        }
+      ]
+    },
+    "d22af408b48273c23b759453d44ed300": {
+      "translations": [
+        {
+          "translation": "Encouragez l'utilisation de Bitcoin Cash pour les dons."
+        }
+      ]
+    },
+    "ab820d85dd149c4c7df1cf35bda3a605": {
+      "translations": [
+        {
+          "translation": "Image principale Bitcoin Cash Donations Accepted"
+        }
+      ]
+    },
+    "9695c1eddcbaea744d00bd63ff4db5d9": {
+      "translations": [
+        {
+          "translation": "Image orange Bitcoin Cash Donations Accepted"
+        }
+      ]
+    },
+    "820ab18eb2dcca03990266cb6fae9bb7": {
+      "translations": [
+        {
+          "translation": "Identité visuelle"
+        }
+      ]
+    },
+    "ca8e7b49a0d5ea599e34aa5908a5698d": {
+      "translations": [
+        {
+          "translation": "Couleurs, polices et autre contenu Bitcoin Cash"
+        }
+      ]
+    },
+    "10d6c98143016d27f15f237db409ef0d": {
+      "translations": [
+        {
+          "translation": "Télécharger la police"
+        }
+      ]
+    },
+    "344fce672d7d60460534511b30b59c0e": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash orange"
+        }
+      ]
+    },
+    "89d14c96821ed1b03ddd3ae98a829559": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash gris"
+        }
+      ]
+    },
+    "b51bfa6d95943ccf8cea143aa7352664": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash blanc"
+        }
+      ]
+    },
     "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
       "translations": [
         {
@@ -866,6 +1104,20 @@
       "translations": [
         {
           "translation": "Coming soon."
+        }
+      ]
+    },
+    "0b70238c1ec446e023d6d616d39b20d1": {
+      "translations": [
+        {
+          "translation": "Nœuds"
+        }
+      ]
+    },
+    "50706fdb25734791332d2d12fa387980": {
+      "translations": [
+        {
+          "translation": "Projets"
         }
       ]
     },
@@ -1240,6 +1492,13 @@
         }
       ]
     },
+    "a6bb7cf37ec7fac947cd70e77df6e70c": {
+      "translations": [
+        {
+          "translation": "Services"
+        }
+      ]
+    },
     "f6c44097c03448faa1d1d4cd3a7b8a9e": {
       "translations": [
         {
@@ -1275,10 +1534,10 @@
         }
       ]
     },
-    "5abcdb390d40e4a8776b54d56d642d05": {
+    "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over 5000 physical locations accepting Bitcoin Cash."
+          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
         }
       ]
     },
@@ -1296,10 +1555,10 @@
         }
       ]
     },
-    "8bd6057443fb796c6ec1f3181dc8c7ec": {
+    "edc46b4fa2ee1daf88fc0635ca52ae30": {
       "translations": [
         {
-          "translation": "Getting stBitcoin Cash isn’t just for speculation. It’s intended usage is a peer to peer electronic currency, which means, it should be spent. Spending Bitcoin Cash is fast, with near-instant transactions and sub-cent transaction fees, making it the most secure and widely used digital currency on the planet."
+          "translation": "Bitcoin Cash n'existe pas uniquement à des fins spéculatives. Il vise à être utilisé comme une monnaie virtuelle pair-à-pair, et donc, autrement dit, à être dépensé. L'utilisation de Bitcoin Cash s'effectue rapidement, grâce à des transactions quasi instantanées et à ses frais inférieurs à un centime, ce qui en fait la cryptomonnaie la plus sécurisée et la plus répandue au monde."
         }
       ]
     },
