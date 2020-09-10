@@ -1,0 +1,90 @@
+.topSection {
+  width: 100%;
+  padding: 60px 0;
+  background: rgb(243, 243, 243);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.topSection h1 {
+  max-width: 600px;
+  display: inline-block;
+  margin: 0 0 30px 0;
+  line-height: 1.4em;
+}
+
+.topSection p {
+  max-width: 600px;
+  display: inline-block;
+  margin: 0;
+}
+
+.topContainer {
+  padding: 0;
+}
+
+.titleContianer {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.titleContianer h2 {
+  margin: 0;
+}
+
+.card {
+  border-radius: 7px;
+  background: #fff;
+  color: #444;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06),
+    0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.06), 0 2px 14px 6px rgba(0, 0, 0, 0.04);
+  padding: 30px;
+  text-align: center;
+}
+
+.card p {
+  margin: 0 0 30px 0;
+}
+
+.language {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  -webkit-box-shadow: inset 0px 0px 12px -4px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: inset 0px 0px 12px -4px rgba(0, 0, 0, 0.11);
+  box-shadow: inset 0px 0px 12px -4px rgba(0, 0, 0, 0.11);
+}
+
+.card svg {
+  width: 50px;
+  height: 50px;
+}
+
+.icons {
+  fill: #ff8d00;
+  stroke: #ff8d00;
+}
+
+.card h4 {
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+}
+
+@media (max-width: 1450px) {
+  .topSection h1 {
+    max-width: unset;
+  }
+}
+
+@media (max-width: 762px) {
+  .card {
+    margin: 0 0 30px 0;
+  }
+}
