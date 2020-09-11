@@ -584,6 +584,161 @@
     "developer_comment": "'Exchanges' heading on Exchanges page",
     "context": "src/pages/exchanges.js:30:32"
   },
+  "3a7dd67cbfae55f4c47e06d883f3cc42": {
+    "string": "Frequently Asked Questions",
+    "developer_comment": "FAQ page, faq section title",
+    "context": "src/pages/faq.js:14:16"
+  },
+  "4ae560b5f5e9e7e0d5343cebb0030a33": {
+    "string": "What is Bitcoin Cash?",
+    "developer_comment": "FAQ page, faq what is bitcoin cash",
+    "context": "src/pages/faq.js:21:23"
+  },
+  "9f2a1753fb523074fcdd70150a5603a7": {
+    "string": "Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank.",
+    "developer_comment": "FAQ page, faq what is bitcoin cash answer",
+    "context": "src/pages/faq.js:28:32"
+  },
+  "87f71b72353a11920b45e4cfd625f10f": {
+    "string": "Is Bitcoin Cash different from 'Bitcoin'?",
+    "developer_comment": "FAQ page, faq Is Bitcoin Cash different from 'Bitcoin'?",
+    "context": "src/pages/faq.js:37:39"
+  },
+  "653fd3da0abccfdbb378bf075b6840af": {
+    "string": "In 2017, the Bitcoin project and its community split in two. Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash.",
+    "developer_comment": "FAQ page, faq Is Bitcoin Cash different from 'Bitcoin' answer",
+    "context": "src/pages/faq.js:44:51"
+  },
+  "87d5ce419b5a5da7dbc85844e3eec49d": {
+    "string": "Why Use Bitcoin Cash?",
+    "developer_comment": "FAQ page, Why Use Bitcoin Cash? section title",
+    "context": "src/pages/faq.js:58:60"
+  },
+  "5ce3c3607a6be9afda56463edfb00dfa": {
+    "string": "Send Money Anywhere In the World, Almost for Free",
+    "developer_comment": "FAQ page, why use section, Send Almost for Free title",
+    "context": "src/pages/faq.js:65:67"
+  },
+  "be257141051f1f2b3d520b7441911521": {
+    "string": "With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year. Like the Internet itself, the network is always on. No transaction is too big or too small. And you never need anyone’s permission or approval.",
+    "developer_comment": "FAQ page, why use section, Send Almost for Free text",
+    "context": "src/pages/faq.js:72:77"
+  },
+  "bd863d1dece1236861e8159e82e4cefc": {
+    "string": "Be Your Own Bank and Have Full Control Over Your Money",
+    "developer_comment": "FAQ page, why use section, Be you own bank title",
+    "context": "src/pages/faq.js:82:84"
+  },
+  "7c4955fbc9399239d5e2a47394f0681f": {
+    "string": "The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide. Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money.",
+    "developer_comment": "FAQ page, why use section, be you own bank text",
+    "context": "src/pages/faq.js:89:96"
+  },
+  "4c133c58b16e75714d1f9d5b1800ae79": {
+    "string": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world.",
+    "developer_comment": "FAQ page, why use section, be you own bank second text block",
+    "context": "src/pages/faq.js:99:104"
+  },
+  "89b8a9a584ef9ab6c272ddf04d5af2e4": {
+    "string": "A Scarce Digital Currency with a Known Fixed Supply",
+    "developer_comment": "FAQ page, why use section, scarce supply title",
+    "context": "src/pages/faq.js:109:111"
+  },
+  "331bef5c05b320a8c41530799b59fa9e": {
+    "string": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money.",
+    "developer_comment": "FAQ page, why use section, scarce supply text",
+    "context": "src/pages/faq.js:116:122"
+  },
+  "c363a89ba416e4ff37ded38094db030c": {
+    "string": "Increase Your Privacy and Operate Anonymously",
+    "developer_comment": "FAQ page, why use section, increase privacy title",
+    "context": "src/pages/faq.js:127:129"
+  },
+  "b91eba2760296a035a891fb5c937f96d": {
+    "string": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address.",
+    "developer_comment": "FAQ page, why use section, increase privacy text1",
+    "context": "src/pages/faq.js:134:139"
+  },
+  "db7e492a5b85bbfe7692642df1857e99": {
+    "string": "Bitcoin Cash offers various levels of privacy depending on how it is used. It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes.",
+    "developer_comment": "FAQ page, why use section, increase privacy text2",
+    "context": "src/pages/faq.js:142:146"
+  },
+  "56941c56ff445a1a05773644a6fa2037": {
+    "string": "Enjoy Exclusive Discounts",
+    "developer_comment": "FAQ page, why use section, Enjoy Exclusive Discounts title",
+    "context": "src/pages/faq.js:151:153"
+  },
+  "bc513a1668a77cf1e2e614a02ff94106": {
+    "string": "Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system.",
+    "developer_comment": "FAQ page, why use section, Enjoy Exclusive Discounts text",
+    "context": "src/pages/faq.js:158:162"
+  },
+  "6d54f0d35dce4daf8d8aab0fbe880708": {
+    "string": "Support Freedom Worldwide",
+    "developer_comment": "FAQ page, why use section, Support Freedom Worldwide title",
+    "context": "src/pages/faq.js:167:169"
+  },
+  "14bbf01a9648499286cbae56fcd5d5cf": {
+    "string": "Bitcoin Cash is a permissionless, open network. It empowers you to engage with your fellow human beings without intrusion. It's decentralized, voluntary, and non-aggressive. As usage grows, old power structures will erode while fresh ideas blossom. It may help usher in the greatest peaceful revolution the world has ever known.",
+    "developer_comment": "FAQ page, why use section, Support Freedom Worldwide text",
+    "context": "src/pages/faq.js:174:181"
+  },
+  "5dc874c22b609ac5900905f17603b0bf": {
+    "string": "Benefits for Merchants",
+    "developer_comment": "FAQ page, Benefits for Merchants section title",
+    "context": "src/pages/faq.js:188:190"
+  },
+  "0d9878c92506f6e3ee01e4b10ef67911": {
+    "string": "Ultra Low Fees",
+    "developer_comment": "FAQ page, merchant benefit section, Low fees title",
+    "context": "src/pages/faq.js:195:197"
+  },
+  "cc6e9f112d784552c3d26263c74e3ad5": {
+    "string": "The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.",
+    "developer_comment": "FAQ page, why use section, low fees text",
+    "context": "src/pages/faq.js:202:208"
+  },
+  "7376727274bf1c9f79d879a4a5bb38d8": {
+    "string": "No Chargebacks",
+    "developer_comment": "FAQ page, merchant benefit section, no chargeback title",
+    "context": "src/pages/faq.js:213:215"
+  },
+  "56126150403163d5e19d562d5b8876ce": {
+    "string": "Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant.",
+    "developer_comment": "FAQ page, why use section, no chargeback text",
+    "context": "src/pages/faq.js:220:224"
+  },
+  "dc9a7d1e3012ee8da65c48685be038f4": {
+    "string": "New Customers",
+    "developer_comment": "FAQ page, merchant benefit section, New Customers title",
+    "context": "src/pages/faq.js:229:231"
+  },
+  "436c6f204eb09cddbb613b8c1c07ba24": {
+    "string": "A growing number of patrons are choosing Bitcoin Cash as a preferred payment method. They favor merchants who offer this payment option and actively seek them out.",
+    "developer_comment": "FAQ page, why use section, New Customers text",
+    "context": "src/pages/faq.js:236:240"
+  },
+  "e8c7411441e74e4056d84b4ac4dc9db4": {
+    "string": "Free Marketing and Press",
+    "developer_comment": "FAQ page, merchant benefit section, Free Marketing and Press title",
+    "context": "src/pages/faq.js:245:247"
+  },
+  "134e2d98fdb2059d517782ad148d6af3": {
+    "string": "By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers. They can also take advantage of this new trend and generate press for their business.",
+    "developer_comment": "FAQ page, why use section, Free Marketing and Press text",
+    "context": "src/pages/faq.js:252:257"
+  },
+  "3e2ba39c893f2dd66fa7ab8506b7e408": {
+    "string": "The Bitcoin Cash Roadmap",
+    "developer_comment": "FAQ page, roadmap section title",
+    "context": "src/pages/faq.js:265:267"
+  },
+  "444176d6569632e9f20bae4aad98c9c5": {
+    "string": "View the roadmap",
+    "developer_comment": "'view roadmap' button on the faq page",
+    "context": "src/pages/faq.js:277:280"
+  },
   "bc2a94069c0682096a036ae4bfe47966": {
     "string": "Fast",
     "developer_comment": "Getting started page learn column 'Fast' title",
