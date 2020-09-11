@@ -13,6 +13,14 @@ module.exports = {
   },
   assetPrefix: "/v2",
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-1814670-4",
+        head: true,
+        anonymize: true,
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-resolve-src",
     "gatsby-plugin-sass",
