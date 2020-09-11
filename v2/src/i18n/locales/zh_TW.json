@@ -547,7 +547,7 @@
         }
       ]
     },
-    "cda264ce502bf19e3c87800b415f9aa9": {
+    "5d92a742ae5869d668144900f56ce4ee": {
       "translations": [
         {
           "translation": "Bitcoin Cash faucet"
@@ -589,17 +589,10 @@
         }
       ]
     },
-    "6054437c3668b07a834dc86969cf86ce": {
+    "be1ce878ec3c7879d4f51c101bd5039d": {
       "translations": [
         {
-          "translation": "Participate on censorship resistant social media platforms like {=Memo.cash}."
-        }
-      ]
-    },
-    "55f273c5a8d86eb747161961fffafbe6": {
-      "translations": [
-        {
-          "translation": "Memo.cash"
+          "translation": "Participate on censorship resistant social media platforms like {memo.cash}."
         }
       ]
     },
@@ -610,24 +603,10 @@
         }
       ]
     },
-    "578e1c24c06339241dd1f563459cdc38": {
+    "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {=Bitcoin.com Local} or {=LocalBitcoinCash.org}."
-        }
-      ]
-    },
-    "8f6a34e4e79b161e1cb2df8456865e7a": {
-      "translations": [
-        {
-          "translation": "Bitcoin.com Local"
-        }
-      ]
-    },
-    "492a45a6c0f304b65954242800998b1b": {
-      "translations": [
-        {
-          "translation": "LocalBitcoinCash.org"
+          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
         }
       ]
     },
@@ -645,7 +624,7 @@
         }
       ]
     },
-    "dd0178697fea3f95cdf0bd9ca0fec8a8": {
+    "62d4e4b07337d40d70de5c2847518a25": {
       "translations": [
         {
           "translation": "Bitcoin Cash Register"
@@ -701,14 +680,14 @@
         }
       ]
     },
-    "d19057e75b57b87372167e8b3060d0b0": {
+    "fd3c450b48cfba87fe672e03c08adb75": {
       "translations": [
         {
           "translation": "Bitcoin Cash Meetup"
         }
       ]
     },
-    "38445241b155405218c4a57740299045": {
+    "bbbbdbd3c9649b1a75c862ae8e2c140b": {
       "translations": [
         {
           "translation": "spend Bitcoin Cash"
@@ -754,6 +733,83 @@
       "translations": [
         {
           "translation": "個體經濟"
+        }
+      ]
+    },
+    "4cd11a2d59ce3b8d1db9aa9efaf25cd0": {
+      "translations": [
+        {
+          "translation": "使用比特幣現金打造絕佳應用程式"
+        }
+      ]
+    },
+    "8369cbce0cd83f40e6aa0dae19bb0d36": {
+      "translations": [
+        {
+          "translation": "開發者製作的開發者資源。"
+        }
+      ]
+    },
+    "be8e33683aa11aa3f6de5dc80441f0bc": {
+      "translations": [
+        {
+          "translation": "Libraries"
+        }
+      ]
+    },
+    "212e15c413bacd57f3d1c626aa8b90e6": {
+      "translations": [
+        {
+          "translation": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use."
+        }
+      ]
+    },
+    "8666c3469b291e614df874173d1358a9": {
+      "translations": [
+        {
+          "translation": "查看更多內容"
+        }
+      ]
+    },
+    "4b0ef5afb7eba267fa7d56c9a83c9e44": {
+      "translations": [
+        {
+          "translation": "Fully featured, powerful javascript framework for Bitcoin Cash."
+        }
+      ]
+    },
+    "4d7ab3b98c6b501998627b98ff9053e2": {
+      "translations": [
+        {
+          "translation": "Resources"
+        }
+      ]
+    },
+    "dfcc2a008c444cfb38d45449e05783d0": {
+      "translations": [
+        {
+          "translation": "規格"
+        }
+      ]
+    },
+    "8b3cf2dc9d41f4eefa1dd4a239e0f0c8": {
+      "translations": [
+        {
+          "translation": "比特幣現金詞彙與相關 API"
+        }
+      ]
+    },
+    "b25bc666e4b746b02c7ab8fccf604fb9": {
+      "translations": [
+        {
+          "translation": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID."
+        }
+      ]
+    },
+    "68e28bba2482472a7b1481cdabecbbec": {
+      "translations": [
+        {
+          "translation": "Simple Tokens - Secure Tokens on Bitcoin Cash"
         }
       ]
     },
