@@ -242,14 +242,14 @@
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
+          "translation": "Herinnering:  Geplande Netwerk-Upgrade {upgrade activation time}"
         }
       ]
     },
     "c896f27be5c90b6872cb876ce31ecfe3": {
       "translations": [
         {
-          "translation": "{upgrade activation time} Planned Network Upgrade"
+          "translation": "Geplande Netwerk-Upgrade {upgrade activation time}"
         }
       ]
     },
@@ -592,7 +592,7 @@
     "be1ce878ec3c7879d4f51c101bd5039d": {
       "translations": [
         {
-          "translation": "Participate on censorship resistant social media platforms like {memo.cash}."
+          "translation": "Neem deel aan censuurbestendige sociale mediaplatforms zoals {memo.cash}."
         }
       ]
     },
@@ -606,7 +606,7 @@
     "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
+          "translation": "Treed in contact met mensen in uw omgeving  die Bitcoin Cash verkopen op {local.bitcoin.com} of {localbitcoincash.org}."
         }
       ]
     },
@@ -1593,7 +1593,7 @@
     "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
+          "translation": "Loop binnen bij de meer dan {shop count} fysieke locaties waar ze Bitcoin Cash accepteren."
         }
       ]
     },
