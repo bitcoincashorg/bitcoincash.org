@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Bitcoincash.org",
-    description: "Money built for you—not banks",
-    author: "@gatsbyjs",
+    description: "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
+    author: "Bitcoincash.org",
     themeColours: {
       primary_dark: "#040c3c",
       primary_light: "#212c6e",

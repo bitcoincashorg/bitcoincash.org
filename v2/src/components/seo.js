@@ -9,8 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import TwitterImage from "assets/images/bitcoincash-org.jpg"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, twitter_image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +27,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const metatwitterImage = twitter_image || TwitterImage
 
   return (
     <Helmet
@@ -53,7 +55,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: 'summary_large_image',
         },
         {
           name: `twitter:creator`,
@@ -62,6 +64,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:title`,
           content: title,
+        },
+        {
+          name: `twitter:image`,
+          content: metatwitterImage,
         },
         {
           name: `twitter:description`,
