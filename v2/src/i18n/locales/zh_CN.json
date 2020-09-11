@@ -53,7 +53,7 @@
     "a93ad13582036c6c06c4ddffba43018b": {
       "translations": [
         {
-          "translation": "Get started"
+          "translation": "开始"
         }
       ]
     },
@@ -613,7 +613,7 @@
     "7bca5f561da7058a2446053e3757a05b": {
       "translations": [
         {
-          "translation": "Accept Bitcoin Cash at your Business"
+          "translation": "将比特币现金导入自己的业务"
         }
       ]
     },
@@ -690,7 +690,7 @@
     "bbbbdbd3c9649b1a75c862ae8e2c140b": {
       "translations": [
         {
-          "translation": "spend Bitcoin Cash"
+          "translation": "使用比特币现金"
         }
       ]
     },
@@ -1859,28 +1859,28 @@
     "b4556aebb796f5e71f4eb77b1bc26fab": {
       "translations": [
         {
-          "translation": "Mobile Wallets"
+          "translation": "移动钱包"
         }
       ]
     },
     "1c909027e6efdfefa39b3d92aa688a48": {
       "translations": [
         {
-          "translation": "Desktop Wallets"
+          "translation": "桌面钱包"
         }
       ]
     },
     "a0369d50befc901a9fcfc65aa7b4a3aa": {
       "translations": [
         {
-          "translation": "Hardware Wallets"
+          "translation": "硬件钱包"
         }
       ]
     },
     "ea4656f2a09327677744603e8d6b86d8": {
       "translations": [
         {
-          "translation": "Paper Wallets"
+          "translation": "纸质钱包"
         }
       ]
     },
