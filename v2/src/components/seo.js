@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import fbt from "fbt"
 import TwitterImage from "assets/images/bitcoincash-org.jpg"
 
 function SEO({ description, lang, meta, title, twitter_image }) {
@@ -24,7 +25,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       }
     `
   )
-
+  const metadescription = description || <fbt desc="Default SEO page description">Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.</fbt>
   const metatwitterImage = twitter_image || TwitterImage
 
   return (
@@ -37,7 +38,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       meta={[
         {
           name: `description`,
-          content: description,
+          content: metadescription,
         },
         {
           property: `og:title`,
@@ -45,7 +46,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           property: `og:description`,
-          content: description,
+          content: metadescription,
         },
         {
           property: `og:type`,
@@ -69,7 +70,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:description`,
-          content: description,
+          content: metadescription,
         },
       ].concat(meta)}
     >
@@ -98,12 +99,10 @@ function SEO({ description, lang, meta, title, twitter_image }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description:
-    "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
 }
 
 SEO.propTypes = {
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
