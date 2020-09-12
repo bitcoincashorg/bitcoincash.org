@@ -529,7 +529,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "Envoyer des monnaies fiduciaires à une plate-forme d'échange tierce de confiance et acheter des Bitcoin Cash."
         }
       ]
     },
@@ -606,7 +606,7 @@
     "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
+          "translation": "Contactez directement des personnes près de chez vous qui vendent du Bitcoin Cash sur {local.bitcoin.com} ou {localbitcoincash.org}."
         }
       ]
     },
@@ -781,7 +781,7 @@
     "4d7ab3b98c6b501998627b98ff9053e2": {
       "translations": [
         {
-          "translation": "Resources"
+          "translation": "Ressources"
         }
       ]
     },
@@ -893,7 +893,7 @@
     "4c133c58b16e75714d1f9d5b1800ae79": {
       "translations": [
         {
-          "translation": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world."
+          "translation": "Les banques peuvent également choisir de bloquer vos transactions, de vous facturer des frais ou de fermer votre compte sans vous prévenir. Bitcoin Cash vous offre un contrôle total et souverain sur vos fonds, auxquels vous pouvez accéder où que vous soyez."
         }
       ]
     },
@@ -907,7 +907,7 @@
     "331bef5c05b320a8c41530799b59fa9e": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money."
+          "translation": "Le protocole Bitcoin Cash garantit le nombre maximal de pièces en circulation, à savoir 21 millions. Les gouvernements ne cessent d'imprimer toujours plus d'argent, ce qui entraîne une inflation de l'offre et réduit la valeur des épargnes de chacun. Bitcoin Cash dispose d'une offre fixe, ce qui garantit une monnaie saine."
         }
       ]
     },
@@ -921,14 +921,14 @@
     "b91eba2760296a035a891fb5c937f96d": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address."
+          "translation": "Les transactions en Bitcoin Cash sont plus confidentielles et plus anonymes que les virements bancaires et les paiements par carte bancaire des systèmes de paiement traditionnel. Il est normalement impossible de savoir à qui appartient une adresse Bitcoin."
         }
       ]
     },
     "db7e492a5b85bbfe7692642df1857e99": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers various levels of privacy depending on how it is used. It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes."
+          "translation": "Bitcoin Cash propose différents niveaux de confidentialité selon son utilisation. Il est important de bien se familiariser avec la technologie avant d'utiliser Bitcoin Cash à des fins de confidentialité."
         }
       ]
     },
@@ -942,7 +942,7 @@
     "bc513a1668a77cf1e2e614a02ff94106": {
       "translations": [
         {
-          "translation": "Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system."
+          "translation": "De nombreux commerçants proposent des remises lorsque vous réglez vos achats en Bitcoin Cash, car cela leur permet d'éviter de payer des frais de carte bancaire et contribue à l'adoption de ce nouveau système de paiement."
         }
       ]
     },
@@ -956,7 +956,7 @@
     "14bbf01a9648499286cbae56fcd5d5cf": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a permissionless, open network. It empowers you to engage with your fellow human beings without intrusion. It's decentralized, voluntary, and non-aggressive. As usage grows, old power structures will erode while fresh ideas blossom. It may help usher in the greatest peaceful revolution the world has ever known."
+          "translation": "Bitcoin Cash est un réseau ouvert sans permission requise. Il vous permet de procéder à des échanges avec d'autres personnes sans ingérence. Il s'agit d'un système décentralisé, volontaire et pacifiste. Au fur et à mesure de son adoption, les anciennes structures de pouvoir seront abandonnées tandis que des idées novatrices germeront. Bitcoin Cash pourrait contribuer à mener la plus grande révolution pacifique que le monde ait jamais connue."
         }
       ]
     },
@@ -977,7 +977,7 @@
     "cc6e9f112d784552c3d26263c74e3ad5": {
       "translations": [
         {
-          "translation": "The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing."
+          "translation": "Les frais de réseau d'une transaction Bitcoin Cash sont généralement inférieurs à un centime. Si vous souhaitez convertir vos Bitcoin Cash en monnaie fiduciaire, tels que des dollars, vous pouvez passer par des sociétés de traitement dédiées, qui assureront la conversion à des frais bien plus faibles que pour un traitement de carte bancaire."
         }
       ]
     },
@@ -991,7 +991,7 @@
     "56126150403163d5e19d562d5b8876ce": {
       "translations": [
         {
-          "translation": "Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant."
+          "translation": "Contrairement aux cartes bancaires, les transactions ne sont pas automatiquement annulées, et il n'y a pas de remboursements, de rétrofacturation ni de frais imprévus. Les fonctions de protection antifraude sont intégrées au système et sont fournies gratuitement aux commerçants."
         }
       ]
     },
@@ -1005,7 +1005,7 @@
     "436c6f204eb09cddbb613b8c1c07ba24": {
       "translations": [
         {
-          "translation": "A growing number of patrons are choosing Bitcoin Cash as a preferred payment method. They favor merchants who offer this payment option and actively seek them out."
+          "translation": "De plus en plus de consommateurs préfèrent régler leurs achats en Bitcoin Cash. Ces personnes privilégient et recherchent activement les commerces qui proposent ce mode de paiement."
         }
       ]
     },
@@ -1019,7 +1019,7 @@
     "134e2d98fdb2059d517782ad148d6af3": {
       "translations": [
         {
-          "translation": "By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers. They can also take advantage of this new trend and generate press for their business."
+          "translation": "En acceptant Bitcoin Cash, les commerçants peuvent être répertoriés gratuitement sur des listes de sites Web et d'apps acceptant la monnaie, ce qui augmente leur visibilité. Ils peuvent également profiter de cette nouvelle tendance pour faire parler de leur commerce dans les médias."
         }
       ]
     },
@@ -1033,7 +1033,7 @@
     "444176d6569632e9f20bae4aad98c9c5": {
       "translations": [
         {
-          "translation": "View the roadmap"
+          "translation": "Voir la feuille de route"
         }
       ]
     },
@@ -1152,7 +1152,7 @@
     "0f429e8d8d54f67ce44b262f7d9b3eb4": {
       "translations": [
         {
-          "translation": "Learn more"
+          "translation": "En savoir plus"
         }
       ]
     },
@@ -1355,7 +1355,7 @@
     "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
       "translations": [
         {
-          "translation": "Easy ways to buy Bitcoin Cash"
+          "translation": "Achetez des Bitcoin Cash facilement"
         }
       ]
     },
