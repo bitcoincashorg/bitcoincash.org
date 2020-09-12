@@ -13,7 +13,13 @@ import Branch from "assets/icons/branch.svg"
 const DevelopersPage = () => {
   return (
     <>
-      <SEO title="Developer Portal" />
+      <SEO
+        title="Developer Portal"
+        description={fbt(
+          "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
+          "Default SEO page description"
+        )}
+      />
       <div className={S.topSection}>
         <Container className={S.topContainer}>
           <h1>

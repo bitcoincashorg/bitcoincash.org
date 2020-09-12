@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: "Bitcoincash.org",
-    description: "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
     author: "Bitcoincash.org",
     themeColours: {
       primary_dark: "#040c3c",

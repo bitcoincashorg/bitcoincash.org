@@ -18,7 +18,6 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         site {
           siteMetadata {
             title
-            description
             author
           }
         }
@@ -26,7 +25,6 @@ function SEO({ description, lang, meta, title, twitter_image }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
   const metatwitterImage = twitter_image || TwitterImage
 
   return (
@@ -39,7 +37,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: description,
         },
         {
           property: `og:title`,
@@ -47,7 +45,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: description,
         },
         {
           property: `og:type`,
@@ -55,7 +53,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:card`,
-          content: 'summary_large_image',
+          content: "summary_large_image",
         },
         {
           name: `twitter:creator`,
@@ -71,7 +69,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: description,
         },
       ].concat(meta)}
     >
@@ -100,11 +98,12 @@ function SEO({ description, lang, meta, title, twitter_image }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description:
+    "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
 }
 
 SEO.propTypes = {
-  description: PropTypes.string,
+  description: PropTypes.string.isRequired,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,

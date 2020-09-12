@@ -322,7 +322,13 @@ const Roadmap = () => {
 const RoadmapPage = () => {
   return (
     <>
-      <SEO title="Roadmap" />
+      <SEO
+        title="Roadmap"
+        description={fbt(
+          "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
+          "Default SEO page description"
+        )}
+      />
       <div className={roadmapStyle.container}>
         <div className={roadmapStyle.topSection}>
           <h1>
