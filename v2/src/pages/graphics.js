@@ -21,7 +21,7 @@ import DownloadIcon from "assets/icons/download.svg"
 const GraphicsPage = () => {
   return (
     <>
-      <SEO title="Logos and Graphics" />
+      <SEO title={fbt("Logos and Graphics", "Graphics page SEO title")} />
       <div className={S.topSection}>
         <Container className={S.topContainer}>
           <h1>

@@ -92,7 +92,7 @@ const GettingStartedPage = () => {
 
   return (
     <>
-      <SEO title="Getting Started" />
+      <SEO title={fbt("Getting Started", "Getting Started page SEO title")} />
       <Container>
         <Row>
           <Sidebar

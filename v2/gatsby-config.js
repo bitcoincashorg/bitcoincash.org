@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Bitcoincash.org",
-    description: "Money built for you—not banks",
-    author: "@gatsbyjs",
+    author: "Bitcoincash.org",
     themeColours: {
       primary_dark: "#040c3c",
       primary_light: "#212c6e",

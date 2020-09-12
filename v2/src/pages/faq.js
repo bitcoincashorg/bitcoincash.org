@@ -8,7 +8,7 @@ import PrimaryButton from "components/buttons/primary-button"
 const FAQPage = () => {
   return (
     <>
-      <SEO title="Frequently Asked Questions" />
+      <SEO title={fbt("Frequently Asked Questions", "FAQs page SEO title")} />
       <Container className={S.titleContianer}>
         <h2>
           <fbt desc="FAQ page, faq section title">

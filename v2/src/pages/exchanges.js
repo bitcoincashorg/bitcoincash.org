@@ -24,7 +24,7 @@ const ExchangesPage = () => {
 
   return (
     <>
-      <SEO title="Bitcoin Cash Exchanges" />
+      <SEO title={fbt("Bitcoin Cash Exchanges", "Exchanges page SEO title")} />
       <Container>
         <h2 className="centerh2">
           <fbt desc="'Exchanges' heading on Exchanges page">

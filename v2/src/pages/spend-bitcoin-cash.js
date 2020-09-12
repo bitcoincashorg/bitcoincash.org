@@ -64,7 +64,7 @@ const SpendPage = () => {
 
   return (
     <>
-      <SEO title="Spend Bitcoin Cash" />
+      <SEO title={fbt("Spend Bitcoin Cash", "Spend page SEO title")} />
       <Container>
         <Row>
           <Sidebar

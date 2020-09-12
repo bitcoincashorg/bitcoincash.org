@@ -13,7 +13,7 @@ import Branch from "assets/icons/branch.svg"
 const DevelopersPage = () => {
   return (
     <>
-      <SEO title="Developer Portal" />
+      <SEO title={fbt("Developer Portal", "Developer page SEO title")} />
       <div className={S.topSection}>
         <Container className={S.topContainer}>
           <h1>
