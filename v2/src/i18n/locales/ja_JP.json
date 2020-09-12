@@ -837,7 +837,7 @@
     "9f2a1753fb523074fcdd70150a5603a7": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank."
+          "translation": "ビットコイン キャッシュはP2P電子キャッシュシステムです。信頼できる第三者機関や中央銀行を必要としない、パーミッションレス型かつ非中央集権の仮想通貨です。"
         }
       ]
     },
@@ -851,7 +851,7 @@
     "653fd3da0abccfdbb378bf075b6840af": {
       "translations": [
         {
-          "translation": "In 2017, the Bitcoin project and its community split in two. Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash."
+          "translation": "2017 年、ビットコインとそのコミュニティーは 2 つに分裂しました。おそらく両者について話す場合、ティッカーシンボル（BTC と BCH）を用いることが最善の方法と言えるでしょう（ビットコイン キャッシュのティッカーシンボルは BCH ）。ビットコイン キャッシュのサポーターからは、P2Pデジタル通貨としてビットコイン プロジェクトの正式な継承者と考えられています。"
         }
       ]
     },
@@ -872,7 +872,7 @@
     "be257141051f1f2b3d520b7441911521": {
       "translations": [
         {
-          "translation": "With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year. Like the Internet itself, the network is always on. No transaction is too big or too small. And you never need anyone’s permission or approval."
+          "translation": "ビットコイン キャッシュがあれば、年中無休で場所を問わず送金できます。インターネット自体と同じく、ネットワークはつねに繋がっています。取引に大小はなく、第三者の許可も承認も必要としません。"
         }
       ]
     },
@@ -886,7 +886,7 @@
     "7c4955fbc9399239d5e2a47394f0681f": {
       "translations": [
         {
-          "translation": "The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide. Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money."
+          "translation": "キプロスやギリシャで起こった口座保有者からの資金の差し押さえ（ベイルイン）は、銀行に預けたお金が政治の指導者次第で安全でなくなることを示しました。最高の条件が揃っていても、銀行は間違いを犯したり、資金を保留したり、口座を凍結したり、あなたのお金にアクセスできないようにすることができます。"
         }
       ]
     },

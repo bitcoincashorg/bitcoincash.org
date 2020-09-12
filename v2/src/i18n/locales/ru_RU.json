@@ -837,7 +837,7 @@
     "9f2a1753fb523074fcdd70150a5603a7": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a peer-to-peer electronic cash system. It's a permissionless, decentralized cryptocurrency that requires no trusted third parties and no central bank."
+          "translation": "Bitcoin Cash — это пиринговая электронная платежная система и децентрализованная криптовалюта, которая не требует разрешений, а также взаимодействия с третьими сторонами и банками."
         }
       ]
     },
@@ -851,7 +851,7 @@
     "653fd3da0abccfdbb378bf075b6840af": {
       "translations": [
         {
-          "translation": "In 2017, the Bitcoin project and its community split in two. Perhaps the least controversial way to refer to each side is simply by their respective ticker symbols, BTC and BCH. Bitcoin Cash is usually represented by the BCH ticker symbol and is considered by its supporters to be the legitimate continuation of the Bitcoin project as peer-to-peer digital cash."
+          "translation": "В 2017 году сообщество разделилось и возникло альтернативное направление — Bitcoin Cash. Валюты получили разные биржевые символы — BTC и BCH. Приверженцы Bitcoin Cash, обозначаемой как BCH, считают, что именно эта валюта стала воплощением первоначальной идеи биткойна как пиринговой цифровой валюты."
         }
       ]
     },
@@ -872,7 +872,7 @@
     "be257141051f1f2b3d520b7441911521": {
       "translations": [
         {
-          "translation": "With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year. Like the Internet itself, the network is always on. No transaction is too big or too small. And you never need anyone’s permission or approval."
+          "translation": "Благодаря Bitcoin Cash вы можете отправлять деньги любому человеку, в любую точку мира, в любое время суток и в любой день недели. Наша сеть работает всегда, как интернет. Объем транзакции не ограничен. Вам не потребуется никакое разрешение."
         }
       ]
     },
@@ -886,7 +886,7 @@
     "7c4955fbc9399239d5e2a47394f0681f": {
       "translations": [
         {
-          "translation": "The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide. Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money."
+          "translation": "Сохранность средств на банковском счету во многом зависит от политической обстановки. Доказательство тому — ситуация на Кипре, когда банки удержали средства со счетов граждан. Даже в самых надежных банках случаются задержки переводов, блокировки счетов и другие ошибки, которые могут помешать вам получить доступ к деньгам."
         }
       ]
     },
