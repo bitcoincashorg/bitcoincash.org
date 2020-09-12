@@ -107,9 +107,7 @@ const WalletsPage = () => {
 
   return (
     <>
-      <SEO
-        title={fbt("Bitcoin Cash Wallets","Wallets page SEO title")}
-      />
+      <SEO title={fbt("Bitcoin Cash Wallets", "Wallets page SEO title")} />
       <Container>
         <Row>
           <Sidebar

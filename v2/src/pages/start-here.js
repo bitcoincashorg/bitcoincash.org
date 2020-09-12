@@ -14,9 +14,7 @@ import Accept from "assets/images/get-started/accept-bitcoin-cash.jpg"
 const StartHerePage = () => {
   return (
     <>
-      <SEO
-        title={fbt("Start Here","Start here page SEO title")}
-      />
+      <SEO title={fbt("Start Here", "Start here page SEO title")} />
       <Container>
         <Row>
           <Col md={12}>

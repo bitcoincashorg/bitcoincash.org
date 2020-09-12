@@ -90,9 +90,7 @@ const AcceptPage = () => {
 
   return (
     <>
-      <SEO
-        title={fbt("Spend Bitcoin Cash","Spend page SEO title")}
-      />
+      <SEO title={fbt("Spend Bitcoin Cash", "Spend page SEO title")} />
       <Container>
         <Row>
           <Sidebar

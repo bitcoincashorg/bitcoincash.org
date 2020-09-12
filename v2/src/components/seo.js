@@ -25,7 +25,14 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       }
     `
   )
-  const metadescription = description || <fbt desc="Default SEO page description">Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.</fbt>
+  const metadescription = description || (
+    <fbt desc="Default SEO page description">
+      Bitcoin Cash brings sound money to the world. Merchants and users are
+      empowered with low fees and reliable confirmations. The future shines
+      brightly with unrestricted growth, global adoption, permissionless
+      innovation, and decentralized development.
+    </fbt>
+  )
   const metatwitterImage = twitter_image || TwitterImage
 
   return (

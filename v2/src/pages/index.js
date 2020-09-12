@@ -53,9 +53,7 @@ const IndexPage = () => {
         )}
         btnText={fbt("Coming soon.", "Subscribe call to action button")}
       />
-      <SEO
-        title={fbt("Home","Home page SEO title")}
-      />
+      <SEO title={fbt("Home", "Home page SEO title")} />
     </>
   )
 }

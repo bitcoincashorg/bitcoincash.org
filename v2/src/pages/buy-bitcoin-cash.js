@@ -213,9 +213,7 @@ const BuyPage = () => {
 
   return (
     <>
-      <SEO
-        title={fbt("Buy Bitcoin Cash","Buy page SEO title")}
-      />
+      <SEO title={fbt("Buy Bitcoin Cash", "Buy page SEO title")} />
       <Container>
         <Row>
           <Sidebar

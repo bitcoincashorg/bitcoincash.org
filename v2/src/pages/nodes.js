@@ -10,9 +10,7 @@ const NodesPage = () => {
 
   return (
     <>
-      <SEO
-        title={fbt("Bitcoin Cash Nodes","Nodes page SEO title")}
-      />
+      <SEO title={fbt("Bitcoin Cash Nodes", "Nodes page SEO title")} />
       <Container style={{ padding: "130px 0" }}>
         <h2 className="centerh2">
           <fbt desc="'Nodes' heading on nodes page">Nodes</fbt>

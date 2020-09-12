@@ -322,9 +322,7 @@ const Roadmap = () => {
 const RoadmapPage = () => {
   return (
     <>
-      <SEO
-        title={fbt("Roadmap","Roadmap page SEO title")}
-      />
+      <SEO title={fbt("Roadmap", "Roadmap page SEO title")} />
       <div className={roadmapStyle.container}>
         <div className={roadmapStyle.topSection}>
           <h1>
