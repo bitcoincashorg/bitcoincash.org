@@ -169,6 +169,11 @@
     "developer_comment": "'does what banks can't do' homepage feature's CTA button text",
     "context": "src/components/home/home-large-feature.js:49:52"
   },
+  "94bb812db2775ab0519cb698344e0453": {
+    "string": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
+    "developer_comment": "Default SEO page description",
+    "context": "src/components/seo.js:29:34"
+  },
   "a7430462af5cba62b3f993c0b544b345": {
     "string": "Reminder: {upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar reminder headline",
@@ -364,6 +369,11 @@
     "developer_comment": "Accept page main paragraph",
     "context": "src/pages/accept-bitcoin-cash.js:69:86"
   },
+  "0ec744dfe61b0be542209b5fcf09150c": {
+    "string": "Spend Bitcoin Cash",
+    "developer_comment": "Spend page SEO title",
+    "context": "src/pages/spend-bitcoin-cash.js:67:67"
+  },
   "60b71435a466bbacb718ab4d64221ffb": {
     "string": "How can I accept Bitcoin Cash",
     "developer_comment": "sidebar title 'accept' page",
@@ -504,6 +514,11 @@
     "developer_comment": "Buy page buy online paragraph",
     "context": "src/pages/buy-bitcoin-cash.js:182:191"
   },
+  "73199e1a37833cc407baf9cb594a7720": {
+    "string": "Buy Bitcoin Cash",
+    "developer_comment": "Buy page SEO title",
+    "context": "src/pages/buy-bitcoin-cash.js:216:216"
+  },
   "e3f34224a984c5401b8ea0ee050da8df": {
     "string": "Where can I get Bitcoin Cash?",
     "developer_comment": "sidebar title 'buy' page",
@@ -523,6 +538,11 @@
     "string": "Microeconomy",
     "developer_comment": "Buy page microeconomy list header",
     "context": "src/pages/buy-bitcoin-cash.js:247:247"
+  },
+  "68add98186b42b1447f6bd4037f0613d": {
+    "string": "Developer Portal",
+    "developer_comment": "Developer page SEO title",
+    "context": "src/pages/developers.js:16:16"
   },
   "4cd11a2d59ce3b8d1db9aa9efaf25cd0": {
     "string": "Create amazing apps with Bitcoin Cash",
@@ -579,10 +599,20 @@
     "developer_comment": "Developers page, SLP SDK description",
     "context": "src/pages/developers.js:149:151"
   },
+  "095a77bfa04da6e74399b37991970188": {
+    "string": "Bitcoin Cash Exchanges",
+    "developer_comment": "Exchanges page SEO title",
+    "context": "src/pages/exchanges.js:27:27"
+  },
   "678465bc79271d7b1c4c4ea5ec0da06b": {
     "string": "Featured Exchanges",
     "developer_comment": "'Exchanges' heading on Exchanges page",
     "context": "src/pages/exchanges.js:30:32"
+  },
+  "6cad5bafbce7652dedd3f3d79a85a990": {
+    "string": "Frequently Asked Questions",
+    "developer_comment": "FAQs page SEO title",
+    "context": "src/pages/faq.js:11:11"
   },
   "3a7dd67cbfae55f4c47e06d883f3cc42": {
     "string": "Frequently Asked Questions",
@@ -814,6 +844,11 @@
     "developer_comment": "Getting started page main paragraph",
     "context": "src/pages/getting-started.js:80:88"
   },
+  "3cb62264212f3370974b26fe12f18810": {
+    "string": "Getting Started",
+    "developer_comment": "Getting Started page SEO title",
+    "context": "src/pages/getting-started.js:95:95"
+  },
   "320884bf7d995a7c5f6ed2b50f3280b5": {
     "string": "Learn all about Bitcoin Cash",
     "developer_comment": "sidebar title 'getting started' page",
@@ -823,6 +858,11 @@
     "string": "Learn more",
     "developer_comment": "learn more button",
     "context": "src/pages/getting-started.js:107:107"
+  },
+  "dcf13c988504e8e8b5b876069632c0fd": {
+    "string": "Logos and Graphics",
+    "developer_comment": "Graphics page SEO title",
+    "context": "src/pages/graphics.js:24:24"
   },
   "0bdb5cc778529a751ce847821fbb380f": {
     "string": "Promotional Graphics",
@@ -984,10 +1024,25 @@
     "developer_comment": "Subscribe call to action button",
     "context": "src/pages/index.js:54:54"
   },
+  "ffe388386a3f6ea439f72452050e80a9": {
+    "string": "Home",
+    "developer_comment": "Home page SEO title",
+    "context": "src/pages/index.js:56:56"
+  },
+  "44a24bc2296c5d9e605b8f25b668460c": {
+    "string": "Bitcoin Cash Nodes",
+    "developer_comment": "Nodes page SEO title",
+    "context": "src/pages/nodes.js:13:13"
+  },
   "0b70238c1ec446e023d6d616d39b20d1": {
     "string": "Nodes",
     "developer_comment": "'Nodes' heading on nodes page",
     "context": "src/pages/nodes.js:16:16"
+  },
+  "8863afc1901492a09d8fc593934a6a9c": {
+    "string": "Bitcoin Cash Projects",
+    "developer_comment": "Projects page SEO title",
+    "context": "src/pages/projects.js:13:13"
   },
   "50706fdb25734791332d2d12fa387980": {
     "string": "Projects",
@@ -1199,6 +1254,11 @@
     "developer_comment": "Bottom roadmap item",
     "context": "src/pages/roadmap.js:314:314"
   },
+  "5f0f6872577f832b8e66428e941a7590": {
+    "string": "Roadmap",
+    "developer_comment": "Roadmap page SEO title",
+    "context": "src/pages/roadmap.js:325:325"
+  },
   "db0474a08f0ea607a9dce3710b680bae": {
     "string": "The Bitcoin Cash Roadmap",
     "developer_comment": "Title of the roadmap page",
@@ -1258,6 +1318,11 @@
     "string": "To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen.",
     "developer_comment": "Roadmap conclusion",
     "context": "src/pages/roadmap.js:426:431"
+  },
+  "abf7a99cb5c993a55b9707323a02ff39": {
+    "string": "Bitcoin Cash Services",
+    "developer_comment": "Services page SEO title",
+    "context": "src/pages/services.js:13:13"
   },
   "a6bb7cf37ec7fac947cd70e77df6e70c": {
     "string": "Services",
@@ -1328,6 +1393,11 @@
     "string": "Bitcoin.com Maps",
     "developer_comment": "In the phrase: \"Location data by{=Bitcoin.com Maps}\"",
     "context": "src/pages/spend-bitcoin-cash.js:99:105"
+  },
+  "afd2a309498355f71d5247c563e67260": {
+    "string": "Start Here",
+    "developer_comment": "Start here page SEO title",
+    "context": "src/pages/start-here.js:17:17"
   },
   "24f1ac1047df047c2b018b64f48e4f8f": {
     "string": "Getting Started",
@@ -1468,6 +1538,11 @@
     "string": "Getting started with Bitcoin Cash is super easy. The first step is to download a wallet so that you can begin participating in the Bitcoin economy. Most wallets are free to download and are easy to use that have a few key features such as sending, receiving, storing funds securely, transaction lookups, and more.",
     "developer_comment": "Wallets page main paragraph",
     "context": "src/pages/wallets.js:77:83"
+  },
+  "8fe149378aebfc9f37688e222b2c433e": {
+    "string": "Bitcoin Cash Wallets",
+    "developer_comment": "Wallets page SEO title",
+    "context": "src/pages/wallets.js:110:110"
   },
   "30b0917c156050f542833475f6942bc3": {
     "string": "What kind of wallet should I use?",
