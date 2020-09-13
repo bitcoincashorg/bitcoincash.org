@@ -239,6 +239,13 @@
         }
       ]
     },
+    "94bb812db2775ab0519cb698344e0453": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development."
+        }
+      ]
+    },
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
@@ -512,6 +519,13 @@
         }
       ]
     },
+    "0ec744dfe61b0be542209b5fcf09150c": {
+      "translations": [
+        {
+          "translation": "Belanjakan Bitcoin Cash"
+        }
+      ]
+    },
     "60b71435a466bbacb718ab4d64221ffb": {
       "translations": [
         {
@@ -708,6 +722,13 @@
         }
       ]
     },
+    "73199e1a37833cc407baf9cb594a7720": {
+      "translations": [
+        {
+          "translation": "Buy Bitcoin Cash"
+        }
+      ]
+    },
     "e3f34224a984c5401b8ea0ee050da8df": {
       "translations": [
         {
@@ -733,6 +754,13 @@
       "translations": [
         {
           "translation": "Ekonomi mikro"
+        }
+      ]
+    },
+    "68add98186b42b1447f6bd4037f0613d": {
+      "translations": [
+        {
+          "translation": "Portal Pengembang"
         }
       ]
     },
@@ -813,10 +841,24 @@
         }
       ]
     },
+    "095a77bfa04da6e74399b37991970188": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Exchanges"
+        }
+      ]
+    },
     "678465bc79271d7b1c4c4ea5ec0da06b": {
       "translations": [
         {
           "translation": "Featured Exchanges"
+        }
+      ]
+    },
+    "6cad5bafbce7652dedd3f3d79a85a990": {
+      "translations": [
+        {
+          "translation": "Frequently Asked Questions (FAQ)"
         }
       ]
     },
@@ -1142,6 +1184,13 @@
         }
       ]
     },
+    "3cb62264212f3370974b26fe12f18810": {
+      "translations": [
+        {
+          "translation": "Memulai"
+        }
+      ]
+    },
     "320884bf7d995a7c5f6ed2b50f3280b5": {
       "translations": [
         {
@@ -1153,6 +1202,13 @@
       "translations": [
         {
           "translation": "Learn more"
+        }
+      ]
+    },
+    "dcf13c988504e8e8b5b876069632c0fd": {
+      "translations": [
+        {
+          "translation": "Logos and Graphics"
         }
       ]
     },
@@ -1380,10 +1436,31 @@
         }
       ]
     },
+    "ffe388386a3f6ea439f72452050e80a9": {
+      "translations": [
+        {
+          "translation": "Home"
+        }
+      ]
+    },
+    "44a24bc2296c5d9e605b8f25b668460c": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Nodes"
+        }
+      ]
+    },
     "0b70238c1ec446e023d6d616d39b20d1": {
       "translations": [
         {
           "translation": "Node"
+        }
+      ]
+    },
+    "8863afc1901492a09d8fc593934a6a9c": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Projects"
         }
       ]
     },
@@ -1681,6 +1758,13 @@
         }
       ]
     },
+    "5f0f6872577f832b8e66428e941a7590": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
     "db0474a08f0ea607a9dce3710b680bae": {
       "translations": [
         {
@@ -1762,6 +1846,13 @@
       "translations": [
         {
           "translation": "To become a solid base for application development and innovation, Bitcoin Cash must continuously improve and compete. Working together, we can build a technical foundation to empower Bitcoin Cash to be the best money the world has ever seen."
+        }
+      ]
+    },
+    "abf7a99cb5c993a55b9707323a02ff39": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Services"
         }
       ]
     },
@@ -1860,6 +1951,13 @@
       "translations": [
         {
           "translation": "Bitcoin.com Maps"
+        }
+      ]
+    },
+    "afd2a309498355f71d5247c563e67260": {
+      "translations": [
+        {
+          "translation": "Mulai di Sini"
         }
       ]
     },
@@ -2056,6 +2154,13 @@
       "translations": [
         {
           "translation": "Memulai Bitcoin Cash sangat mudah. Langkah pertama adalah mengunduh dompet agar Anda dapat mulai berpartisipasi dalam ekonomi Bitcoin. Kebanyakan dompet dapat diunduh gratis dan mudah digunakan, serta memiliki fitur utama seperti mengirim, menerima, menyimpan dana secara aman, dan pencarian transaksi."
+        }
+      ]
+    },
+    "8fe149378aebfc9f37688e222b2c433e": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Wallets"
         }
       ]
     },

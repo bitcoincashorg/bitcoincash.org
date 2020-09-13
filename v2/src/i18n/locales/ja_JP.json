@@ -239,6 +239,13 @@
         }
       ]
     },
+    "94bb812db2775ab0519cb698344e0453": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development."
+        }
+      ]
+    },
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
@@ -512,6 +519,13 @@
         }
       ]
     },
+    "0ec744dfe61b0be542209b5fcf09150c": {
+      "translations": [
+        {
+          "translation": "ビットコイン キャッシュを使う"
+        }
+      ]
+    },
     "60b71435a466bbacb718ab4d64221ffb": {
       "translations": [
         {
@@ -708,6 +722,13 @@
         }
       ]
     },
+    "73199e1a37833cc407baf9cb594a7720": {
+      "translations": [
+        {
+          "translation": "Buy Bitcoin Cash"
+        }
+      ]
+    },
     "e3f34224a984c5401b8ea0ee050da8df": {
       "translations": [
         {
@@ -733,6 +754,13 @@
       "translations": [
         {
           "translation": "ミクロ経済"
+        }
+      ]
+    },
+    "68add98186b42b1447f6bd4037f0613d": {
+      "translations": [
+        {
+          "translation": "開発者ポータル"
         }
       ]
     },
@@ -813,10 +841,24 @@
         }
       ]
     },
+    "095a77bfa04da6e74399b37991970188": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Exchanges"
+        }
+      ]
+    },
     "678465bc79271d7b1c4c4ea5ec0da06b": {
       "translations": [
         {
           "translation": "Featured Exchanges"
+        }
+      ]
+    },
+    "6cad5bafbce7652dedd3f3d79a85a990": {
+      "translations": [
+        {
+          "translation": "よくある質問"
         }
       ]
     },
@@ -1142,6 +1184,13 @@
         }
       ]
     },
+    "3cb62264212f3370974b26fe12f18810": {
+      "translations": [
+        {
+          "translation": "はじめに"
+        }
+      ]
+    },
     "320884bf7d995a7c5f6ed2b50f3280b5": {
       "translations": [
         {
@@ -1153,6 +1202,13 @@
       "translations": [
         {
           "translation": "Learn more"
+        }
+      ]
+    },
+    "dcf13c988504e8e8b5b876069632c0fd": {
+      "translations": [
+        {
+          "translation": "Logos and Graphics"
         }
       ]
     },
@@ -1380,10 +1436,31 @@
         }
       ]
     },
+    "ffe388386a3f6ea439f72452050e80a9": {
+      "translations": [
+        {
+          "translation": "ホーム"
+        }
+      ]
+    },
+    "44a24bc2296c5d9e605b8f25b668460c": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Nodes"
+        }
+      ]
+    },
     "0b70238c1ec446e023d6d616d39b20d1": {
       "translations": [
         {
           "translation": "ノード"
+        }
+      ]
+    },
+    "8863afc1901492a09d8fc593934a6a9c": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Projects"
         }
       ]
     },
@@ -1681,6 +1758,13 @@
         }
       ]
     },
+    "5f0f6872577f832b8e66428e941a7590": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
     "db0474a08f0ea607a9dce3710b680bae": {
       "translations": [
         {
@@ -1762,6 +1846,13 @@
       "translations": [
         {
           "translation": "アプリケーション開発とイノベーションのための強い基盤をなるには、Bitcoin Cashネットワークは継続的に改善し、競争力を高めなければいけない。 力を合わせば、技術的基盤を構築し、Bitcoin Cashが世界の最高の「お金」になるように実現できます。"
+        }
+      ]
+    },
+    "abf7a99cb5c993a55b9707323a02ff39": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Services"
         }
       ]
     },
@@ -1860,6 +1951,13 @@
       "translations": [
         {
           "translation": "Bitcoin.com Maps"
+        }
+      ]
+    },
+    "afd2a309498355f71d5247c563e67260": {
+      "translations": [
+        {
+          "translation": "ここから始める"
         }
       ]
     },
@@ -2056,6 +2154,13 @@
       "translations": [
         {
           "translation": "ビットコイン キャッシュは簡単に始めることができます。まず、ウォレットをダウンロードし、ビットコイン経済活動に参加します。ほとんどのウォレットは無料でダウンロードでき、送金、受金、資金の安全な保管、取引検索など主な機能を備え、操作も簡単です。"
+        }
+      ]
+    },
+    "8fe149378aebfc9f37688e222b2c433e": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Wallets"
         }
       ]
     },
