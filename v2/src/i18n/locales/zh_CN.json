@@ -690,14 +690,14 @@
     "4fe3626b7a5a84066dc77dc4b0bc6724": {
       "translations": [
         {
-          "translation": "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest {=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can {=spend Bitcoin Cash} and enquire there."
+          "translation": "很多城市都有场外交易市场（OTC），交易员用比特币现金交易法币（如美元、日元、欧元等）。或者你可以考虑问你的雇主是否愿意站在未来货币的最前沿，使用比特币现金支付部分或全部酬劳。一些较大的城市也配备了支持比特币现金的ATM机，这使得购买比特币现金变得非常容易。在离你最近的{=比特币现金线下聚会}询问其他选项，或者去你所在城市可以{=消费比特币现金}的餐馆，在那里问问。"
         }
       ]
     },
     "fd3c450b48cfba87fe672e03c08adb75": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Meetup"
+          "translation": "比特币现金线下聚会"
         }
       ]
     },
@@ -725,7 +725,7 @@
     "73199e1a37833cc407baf9cb594a7720": {
       "translations": [
         {
-          "translation": "Buy Bitcoin Cash"
+          "translation": "购买比特币现金"
         }
       ]
     },
@@ -739,7 +739,7 @@
     "03fe2735053d17e8d3f29270870f5a0e": {
       "translations": [
         {
-          "translation": "Featured Exchanges"
+          "translation": "专门的交易所"
         }
       ]
     },
@@ -781,14 +781,14 @@
     "be8e33683aa11aa3f6de5dc80441f0bc": {
       "translations": [
         {
-          "translation": "Libraries"
+          "translation": "库"
         }
       ]
     },
     "212e15c413bacd57f3d1c626aa8b90e6": {
       "translations": [
         {
-          "translation": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use."
+          "translation": "Python 最快的比特币现金库。直观，使用不费力。"
         }
       ]
     },
@@ -802,14 +802,14 @@
     "4b0ef5afb7eba267fa7d56c9a83c9e44": {
       "translations": [
         {
-          "translation": "Fully featured, powerful javascript framework for Bitcoin Cash."
+          "translation": "功能齐全且强大的比特币现金JavaScript框架。"
         }
       ]
     },
     "4d7ab3b98c6b501998627b98ff9053e2": {
       "translations": [
         {
-          "translation": "Resources"
+          "translation": "资源"
         }
       ]
     },
@@ -851,7 +851,7 @@
     "678465bc79271d7b1c4c4ea5ec0da06b": {
       "translations": [
         {
-          "translation": "Featured Exchanges"
+          "translation": "专门的交易所"
         }
       ]
     },
