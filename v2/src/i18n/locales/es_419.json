@@ -557,7 +557,7 @@
     "c32d07c9f1ec7e029145acba7847810d": {
       "translations": [
         {
-          "translation": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!"
+          "translation": "Usar un {=Bitcoin Cash faucet} confiable para recibir una pequeña cantidad de Bitcoin Cash gratis!"
         }
       ]
     },
@@ -620,7 +620,7 @@
     "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
+          "translation": "Conectarse con personas locales en tu área que vendan Bitcoin Cash en {local.bitcoin.com} o {localbitcoincash.org}."
         }
       ]
     },
