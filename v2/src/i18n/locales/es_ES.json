@@ -60,7 +60,7 @@
     "0c996a190077b39e16d6026c2e5b07c4": {
       "translations": [
         {
-          "translation": "Ver hoja de ruta"
+          "translation": "Ver Hoja de Ruta"
         }
       ]
     },
@@ -235,7 +235,7 @@
     "58600d07c3ef680e2dc727d0d10d4070": {
       "translations": [
         {
-          "translation": "Ver la hoja de ruta"
+          "translation": "Ver la Hoja de Ruta"
         }
       ]
     },
@@ -270,7 +270,7 @@
     "d770c97de5c52bd8109e39c140e62bab": {
       "translations": [
         {
-          "translation": "Ver hoja de ruta"
+          "translation": "Ver Hoja de Ruta"
         }
       ]
     },
@@ -557,7 +557,7 @@
     "c32d07c9f1ec7e029145acba7847810d": {
       "translations": [
         {
-          "translation": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!"
+          "translation": "Usar un {=Bitcoin Cash faucet} confiable para recibir una pequeña cantidad de Bitcoin Cash gratis!"
         }
       ]
     },
@@ -739,7 +739,7 @@
     "03fe2735053d17e8d3f29270870f5a0e": {
       "translations": [
         {
-          "translation": "Intercambios destacados"
+          "translation": "Exchanges destacadas"
         }
       ]
     },
@@ -830,28 +830,28 @@
     "b25bc666e4b746b02c7ab8fccf604fb9": {
       "translations": [
         {
-          "translation": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID."
+          "translation": "Badger Wallet inyecta una API en las páginas que visita un usuario para permitir que las aplicaciones soliciten su permiso para enviar Bitcoin Cash, tokens o autenticarse con CashID."
         }
       ]
     },
     "68e28bba2482472a7b1481cdabecbbec": {
       "translations": [
         {
-          "translation": "Simple Tokens - Secure Tokens on Bitcoin Cash"
+          "translation": "Simple Tokens - Tokens seguros en Bitcoin Cash"
         }
       ]
     },
     "095a77bfa04da6e74399b37991970188": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Exchanges"
+          "translation": "Exchanges de Bitcoin Cash"
         }
       ]
     },
     "678465bc79271d7b1c4c4ea5ec0da06b": {
       "translations": [
         {
-          "translation": "Intercambios destacados"
+          "translation": "Exchanges destacadas"
         }
       ]
     },
@@ -935,7 +935,7 @@
     "4c133c58b16e75714d1f9d5b1800ae79": {
       "translations": [
         {
-          "translation": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world."
+          "translation": "Los bancos también pueden decidir bloquear sus transacciones, cobrarle tarifas o cerrar su cuenta sin previo aviso. Bitcoin Cash le brinda un control soberano total sobre sus fondos, a los que puede acceder desde cualquier parte del mundo."
         }
       ]
     },
@@ -949,7 +949,7 @@
     "331bef5c05b320a8c41530799b59fa9e": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money."
+          "translation": "El protocolo Bitcoin Cash asegura que nunca habrá más de 21 millones de monedas en existencia. Los gobiernos imprimen dinero continuamente, inflando sin cesar la oferta y devaluando los ahorros de todos. Bitcoin Cash tiene un suministro fijo y, por lo tanto, representa dinero sólido."
         }
       ]
     },
@@ -963,14 +963,14 @@
     "b91eba2760296a035a891fb5c937f96d": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address."
+          "translation": "Bitcoin Cash ofrece más privacidad y anonimato que los sistemas de pago tradicionales como transferencias bancarias y pagos con tarjeta de crédito, ya que normalmente es imposible saber quién controla una dirección de Bitcoin."
         }
       ]
     },
     "db7e492a5b85bbfe7692642df1857e99": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers various levels of privacy depending on how it is used. It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes."
+          "translation": "Bitcoin Cash ofrece varios niveles de privacidad según cómo se utilice. Es importante informarse a fondo antes de usar Bitcoin Cash con fines de privacidad."
         }
       ]
     },
@@ -984,7 +984,7 @@
     "bc513a1668a77cf1e2e614a02ff94106": {
       "translations": [
         {
-          "translation": "Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system."
+          "translation": "Muchos comerciantes ofrecen descuentos por pagar en Bitcoin Cash, porque elimina las tarifas de las tarjetas de crédito y ayuda a aumentar la adopción de este nuevo sistema de pago."
         }
       ]
     },
@@ -998,7 +998,7 @@
     "14bbf01a9648499286cbae56fcd5d5cf": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a permissionless, open network. It empowers you to engage with your fellow human beings without intrusion. It's decentralized, voluntary, and non-aggressive. As usage grows, old power structures will erode while fresh ideas blossom. It may help usher in the greatest peaceful revolution the world has ever known."
+          "translation": "Bitcoin Cash es una red abierta sin permisos. Le da poder para relacionarse con sus semejantes sin intrusiones. Es descentralizada, voluntaria y no agresiva. A medida que aumente el uso, las viejas estructuras de poder se erosionarán mientras surgen nuevas ideas. Puede ayudar a marcar el comienzo de la mayor revolución pacífica que el mundo haya conocido."
         }
       ]
     },
@@ -1019,7 +1019,7 @@
     "cc6e9f112d784552c3d26263c74e3ad5": {
       "translations": [
         {
-          "translation": "The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing."
+          "translation": "La tarifa de red para una transacción típica de Bitcoin Cash es menos de un centavo. Si desea convertir su Bitcoin Cash en moneda fiduciaria, como dólares estadounidenses, puede hacerlo a través de procesadores comerciales por un costo que aún es mucho menor que el procesamiento de tarjetas de crédito."
         }
       ]
     },
@@ -1033,7 +1033,7 @@
     "56126150403163d5e19d562d5b8876ce": {
       "translations": [
         {
-          "translation": "Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant."
+          "translation": "A diferencia de las tarjetas de crédito, nunca hay anulaciones automáticas, reembolsos, devoluciones de cargo u otras tarifas inesperadas. La protección contra fraudes está integrada en el sistema sin costo para el comerciante."
         }
       ]
     },
@@ -1047,7 +1047,7 @@
     "436c6f204eb09cddbb613b8c1c07ba24": {
       "translations": [
         {
-          "translation": "A growing number of patrons are choosing Bitcoin Cash as a preferred payment method. They favor merchants who offer this payment option and actively seek them out."
+          "translation": "Un número creciente de usuarios está eligiendo Bitcoin Cash como método de pago preferido. Favorecen a los comerciantes que ofrecen esta opción de pago y los buscan activamente."
         }
       ]
     },
@@ -1061,7 +1061,7 @@
     "134e2d98fdb2059d517782ad148d6af3": {
       "translations": [
         {
-          "translation": "By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers. They can also take advantage of this new trend and generate press for their business."
+          "translation": "Al aceptar Bitcoin Cash, los comerciantes pueden obtener listados gratuitos en directorios de sitios web y aplicaciones, obteniendo aún más clientes. También pueden aprovechar esta nueva tendencia y generar prensa para su negocio."
         }
       ]
     },
@@ -1075,7 +1075,7 @@
     "444176d6569632e9f20bae4aad98c9c5": {
       "translations": [
         {
-          "translation": "View the roadmap"
+          "translation": "Ver la Hoja de Ruta"
         }
       ]
     },
@@ -1201,14 +1201,14 @@
     "0f429e8d8d54f67ce44b262f7d9b3eb4": {
       "translations": [
         {
-          "translation": "Learn more"
+          "translation": "Aprende más"
         }
       ]
     },
     "dcf13c988504e8e8b5b876069632c0fd": {
       "translations": [
         {
-          "translation": "Logos and Graphics"
+          "translation": "Logotipos y gráficos"
         }
       ]
     },
@@ -1411,7 +1411,7 @@
     "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
       "translations": [
         {
-          "translation": "Easy ways to buy Bitcoin Cash"
+          "translation": "Formas fáciles de comprar Bitcoin Cash"
         }
       ]
     },
@@ -1425,14 +1425,14 @@
     "ae7690a0d139cdb70a3a17affefb6326": {
       "translations": [
         {
-          "translation": "Subscribe for Bitcoin Cash news, guides, and more."
+          "translation": "Suscríbase para recibir noticias, guías y más de Bitcoin Cash."
         }
       ]
     },
     "f779d907ef682a079c34a0b3453261c8": {
       "translations": [
         {
-          "translation": "Coming soon."
+          "translation": "Próximamente."
         }
       ]
     },
@@ -1446,7 +1446,7 @@
     "44a24bc2296c5d9e605b8f25b668460c": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Nodes"
+          "translation": "Nodos de Bitcoin Cash"
         }
       ]
     },
@@ -1460,7 +1460,7 @@
     "8863afc1901492a09d8fc593934a6a9c": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Projects"
+          "translation": "Proyectos de Bitcoin Cash"
         }
       ]
     },
@@ -1649,7 +1649,7 @@
     "23165aa168bfd7ac050c04372baa1c57": {
       "translations": [
         {
-          "translation": "223 bytes OP_RETURN"
+          "translation": "OP_RETURN 223 bytes"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
     "abf7a99cb5c993a55b9707323a02ff39": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Services"
+          "translation": "Servicios de Bitcoin Cash"
         }
       ]
     },
@@ -1901,7 +1901,7 @@
     "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
+          "translation": "Visite más de {shop count} ubicaciones físicas que acepten Bitcoin Cash."
         }
       ]
     },
@@ -1929,28 +1929,28 @@
     "98de1bb9fab11d069ecb356b5da29844": {
       "translations": [
         {
-          "translation": "Where can I spend Bitcoin Cash?"
+          "translation": "¿Dónde puedo gastar Bitcoin Cash?"
         }
       ]
     },
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "Gastar Bitcoin Cash en persona"
         }
       ]
     },
     "7a350b47bb5227b22b2e3181d50bcba4": {
       "translations": [
         {
-          "translation": "Location data by {=Bitcoin.com Maps}"
+          "translation": "Datos de ubicación de {=Bitcoin.com Maps}"
         }
       ]
     },
     "96595f0244e74d9bdcc717f7604c7ff7": {
       "translations": [
         {
-          "translation": "Bitcoin.com Maps"
+          "translation": "Mapas de Bitcoin.com"
         }
       ]
     },
@@ -2160,7 +2160,7 @@
     "8fe149378aebfc9f37688e222b2c433e": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Wallets"
+          "translation": "Carteras Bitcoin Cash"
         }
       ]
     },
@@ -2181,63 +2181,63 @@
     "b4556aebb796f5e71f4eb77b1bc26fab": {
       "translations": [
         {
-          "translation": "Mobile Wallets"
+          "translation": "Carteras de teléfono"
         }
       ]
     },
     "1c909027e6efdfefa39b3d92aa688a48": {
       "translations": [
         {
-          "translation": "Desktop Wallets"
+          "translation": "Carteras de computadora"
         }
       ]
     },
     "a0369d50befc901a9fcfc65aa7b4a3aa": {
       "translations": [
         {
-          "translation": "Hardware Wallets"
+          "translation": "Carteras de hardware"
         }
       ]
     },
     "ea4656f2a09327677744603e8d6b86d8": {
       "translations": [
         {
-          "translation": "Paper Wallets"
+          "translation": "Carteras de papel"
         }
       ]
     },
     "cf5bfb3a954b0cc97a5ad1b0df312858": {
       "translations": [
         {
-          "translation": "Coinbase is a digital currency exchange headquartered in San Francisco, California. They broker exchanges of Bitcoin Cash and other cryptocurrencies with fiat currencies in approximately 32 countries."
+          "translation": "Coinbase es una exchange de moneda digital con sede en San Francisco, California. Realizan intercambios de Bitcoin Cash y otras criptomonedas con monedas fiduciarias en aproximadamente 32 países."
         }
       ]
     },
     "52f47801fe8849adcf8e14a4d6ce4529": {
       "translations": [
         {
-          "translation": "CoinEx is dedicated to building a highly secure, stable and efficient digital coin exchange for global users. CoinEx now supports multiple languages and are providing global trading services in nearly 100 countries/regions."
+          "translation": "CoinEx se dedica a construir una exchange de monedas digitales altamente segura, estable y eficiente para usuarios globales. CoinEx ahora admite varios idiomas y proporciona servicios comerciales globales en casi 100 países / regiones."
         }
       ]
     },
     "45f8bafd7d930fd1492accec3dee96b5": {
       "translations": [
         {
-          "translation": "Kraken is the largest Bitcoin exchange in euro volume and liquidity and also trading Canadian dollars, US dollars, British pounds and Japanese yen. Kraken is consistently rated the best and most secure Bitcoin exchange by independent news media."
+          "translation": "Kraken es la mayor exchange de Bitcoin en volumen y liquidez en euros y también se negocia con dólares canadienses, dólares estadounidenses, libras esterlinas y yenes japoneses. Kraken es calificado constantemente como el mejor y más seguro intercambio de Bitcoin por los medios de comunicación independientes."
         }
       ]
     },
     "13691ba4252beb6502e8bf9a91778aab": {
       "translations": [
         {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+          "translation": "Comience a usar la billetera de Bitcoin.com para obtener una forma simple y segura de enviar y recibir Bitcoin. La billetera es compatible con Bitcoin Cash (BCH) y Bitcoin Core (BTC), lo que permite a los usuarios cambiar entre las dos monedas diferentes sin esfuerzo."
         }
       ]
     },
     "1c4c29060f6485fde9f4f8ed8757b5d6": {
       "translations": [
         {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+          "translation": "Sus claves privadas están encriptadas y nunca salen de su computadora. Sus fondos se pueden recuperar de una frase secreta. Electron Cash es rápido porque utiliza servidores que indexan la cadena de bloques de Bitcoin Cash. Puede exportar sus claves privadas y usarlas en otros clientes de Bitcoin Cash."
         }
       ]
     }

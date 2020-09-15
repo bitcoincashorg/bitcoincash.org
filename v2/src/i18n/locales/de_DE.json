@@ -137,7 +137,7 @@
     "15822f7cae3c9ac02127674ab19397a3": {
       "translations": [
         {
-          "translation": "Get set up"
+          "translation": "Richten Sie sich ein"
         }
       ]
     },
@@ -326,7 +326,7 @@
     "7537888e67bacb91f04990e4fc0f4f13": {
       "translations": [
         {
-          "translation": "Legal"
+          "translation": "Rechtliches"
         }
       ]
     },
@@ -438,7 +438,7 @@
     "13d6385a443edc6624f3455e5e477637": {
       "translations": [
         {
-          "translation": "Language"
+          "translation": "Sprache"
         }
       ]
     },
@@ -606,7 +606,7 @@
     "be1ce878ec3c7879d4f51c101bd5039d": {
       "translations": [
         {
-          "translation": "Participate on censorship resistant social media platforms like {memo.cash}."
+          "translation": "Partizipieren Sie auf zensurresistenten Social Media-Platformen wie [memo.cash]."
         }
       ]
     },
@@ -620,7 +620,7 @@
     "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
+          "translation": "Setzen Sie sich mit Leuten, die Bitcoin Cash lokal auf <a href='https://LocalBitcoinCash.org/'>LocalBitcoinCash.org</a> verkaufen in Verbindung."
         }
       ]
     },
@@ -641,7 +641,7 @@
     "62d4e4b07337d40d70de5c2847518a25": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Register"
+          "translation": "Bitcoin Cash Kasse"
         }
       ]
     },
@@ -725,7 +725,7 @@
     "73199e1a37833cc407baf9cb594a7720": {
       "translations": [
         {
-          "translation": "Buy Bitcoin Cash"
+          "translation": "Bitcoin Cash kaufen"
         }
       ]
     },
@@ -739,7 +739,7 @@
     "03fe2735053d17e8d3f29270870f5a0e": {
       "translations": [
         {
-          "translation": "Featured Exchanges"
+          "translation": "Empfohlene Börsen"
         }
       ]
     },
@@ -788,7 +788,7 @@
     "212e15c413bacd57f3d1c626aa8b90e6": {
       "translations": [
         {
-          "translation": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use."
+          "translation": "Pythons schnellste Bitcoin Cash Library. Intuitiv und mühelos nutzbar."
         }
       ]
     },
@@ -802,14 +802,14 @@
     "4b0ef5afb7eba267fa7d56c9a83c9e44": {
       "translations": [
         {
-          "translation": "Fully featured, powerful javascript framework for Bitcoin Cash."
+          "translation": "Vollwertiges, leistungsstarkes javascript Framework für Bitcoin Cash."
         }
       ]
     },
     "4d7ab3b98c6b501998627b98ff9053e2": {
       "translations": [
         {
-          "translation": "Resources"
+          "translation": "Resourcen"
         }
       ]
     },
@@ -830,7 +830,7 @@
     "b25bc666e4b746b02c7ab8fccf604fb9": {
       "translations": [
         {
-          "translation": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID."
+          "translation": "Badger Wallet injiziert eine API in vom Nutzer besuchten Webseiten, welche Apps ermöglicht eine Nutzerzustimmung anzufragen um Bitcoin Cash zu versenden, Tokens zu verschicken oder sich mit CashID zu authentifizieren."
         }
       ]
     },
@@ -851,7 +851,7 @@
     "678465bc79271d7b1c4c4ea5ec0da06b": {
       "translations": [
         {
-          "translation": "Featured Exchanges"
+          "translation": "Empfohlene Börsen"
         }
       ]
     },
