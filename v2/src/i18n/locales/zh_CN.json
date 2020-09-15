@@ -249,7 +249,7 @@
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "提示：{升级激活时间} 计划中的网络升级"
+          "translation": "提示：{upgrade activation time} 计划中的网络升级"
         }
       ]
     },
@@ -333,7 +333,7 @@
     "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "© {当前年份}, 版权所有"
+          "translation": "© {current year}, 版权所有"
         }
       ]
     },
