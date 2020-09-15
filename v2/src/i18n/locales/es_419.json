@@ -60,7 +60,7 @@
     "0c996a190077b39e16d6026c2e5b07c4": {
       "translations": [
         {
-          "translation": "See roadmap"
+          "translation": "Ver Hoja de Ruta"
         }
       ]
     },
@@ -543,7 +543,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "Enviar fiat a una plataforma de cambio de terceros de confianza y comprar Bitcoin Cash."
         }
       ]
     },
@@ -935,7 +935,7 @@
     "4c133c58b16e75714d1f9d5b1800ae79": {
       "translations": [
         {
-          "translation": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world."
+          "translation": "Los bancos pueden también decidir bloquear tus transacciones, cobrarte tasas, o cerrar tu cuenta sin previo aviso. Bitcoin Cash te da total y soberano control sobre tus fondos, los cuales podés acceder desde cualquier parte del mundo."
         }
       ]
     },
@@ -949,7 +949,7 @@
     "331bef5c05b320a8c41530799b59fa9e": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money."
+          "translation": "El protocolo Bitcoin Cash garantiza que nunca habrá más de 21 millones de monedas en existencia. Los gobiernos imprimen moneda continuamente, inflando la oferta infinitamente y devaluando los ahorros de todos. Bitcoin Cash tiene una emisión fija y por lo tanto representa una moneda sólida."
         }
       ]
     },
@@ -1075,7 +1075,7 @@
     "444176d6569632e9f20bae4aad98c9c5": {
       "translations": [
         {
-          "translation": "View the roadmap"
+          "translation": "Ver La Hoja de Ruta"
         }
       ]
     },
@@ -1446,7 +1446,7 @@
     "44a24bc2296c5d9e605b8f25b668460c": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Nodes"
+          "translation": "Nodos Bitcoin Cash"
         }
       ]
     },
@@ -1901,7 +1901,7 @@
     "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
+          "translation": "Pasar por más de {shop count} lugares físicos que aceptan Bitcoin Cash."
         }
       ]
     },
@@ -1929,14 +1929,14 @@
     "98de1bb9fab11d069ecb356b5da29844": {
       "translations": [
         {
-          "translation": "Where can I spend Bitcoin Cash?"
+          "translation": "Dónde puedo usar Bitcoin Cash?"
         }
       ]
     },
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "Gastar Bitcoin Cash en Persona"
         }
       ]
     },
@@ -2160,7 +2160,7 @@
     "8fe149378aebfc9f37688e222b2c433e": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Wallets"
+          "translation": "Carteras Bitcoin Cash"
         }
       ]
     },
@@ -2181,28 +2181,28 @@
     "b4556aebb796f5e71f4eb77b1bc26fab": {
       "translations": [
         {
-          "translation": "Mobile Wallets"
+          "translation": "Carteras Mobile"
         }
       ]
     },
     "1c909027e6efdfefa39b3d92aa688a48": {
       "translations": [
         {
-          "translation": "Desktop Wallets"
+          "translation": "Carteras Desktop"
         }
       ]
     },
     "a0369d50befc901a9fcfc65aa7b4a3aa": {
       "translations": [
         {
-          "translation": "Hardware Wallets"
+          "translation": "Carteras Hardware"
         }
       ]
     },
     "ea4656f2a09327677744603e8d6b86d8": {
       "translations": [
         {
-          "translation": "Paper Wallets"
+          "translation": "Carteras Papel"
         }
       ]
     },
