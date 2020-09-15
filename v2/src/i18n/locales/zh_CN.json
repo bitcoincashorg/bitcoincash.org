@@ -242,14 +242,14 @@
     "94bb812db2775ab0519cb698344e0453": {
       "translations": [
         {
-          "translation": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development."
+          "translation": "比特币现金为世界带来了健全的货币。商户和用户被赋予了低手续费、（交易）确认可靠的服务。有了不受限的增长、全球普及、无需许可的创新，以及去中心化的开发，（比特币现金的）未来将大放异彩。"
         }
       ]
     },
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
+          "translation": "提示：{升级激活时间} 计划中的网络升级"
         }
       ]
     },
@@ -263,14 +263,14 @@
     "60fc904396840c992f474ecda2da39ca": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "比特币现金网络，将按路线图做协议升级。使用比特币现金的企业和个人，应该及时检查他们的软件是与升级相兼容的。"
         }
       ]
     },
     "d770c97de5c52bd8109e39c140e62bab": {
       "translations": [
         {
-          "translation": "See Roadmap"
+          "translation": "查看路线图"
         }
       ]
     },
@@ -319,21 +319,21 @@
     "800d353888445f1d8db4c8bd3bf28370": {
       "translations": [
         {
-          "translation": "Privacy Policy"
+          "translation": "隐私政策"
         }
       ]
     },
     "7537888e67bacb91f04990e4fc0f4f13": {
       "translations": [
         {
-          "translation": "Legal"
+          "translation": "法律"
         }
       ]
     },
     "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
-          "translation": "© {current year}, All Rights Reserved"
+          "translation": "© {当前年份}, 版权所有"
         }
       ]
     },
@@ -382,7 +382,7 @@
     "702b2d4ddf76ff77afac3095e972f5ea": {
       "translations": [
         {
-          "translation": "Whitepaper"
+          "translation": "白皮书"
         }
       ]
     },
@@ -606,7 +606,7 @@
     "be1ce878ec3c7879d4f51c101bd5039d": {
       "translations": [
         {
-          "translation": "Participate on censorship resistant social media platforms like {memo.cash}."
+          "translation": "参与不受审查的社交媒体平台，诸如 {memo.cash}。"
         }
       ]
     },
@@ -620,7 +620,7 @@
     "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
+          "translation": "在{local.bitcoin.com} 或 {localbitcoincash.org} 联系与你同一区域的比特币现金卖家。"
         }
       ]
     },
