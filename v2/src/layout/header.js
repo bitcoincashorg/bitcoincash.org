@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react"
 import logo from "assets/images/bitcoin-cash-logo-white-small.png"
-import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
 import AnnouncementBar from "./announcement-bar.js"
-import Dropdown from "components/dropdownButtons/dropdown"
+import NavItems from "components/navitems/navitems"
+import MobileNavItems from "components/navitems/mobile-navitems"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import axios from "axios"
 import fbt from "fbt"
 import World from "assets/icons/world.svg"
-import "assets/lib/hamburgers.min.css"
 import Link from "global/link"
 import locales from "i18n/locales"
 
@@ -83,10 +82,6 @@ const Header = () => {
 
   const navBarItems = [
     {
-      text: fbt("Home", "Top 'home' link"),
-      href: "/",
-    },
-    {
       text: fbt("Start Here", "Top 'Start here' link"),
       href: "/start-here/",
     },
@@ -118,12 +113,11 @@ const Header = () => {
 
   const bchPriceApi =
     "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
-  const [isActive, setIsActive] = useState(false)
   const [currentUSDPrice, setCurrentUSDPrice] = useState("-")
   const updateBchPrice = () => {
     axios.get(bchPriceApi).then(response => {
       if (response.data && response.data.USD) {
-        setCurrentUSDPrice(response.data.USD)
+        setCurrentUSDPrice(response.data.USD.toFixed(2))
       }
     })
   }
@@ -136,54 +130,10 @@ const Header = () => {
     return () => clearInterval(interval)
   }, [])
 
-  const data = useStaticQuery(graphql`
-    query SiteThemeQuery {
-      site {
-        siteMetadata {
-          themeColours {
-            primary_dark
-            primary_light
-          }
-        }
-      }
-    }
-  `)
-
-  const theme = data.site.siteMetadata.themeColours
-
-  function MobileDropdown({ children, links, navLinkClass }) {
-    const [expanded, setExpanded] = useState(false)
-    return (
-      <div onClick={() => setExpanded(!expanded)}>
-        <div className={navLinkClass}>{children}</div>
-        {expanded && (
-          <div>
-            {links.map(dropdownLink => (
-              <Link
-                className={headerStyles.mobileNavLinkLanguage}
-                key={dropdownLink.text}
-                to={dropdownLink.href}
-                localize={dropdownLink.localize}
-                onClick={() => setIsActive(!isActive)}
-              >
-                {dropdownLink.text}
-              </Link>
-            ))}
-          </div>
-        )}
-      </div>
-    )
-  }
-
   return (
     <>
       <AnnouncementBar />
-      <header
-        id={isActive ? "navbar-mobile" : "navbar"}
-        style={{
-          background: `linear-gradient(270deg, ${theme.primary_dark} 0%, ${theme.primary_light} 100%)`,
-        }}
-      >
+      <header>
         <div className={headerStyles.headerBar}>
           <div
             className={headerStyles.headerStart}
@@ -203,76 +153,8 @@ const Header = () => {
             />
           </div>
 
-          <div className={`${headerStyles.headerLinks} topBotomBordersOut`}>
-            {navBarItems.map((headerLink, index) =>
-              headerLink.href ? (
-                <Link
-                  data-sal="slide-down"
-                  data-sal-delay={100 + index * 100}
-                  data-sal-duration="1000"
-                  data-sal-easing="ease"
-                  className={headerStyles.link}
-                  key={index}
-                  to={headerLink.href}
-                >
-                  {headerLink.text}
-                </Link>
-              ) : (
-                <Dropdown links={headerLink.links} index={index} key={index}>
-                  {headerLink.text}
-                </Dropdown>
-              )
-            )}
-          </div>
-
-          <div className={headerStyles.mobileHeaderLinks}>
-            <div
-              className={`hamburger hamburger--squeeze ${
-                isActive ? "is-active" : ""
-              }`}
-              onClick={() => setIsActive(!isActive)}
-            >
-              <div className="hamburger-box">
-                <div className="hamburger-inner" />
-              </div>
-            </div>
-          </div>
-          <div
-            className={headerStyles.mobileMenu}
-            style={
-              isActive
-                ? {
-                    height: "auto",
-                    backgroundColor: theme.primary_dark,
-                  }
-                : null
-            }
-          >
-            {isActive && (
-              <div className={headerStyles.mobileNavLinks}>
-                {navBarItems.map((headerLink, index) =>
-                  headerLink.href ? (
-                    <Link
-                      className={headerStyles.mobileNavLink}
-                      key={headerLink.index}
-                      to={headerLink.href}
-                      onClick={() => setIsActive(!isActive)}
-                    >
-                      {headerLink.text}
-                    </Link>
-                  ) : (
-                    <MobileDropdown
-                      links={headerLink.links}
-                      key={index}
-                      navLinkClass={headerStyles.mobileNavLink}
-                    >
-                      {headerLink.text}
-                    </MobileDropdown>
-                  )
-                )}
-              </div>
-            )}
-          </div>
+          <NavItems navBarItems={navBarItems} />
+          <MobileNavItems navBarItems={navBarItems} />
         </div>
       </header>
     </>
