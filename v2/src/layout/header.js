@@ -3,7 +3,7 @@ import logo from "assets/images/bitcoin-cash-logo-white-small.png"
 import { useStaticQuery, graphql } from "gatsby"
 import headerStyles from "./header.module.scss"
 import AnnouncementBar from "./announcement-bar.js"
-import Dropdown, { MobileDropdown } from "components/dropdownButtons/dropdown"
+import Dropdown from "components/dropdownButtons/dropdown"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import axios from "axios"
 import fbt from "fbt"
@@ -151,6 +151,30 @@ const Header = () => {
 
   const theme = data.site.siteMetadata.themeColours
 
+  function MobileDropdown({ children, links, navLinkClass }) {
+    const [expanded, setExpanded] = useState(false)
+    return (
+      <div onClick={() => setExpanded(!expanded)}>
+        <div className={navLinkClass}>{children}</div>
+        {expanded && (
+          <div>
+            {links.map(dropdownLink => (
+              <Link
+                className={headerStyles.mobileNavLinkLanguage}
+                key={dropdownLink.text}
+                to={dropdownLink.href}
+                localize={dropdownLink.localize}
+                onClick={() => setIsActive(!isActive)}
+              >
+                {dropdownLink.text}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    )
+  }
+
   return (
     <>
       <AnnouncementBar />
@@ -218,7 +242,7 @@ const Header = () => {
             style={
               isActive
                 ? {
-                    height: "calc(100vh - 100px)",
+                    height: "auto",
                     backgroundColor: theme.primary_dark,
                   }
                 : null
