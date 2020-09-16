@@ -1,28 +1,83 @@
 .widgetContainer {
+  position: relative;
+}
+
+.widget {
   display: flex;
   border: 1px solid white;
   border-radius: 3px;
   align-items: center;
-  padding: 5px 15px;
-}
-
-.currentPrice {
-  padding-right: 5px;
-}
-
-.ticker {
+  padding: 5px 10px 5px 15px;
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  margin-left: 5px;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;    
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+.widget svg {
+  fill: #fff;
+  width: 8px;
+  height: 8px;
+  transform: rotate(180deg);
+  margin-left: 6px;
+}
+
+.widget span {
+  display: flex;
+  align-items: center;
+}
+
+.priceDropdownUl {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  padding: 0;
+  background: #fff;
+  list-style: none;
+  color: #040c3c;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.15);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  overflow: hidden;
+}
+
+.priceDropdownUl span {
+  color: #040c3c;
+  transition: all 200ms ease-in-out;
+}
+
+.priceDropdownUl li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin: 0;
+  padding: 15px;
+  justify-content: center;
+  transition: all 200ms ease-in-out;
+}
+
+.priceDropdownUl li:hover {
+  background: #e2e2e2;
+}
+
+.priceDropdownUl li:hover span {
+  color: #ff8d00;
+}
+
+.hide {
+  display: none !important;
 }
 
 @media only screen and (max-width: 631px) {
-  .ticker {
-    font-size: 12px;
-  }
 
-  .widgetContainer {
+  .widget {
     padding: 5px 10px;
   }
 }
