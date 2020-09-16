@@ -284,14 +284,14 @@
     "c7953645d1fdc6c8e72e1ad2fe573a5f": {
       "translations": [
         {
-          "translation": "Compatible Implementations:"
+          "translation": "호환 가능한 구현:"
         }
       ]
     },
     "4b0b3d5f8d03531c1cfe320e2883e0fd": {
       "translations": [
         {
-          "translation": "Additional Information:"
+          "translation": "추가 정보:"
         }
       ]
     },
@@ -543,7 +543,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "신뢰할 수 있는 제3자 교환소에 법정 화폐를 보내고 비트코인 캐시 구입하기."
         }
       ]
     },
@@ -627,7 +627,7 @@
     "7bca5f561da7058a2446053e3757a05b": {
       "translations": [
         {
-          "translation": "Accept Bitcoin Cash at your Business"
+          "translation": "비즈니스에서 비트코인 캐시 받기"
         }
       ]
     },
@@ -704,7 +704,7 @@
     "bbbbdbd3c9649b1a75c862ae8e2c140b": {
       "translations": [
         {
-          "translation": "spend Bitcoin Cash"
+          "translation": "비트코인 캐시로 사용"
         }
       ]
     },
@@ -935,7 +935,7 @@
     "4c133c58b16e75714d1f9d5b1800ae79": {
       "translations": [
         {
-          "translation": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world."
+          "translation": "은행은 경고 없이 귀하의 거래를 차단하거나, 수수료를 부과하거나 계좌를 해지시킬 수도 있습니다. 비트코인 캐시는 전 세계 어디서나 액세스할 수 있는 귀하의 자금에 대한 완전하고 독립적인 제어 권한을 귀하에게 부여합니다."
         }
       ]
     },
@@ -949,7 +949,7 @@
     "331bef5c05b320a8c41530799b59fa9e": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money."
+          "translation": "비트코인 캐시 프로토콜은 코인이 2100만 개를 초과하여 존재하지 않도록 합니다. 정부는 지속적으로 화폐를 발행하기 때문에 끊임없이 공급을 부풀려 저축의 가치를 떨어뜨립니다. 비트코인 캐시는 고정된 수량을 공급하므로 건전한 화폐를 대표합니다."
         }
       ]
     },
@@ -963,14 +963,14 @@
     "b91eba2760296a035a891fb5c937f96d": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address."
+          "translation": "비트코인 주소의 제어자를 아는 것이 일반적으로 불가능하기 때문에 비트코인 캐시는 은행 이체 및 신용카드 결제와 같은 기존의 결제 시스템보다 개인정보 보호성과 익명성이 높습니다."
         }
       ]
     },
     "db7e492a5b85bbfe7692642df1857e99": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers various levels of privacy depending on how it is used. It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes."
+          "translation": "비트코인 캐시는 사용 방법에 따라 다양한 수준의 개인정보 보호를 제공합니다. 개인적인 용도로 비트코인 캐시를 이용하기 전에 내용을 철저히 파악하는 것이 중요합니다."
         }
       ]
     },
@@ -984,7 +984,7 @@
     "bc513a1668a77cf1e2e614a02ff94106": {
       "translations": [
         {
-          "translation": "Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system."
+          "translation": "많은 판매자는 비트코인 캐시로 결제 시 할인을 제공하는데, 이는 신용카드 수수료가 없고 이 새로운 지급 시스템의 사용 확장에 도움이 되기 때문입니다."
         }
       ]
     },
@@ -998,7 +998,7 @@
     "14bbf01a9648499286cbae56fcd5d5cf": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a permissionless, open network. It empowers you to engage with your fellow human beings without intrusion. It's decentralized, voluntary, and non-aggressive. As usage grows, old power structures will erode while fresh ideas blossom. It may help usher in the greatest peaceful revolution the world has ever known."
+          "translation": "비트코인 캐시는 허가가 필요 없는 개방형 네트워크로, 방해받지 않고 사람들과 교류할 수 있도록 합니다. 탈중앙화되고 자발적이며 비공격적입니다. 사용량이 증가할수록 기존의 권력 구조는 약화되고 새로운 아이디어가 떠오릅니다. 세상이 알지 못했던 가장 평화로운 혁명을 이끌 수 있습니다."
         }
       ]
     },
@@ -1019,7 +1019,7 @@
     "cc6e9f112d784552c3d26263c74e3ad5": {
       "translations": [
         {
-          "translation": "The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing."
+          "translation": "비트코인 캐시의 거래 수수료는 10원 미만입니다. 비트코인 캐시를 US 달러와 같은 법정 화폐를 전환하려면 다양한 판매 프로세서 서비스를 통해 신용카드 절차보다 훨씬 낮은 비용으로 진행할 수 있습니다."
         }
       ]
     },
@@ -1033,7 +1033,7 @@
     "56126150403163d5e19d562d5b8876ce": {
       "translations": [
         {
-          "translation": "Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant."
+          "translation": "신용카드와 다르게 자동 무효, 환불, 지불 거절 또는 기타 예상치 못한 수수료가 없습니다. 시스템에는 판매자에 대한 비용 없이 사기 보호 장치가 포함됩니다."
         }
       ]
     },
@@ -1047,7 +1047,7 @@
     "436c6f204eb09cddbb613b8c1c07ba24": {
       "translations": [
         {
-          "translation": "A growing number of patrons are choosing Bitcoin Cash as a preferred payment method. They favor merchants who offer this payment option and actively seek them out."
+          "translation": "점점 더 많은 후원자들이 선호하는 결제 방법으로 비트코인 캐시를 선택하고 있습니다. 이들은 이 결제 옵션을 제공하는 판매자를 선호하며 이들을 적극적으로 찾습니다."
         }
       ]
     },
@@ -1061,7 +1061,7 @@
     "134e2d98fdb2059d517782ad148d6af3": {
       "translations": [
         {
-          "translation": "By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers. They can also take advantage of this new trend and generate press for their business."
+          "translation": "판매자들은 비트코인 캐시를 수용함으로써 웹사이트 및 앱 디렉터리에 무료로 등록하고 더 많은 고객을 확보할 수 있습니다. 또한 이 새로운 트렌드의 이점을 활용하여 비즈니스에 대한 언론 보도를 생성할 수도 있습니다."
         }
       ]
     },
@@ -1901,7 +1901,7 @@
     "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
+          "translation": "비트코인 캐시를 받는 {shop count}개 이상의 실제 장소를 방문하세요."
         }
       ]
     },
@@ -1936,7 +1936,7 @@
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "직접 비트코인 캐시 사용하기"
         }
       ]
     },
@@ -2230,14 +2230,14 @@
     "13691ba4252beb6502e8bf9a91778aab": {
       "translations": [
         {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+          "translation": "간단하고 안전한 방식으로 비트코인을 보내고 받으려면 Bitcoin.com 지갑을 사용해 보십시오. 이 지갑은 BCH(비트코인 캐시)와 BTC(Bitcoin Core)를 모두 지원하며, 사용자가 손쉽게 두 가지 다른 통화를 변환할 수 있도록 해줍니다."
         }
       ]
     },
     "1c4c29060f6485fde9f4f8ed8757b5d6": {
       "translations": [
         {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+          "translation": "여러분의 개인 키는 암호화되며 절대로 컴퓨터에서 유출되지 않습니다. 암호를 입력해야 자금을 찾을 수 있습니다. Electrum은 비트코인 블록체인을 인덱싱하므로 빠른 속도를 자랑합니다. 개인 키를 내보내 다른 비트코인 클라이언트에서 사용할 수도 있습니다."
         }
       ]
     }

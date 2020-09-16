@@ -2237,7 +2237,7 @@
     "1c4c29060f6485fde9f4f8ed8757b5d6": {
       "translations": [
         {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+          "translation": "あなたの秘密鍵は暗号化されており、コンピュータから配信されることはありません。所有資金は秘密のフレーズから取り戻すことができます。 Electron Cashは、Bitcoin Cashブロックチェーンをインデックスしているサーバーを使用するため高速です。秘密鍵をエクスポートして他のBitcoin Cashクライアントで使用することができます。"
         }
       ]
     }

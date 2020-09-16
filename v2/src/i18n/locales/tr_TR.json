@@ -543,7 +543,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "İtibari para birimini güvenilir bir 3. taraf takas merkezine gönderin ve Bitcoin Cash satın alın."
         }
       ]
     },
@@ -627,7 +627,7 @@
     "7bca5f561da7058a2446053e3757a05b": {
       "translations": [
         {
-          "translation": "Accept Bitcoin Cash at your Business"
+          "translation": "İşletmenizden Bitcoin Cash almayı kabul edin"
         }
       ]
     },
@@ -935,7 +935,7 @@
     "4c133c58b16e75714d1f9d5b1800ae79": {
       "translations": [
         {
-          "translation": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world."
+          "translation": "Bankalar ayrıca hiçbir uyarı yapmadan işlemlerinizi bloke etme, ücretler alma veya hesabınızı kapatma kararını verebilir. Bitcoin Cash size fonlarınız üzerinde dünyanın her yerinden erişebileceğiniz tam, sınırsız bir kontrol sunar."
         }
       ]
     },
@@ -949,7 +949,7 @@
     "331bef5c05b320a8c41530799b59fa9e": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money."
+          "translation": "Bitcoin Cash protokolü, 21 milyondan daha fazla para olmamasını garanti eder. Devletler sürekli olarak para basar, tedariki sınırsızca şişirir ve herkesin birikiminin değerini düşürür. Bitcoin Cash sabit bir tedarike sahiptir ve bu yüzden sağlam bir parayı temsi eder."
         }
       ]
     },
@@ -963,14 +963,14 @@
     "b91eba2760296a035a891fb5c937f96d": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address."
+          "translation": "Bir Bitcoin adresini kimin kontrol ettiğini bilmek genellikle imkansız olduğu için Bitcoin Cash banka transferleri ve kredi kartı ödemeleri gibi geleneksel ödeme sistemlerinden daha fazla gizlilik ve isim gizleme imkanı sunar"
         }
       ]
     },
     "db7e492a5b85bbfe7692642df1857e99": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers various levels of privacy depending on how it is used. It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes."
+          "translation": "Bitcoin Cash nasıl kullanıldığına bağlı olarak çeşitli düzeylerde gizlilik sunar. Bitcoin Cash'yi gizlilik amacıyla kullanmadan önce kendinizi iyice eğitmeniz önemlidir."
         }
       ]
     },
@@ -984,7 +984,7 @@
     "bc513a1668a77cf1e2e614a02ff94106": {
       "translations": [
         {
-          "translation": "Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system."
+          "translation": "Satıcıların çoğu Bitcoin Cash ile yapılan ödemelerde indirim imkanı sağlar çünkü bu kredi kartı ücretlerini ortadan kaldırır ve bu yeni ödeme sisteminin daha çok benimsenmesine yardımcı olur."
         }
       ]
     },
@@ -998,7 +998,7 @@
     "14bbf01a9648499286cbae56fcd5d5cf": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a permissionless, open network. It empowers you to engage with your fellow human beings without intrusion. It's decentralized, voluntary, and non-aggressive. As usage grows, old power structures will erode while fresh ideas blossom. It may help usher in the greatest peaceful revolution the world has ever known."
+          "translation": "Bitcoin Cash izin gerektirmeyen, açık bir ağdır. Size sizin gibi diğer insanlarla araya hiçbir şey girmeden iletişim kurma gücü verir. Merkezi değildir, isteyerek yapılan ve agresif olmayan bir yapıdadır. Kullanımı arttıkça eski güç kaynakları yıpranacak ve taze fikirler ön plana çıkacaktır. Dünyanın daha önce hiç görmediği kadar barışçıl bir devrimin önünü açacaktır."
         }
       ]
     },
@@ -1019,7 +1019,7 @@
     "cc6e9f112d784552c3d26263c74e3ad5": {
       "translations": [
         {
-          "translation": "The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing."
+          "translation": "Tipik bir Bitcoin Cash işleminin ağ ücreti yedi kuruştan azdır. Bitcoin Cash'nizi ABD doları gibi itibari bir para birimine çevirmek isterseniz bunu, kredi kartı işleminden yine çok daha ucuz bir ücretle satıcı işlemciler üzerinden gerçekleştirebilirsiniz."
         }
       ]
     },
@@ -1033,7 +1033,7 @@
     "56126150403163d5e19d562d5b8876ce": {
       "translations": [
         {
-          "translation": "Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant."
+          "translation": "Kredi kartlarının aksine asla otomatik iptaller, iadeler, geri ödeme talepleri veya diğer beklenmedik ücretler yoktur. Dolandırıcılığa karşı koruma, satıcıya hiçbir maliyeti olmadan sisteme entegredir."
         }
       ]
     },
@@ -1047,7 +1047,7 @@
     "436c6f204eb09cddbb613b8c1c07ba24": {
       "translations": [
         {
-          "translation": "A growing number of patrons are choosing Bitcoin Cash as a preferred payment method. They favor merchants who offer this payment option and actively seek them out."
+          "translation": "Giderek daha çok patron tercih edilen ödeme yöntemi olarak Bitcoin Cash'i seçmektedir. Bu ödeme seçeneğini sunan satıcıları tercih etmekte ve aktif olarak onları aramaktadırlar."
         }
       ]
     },
@@ -1061,7 +1061,7 @@
     "134e2d98fdb2059d517782ad148d6af3": {
       "translations": [
         {
-          "translation": "By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers. They can also take advantage of this new trend and generate press for their business."
+          "translation": "Bitcoin Cash'i kabul ederek satıcılar, web sitesi ve uygulama dizinlerinde ücretsiz listeleme imkanına kavuşup daha çok müşteri kazanırlar. Ayrıca bu yeni trendin avantajından faydalanabilir ve işletmeleri için medya oluşturabilirler."
         }
       ]
     },
@@ -1901,7 +1901,7 @@
     "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
+          "translation": "Bitcoin Cash kabul eden {shop count}'den fazla fiziksel mekana uğrayın."
         }
       ]
     },
@@ -1929,14 +1929,14 @@
     "98de1bb9fab11d069ecb356b5da29844": {
       "translations": [
         {
-          "translation": "Where can I spend Bitcoin Cash?"
+          "translation": "Bitcoin Cash'i nerede harcayabilirim"
         }
       ]
     },
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "Şahsen Bitcoin Cash Harcayın"
         }
       ]
     },
@@ -2230,14 +2230,14 @@
     "13691ba4252beb6502e8bf9a91778aab": {
       "translations": [
         {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+          "translation": "Bitcoin göndermenin ve almanın basit ve güvenli bir yolu olan Bitcoin.com Cüzdanını kullanmaya başlayın. Cüzdan, hem Bitcoin Cash (BCH) hem de Bitcoin Core'u (BTC) destekleyerek kullanıcıların iki farklı para birimi arasında kolayca geçiş yapmasına olanak tanır."
         }
       ]
     },
     "1c4c29060f6485fde9f4f8ed8757b5d6": {
       "translations": [
         {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+          "translation": "Özel anahtarlarınız şifrelenir ve bilgisayarınızdan asla çıkmaz. Fonlarınız gizli bir sözcük ile kurtarılabilir. Electron Cash, Bitcoin Cash blok zincirini endeksleyen sunucular kullandığı için hızlıdır. Özel anahtarlarınızı dışa aktarabilir ve bunları diğer Bitcoin Cash istemcilerinde kullanabilirsiniz."
         }
       ]
     }
