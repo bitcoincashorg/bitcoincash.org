@@ -242,7 +242,7 @@
     "94bb812db2775ab0519cb698344e0453": {
       "translations": [
         {
-          "translation": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development."
+          "translation": "Bitcoin Cash — это надежная валюта, доступная во всем мире. Пользователи и предприниматели уже оценили ее основные преимущества: низкие комиссии и безопасное подтверждение транзакций. Неограниченные перспективы роста, глобальное признание, общедоступные инновации и распределенная разработка — все это делает Bitcoin Cash деньгами будущего."
         }
       ]
     },
@@ -256,7 +256,7 @@
     "c896f27be5c90b6872cb876ce31ecfe3": {
       "translations": [
         {
-          "translation": "{upgrade activation time} Planned Network Upgrade"
+          "translation": "{upgrade activation time} Запланированное обновление сети"
         }
       ]
     },
@@ -284,14 +284,14 @@
     "c7953645d1fdc6c8e72e1ad2fe573a5f": {
       "translations": [
         {
-          "translation": "Compatible Implementations:"
+          "translation": "Совместимое ПО:"
         }
       ]
     },
     "4b0b3d5f8d03531c1cfe320e2883e0fd": {
       "translations": [
         {
-          "translation": "Additional Information:"
+          "translation": "Дополнительная информация:"
         }
       ]
     },
@@ -389,7 +389,7 @@
     "fc31a7564465e7ea5b18f3d42d8b5d6c": {
       "translations": [
         {
-          "translation": "Roadmap"
+          "translation": "Дорожная карта"
         }
       ]
     },
@@ -543,7 +543,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "Отправьте надежной сторонней бирже традиционную валюту и получите взамен Bitcoin Cash."
         }
       ]
     },
@@ -627,7 +627,7 @@
     "7bca5f561da7058a2446053e3757a05b": {
       "translations": [
         {
-          "translation": "Accept Bitcoin Cash at your Business"
+          "translation": "Прием Bitcoin Cash в качестве оплаты"
         }
       ]
     },
@@ -935,7 +935,7 @@
     "4c133c58b16e75714d1f9d5b1800ae79": {
       "translations": [
         {
-          "translation": "Banks can also decide to block your transactions, charge you fees, or close your account without warning. Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world."
+          "translation": "Банки блокируют транзакции, взимают комиссию и могут без предупреждения заморозить счет. Bitcoin Cash дает вам полный контроль над вашими деньгами и доступ к ним из любой точки планеты."
         }
       ]
     },
@@ -949,7 +949,7 @@
     "331bef5c05b320a8c41530799b59fa9e": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence. Governments continually print money, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money."
+          "translation": "В соответствии с протоколом может существовать не более 21 миллиона монет Bitcoin Cash, в то время как правительства непрерывно печатают традиционные деньги, создают инфляцию и обесценивают сбережения. Надежность Bitcoin Cash обеспечивает ограниченная эмиссия."
         }
       ]
     },
@@ -963,14 +963,14 @@
     "b91eba2760296a035a891fb5c937f96d": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it's normally impossible to know who controls a Bitcoin address."
+          "translation": "Bitcoin Cash обеспечивает больше конфиденциальности и анонимности по сравнению с традиционными платежными системами, ведь определить владельца биткойн-кошелька обычно невозможно."
         }
       ]
     },
     "db7e492a5b85bbfe7692642df1857e99": {
       "translations": [
         {
-          "translation": "Bitcoin Cash offers various levels of privacy depending on how it is used. It's important to educate yourself thoroughly before using Bitcoin Cash for privacy purposes."
+          "translation": "В зависимости от способа использования Bitcoin Cash существует несколько уровней конфиденциальности. Внимательно изучите этот вопрос, если хотите использовать Bitcoin Cash для анонимных платежей."
         }
       ]
     },
@@ -984,7 +984,7 @@
     "bc513a1668a77cf1e2e614a02ff94106": {
       "translations": [
         {
-          "translation": "Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system."
+          "translation": "Многие продавцы при оплате валютой Bitcoin Cash предлагают скидки, чтобы уменьшить затраты на комиссию и ускорить внедрение новой выгодной платежной системы."
         }
       ]
     },
@@ -998,7 +998,7 @@
     "14bbf01a9648499286cbae56fcd5d5cf": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is a permissionless, open network. It empowers you to engage with your fellow human beings without intrusion. It's decentralized, voluntary, and non-aggressive. As usage grows, old power structures will erode while fresh ideas blossom. It may help usher in the greatest peaceful revolution the world has ever known."
+          "translation": "Bitcoin Cash — открытая и свободная от ограничений сеть. Она позволяет взаимодействовать с другими людьми, не опасаясь неправомерных нарушений. Это распределенная общественная система, участие в которой добровольно. По мере ее распространения устаревшие структуры власти разрушатся под натиском новых идей. Таким образом может произойти величайшая в истории мирная революция."
         }
       ]
     },
@@ -1019,7 +1019,7 @@
     "cc6e9f112d784552c3d26263c74e3ad5": {
       "translations": [
         {
-          "translation": "The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your Bitcoin Cash into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing."
+          "translation": "Комиссия за транзакцию Bitcoin Cash обычно составляет меньше цента. Если вы хотите перевести Bitcoin Cash в традиционную валюту, например в доллары США, это можно сделать через посредника, и комиссия будет значительно меньше, чем при аналогичной операции с платежной картой."
         }
       ]
     },
@@ -1033,7 +1033,7 @@
     "56126150403163d5e19d562d5b8876ce": {
       "translations": [
         {
-          "translation": "Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant."
+          "translation": "В отличие от платежных карт в Bitcoin Cash не происходит никаких автоматических списаний, компенсаций, возвратов и других неожиданностей. Защита от мошенников уже предусмотрена в системе и не требует от пользователей дополнительных затрат."
         }
       ]
     },
@@ -1047,7 +1047,7 @@
     "436c6f204eb09cddbb613b8c1c07ba24": {
       "translations": [
         {
-          "translation": "A growing number of patrons are choosing Bitcoin Cash as a preferred payment method. They favor merchants who offer this payment option and actively seek them out."
+          "translation": "Количество пользователей, которые выбирают Bitcoin Cash, постоянно растет. Они рады стать клиентами компаний, которые предлагают этот способ оплаты."
         }
       ]
     },
@@ -1061,7 +1061,7 @@
     "134e2d98fdb2059d517782ad148d6af3": {
       "translations": [
         {
-          "translation": "By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers. They can also take advantage of this new trend and generate press for their business."
+          "translation": "Начните принимать Bitcoin Cash, и вы бесплатно попадете в списки и каталоги сайтов и приложений. Таким образом вы сможете приобрести еще больше новых клиентов и получить шанс на бесплатную публикацию информации о вашей компании."
         }
       ]
     },
@@ -1075,7 +1075,7 @@
     "444176d6569632e9f20bae4aad98c9c5": {
       "translations": [
         {
-          "translation": "View the roadmap"
+          "translation": "Просмотреть Дорожную карту"
         }
       ]
     },
@@ -1726,7 +1726,7 @@
     "f8587b3a18c163825d78472b397c218d": {
       "translations": [
         {
-          "translation": "Roadmap"
+          "translation": "Дорожная карта"
         }
       ]
     },
@@ -1761,7 +1761,7 @@
     "5f0f6872577f832b8e66428e941a7590": {
       "translations": [
         {
-          "translation": "Roadmap"
+          "translation": "Дорожная карта"
         }
       ]
     },
@@ -1901,7 +1901,7 @@
     "e0846cb7cefedbbe5c94c635c95a6cd3": {
       "translations": [
         {
-          "translation": "Drop in to over {shop count} physical locations accepting Bitcoin Cash."
+          "translation": "Посетите один из {shop count} магазинов, в которых можно расплатиться Bitcoin Cash."
         }
       ]
     },
@@ -1936,7 +1936,7 @@
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "Совершайте покупки за Bitcoin Cash напрямую"
         }
       ]
     },
@@ -2230,14 +2230,14 @@
     "13691ba4252beb6502e8bf9a91778aab": {
       "translations": [
         {
-          "translation": "Start using the Bitcoin.com Wallet for a simple, secure way to send and receive Bitcoin. The wallet supports both Bitcoin Cash (BCH) and Bitcoin Core (BTC), allowing users to switch between the two different currencies effortlessly."
+          "translation": "Кошелек Bitcoin.com — простой и надежный способ отправлять и получать биткойны. Он поддерживает и Bitcoin Cash (BCH), и Bitcoin Core (BTC), что позволяет пользователям легко переключаться между двумя валютами."
         }
       ]
     },
     "1c4c29060f6485fde9f4f8ed8757b5d6": {
       "translations": [
         {
-          "translation": "Your private keys are encrypted and never leave your computer. Your funds can be recovered from a secret phrase. Electron Cash is fast, because it uses servers that index the Bitcoin Cash blockchain. You can export your private keys and use them in other Bitcoin Cash clients."
+          "translation": "Ваши закрытые ключи зашифрованы и хранятся только на компьютере. Средства можно восстановить с помощью секретной фразы. Высокую скорость работы Electron Cash обеспечивают серверы, которые индексируют блокчейны биткойнов. Закрытые ключи можно экспортировать и использовать в других Bitcoin Cash-клиентах."
         }
       ]
     }

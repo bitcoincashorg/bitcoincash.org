@@ -242,7 +242,7 @@
     "94bb812db2775ab0519cb698344e0453": {
       "translations": [
         {
-          "translation": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development."
+          "translation": "비트코인 캐시는 세계에 건전한 화폐를 가능케합니다. 상인들과 사용자들은 낮은 수수료와 신뢰있는 승인의 권한이 주어집니다. 미래는 제한없는 성장, 세계적인 채택, 허가가 불필요한 혁신, 탈중앙화된 개발로 밝게 빛납니다."
         }
       ]
     },
@@ -256,7 +256,7 @@
     "c896f27be5c90b6872cb876ce31ecfe3": {
       "translations": [
         {
-          "translation": "{upgrade activation time} Planned Network Upgrade"
+          "translation": "{upgrade activation time} 예정된 네트워크 업그레이드"
         }
       ]
     },
