@@ -117,7 +117,7 @@ const Header = () => {
   ]
 
   const bchPriceApi =
-  "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD,JPY,EUR,CNY"
+    "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD,JPY,EUR,CNY"
   const [isActive, setIsActive] = useState(false)
   const [currentUSDPrice, setCurrentUSDPrice] = useState("-")
   const [currentEURPrice, setCurrentEURPrice] = useState("-")
@@ -126,10 +126,10 @@ const Header = () => {
   const updateBchPrice = () => {
     axios.get(bchPriceApi).then(response => {
       if (response.data) {
-        setCurrentUSDPrice(response.data.USD.toFixed(2));
-        setCurrentEURPrice(response.data.EUR.toFixed(2));
-        setCurrentJPYPrice(Math.floor(response.data.JPY).toLocaleString());
-        setCurrentCNYPrice(Math.floor(response.data.CNY).toLocaleString());
+        setCurrentUSDPrice(response.data.USD.toFixed(2))
+        setCurrentEURPrice(response.data.EUR.toFixed(2))
+        setCurrentJPYPrice(Math.floor(response.data.JPY).toLocaleString())
+        setCurrentCNYPrice(Math.floor(response.data.CNY).toLocaleString())
       }
     })
   }
@@ -157,7 +157,6 @@ const Header = () => {
 
   const theme = data.site.siteMetadata.themeColours
 
-
   return (
     <>
       <AnnouncementBar />
@@ -180,10 +179,26 @@ const Header = () => {
             </Link>
             <div className={headerStyles.divider} />
             <LivePriceWidget
-              currentUSDPrice={["$", currentUSDPrice, <span className={headerStyles.ticker}>USD</span>]}
-              currentEURPrice={["€", currentEURPrice, <span className={headerStyles.ticker}>EUR</span>]}
-              currentJPYPrice={["¥", currentJPYPrice, <span className={headerStyles.ticker}>JPY</span>]}
-              currentCNYPrice={["¥", currentCNYPrice, <span className={headerStyles.ticker}>CNY</span>]}
+              currentUSDPrice={[
+                "$",
+                currentUSDPrice,
+                <span className={headerStyles.ticker}>USD</span>,
+              ]}
+              currentEURPrice={[
+                "€",
+                currentEURPrice,
+                <span className={headerStyles.ticker}>EUR</span>,
+              ]}
+              currentJPYPrice={[
+                "¥",
+                currentJPYPrice,
+                <span className={headerStyles.ticker}>JPY</span>,
+              ]}
+              currentCNYPrice={[
+                "¥",
+                currentCNYPrice,
+                <span className={headerStyles.ticker}>CNY</span>,
+              ]}
             />
           </div>
 

@@ -11,9 +11,9 @@
   color: #fff;
   cursor: pointer;
   position: relative;
-  -webkit-user-select: none;    
-  -moz-user-select: none; 
-  -ms-user-select: none; 
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -76,7 +76,6 @@
 }
 
 @media only screen and (max-width: 631px) {
-
   .widget {
     padding: 5px 10px;
   }
