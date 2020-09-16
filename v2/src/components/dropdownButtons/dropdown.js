@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { useHover, useToggleLayer, Arrow } from "react-laag"
 import dropdownStyles from "./dropdown.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
