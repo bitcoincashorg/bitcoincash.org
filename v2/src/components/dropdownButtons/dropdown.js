@@ -47,20 +47,6 @@ const DropdownContent = ({ layerSide, arrowStyle, links }) => {
   )
 }
 
-function MobileDropdown({ children, links, navLinkClass }) {
-  const [expanded, setExpanded] = useState(false)
-  return (
-    <div onClick={() => setExpanded(!expanded)}>
-      <div className={navLinkClass}>{children}</div>
-      {expanded && (
-        <div>
-          <DropdownContent links={links} />
-        </div>
-      )}
-    </div>
-  )
-}
-
 function Dropdown({ children, links, index }) {
   const triggerRef = React.useRef()
   const [element, toggleLayerProps] = useToggleLayer(
@@ -117,4 +103,3 @@ function Dropdown({ children, links, index }) {
 }
 
 export default Dropdown
-export { MobileDropdown }
