@@ -10,6 +10,12 @@ const LivePriceWidget = ({
 }) => {
   const [open, setOpen] = useState(false)
   const [hide, setHide] = useState(false)
+  const prices = [
+    currentUSDPrice,
+    currentEURPrice,
+    currentJPYPrice,
+    currentCNYPrice,
+  ]
   const [selectedCurrency, setCurrency] = useState("")
   return (
     <div className={livePricingStyles.widgetContainer}>
@@ -23,42 +29,17 @@ const LivePriceWidget = ({
 
       {open && (
         <ul className={livePricingStyles.priceDropdownUl}>
-          <li
-            onClick={() => {
-              setOpen(!open)
-              setCurrency(currentUSDPrice)
-              setHide(true)
-            }}
-          >
-            {currentUSDPrice}
-          </li>
-          <li
-            onClick={() => {
-              setOpen(!open)
-              setCurrency(currentEURPrice)
-              setHide(true)
-            }}
-          >
-            {currentEURPrice}
-          </li>
-          <li
-            onClick={() => {
-              setOpen(!open)
-              setCurrency(currentJPYPrice)
-              setHide(true)
-            }}
-          >
-            {currentJPYPrice}
-          </li>
-          <li
-            onClick={() => {
-              setOpen(!open)
-              setCurrency(currentCNYPrice)
-              setHide(true)
-            }}
-          >
-            {currentCNYPrice}
-          </li>
+          {prices.map(prices => (
+            <li
+              onClick={() => {
+                setOpen(!open)
+                setCurrency(prices)
+                setHide(true)
+              }}
+            >
+              {prices}
+            </li>
+          ))}
         </ul>
       )}
     </div>
