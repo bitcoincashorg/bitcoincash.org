@@ -64,6 +64,7 @@
 .cardIconText a,
 .cardIconText a:visited {
   color: #ff8d00;
+  display: inline;
 }
 
 .cardIconText a:hover {
