@@ -117,7 +117,7 @@ const Header = () => {
   const updateBchPrice = () => {
     axios.get(bchPriceApi).then(response => {
       if (response.data && response.data.USD) {
-        setCurrentUSDPrice(response.data.USD.toFixed(2))
+        setCurrentUSDPrice(response.data.USD)
       }
     })
   }
