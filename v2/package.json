@@ -16,7 +16,6 @@
     "fbt": "^0.15.0",
     "gatsby": "^2.24.60",
     "gatsby-image": "^2.4.18",
-    "gatsby-plugin-asset-path": "^3.0.2",
     "gatsby-plugin-google-analytics": "^2.3.14",
     "gatsby-plugin-manifest": "^2.4.29",
     "gatsby-plugin-offline": "^3.2.28",
@@ -46,7 +45,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby telemetry --disable && gatsby build --prefix-paths",
+    "build": "gatsby telemetry --disable && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss}\" .babelrc",
     "start": "npm run develop",

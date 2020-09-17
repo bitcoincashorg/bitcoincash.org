@@ -10,7 +10,6 @@ module.exports = {
       background_dark: "#f3f3f3",
     },
   },
-  assetPrefix: "/v2",
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -57,9 +56,6 @@ module.exports = {
       options: {
         rule: { include: /assets(\/|\\)icons/ },
       },
-    },
-    {
-      resolve: "gatsby-plugin-asset-path",
     },
   ],
 }
