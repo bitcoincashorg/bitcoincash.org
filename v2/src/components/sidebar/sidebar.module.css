@@ -8,9 +8,9 @@
   padding: 20px 10px;
 }
 
-.clickableRow,
-.clickableRow:visited,
-.clickableRow:active {
+.card > a,
+.card > a:visited,
+.card > a:active {
   display: flex;
   color: #444;
   transition: all 300ms;
