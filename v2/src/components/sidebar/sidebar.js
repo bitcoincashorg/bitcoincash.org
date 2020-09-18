@@ -20,7 +20,7 @@ const Sidebar = ({ content, title }) => {
             </>
           )
           if (item.link) {
-            tile = <a className={Sidebarstyle.clickableRow} href={item.link}>{tile}</a>
+            tile = <a href={item.link}>{tile}</a>
           }
           return <Row className={Sidebarstyle.cardIconRow}>{tile}</Row>
         })}

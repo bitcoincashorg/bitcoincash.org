@@ -8,15 +8,15 @@
   padding: 20px 10px;
 }
 
-.clickableRow,
-.clickableRow:visited,
-.clickableRow:active {
+.cardIconRow > a,
+.cardIconRow > a:visited,
+.cardIconRow > a:active {
   display: flex;
   color: #444;
   transition: all 300ms;
 }
 
-.clickableRow:hover {
+.cardIconRow > a:hover {
   transform: scale(1.04);
   color: #444;
 }
@@ -63,9 +63,7 @@
 }
 
 .cardIconText a,
-.cardIconText a:visited
-.cardIconText a:active
-.cardIconText a:hover {
+.cardIconText a:visited .cardIconText a:active .cardIconText a:hover {
   color: #ff8d00;
 }
 
