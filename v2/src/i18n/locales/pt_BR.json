@@ -109,133 +109,133 @@
     "e90ea55000f507da66e6ae827ad62775": {
       "translations": [
         {
-          "translation": "Pay with the privacy of cash"
+          "translation": "Pague com a mesma privacidade que dinheiro"
         }
       ]
     },
     "3d65dbf9cddca9e877ad9fea43f29e2f": {
       "translations": [
         {
-          "translation": "Pay privately"
+          "translation": "Pague de forma privada"
         }
       ]
     },
     "1de5d67777a77620f0927972c8c58392": {
       "translations": [
         {
-          "translation": "Since a bank account is tied to your identity, your transaction history is, too. Bitcoin Cash is the opposite: nobody knows who you are and payments can be sent privately."
+          "translation": "Já que uma conta de banco é associada à sua identidade, seu histórico de transações também é. Com Bitcoin Cash é o oposto: ninguém sabe quem você é e pagamentos podem ser feitos de forma privada."
         }
       ]
     },
     "53991ca9a39cc4478c77f393388aa482": {
       "translations": [
         {
-          "translation": "Pay online without a bank account"
+          "translation": "Pague online sem uma conta bancária"
         }
       ]
     },
     "15822f7cae3c9ac02127674ab19397a3": {
       "translations": [
         {
-          "translation": "Get set up"
+          "translation": "Prepare-se"
         }
       ]
     },
     "fd01af7df67ffebb8dee09e313fb4a96": {
       "translations": [
         {
-          "translation": "Too far away? Too many fees? Whatever your reason for not owning a bank account, Bitcoin Cash can help. Use it to pay and get paid online without the need for banks."
+          "translation": "Muito longe? Muitas tarifas? Qualquer que seja seu motivo para não ter uma conta em banco, Bitcoin Cash pode ajudar. Use-o para pagar e receber online sem precisar de bancos."
         }
       ]
     },
     "6cedf08807f584880ac5121fcd7fd32b": {
       "translations": [
         {
-          "translation": "Pay your friends directly"
+          "translation": "Pague seus amigos diretamente"
         }
       ]
     },
     "b410d412e2ab6f26936b286fedce5b53": {
       "translations": [
         {
-          "translation": "Pay with Bitcoin Cash"
+          "translation": "Pague com Bitcoin Cash"
         }
       ]
     },
     "b40dafc1e3655d2e5cbac924ac784083": {
       "translations": [
         {
-          "translation": "Splitting the bill? Send money to your friend's wallet or have them send it to yours instead. Payments are fast and go directly between the two of you—no banks needed."
+          "translation": "Dividindo a conta? Mande dinheiro para a carteira de seu amigo ou peça que eles mandem para a sua. Pagamentos são rápidos e vão diretamente para um de vocês - nenhum banco é necessário."
         }
       ]
     },
     "a3598cd85f5fe560d14f10ecc7cfe1b5": {
       "translations": [
         {
-          "translation": "Store savings in a safer place"
+          "translation": "Guarde sua poupança num lugar seguro"
         }
       ]
     },
     "79c193971b8973d7146a9bf0aaa22ca6": {
       "translations": [
         {
-          "translation": "Choose a wallet"
+          "translation": "Escolha uma carteira"
         }
       ]
     },
     "2a944fd5c6bd0c6d8b1fcf70b4463fa7": {
       "translations": [
         {
-          "translation": "Scammers can pretend to be your bank, using scare tactics to trick you into sending them money. Bitcoin Cash fixes this trust issue by removing third parties altogether."
+          "translation": "Golpistas podem fingir ser do seu banco, usando táticas para te assustar e fazer com que lhes mande seu dinheiro. Bitcoin Cash resolve essa questão eliminando intermediários completamente."
         }
       ]
     },
     "d09ba9299507646e8d228883cedc134b": {
       "translations": [
         {
-          "translation": "Bitcoin Cash does what banks can't do"
+          "translation": "Bitcoin Cash faz o que bancos não são capazes de fazer"
         }
       ]
     },
     "47b79c719bdf0fe859ba03b10fe7b5fd": {
       "translations": [
         {
-          "translation": "Payments go directly from one person to another."
+          "translation": "Pagamentos vão direto de uma pessoa a outra."
         }
       ]
     },
     "7bf01da9afe61530d41015f688cdee3f": {
       "translations": [
         {
-          "translation": "No matter how much you send, fees are always tiny."
+          "translation": "Não importa o valor, as tarifas são sempre minúsculas."
         }
       ]
     },
     "4a38eb153d7be4a3cc8bda9f8341d3fe": {
       "translations": [
         {
-          "translation": "Money is sent and received fast—no delays, no limits."
+          "translation": "Dinheiro é enviado e recebido rapidamente - sem atrasos, sem limites."
         }
       ]
     },
     "98462725924a06d5b90e074a20713534": {
       "translations": [
         {
-          "translation": "And everyone, everywhere can use it"
+          "translation": "E todo mundo, em toda parte pode usá-lo"
         }
       ]
     },
     "0ff49d81ba079631db188d0707041556": {
       "translations": [
         {
-          "translation": "Bitcoin Cash is sound money for the world. To meet growing demand, developers are always scaling the Bitcoin Cash network."
+          "translation": "Bitcoin Cash é uma moeda forte para o mundo. Para atender a demanda crescente, desenvolvedores estão sempre melhorando a escalabilidade da rede Bitcoin Cash."
         }
       ]
     },
     "58600d07c3ef680e2dc727d0d10d4070": {
       "translations": [
         {
-          "translation": "See the roadmap"
+          "translation": "Ver o roteiro"
         }
       ]
     },
@@ -249,7 +249,7 @@
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
+          "translation": "Lembrete: {upgrade activation time} Atualização da Rede Planejada"
         }
       ]
     },
@@ -270,7 +270,7 @@
     "d770c97de5c52bd8109e39c140e62bab": {
       "translations": [
         {
-          "translation": "See Roadmap"
+          "translation": "Ver Roteiro"
         }
       ]
     },
@@ -557,7 +557,7 @@
     "c32d07c9f1ec7e029145acba7847810d": {
       "translations": [
         {
-          "translation": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!"
+          "translation": "Use uma {=torneira Bitcoin Cash} de confiança para receber uma minúscula quantia de Bitcoin Cash de graça!"
         }
       ]
     },
@@ -606,7 +606,7 @@
     "be1ce878ec3c7879d4f51c101bd5039d": {
       "translations": [
         {
-          "translation": "Participate on censorship resistant social media platforms like {memo.cash}."
+          "translation": "Participe de mídias sociais resistentes à censura como {memo.cash}."
         }
       ]
     },
@@ -620,7 +620,7 @@
     "e4702e9cbb7e01373845da4671ea7170": {
       "translations": [
         {
-          "translation": "Connect with locals in your area who are selling Bitcoin Cash on {local.bitcoin.com} or {localbitcoincash.org}."
+          "translation": "Entre em contato com pessoas em sua localidade vendendo Bitcoin Cash em {local.bitcoin.com} ou {localbitcoincash.org}"
         }
       ]
     },
@@ -634,14 +634,14 @@
     "7141839018849626169161d6569e181c": {
       "translations": [
         {
-          "translation": "Add Bitcoin Cash as a payment method to your store with the {=Bitcoin Cash Register}. Sell items online or in person for Bitcoin Cash."
+          "translation": "Inclua Bitcoin Cash como forma de pagamento da sua loja com o ={Caixa Registradora Bitcoin Cash}. Venda itens online ou pessoalmente por Bitcoin Cash."
         }
       ]
     },
     "62d4e4b07337d40d70de5c2847518a25": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Register"
+          "translation": "Caixa Registradora Bitcoin Cash"
         }
       ]
     },
@@ -690,21 +690,21 @@
     "4fe3626b7a5a84066dc77dc4b0bc6724": {
       "translations": [
         {
-          "translation": "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest {=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can {=spend Bitcoin Cash} and enquire there."
+          "translation": "Em muitas cidades há um mercado de comerciantes com balcões de negócios (OTC) que trocam moeda fiduciária (como o Real, Dólar, Euro, etc) por Bitcoin Cash. Ou considere perguntar se seu empregador estaria disposto a estar na vanguarda do futuro do dinheiro e oferecer seu salário total ou parcialmente em Bitcoin Cash. Algumas cidades maiores também estão equipadas com máquinas de auto-atendimento Bitcoin Cash que facilitam muito a troca de papel-moeda por Bitcoin Cash. Pergunte na sua {=reunião Bitcoin Cash} mais próxima a respeito de outras opções, ou considere prestigiar restaurantes na sua cidade onde você possa {=gastar Bitcoin Cash} e fazer perguntas."
         }
       ]
     },
     "fd3c450b48cfba87fe672e03c08adb75": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Meetup"
+          "translation": "reunião Bitcoin Cash"
         }
       ]
     },
     "bbbbdbd3c9649b1a75c862ae8e2c140b": {
       "translations": [
         {
-          "translation": "spend Bitcoin Cash"
+          "translation": "gastar Bitcoin Cash"
         }
       ]
     },
@@ -725,7 +725,7 @@
     "73199e1a37833cc407baf9cb594a7720": {
       "translations": [
         {
-          "translation": "Buy Bitcoin Cash"
+          "translation": "Compre Bitcoin Cash"
         }
       ]
     },
@@ -739,7 +739,7 @@
     "03fe2735053d17e8d3f29270870f5a0e": {
       "translations": [
         {
-          "translation": "Featured Exchanges"
+          "translation": "Plataformas de Câmbio Destacadas"
         }
       ]
     },
@@ -781,14 +781,14 @@
     "be8e33683aa11aa3f6de5dc80441f0bc": {
       "translations": [
         {
-          "translation": "Libraries"
+          "translation": "Bibliotecas"
         }
       ]
     },
     "212e15c413bacd57f3d1c626aa8b90e6": {
       "translations": [
         {
-          "translation": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use."
+          "translation": "A biblioteca em Python de Bitcoin Cash mais rápida. Intuitiva e fácil de usar."
         }
       ]
     },
@@ -802,14 +802,14 @@
     "4b0ef5afb7eba267fa7d56c9a83c9e44": {
       "translations": [
         {
-          "translation": "Fully featured, powerful javascript framework for Bitcoin Cash."
+          "translation": "Framework poderoso e completo em Javascript para Bitcoin Cash."
         }
       ]
     },
     "4d7ab3b98c6b501998627b98ff9053e2": {
       "translations": [
         {
-          "translation": "Resources"
+          "translation": "Recursos"
         }
       ]
     },
@@ -830,28 +830,28 @@
     "b25bc666e4b746b02c7ab8fccf604fb9": {
       "translations": [
         {
-          "translation": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID."
+          "translation": "Badger Wallet injeta uma API nas páginas que um usuário visita para permitir que aplicativos peçam a permissão do usuário para enviar Bitcoin Cash, tokens ou realizar autenticação usando CashID."
         }
       ]
     },
     "68e28bba2482472a7b1481cdabecbbec": {
       "translations": [
         {
-          "translation": "Simple Tokens - Secure Tokens on Bitcoin Cash"
+          "translation": "Simple Tokens - Tokens seguros no Bitcoin Cash"
         }
       ]
     },
     "095a77bfa04da6e74399b37991970188": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Exchanges"
+          "translation": "Plataformas de Câmbio Bitcoin Cash"
         }
       ]
     },
     "678465bc79271d7b1c4c4ea5ec0da06b": {
       "translations": [
         {
-          "translation": "Featured Exchanges"
+          "translation": "Plataformas de Câmbio Destacadas"
         }
       ]
     },
@@ -1075,7 +1075,7 @@
     "444176d6569632e9f20bae4aad98c9c5": {
       "translations": [
         {
-          "translation": "View the roadmap"
+          "translation": "Ver o roteiro"
         }
       ]
     },
@@ -1201,14 +1201,14 @@
     "0f429e8d8d54f67ce44b262f7d9b3eb4": {
       "translations": [
         {
-          "translation": "Learn more"
+          "translation": "Saiba mais"
         }
       ]
     },
     "dcf13c988504e8e8b5b876069632c0fd": {
       "translations": [
         {
-          "translation": "Logos and Graphics"
+          "translation": "Logos e Gráficos"
         }
       ]
     },
@@ -1411,21 +1411,21 @@
     "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
       "translations": [
         {
-          "translation": "Easy ways to buy Bitcoin Cash"
+          "translation": "Maneiras fáceis de comprar Bitcoin Cash"
         }
       ]
     },
     "677ea18ec8c7f2e5a0e4698cb6b7a17f": {
       "translations": [
         {
-          "translation": "Where to spend Bitcoin Cash"
+          "translation": "Onde gastar Bitcoin Cash"
         }
       ]
     },
     "ae7690a0d139cdb70a3a17affefb6326": {
       "translations": [
         {
-          "translation": "Subscribe for Bitcoin Cash news, guides, and more."
+          "translation": "Assine e receba notícias, guias e mais sobre Bitcoin Cash"
         }
       ]
     },
@@ -1446,7 +1446,7 @@
     "44a24bc2296c5d9e605b8f25b668460c": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Nodes"
+          "translation": "Nodos Bitcoin Cash"
         }
       ]
     },
@@ -1460,7 +1460,7 @@
     "8863afc1901492a09d8fc593934a6a9c": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Projects"
+          "translation": "Projetos Bitcoin Cash"
         }
       ]
     },
@@ -1852,7 +1852,7 @@
     "abf7a99cb5c993a55b9707323a02ff39": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Services"
+          "translation": "Serviços Bitcoin Cash"
         }
       ]
     },
@@ -1943,14 +1943,14 @@
     "7a350b47bb5227b22b2e3181d50bcba4": {
       "translations": [
         {
-          "translation": "Location data by {=Bitcoin.com Maps}"
+          "translation": "Dados de localização por {=Mapas Bitcoin.com}"
         }
       ]
     },
     "96595f0244e74d9bdcc717f7604c7ff7": {
       "translations": [
         {
-          "translation": "Bitcoin.com Maps"
+          "translation": "Mapas Bitcoin.com"
         }
       ]
     },
@@ -2160,7 +2160,7 @@
     "8fe149378aebfc9f37688e222b2c433e": {
       "translations": [
         {
-          "translation": "Bitcoin Cash Wallets"
+          "translation": "Carteiras Bitcoin Cash"
         }
       ]
     },
@@ -2181,49 +2181,49 @@
     "b4556aebb796f5e71f4eb77b1bc26fab": {
       "translations": [
         {
-          "translation": "Mobile Wallets"
+          "translation": "Carteiras de Smartphone"
         }
       ]
     },
     "1c909027e6efdfefa39b3d92aa688a48": {
       "translations": [
         {
-          "translation": "Desktop Wallets"
+          "translation": "Carteiras para PC"
         }
       ]
     },
     "a0369d50befc901a9fcfc65aa7b4a3aa": {
       "translations": [
         {
-          "translation": "Hardware Wallets"
+          "translation": "Hardwallets"
         }
       ]
     },
     "ea4656f2a09327677744603e8d6b86d8": {
       "translations": [
         {
-          "translation": "Paper Wallets"
+          "translation": "Carteiras de Papel"
         }
       ]
     },
     "cf5bfb3a954b0cc97a5ad1b0df312858": {
       "translations": [
         {
-          "translation": "Coinbase is a digital currency exchange headquartered in San Francisco, California. They broker exchanges of Bitcoin Cash and other cryptocurrencies with fiat currencies in approximately 32 countries."
+          "translation": "Coinbase é uma plataforma de câmbio digital sediada em São Francisco, Califórnia. Eles realizam câmbio entre Bitcoin Cash e outras criptomoedas para moeda fiduciária em aproximadamente 32 países."
         }
       ]
     },
     "52f47801fe8849adcf8e14a4d6ce4529": {
       "translations": [
         {
-          "translation": "CoinEx is dedicated to building a highly secure, stable and efficient digital coin exchange for global users. CoinEx now supports multiple languages and are providing global trading services in nearly 100 countries/regions."
+          "translation": "CoinEx é dedicada a construir uma plataforma de câmbio altamente segura, estável e eficiente para usuários globais. A CoinEx atualmente suporta múltiplas linguagens e está provendo serviços de câmbio globais em quase 100 países/regiões."
         }
       ]
     },
     "45f8bafd7d930fd1492accec3dee96b5": {
       "translations": [
         {
-          "translation": "Kraken is the largest Bitcoin exchange in euro volume and liquidity and also trading Canadian dollars, US dollars, British pounds and Japanese yen. Kraken is consistently rated the best and most secure Bitcoin exchange by independent news media."
+          "translation": "Kraken é a maior plataforma de câmbio Bitcoin em volume de Euro e liquidez e também em câmbio de dólares Canadenses, dólares Americanos, libras esterlinas e o Yen japonês. A Kraken é consistentemente considerada a melhor e mais segura plataforma de câmbio Bitcoin pela mídia independente."
         }
       ]
     },
