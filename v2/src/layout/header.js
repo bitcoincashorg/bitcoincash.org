@@ -2,14 +2,11 @@ import React, { useState, useEffect } from "react"
 import logo from "assets/images/bitcoin-cash-logo-white-small.png"
 import headerStyles from "./header.module.scss"
 import AnnouncementBar from "./announcement-bar.js"
-import NavItems from "components/navitems/navitems"
+import NavBar from "./navbar/navbar"
 import MobileNavItems from "components/navitems/mobile-navitems"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import axios from "axios"
-import fbt from "fbt"
-import World from "assets/icons/world.svg"
 import Link from "global/link"
-import locales from "i18n/locales"
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 if (typeof window !== "undefined") {
@@ -34,82 +31,7 @@ if (typeof window !== "undefined") {
   }
 }
 
-const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
-  let link = "/"
-  if (locale.slug) {
-    link += locale.slug + "/"
-  }
-
-  return { text: locale.displayName, href: link, localize: false }
-})
-
 const Header = () => {
-  const communityDropdownLinks = [
-    {
-      text: fbt("Services", "Community menu 'services' link"),
-      href: "/services/",
-    },
-    {
-      text: fbt("Projects", "Community menu 'projects' link"),
-      href: "/projects/",
-    },
-    {
-      text: fbt("Exchanges", "Community menu 'exchanges' link"),
-      href: "/exchanges/",
-    },
-    {
-      text: fbt("Nodes", "Community menu 'nodes' link"),
-      href: "/nodes/",
-    },
-    {
-      text: fbt("Developer Portal", "Community menu 'developper portal' link"),
-      href: "/developers/",
-    },
-    {
-      text: fbt("Logos", "Community menu 'logos' link"),
-      href: "/graphics/",
-    },
-    {
-      text: fbt("Whitepaper", "Community menu 'whitepaper' link"),
-      href: "/bitcoin.pdf",
-      localize: false,
-    },
-    {
-      text: fbt("Roadmap", "Community menu 'roadmap' link"),
-      href: "/roadmap/",
-    },
-  ]
-
-  const navBarItems = [
-    {
-      text: fbt("Start Here", "Top 'Start here' link"),
-      href: "/start-here/",
-    },
-    {
-      text: fbt("Wallets", "Top 'wallets' link"),
-      href: "/wallets/",
-    },
-    {
-      text: fbt("Explorer", "Link to the block explorer"),
-      href: "https://explorer.bitcoincash.org/",
-    },
-    {
-      text: fbt("Community", "Commnity menu"),
-      links: communityDropdownLinks,
-    },
-    { text: fbt("About", "Top 'about' link"), href: "/faq/" },
-    {
-      text: (
-        <>
-          <World />
-          <span style={{ paddingLeft: "5px" }}>
-            <fbt desc="Language selector menu">Language</fbt>
-          </span>
-        </>
-      ),
-      links: languageDropdownLinks,
-    },
-  ]
 
   const bchPriceApi =
     "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
@@ -153,8 +75,8 @@ const Header = () => {
             />
           </div>
 
-          <NavItems navBarItems={navBarItems} />
-          <MobileNavItems navBarItems={navBarItems} />
+          <NavBar />
+        
         </div>
       </header>
     </>

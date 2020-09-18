@@ -1,0 +1,60 @@
+.mobileHeaderLinks {
+  display: none;
+}
+
+.mobileMenu {
+  transition: all 0.5s ease;
+  width: 100%;
+  left: 0;
+  top: 100px;
+  height: 0%;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  overflow: scroll;
+  overflow-y: scroll;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.mobileNavLinks {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mobileNavLink {
+  padding: 15px 20px;
+  color: white;
+  border-bottom: 1px solid #ffffff20;
+  display: flex;
+}
+
+.mobileNavLinkLanguage {
+  padding: 15px 0 15px 45px;
+  color: white;
+  background: #01051b;
+  border-bottom: 1px solid #ffffff20;
+  display: flex;
+}
+
+.mobileNavLink svg {
+  width: 12px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .mobileHeaderLinks {
+    display: block;
+  }
+  .mobileMenu {
+    display: block;
+  }
+}
