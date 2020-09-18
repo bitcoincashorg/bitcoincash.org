@@ -1,19 +1,19 @@
 import React, { useState } from "react"
 import S from "./navbar.module.scss"
-import Dropdown from "./dropdown"
 import Link from "global/link"
 import fbt from "fbt"
 import World from "assets/icons/world.svg"
+import Dropdown from "components/dropdown/dropdown"
+import "assets/lib/hamburgers.min.css"
 import locales from "i18n/locales"
 
 const NavBar = () => {
-
   const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
     let link = "/"
     if (locale.slug) {
       link += locale.slug + "/"
     }
-  
+
     return { text: locale.displayName, href: link, localize: false }
   })
 
@@ -86,31 +86,55 @@ const NavBar = () => {
 
   const [mobile, openMobile] = useState(false)
 
-  return (
-  <>
-    <div className={S.headerLinks}>
-      {navBarItems.map((headerLink, index) =>
-        headerLink.href ? (
-          <Link
-            data-sal="slide-down"
-            data-sal-delay={100 + index * 100}
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-            className={S.link}
-            key={index}
-            to={headerLink.href}
-          >
-            {headerLink.text}
-          </Link>
-        ) : (
-          <Dropdown links={headerLink.links} index={index} key={index}>
-            {headerLink.text}
-          </Dropdown>
-        )
-      )}
-    </div>
+  const MobileDropdown = ({ children, links, navLinkClass }) => {
+    const [expanded, setExpanded] = useState(false)
+    return (
+      <div onClick={() => setExpanded(!expanded)}>
+        <div className={navLinkClass}>{children}</div>
+        {expanded && (
+          <div>
+            {links.map(dropdownLink => (
+              <Link
+                className={S.mobileNavLinkLanguage}
+                key={dropdownLink.text}
+                to={dropdownLink.href}
+                localize={dropdownLink.localize}
+                onClick={() => openMobile(!mobile)}
+              >
+                {dropdownLink.text}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    )
+  }
 
-    <div className={S.mobileHeaderLinks}>
+  return (
+    <>
+      <div className={S.headerLinks}>
+        {navBarItems.map((headerLink, index) =>
+          headerLink.href ? (
+            <Link
+              data-sal="slide-down"
+              data-sal-delay={100 + index * 100}
+              data-sal-duration="1000"
+              data-sal-easing="ease"
+              className={S.link}
+              key={index}
+              to={headerLink.href}
+            >
+              {headerLink.text}
+            </Link>
+          ) : (
+            <Dropdown links={headerLink.links} index={index} key={index}>
+              {headerLink.text}
+            </Dropdown>
+          )
+        )}
+      </div>
+
+      <div className={S.mobileHeaderLinks}>
         <div
           className={`hamburger hamburger--squeeze ${
             mobile ? "is-active" : ""
@@ -123,11 +147,14 @@ const NavBar = () => {
         </div>
       </div>
       <div
+        data-sal="slide-down"
+        data-sal-duration="1000"
+        data-sal-easing="ease"
         className={S.mobileMenu}
         style={
           mobile
             ? {
-                height: "calc(100vh - 100px)"
+                height: "auto",
               }
             : null
         }

@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react"
 import logo from "assets/images/bitcoin-cash-logo-white-small.png"
 import headerStyles from "./header.module.scss"
 import AnnouncementBar from "./announcement-bar.js"
-import NavBar from "./navbar/navbar"
-import MobileNavItems from "components/navitems/mobile-navitems"
+import NavBar from "./navbar"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import axios from "axios"
 import Link from "global/link"
@@ -32,7 +31,6 @@ if (typeof window !== "undefined") {
 }
 
 const Header = () => {
-
   const bchPriceApi =
     "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
   const [currentUSDPrice, setCurrentUSDPrice] = useState("-")
@@ -76,7 +74,6 @@ const Header = () => {
           </div>
 
           <NavBar />
-        
         </div>
       </header>
     </>

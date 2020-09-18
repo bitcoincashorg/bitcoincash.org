@@ -53,7 +53,7 @@
   transition: all 0.5s ease;
   width: 100%;
   left: 0;
-  top: 100px;
+  top: 80px;
   height: 0px;
   display: flex;
   position: absolute;
@@ -99,7 +99,6 @@
 }
 
 @media only screen and (max-width: 1100px) {
-
   .headerLinks {
     display: none;
   }
@@ -111,5 +110,4 @@
   .mobileMenu {
     display: block;
   }
-
 }
