@@ -543,7 +543,7 @@
     "1419e05c21231ca8536d6d2ba88434e7": {
       "translations": [
         {
-          "translation": "Send fiat to a trusted 3rd party exchange and purchase Bitcoin Cash."
+          "translation": "Senden Sie ihre Nationalwährung an eine treuhändische Drittanbieter-Börse und erwerben Sie Bitcoin Cash"
         }
       ]
     },
@@ -557,14 +557,14 @@
     "c32d07c9f1ec7e029145acba7847810d": {
       "translations": [
         {
-          "translation": "Use a trusted {=Bitcoin Cash faucet} to receive a tiny amount of Bitcoin Cash for free!"
+          "translation": "Verwenden Sie einen zuverlässigen {=Bitcoin Cash faucet}, um eine kleine Menge Bitcoin Cash kostenlos zu erhalten!"
         }
       ]
     },
     "5d92a742ae5869d668144900f56ce4ee": {
       "translations": [
         {
-          "translation": "Bitcoin Cash faucet"
+          "translation": "Bitcoin Cash Faucet"
         }
       ]
     },
@@ -627,14 +627,14 @@
     "7bca5f561da7058a2446053e3757a05b": {
       "translations": [
         {
-          "translation": "Accept Bitcoin Cash at your Business"
+          "translation": "Bitcoin Cash in Ihrem Betrieb akzeptieren"
         }
       ]
     },
     "7141839018849626169161d6569e181c": {
       "translations": [
         {
-          "translation": "Add Bitcoin Cash as a payment method to your store with the {=Bitcoin Cash Register}. Sell items online or in person for Bitcoin Cash."
+          "translation": "."
         }
       ]
     },
@@ -690,7 +690,7 @@
     "4fe3626b7a5a84066dc77dc4b0bc6724": {
       "translations": [
         {
-          "translation": "In many cities there is a market of Over The Counter (OTC) traders who trade fiat (such as USD, Yen, Euro, etc) for Bitcoin Cash. Or consider asking your employer if they would be willing to be at the forefront of the future of money and offer partial or complete payment in Bitcoin Cash. Some larger cities are also equipped with a Bitcoin Cash enabled ATM machine which make it very easy to trade in fiat for Bitcoin Cash. Ask at your nearest {=Bitcoin Cash Meetup} about other options, or consider visiting restaurants in your city where you can {=spend Bitcoin Cash} and enquire there."
+          "translation": "Bitcoin CashIn vielen Städten gibt es einen Markt für außerbörsliche (Over-The-Counter, oder OTC)-Händler, die gegen Bitcoin Cash (z. B. US-Dollar, Yen, Euro usw.) handeln. Sie können auch Ihren Arbeitgeber fragen, ob er bereit ist, eine zukunftsweisende Zahlungsmethode zu unterstützen und eine teilweise oder vollständige Zahlung in Bitcoin Cash anzubieten. In einigen größeren Städten gibt es auch Bitcoin Cash-fähige Geldautomaten, die den Umtausch von Bitcoin Cash in Papierwährung sehr einfach machen. Fragen Sie bei Ihrem nächstgelegenen {=Bitcoin Cash Meetup} nach weiteren Möglichkeiten, oder besuchen Sie Restaurants in Ihrer Stadt, in denen Sie mit {=spend Bitcoin Cash} und sich dort erkundigen können."
         }
       ]
     },
@@ -704,7 +704,7 @@
     "bbbbdbd3c9649b1a75c862ae8e2c140b": {
       "translations": [
         {
-          "translation": "spend Bitcoin Cash"
+          "translation": "Bitcoin Cash bezahlen"
         }
       ]
     },
@@ -1075,7 +1075,7 @@
     "444176d6569632e9f20bae4aad98c9c5": {
       "translations": [
         {
-          "translation": "View the roadmap"
+          "translation": "Sehen Sie sich die Roadmap an"
         }
       ]
     },
@@ -1516,7 +1516,7 @@
     "d3197aa026de8266870fa7e95620437d": {
       "translations": [
         {
-          "translation": "UTXO Commitment"
+          "translation": "UTXO-Verpflichtungen"
         }
       ]
     },
@@ -1929,14 +1929,14 @@
     "98de1bb9fab11d069ecb356b5da29844": {
       "translations": [
         {
-          "translation": "Where can I spend Bitcoin Cash?"
+          "translation": "Wo kann ich mit Bitcoin Cash bezahlen?"
         }
       ]
     },
     "acc1d2044652d38249f3ad8e4d4a2aac": {
       "translations": [
         {
-          "translation": "Spend Bitcoin Cash in Person"
+          "translation": "Bitcoin Cash Persönlich Ausgeben"
         }
       ]
     },
@@ -2195,14 +2195,14 @@
     "a0369d50befc901a9fcfc65aa7b4a3aa": {
       "translations": [
         {
-          "translation": "Hardware Wallets"
+          "translation": "Hardware-Wallets"
         }
       ]
     },
     "ea4656f2a09327677744603e8d6b86d8": {
       "translations": [
         {
-          "translation": "Paper Wallets"
+          "translation": "Papier-Wallets"
         }
       ]
     },
