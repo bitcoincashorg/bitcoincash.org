@@ -606,7 +606,7 @@
     "be1ce878ec3c7879d4f51c101bd5039d": {
       "translations": [
         {
-          "translation": "Participate on censorship resistant social media platforms like {memo.cash}."
+          "translation": "Participez à des plateformes de réseaux sociaux résistantes à la censure comme {memo.cash}."
         }
       ]
     },
@@ -634,7 +634,7 @@
     "7141839018849626169161d6569e181c": {
       "translations": [
         {
-          "translation": "Add Bitcoin Cash as a payment method to your store with the {=Bitcoin Cash Register}. Sell items online or in person for Bitcoin Cash."
+          "translation": "Ajoutez Bitcoin Cash comme mode de paiement à votre boutique avec la {= Bitcoin Cash Register}. Vendez des articles en ligne ou en personne contre Bitcoin Cash."
         }
       ]
     },
@@ -781,14 +781,14 @@
     "be8e33683aa11aa3f6de5dc80441f0bc": {
       "translations": [
         {
-          "translation": "Libraries"
+          "translation": "Librairies"
         }
       ]
     },
     "212e15c413bacd57f3d1c626aa8b90e6": {
       "translations": [
         {
-          "translation": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use."
+          "translation": "La bibliothèque Python Bitcoin Cash la plus rapide . Utilisation intuitive et sans effort."
         }
       ]
     },
@@ -802,7 +802,7 @@
     "4b0ef5afb7eba267fa7d56c9a83c9e44": {
       "translations": [
         {
-          "translation": "Fully featured, powerful javascript framework for Bitcoin Cash."
+          "translation": "Framework javascript puissant et complet pour Bitcoin Cash."
         }
       ]
     },
@@ -830,14 +830,14 @@
     "b25bc666e4b746b02c7ab8fccf604fb9": {
       "translations": [
         {
-          "translation": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID."
+          "translation": "Badger Wallet injecte une API dans les pages qu'un utilisateur visite pour permettre aux applications de demander l'autorisation d'un utilisateur d'envoyer des Bitcoin Cash, d'envoyer des jetons ou de s'authentifier avec CashID."
         }
       ]
     },
     "68e28bba2482472a7b1481cdabecbbec": {
       "translations": [
         {
-          "translation": "Simple Tokens - Secure Tokens on Bitcoin Cash"
+          "translation": "Simple Tokens - Tokens sécurisés sur Bitcoin Cash"
         }
       ]
     },
@@ -1425,7 +1425,7 @@
     "ae7690a0d139cdb70a3a17affefb6326": {
       "translations": [
         {
-          "translation": "Subscribe for Bitcoin Cash news, guides, and more."
+          "translation": "Abonnez-vous aux actualités, aux guides et plus encore sur Bitcoin Cash."
         }
       ]
     },
@@ -2209,21 +2209,21 @@
     "cf5bfb3a954b0cc97a5ad1b0df312858": {
       "translations": [
         {
-          "translation": "Coinbase is a digital currency exchange headquartered in San Francisco, California. They broker exchanges of Bitcoin Cash and other cryptocurrencies with fiat currencies in approximately 32 countries."
+          "translation": "Coinbase est une plateforme d'échange numérique basé à San Francisco, en Californie. Ils négocient des échanges de Bitcoin Cash et d'autres crypto-monnaies avec des monnaies fiduciaires dans environ 32 pays."
         }
       ]
     },
     "52f47801fe8849adcf8e14a4d6ce4529": {
       "translations": [
         {
-          "translation": "CoinEx is dedicated to building a highly secure, stable and efficient digital coin exchange for global users. CoinEx now supports multiple languages and are providing global trading services in nearly 100 countries/regions."
+          "translation": "CoinEx se consacre à la création d'un échange de cryptomonnaies hautement sécurisé, stable et efficace pour les utilisateurs du monde entier. CoinEx prend désormais en charge plusieurs langues et fournit des services de trading mondiaux dans près de 100 pays / régions."
         }
       ]
     },
     "45f8bafd7d930fd1492accec3dee96b5": {
       "translations": [
         {
-          "translation": "Kraken is the largest Bitcoin exchange in euro volume and liquidity and also trading Canadian dollars, US dollars, British pounds and Japanese yen. Kraken is consistently rated the best and most secure Bitcoin exchange by independent news media."
+          "translation": "Kraken est la plus grande bourse de Bitcoin en volume et en liquidité en euros et négocie également des dollars canadiens, des dollars américains, des livres britanniques et du yen japonais. Kraken est régulièrement classé comme la meilleure plateforme d'échange Bitcoin et la plus sécurisé par les médias indépendants."
         }
       ]
     },
