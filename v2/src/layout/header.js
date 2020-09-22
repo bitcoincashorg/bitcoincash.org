@@ -31,7 +31,6 @@ if (typeof window !== "undefined") {
 }
 
 const Header = () => {
-
   const bchPriceApi =
     "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
   const [currentUSDPrice, setCurrentUSDPrice] = useState("-")
