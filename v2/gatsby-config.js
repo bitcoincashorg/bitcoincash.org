@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Bitcoincash.org",
     author: "Bitcoincash.org",
+    siteURL: "https://www.bitcoincash.org/",
     themeColours: {
       primary_dark: "#040c3c",
       primary_light: "#212c6e",
