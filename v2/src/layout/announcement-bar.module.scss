@@ -106,6 +106,8 @@
   .accordionTitle {
     margin-right: 0;
     padding: 10px 0;
+    font-size: 12px;
+    display: inline-block;
   }
 
   .accordionTitle svg {
@@ -135,5 +137,10 @@
   .annoucementPanelInner button {
     margin-right: 0;
     width: 100%;
+  }
+
+  .accordionSection {
+    padding: 0px 10px;
+    text-align: center;
   }
 }
