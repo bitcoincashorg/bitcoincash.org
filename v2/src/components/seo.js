@@ -19,7 +19,6 @@ function SEO({ description, lang, meta, title, twitter_image }) {
           siteMetadata {
             title
             author
-            siteURL
           }
         }
       }
@@ -33,7 +32,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       innovation, and decentralized development.
     </fbt>
   )
-  const metatwitterImage = twitter_image || site.siteMetadata.siteURL + "images/bitcoincash-org.jpg"
+  const metatwitterImage = twitter_image || "bitcoincash-org.jpg"
 
   return (
     <Helmet
@@ -73,7 +72,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:image`,
-          content: metatwitterImage,
+          content: "https://www.bitcoincash.org/images/" + metatwitterImage,
         },
         {
           name: `twitter:description`,
