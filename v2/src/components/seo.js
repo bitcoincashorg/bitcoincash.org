@@ -32,7 +32,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       innovation, and decentralized development.
     </fbt>
   )
-  const metatwitterImage = twitter_image || "bitcoincash-org.jpg"
+  const metatwitterImage = twitter_image || "images/bitcoincash-org.jpg"
 
   return (
     <Helmet
@@ -72,7 +72,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:image`,
-          content: "https://www.bitcoincash.org/images/" + metatwitterImage,
+          content: "https://www.bitcoincash.org/" + metatwitterImage,
         },
         {
           name: `twitter:description`,
