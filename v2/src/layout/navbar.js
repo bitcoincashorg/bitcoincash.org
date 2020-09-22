@@ -3,7 +3,7 @@ import S from "./navbar.module.scss"
 import Link from "global/link"
 import fbt from "fbt"
 import World from "assets/icons/world.svg"
-import Dropdown from "components/dropdown/dropdown"
+import Dropdown from "components/dropdownButtons/dropdown"
 import "assets/lib/hamburgers.min.css"
 import locales from "i18n/locales"
 

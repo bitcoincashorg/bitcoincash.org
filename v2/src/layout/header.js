@@ -54,12 +54,7 @@ const Header = () => {
   return (
     <>
       <AnnouncementBar />
-      <header
-        id={isActive ? "navbar-mobile" : "navbar"}
-        style={{
-          background: `linear-gradient(270deg, ${theme.primary_dark} 0%, ${theme.primary_light} 100%)`,
-        }}
-      >
+      <header>
         <div className={headerStyles.headerBar}>
           <div
             className={headerStyles.headerStart}
