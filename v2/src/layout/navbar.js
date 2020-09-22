@@ -84,7 +84,7 @@ const NavBar = () => {
     },
   ]
 
-  const [mobile, openMobile] = useState(false)
+  const [open, openMobileMenu] = useState(false)
 
   const MobileDropdown = ({ children, links, navLinkClass }) => {
     const [expanded, setExpanded] = useState(false)
@@ -99,7 +99,7 @@ const NavBar = () => {
                 key={dropdownLink.text}
                 to={dropdownLink.href}
                 localize={dropdownLink.localize}
-                onClick={() => openMobile(!mobile)}
+                onClick={() => openMobileMenu(!open)}
               >
                 {dropdownLink.text}
               </Link>
@@ -137,9 +137,9 @@ const NavBar = () => {
       <div className={S.mobileHeaderLinks}>
         <div
           className={`hamburger hamburger--squeeze ${
-            mobile ? "is-active" : ""
+            open ? "is-active" : ""
           }`}
-          onClick={() => openMobile(!mobile)}
+          onClick={() => openMobileMenu(!open)}
         >
           <div className="hamburger-box">
             <div className="hamburger-inner" />
@@ -152,14 +152,14 @@ const NavBar = () => {
         data-sal-easing="ease"
         className={S.mobileMenu}
         style={
-          mobile
+          open
             ? {
                 height: "auto",
               }
             : null
         }
       >
-        {mobile && (
+        {open && (
           <div className={S.mobileNavLinks}>
             {navBarItems.map((headerLink, index) =>
               headerLink.href ? (
@@ -167,7 +167,7 @@ const NavBar = () => {
                   className={S.mobileNavLink}
                   key={index}
                   to={headerLink.href}
-                  onClick={() => openMobile(!mobile)}
+                  onClick={() => openMobileMenu(!open)}
                 >
                   {headerLink.text}
                 </Link>
