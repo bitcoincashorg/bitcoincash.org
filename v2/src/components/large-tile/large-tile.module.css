@@ -60,3 +60,15 @@
 .cardcontentcontainer a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 766px) {
+
+  .cardimgcontainer {
+    height: unset;
+  }
+
+  .card {
+    margin-top: 30px;
+  }
+  
+}
