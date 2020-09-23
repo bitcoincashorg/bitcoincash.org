@@ -172,7 +172,7 @@
   "94bb812db2775ab0519cb698344e0453": {
     "string": "Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.",
     "developer_comment": "Default SEO page description",
-    "context": "src/components/seo.js:29:34"
+    "context": "src/components/seo.js:28:33"
   },
   "a7430462af5cba62b3f993c0b544b345": {
     "string": "Reminder: {upgrade activation time} Planned Network Upgrade",
