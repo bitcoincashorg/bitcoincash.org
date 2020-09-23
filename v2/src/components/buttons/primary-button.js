@@ -3,21 +3,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Link from "../../global/link"
 
-const PrimaryButton = ({ buttonText, href, noMarginLeft }) => {
-  const data = useStaticQuery(graphql`
-    query PrimaryButtonThemeQuery {
-      site {
-        siteMetadata {
-          themeColours {
-            primary_dark
-            primary_light
-            secondary_dark
-            secondary_light
-          }
-        }
-      }
-    }
-  `)
+export const PurePrimaryButton = ({ data, buttonText, href, noMarginLeft }) => {
   const theme = data.site.siteMetadata.themeColours
   return (
     <Link to={href}>
@@ -34,4 +20,23 @@ const PrimaryButton = ({ buttonText, href, noMarginLeft }) => {
     </Link>
   )
 }
+
+const PrimaryButton = props => {
+  const data = useStaticQuery(graphql`
+    query PrimaryButtonThemeQuery {
+      site {
+        siteMetadata {
+          themeColours {
+            primary_dark
+            primary_light
+            secondary_dark
+            secondary_light
+          }
+        }
+      }
+    }
+  `)
+  return <PurePrimaryButton {...props} data={data} />
+}
+
 export default PrimaryButton
