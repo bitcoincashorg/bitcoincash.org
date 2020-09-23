@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryButton renders correctly 1`] = `
+<a
+  href="http://localhost"
+>
+  <button
+    className=" primBtn"
+    style={
+      Object {
+        "backgroundImage": "linear-gradient(270deg, #ff8d00 0%, #bb5a00 100%)",
+      }
+    }
+  />
+</a>
+`;
