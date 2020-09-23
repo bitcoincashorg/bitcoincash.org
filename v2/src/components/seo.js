@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import fbt from "fbt"
-import TwitterImage from "assets/images/bitcoincash-org.jpg"
 
 function SEO({ description, lang, meta, title, twitter_image }) {
   const { site } = useStaticQuery(
@@ -33,7 +32,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
       innovation, and decentralized development.
     </fbt>
   )
-  const metatwitterImage = twitter_image || TwitterImage
+  const metatwitterImage = twitter_image || "images/bitcoincash-org.jpg"
 
   return (
     <Helmet
@@ -73,7 +72,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:image`,
-          content: metatwitterImage,
+          content: "https://www.bitcoincash.org/" + metatwitterImage,
         },
         {
           name: `twitter:description`,
