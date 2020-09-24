@@ -309,6 +309,16 @@
     "developer_comment": "Language selector menu",
     "context": "src/layout/navbar.js:79:79"
   },
+  "d529feb2f96beaf448d03d8a4ce9d8f5": {
+    "string": "The page you are looking for does not exist.",
+    "developer_comment": "404 page header",
+    "context": "src/pages/404.js:12:14"
+  },
+  "69cf8adfda297263575ae4c1737a316c": {
+    "string": "Go to the homepage",
+    "developer_comment": "404 page button",
+    "context": "src/pages/404.js:18:18"
+  },
   "af628dc79f6691cc1586247dad63e5aa": {
     "string": "Bitcoin Cash Payment Gateways",
     "developer_comment": "Accept page side column 'payment gateways' header",
