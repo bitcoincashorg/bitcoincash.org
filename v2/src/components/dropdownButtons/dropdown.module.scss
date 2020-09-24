@@ -15,13 +15,17 @@
   align-items: center;
 }
 
+.mainNavLink:last-child {
+  margin-right: 0;
+}
+
 .link {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px 20px;
   font-size: 14px;
-  background-color: "#f9f9f9";
+  background-color: #040c3c;
   color: white;
   border-bottom: 1px solid #ffffff20;
 }
