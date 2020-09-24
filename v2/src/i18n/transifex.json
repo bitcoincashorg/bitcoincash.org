@@ -209,15 +209,20 @@
     "developer_comment": "Annoucement bar 'Additional Information:'",
     "context": "src/layout/announcement-bar.js:88:90"
   },
+  "c89bcd264da87e14f0291c9163705b5e": {
+    "string": "Prepare for the Upgrade",
+    "developer_comment": "Annoucement bar 'Prepare for the Upgrade'",
+    "context": "src/layout/announcement-bar.js:96:98"
+  },
   "2a854a9d90f8402de7ce2e1f5fb71596": {
     "string": "Upgrade Specification",
     "developer_comment": "Annoucement bar 'Upgrade Specification'",
-    "context": "src/layout/announcement-bar.js:96:98"
+    "context": "src/layout/announcement-bar.js:104:106"
   },
   "41dd1d8d417e0a4239a6ae6bdff85146": {
     "string": "Testnet Information",
     "developer_comment": "Annoucement bar 'Testnet Information'",
-    "context": "src/layout/announcement-bar.js:104:106"
+    "context": "src/layout/announcement-bar.js:112:114"
   },
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
