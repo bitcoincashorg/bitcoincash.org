@@ -112,7 +112,7 @@ const DevelopersPage = () => {
                   "View More",
                   "View more button on developers page"
                 )}
-                href={"/specs/"}
+                href={"/specs.html"}
               />
             </div>
           </Col>
