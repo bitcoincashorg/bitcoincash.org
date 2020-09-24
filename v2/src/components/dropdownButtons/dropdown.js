@@ -1,81 +1,29 @@
-import React, { useState } from "react"
-import { useHover, useToggleLayer, Arrow } from "react-laag"
-import dropdownStyles from "./dropdown.module.scss"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react"
+import { useHover, useToggleLayer } from "react-laag"
+import S from "./dropdown.module.scss"
 import Link from "global/link"
 import ResizeObserver from "resize-observer-polyfill"
 
-const DropdownContent = ({ layerSide, arrowStyle, links }) => {
-  const data = useStaticQuery(graphql`
-    query DropdownThemeQuery {
-      site {
-        siteMetadata {
-          themeColours {
-            background_dark
-            primary_dark
-          }
-        }
-      }
-    }
-  `)
-  const theme = data.site.siteMetadata.themeColours
-
-  return (
-    <div className={dropdownStyles.dropdownContainer}>
-      {layerSide && arrowStyle && (
-        <Arrow
-          style={arrowStyle}
-          layerSide={layerSide}
-          size={8}
-          angle={45}
-          roundness={1}
-          backgroundColor={theme.primary_dark}
-        />
-      )}
-      {links.map(dropdownLink => (
-        <Link
-          className={dropdownStyles.link}
-          key={dropdownLink.text}
-          style={{ backgroundColor: theme.primary_dark }}
-          to={dropdownLink.href}
-          localize={dropdownLink.localize}
-        >
-          {dropdownLink.text}
-        </Link>
-      ))}
-    </div>
-  )
-}
-
-function MobileDropdown({ children, links, navLinkClass }) {
-  const [expanded, setExpanded] = useState(false)
-  return (
-    <div onClick={() => setExpanded(!expanded)}>
-      <div className={navLinkClass}>{children}</div>
-      {expanded && (
-        <div>
-          <DropdownContent links={links} />
-        </div>
-      )}
-    </div>
-  )
-}
-
-function Dropdown({ children, links, index }) {
+const Dropdown = ({ children, links, index }) => {
   const triggerRef = React.useRef()
   const [element, toggleLayerProps] = useToggleLayer(
-    ({ isOpen, layerProps, layerSide, arrowStyle }) => {
+    ({ isOpen, layerProps }) => {
       if (!isOpen) {
         return
       }
-
       return (
-        <div {...layerProps} className={dropdownStyles.dropdownContent}>
-          <DropdownContent
-            layerSide={layerSide}
-            arrowStyle={arrowStyle}
-            links={links}
-          />
+        <div {...layerProps} className={S.dropdownContent}>
+          <div className={S.dropdownContainer}>
+            {links.map(dropdownLink => (
+              <Link
+                className={S.link}
+                to={dropdownLink.href}
+                localize={dropdownLink.localize}
+              >
+                {dropdownLink.text}
+              </Link>
+            ))}
+          </div>
         </div>
       )
     },
@@ -108,7 +56,7 @@ function Dropdown({ children, links, index }) {
       data-sal-easing="ease"
       ref={triggerRef}
       {...hoverProps}
-      className={dropdownStyles.mainNavLink}
+      className={S.mainNavLink}
     >
       {children}
       <div>{element}</div>
@@ -117,4 +65,3 @@ function Dropdown({ children, links, index }) {
 }
 
 export default Dropdown
-export { MobileDropdown }
