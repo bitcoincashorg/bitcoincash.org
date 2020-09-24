@@ -91,6 +91,14 @@ const AnnouncementBar = () => {
               </h4>
               <Link
                 className={S.panelLink}
+                href="https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
+              >
+                <fbt desc="Annoucement bar 'Prepare for the Upgrade'">
+                  Prepare for the Upgrade
+                </fbt>
+              </Link>
+              <Link
+                className={S.panelLink}
                 href="/spec/2020-11-15-upgrade.html"
               >
                 <fbt desc="Annoucement bar 'Upgrade Specification'">
