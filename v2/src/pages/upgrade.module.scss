@@ -3,11 +3,8 @@
 }
 
 .linkcontainer a {
-  color: #444;
-  transition: all 200ms ease-in-out;
   display: inline-block;
   margin-bottom: 15px;
-  text-decoration: underline;
 }
 
 .linkcontainer svg {
@@ -16,10 +13,11 @@
   width: 20px;
   height: 20px;
   margin-right: 6px;
+  transition: all 200ms ease-in-out;
 }
 
-.linkcontainer a:hover {
-  color: #ff8d00;
+.linkcontainer a:hover svg {
+  stroke: #bb5a00;
 }
 
 @media (max-width: 760px) {

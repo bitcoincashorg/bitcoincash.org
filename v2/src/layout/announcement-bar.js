@@ -6,6 +6,7 @@ import Link from "global/link"
 import { Accordion } from "react-bootstrap"
 import Checkmark from "assets/icons/checkmark.svg"
 import UpgradeDate from "global/upgrade-date.js"
+import LinkIcon from "assets/icons/link.svg"
 
 const AnnouncementBar = () => {
   return (
@@ -71,6 +72,7 @@ const AnnouncementBar = () => {
                 className={S.panelLink}
                 href="https://www.bitcoinabc.org/2020-08-18-bitcoin-abc-0-22-0/"
               >
+                <LinkIcon />
                 Bitcoin ABC 0.22.x
               </Link>
               <h4>
@@ -82,6 +84,7 @@ const AnnouncementBar = () => {
                 className={S.panelLink}
                 href="https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
               >
+                <LinkIcon />
                 <fbt desc="Annoucement bar 'Prepare for the Upgrade'">
                   Prepare for the Upgrade
                 </fbt>
@@ -90,6 +93,7 @@ const AnnouncementBar = () => {
                 className={S.panelLink}
                 href="/spec/2020-11-15-upgrade.html"
               >
+                <LinkIcon />
                 <fbt desc="Annoucement bar 'Upgrade Specification'">
                   Upgrade Specification
                 </fbt>
@@ -98,6 +102,7 @@ const AnnouncementBar = () => {
                 className={S.panelLink}
                 href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-11-15_upgrade_testnet.md"
               >
+                <LinkIcon />
                 <fbt desc="Annoucement bar 'Testnet Information'">
                   Testnet Information
                 </fbt>

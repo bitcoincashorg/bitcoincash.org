@@ -20,7 +20,7 @@ const ExploreBanner = ({ bannerText, bannerIcon, href }) => {
   const theme = data.site.siteMetadata.themeColours
 
   return (
-    <Link to={href}>
+    <Link to={href} className={exploreBannerStyles.link}>
       <div
         className={exploreBannerStyles.bannerContainer}
         style={{
