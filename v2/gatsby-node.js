@@ -92,7 +92,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       // In production, we redirect in-development v2 pages to v1 equivalent routes.
       // In non-prod environments, we create all pages and do not redirect.
       if (process.env.GATSBY_APP_ENV == "prod") {
-        await createRedirectForEachLocale((redirectArgs) => {
+        await createRedirectForEachLocale(redirectArgs => {
           createRedirect({
             ...redirectArgs,
             fromPath: redirectArgs.toPath,
