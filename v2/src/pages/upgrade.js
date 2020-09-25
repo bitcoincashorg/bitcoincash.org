@@ -6,6 +6,7 @@ import PrimaryButton from "components/buttons/primary-button"
 import Link from "global/link"
 import S from "./upgrade.module.scss"
 import UpgradeDate from "global/upgrade-date.js"
+import LinkIcon from "assets/icons/link.svg"
 
 const UpgradePage = () => {
   return (
@@ -42,6 +43,7 @@ const UpgradePage = () => {
           </fbt>
         </h4>
         <Link href="https://www.bitcoinabc.org/2020-08-18-bitcoin-abc-0-22-0/">
+          <LinkIcon />
           Bitcoin ABC 0.22.x
         </Link>
         <h4 className={S.header}>
@@ -50,18 +52,21 @@ const UpgradePage = () => {
           </fbt>
         </h4>
         <Link href="https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/">
+          <LinkIcon />
           <fbt desc="Upgrade page 'Prepare for the Upgrade' header">
             Prepare for the Upgrade
           </fbt>
         </Link>
         <br />
         <Link href="/spec/2020-11-15-upgrade.html">
+          <LinkIcon />
           <fbt desc="Upgrade page 'Upgrade Specification'">
             Upgrade Specification
           </fbt>
         </Link>
         <br />
         <Link href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-11-15_upgrade_testnet.md">
+          <LinkIcon />
           <fbt desc="Upgrade page 'Testnet Information'">
             Testnet Information
           </fbt>

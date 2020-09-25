@@ -7,6 +7,15 @@
   transition: all 200ms ease-in-out;
   display: inline-block;
   margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.linkcontainer svg {
+  stroke: #ff8d00;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
 
 .linkcontainer a:hover {
