@@ -295,6 +295,13 @@
         }
       ]
     },
+    "c89bcd264da87e14f0291c9163705b5e": {
+      "translations": [
+        {
+          "translation": "Prepare for the Upgrade"
+        }
+      ]
+    },
     "2a854a9d90f8402de7ce2e1f5fb71596": {
       "translations": [
         {
@@ -432,6 +439,20 @@
       "translations": [
         {
           "translation": "语言"
+        }
+      ]
+    },
+    "d529feb2f96beaf448d03d8a4ce9d8f5": {
+      "translations": [
+        {
+          "translation": "您要找的页面不存在。"
+        }
+      ]
+    },
+    "69cf8adfda297263575ae4c1737a316c": {
+      "translations": [
+        {
+          "translation": "转到首页"
         }
       ]
     },
