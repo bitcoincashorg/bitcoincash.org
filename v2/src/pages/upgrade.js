@@ -4,21 +4,10 @@ import SEO from "components/seo"
 import { Container } from "react-bootstrap"
 import PrimaryButton from "components/buttons/primary-button"
 import Link from "global/link"
-import { useLocaleContext } from "i18n/provider"
 import S from "./upgrade.module.scss"
-
-const ACTIVATION_TIMESTAMP = 1605441600
+import UpgradeDate from "global/upgrade-date.js"
 
 const UpgradePage = () => {
-  const locale = useLocaleContext()
-  const upgradeTimeStr = new Date(
-    ACTIVATION_TIMESTAMP * 1000
-  ).toLocaleDateString(locale.bcp47, {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  })
-
   return (
     <>
       <SEO title={fbt("How to Upgrade", "Upgrade page SEO title")} />
@@ -26,11 +15,11 @@ const UpgradePage = () => {
         <h2 className="centerh2">
           <fbt desc="Upgrade page heading">How to Upgrade</fbt>
         </h2>
-        <h3>{upgradeTimeStr}</h3>
         <h3>
-          <fbt desc="Annoucement bar inner headline">
-            Planned Network Upgrade
-          </fbt>
+          <UpgradeDate />
+        </h3>
+        <h3>
+          <fbt desc="Upgrade page subheadline">Planned Network Upgrade</fbt>
         </h3>
         <p>
           The Bitcoin Cash network will undergo a protocol upgrade as per the
@@ -42,13 +31,13 @@ const UpgradePage = () => {
           noMarginLeft={true}
           buttonText={fbt(
             "See Roadmap",
-            "'See Roadmap' button of the annoucement bar"
+            "'See Roadmap' button of the Upgrade page"
           )}
           href={"/roadmap/"}
         />
 
         <h4 className={S.header}>
-          <fbt desc="Annoucement bar 'Compatible Implementations'">
+          <fbt desc="Upgrade page 'Compatible Implementations'">
             Compatible Implementations:
           </fbt>
         </h4>
@@ -56,7 +45,7 @@ const UpgradePage = () => {
           Bitcoin ABC 0.22.x
         </Link>
         <h4 className={S.header}>
-          <fbt desc="Annoucement bar 'Additional Information:'">
+          <fbt desc="Upgrade page 'Additional Information:'">
             Additional Information:
           </fbt>
         </h4>
@@ -67,13 +56,13 @@ const UpgradePage = () => {
         </Link>
         <br />
         <Link href="/spec/2020-11-15-upgrade.html">
-          <fbt desc="Annoucement bar 'Upgrade Specification'">
+          <fbt desc="Upgrade page 'Upgrade Specification'">
             Upgrade Specification
           </fbt>
         </Link>
         <br />
         <Link href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-11-15_upgrade_testnet.md">
-          <fbt desc="Annoucement bar 'Testnet Information'">
+          <fbt desc="Upgrade page 'Testnet Information'">
             Testnet Information
           </fbt>
         </Link>
