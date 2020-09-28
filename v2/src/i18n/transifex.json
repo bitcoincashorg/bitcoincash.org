@@ -177,52 +177,52 @@
   "a7430462af5cba62b3f993c0b544b345": {
     "string": "Reminder: {upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar reminder headline",
-    "context": "src/layout/announcement-bar.js:16:22"
+    "context": "src/layout/announcement-bar.js:17:23"
   },
   "c896f27be5c90b6872cb876ce31ecfe3": {
     "string": "{upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar inner headline",
-    "context": "src/layout/announcement-bar.js:30:35"
+    "context": "src/layout/announcement-bar.js:31:36"
   },
   "60fc904396840c992f474ecda2da39ca": {
     "string": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
     "developer_comment": "Annoucement bar paragraph",
-    "context": "src/layout/announcement-bar.js:38:43"
+    "context": "src/layout/announcement-bar.js:39:44"
   },
   "d770c97de5c52bd8109e39c140e62bab": {
     "string": "See Roadmap",
     "developer_comment": "'See Roadmap' button of the annoucement bar",
-    "context": "src/layout/announcement-bar.js:49:52"
+    "context": "src/layout/announcement-bar.js:50:53"
   },
   "a47ca8d131e17fdd59a17e6deab246f1": {
     "string": "Close",
     "developer_comment": "'close' button on announcement bar at top of page to close the bar",
-    "context": "src/layout/announcement-bar.js:58:60"
+    "context": "src/layout/announcement-bar.js:59:61"
   },
   "c7953645d1fdc6c8e72e1ad2fe573a5f": {
     "string": "Compatible Implementations:",
     "developer_comment": "Annoucement bar 'Compatible Implementations'",
-    "context": "src/layout/announcement-bar.js:66:68"
+    "context": "src/layout/announcement-bar.js:67:69"
   },
   "4b0b3d5f8d03531c1cfe320e2883e0fd": {
     "string": "Additional Information:",
     "developer_comment": "Annoucement bar 'Additional Information:'",
-    "context": "src/layout/announcement-bar.js:77:79"
+    "context": "src/layout/announcement-bar.js:79:81"
   },
   "c89bcd264da87e14f0291c9163705b5e": {
     "string": "Prepare for the Upgrade",
     "developer_comment": "Annoucement bar 'Prepare for the Upgrade'",
-    "context": "src/layout/announcement-bar.js:85:87"
+    "context": "src/layout/announcement-bar.js:88:90"
   },
   "2a854a9d90f8402de7ce2e1f5fb71596": {
     "string": "Upgrade Specification",
     "developer_comment": "Annoucement bar 'Upgrade Specification'",
-    "context": "src/layout/announcement-bar.js:93:95"
+    "context": "src/layout/announcement-bar.js:97:99"
   },
   "41dd1d8d417e0a4239a6ae6bdff85146": {
     "string": "Testnet Information",
     "developer_comment": "Annoucement bar 'Testnet Information'",
-    "context": "src/layout/announcement-bar.js:101:103"
+    "context": "src/layout/announcement-bar.js:106:108"
   },
   "657e00afe7a9a198d37ecf94de9045b9": {
     "string": "Get Listed",
@@ -1497,47 +1497,47 @@
   "25cd2ce50745d7f5a8c349ae9cbc31f2": {
     "string": "How to Upgrade",
     "developer_comment": "Upgrade page SEO title",
-    "context": "src/pages/upgrade.js:13:13"
+    "context": "src/pages/upgrade.js:14:14"
   },
   "85682b29db7464df10b3d32e93b67be1": {
     "string": "How to Upgrade",
     "developer_comment": "Upgrade page heading",
-    "context": "src/pages/upgrade.js:16:16"
+    "context": "src/pages/upgrade.js:17:17"
   },
   "ca847f2ef0ace574caad1fd61d0fbedb": {
     "string": "Planned Network Upgrade",
     "developer_comment": "Upgrade page subheadline",
-    "context": "src/pages/upgrade.js:22:22"
+    "context": "src/pages/upgrade.js:23:23"
   },
   "43f79c63c255af090395fb2730bbb72d": {
     "string": "See Roadmap",
     "developer_comment": "'See Roadmap' button of the Upgrade page",
-    "context": "src/pages/upgrade.js:32:35"
+    "context": "src/pages/upgrade.js:33:36"
   },
   "f10c84ef810cfad7603bda942c2ae83d": {
     "string": "Compatible Implementations:",
     "developer_comment": "Upgrade page 'Compatible Implementations'",
-    "context": "src/pages/upgrade.js:40:42"
+    "context": "src/pages/upgrade.js:41:43"
   },
   "46e0915ba9a83533707df7d06eba0d32": {
     "string": "Additional Information:",
     "developer_comment": "Upgrade page 'Additional Information:'",
-    "context": "src/pages/upgrade.js:48:50"
+    "context": "src/pages/upgrade.js:50:52"
   },
   "669d8c0c521185f07f6af5a813a086b8": {
     "string": "Prepare for the Upgrade",
     "developer_comment": "Upgrade page 'Prepare for the Upgrade' header",
-    "context": "src/pages/upgrade.js:53:55"
+    "context": "src/pages/upgrade.js:56:58"
   },
   "0b6ba8882976210fb21c071a1842cbb8": {
     "string": "Upgrade Specification",
     "developer_comment": "Upgrade page 'Upgrade Specification'",
-    "context": "src/pages/upgrade.js:59:61"
+    "context": "src/pages/upgrade.js:63:65"
   },
   "ded6ae43f7b0321f49459ac88d0f1080": {
     "string": "Testnet Information",
     "developer_comment": "Upgrade page 'Testnet Information'",
-    "context": "src/pages/upgrade.js:65:67"
+    "context": "src/pages/upgrade.js:70:72"
   },
   "08a7f009c75e4115810b529774fffec0": {
     "string": "Mobile Wallet",
