@@ -4,10 +4,17 @@
   border-radius: 3px;
   align-items: center;
   padding: 5px 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.widgetContainer:hover {
+  text-decoration: none;
 }
 
 .currentPrice {
   padding-right: 5px;
+  color: #fff;
 }
 
 .ticker {

@@ -8,6 +8,12 @@
   padding: 0 5%;
 }
 
+.link,
+.link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .bannerText {
   display: flex;
   justify-content: center;
