@@ -7,6 +7,7 @@ import { Accordion } from "react-bootstrap"
 import Checkmark from "assets/icons/checkmark.svg"
 import UpgradeDate from "global/upgrade-date.js"
 import LinkIcon from "assets/icons/link.svg"
+import Arrow from "assets/icons/getting-started/arrow-down.svg"
 
 const AnnouncementBar = () => {
   return (
@@ -21,6 +22,8 @@ const AnnouncementBar = () => {
             </fbt:param>
             Planned Network Upgrade
           </fbt>
+          . <fbt desc="Annoucement bar learn more text">Learn more</fbt>
+          <Arrow />
         </div>
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="0">
