@@ -341,7 +341,7 @@ const RoadmapPage = () => {
               This roadmap is intended to provide high-level technical
               direction, and enable different technical teams to work together
               towards a common goal for advancing Bitcoin Cash. The role of
-              developers in furth ering this goal is to produce high-quality
+              developers in furthering this goal is to produce high-quality
               professional software that serves the needs of its users, miners
               and merchants. We strive for continuous technical improvement, to
               produce reliable products providing a solid foundation for Bitcoin
