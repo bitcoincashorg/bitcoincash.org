@@ -134,3 +134,4 @@ const navItems = [
 ]
 
 export default navItems
+export { communityDropdownLinks }
