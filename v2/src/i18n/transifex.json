@@ -1284,8 +1284,8 @@
     "developer_comment": "Goal of the roadmap",
     "context": "src/pages/roadmap.js:332:337"
   },
-  "dab8f9be958f8dd4ef7a76f7d090bcaa": {
-    "string": "This roadmap is intended to provide high-level technical direction, and enable different technical teams to work together towards a common goal for advancing Bitcoin Cash. The role of developers in furth ering this goal is to produce high-quality professional software that serves the needs of its users, miners and merchants. We strive for continuous technical improvement, to produce reliable products providing a solid foundation for Bitcoin Cash.",
+  "a737054ad43aa6ff83b9edf5db3acace": {
+    "string": "This roadmap is intended to provide high-level technical direction, and enable different technical teams to work together towards a common goal for advancing Bitcoin Cash. The role of developers in furthering this goal is to produce high-quality professional software that serves the needs of its users, miners and merchants. We strive for continuous technical improvement, to produce reliable products providing a solid foundation for Bitcoin Cash.",
     "developer_comment": "Explaination of the roadmap",
     "context": "src/pages/roadmap.js:340:349"
   },
