@@ -10,88 +10,18 @@ import Telegram from "assets/icons/social/telegram.svg"
 import Twitter from "assets/icons/social/twitter.svg"
 import Instagram from "assets/icons/social/instagram.svg"
 import Link from "global/link"
+import navItems from "./nav-items.js"
 
 const Footer = () => {
-  const getstartedPages = [
-    {
-      text: <fbt desc="Getting started page footer title">Getting Started</fbt>,
-      href: "/getting-started/",
-    },
-    {
-      text: <fbt desc="Wallet page footer title">Wallets</fbt>,
-      href: "/wallets/",
-    },
-    {
-      text: <fbt desc="Buy page footer title">Buy Bitcoin Cash</fbt>,
-      href: "/buy-bitcoin-cash/",
-    },
-    {
-      text: <fbt desc="Spend page footer title">Spend Bitcoin Cash</fbt>,
-      href: "/spend-bitcoin-cash/",
-    },
-    {
-      text: <fbt desc="accept page footer title">Accept Bitcoin Cash</fbt>,
-      href: "/accept-bitcoin-cash/",
-    },
-  ]
-
-  const communityPages = [
-    {
-      text: <fbt desc="serices page title">Services</fbt>,
-      href: "/services/",
-    },
-    {
-      text: <fbt desc="projects page title">Projects</fbt>,
-      href: "/projects",
-    },
-    {
-      text: <fbt desc="exchanges page title">Exchanges</fbt>,
-      href: "/exchanges/",
-    },
-    {
-      text: <fbt desc="nodes page title">Nodes</fbt>,
-      href: "/nodes/",
-    },
-    {
-      text: <fbt desc="developers page title">Developers</fbt>,
-      href: "/developers/",
-    },
-    {
-      text: <fbt desc="graphics page title">Graphics</fbt>,
-      href: "/graphics/",
-    },
-    {
-      text: <fbt desc="whitepaper page title">Whitepaper</fbt>,
-      href: "/bitcoin.pdf",
-    },
-    {
-      text: <fbt desc="roadmap page title">Roadmap</fbt>,
-      href: "/roadmap/",
-    },
-  ]
-
-  const aboutPages = [
-    {
-      text: <fbt desc="faq page title">FAQ</fbt>,
-      href: "/faq/",
-    },
-    {
-      text: <fbt desc="footer link to get listed">Get Listed</fbt>,
-      href: "/get-listed.html",
-    },
-    {
-      text: <fbt desc="footer link to the privacy policy">Privacy Policy</fbt>,
-      href: "/privacy-policy.html",
-    },
-    {
-      text: <fbt desc="footer link to legalese">Legal</fbt>,
-      href: "/legal.html",
-    },
-    {
-      text: <fbt desc="footer link to help page">Help</fbt>,
-      href: "https://help.bitcoincash.org/support/home",
-    },
-  ]
+  const CommunityLinks = ({ links }) => {
+    return (
+      <>
+        {links.map(footerLink => (
+          <Link to={footerLink.href}>{footerLink.text}</Link>
+        ))}
+      </>
+    )
+  }
 
   return (
     <footer className={S.footerContainer}>
@@ -121,11 +51,11 @@ const Footer = () => {
               <fbt desc="start here footer column header">Start Here</fbt>
             </div>
             <div className={S.footerLinks}>
-              {getstartedPages.map((footerLink, i) => (
-                <Link to={footerLink.href} key={i}>
-                  {footerLink.text}
-                </Link>
-              ))}
+              {navItems.map(footerLink =>
+                footerLink.footerCategory === "start-here" ? (
+                  <Link to={footerLink.href}>{footerLink.text}</Link>
+                ) : null
+              )}
             </div>
           </Col>
           <Col md={3} xs={6}>
@@ -133,11 +63,11 @@ const Footer = () => {
               <fbt desc="community footer column header">Community</fbt>
             </div>
             <div className={S.footerLinks}>
-              {communityPages.map((footerLink, i) => (
-                <Link to={footerLink.href} key={i}>
-                  {footerLink.text}
-                </Link>
-              ))}
+              {navItems.map(footerLink =>
+                footerLink.communityDropdown ? (
+                  <CommunityLinks links={footerLink.links}></CommunityLinks>
+                ) : null
+              )}
             </div>
           </Col>
           <Col md={3} xs={6}>
@@ -147,11 +77,11 @@ const Footer = () => {
               <fbt desc="about footer column header">About</fbt>
             </div>
             <div className={S.footerLinks}>
-              {aboutPages.map((footerLink, i) => (
-                <Link to={footerLink.href} key={i}>
-                  {footerLink.text}
-                </Link>
-              ))}
+              {navItems.map(footerLink =>
+                footerLink.footerCategory === "about" ? (
+                  <Link to={footerLink.href}>{footerLink.text}</Link>
+                ) : null
+              )}
             </div>
           </Col>
         </Row>
