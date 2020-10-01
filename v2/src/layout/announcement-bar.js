@@ -7,34 +7,50 @@ import { Accordion } from "react-bootstrap"
 import Checkmark from "assets/icons/checkmark.svg"
 import UpgradeDate from "global/upgrade-date.js"
 import LinkIcon from "assets/icons/link.svg"
-import Arrow from "assets/icons/getting-started/arrow-down.svg"
+import Countdown from "react-countdown";
+import { ACTIVATION_TIMESTAMP } from "global/upgrade-date.js"
+
+const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
+  if (completed) {
+    return <div>Yo</div>;
+  } else {
+    return (
+      <div className={S.countdownContainer}>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{days}</div>
+          <div className={S.countdownLabel}>Days</div>
+        </div>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{days}</div>
+          <div className={S.countdownLabel}>Days</div>
+        </div>
+      </div>
+    );
+  }
+};
 
 const AnnouncementBar = () => {
   return (
-    <Accordion className={S.accordionSection}>
+    <Accordion className={S.accordionSection} defaultActiveKey="0">
       <Accordion.Toggle as={S.accordionSection} eventKey="0">
         <div className={S.accordionTitle}>
           <Checkmark />
           <fbt desc="Annoucement bar reminder headline">
             Reminder:
-            <fbt:param name="upgrade activation time">
+            {/* <fbt:param name="upgrade activation time">
               <UpgradeDate />
-            </fbt:param>
+            </fbt:param> */}
             Planned Network Upgrade
           </fbt>
-          . <fbt desc="Annoucement bar learn more text">Learn more</fbt>
-          <Arrow />
         </div>
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="0">
         <div className={S.accordionContent}>
           <div className={S.annoucementPanel}>
             <div className={S.annoucementPanelInner}>
+              <Countdown date={ACTIVATION_TIMESTAMP * 1000} renderer={CountdownClock} />
               <h4>
                 <fbt desc="Annoucement bar inner headline">
-                  <fbt:param name="upgrade activation time">
-                    <UpgradeDate />
-                  </fbt:param>
                   Planned Network Upgrade
                 </fbt>
               </h4>
