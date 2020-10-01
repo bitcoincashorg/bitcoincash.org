@@ -16,3 +16,4 @@ const UpgradeDate = () => {
 }
 
 export default UpgradeDate
+export { ACTIVATION_TIMESTAMP }
