@@ -9,7 +9,7 @@ import UpgradeDate from "global/upgrade-date.js"
 import LinkIcon from "assets/icons/link.svg"
 import Countdown, { zeroPad } from "react-countdown";
 import { ACTIVATION_TIMESTAMP } from "global/upgrade-date.js"
-import Rocket from "assets/images/rocket.jpg"
+import Network from "assets/images/network.png"
 
 const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -43,8 +43,8 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
 
 const AnnouncementBar = () => {
   return (
-    <Accordion className={S.accordionSection} defaultActiveKey="0">
-    {/* style={{backgroundImage: `url(${Rocket})` }} */}
+    <Accordion className={S.accordionSection} defaultActiveKey="0" style={{backgroundImage: `url(${Network})`}}>
+    
       {/* <Accordion.Toggle as={S.accordionSection} eventKey="0">
         <div className={S.accordionTitle}>
           <Checkmark />
@@ -64,9 +64,9 @@ const AnnouncementBar = () => {
               <h4 className={S.panelHeader}>
               <fbt desc="Annoucement bar reminder headline">
                 Reminder:
-                {/* <fbt:param name="upgrade activation time">
+                <fbt:param name="upgrade activation time">
                   <UpgradeDate />
-                </fbt:param> */}
+                </fbt:param>
                 Planned Network Upgrade
               </fbt>
               </h4>
@@ -85,17 +85,17 @@ const AnnouncementBar = () => {
                 </fbt>
               </p>
               <div className={S.buttonContainer}>
-              <Accordion.Toggle as={S.primaryButton}>
+              
                 <PrimaryButton
                   noMarginLeft={true}
                   className={S.primaryButton}
                   buttonText={fbt(
-                    "See Roadmap",
-                    "'See Roadmap' button of the annoucement bar"
+                    "Prepare for the Upgrade",
+                    "Annoucement bar 'Prepare for the Upgrade'"
                   )}
-                  href={"/roadmap/"}
+                  href={"https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"}
                 />
-              </Accordion.Toggle>
+             
               <Accordion.Toggle as={S.panelButton}>
                 <button className={S.panelButton}>
                   <fbt desc="'close' button on announcement bar at top of page to close the bar">
@@ -123,7 +123,7 @@ const AnnouncementBar = () => {
                   Additional Information:
                 </fbt>
               </h4>
-              <Link
+              {/* <Link
                 className={S.panelLink}
                 href="https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
               >
@@ -131,7 +131,7 @@ const AnnouncementBar = () => {
                 <fbt desc="Annoucement bar 'Prepare for the Upgrade'">
                   Prepare for the Upgrade
                 </fbt>
-              </Link>
+              </Link> */}
               <Link
                 className={S.panelLink}
                 href="/spec/2020-11-15-upgrade.html"
