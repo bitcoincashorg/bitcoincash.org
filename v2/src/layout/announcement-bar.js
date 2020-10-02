@@ -7,8 +7,9 @@ import { Accordion } from "react-bootstrap"
 import Checkmark from "assets/icons/checkmark.svg"
 import UpgradeDate from "global/upgrade-date.js"
 import LinkIcon from "assets/icons/link.svg"
-import Countdown from "react-countdown";
+import Countdown, { zeroPad } from "react-countdown";
 import { ACTIVATION_TIMESTAMP } from "global/upgrade-date.js"
+import Rocket from "assets/images/rocket.jpg"
 
 const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -17,13 +18,24 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
     return (
       <div className={S.countdownContainer}>
         <div className={S.countdownUnitContainer}>
-          <div className={S.countdownUnit}>{days}</div>
-          <div className={S.countdownLabel}>Days</div>
+          <div className={S.countdownUnit}>{zeroPad(days, 2)}</div>
+          <div className={S.countdownLabel}><fbt desc="clock label 'days'">Days</fbt></div>
         </div>
+        <div className={S.colon}>&#58;</div>
         <div className={S.countdownUnitContainer}>
-          <div className={S.countdownUnit}>{days}</div>
-          <div className={S.countdownLabel}>Days</div>
+          <div className={S.countdownUnit}>{zeroPad(hours, 2)}</div>
+          <div className={S.countdownLabel}><fbt desc="clock label 'hours'">Hours</fbt></div>
         </div>
+        <div className={S.colon}>&#58;</div>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{zeroPad(minutes, 2)}</div>
+          <div className={S.countdownLabel}><fbt desc="clock label 'minutes'">Minutes</fbt></div>
+        </div>
+        <div className={S.colon}>&#58;</div>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{zeroPad(seconds, 2)}</div>
+          <div className={S.countdownLabel}><fbt desc="clock label 'seconds'">Seconds</fbt></div>
+        </div> 
       </div>
     );
   }
@@ -32,36 +44,47 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
 const AnnouncementBar = () => {
   return (
     <Accordion className={S.accordionSection} defaultActiveKey="0">
-      <Accordion.Toggle as={S.accordionSection} eventKey="0">
+    {/* style={{backgroundImage: `url(${Rocket})` }} */}
+      {/* <Accordion.Toggle as={S.accordionSection} eventKey="0">
         <div className={S.accordionTitle}>
           <Checkmark />
           <fbt desc="Annoucement bar reminder headline">
             Reminder:
-            {/* <fbt:param name="upgrade activation time">
+            <fbt:param name="upgrade activation time">
               <UpgradeDate />
-            </fbt:param> */}
+            </fbt:param>
             Planned Network Upgrade
           </fbt>
         </div>
-      </Accordion.Toggle>
+      </Accordion.Toggle> */}
       <Accordion.Collapse eventKey="0">
         <div className={S.accordionContent}>
           <div className={S.annoucementPanel}>
             <div className={S.annoucementPanelInner}>
+              <h4 className={S.panelHeader}>
+              <fbt desc="Annoucement bar reminder headline">
+                Reminder:
+                {/* <fbt:param name="upgrade activation time">
+                  <UpgradeDate />
+                </fbt:param> */}
+                Planned Network Upgrade
+              </fbt>
+              </h4>
               <Countdown date={ACTIVATION_TIMESTAMP * 1000} renderer={CountdownClock} />
-              <h4>
+              {/* <h4>
                 <fbt desc="Annoucement bar inner headline">
                   Planned Network Upgrade
                 </fbt>
-              </h4>
+              </h4> */}
               <p>
                 <fbt desc="Annoucement bar paragraph">
                   The Bitcoin Cash network will undergo a protocol upgrade as
-                  per the roadmap. Businesses and individuals who use the
+                  per <Link href="/roadmap/">the roadmap</Link>. Businesses and individuals who use the
                   Bitcoin Cash network should check to ensure that their
                   software is compatible with the upgrade.
                 </fbt>
               </p>
+              <div className={S.buttonContainer}>
               <Accordion.Toggle as={S.primaryButton}>
                 <PrimaryButton
                   noMarginLeft={true}
@@ -80,6 +103,7 @@ const AnnouncementBar = () => {
                   </fbt>
                 </button>
               </Accordion.Toggle>
+              </div>
             </div>
             <div className={`${S.annoucementPanelInner} ${S.centerPanel}`}>
               <h4>
