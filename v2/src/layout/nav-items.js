@@ -12,126 +12,132 @@ const languageDropdownLinks = Object.entries(locales).map(([_, locale]) => {
   return { text: locale.displayName, href: link, localize: false }
 })
 
-const communityDropdownLinks = [
-  {
-    text: "Services",
-    href: "/services/",
-  },
-  {
-    text: "Projects",
-    href: "/projects/",
-  },
-  {
-    text: "Exchanges",
-    href: "/exchanges/",
-  },
-  {
-    text: "Nodes",
-    href: "/nodes/",
-  },
-  {
-    text: "Developer Portal",
-    href: "/developers/",
-  },
-  {
-    text: "Logos",
-    href: "/graphics/",
-  },
-  {
-    text: "Whitepaper",
-    href: "/bitcoin.pdf",
-    localize: false,
-  },
-  {
-    text: "Roadmap",
-    href: "/roadmap/",
-  },
-]
+const communityDropdownLinks = () => {
+  return [
+    {
+      text: fbt("Services", "Community menu 'services' link"),
+      href: "/services/",
+    },
+    {
+      text: fbt("Projects", "Community menu 'projects' link"),
+      href: "/projects/",
+    },
+    {
+      text: fbt("Exchanges", "Community menu 'exchanges' link"),
+      href: "/exchanges/",
+    },
+    {
+      text: fbt("Nodes", "Community menu 'nodes' link"),
+      href: "/nodes/",
+    },
+    {
+      text: fbt("Developer Portal", "Community menu 'developper portal' link"),
+      href: "/developers/",
+    },
+    {
+      text: fbt("Logos", "Community menu 'logos' link"),
+      href: "/graphics/",
+    },
+    {
+      text: fbt("Whitepaper", "Community menu 'whitepaper' link"),
+      href: "/bitcoin.pdf",
+      localize: false,
+    },
+    {
+      text: fbt("Roadmap", "Community menu 'roadmap' link"),
+      href: "/roadmap/",
+    },
+  ]
+}
 
-const navItems = [
-  {
-    text: "Start Here",
-    href: "/start-here/",
-    header: true,
-  },
-  {
-    text: "Getting Started",
-    href: "/getting-started/",
-    footerCategory: "start-here",
-  },
-  {
-    text: "Wallets",
-    href: "/wallets/",
-    header: true,
-    footerCategory: "start-here",
-  },
-  {
-    text: "Explorer",
-    href: "https://explorer.bitcoincash.org/",
-    header: true,
-  },
-  {
-    text: "Community",
-    links: communityDropdownLinks,
-    header: true,
-    communityDropdown: true,
-  },
-  {
-    text: "About",
-    href: "/faq/",
-    header: true,
-  },
-  {
-    text: (
-      <>
-        <World />
-        <span style={{ paddingLeft: "5px" }}>Language</span>
-      </>
-    ),
-    links: languageDropdownLinks,
-    header: true,
-  },
-  {
-    text: "Buy Bitcoin Cash",
-    href: "/buy-bitcoin-cash/",
-    footerCategory: "start-here",
-  },
-  {
-    text: "Spend Bitcoin Cash",
-    href: "/spend-bitcoin-cash/",
-    footerCategory: "start-here",
-  },
-  {
-    text: "Accept Bitcoin Cash",
-    href: "/accept-bitcoin-cash/",
-    footerCategory: "start-here",
-  },
-  {
-    text: "FAQ",
-    href: "/faq/",
-    footerCategory: "about",
-  },
-  {
-    text: "Get Listed",
-    href: "/get-listed.html",
-    footerCategory: "about",
-  },
-  {
-    text: "Privacy Policy",
-    href: "/privacy-policy.html",
-    footerCategory: "about",
-  },
-  {
-    text: "Legal",
-    href: "/legal.html",
-    footerCategory: "about",
-  },
-  {
-    text: "Help",
-    href: "https://help.bitcoincash.org/support/home",
-    footerCategory: "about",
-  },
-]
+const NavItems = () => {
+  const dropdownLinks = communityDropdownLinks()
+  return [
+    {
+      text: fbt("Start Here", "Top 'Start here' link"),
+      href: "/start-here/",
+      header: true,
+    },
+    {
+      text: fbt("Getting Started", "Getting started page footer title"),
+      href: "/getting-started/",
+      footerCategory: "start-here",
+    },
+    {
+      text: fbt("Wallets", "Top 'wallets' link"),
+      href: "/wallets/",
+      header: true,
+      footerCategory: "start-here",
+    },
+    {
+      text: fbt("Explorer", "Link to the block explorer"),
+      href: "https://explorer.bitcoincash.org/",
+      header: true,
+    },
+    {
+      text: fbt("Community", "Commnity menu"),
+      links: dropdownLinks,
+      header: true,
+    },
+    {
+      text: fbt("About", "Top 'about' link"),
+      href: "/faq/",
+      header: true,
+    },
+    {
+      text: (
+        <>
+          <World />
+          <span style={{ paddingLeft: "5px" }}>
+            <fbt desc="Language selector menu">Language</fbt>
+          </span>
+        </>
+      ),
+      links: languageDropdownLinks,
+      header: true,
+    },
+    {
+      text: fbt("Buy Bitcoin Cash", "Buy page footer title"),
+      href: "/buy-bitcoin-cash/",
+      footerCategory: "start-here",
+    },
+    {
+      text: fbt("Spend Bitcoin Cash", "Spend page footer title"),
+      href: "/spend-bitcoin-cash/",
+      footerCategory: "start-here",
+    },
+    {
+      text: fbt("Accept Bitcoin Cash", "Accept page footer title"),
+      href: "/accept-bitcoin-cash/",
+      footerCategory: "start-here",
+    },
+    {
+      text: fbt("FAQ", "FAQ page footer title"),
+      href: "/faq/",
+      footerCategory: "about",
+    },
+    {
+      text: fbt("Get Listed", "Get Listed page footer title"),
+      href: "/get-listed.html",
+      footerCategory: "about",
+    },
+    {
+      text: fbt("Privacy Policy", "privacy policy page footer title"),
+      href: "/privacy-policy.html",
+      footerCategory: "about",
+    },
+    {
+      text: fbt("Legal", "legal page footer title"),
+      href: "/legal.html",
+      footerCategory: "about",
+    },
+    {
+      text: fbt("Help", "help page footer title"),
+      href: "https://help.bitcoincash.org/support/home",
+      footerCategory: "about",
+    },
+  ]
+}
 
-export default navItems
+export default NavItems
 export { communityDropdownLinks }

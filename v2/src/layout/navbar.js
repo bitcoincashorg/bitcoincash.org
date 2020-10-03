@@ -3,10 +3,11 @@ import S from "./navbar.module.scss"
 import Link from "global/link"
 import Dropdown from "components/dropdownButtons/dropdown"
 import "assets/lib/hamburgers.min.css"
-import navItems from "./nav-items.js"
+import NavItems from "./nav-items.js"
 
 const NavBar = () => {
   const [open, openMobileMenu] = useState(false)
+  const navItems = NavItems()
 
   const MobileDropdown = ({ children, links, navLinkClass }) => {
     const [expanded, setExpanded] = useState(false)

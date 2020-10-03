@@ -10,9 +10,11 @@ import Telegram from "assets/icons/social/telegram.svg"
 import Twitter from "assets/icons/social/twitter.svg"
 import Instagram from "assets/icons/social/instagram.svg"
 import Link from "global/link"
-import navItems, { communityDropdownLinks } from "./nav-items.js"
+import NavItems, { communityDropdownLinks } from "./nav-items.js"
 
 const Footer = () => {
+  const navItems = NavItems()
+  const communityLinks = communityDropdownLinks()
   return (
     <footer className={S.footerContainer}>
       <Container>
@@ -53,7 +55,7 @@ const Footer = () => {
               <fbt desc="community footer column header">Community</fbt>
             </div>
             <div className={S.footerLinks}>
-              {communityDropdownLinks.map(footerLink => (
+              {communityLinks.map(footerLink => (
                 <Link to={footerLink.href}>{footerLink.text}</Link>
               ))}
             </div>
@@ -79,7 +81,7 @@ const Footer = () => {
           <a className={S.socialIcon} href="https://twitter.com/bitcoincashorg">
             <Twitter />
           </a>
-          <a className={S.socialIcon} href="https://t.me/BCHUpdates">
+          <a className={S.socialIcon} href="https://t.me/bitcoincashfork">
             <Telegram />
           </a>
           <a
