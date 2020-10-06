@@ -2,16 +2,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  // padding: 5px 10%;
-  padding: 0 10%;
+  padding: 5px 10%;
   margin: 0;
   background-color: #040c3c;
-  // background:linear-gradient(0deg, #040c3c 0%, #212c6e 100%);
   user-select: none;
   background-position: center;
   background-repeat: no-repeat;
-  // background-size: cover;
   background-size: cover;
+  text-align: center;
+  cursor: pointer;
 }
 
 .accordion {
@@ -25,11 +24,29 @@
   transition: background-color 0.6s ease;
 }
 
+.accordionTitle {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.accordionTitle svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  fill: #fff;
+}
+
 .countdownContainer {
   width: 100%;
   text-align: center;
   font-family: Monospace;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,9 +64,6 @@
   padding: 15px 5px;
   border-radius: 3px;
   background-color: #32385e;
-  // color: #040c3c;
-  // border: 1px solid #fff;
-  // color: #fff;
 }
 
 .countdownLabel {
@@ -63,22 +77,6 @@
   margin-top: -33px;
 }
 
-.accordionTitle {
-  font-weight: 600;
-  font-size: 14px;
-  text-align: left;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-// .accordionTitle svg {
-//   width: 20px;
-//   height: 20px;
-//   margin-right: 5px;
-//   fill: #444;
-// }
-
 .accordionContent {
   overflow: hidden;
   transition: max-height 0.6s ease;
@@ -88,9 +86,8 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 50px 15px;
+  padding: 20px 15px 50px;
   margin: 0;
-  // background-color: #fece00;
   color: rgb(229, 232, 240);
   align-items: center;
 }
@@ -117,7 +114,7 @@
   padding: 10px 30px;
   text-decoration: none;
   border: 1px solid rgba(229, 232, 240, 0.4);
-  
+
   border-radius: 3px;
   cursor: pointer;
   background-color: transparent;
@@ -131,7 +128,7 @@
 .accordionSection .panelLink {
   padding: 0;
   margin: 0 0 20px 0;
-  
+
   cursor: pointer;
   width: 100%;
   display: inline-block;
@@ -155,10 +152,22 @@
   stroke: #bb5a00;
 }
 
+.completeHeader {
+  background-color: #ff8d00;
+  padding: 10px 0;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
 @media (max-width: 960px) {
   .annoucementPanel {
     flex-direction: column;
     text-align: center;
+    padding: 15px 15px;
+  }
+
+  .annoucementPanelInner h4 {
+    font-size: 19px;
   }
 
   .accordionTitle {
@@ -170,6 +179,20 @@
 
   .accordionTitle svg {
     display: none;
+  }
+
+  .countdownUnit {
+    font-size: 30px;
+    padding: 10px 5px;
+  }
+
+  .countdownLabel {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .annoucementPanelInner p {
+    font-size: 14px;
   }
 
   .dismiss {
@@ -189,12 +212,14 @@
   }
 
   .panelButton {
-    margin: 10px 0 50px 0;
+    margin: 10px 0 30px 0;
   }
 
   .annoucementPanelInner button {
     margin-right: 0;
     width: 100%;
+    font-size: 15px;
+    height: 45px;
   }
 
   .accordionSection {
