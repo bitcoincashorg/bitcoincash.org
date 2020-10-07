@@ -136,7 +136,7 @@ const NavBar = () => {
 
       <div className={S.mobileHeaderLinks}>
         <div
-          className={`hamburger hamburger--squeeze ${open ? "is-active" : ""}`}
+          className={`hamburger hamburger--squeeze ${open ? "is-active" : ""} ${S.nopadding}`}
           onClick={() => openMobileMenu(!open)}
         >
           <div className="hamburger-box">
