@@ -95,6 +95,14 @@ module.exports = {
     slug: "pt-BR",
     rtl: false,
   },
+  pt_PT: {
+    bcp47: "pt-PT",
+    displayName: "Português Portugal",
+    englishName: "Portuguese Portuguese",
+    transifex: "pt-PT",
+    slug: "pt-PT",
+    rtl: false,
+  },
   tr_TR: {
     bcp47: "tr-TR",
     displayName: "Türkçe",
