@@ -1,0 +1,2336 @@
+{
+  "fb-locale": "pt_PT",
+  "translations": {
+    "c32a47702314288748528182343dbf7e": {
+      "translations": [
+        {
+          "translation": "Pequeno (PNG)"
+        }
+      ]
+    },
+    "de4ffad01b09bc738beb4080a067c0cd": {
+      "translations": [
+        {
+          "translation": "Médio (PNG)"
+        }
+      ]
+    },
+    "a4ec98df5f3661dbe19ccff2b338bf0f": {
+      "translations": [
+        {
+          "translation": "Grande (PNG)"
+        }
+      ]
+    },
+    "b69596e272e62147e0bc4eea23caa7d3": {
+      "translations": [
+        {
+          "translation": "Completo (PNG)"
+        }
+      ]
+    },
+    "110b13e07a85c7f9323dbbd55fb4e5a7": {
+      "translations": [
+        {
+          "translation": "Vector (SVG)"
+        }
+      ]
+    },
+    "47472eacd56067e2fab3cbd8bf61b690": {
+      "translations": [
+        {
+          "translation": "Dinheiro feito para ti e não para os bancos"
+        }
+      ]
+    },
+    "3cd02bb6af846d2f2e2ec39b510e7bfb": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash faz com que o dinheiro sirva os teus interesses. Paga a pessoas rapidamente, envia dinheiro para o estrangeiro praticamente de graça e poupa com segurança—tudo sem intermediários a controlar os teus fundos."
+        }
+      ]
+    },
+    "a93ad13582036c6c06c4ddffba43018b": {
+      "translations": [
+        {
+          "translation": "Começar"
+        }
+      ]
+    },
+    "0c996a190077b39e16d6026c2e5b07c4": {
+      "translations": [
+        {
+          "translation": "Ver o roadmap"
+        }
+      ]
+    },
+    "033c866e409e7a0f4a9e1026aa15a486": {
+      "translations": [
+        {
+          "translation": "Paga directamente do teu telefone"
+        }
+      ]
+    },
+    "18233739ba6722328e10e915aee4e31d": {
+      "translations": [
+        {
+          "translation": "Gastar Bitcoin Cash"
+        }
+      ]
+    },
+    "d4a3c5e1ce22110c4456a05a3e8b40de": {
+      "translations": [
+        {
+          "translation": "Café para o caminho? Altura de um portátil novo? Obtém-o com Bitcoin Cash num número cada vez maior de websites e lojas. Simplesmente lê o código para comprar, tal como no Google Play."
+        }
+      ]
+    },
+    "2830fdff024a8df7092f940add52d98d": {
+      "translations": [
+        {
+          "translation": "Envia dinheiro para o estrangeiro praticamente de graça"
+        }
+      ]
+    },
+    "28fb543692f582d63dbf7a591ac93f5b": {
+      "translations": [
+        {
+          "translation": "Envia Bitcoin Cash"
+        }
+      ]
+    },
+    "0d34277d3cb1b937f8467106579c155f": {
+      "translations": [
+        {
+          "translation": "Em média, os bancos ficam com 6.8% do dinheiro que envias para casa. O Bitcoin Cash é muito mais barato—e também mais rápido. Usa-o para enviar remessas por menos de um cêntimo."
+        }
+      ]
+    },
+    "e90ea55000f507da66e6ae827ad62775": {
+      "translations": [
+        {
+          "translation": "Paga com a mesma privacidade do dinheiro vivo"
+        }
+      ]
+    },
+    "3d65dbf9cddca9e877ad9fea43f29e2f": {
+      "translations": [
+        {
+          "translation": "Paga de forma privada"
+        }
+      ]
+    },
+    "1de5d67777a77620f0927972c8c58392": {
+      "translations": [
+        {
+          "translation": "Uma vez que a conta do banco está ligada à tua identidade, o teu histórico de transacções também está. Com o Bitcoin Cash é o oposto: ninguém sabe quem és e os pagamentos podem ser feitos de forma privada."
+        }
+      ]
+    },
+    "53991ca9a39cc4478c77f393388aa482": {
+      "translations": [
+        {
+          "translation": "Paga online sem uma conta bancária"
+        }
+      ]
+    },
+    "15822f7cae3c9ac02127674ab19397a3": {
+      "translations": [
+        {
+          "translation": "Prepara-te"
+        }
+      ]
+    },
+    "fd01af7df67ffebb8dee09e313fb4a96": {
+      "translations": [
+        {
+          "translation": "Muito longe? Muitas comissões? Qualquer que seja o teu motivo para não ter uma conta num banco, Bitcoin Cash pode ajudar. Use-o para pagar e receber online sem precisar de bancos."
+        }
+      ]
+    },
+    "6cedf08807f584880ac5121fcd7fd32b": {
+      "translations": [
+        {
+          "translation": "Paga ao teus amigos directamente"
+        }
+      ]
+    },
+    "b410d412e2ab6f26936b286fedce5b53": {
+      "translations": [
+        {
+          "translation": "Paga com Bitcoin Cash"
+        }
+      ]
+    },
+    "b40dafc1e3655d2e5cbac924ac784083": {
+      "translations": [
+        {
+          "translation": "Dividir um conta? Enviar dinheiro para a carteira de um amigo ou, em alternativa, receber dinheiro dele. Os pagamentos são rápidos e feitos directamente entre os dois—não há bancos envolvidos."
+        }
+      ]
+    },
+    "a3598cd85f5fe560d14f10ecc7cfe1b5": {
+      "translations": [
+        {
+          "translation": "Guarda as tuas poupanças num lugar seguro"
+        }
+      ]
+    },
+    "79c193971b8973d7146a9bf0aaa22ca6": {
+      "translations": [
+        {
+          "translation": "Escolhe uma carteira"
+        }
+      ]
+    },
+    "2a944fd5c6bd0c6d8b1fcf70b4463fa7": {
+      "translations": [
+        {
+          "translation": "Burlões podem fingir ser o teu banco, usando tácticas de medo para te enganar e fazer-te enviar-lhes dinheiro. O Bitcoin Cash corrige este problema de confiança ao remover intermediários por completo."
+        }
+      ]
+    },
+    "d09ba9299507646e8d228883cedc134b": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash faz o que os bancos não conseguem fazer"
+        }
+      ]
+    },
+    "47b79c719bdf0fe859ba03b10fe7b5fd": {
+      "translations": [
+        {
+          "translation": "Pagamentos vão directamente de uma pessoa para outra."
+        }
+      ]
+    },
+    "7bf01da9afe61530d41015f688cdee3f": {
+      "translations": [
+        {
+          "translation": "Não importa o valor, as taxas são sempre minúsculas."
+        }
+      ]
+    },
+    "4a38eb153d7be4a3cc8bda9f8341d3fe": {
+      "translations": [
+        {
+          "translation": "O dinheiro é enviado e recebido rapidamente—sem atrasos, nem limites."
+        }
+      ]
+    },
+    "98462725924a06d5b90e074a20713534": {
+      "translations": [
+        {
+          "translation": "E todos, em toda parte, podem usá-lo"
+        }
+      ]
+    },
+    "0ff49d81ba079631db188d0707041556": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash é uma moeda forte para o mundo. Para corresponder à crescente procura, os programadores estão sempre a melhorar a escalabilidade da rede Bitcoin Cash."
+        }
+      ]
+    },
+    "58600d07c3ef680e2dc727d0d10d4070": {
+      "translations": [
+        {
+          "translation": "Ver o roadmap"
+        }
+      ]
+    },
+    "94bb812db2775ab0519cb698344e0453": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash traz uma moeda forte ao mundo. Comerciantes e utilizadores são beneficiados pelas taxas baixas e confirmações certas. O futuro é brilhante com um crescimento sem restrições, adopção global, inovação sem barreiras e desenvolvimento descentralizado."
+        }
+      ]
+    },
+    "a7430462af5cba62b3f993c0b544b345": {
+      "translations": [
+        {
+          "translation": "Lembrança: {upgrade activation time} Actualização da Rede Programada"
+        }
+      ]
+    },
+    "48a3a189922a12b1e4216cf93eeed6e3": {
+      "translations": [
+        {
+          "translation": "Saber mais"
+        }
+      ]
+    },
+    "c896f27be5c90b6872cb876ce31ecfe3": {
+      "translations": [
+        {
+          "translation": "{upgrade activation time} Actualização de Rede Programada"
+        }
+      ]
+    },
+    "60fc904396840c992f474ecda2da39ca": {
+      "translations": [
+        {
+          "translation": "A rede Bitcoin Cash terá uma actualização do protocolo de acordo com o roadmap. Empresas e indivíduos que usam a rede Bitcoin Cash devem garantir que os seus programas são compatíveis com a actualização."
+        }
+      ]
+    },
+    "d770c97de5c52bd8109e39c140e62bab": {
+      "translations": [
+        {
+          "translation": "Ver Roadmap"
+        }
+      ]
+    },
+    "a47ca8d131e17fdd59a17e6deab246f1": {
+      "translations": [
+        {
+          "translation": "Fechar"
+        }
+      ]
+    },
+    "c7953645d1fdc6c8e72e1ad2fe573a5f": {
+      "translations": [
+        {
+          "translation": "Implementações Compatíveis:"
+        }
+      ]
+    },
+    "4b0b3d5f8d03531c1cfe320e2883e0fd": {
+      "translations": [
+        {
+          "translation": "Informação Adicional:"
+        }
+      ]
+    },
+    "c89bcd264da87e14f0291c9163705b5e": {
+      "translations": [
+        {
+          "translation": "Prepara-te para a actualização"
+        }
+      ]
+    },
+    "2a854a9d90f8402de7ce2e1f5fb71596": {
+      "translations": [
+        {
+          "translation": "Especificações da Actualização"
+        }
+      ]
+    },
+    "41dd1d8d417e0a4239a6ae6bdff85146": {
+      "translations": [
+        {
+          "translation": "Informações da Testnet"
+        }
+      ]
+    },
+    "657e00afe7a9a198d37ecf94de9045b9": {
+      "translations": [
+        {
+          "translation": "Ser Listado"
+        }
+      ]
+    },
+    "800d353888445f1d8db4c8bd3bf28370": {
+      "translations": [
+        {
+          "translation": "Política de Privacidade"
+        }
+      ]
+    },
+    "7537888e67bacb91f04990e4fc0f4f13": {
+      "translations": [
+        {
+          "translation": "Legal"
+        }
+      ]
+    },
+    "9554f6fa69616c126bb310c63587cbaa": {
+      "translations": [
+        {
+          "translation": "© {current year}, Todos Os Direitos Reservados"
+        }
+      ]
+    },
+    "3c23e7392e65bfad89a895ad789ade46": {
+      "translations": [
+        {
+          "translation": "Serviços"
+        }
+      ]
+    },
+    "d2701e551c3b1087e38cf994996ccead": {
+      "translations": [
+        {
+          "translation": "Projectos"
+        }
+      ]
+    },
+    "58f3f371a60f2403eaaee09bbcb2c45d": {
+      "translations": [
+        {
+          "translation": "Portais de Câmbio"
+        }
+      ]
+    },
+    "7d337ea26e78f2a65804aba296a7cee4": {
+      "translations": [
+        {
+          "translation": "Nós"
+        }
+      ]
+    },
+    "ba4d0b9ed25b52c797f59d2016874f3b": {
+      "translations": [
+        {
+          "translation": "Portal para Programadores"
+        }
+      ]
+    },
+    "84642b7d94ceb4a405027dbb91dca1ba": {
+      "translations": [
+        {
+          "translation": "Logótipos"
+        }
+      ]
+    },
+    "702b2d4ddf76ff77afac3095e972f5ea": {
+      "translations": [
+        {
+          "translation": "Whitepaper"
+        }
+      ]
+    },
+    "fc31a7564465e7ea5b18f3d42d8b5d6c": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
+    "ca0099c6a546b549832b8813418d99cf": {
+      "translations": [
+        {
+          "translation": "Começar Aqui"
+        }
+      ]
+    },
+    "4dd64805e4c4cc68ed73dd4f3873ea71": {
+      "translations": [
+        {
+          "translation": "Carteiras"
+        }
+      ]
+    },
+    "6e149233a553b9376f9867d91685881e": {
+      "translations": [
+        {
+          "translation": "Explorador"
+        }
+      ]
+    },
+    "54db38e3c5c78056e098061871c6cb0f": {
+      "translations": [
+        {
+          "translation": "Comunidade"
+        }
+      ]
+    },
+    "734a1c5c0d8e3243e25047d98fb384c2": {
+      "translations": [
+        {
+          "translation": "Sobre"
+        }
+      ]
+    },
+    "13d6385a443edc6624f3455e5e477637": {
+      "translations": [
+        {
+          "translation": "Idioma"
+        }
+      ]
+    },
+    "d529feb2f96beaf448d03d8a4ce9d8f5": {
+      "translations": [
+        {
+          "translation": "A página que procuras não existe."
+        }
+      ]
+    },
+    "69cf8adfda297263575ae4c1737a316c": {
+      "translations": [
+        {
+          "translation": "Ir para o início"
+        }
+      ]
+    },
+    "af628dc79f6691cc1586247dad63e5aa": {
+      "translations": [
+        {
+          "translation": "Portais de Pagamento Bitcoin Cash"
+        }
+      ]
+    },
+    "515b07a736581e3adebaeca21b03d6b5": {
+      "translations": [
+        {
+          "translation": "Recebe Bitcoin Cash como método de pagamento através de Portais de Pagamento que funcionam como intermediários de confiança."
+        }
+      ]
+    },
+    "0fb809663df85f4b316cebb3629c4a99": {
+      "translations": [
+        {
+          "translation": "Activa o Bitcoin Cash no WordPress"
+        }
+      ]
+    },
+    "6f261976607f8924861f751eee0ba621": {
+      "translations": [
+        {
+          "translation": "Aceita donativos em Bitcoin Cash pela criação de conteúdos o integra-o na sua plataforma de comércio online em WordPress."
+        }
+      ]
+    },
+    "c683f92b550235be638ade07679e48e1": {
+      "translations": [
+        {
+          "translation": "Ponto de Vendas"
+        }
+      ]
+    },
+    "f82e2dc2e16d56016c303a5c3b20568f": {
+      "translations": [
+        {
+          "translation": "Experimenta um dos vários sistemas Ponto de Venda (POS) para aceitar Bitcoin Cash na tua loja."
+        }
+      ]
+    },
+    "c35657c89197e0ac4fac4c6e4a81e428": {
+      "translations": [
+        {
+          "translation": "Aceita Donativos ou Gorjetas"
+        }
+      ]
+    },
+    "94b673455fb4d40692c6405ac8baac96": {
+      "translations": [
+        {
+          "translation": "Ao receber donativos em Bitcoin Cash, as organizações sem fins lucrativos têm o benefício de taxas baixíssimas."
+        }
+      ]
+    },
+    "6066503799cce63c9d917321fa976676": {
+      "translations": [
+        {
+          "translation": "Como é que a minha empresa pode usar o Bitcoin Cash?"
+        }
+      ]
+    },
+    "bd5e4e095c8597658a4da3852f708bb5": {
+      "translations": [
+        {
+          "translation": "Aceitar Bitcoin Cash"
+        }
+      ]
+    },
+    "6bb5f8c640b64c0c0be50526d4779fb1": {
+      "translations": [
+        {
+          "translation": "Como comerciante, um dos teus principais objectivos é ser capaz de aceitar e processar pagamentos rapidamente e sem esforço de modo a manter os clientes contentes e receber pagamentos sem mais dores de cabeça. Bitcoin Cash é a solução pois permite transacções rápidas e de baixo custo. À medida que o mundo se torna digital, moedas electrónicas como o Bitcoin Cash estão a tornar-se o método preferido para pagamento online e fisicamente em lojas. Serviços terceiros tornam muito simples aceitar Bitcoin Cash através das suas plataformas. Quando subscreves uma aplicação terceira para comerciantes, como a da BitPay, tens apenas que configurar uma conta por forma a aceitar Bitcoin Cash e tê-lo enviado para a tua carteira ou poder converter o teu Bitcoin Cash para a tua moeda local. A maior parte das lojas fazem uma divisão onde parte dos fundos são liquidados para moeda local e parte é mantida em criptomoeda. Em qualquer caso, ao configurar uma solução para comerciantes podes começar a aceitar pagamentos em Bitcoin Cash imediatamente e sem preocupações adicionais sobre como tratar o Bitcoin Cash."
+        }
+      ]
+    },
+    "0ec744dfe61b0be542209b5fcf09150c": {
+      "translations": [
+        {
+          "translation": "Gastar Bitcoin Cash"
+        }
+      ]
+    },
+    "60b71435a466bbacb718ab4d64221ffb": {
+      "translations": [
+        {
+          "translation": "Como posso aceitar Bitcoin Cash?"
+        }
+      ]
+    },
+    "f537ed3014650f05a3141b9a1c65ee1e": {
+      "translations": [
+        {
+          "translation": "Compra num Portal de Câmbio"
+        }
+      ]
+    },
+    "1419e05c21231ca8536d6d2ba88434e7": {
+      "translations": [
+        {
+          "translation": "Envia dinheiro para um portal de câmbio em que confies e compra Bitcoin Cash."
+        }
+      ]
+    },
+    "946b7f71c084f038de0f64f6e942500c": {
+      "translations": [
+        {
+          "translation": "Usar uma fonte de Bitcoin Cash"
+        }
+      ]
+    },
+    "c32d07c9f1ec7e029145acba7847810d": {
+      "translations": [
+        {
+          "translation": "Usa uma {=Bitcoin Cash faucet} de confiança para receber uma pequena quantia de Bitcoin Cash de graça!"
+        }
+      ]
+    },
+    "5d92a742ae5869d668144900f56ce4ee": {
+      "translations": [
+        {
+          "translation": "fonte de Bitcoin Cash"
+        }
+      ]
+    },
+    "3e6f9417b6a5be2631b3a0f556c13400": {
+      "translations": [
+        {
+          "translation": "Compra numa Aplicação"
+        }
+      ]
+    },
+    "fd8c42fbfa37cf603ea8e8d1373d4cb7": {
+      "translations": [
+        {
+          "translation": "Utiliza uma aplicação terceira de confiança e que venda Bitcoin Cash com um cartão de crédito."
+        }
+      ]
+    },
+    "b5321ec2e671b07dc291a915c0f8b5b9": {
+      "translations": [
+        {
+          "translation": "Compra a partir duma caixa automática Bitcoin Cash"
+        }
+      ]
+    },
+    "48e09dead605d913993faf1087c33d3b": {
+      "translations": [
+        {
+          "translation": "Muitas cidades pelo mundo possuem caixas automáticas compatíveis com Bitcoin Cash."
+        }
+      ]
+    },
+    "d0ad6dc2ab651537723b959bac4f304b": {
+      "translations": [
+        {
+          "translation": "Ganha Bitcoin Cash Online"
+        }
+      ]
+    },
+    "be1ce878ec3c7879d4f51c101bd5039d": {
+      "translations": [
+        {
+          "translation": "Participa em meios sociais resistentes a censura como {memo.cash}."
+        }
+      ]
+    },
+    "9918a68b339e663705a987418e79c911": {
+      "translations": [
+        {
+          "translation": "Compra em Pessoa"
+        }
+      ]
+    },
+    "e4702e9cbb7e01373845da4671ea7170": {
+      "translations": [
+        {
+          "translation": "Entra em contacto com pessoas que vendem Bitcoin Cash na tua zona em {local.bitcoin.com} ou {localbitcoincash.org}."
+        }
+      ]
+    },
+    "7bca5f561da7058a2446053e3757a05b": {
+      "translations": [
+        {
+          "translation": "Aceita Bitcoin Cash no teu estabelecimento"
+        }
+      ]
+    },
+    "7141839018849626169161d6569e181c": {
+      "translations": [
+        {
+          "translation": "Inclui Bitcoin Cash como forma de pagamento na tua loja com o {=Bitcoin Cash Register}. Vende artigos online ou em pessoa por Bitcoin Cash."
+        }
+      ]
+    },
+    "62d4e4b07337d40d70de5c2847518a25": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Register"
+        }
+      ]
+    },
+    "20a138f2e25ac2165f861890316a0010": {
+      "translations": [
+        {
+          "translation": "Solicita pagamentos em Bitcoin Cash"
+        }
+      ]
+    },
+    "7bda0a55ca7995abf7df27cfc48fba5e": {
+      "translations": [
+        {
+          "translation": "Consulta a empresa em que trabalhas para saber se podes receber parte ou todo o teu salário em Bitcoin Cash."
+        }
+      ]
+    },
+    "2cfcc5a7f9bcff424fc9b19fa98364a8": {
+      "translations": [
+        {
+          "translation": "Como faço para obter Bitcoin Cash?"
+        }
+      ]
+    },
+    "3039f47c3861beec0825d81ceee8c820": {
+      "translations": [
+        {
+          "translation": "Comprar ou Ganhar Bitcoin Cash"
+        }
+      ]
+    },
+    "9e3e4814a10e465c3e2fd236e96dd1ac": {
+      "translations": [
+        {
+          "translation": "As duas forms mais fáceis de obter Bitcoin Cash é comprar algum ou trabalhar por ele. Comprar Bitcoin Cash é a forma mais usada e conveniente. Tudo o que tens a fazer é inscreveres-te num serviço de câmbio e depositar fundos em moeda local de modo a poderes fazer a conversão para Bitcoin Cash. Terás Bitcoin Cash assim que for completada uma troca no serviço de câmbio. A outra opção é receber Bitcoin Cash através de um trabalho, por exemplo encontrar um trabalho online que pague em Bitcoin Cash ou criando o teu próprio serviço, como venda de t-shirts, e receber Bitcoin Cash dessa forma."
+        }
+      ]
+    },
+    "bcbcf60faa6551cde4df015110ba931d": {
+      "translations": [
+        {
+          "translation": "Onde posso encontrar Bitcoin Cash localmente?"
+        }
+      ]
+    },
+    "4fe3626b7a5a84066dc77dc4b0bc6724": {
+      "translations": [
+        {
+          "translation": "Em muitas cidades existem mercados (OTC) que trocam moeda local (como USD, Yen, Euro, etc) por Bitcoin Cash. Considera também perguntar ao teu empregador se estaria interessado em estar na vanguarda do dinheiro do futuro e pagar um ordenado parcialmente ou completamente em Bitcoin Cash. Algumas cidades maiores também estão equipadas com caixas automáticas com suporte para Bitcoin Cash, o que torna bastante fácil trocar moeda local por Bitcoin Cash. Pergunta no teu {=Bitcoin Cash Meetup} mais perto sobre outras opções ou considera visitar restaurantes na tua cidade onde podes {=spend Bitcoin Cash} e perguntar aí."
+        }
+      ]
+    },
+    "fd3c450b48cfba87fe672e03c08adb75": {
+      "translations": [
+        {
+          "translation": "Encontro Bitcoin Cash"
+        }
+      ]
+    },
+    "bbbbdbd3c9649b1a75c862ae8e2c140b": {
+      "translations": [
+        {
+          "translation": "gastar Bitcoin Cash"
+        }
+      ]
+    },
+    "9c21db44d680bc24b4cc2626bc7fa6d1": {
+      "translations": [
+        {
+          "translation": "Posso comprar Bitcoin Cash online?"
+        }
+      ]
+    },
+    "d8e0edb9fb1d10c788250d72528da332": {
+      "translations": [
+        {
+          "translation": "Comprar Bitcoin Cash online é a forma mais popular de receber Bitcoin Cash. Portais de Câmbio que compram e vendem moedas locais e criptomoedas permitem-te efectuar transferências bancárias para trocar por Bitcoin Cash. Alguns aceitam mesmo cartões de crédito para compras imediatas. Como em qualquer compra online, investiga um pouco e garante que tens a tua própria carteira. Não recomendamos deixar qualquer Bitcoin Cash nos Portais de Câmbio. Deves sempre guardar o teu Bitcoin Cash na tua própria carteira e que tens uma cópia de segurança dela."
+        }
+      ]
+    },
+    "73199e1a37833cc407baf9cb594a7720": {
+      "translations": [
+        {
+          "translation": "Compra Bitcoin Cash"
+        }
+      ]
+    },
+    "e3f34224a984c5401b8ea0ee050da8df": {
+      "translations": [
+        {
+          "translation": "Onde posso obter Bitcoin Cash?"
+        }
+      ]
+    },
+    "03fe2735053d17e8d3f29270870f5a0e": {
+      "translations": [
+        {
+          "translation": "Portais de Câmbio em destaque"
+        }
+      ]
+    },
+    "4837a19183ddf0da2f82270761af7e80": {
+      "translations": [
+        {
+          "translation": "Portais de Câmbio"
+        }
+      ]
+    },
+    "8ab51c66ad74ae76e00f84af22cb69b6": {
+      "translations": [
+        {
+          "translation": "Microeconomia"
+        }
+      ]
+    },
+    "68add98186b42b1447f6bd4037f0613d": {
+      "translations": [
+        {
+          "translation": "Portal para Programadores"
+        }
+      ]
+    },
+    "4cd11a2d59ce3b8d1db9aa9efaf25cd0": {
+      "translations": [
+        {
+          "translation": "Criar apps incríveis com Bitcoin Cash"
+        }
+      ]
+    },
+    "8369cbce0cd83f40e6aa0dae19bb0d36": {
+      "translations": [
+        {
+          "translation": "Recursos para programadores, por programadores"
+        }
+      ]
+    },
+    "be8e33683aa11aa3f6de5dc80441f0bc": {
+      "translations": [
+        {
+          "translation": "Bibliotecas"
+        }
+      ]
+    },
+    "212e15c413bacd57f3d1c626aa8b90e6": {
+      "translations": [
+        {
+          "translation": "A biblioteca mais rápida em Python. Intuitiva e fácil de usar."
+        }
+      ]
+    },
+    "8666c3469b291e614df874173d1358a9": {
+      "translations": [
+        {
+          "translation": "Ver Mais"
+        }
+      ]
+    },
+    "4b0ef5afb7eba267fa7d56c9a83c9e44": {
+      "translations": [
+        {
+          "translation": "Framework poderosa e completa em Javascript para Bitcoin Cash."
+        }
+      ]
+    },
+    "4d7ab3b98c6b501998627b98ff9053e2": {
+      "translations": [
+        {
+          "translation": "Recursos"
+        }
+      ]
+    },
+    "dfcc2a008c444cfb38d45449e05783d0": {
+      "translations": [
+        {
+          "translation": "Especificações"
+        }
+      ]
+    },
+    "8b3cf2dc9d41f4eefa1dd4a239e0f0c8": {
+      "translations": [
+        {
+          "translation": "Termos e APIs relacionados para Bitcoin Cash"
+        }
+      ]
+    },
+    "b25bc666e4b746b02c7ab8fccf604fb9": {
+      "translations": [
+        {
+          "translation": "A Badger Wallet injecta uma API nas páginas que um pessoa visita de modo a permitir às aplicações pedirem permissão para enviar Bitcoin Cash, enviar tokens ou autenticar com CashID."
+        }
+      ]
+    },
+    "68e28bba2482472a7b1481cdabecbbec": {
+      "translations": [
+        {
+          "translation": "Tokens Simples - Tokens seguros em Bitcoin Cash"
+        }
+      ]
+    },
+    "095a77bfa04da6e74399b37991970188": {
+      "translations": [
+        {
+          "translation": "Portais de Câmbio Bitcoin Cash"
+        }
+      ]
+    },
+    "678465bc79271d7b1c4c4ea5ec0da06b": {
+      "translations": [
+        {
+          "translation": "Portais de Câmbio em destaque"
+        }
+      ]
+    },
+    "6cad5bafbce7652dedd3f3d79a85a990": {
+      "translations": [
+        {
+          "translation": "Preguntas Frequentes"
+        }
+      ]
+    },
+    "3a7dd67cbfae55f4c47e06d883f3cc42": {
+      "translations": [
+        {
+          "translation": "Preguntas Frequentes"
+        }
+      ]
+    },
+    "4ae560b5f5e9e7e0d5343cebb0030a33": {
+      "translations": [
+        {
+          "translation": "O que é o Bitcoin Cash?"
+        }
+      ]
+    },
+    "9f2a1753fb523074fcdd70150a5603a7": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash é um sistema monetário ponto a ponto. É uma criptomoeda sem barreiras de entrada e descentralizada que dispensa de intermediários e bancos centrais."
+        }
+      ]
+    },
+    "87f71b72353a11920b45e4cfd625f10f": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash é diferente do 'Bitcoin'?"
+        }
+      ]
+    },
+    "653fd3da0abccfdbb378bf075b6840af": {
+      "translations": [
+        {
+          "translation": "Em 2017, o projecto Bitcoin e a sua comunidade dividiram-se em dois. Provavelmente, a forma menos controversa de referir cada lado é simplesmente pelos seus símbolos de troca: BTC e BCH. Bitcoin Cash é tipicamente representado pelo símbolo BCH e é considerado, pelos seus apoiantes, como a continuação legítima do projecto Bitcoin como moeda digital ponto a ponto."
+        }
+      ]
+    },
+    "87d5ce419b5a5da7dbc85844e3eec49d": {
+      "translations": [
+        {
+          "translation": "Por que usar o Bitcoin Cash?"
+        }
+      ]
+    },
+    "5ce3c3607a6be9afda56463edfb00dfa": {
+      "translations": [
+        {
+          "translation": "Envia Dinheiro Para Qualquer Lugar no Mundo, Praticamente Sem Custo"
+        }
+      ]
+    },
+    "be257141051f1f2b3d520b7441911521": {
+      "translations": [
+        {
+          "translation": "Com o Bitcoin Cash podes enviar dinheiro para qualquer pessoa, em qualquer lado do mundo, 24 horas por dia e 365 dias por ano. Tal como a Internet, a rede está sempre disponível. Nenhuma transacção é demasiado grande ou demasiado pequena e nunca precisas pedir a permissão ou aprovação de ninguém."
+        }
+      ]
+    },
+    "bd863d1dece1236861e8159e82e4cefc": {
+      "translations": [
+        {
+          "translation": "És o Teu Próprio Banco e Tens Total Controlo Sobre o Teu Dinheiro"
+        }
+      ]
+    },
+    "7c4955fbc9399239d5e2a47394f0681f": {
+      "translations": [
+        {
+          "translation": "A apreensão de fundos dos detentores de contas (\"bail-ins\") que ocorreram no Chipre, e por pouco na Grécia, demonstraram que os depósitos bancários estão apenas tão seguros quanto os políticos o permitirem. Mesmo nas melhores condições, os bancos podem cometer erros, reter fundos, congelar contas e, de outros modos, impedirem-te de aceder ao teu próprio dinheiro."
+        }
+      ]
+    },
+    "4c133c58b16e75714d1f9d5b1800ae79": {
+      "translations": [
+        {
+          "translation": "Os bancos também podem decidir bloquear as tuas transacções, mudar taxas a qualquer hora, ou fechar a tua conta sem aviso prévio. O Bitcoin Cash dá-te controlo completo e soberano sobre os teus fundos, aos quais podes aceder a partir de qualquer sítio no mundo."
+        }
+      ]
+    },
+    "89b8a9a584ef9ab6c272ddf04d5af2e4": {
+      "translations": [
+        {
+          "translation": "Uma Moeda Digital Escassa com uma Emissão Fixa e Conhecida"
+        }
+      ]
+    },
+    "331bef5c05b320a8c41530799b59fa9e": {
+      "translations": [
+        {
+          "translation": "O protocolo Bitcoin Cash garante que nunca existirão mais de 21 milhões de moedas. Os governos emitem dinheiro continuamente o que inflaciona a oferta de dinheiro e desvaloriza as poupanças de todos. O Bitcoin Cash tem uma emissão garantidamente limitada e por isso representa uma moeda forte."
+        }
+      ]
+    },
+    "c363a89ba416e4ff37ded38094db030c": {
+      "translations": [
+        {
+          "translation": "Aumenta a Tua Privacidade e Utiliza Anonimamente"
+        }
+      ]
+    },
+    "b91eba2760296a035a891fb5c937f96d": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash oferece mais privacidade e anonimato que os sistemas de pagamento tradicionais como transferências bancárias e pagamentos com cartão de crédito, dado que normalmente é impossível saber quem controla um endereço de Bitcoin Cash. "
+        }
+      ]
+    },
+    "db7e492a5b85bbfe7692642df1857e99": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash oferece vários níveis de privacidade dependendo de como é utilizado. É importante informares-te ao detalhe antes de utilizar Bitcoin Cash quando realmente precisas de privacidade."
+        }
+      ]
+    },
+    "56941c56ff445a1a05773644a6fa2037": {
+      "translations": [
+        {
+          "translation": "Aproveita Descontos Exclusivos"
+        }
+      ]
+    },
+    "bc513a1668a77cf1e2e614a02ff94106": {
+      "translations": [
+        {
+          "translation": "Muitos comerciantes oferecem descontos por pagares com Bitcoin Cash porque elimina taxas de cartão de crédito e ajuda à adopção desta nova forma de pagamento."
+        }
+      ]
+    },
+    "6d54f0d35dce4daf8d8aab0fbe880708": {
+      "translations": [
+        {
+          "translation": "Apoia a Liberdade por Todo o Mundo"
+        }
+      ]
+    },
+    "14bbf01a9648499286cbae56fcd5d5cf": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash é uma rede aberta sem barreiras de entrada. Permite-te interagir com outras pessoas na tua comunidade sem intrusão. É descentralizado, voluntário e não agressivo. À medida que a utilização cresce, as estruturas de poder antigas desgastam-se enquanto novas ideias florescem. Pode ajudar a impulsionar a maior revolução pacífica que mundo já conheceu."
+        }
+      ]
+    },
+    "5dc874c22b609ac5900905f17603b0bf": {
+      "translations": [
+        {
+          "translation": "Benefícios para Comerciantes"
+        }
+      ]
+    },
+    "0d9878c92506f6e3ee01e4b10ef67911": {
+      "translations": [
+        {
+          "translation": "Taxas Super Baixas"
+        }
+      ]
+    },
+    "cc6e9f112d784552c3d26263c74e3ad5": {
+      "translations": [
+        {
+          "translation": "A taxa de rede para uma transacção típica com Bitcoin Cash é inferior a um cêntimo. Se queres converter o teu Bitcoin Cash para uma moeda local, como o dólar americano, podes fazê-lo através de processadores de pagamentos por um custo que mesmo assim é muito inferior ao custo do processamento de cartões."
+        }
+      ]
+    },
+    "7376727274bf1c9f79d879a4a5bb38d8": {
+      "translations": [
+        {
+          "translation": "Sem Reversões"
+        }
+      ]
+    },
+    "56126150403163d5e19d562d5b8876ce": {
+      "translations": [
+        {
+          "translation": "Ao contrário dos cartões de crédito, nunca ocorrem automaticamente anulações, reembolsos, retornos o outras taxas inesperadas. A protecção contra fraudes já está no próprio sistema sem qualquer custo para o comerciante."
+        }
+      ]
+    },
+    "dc9a7d1e3012ee8da65c48685be038f4": {
+      "translations": [
+        {
+          "translation": "Novos Clientes"
+        }
+      ]
+    },
+    "436c6f204eb09cddbb613b8c1c07ba24": {
+      "translations": [
+        {
+          "translation": "Um número crescente de apoiantes estão a escolher Bitcoin Cash como o método de pagamento preferido. Estes preferem comerciantes que oferecem este meio de pagamento como opção e procuram activamente por eles."
+        }
+      ]
+    },
+    "e8c7411441e74e4056d84b4ac4dc9db4": {
+      "translations": [
+        {
+          "translation": "Publicidade e Marketing Gratuitos"
+        }
+      ]
+    },
+    "134e2d98fdb2059d517782ad148d6af3": {
+      "translations": [
+        {
+          "translation": "Ao aceitar Bitcoin Cash, os comerciantes podem ser listados gratuitamente em listas e directórios de sítios ou aplicações, atraindo ainda mais clientes. Também podem tirar partido desta nova tendência e gerar publicidade extra para o seu negócio."
+        }
+      ]
+    },
+    "3e2ba39c893f2dd66fa7ab8506b7e408": {
+      "translations": [
+        {
+          "translation": "O Roadmap Bitcoin Cash"
+        }
+      ]
+    },
+    "444176d6569632e9f20bae4aad98c9c5": {
+      "translations": [
+        {
+          "translation": "Ver o Roadmap"
+        }
+      ]
+    },
+    "bc2a94069c0682096a036ae4bfe47966": {
+      "translations": [
+        {
+          "translation": "Rápido"
+        }
+      ]
+    },
+    "cea1b70397c856ef9033230be855aafb": {
+      "translations": [
+        {
+          "translation": "Faz transações em segundos. Obtém confirmação em minutos."
+        }
+      ]
+    },
+    "a5ea8bb8ac0333e2b9a8aac4df35cb6d": {
+      "translations": [
+        {
+          "translation": "De confiança"
+        }
+      ]
+    },
+    "185e84a8cb98aad8226c397633405b0c": {
+      "translations": [
+        {
+          "translation": "Uma rede que funciona sem congestão."
+        }
+      ]
+    },
+    "23c6951e6d0cb0f8f7da0d8b6006e58c": {
+      "translations": [
+        {
+          "translation": "Taxas baixas"
+        }
+      ]
+    },
+    "ac54594862788301bee5473e9924dec6": {
+      "translations": [
+        {
+          "translation": "Envia dinheiro para todo o mundo por cêntimos."
+        }
+      ]
+    },
+    "f872dffed933d04614d85218b1ea8a15": {
+      "translations": [
+        {
+          "translation": "Simples"
+        }
+      ]
+    },
+    "c211f266d9aa6f58007a3aca110c2812": {
+      "translations": [
+        {
+          "translation": "Fácil de usar. Sem aborrecimentos."
+        }
+      ]
+    },
+    "becd88f5f74b21dd6cffae03425e6e49": {
+      "translations": [
+        {
+          "translation": "Estável"
+        }
+      ]
+    },
+    "aaa4a9e97069dbad1ea138b9d5e7d2aa": {
+      "translations": [
+        {
+          "translation": "Um sistema de pagamento que é uma reserva de valor comprovada."
+        }
+      ]
+    },
+    "1050da8542264daa24090d19102cf0fa": {
+      "translations": [
+        {
+          "translation": "Seguro"
+        }
+      ]
+    },
+    "e4a99b023e70371a6d899e2d639df78c": {
+      "translations": [
+        {
+          "translation": "A tecnologia <em>blockchain</em> mais robusta do mundo."
+        }
+      ]
+    },
+    "7c9139df0e638be3a4f293fa554a5baf": {
+      "translations": [
+        {
+          "translation": "O que é o dinheiro electrónico ponto a ponto?"
+        }
+      ]
+    },
+    "fa9b0e6cc62ecc4e479a5b9d9ada597b": {
+      "translations": [
+        {
+          "translation": "Começar"
+        }
+      ]
+    },
+    "534d068868f1f9725a105bc39d264f66": {
+      "translations": [
+        {
+          "translation": "Dinheiro electrónico de ponto a ponto é descrito de forma simples como uma moeda electrónica que pode ser enviada por uma pessoa a qualquer outra sem necessidade de confiar numa terceira parte. Como descrito no whitepaper original do Bitcoin, escrito por Satoshi Nakamoto, dinheiro de ponto a ponto utiliza assinaturas digitais como parte da solução mas os principais benefícios são perdidos se, para evitar fraude, ainda existir necessidade de confiar numa terceira parte. O que torna o dinheiro ponto a ponto uma forma segura de transaccionar na internet é precisamente não depender de intermediários."
+        }
+      ]
+    },
+    "3cb62264212f3370974b26fe12f18810": {
+      "translations": [
+        {
+          "translation": "Começar"
+        }
+      ]
+    },
+    "320884bf7d995a7c5f6ed2b50f3280b5": {
+      "translations": [
+        {
+          "translation": "Aprende tudo sobre Bitcoin Cash"
+        }
+      ]
+    },
+    "0f429e8d8d54f67ce44b262f7d9b3eb4": {
+      "translations": [
+        {
+          "translation": "Saber mais"
+        }
+      ]
+    },
+    "dcf13c988504e8e8b5b876069632c0fd": {
+      "translations": [
+        {
+          "translation": "Logos e Gráficos"
+        }
+      ]
+    },
+    "0bdb5cc778529a751ce847821fbb380f": {
+      "translations": [
+        {
+          "translation": "Gráficos Promocionais"
+        }
+      ]
+    },
+    "fcc6b19fd36d70f22e1c37ec1ae46588": {
+      "translations": [
+        {
+          "translation": "Estes logótipos e marcas Bitcoin Cash podem ser utilizados em serviços online, estabelecimentos de retalho, publicações noticiosas ou qualquer outro uso promocional."
+        }
+      ]
+    },
+    "01e5129ee43c81bb40d23ebb75c8b952": {
+      "translations": [
+        {
+          "translation": "Logótipos"
+        }
+      ]
+    },
+    "54df59bc53fe878368559b3baf50326a": {
+      "translations": [
+        {
+          "translation": "Comerciante"
+        }
+      ]
+    },
+    "efb2e8f30e7aa4a40f3bc3b28ca507a4": {
+      "translations": [
+        {
+          "translation": "Donativos"
+        }
+      ]
+    },
+    "ccc13a4a21de21a34f35a6bf9251a918": {
+      "translations": [
+        {
+          "translation": "Identidade"
+        }
+      ]
+    },
+    "49ba50d46717dd924c32041821c02df4": {
+      "translations": [
+        {
+          "translation": "Logótipos"
+        }
+      ]
+    },
+    "961425b84c3449c2b50206ebb7ffe721": {
+      "translations": [
+        {
+          "translation": "Descarregar logótipos Bitcoin Cash nos formatos PNG e SVG"
+        }
+      ]
+    },
+    "36d096e2ebba9cfe0b7b4e15e383534f": {
+      "translations": [
+        {
+          "translation": "Descarregar todos"
+        }
+      ]
+    },
+    "b5ed4befc88fad82974ae25d62f5afb5": {
+      "translations": [
+        {
+          "translation": "BCH Logótipo Primário"
+        }
+      ]
+    },
+    "ad4619083b1e0c1494fc798b1af6c411": {
+      "translations": [
+        {
+          "translation": "BCH Logótipo Texto Branco"
+        }
+      ]
+    },
+    "8b43892f1a488d7322e73817391ddedd": {
+      "translations": [
+        {
+          "translation": "BCH Logótipo Marca"
+        }
+      ]
+    },
+    "86cec04116b985eed4a835c2afb045a9": {
+      "translations": [
+        {
+          "translation": "BCH Logótipo Primário Horizontal"
+        }
+      ]
+    },
+    "79d95ed6fe1d8fdcd85372e3d814f09d": {
+      "translations": [
+        {
+          "translation": "BCH Logótipo Branco Horizontal"
+        }
+      ]
+    },
+    "60928de020253ea9547062977142eb1a": {
+      "translations": [
+        {
+          "translation": "BCH Logótipo Para Carteiras / Portais de Câmbio"
+        }
+      ]
+    },
+    "18306e40bc88d5c5eb9175a6cc099381": {
+      "translations": [
+        {
+          "translation": "Botões para Comerciantes"
+        }
+      ]
+    },
+    "f3b3af61fd7572678c1877cb9e7e5d36": {
+      "translations": [
+        {
+          "translation": "Mostre aos seus clientes que aceita Bitcoin Cash"
+        }
+      ]
+    },
+    "373827f745776da7188dc66914854af4": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Aceite Aqui Primário"
+        }
+      ]
+    },
+    "3a170406037e416ee1b6247b0f99e48d": {
+      "translations": [
+        {
+          "translation": "Botões para Donativo"
+        }
+      ]
+    },
+    "d22af408b48273c23b759453d44ed300": {
+      "translations": [
+        {
+          "translation": "Promove a aceitação de Bitcoin Cash através de donativos."
+        }
+      ]
+    },
+    "ab820d85dd149c4c7df1cf35bda3a605": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Donativos Aceites Primário"
+        }
+      ]
+    },
+    "9695c1eddcbaea744d00bd63ff4db5d9": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Donativos Aceites Laranja"
+        }
+      ]
+    },
+    "820ab18eb2dcca03990266cb6fae9bb7": {
+      "translations": [
+        {
+          "translation": "Identidade Visual"
+        }
+      ]
+    },
+    "ca8e7b49a0d5ea599e34aa5908a5698d": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash fontes, cores e mais."
+        }
+      ]
+    },
+    "10d6c98143016d27f15f237db409ef0d": {
+      "translations": [
+        {
+          "translation": "Descarregar Fonte"
+        }
+      ]
+    },
+    "344fce672d7d60460534511b30b59c0e": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Laranja"
+        }
+      ]
+    },
+    "89d14c96821ed1b03ddd3ae98a829559": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Cinzento"
+        }
+      ]
+    },
+    "b51bfa6d95943ccf8cea143aa7352664": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Branco"
+        }
+      ]
+    },
+    "dd2b6abb6a05f8ea0cb87c2f48bdd502": {
+      "translations": [
+        {
+          "translation": "Formas fáceis de comprar Bitcoin Cash"
+        }
+      ]
+    },
+    "677ea18ec8c7f2e5a0e4698cb6b7a17f": {
+      "translations": [
+        {
+          "translation": "Onde podes gastar Bitcoin Cash"
+        }
+      ]
+    },
+    "ae7690a0d139cdb70a3a17affefb6326": {
+      "translations": [
+        {
+          "translation": "Subscreve e recebe notícias, guias e mais sobre Bitcoin Cash."
+        }
+      ]
+    },
+    "f779d907ef682a079c34a0b3453261c8": {
+      "translations": [
+        {
+          "translation": "Em breve."
+        }
+      ]
+    },
+    "ffe388386a3f6ea439f72452050e80a9": {
+      "translations": [
+        {
+          "translation": "Início"
+        }
+      ]
+    },
+    "44a24bc2296c5d9e605b8f25b668460c": {
+      "translations": [
+        {
+          "translation": "Nós Bitcoin Cash"
+        }
+      ]
+    },
+    "0b70238c1ec446e023d6d616d39b20d1": {
+      "translations": [
+        {
+          "translation": "Nós"
+        }
+      ]
+    },
+    "8863afc1901492a09d8fc593934a6a9c": {
+      "translations": [
+        {
+          "translation": "Projectos Bitcoin Cash"
+        }
+      ]
+    },
+    "50706fdb25734791332d2d12fa387980": {
+      "translations": [
+        {
+          "translation": "Projectos"
+        }
+      ]
+    },
+    "d74b66d8afcffeb2cf7b4c7f5848e22f": {
+      "translations": [
+        {
+          "translation": "Ordem Canónica de Transacções"
+        }
+      ]
+    },
+    "de78c72984a1db2439de0c93b90f7f0f": {
+      "translations": [
+        {
+          "translation": "(processamento de blocos escalável)"
+        }
+      ]
+    },
+    "f42b22638fe3189bafb4aaa20015143d": {
+      "translations": [
+        {
+          "translation": "Propagação de Blocos mais Rápida"
+        }
+      ]
+    },
+    "6f297b182748a3d753f7e815ad8e8fa8": {
+      "translations": [
+        {
+          "translation": "(graphene ou outro)"
+        }
+      ]
+    },
+    "2b7d19f35c712e8a70ec7c74aee63cb4": {
+      "translations": [
+        {
+          "translation": "Árvore de metadados Merklix"
+        }
+      ]
+    },
+    "94e6f38059317000f2018ee6cea4954c": {
+      "translations": [
+        {
+          "translation": "(processamento de blocos escalável)"
+        }
+      ]
+    },
+    "d3197aa026de8266870fa7e95620437d": {
+      "translations": [
+        {
+          "translation": "Compromisso de UTXO"
+        }
+      ]
+    },
+    "c8e1c0e560dac971a40a0fe2280b8daf": {
+      "translations": [
+        {
+          "translation": "(corte da blockchain)"
+        }
+      ]
+    },
+    "9f2f94996c5fa9bcc7c945c8200997d3": {
+      "translations": [
+        {
+          "translation": "Assinaturas Schnorr"
+        }
+      ]
+    },
+    "eae6be17343c05ce1b36367adc3a5af1": {
+      "translations": [
+        {
+          "translation": "(validação de assinaturas em lote)"
+        }
+      ]
+    },
+    "5a8ab17357d9b2a86e57f42ef66ccae5": {
+      "translations": [
+        {
+          "translation": "Tamanho de Bloco Adaptável"
+        }
+      ]
+    },
+    "cc0aa9ea6d5a1484bbb753196ac79503": {
+      "translations": [
+        {
+          "translation": "(crescimento motivado pelo mercado até blocos de 1TB)"
+        }
+      ]
+    },
+    "375a4d3f546905e096f415172142b301": {
+      "translations": [
+        {
+          "translation": "Escala Humana"
+        }
+      ]
+    },
+    "32ab79127cc82627d4736f926503d70a": {
+      "translations": [
+        {
+          "translation": "50 transacções / dia para 10 mil milhões de pessoas"
+        }
+      ]
+    },
+    "cefac769976f276c1490c7f5899773eb": {
+      "translations": [
+        {
+          "translation": "(mais fácil & seguro para o utilizador)"
+        }
+      ]
+    },
+    "c2405a77eeb1af62efdb24cf4cb91d88": {
+      "translations": [
+        {
+          "translation": "(segurança para carteiras de hardware)"
+        }
+      ]
+    },
+    "c681801595f881e98c5ca32dd88c979b": {
+      "translations": [
+        {
+          "translation": "Melhoria nas Taxas"
+        }
+      ]
+    },
+    "96ef736993f49b36292d0c721df0c853": {
+      "translations": [
+        {
+          "translation": "(transacções mais baratas)"
+        }
+      ]
+    },
+    "aca4dc88192cbdd2a892c2338bfc7486": {
+      "translations": [
+        {
+          "translation": "Pré-consenso"
+        }
+      ]
+    },
+    "d25159772bc79174dd0214b6f1c63372": {
+      "translations": [
+        {
+          "translation": "(segurança quase instantânea para comerciantes)"
+        }
+      ]
+    },
+    "79ed2bb0c565f6faf9de9692e4c203b8": {
+      "translations": [
+        {
+          "translation": "Satoshis Fraccionários"
+        }
+      ]
+    },
+    "ca5b1b6881c58cfd52dff4639289f34b": {
+      "translations": [
+        {
+          "translation": "(taxas baixas para sempre)"
+        }
+      ]
+    },
+    "c24baa1861abf22a2912d20c0663c1dd": {
+      "translations": [
+        {
+          "translation": "A Melhor Moeda"
+        }
+      ]
+    },
+    "cd210324da87d96a9e423660ca217086": {
+      "translations": [
+        {
+          "translation": "seguro em menos de 3 segundos - taxas de transacção sempre baixas"
+        }
+      ]
+    },
+    "6c3f3599a0148d9d16b9bd7effa395c3": {
+      "translations": [
+        {
+          "translation": "Opcodes Básicos"
+        }
+      ]
+    },
+    "23165aa168bfd7ac050c04372baa1c57": {
+      "translations": [
+        {
+          "translation": "OP_RETURN com 223 bytes"
+        }
+      ]
+    },
+    "7b9d072d52c96d51448b5b5e905eabc4": {
+      "translations": [
+        {
+          "translation": "(redes sociais on-chain)"
+        }
+      ]
+    },
+    "a5ef59a8e963e23249c53d12d54bbef6": {
+      "translations": [
+        {
+          "translation": "(oráculos e scripts avançados)"
+        }
+      ]
+    },
+    "0e9a114bd595f515028b2a4ec7b350a5": {
+      "translations": [
+        {
+          "translation": "Mais Opcodes Básicos"
+        }
+      ]
+    },
+    "845d958e800ceda2abedfbf6006e964b": {
+      "translations": [
+        {
+          "translation": "Novo Formato de Transacção"
+        }
+      ]
+    },
+    "3644ef85d8fdd32158007da43173480d": {
+      "translations": [
+        {
+          "translation": "(mais capaz, mais compacto)"
+        }
+      ]
+    },
+    "a7a952fcc2bbfc00828dffc793130c11": {
+      "translations": [
+        {
+          "translation": "Economia de Tokens"
+        }
+      ]
+    },
+    "218c4e7212c5447ad5cc3e10dca733f4": {
+      "translations": [
+        {
+          "translation": "todos os tipos de activos negociados na blockchain"
+        }
+      ]
+    },
+    "023ec8be209391d9d6e25c15ffd90b03": {
+      "translations": [
+        {
+          "translation": "Completo"
+        }
+      ]
+    },
+    "4e911c96b6738781fcfb52d827e2a82c": {
+      "translations": [
+        {
+          "translation": "Em Progresso"
+        }
+      ]
+    },
+    "c322ae2380b4baec92a70aa1ebbe22e7": {
+      "translations": [
+        {
+          "translation": "Planeado"
+        }
+      ]
+    },
+    "f8587b3a18c163825d78472b397c218d": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
+    "833f50b83778189d804f395a6d5e8b95": {
+      "translations": [
+        {
+          "translation": "Escalabilidade"
+        }
+      ]
+    },
+    "668e0a0074ecef56d93bffc3eaf7334f": {
+      "translations": [
+        {
+          "translation": "Usabilidade"
+        }
+      ]
+    },
+    "c33868c5aba6a5a196423b57167950a1": {
+      "translations": [
+        {
+          "translation": "Extensibilidade"
+        }
+      ]
+    },
+    "437d1a5b9bb5b5b0daef16d25f95d784": {
+      "translations": [
+        {
+          "translation": "Protocolo Bitcoin Cash Completo"
+        }
+      ]
+    },
+    "5f0f6872577f832b8e66428e941a7590": {
+      "translations": [
+        {
+          "translation": "Roadmap"
+        }
+      ]
+    },
+    "db0474a08f0ea607a9dce3710b680bae": {
+      "translations": [
+        {
+          "translation": "O Rodmap Bitcoin Cash"
+        }
+      ]
+    },
+    "b1841b456ae95d47de5ecdb526454689": {
+      "translations": [
+        {
+          "translation": "O objectivo do Bitcoin Cash é tornar-se uma moeda sólida que possa ser usada por qualquer pessoa no mundo. Esta é uma tecnologia com o poder de alterar o rumo da civilização e aumentar drasticamente a liberdade e prosperidade humanas."
+        }
+      ]
+    },
+    "a737054ad43aa6ff83b9edf5db3acace": {
+      "translations": [
+        {
+          "translation": "Este roadmap tem como objectivo fornece ruma direcção técnica de alto nível e permitir a várias equipas técnicas trabalhar em conjunto em direcção ao objectivo comum de desenvolver o Bitcoin Cash. O papel dos programadores em avançar com este objecto está na produção de software profissional de alta qualidade e que serve as necessidades dos seus utilizadores, mineiros e comerciantes. Procuramos um melhoramento técnico contínuo por forma a fornecer produtos fiáveis e uma fundação sólida para o Bitcoin Cash."
+        }
+      ]
+    },
+    "edc3324962ef645e29c41016fd5d6233": {
+      "translations": [
+        {
+          "translation": "O desenho básico do Bitcoin Cash é robusto. No entanto isto não significa que seja perfeito. É prudente continuar a fazer melhorias incrementais ao sistema com uma orientação técnica igualmente robusta e engenharia cuidadosa. Ao implementar optimizações e actualizações do protocolo o dinheiro digital de ponto a ponto irá adquirir uma escalabilidade várias ordens de magnitude acima dos limites actuais."
+        }
+      ]
+    },
+    "bc1c733635a1765e925baad759278729": {
+      "translations": [
+        {
+          "translation": "Estas melhorias técnicas necessárias podem ser divididas em três categorias:"
+        }
+      ]
+    },
+    "330fc806c5c3793a47a237ab77f659c4": {
+      "translations": [
+        {
+          "translation": "Permitir que o Bitcoin Cash escale desde cerca de 100 Tx/s até mais de 5.000.000 Tx/s. São necessárias melhorias ao protocolo para que o processamento paralelo em massa permita este ritmo de processamento de transacções."
+        }
+      ]
+    },
+    "b49cd263cfb4e543f3db1e2ff5c764b9": {
+      "translations": [
+        {
+          "translation": "Melhorar a experiência de pagamento para garantir que é instantânea e fiável. As transacções devem poder ser consideradas seguras no espaço de três segundos."
+        }
+      ]
+    },
+    "580458ef8a82dc6d1ad48aaf4cec2b90": {
+      "translations": [
+        {
+          "translation": "Tornar o Bitcoin Cash extensível. Um protocolo extensível torna as futuras melhorias menos disruptivas e proporciona uma base sólida sobre a qual negócios e programadores podem construir."
+        }
+      ]
+    },
+    "ede0f6a38233fccc685c47f6c138e5a3": {
+      "translations": [
+        {
+          "translation": "A rede Bitcoin Cash realiza actualizações do protocolo duas vezes por ano: a 15 de Maio e a 15 de Outubro. Estas actualizações são obrigatórias para todos os operadores de nós na rede. Estes momentos são por vezes referidos como \"actualizações hard fork\" mas o termo \"actualizações programadas do protocolo\" é preferível."
+        }
+      ]
+    },
+    "d55f7f676c1f2e9a8dfbe41fbbb2253d": {
+      "translations": [
+        {
+          "translation": "Em vez de ser utilizado um número de bloco específico, as actualizações baseiam-se numa marca temporal (UNIX timestamp). Quando a marca temporal média, dos 11 blocos mais recentes (MTP-11), for maior que ou igual à marca temporal para 15 de Maio (ou 15 de Outubro) às 12:00:00 UTC, as novas regras para o protocolo entram em efeito. Esta transição permite aos negócios prepararem-se para a actualização pois acontece num momento específico, ou com diferença de apenas algumas horas."
+        }
+      ]
+    },
+    "1ec31f9ea0456c8381e204f776ef28bc": {
+      "translations": [
+        {
+          "translation": "Apesar de não se esperar que esta actualização programada bianual continue para sempre, será mantida pelo menos no curto tempo. Actualizações regulares do protocolo conferem uma cadência previsível ao ecossistema e são necessárias para alcançar a visão esquematizada no roadmap."
+        }
+      ]
+    },
+    "6e59af9a2000ad59bc5cb5b47a17c2c7": {
+      "translations": [
+        {
+          "translation": "Para se tornar uma base sólida para o desenvolvimento de aplicações e inovação, o Bitcoin Cash precisa de competir e melhorar continuamente. Trabalhando juntos podemos construir uma fundação técnica que permite ao Bitcoin Cash ser a melhor forma de dinheiro que o mundo já viu."
+        }
+      ]
+    },
+    "abf7a99cb5c993a55b9707323a02ff39": {
+      "translations": [
+        {
+          "translation": "Serviços Bitcoin Cash"
+        }
+      ]
+    },
+    "a6bb7cf37ec7fac947cd70e77df6e70c": {
+      "translations": [
+        {
+          "translation": "Serviços"
+        }
+      ]
+    },
+    "f6c44097c03448faa1d1d4cd3a7b8a9e": {
+      "translations": [
+        {
+          "translation": "Comprar Online"
+        }
+      ]
+    },
+    "0c7a4eafd2714cafe162617f567d94c6": {
+      "translations": [
+        {
+          "translation": "Utiliza Bitcoin Cash em algumas das tuas lojas online favoritas"
+        }
+      ]
+    },
+    "a975d19dcd192c56716c068e8244d26e": {
+      "translations": [
+        {
+          "translation": "Utiliza em Restaurantes"
+        }
+      ]
+    },
+    "8ab082f16c6dbc55a408fae29a05f625": {
+      "translations": [
+        {
+          "translation": "Visita restaurantes ou cafés que aceitam Bitcoin Cash."
+        }
+      ]
+    },
+    "8b08668323fc878fc4c870760dcc43f3": {
+      "translations": [
+        {
+          "translation": "Compra em Pessoa"
+        }
+      ]
+    },
+    "e0846cb7cefedbbe5c94c635c95a6cd3": {
+      "translations": [
+        {
+          "translation": "Aparece em cerca de {shop count} localizações físicas que aceitam Bitcoin Cash."
+        }
+      ]
+    },
+    "b7c1d3ad85e85435585dd5a42bd3e0fc": {
+      "translations": [
+        {
+          "translation": "O que posso comprar com Bitcoin Cash?"
+        }
+      ]
+    },
+    "b71f4d4822b332fdd741f15c787a1c45": {
+      "translations": [
+        {
+          "translation": "Utilizar Bitcoin Cash"
+        }
+      ]
+    },
+    "edc46b4fa2ee1daf88fc0635ca52ae30": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash não é só para especulação. A utilização esperada é como moeda electrónica de ponto a ponto, ou seja, como forma de pagamento. Pagar com Bitcoin Cash é rápido com transacções quase instantâneas e taxas de transacção abaixo de um cêntimo, o que tornar o Bitcoin Cash a moeda digital mais segura e amplamente utilizada do planeta."
+        }
+      ]
+    },
+    "98de1bb9fab11d069ecb356b5da29844": {
+      "translations": [
+        {
+          "translation": "Onde posso pagar com Bitcoin Cash?"
+        }
+      ]
+    },
+    "acc1d2044652d38249f3ad8e4d4a2aac": {
+      "translations": [
+        {
+          "translation": "Pagar com Bitcoin Cash Em Pessoa"
+        }
+      ]
+    },
+    "7a350b47bb5227b22b2e3181d50bcba4": {
+      "translations": [
+        {
+          "translation": "Dados de localização por {=Bitcoin.com Maps}"
+        }
+      ]
+    },
+    "96595f0244e74d9bdcc717f7604c7ff7": {
+      "translations": [
+        {
+          "translation": "Mapas Bitcoin.com"
+        }
+      ]
+    },
+    "afd2a309498355f71d5247c563e67260": {
+      "translations": [
+        {
+          "translation": "Começa Aqui"
+        }
+      ]
+    },
+    "24f1ac1047df047c2b018b64f48e4f8f": {
+      "translations": [
+        {
+          "translation": "Começar"
+        }
+      ]
+    },
+    "a2cd44265bdf4d6283b2c218339f7f3d": {
+      "translations": [
+        {
+          "translation": "O que é o dinheiro electrónico ponto a ponto?"
+        }
+      ]
+    },
+    "3e410384adbd12a4d1b45b21aebbf2ad": {
+      "translations": [
+        {
+          "translation": "Começar"
+        }
+      ]
+    },
+    "db4a06c9ac83047222695fdeab7a53f5": {
+      "translations": [
+        {
+          "translation": "Dinheiro electrónico de ponto a ponto (P2P, peer-to-peer) é descrito de forma simples como uma moeda electrónica que pode ser enviada por uma pessoa a qualquer outra sem necessidade de confiar numa terceira parte. Como descrito no whitepaper original do Bitcoin, escrito por Satoshi Nakamoto, dinheiro de ponto a ponto utiliza assinaturas digitais como parte da solução mas os principais benefícios são perdidos se, para evitar fraude, ainda existir necessidade de confiar numa terceira parte. O que torna o dinheiro ponto a ponto uma forma segura de transaccionar na internet é precisamente não depender de intermediários."
+        }
+      ]
+    },
+    "b3ca007f1440b18c2a9414c45aa30930": {
+      "translations": [
+        {
+          "translation": "Ver Mais"
+        }
+      ]
+    },
+    "370fcbf712cd27345ee3cb129882bb72": {
+      "translations": [
+        {
+          "translation": "Onde posso armazenar o meu Bitcoin Cash?"
+        }
+      ]
+    },
+    "1db14774316202bab757eeb0c713df38": {
+      "translations": [
+        {
+          "translation": "Descarrega uma carteira"
+        }
+      ]
+    },
+    "39686bb0751adc2ea460e16907764f21": {
+      "translations": [
+        {
+          "translation": "Dar os primeiros passos com Bitcoin Cash é super fácil. O primeiro passo é descarregar uma carteira para que possas começar a participar na economia Bitcoin. Podes descarregar a maior parte das carteiras gratuitamente e são todas simples de utilizar com funcionalidades como enviar e receber pagamentos, armazenar fundos de forma segura, consultar histórico de transacções entre outras."
+        }
+      ]
+    },
+    "a52662521b616cc5e743a013fab56c13": {
+      "translations": [
+        {
+          "translation": "Como faço para obter Bitcoin Cash?"
+        }
+      ]
+    },
+    "6643a872c9b0fa37db7d39081471b16a": {
+      "translations": [
+        {
+          "translation": "Compra ou Ganha Bitcoin Cash"
+        }
+      ]
+    },
+    "b3fb242ac070953d5104c4f2363bb244": {
+      "translations": [
+        {
+          "translation": "As duas formas mais fáceis de obter Bitcoin Cash são a compra e o trabalho. Comprar Bitcoin Cash é a forma mais utilizada e conveniente. Tudo o que tens a fazer é registar num portal de câmbio, depositar fundos e convertê-los para Bitcoin Cash. O portal de câmbio fornecerá o Bitcoin Cash assim que uma negociação esteja concluída."
+        }
+      ]
+    },
+    "2ad3d93815fbfa52ab4a6a7824e72e46": {
+      "translations": [
+        {
+          "translation": "O que posso comprar com Bitcoin Cash?"
+        }
+      ]
+    },
+    "3dd3da825840d16a076e537d527ba830": {
+      "translations": [
+        {
+          "translation": "Paga com Bitcoin Cash"
+        }
+      ]
+    },
+    "e3976450a07e4c3c1be22c6b4047ac80": {
+      "translations": [
+        {
+          "translation": "O Bitcoin Cash não é só para especulação. A utilização esperada é como moeda electrónica de ponto a ponto, ou seja, como forma de pagamento. Pagar com Bitcoin Cash é rápido com transacções quase instantâneas e taxas de transacção abaixo de um cêntimo, o que tornar o Bitcoin Cash a moeda digital mais segura e amplamente utilizada do planeta."
+        }
+      ]
+    },
+    "43e340303ba59891b094e701ae8a5219": {
+      "translations": [
+        {
+          "translation": "Como é que a minha empresa pode utilizar Bitcoin Cash?"
+        }
+      ]
+    },
+    "baa4ef6f10ee3273f568e30e99973c46": {
+      "translations": [
+        {
+          "translation": "Aceita Bitcoin Cash"
+        }
+      ]
+    },
+    "aab54798d448c24c51e5bb9f65c12fac": {
+      "translations": [
+        {
+          "translation": "Como comerciante, um dos teus principais objectivos é ser capaz de aceitar e processar pagamentos rapidamente e sem esforço de modo a manter os clientes contentes e receber pagamentos sem dores de cabeça. Bitcoin Cash é a solução pois permite transacções rápidas e de baixo custo. À medida que o mundo se torna digital, moedas electrónicas como o Bitcoin Cash estão a tornar-se o método preferido para pagamento online e fisicamente em lojas. Aceita Bitcoin Cash facilmente ou utiliza serviços terceiros para aceitar Bitcoin Cash através das suas plataformas e converter tudo ou apenas parte das tuas vendas para uma moeda local."
+        }
+      ]
+    },
+    "25cd2ce50745d7f5a8c349ae9cbc31f2": {
+      "translations": [
+        {
+          "translation": "Como fazer a actualização"
+        }
+      ]
+    },
+    "85682b29db7464df10b3d32e93b67be1": {
+      "translations": [
+        {
+          "translation": "Como fazer a actualização"
+        }
+      ]
+    },
+    "ca847f2ef0ace574caad1fd61d0fbedb": {
+      "translations": [
+        {
+          "translation": "Actualização de Rede Programada"
+        }
+      ]
+    },
+    "43f79c63c255af090395fb2730bbb72d": {
+      "translations": [
+        {
+          "translation": "Ver Roadmap"
+        }
+      ]
+    },
+    "f10c84ef810cfad7603bda942c2ae83d": {
+      "translations": [
+        {
+          "translation": "Implementações Compatíveis:"
+        }
+      ]
+    },
+    "46e0915ba9a83533707df7d06eba0d32": {
+      "translations": [
+        {
+          "translation": "Informação Adicional:"
+        }
+      ]
+    },
+    "669d8c0c521185f07f6af5a813a086b8": {
+      "translations": [
+        {
+          "translation": "Prepara-te para a actualização"
+        }
+      ]
+    },
+    "0b6ba8882976210fb21c071a1842cbb8": {
+      "translations": [
+        {
+          "translation": "Especificações da Actualização"
+        }
+      ]
+    },
+    "ded6ae43f7b0321f49459ac88d0f1080": {
+      "translations": [
+        {
+          "translation": "Informações da Testnet"
+        }
+      ]
+    },
+    "08a7f009c75e4115810b529774fffec0": {
+      "translations": [
+        {
+          "translation": "Carteira Móvel"
+        }
+      ]
+    },
+    "67d997bd9cd69eeffb06ed1d005309ff": {
+      "translations": [
+        {
+          "translation": "Uma carteira móvel é uma excelente opção para armazenar e pagar com Bitcoin Cash."
+        }
+      ]
+    },
+    "16980a9bc5d08afe0da623c931f51ecf": {
+      "translations": [
+        {
+          "translation": "Carteira Desktop"
+        }
+      ]
+    },
+    "640155cd0a4887eea9f0fe40f50ad963": {
+      "translations": [
+        {
+          "translation": "Tenta utilizar uma Carteira Desktop para integrar Bitcoin Cash nos teus negócios."
+        }
+      ]
+    },
+    "e3c62508c40c90b8d19f3f5fac9cdda5": {
+      "translations": [
+        {
+          "translation": "Carteira por Hardware"
+        }
+      ]
+    },
+    "3cb92d5d743af70b83a16a08f06b75f3": {
+      "translations": [
+        {
+          "translation": "Mantém o teu Bitcoin Cash numa carteira física segura. ´uma excelente opção para armazenamento de longo prazo."
+        }
+      ]
+    },
+    "9117e8e169b255f9f63bad8dfde070b3": {
+      "translations": [
+        {
+          "translation": "Carteira de Papel"
+        }
+      ]
+    },
+    "51521f79cbb79b97064d91f1d1eb1827": {
+      "translations": [
+        {
+          "translation": "Armazena o teu Bitcoin Cash offline numa carteira de papel. É uma excelente opção para armazenamento de longo prazo ou para dar brindes a amigos ou família."
+        }
+      ]
+    },
+    "060de5230589d7d89e81bae0b9c16db1": {
+      "translations": [
+        {
+          "translation": "Onde posso armazenar o meu Bitcoin Cash?"
+        }
+      ]
+    },
+    "2d184de27e52fabbdf34a967cccf3871": {
+      "translations": [
+        {
+          "translation": "Descarrega uma carteira"
+        }
+      ]
+    },
+    "4ad17239834721a38e7451a5550156db": {
+      "translations": [
+        {
+          "translation": "Dar os primeiros passos com Bitcoin Cash é super fácil. O primeiro passo é descarregar uma carteira para que possas começar a participar na economia Bitcoin. Podes descarregar a maior parte das carteiras gratuitamente e são todas simples de utilizar com funcionalidades como enviar e receber pagamentos, armazenar fundos de forma segura, consultar histórico de transacções entre outras."
+        }
+      ]
+    },
+    "8fe149378aebfc9f37688e222b2c433e": {
+      "translations": [
+        {
+          "translation": "Carteiras Bitcoin Cash"
+        }
+      ]
+    },
+    "30b0917c156050f542833475f6942bc3": {
+      "translations": [
+        {
+          "translation": "Que tipo de carteira devo usar?"
+        }
+      ]
+    },
+    "58ca67104a66a37f98a3f7f7b0f91e4b": {
+      "translations": [
+        {
+          "translation": "Carteiras em Destaque"
+        }
+      ]
+    },
+    "b4556aebb796f5e71f4eb77b1bc26fab": {
+      "translations": [
+        {
+          "translation": "Carteiras para Smartphone"
+        }
+      ]
+    },
+    "1c909027e6efdfefa39b3d92aa688a48": {
+      "translations": [
+        {
+          "translation": "Carteiras para PC"
+        }
+      ]
+    },
+    "a0369d50befc901a9fcfc65aa7b4a3aa": {
+      "translations": [
+        {
+          "translation": "Carteiras por Hardware"
+        }
+      ]
+    },
+    "ea4656f2a09327677744603e8d6b86d8": {
+      "translations": [
+        {
+          "translation": "Carteiras de Papel"
+        }
+      ]
+    },
+    "cf5bfb3a954b0cc97a5ad1b0df312858": {
+      "translations": [
+        {
+          "translation": "A Coinbase é um portal de câmbio para moedas digitais com sede em São Francisco, na California. Eles mediam trocas entre Bitcoin Cash, ou outras criptomoedas, e moedas locais em aproximadamente 32 países."
+        }
+      ]
+    },
+    "52f47801fe8849adcf8e14a4d6ce4529": {
+      "translations": [
+        {
+          "translation": "A CoinEx dedica-se a construir um portal de câmbio global, para moedas digitais, que seja altamente seguro, estável e eficiente. A CoinEx agora suporta múltiplos idiomas e estão a fornecer serviços de negociação em quase 100 países ou regiões."
+        }
+      ]
+    },
+    "45f8bafd7d930fd1492accec3dee96b5": {
+      "translations": [
+        {
+          "translation": "O Kraken é o maior portal de câmbio em volume e liquidez de euros e também negoceiam com Dólar Canadiano, Dólar Americano, Libras Inglesas e o Yen Japonês. O Kraken é consistentemente classificado, por meios de comunicação independentes, o melhor e mais seguro portal de câmbio Bitcoin."
+        }
+      ]
+    },
+    "13691ba4252beb6502e8bf9a91778aab": {
+      "translations": [
+        {
+          "translation": "Começa a utilizar a carteira Bitcoin.com para uma forma simples e segura de enviar e receber Bitcoin. A carteira suporta tanto o Bitcoin Cash (BCH) como o Bitcoin (BTC) o que permite aos utilizadores utilizar as duas moedas simultaneamente e sem esforço."
+        }
+      ]
+    },
+    "7578b5bc91d540f75a235f37d3656ce8": {
+      "translations": [
+        {
+          "translation": "A carteira de blockchain em que milhões já confiam. Armazena, gere e troca de forma segura Bitcoin Cash, Bitcoin, Ethereum e outros 1.770 outros bens da blockchain. Disponível em todo os teus dispositivos: Android, iOS, windows, macOS e Linux."
+        }
+      ]
+    },
+    "1c4c29060f6485fde9f4f8ed8757b5d6": {
+      "translations": [
+        {
+          "translation": "As tuas chaves privadas estão encriptadas e nunca deixam o teu computador. Os teus fundos podem ser recuperados a partir de uma frase secreta. Electron Cash é rápido porque utiliza servidores que indexam a blockchain Bitcoin Cash. Podes exportar as tuas chaves privadas e utilizá-las com outros clientes Bitcoin Cash."
+        }
+      ]
+    }
+  }
+}
