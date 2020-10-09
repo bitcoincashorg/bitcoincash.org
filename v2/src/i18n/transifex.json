@@ -174,150 +174,215 @@
     "developer_comment": "Default SEO page description",
     "context": "src/components/seo.js:28:33"
   },
+  "e1c09e9bfdf309494fe6d1f790202195": {
+    "string": "Days",
+    "developer_comment": "clock label 'days'",
+    "context": "src/layout/announcement-bar.js:66:66"
+  },
+  "c4f44ba193ff4db86672135fc9980b58": {
+    "string": "Hours",
+    "developer_comment": "clock label 'hours'",
+    "context": "src/layout/announcement-bar.js:73:73"
+  },
+  "e20a138d6a1519785fcd0a65e72335ef": {
+    "string": "Minutes",
+    "developer_comment": "clock label 'minutes'",
+    "context": "src/layout/announcement-bar.js:80:80"
+  },
+  "d76d33208be8a3117302ae108a11792a": {
+    "string": "Seconds",
+    "developer_comment": "clock label 'seconds'",
+    "context": "src/layout/announcement-bar.js:87:87"
+  },
+  "b69ecfed8a1334b466c23047bf344d08": {
+    "string": "Upgrade complete!",
+    "developer_comment": "Annoucement bar countdown complete header",
+    "context": "src/layout/announcement-bar.js:51:53"
+  },
   "a7430462af5cba62b3f993c0b544b345": {
     "string": "Reminder: {upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar reminder headline",
-    "context": "src/layout/announcement-bar.js:18:24"
+    "context": "src/layout/announcement-bar.js:105:111"
   },
-  "48a3a189922a12b1e4216cf93eeed6e3": {
-    "string": "Learn more",
-    "developer_comment": "Annoucement bar learn more text",
-    "context": "src/layout/announcement-bar.js:25:25"
-  },
-  "c896f27be5c90b6872cb876ce31ecfe3": {
-    "string": "{upgrade activation time} Planned Network Upgrade",
+  "efc6fe8c749d80179b63bb9adc3f0c96": {
+    "string": "Planned Network Upgrade",
     "developer_comment": "Annoucement bar inner headline",
-    "context": "src/layout/announcement-bar.js:34:39"
+    "context": "src/layout/announcement-bar.js:119:121"
   },
-  "60fc904396840c992f474ecda2da39ca": {
-    "string": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
+  "45291cdd18d5ca04e7ebebe7e5624ec8": {
+    "string": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
     "developer_comment": "Annoucement bar paragraph",
-    "context": "src/layout/announcement-bar.js:42:47"
+    "context": "src/layout/announcement-bar.js:128:134"
   },
-  "d770c97de5c52bd8109e39c140e62bab": {
-    "string": "See Roadmap",
-    "developer_comment": "'See Roadmap' button of the annoucement bar",
-    "context": "src/layout/announcement-bar.js:53:56"
-  },
-  "a47ca8d131e17fdd59a17e6deab246f1": {
-    "string": "Close",
-    "developer_comment": "'close' button on announcement bar at top of page to close the bar",
-    "context": "src/layout/announcement-bar.js:62:64"
-  },
-  "c7953645d1fdc6c8e72e1ad2fe573a5f": {
-    "string": "Compatible Implementations:",
-    "developer_comment": "Annoucement bar 'Compatible Implementations'",
-    "context": "src/layout/announcement-bar.js:70:72"
-  },
-  "4b0b3d5f8d03531c1cfe320e2883e0fd": {
-    "string": "Additional Information:",
-    "developer_comment": "Annoucement bar 'Additional Information:'",
-    "context": "src/layout/announcement-bar.js:82:84"
+  "2a32bfd2b07e1aedb4e9f561396ebd1b": {
+    "string": "the roadmap",
+    "developer_comment": "In the phrase: \"The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.\"",
+    "context": "src/layout/announcement-bar.js:130:130"
   },
   "c89bcd264da87e14f0291c9163705b5e": {
     "string": "Prepare for the Upgrade",
     "developer_comment": "Annoucement bar 'Prepare for the Upgrade'",
-    "context": "src/layout/announcement-bar.js:91:93"
+    "context": "src/layout/announcement-bar.js:140:143"
+  },
+  "a47ca8d131e17fdd59a17e6deab246f1": {
+    "string": "Close",
+    "developer_comment": "'close' button on announcement bar at top of page to close the bar",
+    "context": "src/layout/announcement-bar.js:151:153"
+  },
+  "c7953645d1fdc6c8e72e1ad2fe573a5f": {
+    "string": "Compatible Implementations:",
+    "developer_comment": "Annoucement bar 'Compatible Implementations'",
+    "context": "src/layout/announcement-bar.js:160:162"
+  },
+  "4b0b3d5f8d03531c1cfe320e2883e0fd": {
+    "string": "Additional Information:",
+    "developer_comment": "Annoucement bar 'Additional Information:'",
+    "context": "src/layout/announcement-bar.js:172:174"
   },
   "2a854a9d90f8402de7ce2e1f5fb71596": {
     "string": "Upgrade Specification",
     "developer_comment": "Annoucement bar 'Upgrade Specification'",
-    "context": "src/layout/announcement-bar.js:100:102"
+    "context": "src/layout/announcement-bar.js:181:183"
   },
   "41dd1d8d417e0a4239a6ae6bdff85146": {
     "string": "Testnet Information",
     "developer_comment": "Annoucement bar 'Testnet Information'",
-    "context": "src/layout/announcement-bar.js:109:111"
-  },
-  "657e00afe7a9a198d37ecf94de9045b9": {
-    "string": "Get Listed",
-    "developer_comment": "footer link to get listed",
-    "context": "src/layout/footer.js:30:30"
-  },
-  "800d353888445f1d8db4c8bd3bf28370": {
-    "string": "Privacy Policy",
-    "developer_comment": "footer link to the privacy policy",
-    "context": "src/layout/footer.js:34:34"
-  },
-  "7537888e67bacb91f04990e4fc0f4f13": {
-    "string": "Legal",
-    "developer_comment": "footer link to legalese",
-    "context": "src/layout/footer.js:38:38"
+    "context": "src/layout/announcement-bar.js:190:192"
   },
   "9554f6fa69616c126bb310c63587cbaa": {
     "string": "© {current year}, All Rights Reserved",
     "developer_comment": "Copyright footer",
-    "context": "src/layout/footer.js:93:98"
+    "context": "src/layout/footer.js:30:35"
+  },
+  "7d35b9d7cf6ac2cfb0550d7df531419a": {
+    "string": "Start Here",
+    "developer_comment": "start here footer column header",
+    "context": "src/layout/footer.js:43:43"
+  },
+  "e4fc7a483397b9567855965a0f861edb": {
+    "string": "Community",
+    "developer_comment": "community footer column header",
+    "context": "src/layout/footer.js:55:55"
+  },
+  "3cd2fcb238d073791b0178ccdb12472e": {
+    "string": "About",
+    "developer_comment": "about footer column header",
+    "context": "src/layout/footer.js:67:67"
   },
   "3c23e7392e65bfad89a895ad789ade46": {
     "string": "Services",
     "developer_comment": "Community menu 'services' link",
-    "context": "src/layout/navbar.js:22:22"
+    "context": "src/layout/nav-items.js:18:18"
   },
   "d2701e551c3b1087e38cf994996ccead": {
     "string": "Projects",
     "developer_comment": "Community menu 'projects' link",
-    "context": "src/layout/navbar.js:26:26"
+    "context": "src/layout/nav-items.js:22:22"
   },
   "58f3f371a60f2403eaaee09bbcb2c45d": {
     "string": "Exchanges",
     "developer_comment": "Community menu 'exchanges' link",
-    "context": "src/layout/navbar.js:30:30"
+    "context": "src/layout/nav-items.js:26:26"
   },
   "7d337ea26e78f2a65804aba296a7cee4": {
     "string": "Nodes",
     "developer_comment": "Community menu 'nodes' link",
-    "context": "src/layout/navbar.js:34:34"
+    "context": "src/layout/nav-items.js:30:30"
   },
   "ba4d0b9ed25b52c797f59d2016874f3b": {
     "string": "Developer Portal",
     "developer_comment": "Community menu 'developper portal' link",
-    "context": "src/layout/navbar.js:38:38"
+    "context": "src/layout/nav-items.js:34:34"
   },
   "84642b7d94ceb4a405027dbb91dca1ba": {
     "string": "Logos",
     "developer_comment": "Community menu 'logos' link",
-    "context": "src/layout/navbar.js:42:42"
+    "context": "src/layout/nav-items.js:38:38"
   },
   "702b2d4ddf76ff77afac3095e972f5ea": {
     "string": "Whitepaper",
     "developer_comment": "Community menu 'whitepaper' link",
-    "context": "src/layout/navbar.js:46:46"
+    "context": "src/layout/nav-items.js:42:42"
   },
   "fc31a7564465e7ea5b18f3d42d8b5d6c": {
     "string": "Roadmap",
     "developer_comment": "Community menu 'roadmap' link",
-    "context": "src/layout/navbar.js:51:51"
+    "context": "src/layout/nav-items.js:47:47"
   },
   "ca0099c6a546b549832b8813418d99cf": {
     "string": "Start Here",
     "developer_comment": "Top 'Start here' link",
-    "context": "src/layout/navbar.js:58:58"
+    "context": "src/layout/nav-items.js:57:57"
+  },
+  "8b5c7d8b014d4fe0f377958bd55f5da3": {
+    "string": "Getting Started",
+    "developer_comment": "Getting started page footer title",
+    "context": "src/layout/nav-items.js:62:62"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/layout/navbar.js:62:62"
+    "context": "src/layout/nav-items.js:67:67"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/layout/navbar.js:66:66"
+    "context": "src/layout/nav-items.js:73:73"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/layout/navbar.js:70:70"
+    "context": "src/layout/nav-items.js:78:78"
   },
   "734a1c5c0d8e3243e25047d98fb384c2": {
     "string": "About",
     "developer_comment": "Top 'about' link",
-    "context": "src/layout/navbar.js:73:73"
+    "context": "src/layout/nav-items.js:83:83"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/layout/navbar.js:79:79"
+    "context": "src/layout/nav-items.js:92:92"
+  },
+  "128ba6cf10df8dc4174477b139802071": {
+    "string": "Buy Bitcoin Cash",
+    "developer_comment": "Buy page footer title",
+    "context": "src/layout/nav-items.js:100:100"
+  },
+  "e7924224b70090a7a6c97af994d3ad00": {
+    "string": "Spend Bitcoin Cash",
+    "developer_comment": "Spend page footer title",
+    "context": "src/layout/nav-items.js:105:105"
+  },
+  "b556471366aa2f8e5c371aaef9de025a": {
+    "string": "Accept Bitcoin Cash",
+    "developer_comment": "Accept page footer title",
+    "context": "src/layout/nav-items.js:110:110"
+  },
+  "067c26a881b8c13193bd94ea054c07b7": {
+    "string": "FAQ",
+    "developer_comment": "FAQ page footer title",
+    "context": "src/layout/nav-items.js:115:115"
+  },
+  "ae3206f98f4934fed6b3795e87553a04": {
+    "string": "Get Listed",
+    "developer_comment": "Get Listed page footer title",
+    "context": "src/layout/nav-items.js:120:120"
+  },
+  "078f212a90892fb0312973e8d0d66a9d": {
+    "string": "Privacy Policy",
+    "developer_comment": "privacy policy page footer title",
+    "context": "src/layout/nav-items.js:125:125"
+  },
+  "a0fe38d5e03a2df84ff19d8ed67121c2": {
+    "string": "Legal",
+    "developer_comment": "legal page footer title",
+    "context": "src/layout/nav-items.js:130:130"
+  },
+  "6e13dbebfcaf747d5fdf760d92729353": {
+    "string": "Help",
+    "developer_comment": "help page footer title",
+    "context": "src/layout/nav-items.js:135:135"
   },
   "d529feb2f96beaf448d03d8a4ce9d8f5": {
     "string": "The page you are looking for does not exist.",
