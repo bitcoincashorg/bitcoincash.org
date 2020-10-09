@@ -7,11 +7,98 @@ import { Accordion } from "react-bootstrap"
 import Checkmark from "assets/icons/checkmark.svg"
 import UpgradeDate from "global/upgrade-date.js"
 import LinkIcon from "assets/icons/link.svg"
-import Arrow from "assets/icons/getting-started/arrow-down.svg"
+import Countdown, { zeroPad } from "react-countdown"
+import { ACTIVATION_TIMESTAMP } from "global/upgrade-date.js"
+import Network from "assets/images/network.png"
+
+const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
+  if (completed) {
+    return (
+      <div>
+        <div className={S.countdownContainer}>
+          <div className={S.countdownUnitContainer}>
+            <div className={S.countdownUnit}>00</div>
+            <div className={S.countdownLabel}>
+              <fbt desc="clock label 'days'">Days</fbt>
+            </div>
+          </div>
+          <div className={S.colon}>&#58;</div>
+          <div className={S.countdownUnitContainer}>
+            <div className={S.countdownUnit}>00</div>
+            <div className={S.countdownLabel}>
+              <fbt desc="clock label 'hours'">Hours</fbt>
+            </div>
+          </div>
+          <div className={S.colon}>&#58;</div>
+          <div className={S.countdownUnitContainer}>
+            <div className={S.countdownUnit}>00</div>
+            <div className={S.countdownLabel}>
+              <fbt desc="clock label 'minutes'">Minutes</fbt>
+            </div>
+          </div>
+          <div className={S.colon}>&#58;</div>
+          <div className={S.countdownUnitContainer}>
+            <div className={S.countdownUnit}>00</div>
+            <div className={S.countdownLabel}>
+              <fbt desc="clock label 'seconds'">Seconds</fbt>
+            </div>
+          </div>
+        </div>
+        <h4 className={S.completeHeader}>
+          <span role="img" aria-label="party popper emoji">
+            &#127881;
+          </span>{" "}
+          <fbt desc="Annoucement bar countdown complete header">
+            Upgrade complete!
+          </fbt>{" "}
+          <span role="img" aria-label="party popper emoji">
+            &#127881;
+          </span>
+        </h4>
+      </div>
+    )
+  } else {
+    return (
+      <div className={S.countdownContainer}>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{zeroPad(days, 2)}</div>
+          <div className={S.countdownLabel}>
+            <fbt desc="clock label 'days'">Days</fbt>
+          </div>
+        </div>
+        <div className={S.colon}>&#58;</div>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{zeroPad(hours, 2)}</div>
+          <div className={S.countdownLabel}>
+            <fbt desc="clock label 'hours'">Hours</fbt>
+          </div>
+        </div>
+        <div className={S.colon}>&#58;</div>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{zeroPad(minutes, 2)}</div>
+          <div className={S.countdownLabel}>
+            <fbt desc="clock label 'minutes'">Minutes</fbt>
+          </div>
+        </div>
+        <div className={S.colon}>&#58;</div>
+        <div className={S.countdownUnitContainer}>
+          <div className={S.countdownUnit}>{zeroPad(seconds, 2)}</div>
+          <div className={S.countdownLabel}>
+            <fbt desc="clock label 'seconds'">Seconds</fbt>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
 
 const AnnouncementBar = () => {
   return (
-    <Accordion className={S.accordionSection}>
+    <Accordion
+      className={S.accordionSection}
+      defaultActiveKey="0"
+      style={{ backgroundImage: `url(${Network})` }}
+    >
       <Accordion.Toggle as={S.accordionSection} eventKey="0">
         <div className={S.accordionTitle}>
           <Checkmark />
@@ -22,48 +109,51 @@ const AnnouncementBar = () => {
             </fbt:param>
             Planned Network Upgrade
           </fbt>
-          . <fbt desc="Annoucement bar learn more text">Learn more</fbt>
-          <Arrow />
         </div>
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="0">
         <div className={S.accordionContent}>
           <div className={S.annoucementPanel}>
             <div className={S.annoucementPanelInner}>
-              <h4>
+              <h4 className={S.panelHeader}>
                 <fbt desc="Annoucement bar inner headline">
-                  <fbt:param name="upgrade activation time">
-                    <UpgradeDate />
-                  </fbt:param>
                   Planned Network Upgrade
                 </fbt>
               </h4>
+              <Countdown
+                date={ACTIVATION_TIMESTAMP * 1000}
+                renderer={CountdownClock}
+              />
               <p>
                 <fbt desc="Annoucement bar paragraph">
                   The Bitcoin Cash network will undergo a protocol upgrade as
-                  per the roadmap. Businesses and individuals who use the
-                  Bitcoin Cash network should check to ensure that their
-                  software is compatible with the upgrade.
+                  per <Link href="/roadmap/">the roadmap</Link>. Businesses and
+                  other node operators who use the Bitcoin Cash network should
+                  check to ensure that their software is compatible with the
+                  upgrade.
                 </fbt>
               </p>
-              <Accordion.Toggle as={S.primaryButton}>
+              <div className={S.buttonContainer}>
                 <PrimaryButton
                   noMarginLeft={true}
                   className={S.primaryButton}
                   buttonText={fbt(
-                    "See Roadmap",
-                    "'See Roadmap' button of the annoucement bar"
+                    "Prepare for the Upgrade",
+                    "Annoucement bar 'Prepare for the Upgrade'"
                   )}
-                  href={"/roadmap/"}
+                  href={
+                    "https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
+                  }
                 />
-              </Accordion.Toggle>
-              <Accordion.Toggle as={S.panelButton}>
-                <button className={S.panelButton}>
-                  <fbt desc="'close' button on announcement bar at top of page to close the bar">
-                    Close
-                  </fbt>
-                </button>
-              </Accordion.Toggle>
+
+                <Accordion.Toggle as={S.panelButton}>
+                  <button className={S.panelButton}>
+                    <fbt desc="'close' button on announcement bar at top of page to close the bar">
+                      Close
+                    </fbt>
+                  </button>
+                </Accordion.Toggle>
+              </div>
             </div>
             <div className={`${S.annoucementPanelInner} ${S.centerPanel}`}>
               <h4>
@@ -83,15 +173,6 @@ const AnnouncementBar = () => {
                   Additional Information:
                 </fbt>
               </h4>
-              <Link
-                className={S.panelLink}
-                href="https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
-              >
-                <LinkIcon />
-                <fbt desc="Annoucement bar 'Prepare for the Upgrade'">
-                  Prepare for the Upgrade
-                </fbt>
-              </Link>
               <Link
                 className={S.panelLink}
                 href="/spec/2020-11-15-upgrade.html"
