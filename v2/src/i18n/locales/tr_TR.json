@@ -246,6 +246,41 @@
         }
       ]
     },
+    "e1c09e9bfdf309494fe6d1f790202195": {
+      "translations": [
+        {
+          "translation": "Days"
+        }
+      ]
+    },
+    "c4f44ba193ff4db86672135fc9980b58": {
+      "translations": [
+        {
+          "translation": "Hours"
+        }
+      ]
+    },
+    "e20a138d6a1519785fcd0a65e72335ef": {
+      "translations": [
+        {
+          "translation": "Minutes"
+        }
+      ]
+    },
+    "d76d33208be8a3117302ae108a11792a": {
+      "translations": [
+        {
+          "translation": "Seconds"
+        }
+      ]
+    },
+    "b69ecfed8a1334b466c23047bf344d08": {
+      "translations": [
+        {
+          "translation": "Upgrade complete!"
+        }
+      ]
+    },
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
@@ -253,31 +288,31 @@
         }
       ]
     },
-    "48a3a189922a12b1e4216cf93eeed6e3": {
+    "efc6fe8c749d80179b63bb9adc3f0c96": {
       "translations": [
         {
-          "translation": "Learn more"
+          "translation": "Planlanmış Ağ Yükseltmesi"
         }
       ]
     },
-    "c896f27be5c90b6872cb876ce31ecfe3": {
+    "45291cdd18d5ca04e7ebebe7e5624ec8": {
       "translations": [
         {
-          "translation": "{upgrade activation time} Planned Network Upgrade"
+          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
         }
       ]
     },
-    "60fc904396840c992f474ecda2da39ca": {
+    "2a32bfd2b07e1aedb4e9f561396ebd1b": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per the roadmap. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "the roadmap"
         }
       ]
     },
-    "d770c97de5c52bd8109e39c140e62bab": {
+    "c89bcd264da87e14f0291c9163705b5e": {
       "translations": [
         {
-          "translation": "See Roadmap"
+          "translation": "Prepare for the Upgrade"
         }
       ]
     },
@@ -302,13 +337,6 @@
         }
       ]
     },
-    "c89bcd264da87e14f0291c9163705b5e": {
-      "translations": [
-        {
-          "translation": "Prepare for the Upgrade"
-        }
-      ]
-    },
     "2a854a9d90f8402de7ce2e1f5fb71596": {
       "translations": [
         {
@@ -323,31 +351,31 @@
         }
       ]
     },
-    "657e00afe7a9a198d37ecf94de9045b9": {
-      "translations": [
-        {
-          "translation": "Get Listed"
-        }
-      ]
-    },
-    "800d353888445f1d8db4c8bd3bf28370": {
-      "translations": [
-        {
-          "translation": "Privacy Policy"
-        }
-      ]
-    },
-    "7537888e67bacb91f04990e4fc0f4f13": {
-      "translations": [
-        {
-          "translation": "Legal"
-        }
-      ]
-    },
     "9554f6fa69616c126bb310c63587cbaa": {
       "translations": [
         {
           "translation": "© {current year}, All Rights Reserved"
+        }
+      ]
+    },
+    "7d35b9d7cf6ac2cfb0550d7df531419a": {
+      "translations": [
+        {
+          "translation": "Buradan Başlayın"
+        }
+      ]
+    },
+    "e4fc7a483397b9567855965a0f861edb": {
+      "translations": [
+        {
+          "translation": "Topluluklar"
+        }
+      ]
+    },
+    "3cd2fcb238d073791b0178ccdb12472e": {
+      "translations": [
+        {
+          "translation": "Hakkında"
         }
       ]
     },
@@ -414,6 +442,13 @@
         }
       ]
     },
+    "8b5c7d8b014d4fe0f377958bd55f5da3": {
+      "translations": [
+        {
+          "translation": "Başlangıç"
+        }
+      ]
+    },
     "4dd64805e4c4cc68ed73dd4f3873ea71": {
       "translations": [
         {
@@ -446,6 +481,62 @@
       "translations": [
         {
           "translation": "Language"
+        }
+      ]
+    },
+    "128ba6cf10df8dc4174477b139802071": {
+      "translations": [
+        {
+          "translation": "Buy Bitcoin Cash"
+        }
+      ]
+    },
+    "e7924224b70090a7a6c97af994d3ad00": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Harcayın"
+        }
+      ]
+    },
+    "b556471366aa2f8e5c371aaef9de025a": {
+      "translations": [
+        {
+          "translation": "Bitcoin Cash Kabul Edin"
+        }
+      ]
+    },
+    "067c26a881b8c13193bd94ea054c07b7": {
+      "translations": [
+        {
+          "translation": "FAQ"
+        }
+      ]
+    },
+    "ae3206f98f4934fed6b3795e87553a04": {
+      "translations": [
+        {
+          "translation": "Get Listed"
+        }
+      ]
+    },
+    "078f212a90892fb0312973e8d0d66a9d": {
+      "translations": [
+        {
+          "translation": "Privacy Policy"
+        }
+      ]
+    },
+    "a0fe38d5e03a2df84ff19d8ed67121c2": {
+      "translations": [
+        {
+          "translation": "Legal"
+        }
+      ]
+    },
+    "6e13dbebfcaf747d5fdf760d92729353": {
+      "translations": [
+        {
+          "translation": "Help"
         }
       ]
     },
