@@ -11,10 +11,10 @@ Testnet is available which forks off from the regular testnet on a daily basis. 
 activation every day when a block of median time past (MTP) 12:00 UTC is mined.
 
 To join the next day's activation, go to [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org), copy **tomorrow's**
-activation timestamp, set your node's <em>axionactivationtime</em> to that and restart it. Example,
-using the command-line:
+activation timestamp, set your node's <em>axionactivationtime</em> to that, make sure you
+connect to our nodes via **-addnode**, and restart it. Example, using the command-line:
 
->bitcoind -testnet -axionactivationtime=<em>activationtimestamp</em>
+>bitcoind -testnet -axionactivationtime=<em>activationtimestamp</em> -addnode=46.105.107.2 -addnode=144.217.255.211
 
 Miners: `stratum+tcp://tpool.bitcoincash.org:19340` user: (address) password: (anything)
 
