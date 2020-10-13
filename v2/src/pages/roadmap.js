@@ -77,12 +77,31 @@ const Roadmap = () => {
     },
     {
       title: fbt(
+        "Schnorr Signatures",
+        "Roadmap scaling item: Schnorr Signatures"
+      ),
+      content: fbt(
+        "(batched signature validation)",
+        "Roadmap scaling description: Schnorr Signatures"
+      ),
+      state: "complete",
+    },
+    {
+      title: fbt(
         "Faster Block Propagation",
         "Roadmap scaling item: Faster block propagation"
       ),
       content: fbt(
         "(graphene or other)",
         "Roadmap scaling description: Faster block propagation"
+      ),
+      state: "underway",
+    },
+    {
+      title: fbt("UTXO Commitment", "Roadmap scaling item: UTXO Commitment"),
+      content: fbt(
+        "(blockchain pruning)",
+        "Roadmap scaling description: UTXO Commitment"
       ),
       state: "underway",
     },
@@ -95,25 +114,6 @@ const Roadmap = () => {
       state: "planned",
     },
     {
-      title: fbt("UTXO Commitment", "Roadmap scaling item: UTXO Commitment"),
-      content: fbt(
-        "(blockchain pruning)",
-        "Roadmap scaling description: UTXO Commitment"
-      ),
-      state: "underway",
-    },
-    {
-      title: fbt(
-        "Schnorr Signatures",
-        "Roadmap scaling item: Schnorr Signatures"
-      ),
-      content: fbt(
-        "(batched signature validation)",
-        "Roadmap scaling description: Schnorr Signatures"
-      ),
-      state: "complete",
-    },
-    {
       title: fbt(
         "Adaptive Block Size",
         "Roadmap scaling item: Adaptive Block Size"
@@ -122,7 +122,7 @@ const Roadmap = () => {
         "(market driven growth to 1TB blocks)",
         "Roadmap scaling description: Adaptive Block Size"
       ),
-      state: "complete",
+      state: "planned",
     },
     {
       title: fbt("Mankind Scale", "Roadmap scaling conclusion item"),
@@ -179,7 +179,7 @@ const Roadmap = () => {
         "(fees low forever)",
         "Roadmap usability description: Fractional Satoshis"
       ),
-      state: "underway",
+      state: "planned",
     },
     {
       title: fbt("Best Money", "Roadmap usability conclusion item"),
