@@ -10,11 +10,17 @@ In order for businesses and services to test activation of the new rules, a Sche
 Testnet is available which forks off from the regular testnet on a daily basis. It performs a test
 activation every day when a block of median time past (MTP) 12:00 UTC is mined.
 
-To join the next day's activation, go to [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org), copy **tomorrow's**
-activation timestamp, set your node's <em>axionactivationtime</em> to that, make sure you
-connect to our nodes via **-addnode**, and restart it. Example, using the command-line:
+How to participate in the Scheduled Activation Testnet:
+1. Go to [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitcoincash.org).
+2. Copy **tomorrow's activation timestamp** and set your node's <em>-axionactivationtime</em> option to that.
+3. Make sure you connect to our nodes (both are specified in the example below) using the <em>-addnode</em> option.
+4. Restart your node.
 
->bitcoind -testnet -axionactivationtime=<em>activationtimestamp</em> -addnode=46.105.107.2 -addnode=144.217.255.211
+Minimal command-line example to participate in the activation:
+
+>bitcoind -testnet -axionactivationtime=**[activation timestamp]** -addnode=**upgrade-node1.bitcoincash.org** -addnode=**upgrade-node2.bitcoincash.org**
+
+### Services:
 
 Miners: `stratum+tcp://tpool.bitcoincash.org:19340` user: (address) password: (anything)
 
@@ -25,6 +31,8 @@ Block Explorer: [upgrade-explorer.bitcoincash.org](https://upgrade-explorer.bitc
 ## Regular Testnet
 
 The testnet that follows the same consensus rules as the main Bitcoin Cash network.
+
+### Services:
 
 Miners: `stratum+tcp://tpool.bitcoincash.org:19338` user: (address) password: (anything)
 
