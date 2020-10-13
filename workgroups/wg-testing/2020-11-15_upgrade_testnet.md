@@ -18,7 +18,10 @@ How to participate in the Scheduled Activation Testnet:
 
 Minimal command-line example to participate in the activation:
 
->bitcoind -testnet -axionactivationtime=**[activation timestamp]** -addnode=**upgrade-node1.bitcoincash.org** -addnode=**upgrade-node2.bitcoincash.org**
+<pre><code>bitcoind -chain=test \
+    -addnode=<b>upgrade-node1.bitcoincash.org</b> \
+    -addnode=<b>upgrade-node2.bitcoincash.org</b> \
+    -axionactivationtime=<b>[activation timestamp]</b></code></pre>
 
 ### Services:
 
