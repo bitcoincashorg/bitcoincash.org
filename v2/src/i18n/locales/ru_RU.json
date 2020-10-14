@@ -1597,6 +1597,20 @@
         }
       ]
     },
+    "9f2f94996c5fa9bcc7c945c8200997d3": {
+      "translations": [
+        {
+          "translation": "Подписи Шнорра"
+        }
+      ]
+    },
+    "eae6be17343c05ce1b36367adc3a5af1": {
+      "translations": [
+        {
+          "translation": "(пакетная проверка подписи)"
+        }
+      ]
+    },
     "f42b22638fe3189bafb4aaa20015143d": {
       "translations": [
         {
@@ -1608,20 +1622,6 @@
       "translations": [
         {
           "translation": "(graphene или другие)"
-        }
-      ]
-    },
-    "2b7d19f35c712e8a70ec7c74aee63cb4": {
-      "translations": [
-        {
-          "translation": "Merklix данные метаданных"
-        }
-      ]
-    },
-    "94e6f38059317000f2018ee6cea4954c": {
-      "translations": [
-        {
-          "translation": "(убыстрённая обработка блоков)"
         }
       ]
     },
@@ -1639,17 +1639,17 @@
         }
       ]
     },
-    "9f2f94996c5fa9bcc7c945c8200997d3": {
+    "2b7d19f35c712e8a70ec7c74aee63cb4": {
       "translations": [
         {
-          "translation": "Подписи Шнорра"
+          "translation": "Merklix данные метаданных"
         }
       ]
     },
-    "eae6be17343c05ce1b36367adc3a5af1": {
+    "94e6f38059317000f2018ee6cea4954c": {
       "translations": [
         {
-          "translation": "(пакетная проверка подписи)"
+          "translation": "(убыстрённая обработка блоков)"
         }
       ]
     },
