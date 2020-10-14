@@ -1139,44 +1139,44 @@
     "developer_comment": "Roadmap scaling description: Canonical transaction ordering",
     "context": "src/pages/roadmap.js:72:75"
   },
-  "f42b22638fe3189bafb4aaa20015143d": {
-    "string": "Faster Block Propagation",
-    "developer_comment": "Roadmap scaling item: Faster block propagation",
-    "context": "src/pages/roadmap.js:79:82"
-  },
-  "6f297b182748a3d753f7e815ad8e8fa8": {
-    "string": "(graphene or other)",
-    "developer_comment": "Roadmap scaling description: Faster block propagation",
-    "context": "src/pages/roadmap.js:83:86"
-  },
-  "2b7d19f35c712e8a70ec7c74aee63cb4": {
-    "string": "Merklix-Metadata Tree",
-    "developer_comment": "Roadmap scaling item: Merklix",
-    "context": "src/pages/roadmap.js:90:90"
-  },
-  "94e6f38059317000f2018ee6cea4954c": {
-    "string": "(scalable block processing)",
-    "developer_comment": "Roadmap scaling description: Merklix",
-    "context": "src/pages/roadmap.js:91:94"
-  },
-  "d3197aa026de8266870fa7e95620437d": {
-    "string": "UTXO Commitment",
-    "developer_comment": "Roadmap scaling item: UTXO Commitment",
-    "context": "src/pages/roadmap.js:98:98"
-  },
-  "c8e1c0e560dac971a40a0fe2280b8daf": {
-    "string": "(blockchain pruning)",
-    "developer_comment": "Roadmap scaling description: UTXO Commitment",
-    "context": "src/pages/roadmap.js:99:102"
-  },
   "9f2f94996c5fa9bcc7c945c8200997d3": {
     "string": "Schnorr Signatures",
     "developer_comment": "Roadmap scaling item: Schnorr Signatures",
-    "context": "src/pages/roadmap.js:106:109"
+    "context": "src/pages/roadmap.js:79:82"
   },
   "eae6be17343c05ce1b36367adc3a5af1": {
     "string": "(batched signature validation)",
     "developer_comment": "Roadmap scaling description: Schnorr Signatures",
+    "context": "src/pages/roadmap.js:83:86"
+  },
+  "f42b22638fe3189bafb4aaa20015143d": {
+    "string": "Faster Block Propagation",
+    "developer_comment": "Roadmap scaling item: Faster block propagation",
+    "context": "src/pages/roadmap.js:90:93"
+  },
+  "6f297b182748a3d753f7e815ad8e8fa8": {
+    "string": "(graphene or other)",
+    "developer_comment": "Roadmap scaling description: Faster block propagation",
+    "context": "src/pages/roadmap.js:94:97"
+  },
+  "d3197aa026de8266870fa7e95620437d": {
+    "string": "UTXO Commitment",
+    "developer_comment": "Roadmap scaling item: UTXO Commitment",
+    "context": "src/pages/roadmap.js:101:101"
+  },
+  "c8e1c0e560dac971a40a0fe2280b8daf": {
+    "string": "(blockchain pruning)",
+    "developer_comment": "Roadmap scaling description: UTXO Commitment",
+    "context": "src/pages/roadmap.js:102:105"
+  },
+  "2b7d19f35c712e8a70ec7c74aee63cb4": {
+    "string": "Merklix-Metadata Tree",
+    "developer_comment": "Roadmap scaling item: Merklix",
+    "context": "src/pages/roadmap.js:109:109"
+  },
+  "94e6f38059317000f2018ee6cea4954c": {
+    "string": "(scalable block processing)",
+    "developer_comment": "Roadmap scaling description: Merklix",
     "context": "src/pages/roadmap.js:110:113"
   },
   "5a8ab17357d9b2a86e57f42ef66ccae5": {
