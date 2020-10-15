@@ -249,7 +249,7 @@
     "e1c09e9bfdf309494fe6d1f790202195": {
       "translations": [
         {
-          "translation": "Days"
+          "translation": "일"
         }
       ]
     },
@@ -298,14 +298,14 @@
     "45291cdd18d5ca04e7ebebe7e5624ec8": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "비트코인 캐시는 {=the roadmap}에 따라 주기적인 프로토콜 업그레이드를 진행합니다. 비트코인 캐시 네트워크를 사용하는 개인과 비즈니스는 본인의 소프트웨어가 최신 버전과 동일한지 주기적으로 확인하세요."
         }
       ]
     },
     "2a32bfd2b07e1aedb4e9f561396ebd1b": {
       "translations": [
         {
-          "translation": "the roadmap"
+          "translation": "로드맵"
         }
       ]
     },
