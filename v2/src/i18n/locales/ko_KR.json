@@ -256,35 +256,35 @@
     "c4f44ba193ff4db86672135fc9980b58": {
       "translations": [
         {
-          "translation": "Hours"
+          "translation": "시간"
         }
       ]
     },
     "e20a138d6a1519785fcd0a65e72335ef": {
       "translations": [
         {
-          "translation": "Minutes"
+          "translation": "의사록"
         }
       ]
     },
     "d76d33208be8a3117302ae108a11792a": {
       "translations": [
         {
-          "translation": "Seconds"
+          "translation": "초"
         }
       ]
     },
     "b69ecfed8a1334b466c23047bf344d08": {
       "translations": [
         {
-          "translation": "Upgrade complete!"
+          "translation": "업그레이드 완료"
         }
       ]
     },
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "Reminder: {upgrade activation time} Planned Network Upgrade"
+          "translation": "{upgrade activation time} 예정된 네트워크 업그레이드"
         }
       ]
     },
