@@ -298,14 +298,14 @@
     "45291cdd18d5ca04e7ebebe7e5624ec8": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "Het Bitcoin Cash-netwerk zal een protocol-upgrade conform {=the roadmap} ondergaan. Bedrijven en zij die full nodes runnen en het Bitcoin Cash-netwerk gebruiken, dienen te controleren of hun software compatibel is met de upgrade."
         }
       ]
     },
     "2a32bfd2b07e1aedb4e9f561396ebd1b": {
       "translations": [
         {
-          "translation": "De roadmap"
+          "translation": "de roadmap"
         }
       ]
     },
@@ -508,7 +508,7 @@
     "067c26a881b8c13193bd94ea054c07b7": {
       "translations": [
         {
-          "translation": "FAQ"
+          "translation": "Veelgestelde vragen"
         }
       ]
     },
