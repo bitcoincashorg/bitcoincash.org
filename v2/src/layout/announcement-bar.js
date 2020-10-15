@@ -127,7 +127,7 @@ const AnnouncementBar = () => {
               <p>
                 <fbt desc="Annoucement bar paragraph">
                   The Bitcoin Cash network will undergo a protocol upgrade as
-                  per <Link href="/roadmap/">the roadmap</Link>. Businesses and
+                  per <Link to="/roadmap/">the roadmap</Link>. Businesses and
                   other node operators who use the Bitcoin Cash network should
                   check to ensure that their software is compatible with the
                   upgrade.
