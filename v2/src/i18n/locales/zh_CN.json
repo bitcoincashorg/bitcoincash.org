@@ -249,35 +249,35 @@
     "e1c09e9bfdf309494fe6d1f790202195": {
       "translations": [
         {
-          "translation": "Days"
+          "translation": "天"
         }
       ]
     },
     "c4f44ba193ff4db86672135fc9980b58": {
       "translations": [
         {
-          "translation": "Hours"
+          "translation": "小时"
         }
       ]
     },
     "e20a138d6a1519785fcd0a65e72335ef": {
       "translations": [
         {
-          "translation": "Minutes"
+          "translation": "分钟"
         }
       ]
     },
     "d76d33208be8a3117302ae108a11792a": {
       "translations": [
         {
-          "translation": "Seconds"
+          "translation": "秒"
         }
       ]
     },
     "b69ecfed8a1334b466c23047bf344d08": {
       "translations": [
         {
-          "translation": "Upgrade complete!"
+          "translation": "升級完成"
         }
       ]
     },
@@ -298,14 +298,14 @@
     "45291cdd18d5ca04e7ebebe7e5624ec8": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "比特币现金BCH网络将根据{=the roadmap}进行协议升级。 使用比特币现金网络的企业和个人应及时检查，以确保其软件与升级兼容。"
         }
       ]
     },
     "2a32bfd2b07e1aedb4e9f561396ebd1b": {
       "translations": [
         {
-          "translation": "the roadmap"
+          "translation": "路线图"
         }
       ]
     },
@@ -1894,7 +1894,7 @@
     "a737054ad43aa6ff83b9edf5db3acace": {
       "translations": [
         {
-          "translation": "This roadmap is intended to provide high-level technical direction, and enable different technical teams to work together towards a common goal for advancing Bitcoin Cash. The role of developers in furthering this goal is to produce high-quality professional software that serves the needs of its users, miners and merchants. We strive for continuous technical improvement, to produce reliable products providing a solid foundation for Bitcoin Cash."
+          "translation": "本路线图旨在提供高级技术指导，并使不同的技术团队能够协力推动比特币现金的共同目标。 开发人员在实现这一目标的职责是，产出高质量的、专业程度高的软件，以满足其用户、矿工和商家的需求。 我们致力于持续的技术改进，以产出可靠的产品，为比特币现金的发展提供坚实基础。"
         }
       ]
     },

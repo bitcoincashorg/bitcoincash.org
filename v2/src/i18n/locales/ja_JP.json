@@ -249,35 +249,35 @@
     "e1c09e9bfdf309494fe6d1f790202195": {
       "translations": [
         {
-          "translation": "Days"
+          "translation": "日々"
         }
       ]
     },
     "c4f44ba193ff4db86672135fc9980b58": {
       "translations": [
         {
-          "translation": "Hours"
+          "translation": "時間"
         }
       ]
     },
     "e20a138d6a1519785fcd0a65e72335ef": {
       "translations": [
         {
-          "translation": "Minutes"
+          "translation": "議事録"
         }
       ]
     },
     "d76d33208be8a3117302ae108a11792a": {
       "translations": [
         {
-          "translation": "Seconds"
+          "translation": "秒"
         }
       ]
     },
     "b69ecfed8a1334b466c23047bf344d08": {
       "translations": [
         {
-          "translation": "Upgrade complete!"
+          "translation": "アップグレードの完了"
         }
       ]
     },
@@ -298,14 +298,14 @@
     "45291cdd18d5ca04e7ebebe7e5624ec8": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "Bitcoin Cashネットワークは、{=the roadmap} に従ってプロトコルのアップグレードを予定されています。 Bitcoin Cashネットワークを使用する企業や個人は、自分のソフトウェアがアップグレードと互換性があることをご確認してください。"
         }
       ]
     },
     "2a32bfd2b07e1aedb4e9f561396ebd1b": {
       "translations": [
         {
-          "translation": "the roadmap"
+          "translation": "ロードマップ"
         }
       ]
     },
@@ -1747,7 +1747,7 @@
     "cd210324da87d96a9e423660ca217086": {
       "translations": [
         {
-          "translation": "secure within 3 seconds - transaction fees forever low"
+          "translation": "3秒以内に安全、そして常に低い送金手数料"
         }
       ]
     },

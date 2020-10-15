@@ -249,14 +249,14 @@
     "e1c09e9bfdf309494fe6d1f790202195": {
       "translations": [
         {
-          "translation": "Days"
+          "translation": "Journées"
         }
       ]
     },
     "c4f44ba193ff4db86672135fc9980b58": {
       "translations": [
         {
-          "translation": "Hours"
+          "translation": "Heures"
         }
       ]
     },
@@ -277,7 +277,7 @@
     "b69ecfed8a1334b466c23047bf344d08": {
       "translations": [
         {
-          "translation": "Upgrade complete!"
+          "translation": "Mise à niveau terminée!"
         }
       ]
     },
@@ -298,14 +298,14 @@
     "45291cdd18d5ca04e7ebebe7e5624ec8": {
       "translations": [
         {
-          "translation": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade."
+          "translation": "Le réseau Bitcoin Cash fera l'objet d'une mise à niveau de son protocole. Les entreprises et individus qui utilisent le réseau Bitcoin Cash doivent s'assurer que leur logiciel est compatible avec la mise à niveau."
         }
       ]
     },
     "2a32bfd2b07e1aedb4e9f561396ebd1b": {
       "translations": [
         {
-          "translation": "the roadmap"
+          "translation": "la feuille de route"
         }
       ]
     },
