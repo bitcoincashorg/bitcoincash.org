@@ -5,16 +5,16 @@ import { useLocaleContext } from "i18n/provider"
 
 const Whitepaper = () => {
   const { slug } = useLocaleContext()
-  let prefix = ""
+  let suffix = ""
   if (slug !== "") {
-    prefix += "-" + slug 
+    suffix += "-" + slug 
   }
   return (
     <>
       <SEO title={fbt("Bitcoin Whitepaper", "Whitepaper page SEO title")} />
       <iframe
         title="Bitcoin Whitepaper"
-        src={"/bitcoin" + prefix + ".pdf"}
+        src={"/bitcoin" + suffix + ".pdf#view=FitH"}
         width="100%"
         height="1000px"
         style={{ marginBottom: "0px" }}
