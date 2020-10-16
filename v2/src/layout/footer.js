@@ -96,7 +96,7 @@ const Footer = () => {
           >
             <Facebook />
           </a>
-          <a className={S.socialIcon} href="https://reddit.com/r/bitcoincash">
+          <a className={S.socialIcon} href="https://www.reddit.com/r/bitcoin_cash/">
             <Reddit />
           </a>
           <a
