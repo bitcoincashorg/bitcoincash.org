@@ -307,82 +307,82 @@
   "fc31a7564465e7ea5b18f3d42d8b5d6c": {
     "string": "Roadmap",
     "developer_comment": "Community menu 'roadmap' link",
-    "context": "src/layout/nav-items.js:47:47"
+    "context": "src/layout/nav-items.js:46:46"
   },
   "ca0099c6a546b549832b8813418d99cf": {
     "string": "Start Here",
     "developer_comment": "Top 'Start here' link",
-    "context": "src/layout/nav-items.js:57:57"
+    "context": "src/layout/nav-items.js:56:56"
   },
   "8b5c7d8b014d4fe0f377958bd55f5da3": {
     "string": "Getting Started",
     "developer_comment": "Getting started page footer title",
-    "context": "src/layout/nav-items.js:62:62"
+    "context": "src/layout/nav-items.js:61:61"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/layout/nav-items.js:67:67"
+    "context": "src/layout/nav-items.js:66:66"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/layout/nav-items.js:73:73"
+    "context": "src/layout/nav-items.js:72:72"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/layout/nav-items.js:78:78"
+    "context": "src/layout/nav-items.js:77:77"
   },
   "734a1c5c0d8e3243e25047d98fb384c2": {
     "string": "About",
     "developer_comment": "Top 'about' link",
-    "context": "src/layout/nav-items.js:83:83"
+    "context": "src/layout/nav-items.js:82:82"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/layout/nav-items.js:92:92"
+    "context": "src/layout/nav-items.js:91:91"
   },
   "128ba6cf10df8dc4174477b139802071": {
     "string": "Buy Bitcoin Cash",
     "developer_comment": "Buy page footer title",
-    "context": "src/layout/nav-items.js:100:100"
+    "context": "src/layout/nav-items.js:99:99"
   },
   "e7924224b70090a7a6c97af994d3ad00": {
     "string": "Spend Bitcoin Cash",
     "developer_comment": "Spend page footer title",
-    "context": "src/layout/nav-items.js:105:105"
+    "context": "src/layout/nav-items.js:104:104"
   },
   "b556471366aa2f8e5c371aaef9de025a": {
     "string": "Accept Bitcoin Cash",
     "developer_comment": "Accept page footer title",
-    "context": "src/layout/nav-items.js:110:110"
+    "context": "src/layout/nav-items.js:109:109"
   },
   "067c26a881b8c13193bd94ea054c07b7": {
     "string": "FAQ",
     "developer_comment": "FAQ page footer title",
-    "context": "src/layout/nav-items.js:115:115"
+    "context": "src/layout/nav-items.js:114:114"
   },
   "ae3206f98f4934fed6b3795e87553a04": {
     "string": "Get Listed",
     "developer_comment": "Get Listed page footer title",
-    "context": "src/layout/nav-items.js:120:120"
+    "context": "src/layout/nav-items.js:119:119"
   },
   "078f212a90892fb0312973e8d0d66a9d": {
     "string": "Privacy Policy",
     "developer_comment": "privacy policy page footer title",
-    "context": "src/layout/nav-items.js:125:125"
+    "context": "src/layout/nav-items.js:124:124"
   },
   "a0fe38d5e03a2df84ff19d8ed67121c2": {
     "string": "Legal",
     "developer_comment": "legal page footer title",
-    "context": "src/layout/nav-items.js:130:130"
+    "context": "src/layout/nav-items.js:129:129"
   },
   "6e13dbebfcaf747d5fdf760d92729353": {
     "string": "Help",
     "developer_comment": "help page footer title",
-    "context": "src/layout/nav-items.js:135:135"
+    "context": "src/layout/nav-items.js:134:134"
   },
   "d529feb2f96beaf448d03d8a4ce9d8f5": {
     "string": "The page you are looking for does not exist.",
@@ -1698,6 +1698,11 @@
     "string": "Paper Wallets",
     "developer_comment": "Wallets page wallet list 'Paper wallets' header",
     "context": "src/pages/wallets.js:176:178"
+  },
+  "91de7d5056b503155d8f80290e1f9770": {
+    "string": "Bitcoin Whitepaper",
+    "developer_comment": "Whitepaper page SEO title",
+    "context": "src/pages/whitepaper.js:10:10"
   },
   "cf5bfb3a954b0cc97a5ad1b0df312858": {
     "string": "Coinbase is a digital currency exchange headquartered in San Francisco, California. They broker exchanges of Bitcoin Cash and other cryptocurrencies with fiat currencies in approximately 32 countries.",
