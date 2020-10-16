@@ -40,8 +40,7 @@ const communityDropdownLinks = () => {
     },
     {
       text: fbt("Whitepaper", "Community menu 'whitepaper' link"),
-      href: "/bitcoin.pdf",
-      localize: false,
+      href: "/whitepaper/",
     },
     {
       text: fbt("Roadmap", "Community menu 'roadmap' link"),
