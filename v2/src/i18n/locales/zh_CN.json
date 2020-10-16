@@ -4,21 +4,21 @@
     "c32a47702314288748528182343dbf7e": {
       "translations": [
         {
-          "translation": "小标识（PNG）"
+          "translation": "小型（PNG）"
         }
       ]
     },
     "de4ffad01b09bc738beb4080a067c0cd": {
       "translations": [
         {
-          "translation": "中型标识（PNG）"
+          "translation": "中型（PNG）"
         }
       ]
     },
     "a4ec98df5f3661dbe19ccff2b338bf0f": {
       "translations": [
         {
-          "translation": "大型标识（PNG）"
+          "translation": "大型（PNG）"
         }
       ]
     },
@@ -32,14 +32,14 @@
     "110b13e07a85c7f9323dbbd55fb4e5a7": {
       "translations": [
         {
-          "translation": "向量（SVG）"
+          "translation": "矢量图（SVG）"
         }
       ]
     },
     "47472eacd56067e2fab3cbd8bf61b690": {
       "translations": [
         {
-          "translation": "服务于你而非银行的货币"
+          "translation": "为你，而非为银行，打造的的货币"
         }
       ]
     },
@@ -102,7 +102,7 @@
     "0d34277d3cb1b937f8467106579c155f": {
       "translations": [
         {
-          "translation": "平均而言，银行要从你汇回家的钱里抽取6.8%。比特币现金就要便宜得多，并且速度也更快。用它汇款，成本不到一分钱。"
+          "translation": "平均下来，银行要从你汇回家的钱里抽取6.8%。比特币现金就要便宜得多，并且速度也更快。用它汇款，成本不到一分钱。"
         }
       ]
     },
@@ -144,7 +144,7 @@
     "fd01af7df67ffebb8dee09e313fb4a96": {
       "translations": [
         {
-          "translation": "太远？手续费太高？无论你因何种原因而没有银行账户，比特币现金统统可以帮到你。（使用它）你可以在线支付或获得报酬，而无需银行。"
+          "translation": "（银行离家）太远？手续费太高？无论你因何种原因而没有银行账户，比特币现金统统可以帮到你。无需银行，你可以在线支付或收取比特币现金。"
         }
       ]
     },
@@ -284,14 +284,14 @@
     "a7430462af5cba62b3f993c0b544b345": {
       "translations": [
         {
-          "translation": "提示：{upgrade activation time} 计划中的网络升级"
+          "translation": "提示：{upgrade activation time} 预定的网络升级"
         }
       ]
     },
     "efc6fe8c749d80179b63bb9adc3f0c96": {
       "translations": [
         {
-          "translation": "规划中的网络升级"
+          "translation": "预定的网络升级"
         }
       ]
     },
@@ -312,7 +312,7 @@
     "c89bcd264da87e14f0291c9163705b5e": {
       "translations": [
         {
-          "translation": "Prepare for the Upgrade"
+          "translation": "为升级做准备"
         }
       ]
     },
@@ -508,7 +508,7 @@
     "067c26a881b8c13193bd94ea054c07b7": {
       "translations": [
         {
-          "translation": "FAQ"
+          "translation": "常见问题解答"
         }
       ]
     },
@@ -536,7 +536,7 @@
     "6e13dbebfcaf747d5fdf760d92729353": {
       "translations": [
         {
-          "translation": "Help"
+          "translation": "帮助"
         }
       ]
     },
@@ -2195,21 +2195,21 @@
     "25cd2ce50745d7f5a8c349ae9cbc31f2": {
       "translations": [
         {
-          "translation": "How to Upgrade"
+          "translation": "如何升级"
         }
       ]
     },
     "85682b29db7464df10b3d32e93b67be1": {
       "translations": [
         {
-          "translation": "How to Upgrade"
+          "translation": "如何升级"
         }
       ]
     },
     "ca847f2ef0ace574caad1fd61d0fbedb": {
       "translations": [
         {
-          "translation": "规划中的网络升级"
+          "translation": "预定的网络升级"
         }
       ]
     },
@@ -2237,7 +2237,7 @@
     "669d8c0c521185f07f6af5a813a086b8": {
       "translations": [
         {
-          "translation": "Prepare for the Upgrade"
+          "translation": "为升级做准备"
         }
       ]
     },
@@ -2412,7 +2412,7 @@
     "7578b5bc91d540f75a235f37d3656ce8": {
       "translations": [
         {
-          "translation": "The blockchain wallet trusted by millions. Securely store, manage and exchange Bitcoin Cash, Bitcoin, Ethereum, and more than 1,770 other blockchain assets. Available on all of your devices: Android, iOS, Windows, macOS and Linux."
+          "translation": "被数百万人所信赖的区块链钱包。可以安全存储、管理和交换比特币现金、比特币、以太坊以及其它1770多种区块链资产。可用于所有设备类型：安卓、iOS、Windows、，macOS和Linux。"
         }
       ]
     },
