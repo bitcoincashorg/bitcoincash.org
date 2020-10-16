@@ -27,6 +27,7 @@
   margin: 5px 0;
   font-size: 14px;
   transition: all 300ms ease-in-out;
+  text-decoration: none;
 }
 
 .logoCard a:visited {
