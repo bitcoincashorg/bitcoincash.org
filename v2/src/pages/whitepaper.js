@@ -3,39 +3,68 @@ import fbt from "fbt"
 import SEO from "components/seo"
 import S from "./whitepaper.module.scss"
 import { Container, Row, Col } from "react-bootstrap"
+import { useLocaleContext } from "i18n/provider"
+import locales from "i18n/locales"
 import Icon from "assets/icons/wallets/paper-wallet.svg"
 
-const PDF = ({ href, label }) => {
+const whitepapers = Object.entries(locales).map(([_, locale]) => {
+  let link = "/bitcoin-" + locale.slug + ".pdf"
+  return { label: locale.displayName, href: link }
+})
+
+const OriginalPDF = ({ md }) => {
   return (
-    <Col md={4} className={S.pdflink}>
-      <a href={href} target="_blank"><Icon />{label}</a>
+    <Col md={md} className={`${S.pdflink} ${S.featuredpdflink}`}>
+      <a href={"/bitcoin.pdf"} target="_blank" rel="noreferrer">
+        <Icon />
+        English (
+        <fbt desc="Label for english whitepaper saying its the original">
+          Original
+        </fbt>
+        )
+      </a>
     </Col>
   )
 }
 
 const Whitepaper = () => {
+  const { slug, displayName } = useLocaleContext()
   return (
     <>
       <SEO title={fbt("Bitcoin Whitepaper", "Whitepaper page SEO title")} />
       <Container>
-        <Row>  
-          <PDF href="/bitcoin.pdf" label="English" />
-          <PDF href="/bitcoin-de.pdf" label="Deutsch" />
-          <PDF href="/bitcoin-es.pdf" label="Español" />
-          <PDF href="/bitcoin-es_419.pdf" label="Español Latin América" />
-          <PDF href="/bitcoin-fr.pdf" label="Français" />
-          <PDF href="/bitcoin-id.pdf" label="Bahasa Indonesia" />
-          <PDF href="/bitcoin-ja.pdf" label="日本語" />
-          <PDF href="/bitcoin-ko.pdf" label="한국어" />
-          <PDF href="/bitcoin-nl.pdf" label="Nederlands" />  
-          <PDF href="/bitcoin-pt-BR.pdf" label="Português Brasil" />  
-          <PDF href="/bitcoin-pt-PT.pdf" label="Português Portugal" />  
-          <PDF href="/bitcoin-ru.pdf" label="Русский" />  
-          <PDF href="/bitcoin-tr.pdf" label="Türkçe" />  
-          <PDF href="/bitcoin-zh-CN.pdf" label="简体中文" />   
+        <Row>
+          {slug === "" ? (
+            <OriginalPDF md={12} />
+          ) : (
+            <>
+              <Col md={6} className={`${S.pdflink} ${S.featuredpdflink}`}>
+                <a
+                  href={"/bitcoin-" + slug + ".pdf"}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon />
+                  {displayName}
+                </a>
+              </Col>
+              <OriginalPDF md={6} />
+            </>
+          )}
+
+          {whitepapers.map(whitepapers =>
+            whitepapers.label !== "English (US)" &&
+            whitepapers.label !== displayName ? (
+              <Col md={4} className={S.pdflink}>
+                <a href={whitepapers.href} target="_blank" rel="noreferrer">
+                  <Icon />
+                  {whitepapers.label}
+                </a>
+              </Col>
+            ) : null
+          )}
         </Row>
       </Container>
-      
     </>
   )
 }

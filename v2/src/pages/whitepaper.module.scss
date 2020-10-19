@@ -10,7 +10,7 @@
   margin-bottom: 30px;
 }
 
-.pdflink a:hover { 
+.pdflink a:hover {
   background-color: #ff8d00;
   color: #fff;
 }
@@ -24,8 +24,12 @@
   transition: all 300ms ease-in-out;
 }
 
-.pdflink a:hover svg { 
+.pdflink a:hover svg {
   stroke: #fff;
+}
+
+.featuredpdflink a {
+  padding: 60px 0;
 }
 
 @media (max-width: 760px) {
