@@ -1,0 +1,39 @@
+.pdflink a {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 20px 0;
+  display: inline-block;
+  color: #444;
+  transition: all 300ms ease-in-out;
+  margin-bottom: 30px;
+}
+
+.pdflink a:hover {
+  background-color: #ff8d00;
+  color: #fff;
+}
+
+.pdflink a svg {
+  width: 20px;
+  height: 20px;
+  stroke: #444;
+  margin-top: -5px;
+  margin-right: 7px;
+  transition: all 300ms ease-in-out;
+}
+
+.pdflink a:hover svg {
+  stroke: #fff;
+}
+
+.featuredpdflink a {
+  padding: 60px 0;
+}
+
+@media (max-width: 760px) {
+  .pdflink a {
+    margin-bottom: 10px;
+  }
+}
