@@ -14,7 +14,6 @@ const ElectronCash = () => ({
       private keys and use them in other Bitcoin Cash clients.
     </fbt>
   ),
-  featured: true,
   android: true,
   ios: true,
   windows: true,

@@ -14,7 +14,7 @@ const Coinomi = () => ({
       Windows, macOS and Linux.
     </fbt>
   ),
-  featured: false,
+  featured: true,
   android: true,
   ios: true,
   windows: true,
