@@ -279,110 +279,105 @@
     "developer_comment": "Community menu 'projects' link",
     "context": "src/layout/nav-items.js:22:22"
   },
-  "58f3f371a60f2403eaaee09bbcb2c45d": {
-    "string": "Exchanges",
-    "developer_comment": "Community menu 'exchanges' link",
-    "context": "src/layout/nav-items.js:26:26"
-  },
   "7d337ea26e78f2a65804aba296a7cee4": {
     "string": "Nodes",
     "developer_comment": "Community menu 'nodes' link",
-    "context": "src/layout/nav-items.js:30:30"
+    "context": "src/layout/nav-items.js:26:26"
   },
   "ba4d0b9ed25b52c797f59d2016874f3b": {
     "string": "Developer Portal",
     "developer_comment": "Community menu 'developper portal' link",
-    "context": "src/layout/nav-items.js:34:34"
+    "context": "src/layout/nav-items.js:30:30"
   },
   "84642b7d94ceb4a405027dbb91dca1ba": {
     "string": "Logos",
     "developer_comment": "Community menu 'logos' link",
-    "context": "src/layout/nav-items.js:38:38"
+    "context": "src/layout/nav-items.js:34:34"
   },
   "702b2d4ddf76ff77afac3095e972f5ea": {
     "string": "Whitepaper",
     "developer_comment": "Community menu 'whitepaper' link",
-    "context": "src/layout/nav-items.js:42:42"
+    "context": "src/layout/nav-items.js:38:38"
   },
   "fc31a7564465e7ea5b18f3d42d8b5d6c": {
     "string": "Roadmap",
     "developer_comment": "Community menu 'roadmap' link",
-    "context": "src/layout/nav-items.js:46:46"
+    "context": "src/layout/nav-items.js:42:42"
   },
   "ca0099c6a546b549832b8813418d99cf": {
     "string": "Start Here",
     "developer_comment": "Top 'Start here' link",
-    "context": "src/layout/nav-items.js:56:56"
+    "context": "src/layout/nav-items.js:52:52"
   },
   "8b5c7d8b014d4fe0f377958bd55f5da3": {
     "string": "Getting Started",
     "developer_comment": "Getting started page footer title",
-    "context": "src/layout/nav-items.js:61:61"
+    "context": "src/layout/nav-items.js:57:57"
   },
   "4dd64805e4c4cc68ed73dd4f3873ea71": {
     "string": "Wallets",
     "developer_comment": "Top 'wallets' link",
-    "context": "src/layout/nav-items.js:66:66"
+    "context": "src/layout/nav-items.js:62:62"
+  },
+  "97e38c0c13ed561756a6ced082fcce01": {
+    "string": "Exchanges",
+    "developer_comment": "Top 'exchanges' link",
+    "context": "src/layout/nav-items.js:68:68"
   },
   "6e149233a553b9376f9867d91685881e": {
     "string": "Explorer",
     "developer_comment": "Link to the block explorer",
-    "context": "src/layout/nav-items.js:72:72"
+    "context": "src/layout/nav-items.js:74:74"
   },
   "54db38e3c5c78056e098061871c6cb0f": {
     "string": "Community",
     "developer_comment": "Commnity menu",
-    "context": "src/layout/nav-items.js:77:77"
-  },
-  "734a1c5c0d8e3243e25047d98fb384c2": {
-    "string": "About",
-    "developer_comment": "Top 'about' link",
-    "context": "src/layout/nav-items.js:82:82"
+    "context": "src/layout/nav-items.js:79:79"
   },
   "13d6385a443edc6624f3455e5e477637": {
     "string": "Language",
     "developer_comment": "Language selector menu",
-    "context": "src/layout/nav-items.js:91:91"
+    "context": "src/layout/nav-items.js:88:88"
   },
   "128ba6cf10df8dc4174477b139802071": {
     "string": "Buy Bitcoin Cash",
     "developer_comment": "Buy page footer title",
-    "context": "src/layout/nav-items.js:99:99"
+    "context": "src/layout/nav-items.js:96:96"
   },
   "e7924224b70090a7a6c97af994d3ad00": {
     "string": "Spend Bitcoin Cash",
     "developer_comment": "Spend page footer title",
-    "context": "src/layout/nav-items.js:104:104"
+    "context": "src/layout/nav-items.js:101:101"
   },
   "b556471366aa2f8e5c371aaef9de025a": {
     "string": "Accept Bitcoin Cash",
     "developer_comment": "Accept page footer title",
-    "context": "src/layout/nav-items.js:109:109"
+    "context": "src/layout/nav-items.js:106:106"
   },
   "067c26a881b8c13193bd94ea054c07b7": {
     "string": "FAQ",
     "developer_comment": "FAQ page footer title",
-    "context": "src/layout/nav-items.js:114:114"
+    "context": "src/layout/nav-items.js:111:111"
   },
   "ae3206f98f4934fed6b3795e87553a04": {
     "string": "Get Listed",
     "developer_comment": "Get Listed page footer title",
-    "context": "src/layout/nav-items.js:119:119"
+    "context": "src/layout/nav-items.js:116:116"
   },
   "078f212a90892fb0312973e8d0d66a9d": {
     "string": "Privacy Policy",
     "developer_comment": "privacy policy page footer title",
-    "context": "src/layout/nav-items.js:124:124"
+    "context": "src/layout/nav-items.js:121:121"
   },
   "a0fe38d5e03a2df84ff19d8ed67121c2": {
     "string": "Legal",
     "developer_comment": "legal page footer title",
-    "context": "src/layout/nav-items.js:129:129"
+    "context": "src/layout/nav-items.js:126:126"
   },
   "6e13dbebfcaf747d5fdf760d92729353": {
     "string": "Help",
     "developer_comment": "help page footer title",
-    "context": "src/layout/nav-items.js:134:134"
+    "context": "src/layout/nav-items.js:131:131"
   },
   "d529feb2f96beaf448d03d8a4ce9d8f5": {
     "string": "The page you are looking for does not exist.",
