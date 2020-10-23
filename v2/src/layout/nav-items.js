@@ -23,10 +23,6 @@ const communityDropdownLinks = () => {
       href: "/projects/",
     },
     {
-      text: fbt("Exchanges", "Community menu 'exchanges' link"),
-      href: "/exchanges/",
-    },
-    {
       text: fbt("Nodes", "Community menu 'nodes' link"),
       href: "/nodes/",
     },
@@ -69,6 +65,12 @@ const NavItems = () => {
       footerCategory: "start-here",
     },
     {
+      text: fbt("Exchanges", "Top 'exchanges' link"),
+      href: "/exchanges/",
+      header: true,
+      footerCategory: "start-here",
+    },
+    {
       text: fbt("Explorer", "Link to the block explorer"),
       href: "https://explorer.bitcoincash.org/",
       header: true,
@@ -76,11 +78,6 @@ const NavItems = () => {
     {
       text: fbt("Community", "Commnity menu"),
       links: dropdownLinks,
-      header: true,
-    },
-    {
-      text: fbt("About", "Top 'about' link"),
-      href: "/faq/",
       header: true,
     },
     {
