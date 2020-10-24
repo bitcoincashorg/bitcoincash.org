@@ -393,13 +393,6 @@
         }
       ]
     },
-    "58f3f371a60f2403eaaee09bbcb2c45d": {
-      "translations": [
-        {
-          "translation": "Plataformas de Cambio"
-        }
-      ]
-    },
     "7d337ea26e78f2a65804aba296a7cee4": {
       "translations": [
         {
@@ -456,6 +449,13 @@
         }
       ]
     },
+    "97e38c0c13ed561756a6ced082fcce01": {
+      "translations": [
+        {
+          "translation": "Plataformas de Cambio"
+        }
+      ]
+    },
     "6e149233a553b9376f9867d91685881e": {
       "translations": [
         {
@@ -467,13 +467,6 @@
       "translations": [
         {
           "translation": "Comunidad"
-        }
-      ]
-    },
-    "734a1c5c0d8e3243e25047d98fb384c2": {
-      "translations": [
-        {
-          "translation": "Acerca"
         }
       ]
     },
