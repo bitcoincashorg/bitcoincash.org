@@ -1574,35 +1574,45 @@
     "developer_comment": "Upgrade page subheadline",
     "context": "src/pages/upgrade.js:23:23"
   },
-  "43f79c63c255af090395fb2730bbb72d": {
-    "string": "See Roadmap",
-    "developer_comment": "'See Roadmap' button of the Upgrade page",
-    "context": "src/pages/upgrade.js:33:36"
+  "bfbc1bc5b0ad44d584a7d325f13c2b69": {
+    "string": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
+    "developer_comment": "upgrade page paragraph",
+    "context": "src/pages/upgrade.js:26:31"
+  },
+  "9f74f35ba4b559f40f64f836762bfaa6": {
+    "string": "the roadmap",
+    "developer_comment": "In the phrase: \"The Bitcoin Cash network will undergo a protocol upgrade as per{=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.\"",
+    "context": "src/pages/upgrade.js:28:28"
+  },
+  "a19fe239f605786025939c0216488d5a": {
+    "string": "Prepare for the Upgrade",
+    "developer_comment": "Upgrade page 'Prepare for the Upgrade' button",
+    "context": "src/pages/upgrade.js:35:38"
   },
   "f10c84ef810cfad7603bda942c2ae83d": {
     "string": "Compatible Implementations:",
     "developer_comment": "Upgrade page 'Compatible Implementations'",
-    "context": "src/pages/upgrade.js:41:43"
+    "context": "src/pages/upgrade.js:45:47"
   },
   "46e0915ba9a83533707df7d06eba0d32": {
     "string": "Additional Information:",
     "developer_comment": "Upgrade page 'Additional Information:'",
-    "context": "src/pages/upgrade.js:50:52"
+    "context": "src/pages/upgrade.js:54:56"
   },
-  "669d8c0c521185f07f6af5a813a086b8": {
-    "string": "Prepare for the Upgrade",
-    "developer_comment": "Upgrade page 'Prepare for the Upgrade' header",
-    "context": "src/pages/upgrade.js:56:58"
+  "f6d89e208079c14b36796e6b12efe477": {
+    "string": "Upgrade: Quick Guide",
+    "developer_comment": "Upgrade page 'upgrade guide' header",
+    "context": "src/pages/upgrade.js:60:62"
   },
   "0b6ba8882976210fb21c071a1842cbb8": {
     "string": "Upgrade Specification",
     "developer_comment": "Upgrade page 'Upgrade Specification'",
-    "context": "src/pages/upgrade.js:63:65"
+    "context": "src/pages/upgrade.js:67:69"
   },
   "ded6ae43f7b0321f49459ac88d0f1080": {
     "string": "Testnet Information",
     "developer_comment": "Upgrade page 'Testnet Information'",
-    "context": "src/pages/upgrade.js:70:72"
+    "context": "src/pages/upgrade.js:74:76"
   },
   "08a7f009c75e4115810b529774fffec0": {
     "string": "Mobile Wallet",
