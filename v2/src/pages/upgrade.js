@@ -23,18 +23,22 @@ const UpgradePage = () => {
           <fbt desc="Upgrade page subheadline">Planned Network Upgrade</fbt>
         </h3>
         <p>
-          The Bitcoin Cash network will undergo a protocol upgrade as per the
-          roadmap. Businesses and individuals who use the Bitcoin Cash network
-          should check to ensure that their software is compatible with the
-          upgrade.
+          <fbt desc="upgrade page paragraph">
+            The Bitcoin Cash network will undergo a protocol upgrade as per{" "}
+            <Link to="/roadmap/">the roadmap</Link>. Businesses and other node
+            operators who use the Bitcoin Cash network should check to ensure
+            that their software is compatible with the upgrade.
+          </fbt>
         </p>
         <PrimaryButton
           noMarginLeft={true}
           buttonText={fbt(
-            "See Roadmap",
-            "'See Roadmap' button of the Upgrade page"
+            "Prepare for the Upgrade",
+            "Upgrade page 'Prepare for the Upgrade' button"
           )}
-          href={"/roadmap/"}
+          href={
+            "https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
+          }
         />
 
         <h4 className={S.header}>
@@ -51,12 +55,12 @@ const UpgradePage = () => {
             Additional Information:
           </fbt>
         </h4>
-        <Link href="https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/">
+        <a href="/upgrade/business-guide.pdf" target="_blank" rel="noreferrer">
           <LinkIcon />
-          <fbt desc="Upgrade page 'Prepare for the Upgrade' header">
-            Prepare for the Upgrade
+          <fbt desc="Upgrade page 'upgrade guide' header">
+            Upgrade: Quick Guide
           </fbt>
-        </Link>
+        </a>
         <br />
         <Link href="/spec/2020-11-15-upgrade.html">
           <LinkIcon />
