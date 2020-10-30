@@ -174,6 +174,17 @@ const AnnouncementBar = () => {
                 </fbt>
               </h4>
               <Link
+                target="_blank"
+                rel="noreferrer"
+                className={S.panelLink}
+                href="/upgrade/business-guide.pdf"
+              >
+                <LinkIcon />
+                <fbt desc="Annoucement bar 'Upgrade: Quick Guide'">
+                  Upgrade: Quick Guide
+                </fbt>
+              </Link>
+              <Link
                 className={S.panelLink}
                 href="/spec/2020-11-15-upgrade.html"
               >
