@@ -2206,10 +2206,24 @@
         }
       ]
     },
-    "43f79c63c255af090395fb2730bbb72d": {
+    "bfbc1bc5b0ad44d584a7d325f13c2b69": {
       "translations": [
         {
-          "translation": "Roadmap ansehen"
+          "translation": "Das Bitcoin Cash Netzwerk wird eine Protokolaktualisierung nach {=the roadmap} untergehen. Betriebe und Individuen, die das Bitcoin Cash Netzwerk nutzen, sollten sicher gehen, dass ihre Software mit dem Upgrade kompatibel ist."
+        }
+      ]
+    },
+    "9f74f35ba4b559f40f64f836762bfaa6": {
+      "translations": [
+        {
+          "translation": "der roadmap"
+        }
+      ]
+    },
+    "a19fe239f605786025939c0216488d5a": {
+      "translations": [
+        {
+          "translation": "Prepare for the Upgrade"
         }
       ]
     },
@@ -2227,10 +2241,10 @@
         }
       ]
     },
-    "669d8c0c521185f07f6af5a813a086b8": {
+    "f6d89e208079c14b36796e6b12efe477": {
       "translations": [
         {
-          "translation": "Prepare for the Upgrade"
+          "translation": "Upgrade: Quick Guide"
         }
       ]
     },
