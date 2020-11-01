@@ -14,7 +14,7 @@ Bitcoin Cash is a peer-to-peer version of electronic money allowing payments to 
 
 ### How to run the site locally
 
-**Note**: *BitcoinCash.org is changing to Gatsby. See the [README in the v2 directory](./v2) to see the new installation directory. The instructions below are for the older version of the site.*
+**Note**: *BitcoinCash.org is changing to Gatsby. See the [README in the v2 directory](./v2) to see the new installation instructions. The instructions below are for the older version of the site.*
 
 In order to build and run the site you need Ruby 💎 and Docker 🐳. Then run:
 
