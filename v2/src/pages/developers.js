@@ -74,7 +74,7 @@ const DevelopersPage = () => {
               </div>
               <h3>FullStack.cash</h3>
               <p>
-                <fbt desc="Developers page, BitBox description">
+                <fbt desc="Developers page, FullStack.cash description">
                   Fully featured, powerful javascript framework for Bitcoin
                   Cash.
                 </fbt>

@@ -646,7 +646,7 @@
   },
   "4b0ef5afb7eba267fa7d56c9a83c9e44": {
     "string": "Fully featured, powerful javascript framework for Bitcoin Cash.",
-    "developer_comment": "Developers page, BitBox description",
+    "developer_comment": "Developers page, FullStack.cash description",
     "context": "src/pages/developers.js:71:74"
   },
   "4d7ab3b98c6b501998627b98ff9053e2": {
