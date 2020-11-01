@@ -1,3 +1,8 @@
+/*
+  ToDo:
+   - Speedometer icon should be replaced with a book icon.
+*/
+
 import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
@@ -8,7 +13,8 @@ import Python from "assets/icons/python-logo.svg"
 import Javascript from "assets/icons/javascript-logo.svg"
 import Check from "assets/icons/checkbox.svg"
 import Wallet from "assets/icons/wallet.svg"
-import Branch from "assets/icons/branch.svg"
+import Cog from "assets/icons/getting-started/cog.svg"
+import Speedometer from "assets/icons/getting-started/speedometer.svg"
 
 const DevelopersPage = () => {
   return (
@@ -66,9 +72,9 @@ const DevelopersPage = () => {
                 <Javascript />
                 <h4>JavaScript</h4>
               </div>
-              <h3>BitBox</h3>
+              <h3>FullStack.cash</h3>
               <p>
-                <fbt desc="Developers page, BitBox description">
+                <fbt desc="Developers page, FullStack.cash description">
                   Fully featured, powerful javascript framework for Bitcoin
                   Cash.
                 </fbt>
@@ -79,7 +85,7 @@ const DevelopersPage = () => {
                   "View More",
                   "View more button on developers page"
                 )}
-                href={"https://developer.bitcoin.com/bitbox/"}
+                href={"https://fullstack.cash"}
               />
             </div>
           </Col>
@@ -93,7 +99,7 @@ const DevelopersPage = () => {
       </Container>
       <Container>
         <Row>
-          <Col md={4}>
+          <Col md={6} style={{padding: '10px'}}>
             <div className={S.card}>
               <div className={S.language}>
                 <Check className={S.icons} />
@@ -104,7 +110,7 @@ const DevelopersPage = () => {
               <p>
                 <fbt desc="Developers page, BitCash description">
                   Vocabulary and associated APIs for Bitcoin Cash
-                </fbt>
+                  </fbt>
               </p>
               <PrimaryButton
                 noMarginLeft={true}
@@ -116,17 +122,17 @@ const DevelopersPage = () => {
               />
             </div>
           </Col>
-          <Col md={4}>
+
+          <Col md={6} style={{padding: '10px'}}>
             <div className={S.card}>
               <div className={S.language}>
                 <Wallet className={S.icons} />
               </div>
-              <h3>Badger SDK</h3>
+              <h3>Web Wallet</h3>
               <p>
-                <fbt desc="Developers page, Badger SDK description">
-                  Badger Wallet injects an API into pages a user visits to allow
-                  apps to request a users's permission to send Bitcoin Cash,
-                  send tokens, or authenticate with CashID.
+                <fbt desc="Developers page, web wallet description">
+                  An open source web wallet to hack
+                  and white label for your own application.
                 </fbt>
               </p>
               <PrimaryButton
@@ -135,19 +141,23 @@ const DevelopersPage = () => {
                   "View More",
                   "View more button on developers page"
                 )}
-                href={"https://developer.bitcoin.com/badger/"}
+                href={"https://wallet.fullstack.cash"}
               />
             </div>
           </Col>
-          <Col md={4}>
+        </Row>
+
+        <Row>
+          <Col md={6} style={{padding: '10px'}}>
             <div className={S.card}>
               <div className={S.language}>
-                <Branch className={S.icons} />
+                <Cog className={S.icons} />
               </div>
-              <h3>SLP SDK</h3>
+              <h3>Example Code</h3>
               <p>
                 <fbt desc="Developers page, SLP SDK description">
-                  Simple Tokens - Secure Tokens on Bitcoin Cash
+                  Get started quick with example code and walk-through videos
+                  for working with Bitcoin Cash and SLP Tokens.
                 </fbt>
               </p>
               <PrimaryButton
@@ -156,7 +166,30 @@ const DevelopersPage = () => {
                   "View More",
                   "View more button on developers page"
                 )}
-                href={"https://developer.bitcoin.com/slp-indexer/"}
+                href={"https://fullstack.cash/examples"}
+              />
+            </div>
+          </Col>
+
+          <Col md={6} style={{padding: '10px'}}>
+            <div className={S.card}>
+              <div className={S.language}>
+                <Speedometer className={S.icons} />
+              </div>
+              <h3>Documentation</h3>
+              <p>
+                <fbt desc="Developers page, SLP SDK description">
+                  From basic conecepts to advanced topics, a range of documentation
+                  and videos for developers interested in programmable money.
+                </fbt>
+              </p>
+              <PrimaryButton
+                noMarginLeft={true}
+                buttonText={fbt(
+                  "View More",
+                  "View more button on developers page"
+                )}
+                href={"https://fullstack.cash/documentation"}
               />
             </div>
           </Col>
