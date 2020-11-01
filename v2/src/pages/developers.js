@@ -110,7 +110,7 @@ const DevelopersPage = () => {
               <p>
                 <fbt desc="Developers page, BitCash description">
                   Vocabulary and associated APIs for Bitcoin Cash
-                  </fbt><br /><br />
+                  </fbt>
               </p>
               <PrimaryButton
                 noMarginLeft={true}
@@ -158,7 +158,7 @@ const DevelopersPage = () => {
                 <fbt desc="Developers page, SLP SDK description">
                   Get started quick with example code and walk-through videos
                   for working with Bitcoin Cash and SLP Tokens.
-                </fbt><br /><br />
+                </fbt>
               </p>
               <PrimaryButton
                 noMarginLeft={true}
