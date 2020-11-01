@@ -617,62 +617,67 @@
   "68add98186b42b1447f6bd4037f0613d": {
     "string": "Developer Portal",
     "developer_comment": "Developer page SEO title",
-    "context": "src/pages/developers.js:16:16"
+    "context": "src/pages/developers.js:22:22"
   },
   "4cd11a2d59ce3b8d1db9aa9efaf25cd0": {
     "string": "Create amazing apps with Bitcoin Cash",
     "developer_comment": "Developers page, main title",
-    "context": "src/pages/developers.js:20:22"
+    "context": "src/pages/developers.js:26:28"
   },
   "8369cbce0cd83f40e6aa0dae19bb0d36": {
     "string": "Resources for developers, by developers.",
     "developer_comment": "Developers page, top paragraph",
-    "context": "src/pages/developers.js:26:28"
+    "context": "src/pages/developers.js:32:34"
   },
   "be8e33683aa11aa3f6de5dc80441f0bc": {
     "string": "Libraries",
     "developer_comment": "Developers page, Libraries title",
-    "context": "src/pages/developers.js:35:35"
+    "context": "src/pages/developers.js:41:41"
   },
   "212e15c413bacd57f3d1c626aa8b90e6": {
     "string": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use.",
     "developer_comment": "Developers page, BitCash description",
-    "context": "src/pages/developers.js:48:51"
+    "context": "src/pages/developers.js:54:57"
   },
   "8666c3469b291e614df874173d1358a9": {
     "string": "View More",
     "developer_comment": "View more button on developers page",
-    "context": "src/pages/developers.js:155:158"
+    "context": "src/pages/developers.js:188:191"
   },
-  "4b0ef5afb7eba267fa7d56c9a83c9e44": {
+  "68694b741d0daa63f92ba58e13afa28a": {
     "string": "Fully featured, powerful javascript framework for Bitcoin Cash.",
     "developer_comment": "Developers page, FullStack.cash description",
-    "context": "src/pages/developers.js:71:74"
+    "context": "src/pages/developers.js:77:80"
   },
   "4d7ab3b98c6b501998627b98ff9053e2": {
     "string": "Resources",
     "developer_comment": "Developers page, Resources title",
-    "context": "src/pages/developers.js:91:91"
+    "context": "src/pages/developers.js:97:97"
   },
   "dfcc2a008c444cfb38d45449e05783d0": {
     "string": "Specs",
     "developer_comment": "Developers page, Specs title",
-    "context": "src/pages/developers.js:102:102"
+    "context": "src/pages/developers.js:108:108"
   },
   "8b3cf2dc9d41f4eefa1dd4a239e0f0c8": {
     "string": "Vocabulary and associated APIs for Bitcoin Cash",
     "developer_comment": "Developers page, BitCash description",
-    "context": "src/pages/developers.js:105:107"
+    "context": "src/pages/developers.js:111:113"
   },
-  "b25bc666e4b746b02c7ab8fccf604fb9": {
-    "string": "Badger Wallet injects an API into pages a user visits to allow apps to request a users's permission to send Bitcoin Cash, send tokens, or authenticate with CashID.",
-    "developer_comment": "Developers page, Badger SDK description",
-    "context": "src/pages/developers.js:126:130"
+  "a1781928fa12a00070966ea0c6a95358": {
+    "string": "An open source web wallet to hack and white label for your own application.",
+    "developer_comment": "Developers page, web wallet description",
+    "context": "src/pages/developers.js:133:136"
   },
-  "68e28bba2482472a7b1481cdabecbbec": {
-    "string": "Simple Tokens - Secure Tokens on Bitcoin Cash",
+  "ebe89bae9dc52aa96ae2f5cc90c7fb4f": {
+    "string": "Get started quick with example code and walk-through videos for working with Bitcoin Cash and SLP Tokens.",
     "developer_comment": "Developers page, SLP SDK description",
-    "context": "src/pages/developers.js:149:151"
+    "context": "src/pages/developers.js:158:161"
+  },
+  "4b0ed5ed5ac68ee9db8f0a3df6cb48c4": {
+    "string": "From basic conecepts to advanced topics, a range of documentation and videos for developers interested in programmable money.",
+    "developer_comment": "Developers page, SLP SDK description",
+    "context": "src/pages/developers.js:181:184"
   },
   "095a77bfa04da6e74399b37991970188": {
     "string": "Bitcoin Cash Exchanges",
