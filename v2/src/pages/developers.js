@@ -1,8 +1,3 @@
-/*
-  ToDo:
-   - Speedometer icon should be replaced with a book icon.
-*/
-
 import React from "react"
 import fbt from "fbt"
 import SEO from "components/seo"
@@ -14,7 +9,7 @@ import Javascript from "assets/icons/javascript-logo.svg"
 import Check from "assets/icons/checkbox.svg"
 import Wallet from "assets/icons/wallet.svg"
 import Cog from "assets/icons/getting-started/cog.svg"
-import Speedometer from "assets/icons/getting-started/speedometer.svg"
+import Document from "assets/icons/wallets/paper-wallet.svg"
 
 const DevelopersPage = () => {
   return (
@@ -174,7 +169,7 @@ const DevelopersPage = () => {
           <Col md={6} style={{padding: '10px'}}>
             <div className={S.card}>
               <div className={S.language}>
-                <Speedometer className={S.icons} />
+                <Document className={S.icons} />
               </div>
               <h3>Documentation</h3>
               <p>
