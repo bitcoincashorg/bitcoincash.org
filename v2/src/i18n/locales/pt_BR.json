@@ -904,7 +904,7 @@
         }
       ]
     },
-    "4b0ef5afb7eba267fa7d56c9a83c9e44": {
+    "68694b741d0daa63f92ba58e13afa28a": {
       "translations": [
         {
           "translation": "Framework poderoso e completo em Javascript para Bitcoin Cash."
@@ -932,17 +932,24 @@
         }
       ]
     },
-    "b25bc666e4b746b02c7ab8fccf604fb9": {
+    "a1781928fa12a00070966ea0c6a95358": {
       "translations": [
         {
-          "translation": "Badger Wallet injeta uma API nas páginas que um usuário visita para permitir que aplicativos peçam a permissão do usuário para enviar Bitcoin Cash, tokens ou realizar autenticação usando CashID."
+          "translation": "An open source web wallet to hack and white label for your own application."
         }
       ]
     },
-    "68e28bba2482472a7b1481cdabecbbec": {
+    "ebe89bae9dc52aa96ae2f5cc90c7fb4f": {
       "translations": [
         {
-          "translation": "Simple Tokens - Tokens seguros no Bitcoin Cash"
+          "translation": "Get started quick with example code and walk-through videos for working with Bitcoin Cash and SLP Tokens."
+        }
+      ]
+    },
+    "4b0ed5ed5ac68ee9db8f0a3df6cb48c4": {
+      "translations": [
+        {
+          "translation": "From basic conecepts to advanced topics, a range of documentation and videos for developers interested in programmable money."
         }
       ]
     },

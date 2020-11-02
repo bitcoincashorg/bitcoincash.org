@@ -904,7 +904,7 @@
         }
       ]
     },
-    "4b0ef5afb7eba267fa7d56c9a83c9e44": {
+    "68694b741d0daa63f92ba58e13afa28a": {
       "translations": [
         {
           "translation": "功能齐全且强大的比特币现金JavaScript框架。"
@@ -932,17 +932,24 @@
         }
       ]
     },
-    "b25bc666e4b746b02c7ab8fccf604fb9": {
+    "a1781928fa12a00070966ea0c6a95358": {
       "translations": [
         {
-          "translation": "Badger钱包在用户访问的页面插入了API, 来让移动小程序获取用户的许可，以便发送比特币现金、发送代币以及使用CashID验证。"
+          "translation": "An open source web wallet to hack and white label for your own application."
         }
       ]
     },
-    "68e28bba2482472a7b1481cdabecbbec": {
+    "ebe89bae9dc52aa96ae2f5cc90c7fb4f": {
       "translations": [
         {
-          "translation": "Simple Token- 比特币现金上的安全代币"
+          "translation": "Get started quick with example code and walk-through videos for working with Bitcoin Cash and SLP Tokens."
+        }
+      ]
+    },
+    "4b0ed5ed5ac68ee9db8f0a3df6cb48c4": {
+      "translations": [
+        {
+          "translation": "From basic conecepts to advanced topics, a range of documentation and videos for developers interested in programmable money."
         }
       ]
     },
