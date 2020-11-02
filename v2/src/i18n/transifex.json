@@ -239,15 +239,20 @@
     "developer_comment": "Annoucement bar 'Additional Information:'",
     "context": "src/layout/announcement-bar.js:172:174"
   },
+  "fed41022d39d1414507c1e2cda827436": {
+    "string": "Upgrade: Quick Guide",
+    "developer_comment": "Annoucement bar 'Upgrade: Quick Guide'",
+    "context": "src/layout/announcement-bar.js:183:185"
+  },
   "2a854a9d90f8402de7ce2e1f5fb71596": {
     "string": "Upgrade Specification",
     "developer_comment": "Annoucement bar 'Upgrade Specification'",
-    "context": "src/layout/announcement-bar.js:181:183"
+    "context": "src/layout/announcement-bar.js:192:194"
   },
   "41dd1d8d417e0a4239a6ae6bdff85146": {
     "string": "Testnet Information",
     "developer_comment": "Annoucement bar 'Testnet Information'",
-    "context": "src/layout/announcement-bar.js:190:192"
+    "context": "src/layout/announcement-bar.js:201:203"
   },
   "9554f6fa69616c126bb310c63587cbaa": {
     "string": "© {current year}, All Rights Reserved",
@@ -617,67 +622,67 @@
   "68add98186b42b1447f6bd4037f0613d": {
     "string": "Developer Portal",
     "developer_comment": "Developer page SEO title",
-    "context": "src/pages/developers.js:22:22"
+    "context": "src/pages/developers.js:17:17"
   },
   "4cd11a2d59ce3b8d1db9aa9efaf25cd0": {
     "string": "Create amazing apps with Bitcoin Cash",
     "developer_comment": "Developers page, main title",
-    "context": "src/pages/developers.js:26:28"
+    "context": "src/pages/developers.js:21:23"
   },
   "8369cbce0cd83f40e6aa0dae19bb0d36": {
     "string": "Resources for developers, by developers.",
     "developer_comment": "Developers page, top paragraph",
-    "context": "src/pages/developers.js:32:34"
+    "context": "src/pages/developers.js:27:29"
   },
   "be8e33683aa11aa3f6de5dc80441f0bc": {
     "string": "Libraries",
     "developer_comment": "Developers page, Libraries title",
-    "context": "src/pages/developers.js:41:41"
+    "context": "src/pages/developers.js:36:36"
   },
   "212e15c413bacd57f3d1c626aa8b90e6": {
     "string": "Python’s fastest Bitcoin Cash library. Intuitive and effortless to use.",
     "developer_comment": "Developers page, BitCash description",
-    "context": "src/pages/developers.js:54:57"
+    "context": "src/pages/developers.js:49:52"
   },
   "8666c3469b291e614df874173d1358a9": {
     "string": "View More",
     "developer_comment": "View more button on developers page",
-    "context": "src/pages/developers.js:188:191"
+    "context": "src/pages/developers.js:183:186"
   },
   "68694b741d0daa63f92ba58e13afa28a": {
     "string": "Fully featured, powerful javascript framework for Bitcoin Cash.",
     "developer_comment": "Developers page, FullStack.cash description",
-    "context": "src/pages/developers.js:77:80"
+    "context": "src/pages/developers.js:72:75"
   },
   "4d7ab3b98c6b501998627b98ff9053e2": {
     "string": "Resources",
     "developer_comment": "Developers page, Resources title",
-    "context": "src/pages/developers.js:97:97"
+    "context": "src/pages/developers.js:92:92"
   },
   "dfcc2a008c444cfb38d45449e05783d0": {
     "string": "Specs",
     "developer_comment": "Developers page, Specs title",
-    "context": "src/pages/developers.js:108:108"
+    "context": "src/pages/developers.js:103:103"
   },
   "8b3cf2dc9d41f4eefa1dd4a239e0f0c8": {
     "string": "Vocabulary and associated APIs for Bitcoin Cash",
     "developer_comment": "Developers page, BitCash description",
-    "context": "src/pages/developers.js:111:113"
+    "context": "src/pages/developers.js:106:108"
   },
   "a1781928fa12a00070966ea0c6a95358": {
     "string": "An open source web wallet to hack and white label for your own application.",
     "developer_comment": "Developers page, web wallet description",
-    "context": "src/pages/developers.js:133:136"
+    "context": "src/pages/developers.js:128:131"
   },
   "ebe89bae9dc52aa96ae2f5cc90c7fb4f": {
     "string": "Get started quick with example code and walk-through videos for working with Bitcoin Cash and SLP Tokens.",
     "developer_comment": "Developers page, SLP SDK description",
-    "context": "src/pages/developers.js:158:161"
+    "context": "src/pages/developers.js:153:156"
   },
   "4b0ed5ed5ac68ee9db8f0a3df6cb48c4": {
     "string": "From basic conecepts to advanced topics, a range of documentation and videos for developers interested in programmable money.",
     "developer_comment": "Developers page, SLP SDK description",
-    "context": "src/pages/developers.js:181:184"
+    "context": "src/pages/developers.js:176:179"
   },
   "095a77bfa04da6e74399b37991970188": {
     "string": "Bitcoin Cash Exchanges",
