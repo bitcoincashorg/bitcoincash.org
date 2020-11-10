@@ -12,7 +12,13 @@ const NavBar = () => {
   const MobileDropdown = ({ children, links, navLinkClass }) => {
     const [expanded, setExpanded] = useState(false)
     return (
-      <div onClick={() => setExpanded(!expanded)}>
+      <div
+        onClick={() => setExpanded(!expanded)}
+        onKeyDown={() => setExpanded(!expanded)}
+        role="button"
+        tabIndex="0"
+        style={{ outline: "none" }}
+      >
         <div className={navLinkClass}>{children}</div>
         {expanded && (
           <div>
@@ -63,6 +69,10 @@ const NavBar = () => {
             S.nopadding
           }`}
           onClick={() => openMobileMenu(!open)}
+          onKeyDown={() => openMobileMenu(!open)}
+          role="button"
+          tabIndex="0"
+          style={{ outline: "none" }}
         >
           <div className="hamburger-box">
             <div className="hamburger-inner" />
