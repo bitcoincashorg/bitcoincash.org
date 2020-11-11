@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import logo from "assets/images/bitcoin-cash-logo-white-small.png"
 import headerStyles from "./header.module.scss"
 import AnnouncementBar from "./announcement-bar.js"
 import LivePriceWidget from "components/liveprice/live-price-widget"
 import NavBar from "./navbar"
-import axios from "axios"
 import Link from "global/link"
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
@@ -31,25 +30,6 @@ if (typeof window !== "undefined") {
 }
 
 const Header = () => {
-  const bchPriceApi =
-    "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD"
-  const [currentUSDPrice, setCurrentUSDPrice] = useState("-")
-  const updateBchPrice = () => {
-    axios.get(bchPriceApi).then(response => {
-      if (response.data && response.data.USD) {
-        setCurrentUSDPrice(response.data.USD)
-      }
-    })
-  }
-
-  useEffect(() => {
-    updateBchPrice()
-    const interval = setInterval(() => {
-      updateBchPrice()
-    }, 10000)
-    return () => clearInterval(interval)
-  }, [])
-
   return (
     <>
       <AnnouncementBar />
@@ -66,11 +46,7 @@ const Header = () => {
               <img src={logo} alt="bitcoincashlogo" />
             </Link>
             <div className={headerStyles.divider} />
-            <LivePriceWidget
-              currentPrice={"$" + currentUSDPrice}
-              ticker={"USD"}
-              url={"/buy-bitcoin-cash/"}
-            />
+            <LivePriceWidget />
           </div>
           <NavBar />
         </div>

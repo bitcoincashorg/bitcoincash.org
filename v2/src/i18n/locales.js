@@ -6,6 +6,8 @@ module.exports = {
     transifex: "en",
     slug: "",
     rtl: false,
+    currency: "USD",
+    currencySymbol: "$",
   },
   es_ES: {
     bcp47: "es-ES",
@@ -14,6 +16,8 @@ module.exports = {
     transifex: "es",
     slug: "es",
     rtl: false,
+    currency: "EUR",
+    currencySymbol: "€",
   },
   fr_FR: {
     bcp47: "fr-FR",
@@ -22,6 +26,8 @@ module.exports = {
     transifex: "fr",
     slug: "fr",
     rtl: false,
+    currency: "EUR",
+    currencySymbol: "€",
   },
   de_DE: {
     bcp47: "de-DE",
@@ -30,6 +36,8 @@ module.exports = {
     transifex: "de",
     slug: "de",
     rtl: false,
+    currency: "EUR",
+    currencySymbol: "€",
   },
   ja_JP: {
     bcp47: "ja-JP",
@@ -38,6 +46,8 @@ module.exports = {
     transifex: "ja",
     slug: "ja",
     rtl: false,
+    currency: "JPY",
+    currencySymbol: "¥",
   },
   nl_NL: {
     bcp47: "nl-NL",
@@ -46,6 +56,8 @@ module.exports = {
     transifex: "nl",
     slug: "nl",
     rtl: false,
+    currency: "EUR",
+    currencySymbol: "€",
   },
   ru_RU: {
     bcp47: "ru-RU",
@@ -54,6 +66,8 @@ module.exports = {
     transifex: "ru",
     slug: "ru",
     rtl: false,
+    currency: "RUB",
+    currencySymbol: "₽",
   },
   zh_CN: {
     bcp47: "zh-CN",
@@ -62,6 +76,8 @@ module.exports = {
     transifex: "zh-CN",
     slug: "zh-CN",
     rtl: false,
+    currency: "CNY",
+    currencySymbol: "¥",
   },
   es_419: {
     bcp47: "es-419",
@@ -70,6 +86,8 @@ module.exports = {
     transifex: "es_419",
     slug: "es_419",
     rtl: false,
+    currency: "USD",
+    currencySymbol: "$",
   },
   id_ID: {
     bcp47: "id-ID",
@@ -78,6 +96,8 @@ module.exports = {
     transifex: "id",
     slug: "id",
     rtl: false,
+    currency: "IDR",
+    currencySymbol: "Rp",
   },
   ko_KR: {
     bcp47: "ko-KR",
@@ -86,6 +106,8 @@ module.exports = {
     transifex: "ko",
     slug: "ko",
     rtl: false,
+    currency: "KRW",
+    currencySymbol: "₩",
   },
   pt_BR: {
     bcp47: "pt-BR",
@@ -94,6 +116,8 @@ module.exports = {
     transifex: "pt-BR",
     slug: "pt-BR",
     rtl: false,
+    currency: "BRL",
+    currencySymbol: "$",
   },
   pt_PT: {
     bcp47: "pt-PT",
@@ -102,6 +126,8 @@ module.exports = {
     transifex: "pt-PT",
     slug: "pt-PT",
     rtl: false,
+    currency: "EUR",
+    currencySymbol: "€",
   },
   tr_TR: {
     bcp47: "tr-TR",
@@ -110,6 +136,8 @@ module.exports = {
     transifex: "tr",
     slug: "tr",
     rtl: false,
+    currency: "TRY",
+    currencySymbol: "₺",
   },
   zh_TW: {
     bcp47: "zh-TW",
@@ -118,5 +146,7 @@ module.exports = {
     transifex: "zh-TW",
     slug: "zh-TW",
     rtl: false,
+    currency: "TWD",
+    currencySymbol: "$",
   },
 }
