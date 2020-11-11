@@ -94,7 +94,7 @@ const DevelopersPage = () => {
       </Container>
       <Container>
         <Row>
-          <Col md={6} style={{padding: '10px'}}>
+          <Col md={6} style={{ padding: "10px" }}>
             <div className={S.card}>
               <div className={S.language}>
                 <Check className={S.icons} />
@@ -105,7 +105,7 @@ const DevelopersPage = () => {
               <p>
                 <fbt desc="Developers page, BitCash description">
                   Vocabulary and associated APIs for Bitcoin Cash
-                  </fbt>
+                </fbt>
               </p>
               <PrimaryButton
                 noMarginLeft={true}
@@ -118,7 +118,7 @@ const DevelopersPage = () => {
             </div>
           </Col>
 
-          <Col md={6} style={{padding: '10px'}}>
+          <Col md={6} style={{ padding: "10px" }}>
             <div className={S.card}>
               <div className={S.language}>
                 <Wallet className={S.icons} />
@@ -126,8 +126,8 @@ const DevelopersPage = () => {
               <h3>Web Wallet</h3>
               <p>
                 <fbt desc="Developers page, web wallet description">
-                  An open source web wallet to hack
-                  and white label for your own application.
+                  An open source web wallet to hack and white label for your own
+                  application.
                 </fbt>
               </p>
               <PrimaryButton
@@ -143,7 +143,7 @@ const DevelopersPage = () => {
         </Row>
 
         <Row>
-          <Col md={6} style={{padding: '10px'}}>
+          <Col md={6} style={{ padding: "10px" }}>
             <div className={S.card}>
               <div className={S.language}>
                 <Cog className={S.icons} />
@@ -166,7 +166,7 @@ const DevelopersPage = () => {
             </div>
           </Col>
 
-          <Col md={6} style={{padding: '10px'}}>
+          <Col md={6} style={{ padding: "10px" }}>
             <div className={S.card}>
               <div className={S.language}>
                 <Document className={S.icons} />
@@ -174,8 +174,9 @@ const DevelopersPage = () => {
               <h3>Documentation</h3>
               <p>
                 <fbt desc="Developers page, SLP SDK description">
-                  From basic conecepts to advanced topics, a range of documentation
-                  and videos for developers interested in programmable money.
+                  From basic conecepts to advanced topics, a range of
+                  documentation and videos for developers interested in
+                  programmable money.
                 </fbt>
               </p>
               <PrimaryButton
