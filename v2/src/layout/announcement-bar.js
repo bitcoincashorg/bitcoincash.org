@@ -1,12 +1,12 @@
 import React from "react"
 import fbt from "fbt"
 import S from "./announcement-bar.module.scss"
-import PrimaryButton from "components/buttons/primary-button"
 import Link from "global/link"
 import { Accordion } from "react-bootstrap"
 import Checkmark from "assets/icons/checkmark.svg"
 import UpgradeDate from "global/upgrade-date.js"
 import LinkIcon from "assets/icons/link.svg"
+import ShareIcon from "assets/icons/share.svg"
 import Countdown, { zeroPad } from "react-countdown"
 import { ACTIVATION_TIMESTAMP } from "global/upgrade-date.js"
 import Network from "assets/images/network.png"
@@ -92,11 +92,36 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
   }
 }
 
+const ImplementationLink = ({ text, href }) => {
+  return (
+    <Link className={S.panelLink} href={href} target="_blank" rel="noreferrer">
+      <LinkIcon />
+      {text}
+    </Link>
+  )
+}
+
+const CopyLink = () => {
+  const el = document.createElement("textarea")
+  const notice = document.getElementById("copiedNotice")
+  el.value = "https://www.bitcoincash.org/upgrade/"
+  el.setAttribute("readonly", "")
+  el.style.position = "absolute"
+  el.style.left = "-9999px"
+  document.body.appendChild(el)
+  el.select()
+  document.execCommand("copy")
+  document.body.removeChild(el)
+  notice.style.display = "inline-block"
+  setTimeout(function () {
+    notice.style.display = "none"
+  }, 1200)
+}
+
 const AnnouncementBar = () => {
   return (
     <Accordion
       className={S.accordionSection}
-      defaultActiveKey="0"
       style={{ backgroundImage: `url(${Network})` }}
     >
       <Accordion.Toggle as={S.accordionSection} eventKey="0">
@@ -133,19 +158,24 @@ const AnnouncementBar = () => {
                   upgrade.
                 </fbt>
               </p>
+              <p>
+                <fbt desc="Annoucement bar second paragraph">
+                  During the network upgrade, a chain split is likely to occur
+                  which could result in two chains: BCHA and BCHN.
+                </fbt>
+              </p>
               <div className={S.buttonContainer}>
-                <PrimaryButton
-                  noMarginLeft={true}
-                  className={S.primaryButton}
-                  buttonText={fbt(
-                    "Prepare for the Upgrade",
-                    "Annoucement bar 'Prepare for the Upgrade'"
-                  )}
-                  href={
-                    "https://blog.bitcoinabc.org/2020/09/14/preparing-businesses-for-a-successful-network-upgrade/"
-                  }
-                />
-
+                <div id="copiedNotice" className={S.copiedNotice}>
+                  <fbt desc="notice that link has been copied to clipboard">
+                    Link Copied
+                  </fbt>
+                </div>
+                <button className={S.panelButton} onClick={() => CopyLink()}>
+                  <ShareIcon />
+                  <fbt desc="'share' button on announcement bar at top of page">
+                    Share
+                  </fbt>
+                </button>
                 <Accordion.Toggle as={S.panelButton}>
                   <button className={S.panelButton}>
                     <fbt desc="'close' button on announcement bar at top of page to close the bar">
@@ -157,51 +187,37 @@ const AnnouncementBar = () => {
             </div>
             <div className={`${S.annoucementPanelInner} ${S.centerPanel}`}>
               <h4>
+                BCHA-
                 <fbt desc="Annoucement bar 'Compatible Implementations'">
                   Compatible Implementations:
                 </fbt>
               </h4>
-              <Link
-                className={S.panelLink}
+              <ImplementationLink
+                text="Bitcoin ABC 0.22.x"
                 href="https://www.bitcoinabc.org/2020-08-18-bitcoin-abc-0-22-0/"
-              >
-                <LinkIcon />
-                Bitcoin ABC 0.22.x
-              </Link>
+              />
+              <ImplementationLink
+                text="BCHD 0.17.0 (non-mining)"
+                href="https://github.com/gcash/bchd/releases"
+              />
               <h4>
-                <fbt desc="Annoucement bar 'Additional Information:'">
-                  Additional Information:
+                BCHN-
+                <fbt desc="Annoucement bar 'Compatible Implementations'">
+                  Compatible Implementations:
                 </fbt>
               </h4>
-              <Link
-                target="_blank"
-                rel="noreferrer"
-                className={S.panelLink}
-                href="/upgrade/business-guide.pdf"
-              >
-                <LinkIcon />
-                <fbt desc="Annoucement bar 'Upgrade: Quick Guide'">
-                  Upgrade: Quick Guide
-                </fbt>
-              </Link>
-              <Link
-                className={S.panelLink}
-                href="/spec/2020-11-15-upgrade.html"
-              >
-                <LinkIcon />
-                <fbt desc="Annoucement bar 'Upgrade Specification'">
-                  Upgrade Specification
-                </fbt>
-              </Link>
-              <Link
-                className={S.panelLink}
-                href="https://github.com/bitcoincashorg/bitcoincash.org/blob/master/workgroups/wg-testing/2020-11-15_upgrade_testnet.md"
-              >
-                <LinkIcon />
-                <fbt desc="Annoucement bar 'Testnet Information'">
-                  Testnet Information
-                </fbt>
-              </Link>
+              <ImplementationLink
+                text="Bitcoin ABC 0.22.6+ (BCHN network)"
+                href="https://www.bitcoinabc.org/releases/#0.22.6"
+              />
+              <ImplementationLink
+                text="BCHN 22.x.x"
+                href="https://bitcoincashnode.org/en/download.html"
+              />
+              <ImplementationLink
+                text="BCHD 0.17.0"
+                href="https://github.com/gcash/bchd/releases"
+              />
             </div>
           </div>
         </div>

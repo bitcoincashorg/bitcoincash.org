@@ -2,12 +2,29 @@
   margin-top: 60px;
 }
 
+.linkcontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .linkcontainer a {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-.linkcontainer svg {
+.linkcontainer h4 {
+  margin-top: 70px;
+}
+
+.panelLink {
+  padding: 0;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+}
+
+.panelLink svg {
   stroke: #ff8d00;
   display: inline-block;
   width: 20px;
@@ -16,12 +33,25 @@
   transition: all 200ms ease-in-out;
 }
 
-.linkcontainer a:hover svg {
+.panelLink:hover svg {
   stroke: #bb5a00;
 }
 
 @media (max-width: 760px) {
   .header {
     margin-top: 30px;
+  }
+
+  .linkcontainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .linkcontainer h4 {
+    margin-top: 40px;
+  }
+
+  .linkcontainer h4 {
+    font-size: 18px;
   }
 }
