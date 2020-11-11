@@ -12,7 +12,6 @@ const LivePriceWidget = () => {
     axios.get(bchPriceApi).then(response => {
       if (response.data) {
         setCurrentPrice(response.data)
-        console.log(response.data)
       }
     })
   }
