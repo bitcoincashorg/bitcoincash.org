@@ -309,10 +309,24 @@
         }
       ]
     },
-    "c89bcd264da87e14f0291c9163705b5e": {
+    "50ab501cdacbe8db8e516486a2e03057": {
       "translations": [
         {
-          "translation": "Prepare for the Upgrade"
+          "translation": "During the network upgrade, a chain split is likely to occur which could result in two chains: BCHA and BCHN."
+        }
+      ]
+    },
+    "d205434a3b1b4490078ffba8171d106a": {
+      "translations": [
+        {
+          "translation": "Link Copied"
+        }
+      ]
+    },
+    "0992911e6a2f66c09c35f918c2cc4c29": {
+      "translations": [
+        {
+          "translation": "Share"
         }
       ]
     },
@@ -327,34 +341,6 @@
       "translations": [
         {
           "translation": "Kompatible Implementierungen:"
-        }
-      ]
-    },
-    "4b0b3d5f8d03531c1cfe320e2883e0fd": {
-      "translations": [
-        {
-          "translation": "Zusätzliche Information:"
-        }
-      ]
-    },
-    "fed41022d39d1414507c1e2cda827436": {
-      "translations": [
-        {
-          "translation": "Upgrade: Quick Guide"
-        }
-      ]
-    },
-    "2a854a9d90f8402de7ce2e1f5fb71596": {
-      "translations": [
-        {
-          "translation": "Spezifikation des Upgrades"
-        }
-      ]
-    },
-    "41dd1d8d417e0a4239a6ae6bdff85146": {
-      "translations": [
-        {
-          "translation": "Testnet Information"
         }
       ]
     },
@@ -2206,13 +2192,6 @@
         }
       ]
     },
-    "85682b29db7464df10b3d32e93b67be1": {
-      "translations": [
-        {
-          "translation": "How to Upgrade"
-        }
-      ]
-    },
     "ca847f2ef0ace574caad1fd61d0fbedb": {
       "translations": [
         {
@@ -2234,45 +2213,10 @@
         }
       ]
     },
-    "a19fe239f605786025939c0216488d5a": {
+    "3bf3ed50e53755cab99bef4c777d7cfb": {
       "translations": [
         {
-          "translation": "Prepare for the Upgrade"
-        }
-      ]
-    },
-    "f10c84ef810cfad7603bda942c2ae83d": {
-      "translations": [
-        {
-          "translation": "Kompatible Implementierungen:"
-        }
-      ]
-    },
-    "46e0915ba9a83533707df7d06eba0d32": {
-      "translations": [
-        {
-          "translation": "Zusätzliche Information:"
-        }
-      ]
-    },
-    "f6d89e208079c14b36796e6b12efe477": {
-      "translations": [
-        {
-          "translation": "Upgrade: Quick Guide"
-        }
-      ]
-    },
-    "0b6ba8882976210fb21c071a1842cbb8": {
-      "translations": [
-        {
-          "translation": "Spezifikation des Upgrades"
-        }
-      ]
-    },
-    "ded6ae43f7b0321f49459ac88d0f1080": {
-      "translations": [
-        {
-          "translation": "Testnet Information"
+          "translation": "During the network upgrade, a chain split is likely to occur which could result in two chains: BCHA and BCHN."
         }
       ]
     },
