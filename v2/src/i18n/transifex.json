@@ -202,57 +202,47 @@
   "a7430462af5cba62b3f993c0b544b345": {
     "string": "Reminder: {upgrade activation time} Planned Network Upgrade",
     "developer_comment": "Annoucement bar reminder headline",
-    "context": "src/layout/announcement-bar.js:105:111"
+    "context": "src/layout/announcement-bar.js:130:136"
   },
   "efc6fe8c749d80179b63bb9adc3f0c96": {
     "string": "Planned Network Upgrade",
     "developer_comment": "Annoucement bar inner headline",
-    "context": "src/layout/announcement-bar.js:119:121"
+    "context": "src/layout/announcement-bar.js:144:146"
   },
   "45291cdd18d5ca04e7ebebe7e5624ec8": {
     "string": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
     "developer_comment": "Annoucement bar paragraph",
-    "context": "src/layout/announcement-bar.js:128:134"
+    "context": "src/layout/announcement-bar.js:153:159"
   },
   "2a32bfd2b07e1aedb4e9f561396ebd1b": {
     "string": "the roadmap",
     "developer_comment": "In the phrase: \"The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.\"",
-    "context": "src/layout/announcement-bar.js:130:130"
+    "context": "src/layout/announcement-bar.js:155:155"
   },
-  "c89bcd264da87e14f0291c9163705b5e": {
-    "string": "Prepare for the Upgrade",
-    "developer_comment": "Annoucement bar 'Prepare for the Upgrade'",
-    "context": "src/layout/announcement-bar.js:140:143"
+  "50ab501cdacbe8db8e516486a2e03057": {
+    "string": "During the network upgrade, a chain split is likely to occur which could result in two chains: BCHA and BCHN.",
+    "developer_comment": "Annoucement bar second paragraph",
+    "context": "src/layout/announcement-bar.js:162:165"
+  },
+  "d205434a3b1b4490078ffba8171d106a": {
+    "string": "Link Copied",
+    "developer_comment": "notice that link has been copied to clipboard",
+    "context": "src/layout/announcement-bar.js:169:171"
+  },
+  "0992911e6a2f66c09c35f918c2cc4c29": {
+    "string": "Share",
+    "developer_comment": "'share' button on announcement bar at top of page",
+    "context": "src/layout/announcement-bar.js:175:177"
   },
   "a47ca8d131e17fdd59a17e6deab246f1": {
     "string": "Close",
     "developer_comment": "'close' button on announcement bar at top of page to close the bar",
-    "context": "src/layout/announcement-bar.js:151:153"
+    "context": "src/layout/announcement-bar.js:181:183"
   },
   "c7953645d1fdc6c8e72e1ad2fe573a5f": {
     "string": "Compatible Implementations:",
     "developer_comment": "Annoucement bar 'Compatible Implementations'",
-    "context": "src/layout/announcement-bar.js:160:162"
-  },
-  "4b0b3d5f8d03531c1cfe320e2883e0fd": {
-    "string": "Additional Information:",
-    "developer_comment": "Annoucement bar 'Additional Information:'",
-    "context": "src/layout/announcement-bar.js:172:174"
-  },
-  "fed41022d39d1414507c1e2cda827436": {
-    "string": "Upgrade: Quick Guide",
-    "developer_comment": "Annoucement bar 'Upgrade: Quick Guide'",
-    "context": "src/layout/announcement-bar.js:183:185"
-  },
-  "2a854a9d90f8402de7ce2e1f5fb71596": {
-    "string": "Upgrade Specification",
-    "developer_comment": "Annoucement bar 'Upgrade Specification'",
-    "context": "src/layout/announcement-bar.js:192:194"
-  },
-  "41dd1d8d417e0a4239a6ae6bdff85146": {
-    "string": "Testnet Information",
-    "developer_comment": "Annoucement bar 'Testnet Information'",
-    "context": "src/layout/announcement-bar.js:201:203"
+    "context": "src/pages/upgrade.js:58:60"
   },
   "9554f6fa69616c126bb310c63587cbaa": {
     "string": "© {current year}, All Rights Reserved",
@@ -647,7 +637,7 @@
   "8666c3469b291e614df874173d1358a9": {
     "string": "View More",
     "developer_comment": "View more button on developers page",
-    "context": "src/pages/developers.js:183:186"
+    "context": "src/pages/developers.js:184:187"
   },
   "68694b741d0daa63f92ba58e13afa28a": {
     "string": "Fully featured, powerful javascript framework for Bitcoin Cash.",
@@ -682,7 +672,7 @@
   "4b0ed5ed5ac68ee9db8f0a3df6cb48c4": {
     "string": "From basic conecepts to advanced topics, a range of documentation and videos for developers interested in programmable money.",
     "developer_comment": "Developers page, SLP SDK description",
-    "context": "src/pages/developers.js:176:179"
+    "context": "src/pages/developers.js:176:180"
   },
   "095a77bfa04da6e74399b37991970188": {
     "string": "Bitcoin Cash Exchanges",
@@ -1572,57 +1562,27 @@
   "25cd2ce50745d7f5a8c349ae9cbc31f2": {
     "string": "How to Upgrade",
     "developer_comment": "Upgrade page SEO title",
-    "context": "src/pages/upgrade.js:14:14"
-  },
-  "85682b29db7464df10b3d32e93b67be1": {
-    "string": "How to Upgrade",
-    "developer_comment": "Upgrade page heading",
-    "context": "src/pages/upgrade.js:17:17"
+    "context": "src/pages/upgrade.js:22:22"
   },
   "ca847f2ef0ace574caad1fd61d0fbedb": {
     "string": "Planned Network Upgrade",
     "developer_comment": "Upgrade page subheadline",
-    "context": "src/pages/upgrade.js:23:23"
+    "context": "src/pages/upgrade.js:26:26"
   },
   "bfbc1bc5b0ad44d584a7d325f13c2b69": {
     "string": "The Bitcoin Cash network will undergo a protocol upgrade as per {=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.",
     "developer_comment": "upgrade page paragraph",
-    "context": "src/pages/upgrade.js:26:31"
+    "context": "src/pages/upgrade.js:29:34"
   },
   "9f74f35ba4b559f40f64f836762bfaa6": {
     "string": "the roadmap",
     "developer_comment": "In the phrase: \"The Bitcoin Cash network will undergo a protocol upgrade as per{=the roadmap}. Businesses and other node operators who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade.\"",
-    "context": "src/pages/upgrade.js:28:28"
+    "context": "src/pages/upgrade.js:31:31"
   },
-  "a19fe239f605786025939c0216488d5a": {
-    "string": "Prepare for the Upgrade",
-    "developer_comment": "Upgrade page 'Prepare for the Upgrade' button",
-    "context": "src/pages/upgrade.js:35:38"
-  },
-  "f10c84ef810cfad7603bda942c2ae83d": {
-    "string": "Compatible Implementations:",
-    "developer_comment": "Upgrade page 'Compatible Implementations'",
-    "context": "src/pages/upgrade.js:45:47"
-  },
-  "46e0915ba9a83533707df7d06eba0d32": {
-    "string": "Additional Information:",
-    "developer_comment": "Upgrade page 'Additional Information:'",
-    "context": "src/pages/upgrade.js:54:56"
-  },
-  "f6d89e208079c14b36796e6b12efe477": {
-    "string": "Upgrade: Quick Guide",
-    "developer_comment": "Upgrade page 'upgrade guide' header",
-    "context": "src/pages/upgrade.js:60:62"
-  },
-  "0b6ba8882976210fb21c071a1842cbb8": {
-    "string": "Upgrade Specification",
-    "developer_comment": "Upgrade page 'Upgrade Specification'",
-    "context": "src/pages/upgrade.js:67:69"
-  },
-  "ded6ae43f7b0321f49459ac88d0f1080": {
-    "string": "Testnet Information",
-    "developer_comment": "Upgrade page 'Testnet Information'",
-    "context": "src/pages/upgrade.js:74:76"
+  "3bf3ed50e53755cab99bef4c777d7cfb": {
+    "string": "During the network upgrade, a chain split is likely to occur which could result in two chains: BCHA and BCHN.",
+    "developer_comment": "upgrade page second paragraph",
+    "context": "src/pages/upgrade.js:37:40"
   },
   "08a7f009c75e4115810b529774fffec0": {
     "string": "Mobile Wallet",
