@@ -40,13 +40,14 @@ The payload is a base32 encoded stream of data.
 | +24 | c | e | 6 | m | u | a | 7 | l |
 
 The payload is composed of 3 elements:
-1. A version byte indicating the type of address.
+1. A version variable-sized integer [[4]](#varint)
 2. A hash.
 3. A 40 bits checksum.
 
-#### Version byte
+#### Version VarInt
+The version varint is between 8 and 72 bits representing a variable-sized integer as defined in [[4]](#varint).
 
-The version byte's most signficant bit is reserved and must be 0. The 4 next bits indicate the type of address and the 3 least significant bits indicate the size of the hash.
+The 3 least significant bits of the version varint indicate the size of the hash.
 
 | Size bits | Hash size in bits |
 | --------: | ----------------: |
@@ -61,7 +62,9 @@ The version byte's most signficant bit is reserved and must be 0. The 4 next bit
 
 Encoding the size of the hash in the version field ensure that it is possible to check that the length of the address is correct.
 
-| Type bits |      Meaning      | Version byte value |
+The higher bits (bits 3 and above) of the version varint indicate the "type" of the address.  The version varint *must* use the minimum possible sized encoding for the integer it represents. (e.g, a version int of 8 must be represented by 1 byte 0x08, and may not be represented by 0xFD0008)
+
+| Type bits |      Meaning      | Version varint value |
 | --------: | :---------------: | -----------------: |
 |         0 |       P2KH        |                  0 |
 |         1 |       P2SH        |                  8 |
@@ -195,3 +198,5 @@ This table defines test vectors for various payloads of sizes 160-512 bits with 
 <a name="bip173">[2]</a> https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
 
 <a name="alphanumqr">[3]</a> http://www.thonky.com/qr-code-tutorial/alphanumeric-mode-encoding
+
+<a name="varint">[4]</a> https://en.bitcoin.it/wiki/Protocol_documentation#Variable_length_integer
