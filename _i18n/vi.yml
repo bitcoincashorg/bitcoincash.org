@@ -2,8 +2,8 @@ language: Tiếng Việt
 lang: vi
 title:
   index: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
-  graphics: "Bitcoin Cash - Logos / Graphics"
-  get-listed: "Submit a listing request"
+  graphics: "Bitcoin Cash - Biểu trưng / Đồ họa"
+  get-listed: "Đề xuất một yêu cầu niêm yết"
 meta:
   index:
     description: |
@@ -18,64 +18,64 @@ meta:
         Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
   graphics:
     description: |
-      A collection of logos and graphics for Bitcoin Cash.
+      Bộ sưu tập các biểu trưng và đồ họa cho Bitcoin Cash.
     twitter:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Biểu trưng / Đồ họa"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Bộ sưu tập các biểu trưng và đồ họa cho Bitcoin Cash.
     og:
-      title: "Bitcoin Cash - Logos / Graphics"
+      title: "Bitcoin Cash - Biểu trưng / Đồ họa"
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Bộ sưu tập các biểu trưng và đồ họa cho Bitcoin Cash. 
 graphics:
-  title: "Promotional Graphics"
-  description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-  logos: "Logos"
-  download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
-  download_all: "Download All"
+  title: "Đồ họa quảng cáo"
+  description: "Các biểu trưng và thương hiệu tài sản Bitcoin Cash này có thể được sử dụng để hiển thị trong các dịch vụ trực tuyến, cơ sở bán lẻ, báo chí hoặc các mục đích quảng cáo khác."
+  logos: "Biểu trưng"
+  download_png_svg: "Tải xuống biểu trưng Bitcoin Cash trong định dạng PNG và SVG"
+  download_all: "Tải xuống tất cả"
   small: "Small (PNG)"
   medium: "Medium (PNG)"
   large: "Large (PNG)"
   full: "Full (PNG)"
   vector: "Vector (SVG)"
   sections:
-    home: "Home"
-    logos: "Logos"
-    merchant: "Merchant"
-    donations: "Donations"
-    identity: "Identity"
+    home: "Trang chủ"
+    logos: "Biểu trưng"
+    merchant: "Buôn bán"
+    donations: "Đóng góp"
+    identity: "Danh tính"
   types:
-    primary: "BCH Logo Primary"
-    white: "BCH Logo White Text"
-    mark: "BCH Logo Mark"
-    horizontal_primary: "BCH Logo Horizontal Primary"
-    horizontal_white: "BCH Logo Horizontal White"
-    wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+    primary: "Biểu trưng BCH chính"
+    white: "Văn bản biểu trưng BCH màu trắng"
+    mark: "Dấu biểu trưng BCH"
+    horizontal_primary: "Biểu trưng BCH chính nằm ngang"
+    horizontal_white: "Biểu trưng BCH màu trắng nằm ngang"
+    wallets_exchanges: "Biểu trưng ví BCH / Sàn giao dịch"
   merchant:
-    title: "Merchant Buttons"
-    description: "Show your customers that you accept Bitcoin Cash"
-    primary: "Bitcoin Cash Accepted Here Primary"
-    orange: "Bitcoin Cash Accepted Here Orange"
+    title: "Nút buôn bán"
+    description: "Cho khách hàng của bạn thấy bạn chấp nhận thanh toán Bitcoin Cash ở đây"
+    primary: "Bitcoin Cash được chấp nhận chính ở đây"
+    orange: "Bitcoin Cash được chấp nhận ở đây màu cam"
   donation:
-    title: "Donation Buttons"
-    description: "Promote the acceptance of Bitcoin Cash as a donation method."
-    primary: "Bitcoin Cash Donations Accepted Primary"
-    orange: "Bitcoin Cash Donations Accepted Orange"
+    title: "Nút quyên góp"
+    description: "Thúc đẩy việc chấp nhận Bitcoin Cash như là một phương thức quyên góp."
+    primary: "Các khoản đóng góp Bitcoin Cash được chấp nhận chính"
+    orange: "Các khoản đóng góp Bitcoin Cash được chấp nhận màu cam"
   identity:
-    title: "Visual Identity"
-    description: "Bitcoin Cash fonts, colors, and more."
+    title: "Nhận dạng trực quan"
+    description: "Kiểu chữ Bitcoin Cash, màu sắc, và hơn nữa."
     font: "Ubuntu Bold"
     font_italic: "Ubuntu Bold Italic"
-    download: "Download Font"
-    orange: "Bitcoin Cash Orange"
-    grey: "Bitcoin Cash Grey"
-    white: "Bitcoin Cash White"
+    download: "Tải xuống kiểu chữ"
+    orange: "Bitcoin Cash màu cam"
+    grey: "Bitcoin Cash màu xám"
+    white: "Bitcoin Cash màu trắng"
     hex: "Hex"
     rgb: "RGB"
     cmyk: "CMYK"
     pantone: "Pantone"
 misc:
-  logo: "logo"
+  logo: "Biểu trưng"
   dropdown_md_width: "2"
   dropdown_sm_width: "3"
 sections:
@@ -87,7 +87,7 @@ sections:
   services: "Dịch vụ"
   projects: "Dự án"
   exchanges: "Sàn giao dịch"
-  graphics: "Logos / Graphics"
+  graphics: "Biểu trưng / Đồ họa"
   faq: "Câu hỏi thường gặp"
 layout:
   bitcoin_cash: "Bitcoin Cash"
@@ -114,7 +114,7 @@ headings:
   projects: "Dự án"
   exchanges: "Sàn giao dịch"
   faq: "Những câu hỏi thường gặp"
-  listingrequest: "Submit a listing request"
+  listingrequest: "Đề xuất một yêu cầu niêm yết"
 content:
   about:
     - |
