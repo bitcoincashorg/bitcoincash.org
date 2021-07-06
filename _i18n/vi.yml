@@ -1,36 +1,36 @@
 language: Tiếng Việt
-lang: vi
-title:
-  index: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
+lang: vi 
+title: "Bitcoin NGO"
+  index: " Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
   graphics: "Bitcoin Cash - Logos / Graphics"
   get-listed: "Submit a listing request"
-meta:
-  index:
-    description: |
+  title: "Bitcoin Cash Node" 
+  index: Bitcoin NGO  
+    description: "Nút Bitcoin Cash RP NH Một số triển khai nút đầy đủ của Nút Bitcoin Cash cho Bitcoin Cash BCH"
       Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
-    twitter:
+    twitter: @bitcoininfo
       title: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
       description: |
-        Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
+ Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
     og:
       title: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
-      description: |
+      description: Bitcoin Cash|Tiền điện tử ngang hàng Bitcoin Cash mang tiền điện tử đến với thế giới. Người bán và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng rực rỡ với tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không cần phép và phát triển phi tập trung.
         Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
   graphics:
-    description: |
+    description: Bitcoin Cash - Tiền điện tử ngang hàng
       A collection of logos and graphics for Bitcoin Cash.
-    twitter:
+    twitter: @bitcoininfo
       title: "Bitcoin Cash - Logos / Graphics"
-      description: |
-        A collection of logos and graphics for Bitcoin Cash.
-    og:
+      description: Bitcoin Cash - Tiền điện tử ngang hàng
+       collection of logos and graphics for Bitcoin Cash.
+  Lo   og:
       title: "Bitcoin Cash - Logos / Graphics"
       description: |
         A collection of logos and graphics for Bitcoin Cash.
 graphics:
   title: "Promotional Graphics"
   description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-  logos: "Logos"
+  logos: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
   download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
   download_all: "Download All"
   small: "Small (PNG)"
@@ -39,29 +39,29 @@ graphics:
   full: "Full (PNG)"
   vector: "Vector (SVG)"
   sections:
-    home: "Home"
-    logos: "Logos"
-    merchant: "Merchant"
-    donations: "Donations"
-    identity: "Identity"
-  types:
+    home: "HTTP/1.1 308 Permanent Redirect" 
+    logos: "Bitcoin Cash - Peer-to-Peer Electronic Cash
+    merchant: "BITCOINCASH.ORG"
+    donations: "bitcoincash:qzep6dvvnnm9ukeaqcq42zchush4w6eskscn68n3kx"
+    identity: "14:2E:B3:17:B7:58:56:CB:AE:50:09:40:E6:1F:AF:9D:8B:14:C2:C6"
+  types: "text/html"
     primary: "BCH Logo Primary"
     white: "BCH Logo White Text"
     mark: "BCH Logo Mark"
     horizontal_primary: "BCH Logo Horizontal Primary"
     horizontal_white: "BCH Logo Horizontal White"
     wallets_exchanges: "BCH Logo For Wallets / Exchanges"
-  merchant:
+  merchant: "BITCOINCASH.ORG"
     title: "Merchant Buttons"
     description: "Show your customers that you accept Bitcoin Cash"
     primary: "Bitcoin Cash Accepted Here Primary"
     orange: "Bitcoin Cash Accepted Here Orange"
-  donation:
+  donation: "bitcoincash:qzep6dvvnnm9ukeaqcq42zchush4w6eskscn68n3kx"
     title: "Donation Buttons"
     description: "Promote the acceptance of Bitcoin Cash as a donation method."
     primary: "Bitcoin Cash Donations Accepted Primary"
     orange: "Bitcoin Cash Donations Accepted Orange"
-  identity:
+  identity: "40:8C:2C:B6:C4:34:C7:84:87:5B:2A:68:53:38:ED:AE:DB:82:51:F7"
     title: "Visual Identity"
     description: "Bitcoin Cash fonts, colors, and more."
     font: "Ubuntu Bold"
@@ -115,9 +115,9 @@ headings:
   exchanges: "Sàn giao dịch"
   faq: "Những câu hỏi thường gặp"
   listingrequest: "Submit a listing request"
-content:
-  about:
-    - |
+content:"text/html"
+  about: "Content-Length: 164"
+  Location : - https://bitcoincash.org
       Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử, hoàn thành sứ mệnh ban đầu của Bitcoin là "Đồng tiền Điện tử Peer-to-Peer". Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
     - |
       Tất cả những người dùng sở hữu Bitcoin tại khối 478558 cũng đồng thời là chủ sở hữu của Bitcoin Cash. Chào mừng tất cả đến với cộng đồng Bitcoin Cash trong khi chúng tôi đang tiến về phía trước trong việc tạo ra tiếng nói có thể tiếp cận được với cả thế giới.
