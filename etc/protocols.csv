@@ -16,6 +16,7 @@ Prefix,DisplayName,Authors,BitcoinAddress,SpecificationUrl,TxidRedirectUrl
 0x004F5243,Oracle Data,Emil Oldenburg,,https://oracle.bitcoin.com,
 0x00504642,BitcoinFiles,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8, http://bitcoinfiles.com,
 0x00504c53,Simple Ledger Protocol,SLP devs,bitcoincash:qq2p8mu0gmxfzva2g36kh70efp8hx7qg7qw8m556e8,http://simpleledger.cash/,
+0x00504d00,Simple Store Protocol,Permissionless Software Foundation,bitcoincash:qqsrke9lh257tqen99dkyy2emh4uty0vky9y0z0lsr,https://psfoundation.info,
 0x005171C0,Silico Signing Protocol,"Jérôme Hauss, Sébastien Madani, Michel Fages",bitcoincash:qzlaquymmc65l74dee3ezm5rxslht8lync26n3q9sk,http://silico.fr/blockchain/bch/silico_signing_protocol.html,
 0x00544542,ChainBet,Jonald Fyookball,,https://github.com/fyookball/ChainBet,
 0x00555354,UniSOT,Stephan Nilsson,bitcoincash:qq8f2kk556x5hhdhr6fqnfdsy020yecs4y00thetwk,http://unisot.io/ust,
